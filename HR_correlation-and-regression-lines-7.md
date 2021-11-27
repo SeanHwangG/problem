@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='HR_correlation-and-regression-lines-7.md' %}
-
-```txt
-Input:
-15 12 8 8 7 7 7 6 5 3
-10 25 17 11 13 17 20 13 9 15
-Output: 0.208
-```
-
-{% endtab %}{% tab title='HR_correlation-and-regression-lines-7.py' %}
+{% tabs %}{% tab title='HR_correlation-and-regression-lines-7.py' %}
 
 ```py
 import math

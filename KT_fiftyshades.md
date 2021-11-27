@@ -1,27 +1,4 @@
-{% tabs %}{% tab title='KT_fiftyshades.md' %}
-
-* Count number of lines with rose or pink (Ignore case)
-
-```txt
-Input:
-12
-pink
-tequilaSunrose
-mExicanPInK
-Coquelicot
-turqrose
-roSee
-JETblack
-pink
-babypink
-pInKpinkPinK
-PInkrose
-lazerlemon
-
-Output: 9
-```
-
-{% endtab %}{% tab title='KT_fiftyshades.py' %}
+{% tabs %}{% tab title='KT_fiftyshades.py' %}
 
 ```py
 count = 0

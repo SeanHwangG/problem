@@ -1,8 +1,4 @@
-{% tabs %}{% tab title='HR_text-processing-in-linux---the-middle-of-a-text-file.md' %}
-
-* Display the lines (from line number 12 to 22, both inclusive) for the input file
-
-{% endtab %}{% tab title='HR_text-processing-in-linux---the-middle-of-a-text-file.sh' %}
+{% tabs %}{% tab title='HR_text-processing-in-linux---the-middle-of-a-text-file.sh' %}
 
 ```sh
 # cut -d$'\n' -f12-22

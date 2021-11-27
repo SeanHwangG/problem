@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='HR_document-classification.md' %}
-
-* [Full Train](https://s3.amazonaws.com/hr-testcases/597/assets/trainingdata.txt)
-
-```txt
-Input:
-5485
-1 champion products ch approves stock split champion products inc said its board of directors approved a two for ...
-2 computer terminal systems cpml completes sale computer terminal systems inc said it has completed the sale of ...
-1 cobanco inc cbco year net shr cts vs dlrs net vs assets mln vs mln deposits mln vs mln loans mln vs mln note th ...
-
-Output:
-```
-
-{% endtab %}{% tab title='HR_document-classification.py' %}
+{% tabs %}{% tab title='HR_document-classification.py' %}
 
 ```py
 from sklearn.svm import LinearSVC

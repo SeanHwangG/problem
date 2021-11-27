@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='HR_s10-weighted-mean.md' %}
-
-* Given values and weights, printed weighted mean
-
-```txt
-Input:
-5
-10 40 30 50 20
-1 2 3 4 5
-
-Output: 32.0
-```
-
-{% endtab %}{% tab title='HR_s10-weighted-mean.py' %}
+{% tabs %}{% tab title='HR_s10-weighted-mean.py' %}
 
 ```py
 size = int(input())

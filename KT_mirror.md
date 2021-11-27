@@ -1,31 +1,4 @@
-{% tabs %}{% tab title='KT_mirror.md' %}
-
-* Print mirrored string
-
-```txt
-Input:
-2
-2 2
-.*
-..
-4 4
-***.
-**..
-....
-....
-
-Output:
-Test 1
-..
-*.
-Test 2
-....
-....
-..**
-.***
-```
-
-{% endtab %}{% tab title='KT_mirror.py' %}
+{% tabs %}{% tab title='KT_mirror.py' %}
 
 ```py
 n_test = int(input())

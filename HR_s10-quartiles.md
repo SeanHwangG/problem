@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='HR_s10-quartiles.md' %}
-
-* Print quartile Q1, Q2, Q3
-
-```txt
-Input:
-9
-3 7 8 5 12 14 21 13 18
-
-Output:
-6
-12
-16
-```
-
-{% endtab %}{% tab title='HR_s10-quartiles.py' %}
+{% tabs %}{% tab title='HR_s10-quartiles.py' %}
 
 ```py
 from statistics import median

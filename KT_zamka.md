@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='KT_zamka.md' %}
-
-* determine the minimal integer 𝑁 such that 𝐿≤𝑁≤𝐷 and the sum of its digits is 𝑋
-* determine the maximal integer 𝑀 such that 𝐿≤𝑀≤𝐷 and the sum of its digits is 𝑋
-
-```txt
-Input:
-1
-100
-4
-
-Output:
-4
-40
-```
-
-{% endtab %}{% tab title='KT_zamka.py' %}
+{% tabs %}{% tab title='KT_zamka.py' %}
 
 ```py
 mn = int(input())

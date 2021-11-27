@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='HR_s10-interquartile-range.md' %}
-
-* Given values and frequencies print quratile Q1-Q3 range
-
-```txt
-Input:
-6
-6 12 8 10 20 16
-5 4 3 2 1 5
-
-Output: 9.0
-```
-
-{% endtab %}{% tab title='HR_s10-interquartile-range.py' %}
+{% tabs %}{% tab title='HR_s10-interquartile-range.py' %}
 
 ```py
 import statistics as st

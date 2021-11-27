@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='HR_the-trigram.md' %}
-
-* Print most frequent trigram in the text, first one in case of tie
-
-```txt
-Input: I came from the moon. He went to the other room. She went to the drawing room.
-Output: went to the
-```
-
-{% endtab %}{% tab title='HR_the-trigram.py' %}
+{% tabs %}{% tab title='HR_the-trigram.py' %}
 
 ```py
 import sys

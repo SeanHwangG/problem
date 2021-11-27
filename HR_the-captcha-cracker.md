@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='HR_the-captcha-cracker.md' %}
-
-* print a line containing a 5-character token representing the Captcha's text
-
-```txt
-Input:
-3 3
-0,0,200 0,0,10 10,0,0
-90,90,50 90,90,10 255,255,255
-100,100,88 80,80,80 15,75,255
-Output: VSDFD
-```
-
-{% endtab %}{% tab title='HR_the-captcha-cracker.py' %}
+{% tabs %}{% tab title='HR_the-captcha-cracker.py' %}
 
 ```py
 import sys

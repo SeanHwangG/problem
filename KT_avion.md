@@ -1,21 +1,4 @@
-{% tabs %}{% tab title='KT_avion.md' %}
-
-* 5개 줄에 차량 문자가 주어진다
-* 이 문자에 'FBI'가 포함 되어 있는 라인 숫자를 출력하라
-* 하나도 없을 시 'HE GOT AWAY'를 출력하라
-
-```txt
-Input:
-N-FBI1
-9A-USKOK
-I-NTERPOL
-G-MI6
-RF-KGB1
-
-Output: 1
-```
-
-{% endtab %}{% tab title='KT_avion.py' %}
+{% tabs %}{% tab title='KT_avion.py' %}
 
 ```py
 seen = False

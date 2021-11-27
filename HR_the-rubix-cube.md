@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='HR_the-rubix-cube.md' %}
-
-* identify whether all the visible sides have been 'solved'
-
-![Images](images/20210614_010027.png)
-
-```txt
-Output: solved
-```
-
-{% endtab %}{% tab title='HR_the-rubix-cube.py' %}
+{% tabs %}{% tab title='HR_the-rubix-cube.py' %}
 
 ```py
 from scipy import spatial

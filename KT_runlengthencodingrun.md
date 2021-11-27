@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='KT_runlengthencodingrun.md' %}
-
-* Convert using two rules
-
-```txt
-Input: E HHHeellloWooorrrrlld!!
-Output: H3e2l3o1W1o3r4l2d1!2
-```
-
-{% endtab %}{% tab title='KT_runlengthencodingrun.py' %}
+{% tabs %}{% tab title='KT_runlengthencodingrun.py' %}
 
 ```py
 t, s = input().split()
@@ -18,7 +9,7 @@ if t == 'E':
       print(ch + str(row), end='')
       row = 1
     else:
-      row+=1
+      row += 1
 else:
   for i in range(1, len(s), 2):
     print(s[i - 1] * int(s[i]), end='')

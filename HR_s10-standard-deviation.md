@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='HR_s10-standard-deviation.md' %}
-
-* Print standard deviation of given array up to 1st decimal
-
-```txt
-Input:
-5
-10 40 30 50 20
-
-Output: 14.1
-```
-
-{% endtab %}{% tab title='HR_s10-standard-deviation.py' %}
+{% tabs %}{% tab title='HR_s10-standard-deviation.py' %}
 
 ```py
 import statistics as stats
