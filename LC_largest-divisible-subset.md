@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_368.md' %}
-
-* Find largest divisible subset s.t. every pair (answer[i], answer[j]) in this subset satisfies
-  * answer[i] % answer[j] == 0, or answer[j] % answer[i] == 0
-
-```txt
-Input: nums = [1,2,3]
-Output: [1,2]
-```
-
-{% endtab %}{% tab title='LC_368.py' %}
+{% tabs %}{% tab title='LC_368.py' %}
 
 ```py
 def largestDivisibleSubset(self, nums: List[int]) -> List[int]:

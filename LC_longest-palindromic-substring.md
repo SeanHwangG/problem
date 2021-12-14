@@ -1,8 +1,4 @@
-{% tabs %}{% tab title='LC_5.md' %}
-
-* Given a string s, return the longest palindromic substring in s
-
-{% endtab %}{% tab title='LC_5.java' %}
+{% tabs %}{% tab title='LC_5.java' %}
 
 * Time: O(N^2)
 * Space : O(N)

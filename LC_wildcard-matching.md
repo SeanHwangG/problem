@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_44.md' %}
-
-* Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
-
-```txt
-Input: s = "adceb", p = "*a*?"
-Output: true
-```
-
-{% endtab %}{% tab title='LC_44.cpp' %}
+{% tabs %}{% tab title='LC_44.cpp' %}
 
 * Time: O(N + M)
 * Space: O(1)

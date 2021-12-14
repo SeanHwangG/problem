@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_136.md' %}
-
-* Find only number where all other numbers appear twice
-
-```txt
-Input: nums = [0,1,0,1,99]
-Output: 99
-```
-
-{% endtab %}{% tab title='LC_136.cpp' %}
+{% tabs %}{% tab title='LC_136.cpp' %}
 
 ```cpp
 int singleNumber(vector<int>& nums) {

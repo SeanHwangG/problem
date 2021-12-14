@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_233.md' %}
-
-* Given int n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n
-
-```txt
-Input: n = 13
-Output: 6         # 1, 10, 11, 12, 13
-```
-
-{% endtab %}{% tab title='LC_233.cpp' %}
+{% tabs %}{% tab title='LC_233.cpp' %}
 
 ```cpp
 int countDigitOne(int n) {

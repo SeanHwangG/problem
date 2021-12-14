@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_559.md' %}
-
-* Print depth of tree
-
-```txt
-Input: root = [1,null,3,2,4,null,5,6]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_559.cpp' %}
+{% tabs %}{% tab title='LC_559.cpp' %}
 
 ```cpp
 int maxDepth(Node* root) {

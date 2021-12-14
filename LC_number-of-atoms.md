@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_726.md' %}
-
-* Given a chemical formula (given as a string), return the count of each atom
-
-```txt
-Input: formula = "K4(ON(SO3)2)2"
-Output: "K4N2O14S4"
-```
-
-{% endtab %}{% tab title='LC_726.py' %}
+{% tabs %}{% tab title='LC_726.py' %}
 
 ```py
 import re

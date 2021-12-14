@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1.md' %}
-
-* Find two index that sums up to target
-
-```txt
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-```
-
-{% endtab %}{% tab title='LC_1.go' %}
+{% tabs %}{% tab title='LC_1.go' %}
 
 ```go
 func twoSum(nums []int, target int) []int {

@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='BJ_435.md' %}
-
-* Given an array of intervals intervals where intervals[i] = [starti, endi]
-* return the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping
-
-```txt
-Input: intervals = [[1,2],[2,3],[3,4],[1,3]]
-Output: 1
-```
-
-{% endtab %}{% tab title='BJ_435.py' %}
+{% tabs %}{% tab title='BJ_435.py' %}
 
 ```py
 def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:

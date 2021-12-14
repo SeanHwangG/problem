@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1114.md' %}
-
-* Print first, second third always in order
-
-```txt
-Input: nums = [1,3,2]
-Output: "firstsecondthird"
-```
-
-{% endtab %}{% tab title='LC_1114.cpp' %}
+{% tabs %}{% tab title='LC_1114.cpp' %}
 
 * Promise
 

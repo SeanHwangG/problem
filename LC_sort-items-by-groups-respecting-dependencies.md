@@ -1,23 +1,6 @@
-{% tabs %}{% tab title='LC_1203.md' %}
+{% tabs %}{% tab title='LC_1203.py' %}
 
-* There are n items each belonging to zero or one of m groups where group[i] is the group that the i-th item belongs
-* It's equal to -1 if i-th item belongs to no group. The items and the groups are zero indexed (Group can have no item)
-* Return a sorted list of the items such that:
-* Items that belong to the same group are next to each other in the sorted list.
-* beforeItems[i] is list containing all items that should come before i-th item in sorted array (to left of i-th item)
-* Return any solution if there is more than one solution and return an empty list if there is no solution.
-
-```txt
-Input: n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3,6],[],[],[]]
-Output: [6,3,4,1,5,2,0,7]
-
-Input: n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3],[],[4],[]]
-Output: []
-```
-
-{% endtab %}{% tab title='LC_1203.py' %}
-
-* Time: O(V + E)
+* Time; O(V + E)
 
 ```py
 def sortItems(self, n: int, m: int, group: List[int], prereqs: List[List[int]]) -> List[int]:

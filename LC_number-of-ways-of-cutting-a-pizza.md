@@ -1,21 +1,4 @@
-{% tabs %}{% tab title='LC_1444.md' %}
-
-* Given rectangular pizza represented as rows x cols matrix containing following characters:
-* 'A' (apple), '.' (empty cell) and given integer k You have to cut the pizza into k pieces using k-1 cuts
-* For each cut choose direction: vertical/horizontal, then choose cut position at cell boundary and cut into two pieces
-* If you cut pizza vertically, give left part of pizza to a person. If horizontally, give upper part of pizza to a person
-* Give the last piece of pizza to the last person.
-* Return the number of ways of cutting the pizza such that each piece contains at least one apple modulo 10^9 + 7.
-
-```txt
-Input: pizza = ["A..","AAA","..."], k = 3
-Output: 3
-
-Input: pizza = ["A..","AA.","..."], k = 3
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_1444.py' %}
+{% tabs %}{% tab title='LC_1444.py' %}
 
 ```py
 def ways(self, pizza: List[str], K: int) -> int:

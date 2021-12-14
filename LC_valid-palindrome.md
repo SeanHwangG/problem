@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_125.md' %}
-
-* Check if string is palindrome
-
-```txt
-Input: s = "A man, a plan, a canal: Panama"
-Output: true
-```
-
-{% endtab %}{% tab title='LC_125.py' %}
+{% tabs %}{% tab title='LC_125.py' %}
 
 ```cpp
 bool isPalindrome(string s) {

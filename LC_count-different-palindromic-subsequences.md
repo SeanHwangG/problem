@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_730.md' %}
-
-* Given a string s, find # different non-empty palindromic subsequences in s, and return that number modulo 10^9 + 7
-
-```txt
-Input: s = 'bccb'
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_730.py' %}
+{% tabs %}{% tab title='LC_730.py' %}
 
 * Given l and r index of palindrome, the number is dp[l + 1][r - 1] + 2
 * Improve using another two dps instead of index, rindex

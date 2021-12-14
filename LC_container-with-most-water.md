@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_11.md' %}
-
-* Find two lines, which, together with the x-axis forms a container, such that the container contains the most water
-
-![LC_11.md](images/20210411_061316.png)
-
-```txt
-Input: height = [4,3,2,1,4]
-Output: 16
-```
-
-{% endtab %}{% tab title='LC_11.py' %}
+{% tabs %}{% tab title='LC_11.py' %}
 
 ```py
 def maxArea(self, height):

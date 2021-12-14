@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1316.md' %}
-
-* Return number of distinct non-empty substrings of text that can be written as concatenation of some string with itself
-
-```txt
-Input: text = "abcabcabc"
-Output: 3  # "abcabc", "bcabca" and "cabcab".
-```
-
-{% endtab %}{% tab title='LC_1316.cpp' %}
+{% tabs %}{% tab title='LC_1316.cpp' %}
 
 ```cpp
 int distinctEchoSubstrings(string text) {

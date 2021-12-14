@@ -1,24 +1,4 @@
-{% tabs %}{% tab title='LC_1050.md' %}
-
-* ActorDirector
-
-| actor_id    | director_id | timestamp   |
-+-------------+-------------+-------------+
-| 1           | 1           | 0           |
-| 1           | 1           | 1           |
-| 1           | 1           | 2           |
-| 1           | 2           | 3           |
-| 1           | 2           | 4           |
-| 2           | 1           | 5           |
-| 2           | 1           | 6           |
-
-* Report that provides pairs (actor_id, director_id) where the actor have cooperated with the director at least 3 times
-
-| actor_id    | director_id |
-+-------------+-------------+
-| 1           | 1           |
-
-{% endtab %}{% tab title='LC_1050.sql' %}
+{% tabs %}{% tab title='LC_1050.sql' %}
 
 ```sql
 SELECT actor_id, director_id FROM ActorDirector

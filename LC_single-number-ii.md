@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_137.md' %}
-
-* Given an integer array nums where every element appears three times except for one, which appears exactly once
-* Find the single element and return it
-
-```txt
-Input: nums = [0,1,0,1,0,1,99]
-Output: 99
-```
-
-{% endtab %}{% tab title='LC_137.java' %}
+{% tabs %}{% tab title='LC_137.java' %}
 
 ```java
 public int singleNumber(int[] A) {

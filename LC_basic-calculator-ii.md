@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_227.md' %}
-
-* Given a string s which represents an expression, evaluate this expression and return its value
-* The integer division should truncate toward zero
-
-```txt
-Input: s = "3+2*2"
-Output: 7
-```
-
-{% endtab %}{% tab title='LC_227.cpp' %}
+{% tabs %}{% tab title='LC_227.cpp' %}
 
 ```cpp
 class Solution {

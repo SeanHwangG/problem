@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1249.md' %}
-
-* Given a string s of '(' , ')' and lowercase English characters
-* remove the minimum number of parentheses ( '(' or ')', in any positions )
-* so that the resulting parentheses string is valid and return any valid string
-
-```txt
-Input: s = "(a(b(c)d)"
-Output: "a(b(c)d)"
-```
-
-{% endtab %}{% tab title='LC_1249.cpp' %}
+{% tabs %}{% tab title='LC_1249.cpp' %}
 
 ```cpp
 class Solution {

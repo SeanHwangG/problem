@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_198.md' %}
-
-* Each house has a certain amount of money stashed
-* adjacent houses have security systems connected
-* automatically contact the police if two adjacent houses were broken into on the same night
-
-```txt
-Input: nums = [1,2,3,1]
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_198.java' %}
+{% tabs %}{% tab title='LC_198.java' %}
 
 ```java
 public int rob(int[] nums) {

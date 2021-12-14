@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_273.md' %}
-
-* Convert a non-negative integer num to its English words representation.
-
-```txt
-Input: num = 123
-Output: "One Hundred Twenty Three"
-
-Input: num = 12345
-Output: "Twelve Thousand Three Hundred Forty Five"
-```
-
-{% endtab %}{% tab title='LC_273.py' %}
+{% tabs %}{% tab title='LC_273.py' %}
 
 ```py
 def numberToWords(self, num):

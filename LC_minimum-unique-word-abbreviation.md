@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_411.md' %}
-
-* String can be abbreviated by replacing any number of non-adjacent substrings with their lengths
-* For example, a string such as "substitution" could be abbreviated as (not limited to):
-  * "sub4u4" ("sub stit u tion") / "12" ("substitution") / "su3i1u2on" ("su bst i t u ti on")
-* Given target string target and an array of strings dictionary, return any shortest abbreviation of target
-* ST it is not an abbreviation of any string in dictionary
-
-```txt
-Input: target = "apple", dictionary = ["blade"]
-Output: "a4"
-
-Input: target = "apple", dictionary = ["blade","plain","amber"]
-Output: "1p3"
-```
-
-{% endtab %}{% tab title='LC_411.py' %}
+{% tabs %}{% tab title='LC_411.py' %}
 
 * Create diff-number whose bits tell me which of the word's letters differ from the target
 * Check 2^m abbreviations, represented as number from 0 to 2m-1, bits representing which letters of target are in abbreviation

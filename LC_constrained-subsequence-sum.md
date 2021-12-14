@@ -1,22 +1,6 @@
-{% tabs %}{% tab title='LC_1425.md' %}
+{% tabs %}{% tab title='LC_1425.py' %}
 
-* Given an integer array nums and an integer k, return the maximum sum of a non-empty subsequence
-* ST for every two consecutive int in subsequence, nums[i] and nums[j], where i < j, the condition j - i <= k is satisfied
-
-```txt
-Input: nums = [10,2,-10,5,20], k = 2
-Output: 37  # The subsequence is [10, 2, 5, 20].
-
-Input: nums = [-1,-2,-3], k = 1
-Output: -1
-
-Input: nums = [10,-2,-10,-5,20], k = 2
-Output: 23  # The subsequence is [10, -2, -5, 20].
-```
-
-{% endtab %}{% tab title='LC_1425.py' %}
-
-* Time: O(N)
+* Time; O(N)
 
 ```py
 def constrainedSubsetSum(self, dp: List[int], k: int) -> int:

@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_1368.md' %}
-
-![LC_1368](images/20210301_030401.png)
-
-* Find minimum number of changes to make at least one valid path
-
-```txt
-Input:
-grid =
-[[1,1,1,1],
- [2,2,2,2],
- [1,1,1,1],
- [2,2,2,2]]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_1368.py' %}
+{% tabs %}{% tab title='LC_1368.py' %}
 
 ```py
 def minCost(self, G: List[List[int]]) -> int:

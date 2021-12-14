@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_248.md' %}
-
-* Given two strings low and high where low <= high, return # strobogrammatic numbers in range [low, high]
-* A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down)
-
-```txt
-Input: low = "50", high = "100"
-Output: 3  # 88 69 96
-```
-
-{% endtab %}{% tab title='LC_248.py' %}
+{% tabs %}{% tab title='LC_248.py' %}
 
 ```py
 def strobogrammaticInRange(self, low: str, high: str) -> int:

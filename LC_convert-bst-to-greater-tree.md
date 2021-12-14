@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_538.md' %}
-
-* Given the root of a BST, convert it to a Greater Tree
-* st every key of original BST is changed to original key plus sum of all keys greater than the original key in BST
-
-```txt
-Input: root = [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
-Output: [30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
-```
-
-{% endtab %}{% tab title='LC_538.py' %}
+{% tabs %}{% tab title='LC_538.py' %}
 
 ```py
 class Solution:

@@ -1,20 +1,10 @@
-{% tabs %}{% tab title='LC_132.md' %}
-
-* Given a string s, partition s such that every substring of the partition is a palindrome
-* Return the minimum cuts needed for a palindrome partitioning of s
-
-```txt
-Input: s = "aab"
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_132.py' %}
+{% tabs %}{% tab title='LC_132.py' %}
 
 * Generate 2d palindrome table with l index and r indices (N^2 space)
 * dp[n] stores the minimum number of cuts s[0: n] (N space)
+* Time, Space; O(N^2), O(N)
 
 ```py
-# Time : O(N^2), Space : O(N)
 def minCut(self, s: str) -> int:
   dp = list(range(-1, len(s)))
   for m in range(1, len(s)):

@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_505.md' %}
-
-* Given ball in maze with empty spaces (0) and walls (1), which can go through empty spaces by up, down, left or right
-* But it won't stop rolling until hitting a wall, and when the ball stops, it could choose the next direction
-* Return shortest distance for the ball to stop at the destination. If the ball cannot stop at destination, return -1
-
-```txt
-Input: maze =
-[[0,0,1,0,0],
- [0,0,0,0,0],
- [0,0,0,1,0],
- [1,1,0,1,1],
- [0,0,0,0,0]], start = [0,4], destination = [4,4]
-Output: 12
-```
-
-{% endtab %}{% tab title='LC_505.py' %}
+{% tabs %}{% tab title='LC_505.py' %}
 
 ```py
 def shortestDistance(self, maze: List[List[int]], start: List[int], destination: List[int]) -> int:

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1680.md' %}
-
-* Given n, return decimal value of binary string formed by concatenating binary of 1 to n in order, modulo 10**9 + 7
-
-```txt
-Input: n = 3
-Output: 27   # 11011
-```
-
-{% endtab %}{% tab title='LC_1680.cpp' %}
+{% tabs %}{% tab title='LC_1680.cpp' %}
 
 ```cpp
 int concatenatedBinary(int n) {

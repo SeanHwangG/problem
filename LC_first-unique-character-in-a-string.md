@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_387.md' %}
-
-* Given a string, find the first non-repeating character in it and return its index. If it doesn't exist, return -1
-
-```txt
-Input: s = "loveleetcode"
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_387.cpp' %}
+{% tabs %}{% tab title='LC_387.cpp' %}
 
 ```cpp
 int firstUniqChar(string s) {

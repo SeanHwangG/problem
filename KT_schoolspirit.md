@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='KT_schoolspirit.md' %}
-
-$$ \frac{1}{5} ∑_{i=0}^{n-1} s_{i} ⋅\left(\frac{4}{5}\right)^{i} $$
-
-* What is the average value of gi over all all n students?
-
-```txt
-Input:
-3
-500
-120
-75
-
-Output:
-128.8
-89.06666666666666
-```
-
-{% endtab %}{% tab title='KT_schoolspirit.py' %}
+{% tabs %}{% tab title='KT_schoolspirit.py' %}
 
 ```py
 n_team = int(input())

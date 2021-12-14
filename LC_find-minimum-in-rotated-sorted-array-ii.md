@@ -1,16 +1,8 @@
-{% tabs %}{% tab title='LC_154.md' %}
+{% tabs %}{% tab title='LC_154.cpp' %}
 
-* Perform binary search on sorted array if duplicate is possible
-
-```txt
-Input: nums = [2,2,2,0,1]
-Output: 0
-```
-
-{% endtab %}{% tab title='LC_154.cpp' %}
+* O(N); Worst case
 
 ```cpp
-// O(N): Worst case
 int findMin(vector<int> &num) {
   int lo = 0, hi = num.size() - 1, mid = 0;
 

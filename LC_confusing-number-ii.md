@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1088.md' %}
-
-* Confusing number is a number that when rotated 180 degrees becomes a different number with each digit valid
-* Given an integer n, return number of confusing numbers in inclusive range [1, n]
-
-```txt
-Input: n = 20
-Output: 6
-
-Input: n = 100
-Output: 19
-```
-
-{% endtab %}{% tab title='LC_1088.py' %}
+{% tabs %}{% tab title='LC_1088.py' %}
 
 ```py
 res = 0

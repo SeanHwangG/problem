@@ -1,1 +1,1 @@
-[Duplicate](./LC_769.md)
+[Duplicate](./LC_max-chunks-to-make-sorted-ii.md)

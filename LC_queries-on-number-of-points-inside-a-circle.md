@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_1828.md' %}
-
-* points where points[i] = [xi, yi] is coordinates of ith point on a 2D plane. Multiple points can have same coordinates
-* queries where queries[j] = [xj, yj, rj] describes a circle centered at (xj, yj) with a radius of rj
-* For each query queries[j], compute number of points inside jth circle. Points on border of circle are considered inside
-* Return an array answer, where answer[j] is the answer to the jth query
-
-```txt
-Input: points = [[1,3],[3,3],[5,3],[2,2]], queries = [[2,3,1],[4,3,1],[1,1,2]]
-Output: [3,2,2]
-```
-
-{% endtab %}{% tab title='LC_1828.py' %}
+{% tabs %}{% tab title='LC_1828.py' %}
 
 ```py
 def countPoints(self, points: List[List[int]], queries: List[List[int]]) -> List[int]:

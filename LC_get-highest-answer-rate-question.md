@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_578.md' %}
-
-* identify the question which has the highest answer rate
-
-| uid | action | question_id | answer_id | q_num | timestamp |
-| --- | ------ | ----------- | --------- | ----- | --------- |
-| 5   | show   | 285         | null      | 1     | 123       |
-| 5   | answer | 285         | 124124    | 1     | 124       |
-| 5   | show   | 369         | null      | 2     | 125       |
-| 5   | skip   | 369         | null      | 2     | 126       |
-
-| survey_log |
-| ---------- |
-| 285        |
-
-{% endtab %}{% tab title='LC_578.sql' %}
+{% tabs %}{% tab title='LC_578.sql' %}
 
 ```sql
 SELECT clean.question_id AS "survey_log" FROM (

@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_332.md' %}
-
-* Given a list of airline tickets where tickets[i] = [fromi, toi] represent departure and arrival airports of one flight
-* Reconstruct itinerary in order and return it
-
-```txt
-Input: tickets = [["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]
-Output: ["JFK","ATL","JFK","SFO","ATL","SFO"]
-```
-
-{% endtab %}{% tab title='LC_332.py' %}
+{% tabs %}{% tab title='LC_332.py' %}
 
 ```py
 def findItinerary(self, tickets: List[List[str]]) -> List[str]:

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_718.md' %}
-
-* Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays
-
-```txt
-Input: nums1 = [1,2,3,2,1], nums2 = [3,2,1,4,7]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_718.py' %}
+{% tabs %}{% tab title='LC_718.py' %}
 
 ```py
 def findLength(self, A, B):

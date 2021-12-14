@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1793.md' %}
-
-* Given an array of integers nums (0-indexed) and an integer k
-* score of a subarray (i, j) is min(nums[i], nums[i+1], ..., nums[j]) * (j - i + 1). good subarray if i <= k <= j
-* Return the maximum possible score of a good subarray
-
-```txt
-Input: nums = [1,4,3,7,4,5], k = 3
-Output: 15
-```
-
-{% endtab %}{% tab title='LC_1793.py' %}
+{% tabs %}{% tab title='LC_1793.py' %}
 
 ```py
 def maximumScore(self, nums: List[int], k: int) -> int:

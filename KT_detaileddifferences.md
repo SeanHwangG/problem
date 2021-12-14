@@ -1,33 +1,4 @@
-{% tabs %}{% tab title='KT_detaileddifferences.md' %}
-
-* Print . if two character are same, else *
-
-```txt
-Input:
-3
-ATCCGCTTAGAGGGATT
-GTCCGTTTAGAAGGTTT
-abcdefghijklmnopqrstuvwxyz
-bcdefghijklmnopqrstuvwxyza
-abcdefghijklmnopqrstuvwxyz0123456789
-abcdefghijklmnopqrstuvwxyz0123456789
-
-Output:
-ATCCGCTTAGAGGGATT
-GTCCGTTTAGAAGGTTT
-*....*.....*..*..
-
-abcdefghijklmnopqrstuvwxyz
-bcdefghijklmnopqrstuvwxyza
-**************************
-
-abcdefghijklmnopqrstuvwxyz0123456789
-abcdefghijklmnopqrstuvwxyz0123456789
-....................................
-
-```
-
-{% endtab %}{% tab title='KT_detaileddifferences.py' %}
+{% tabs %}{% tab title='KT_detaileddifferences.py' %}
 
 ```py
 N = int(input())

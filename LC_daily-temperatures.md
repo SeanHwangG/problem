@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_739.md' %}
-
-* Given list of daily temperatures T, return a list such that, for each day, how many days to wait until warmer temperature
-* If there is no future day for which this is possible, put 0 instead
-
-```txt
-Input : T = [73, 74, 75, 71, 69, 72, 76, 73]
-Output : [1, 1, 4, 2, 1, 1, 0, 0]
-```
-
-{% endtab %}{% tab title='LC_739.cpp' %}
+{% tabs %}{% tab title='LC_739.cpp' %}
 
 ```cpp
 vector<int> dailyTemperatures(vector<int>& T) {

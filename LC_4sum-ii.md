@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_454.md' %}
-
-* Given four lists A, B, C, D of integer values
-* compute how many tuples (i, j, k, l) there are such that A[i] + B[j] + C[k] + D[l] is zero
-
-```txt
-Input: nums1 = [1,2], nums2 = [-2,-1], nums3 = [-1,2], nums4 = [0,2]
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_454.cpp' %}
+{% tabs %}{% tab title='LC_454.cpp' %}
 
 ```cpp
 int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {

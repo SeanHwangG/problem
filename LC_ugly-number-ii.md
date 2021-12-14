@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_264.md' %}
-
-* Given an integer n, return the nth ugly number
-* Ugly number is a positive number whose prime factors only include 2, 3, and/or 5
-
-```txt
-Input: n = 10
-Output: 12 # [1, 2, 3, 4, 5, 6, 8, 9, 10, 12]
-```
-
-{% endtab %}{% tab title='LC_264.cpp' %}
+{% tabs %}{% tab title='LC_264.cpp' %}
 
 ```cpp
 int nthUglyNumber(int n) {

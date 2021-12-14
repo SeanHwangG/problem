@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1096.md' %}
-
-```txt
-Input: "{a,b}{c,{d,e}}"
-Output: ["ac","ad","ae","bc","bd","be"]
-
-Input: "{{a,z},a{b,c},{ab,z}}"
-Output: ["a","ab","ac","z"]
-```
-
-{% endtab %}{% tab title='LC_1096.py' %}
+{% tabs %}{% tab title='LC_1096.py' %}
 
 ```py
 def braceExpansionII(self, expression: str) -> List[str]:

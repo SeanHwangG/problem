@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_1982.md' %}
-
-* Given an integer n representing length of an unknown array that you are trying to recover
-* Also given an array sums containing values of all 2n subset sums of unknown array (in no particular order).
-* Return any array ans of length n representing unknown array
-
-```txt
-Input: n = 3, sums = [-3,-2,-1,0,0,1,2,3]
-Output: [1,2,-3]
-
-Input: n = 4, sums = [0,0,5,5,4,-1,4,9,9,-1,4,3,4,8,3,8]
-Output: [0,-1,4,5]
-```
-
-{% endtab %}{% tab title='LC_1982.py' %}
+{% tabs %}{% tab title='LC_1982.py' %}
 
 * After sort nums, than x or -x is equal to nums[1] - nums[0] and recurse
 * Time: O(2^n x n)

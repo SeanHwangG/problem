@@ -1,18 +1,9 @@
-{% tabs %}{% tab title='LC_45.md' %}
+{% tabs %}{% tab title='LC_45.py' %}
 
-* Given non-negative integers nums, each num represents your maximum jump length at that idx
-* From the first idx, find the the minimum number of jumps to reach the last index
-
-```txt
-Input: nums = [2,3,1,1,4]
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_45.py' %}
+* Time, Space; O(N), O(1)
 
 ```py
 def jump(self, nums):
-  # Time : O(N) / Space : O(1)
   l, r = 0, nums[0]
   time = 1
   while r < len(nums) - 1:

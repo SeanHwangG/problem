@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_493.md' %}
-
-* Given an integer array nums, return the number of reverse pairs in the array
-* A reverse pair is a pair (i, j) where 0 <= i < j < nums.length and nums[i] > 2 x nums[j]
-
-```txt
-Input: nums = [2,4,3,5,1]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_493.py' %}
+{% tabs %}{% tab title='LC_493.py' %}
 
 ```py
 class BIT:

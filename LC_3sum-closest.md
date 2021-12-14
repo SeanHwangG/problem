@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_16.md' %}
-
-* Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target
-
-```txt
-Input: nums = [-1,2,1,-4], target = 1
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_16.java' %}
+{% tabs %}{% tab title='LC_16.java' %}
 
 ```java
 public int threeSumClosest(int[] nums, int target) {

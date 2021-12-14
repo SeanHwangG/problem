@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_90.md' %}
-
-* Given an integer array nums that may contain duplicates, return all possible subsets (the power set)
-
-```txt
-Input: nums = [1,2,2]
-Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
-```
-
-{% endtab %}{% tab title='LC_90.cpp' %}
+{% tabs %}{% tab title='LC_90.cpp' %}
 
 ```cpp
 class Solution {

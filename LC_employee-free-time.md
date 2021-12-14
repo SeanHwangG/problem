@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_759.md' %}
-
-* Given list schedule of employees, which represents the working time for each employee
-* Each employee has a list of non-overlapping Intervals, and these intervals are in sorted order
-* Return list of finite intervals representing common, positive-length free time for all employees, also in sorted order
-
-```txt
-Input: schedule = [[[1,2],[5,6]],[[1,3]],[[4,10]]]
-Output: [[3,4]]
-```
-
-{% endtab %}{% tab title='LC_759.py' %}
+{% tabs %}{% tab title='LC_759.py' %}
 
 ```py
 def employeeFreeTime(self, schedule: '[[Interval]]') -> '[Interval]':

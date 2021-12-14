@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_766.md' %}
-
-* Given an m x n matrix, return true if the matrix is Toeplitz. Otherwise, return false
-* A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements
-
-```txt
-Input:
-matrix =
-[[1,2,3,4],
- [5,1,2,3],
- [9,5,1,2]]
-
-Output: true
-```
-
-{% endtab %}{% tab title='LC_766.py' %}
+{% tabs %}{% tab title='LC_766.py' %}
 
 ```py
 def isToeplitzMatrix(self, m):

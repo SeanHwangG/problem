@@ -1,29 +1,4 @@
-{% tabs %}{% tab title='KT_weakvertices.md' %}
-
-* weak vertices in graphs – those vertices that is not part of any triangle
-
-```txt
-Input:
-9
-0 1 1 1 0 0 0 0 0
-1 0 0 0 0 0 1 0 0
-1 0 0 1 0 1 0 0 0
-1 0 1 0 0 1 1 0 0
-0 0 0 0 0 0 1 1 0
-0 0 1 1 0 0 0 0 0
-0 1 0 1 1 0 0 1 0
-0 0 0 0 1 0 1 0 1
-0 0 0 0 0 0 0 1 0
-1
-0
--1
-
-Output:
-1 8
-0
-```
-
-{% endtab %}{% tab title='KT_weakvertices.py' %}
+{% tabs %}{% tab title='KT_weakvertices.py' %}
 
 ```py
 from collections import defaultdict

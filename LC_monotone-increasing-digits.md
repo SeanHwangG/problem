@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_738.md' %}
-
-* Print largest monotonic increasing number less than N
-
-```txt
-Input: n = 5432
-Output: 4999
-```
-
-{% endtab %}{% tab title='LC_738.py' %}
+{% tabs %}{% tab title='LC_738.py' %}
 
 * Find first decreasing digit
 * 20s / 5422 -> 300s / 5322 -> 4000s / 4322 -> 4999

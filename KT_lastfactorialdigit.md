@@ -1,21 +1,4 @@
-{% tabs %}{% tab title='KT_lastfactorialdigit.md' %}
-
-* print last digit of factorial
-
-```txt
-Input:
-3
-1
-2
-3
-
-Output:
-1
-2
-6
-```
-
-{% endtab %}{% tab title='KT_lastfactorialdigit.py' %}
+{% tabs %}{% tab title='KT_lastfactorialdigit.py' %}
 
 ```py
 n_test = int(input())

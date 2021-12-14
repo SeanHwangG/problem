@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_571.md' %}
-
-| Number | Frequency |
-| ------ | --------- |
-| 0      | 7         |
-| 1      | 1         |
-| 2      | 3         |
-| 3      | 1         |
-
-| median |
-| ------ |
-| 0.0000 |
-
-{% endtab %}{% tab title='LC_571.sql' %}
+{% tabs %}{% tab title='LC_571.sql' %}
 
 ```sql
 SELECT AVG(Number) 'median' FROM

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_428.md' %}
-
-* Design an algorithm to serialize and deserialize an N-ary tree
-
-```txt
-Input: root = [1,null,3,2,4,null,5,6]
-Output: [1,null,3,2,4,null,5,6]
-```
-
-{% endtab %}{% tab title='LC_428.py' %}
+{% tabs %}{% tab title='LC_428.py' %}
 
 ```py
 class Codec:

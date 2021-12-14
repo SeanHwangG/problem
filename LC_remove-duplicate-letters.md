@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_316.md' %}
-
-* Given a string s, remove duplicate letters so that every letter appears once and only once
-* Make sure your result is the smallest in lexicographical order among all possible results
-
-```txt
-Input: s = "cbacdcbc"
-Output: "acdb"
-```
-
-{% endtab %}{% tab title='LC_316.py' %}
+{% tabs %}{% tab title='LC_316.py' %}
 
 ```py
 def removeDuplicateLetters(self, s):

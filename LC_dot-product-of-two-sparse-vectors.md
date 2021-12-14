@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1570.md' %}
-
-* Implement class SparseVector:
-  * SparseVector(nums) Initializes the object with the vector nums
-  * dotProduct(vec) Compute the dot product between the instance of SparseVector and vec
-
-```txt
-Input: nums1 = [1,0,0,2,3], nums2 = [0,3,0,4,0]
-Output: 8  # v1.dotProduct(v2) = 1*0 + 0*3 + 0*0 + 2*4 + 3*0 = 8
-```
-
-{% endtab %}{% tab title='LC_1570.cpp' %}
+{% tabs %}{% tab title='LC_1570.cpp' %}
 
 ```cpp
 vector<int> v, n;

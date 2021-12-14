@@ -1,24 +1,4 @@
-{% tabs %}{% tab title='LC_603.md' %}
-
-* Cinema
-
-| seat_id | free |
-| ------- | ---- |
-| 1       | 1    |
-| 2       | 0    |
-| 3       | 1    |
-| 4       | 1    |
-| 5       | 1    |
-
-* query all the consecutive available seats order by the seat_id
-
-| seat_id |
-| ------- |
-| 3       |
-| 4       |
-| 5       |
-
-{% endtab %}{% tab title='LC_603.sql' %}
+{% tabs %}{% tab title='LC_603.sql' %}
 
 ```sql
 SELECT DISTINCT a.seat_id FROM cinema a

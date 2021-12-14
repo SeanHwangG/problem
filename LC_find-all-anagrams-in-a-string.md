@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_438.md' %}
-
-* Given two strings s and p, return array of all the start indices of p's anagrams in s in any order
-
-```txt
-Input: s = "cbaebabacd", p = "abc"
-Output: [0,6]
-```
-
-{% endtab %}{% tab title='LC_438.cpp' %}
+{% tabs %}{% tab title='LC_438.cpp' %}
 
 ```cpp
 vector<int> findAnagrams(string s, string p) {

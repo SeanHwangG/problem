@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_272.md' %}
-
-* Given root of a binary search tree, a target value, and an integer k, return k values in BST that are closest to target
-* Return answer in any order, are guaranteed to have only one unique set of k values in BST that are closest to target
-
-```txt
-Input: root = [4,2,5,1,3], target = 3.714286, k = 2
-Output: [4,3]
-```
-
-{% endtab %}{% tab title='LC_272.py' %}
+{% tabs %}{% tab title='LC_272.py' %}
 
 ```py
 def closestKValues(self, root, target, k):

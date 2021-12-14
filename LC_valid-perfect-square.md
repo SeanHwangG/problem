@@ -1,8 +1,4 @@
-{% tabs %}{% tab title='LC_367.md' %}
-
-* Check if a number is square
-
-{% endtab %}{% tab title='LC_367.py' %}
+{% tabs %}{% tab title='LC_367.py' %}
 
 * Newton's method
 

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_535.md' %}
-
-* Design url shortener
-
-```txt
-Input: url = "https://leetcode.com/problems/design-tinyurl"
-Output: "https://leetcode.com/problems/design-tinyurl"
-```
-
-{% endtab %}{% tab title='LC_535.py' %}
+{% tabs %}{% tab title='LC_535.py' %}
 
 ```py
 class Codec:

@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_55.md' %}
-
-* Given an array of non-negative integers nums, you are initially positioned at the first index of the array
-* Each element in the array represents your maximum jump length at that position
-
-```txt
-Input: nums = [2,3,1,1,4]
-Output: true
-```
-
-{% endtab %}{% tab title='LC_55.py' %}
+{% tabs %}{% tab title='LC_55.py' %}
 
 ```py
 def canJump(self, nums: List[int]) -> bool:

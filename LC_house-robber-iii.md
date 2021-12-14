@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_337.md' %}
-
-* automatically contact the police if two directly-linked houses were broken into on the same night
-* Determine the maximum amount of money the thief can rob tonight without alerting the police
-
-```txt
-Input: root = [3,2,3,null,3,null,1]
-Output: 7
-```
-
-{% endtab %}{% tab title='LC_337.py' %}
+{% tabs %}{% tab title='LC_337.py' %}
 
 ```py
 def rob(self, root: TreeNode):

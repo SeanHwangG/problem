@@ -1,26 +1,4 @@
-{% tabs %}{% tab title='KT_cudoviste.md' %}
-
-* N, M이 주어지고 N개의 라인의 주차장이 주어진다
-* 이 때 . 은 빈칸, '#' 은 건물, 'X' 는 다른 차량이다
-* 2x2의 차를 주차 할 때 0, 1, 2, 3, 4개의 차량을 치우고 댈 수 있는 가지 수를 각 라인에 출력하라
-
-```txt
-Input:
-4 4
-#..#
-..X.
-..X.
-#XX#
-
-Output:
-1
-1
-2
-1
-0
-```
-
-{% endtab %}{% tab title='KT_cudoviste.py' %}
+{% tabs %}{% tab title='KT_cudoviste.py' %}
 
 ```py
 N, M = map(int, input().split())

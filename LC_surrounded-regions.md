@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='LC_130.md' %}
-
-* Given an m x n matrix board containing 'X' and 'O', capture all regions surrounded by 'X'
-
-```txt
-Input: board =
-[["X","X","X","X"],
-["X","O","O","X"],
-["X","X","O","X"],
-["X","O","X","X"]]
-
-Output:
-[["X","X","X","X"],
-["X","X","X","X"],
-["X","X","X","X"],
-["X","O","X","X"]]
-```
-
-{% endtab %}{% tab title='LC_130.py' %}
+{% tabs %}{% tab title='LC_130.py' %}
 
 ```py
 def solve(self, G):

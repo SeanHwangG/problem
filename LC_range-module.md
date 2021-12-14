@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_715.md' %}
-
-* A Range Module is a module that tracks ranges of numbers, implement the following interfaces
-  * addRange(int left, int right)
-  * queryRange(int left, int right)
-  * removeRange(int left, int right)
-
-```txt
-addRange(10, 20): null
-removeRange(14, 16): null
-queryRange(10, 14): true (Every number in [10, 14) is being tracked)
-queryRange(13, 15): false (Numbers like 14, 14.03, 14.17 in [13, 15) are not being tracked)
-queryRange(16, 17): true (The number 16 in [16, 17) is still being tracked, despite the remove operation)
-```
-
-{% endtab %}{% tab title='LC_715.py' %}
+{% tabs %}{% tab title='LC_715.py' %}
 
 ```py
 from bisect import bisect_left, bisect_right

@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_828.md' %}
-
-* Let's define a function countUniqueChars(s) that returns the number of unique characters on s.
-* (ex: if s = "LEETCODE" then "L", "T", "C", "O", "D" are the unique characters since they appear only once in s, 5.)
-* Given a string s, return the sum of countUniqueChars(t) where t is a substring of s.
-* Notice that some substrings can be repeated so in this case you have to count the repeated ones too.
-
-```txt
-Input: s = "ABC"
-Output: 10  # "A","B","C","AB","BC" and "ABC".
-
-Input: s = "ABA"
-Output: 8
-```
-
-{% endtab %}{% tab title='LC_828.py' %}
+{% tabs %}{% tab title='LC_828.py' %}
 
 ```py
 def uniqueLetterString(self, S: str) -> int:

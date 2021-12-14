@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_1046.md' %}
-
-* Each turn, we choose the two heaviest stones with x, y (x <= y) and smash them together, then
-  * If x == y, both stones are totally destroyed;
-  * If x != y, stone of weight x is totally destroyed, and the stone of weight y has new weight y-x
-* At the end, there is at most 1 stone left.  Return the weight of this stone
-
-```txt
-Input: [2,7,4,1,8,1]
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_1046.js' %}
+{% tabs %}{% tab title='LC_1046.js' %}
 
 ```js
 const lastStoneWeight = s =>

@@ -1,21 +1,4 @@
-{% tabs %}{% tab title='LC_1397.md' %}
-
-* Given strings s1 and s2 of size n and the string evil, return the number of good strings.
-* good string has size n, alphabetically greater than or equal to s1, alphabetically smaller than or equal to s2
-  * It doesn't contain the string evil as a substring. Since the answer can be a huge number, return MOD 10^9 + 7
-
-```txt
-Input: n = 2, s1 = "aa", s2 = "da", evil = "b"
-Output: 51
-
-Input: n = 8, s1 = "leetcode", s2 = "leetgoes", evil = "leet"
-Output: 0
-
-Input: n = 2, s1 = "gx", s2 = "gz", evil = "x"
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_1397.py' %}
+{% tabs %}{% tab title='LC_1397.py' %}
 
 ```py
 from functools import lru_cache

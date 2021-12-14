@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_691.md' %}
-
-* Spell out the given string target by cutting individual letters from your collection of stickers and rearranging them
-* Use each sticker more than once if you want, and you have infinite quantities of each sticker
-* Return the minimum number of stickers that you need to spell out target. If the task is impossible, return -1
-
-```txt
-Input: stickers = ["with", "example", "science"], target = "thehat"
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_691.py' %}
+{% tabs %}{% tab title='LC_691.py' %}
 
 ```py
 def minStickers(self, stickers: List[str], target: str) -> int:

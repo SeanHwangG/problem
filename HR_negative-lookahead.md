@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='HR_negative-lookahead.md' %}
-
-* Write a regex which can match all characters which are not immediately followed by that same character
-
-```txt
-Input: gooooo
-Output: 2
-```
-
-{% endtab %}{% tab title='HR_negative-lookahead.py' %}
+{% tabs %}{% tab title='HR_negative-lookahead.py' %}
 
 ```py
 import re

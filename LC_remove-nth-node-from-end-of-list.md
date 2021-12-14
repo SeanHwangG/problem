@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_19.md' %}
-
-* Remove nth node from end
-
-```txt
-Input: head = [1,2,3,4,5], n = 2
-Output: [1,2,3,5]
-```
-
-{% endtab %}{% tab title='LC_19.cpp' %}
+{% tabs %}{% tab title='LC_19.cpp' %}
 
 ```cpp
 class Solution {

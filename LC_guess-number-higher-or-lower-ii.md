@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_375.md' %}
-
-* We are playing the Guessing Game. The game will work as follows:
-  * I pick a number between 1 and n
-  * You guess a number
-  * If you guess right number, you win the game
-  * If you guess wrong number, then tell you whether picked number is higher or lower, and will continue guessing
-  * Every time you guess a wrong number x, you will pay x dollars. If you run out of money, you lose the game
-
-```txt
-Input: 10
-Output: 16  # Guess 7 first then 9 or (3, 5)
-```
-
-{% endtab %}{% tab title='LC_375.py' %}
+{% tabs %}{% tab title='LC_375.py' %}
 
 ```py
 def getMoneyAmount(self, n: int) -> int:

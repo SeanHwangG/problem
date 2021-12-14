@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_153.md' %}
-
-* Perform binary search on rotated sorted array
-
-```txt
-Input: nums = [3,4,5,1,2]
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_153.py' %}
+{% tabs %}{% tab title='LC_153.py' %}
 
 ```py
 def findMin(self, li):

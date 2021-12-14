@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_312.md' %}
-
-* burst gives nums[left] x nums[i] x nums[right] point
-
-```txt
-Input: nums = [3,1,5,8]
-Output: 167
-```
-
-{% endtab %}{% tab title='LC_312.py' %}
+{% tabs %}{% tab title='LC_312.py' %}
 
 ```py
 def maxCoins(self, li):

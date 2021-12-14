@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1756.md' %}
-
-* MRUQueue(int n) constructs the MRUQueue with n elements: [1,2,3,...,n].
-* int fetch(int k) moves the kth element (1-indexed) to the end of the queue and returns it.
-
-```txt
-Input:
-["MRUQueue", "fetch", "fetch", "fetch", "fetch"]
-[[8], [3], [5], [2], [8]]
-Output:
-[null, 3, 6, 2, 2]
-```
-
-{% endtab %}{% tab title='LC_1756.cpp' %}
+{% tabs %}{% tab title='LC_1756.cpp' %}
 
 ```cpp
 class MRUQueue {

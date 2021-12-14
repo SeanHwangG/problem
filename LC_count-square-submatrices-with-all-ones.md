@@ -1,26 +1,4 @@
-{% tabs %}{% tab title='LC_1277.md' %}
-
-* Given m * n matrix of ones and zeros, return how many square submatrices have all ones
-
-```txt
-Input: matrix =
-[
-  [0,1,1,1],
-  [1,1,1,1],
-  [0,1,1,1]
-]
-Output: 15
-
-Input: matrix =
-[
-  [1,0,1],
-  [1,1,0],
-  [1,1,0]
-]
-Output: 7
-```
-
-{% endtab %}{% tab title='LC_1277.py' %}
+{% tabs %}{% tab title='LC_1277.py' %}
 
 ```py
 def countSquares(self, A):

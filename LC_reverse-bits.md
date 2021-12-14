@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_190.md' %}
-
-* Reverse bits of a given 32 bits unsigned integer
-
-```txt
-Input: n = 00000010100101000001111010011100
-Output:    964176192 (00111001011110000010100101000000)
-```
-
-{% endtab %}{% tab title='LC_190.cpp' %}
+{% tabs %}{% tab title='LC_190.cpp' %}
 
 ```cpp
 uint32_t reverseBits(uint32_t n) {

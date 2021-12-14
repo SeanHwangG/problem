@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_685.md' %}
-
-* Return an edge that can be removed so that the resulting graph is a rooted tree of n nodes
-
-```txt
-Input: edges = [[1,2],[2,3],[3,4],[4,1],[1,5]]
-Output: [4,1]
-```
-
-{% endtab %}{% tab title='LC_685.py' %}
+{% tabs %}{% tab title='LC_685.py' %}
 
 1. There is no cycle in the graph, but there exist two edges pointing to the same node;
 1. There is a cycle, but there do not exist two edges pointing to the same node;

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_4.md' %}
-
-* Return median of two sorted array
-
-```txt
-Input: nums1 = [1,2], nums2 = [3,4]
-Output: 2.50000  # merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
-```
-
-{% endtab %}{% tab title='LC_4.py' %}
+{% tabs %}{% tab title='LC_4.py' %}
 
 ```py
 def findMedianSortedArrays(self, nums1, nums2):

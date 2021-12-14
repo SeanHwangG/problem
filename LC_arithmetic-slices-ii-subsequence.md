@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_446.md' %}
-
-* Given an integer array nums, return the number of all the arithmetic subsequences of length greater than 2
-
-```txt
-Input: nums = [2,4,6,8,10]
-Output: 7
-```
-
-{% endtab %}{% tab title='LC_446.py' %}
+{% tabs %}{% tab title='LC_446.py' %}
 
 ```py
 def numberOfArithmeticSlices(self, li: List[int]) -> int:

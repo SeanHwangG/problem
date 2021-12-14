@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_10.md' %}
-
-* Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*' where:
-* '.' Matches any single character.​​​​
-* '*' Matches zero or more of the preceding element
-* The matching should cover the entire input string (not partial)
-
-```txt
-Input: s = "aab", p = "c*a*b"
-Output: true
-```
-
-{% endtab %}{% tab title='LC_10.py' %}
+{% tabs %}{% tab title='LC_10.py' %}
 
 ```py
 @lru_cache(None)

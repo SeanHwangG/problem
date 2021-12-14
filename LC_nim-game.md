@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_292.md' %}
-
-* Initially, there is a heap of stones on the table
-* You and your friend will alternate taking turns, and you go first
-* On each turn, the person whose turn it is will remove 1 to 3 stones from the heap
-* The one who removes the last stone is the winner
-
-```txt
-Input: 4
-Output: false
-```
-
-{% endtab %}{% tab title='LC_292.cpp' %}
+{% tabs %}{% tab title='LC_292.cpp' %}
 
 ```cpp
 bool canWinNim(int n) {

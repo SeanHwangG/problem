@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='KT_Ptice.md' %}
-
-* Repeat ABC, BABC, CCAABB
-* find whose sequence contains the most correct answers
-
-```txt
-Input:
-5
-BAACC
-
-Output:
-3
-Bruno
-```
-
-{% endtab %}{% tab title='KT_Ptice.py' %}
+{% tabs %}{% tab title='KT_Ptice.py' %}
 
 ```py
 length = int(input())

@@ -1,21 +1,4 @@
-{% tabs %}{% tab title='LC_1896.md' %}
-
-* given a boolean expression as a string with '1','0','&', '|', '(', and ')'
-* Return the minimum cost to change the final value of the expression to be 0
-  * Turn a '1' into a '0'.
-  * Turn a '0' into a '1'.
-  * Turn a '&' into a '|'.
-  * Turn a '|' into a '&'.
-
-```txt
-Input: expression = "1&(0|1)"
-Output: 1
-
-Input: expression = "(0&0)&(0&0&0)"
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_1896.py' %}
+{% tabs %}{% tab title='LC_1896.py' %}
 
 ```py
 def minOperationsToFlip(self, E):

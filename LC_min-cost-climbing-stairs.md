@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_746.md' %}
-
-* Given an integer array cost where cost[i] is the cost of ith step on a staircase
-* Once you pay the cost, you can either climb one or two steps
-* Minimize the cost
-
-```txt
-Input: cost = [10,15,20]
-Output: 15
-```
-
-{% endtab %}{% tab title='LC_746.cpp' %}
+{% tabs %}{% tab title='LC_746.cpp' %}
 
 ```cpp
 int minCostClimbingStairs(vector<int>& cost) {

@@ -1,18 +1,7 @@
-{% tabs %}{% tab title='LC_72.md' %}
+{% tabs %}{% tab title='LC_72.py' %}
 
-* Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.
-* You have the following three operations permitted on a word:
-* Insert / Delete / Replace a character
-
-```txt
-Input: word1 = "horse", word2 = "ros"
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_72.py' %}
-
-* Time: O(MN)
-* Space: O(MN)
+* Time; O(MN)
+* Space; O(MN)
 
 ```py
 def minDistance(self, word1, word2):

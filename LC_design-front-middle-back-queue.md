@@ -1,26 +1,4 @@
-{% tabs %}{% tab title='LC_1670.md' %}
-
-* Design a queue that supports push and pop operations in the front, middle, and back.
-* Implement the FrontMiddleBack class:
-  * FrontMiddleBack() Initializes the queue
-  * void pushFront(int val) Adds val to the front of the queue
-  * void pushMiddle(int val) Adds val to the middle of the queue (performed on the frontmost middle position choice)
-  * void pushBack(int val) Adds val to the back of the queue
-  * int popFront() Removes the front element of the queue and returns it. If the queue is empty, return -1
-  * int popMiddle() Removes the middle element of the queue and returns it. If the queue is empty, return -1
-  * int popBack() Removes the back element of the queue and returns it. If the queue is empty, return -1
-
-```txt
-Input:
-["FrontMiddleBackQueue", "pushFront", "pushBack", "pushMiddle", "pushMiddle", "popFront", "popMiddle", "popMiddle",
-  "popBack", "popFront"]
-[[], [1], [2], [3], [4], [], [], [], [], []]
-
-Output:
-[null, null, null, null, null, 1, 3, 4, 2, -1]
-```
-
-{% endtab %}{% tab title='LC_1670.py' %}
+{% tabs %}{% tab title='LC_1670.py' %}
 
 ```py
 class FrontMiddleBackQueue(object):

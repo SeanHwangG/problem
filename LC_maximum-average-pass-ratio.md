@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_1792.md' %}
-
-* classes[i] = [passi, totali]. You know beforehand that in ith class
-  * there are totali total students, but only passi number of students will pass exam
-* There're another extraStudents brilliant students that are guaranteed to pass exam of any class they're assigned to
-* Assign each of the extraStudents students to a class in a way that maximizes the average pass ratio across all classes
-
-```txt
-Input: classes = [[1,2],[3,5],[2,2]], extraStudents = 2
-Output: 0.78333
-```
-
-{% endtab %}{% tab title='LC_1792.py' %}
+{% tabs %}{% tab title='LC_1792.py' %}
 
 ```py
 def maxAverageRatio(self, A, k):

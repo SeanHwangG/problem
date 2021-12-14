@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1763.md' %}
-
-* A string s is nice if, for every letter of the alphabet that s contains, it appears both in uppercase and lowercase
-* Given a string s, return the longest substring of s that is nice
-* If there are multiple, return the substring of the earliest occurrence. If there are none, return an empty string
-
-```txt
-Input: s = "YazaAay"
-Output: "aAa"
-```
-
-{% endtab %}{% tab title='LC_1763.py' %}
+{% tabs %}{% tab title='LC_1763.py' %}
 
 ```py
 def longestNiceSubstring(self, s: str) -> str:

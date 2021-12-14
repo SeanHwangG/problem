@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_224.md' %}
-
-* Implement eval, consists of digits, '+', '-', '(', ')', and ' '
-
-```txt
-Input: s = "1 + 1"
-Output: 2
-
-Input: s = "(1+(4+5+2)-3)+(6+8)"
-Output: 23
-```
-
-{% endtab %}{% tab title='LC_224.py' %}
+{% tabs %}{% tab title='LC_224.py' %}
 
 * Push result and sign when openning a braces and pop both when closing a brace
 

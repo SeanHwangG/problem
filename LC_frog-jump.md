@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_403.md' %}
-
-* Given list of stones' positions in sorted ascending order, determine if frog can cross river by landing on last stone
-* Initially, frog is on first stone and assumes first jump must be 1 unit
-* If frog's last jump was k units, its next jump must be either k - 1, k, or k + 1 units
- *frog can only jump in the forward direction
-
-```txt
-Input: stones = [0,1,3,5,6,8,12,17]
-Output: true
-```
-
-{% endtab %}{% tab title='LC_403.py' %}
+{% tabs %}{% tab title='LC_403.py' %}
 
 ```py
 from functools import lru_cache

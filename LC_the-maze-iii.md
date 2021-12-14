@@ -1,28 +1,4 @@
-{% tabs %}{% tab title='LC_499.md' %}
-
-* Ball can go through empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting wall
-* Return string instructions of all instructions that ball should follow to drop in hole with shortest distance possible
-* Print lexicographically minimum in case of tie
-
-```txt
-Input: maze =
-[[0,0,0,0,0],
- [1,1,0,0,1],
- [0,0,0,0,0],
- [0,1,0,0,1],
- [0,1,0,0,0]], ball = [4,3], hole = [0,1]
-Output: "lul"
-
-Input: maze =
-[[0,0,0,0,0],
- [1,1,0,0,1],
- [0,0,0,0,0],
- [0,1,0,0,1],
- [0,1,0,0,0]], ball = [4,3], hole = [3,0]
-Output: "impossible"
-```
-
-{% endtab %}{% tab title='LC_499.py' %}
+{% tabs %}{% tab title='LC_499.py' %}
 
 ```py
 def findShortestWay(self, G, ball, hole):

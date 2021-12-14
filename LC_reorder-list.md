@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_143.md' %}
-
-* Given head of a singly linked-list. The list can be represented as:
-  * Reorder the list to be on the following form:
-  * L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
-
-```txt
-Input: head = [1,2,3,4]
-Output: [1,4,2,3]
-```
-
-{% endtab %}{% tab title='LC_143.py' %}
+{% tabs %}{% tab title='LC_143.py' %}
 
 ```py
 # Definition for singly-linked list.

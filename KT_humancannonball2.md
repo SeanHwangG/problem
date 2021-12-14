@@ -1,23 +1,4 @@
-{% tabs %}{% tab title='KT_humancannonball2.md' %}
-
-![KT_humancannonball2](images/20210227_192824.png)
-
-* check whether cannon safely pass with safe margin 1m
-
-```txt
-Input:
-25.0 100.0
-190.0 57.5
-4
-125.0 67.5
-75.0 125.0
-45.0 72.5
-185.0 102.5
-
-Output: 19.984901
-```
-
-{% endtab %}{% tab title='KT_humancannonball2.py' %}
+{% tabs %}{% tab title='KT_humancannonball2.py' %}
 
 ```py
 import math

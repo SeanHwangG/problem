@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_109.md' %}
-
-* make BST from sorted linked list
-
-```txt
-Input: head = [-10,-3,0,5,9]
-Output: [0,-3,9,-10,null,5]
-```
-
-{% endtab %}{% tab title='LC_109.py' %}
+{% tabs %}{% tab title='LC_109.py' %}
 
 ```py
 def sortedListToBST(self, head):

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_842.md' %}
-
-* Return any Fibonacci-like sequence split from num, or return [] if it cannot be done
-
-```txt
-Input: num = "123456579"
-Output: [123,456,579]
-```
-
-{% endtab %}{% tab title='LC_842.py' %}
+{% tabs %}{% tab title='LC_842.py' %}
 
 ```py
 def splitIntoFibonacci(self, num: str) -> List[int]:

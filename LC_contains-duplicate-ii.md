@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_219.md' %}
-
-* Given array and integer k
-* Return if there are two distinct indices i and j in array ST nums[i] == nums[j] and abs(i - j) <= k
-
-```txt
-Input: nums = [1,2,3,1], k = 3
-Output: true
-```
-
-{% endtab %}{% tab title='LC_219.go' %}
+{% tabs %}{% tab title='LC_219.go' %}
 
 ```go
 func containsNearbyDuplicate(nums []int, k int) bool {

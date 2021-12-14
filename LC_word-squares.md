@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_425.md' %}
-
-* Given an array of unique strings words, return all the word squares you can build from words in any order
-* The same word from words can be used multiple times
-* Sequence of strings forms valid word square if kth row and column read same string, where 0 <= k < max(numRows, numColumns)
-
-```txt
-Input: words = ["area","lead","wall","lady","ball"]
-Output: [["ball","area","lead","lady"],["wall","area","lead","lady"]]
-
-Input: words = ["abat","baba","atan","atal"]
-Output: [["baba","abat","baba","atal"],["baba","abat","baba","atan"]]
-```
-
-{% endtab %}{% tab title='LC_425.py' %}
+{% tabs %}{% tab title='LC_425.py' %}
 
 ```py
 def wordSquares(self, words: List[str]) -> List[List[str]]:

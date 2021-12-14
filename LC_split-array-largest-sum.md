@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_410.md' %}
-
-* Given array nums which consists of non-negative integers and integer m, split array into m non-empty continuous subarrays
-* minimize the largest sum among these m subarrays
-
-```txt
-Input: nums = [7,2,5,10,8], m = 2
-Output: 18
-```
-
-{% endtab %}{% tab title='LC_410.py' %}
+{% tabs %}{% tab title='LC_410.py' %}
 
 ```py
 def is_valid(self, nums, m, mi):

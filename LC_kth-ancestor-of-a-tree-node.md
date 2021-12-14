@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1483.md' %}
-
-* Given a tree with n nodes from 0 (root) to n-1 in form of a parent array where parent[i] is parent of node i
-* Implement getKthAncestor(int node, int k) to return k-th ancestor of given node (-1 if no such ancestor)
-
-```txt
-Input:
-["TreeAncestor","getKthAncestor","getKthAncestor","getKthAncestor"]
-[[7,[-1,0,0,1,1,2,2]],[3,1],[5,2],[6,3]]
-
-Output: [null,1,0,-1]
-```
-
-{% endtab %}{% tab title='LC_1483.py' %}
+{% tabs %}{% tab title='LC_1483.py' %}
 
 * A is the parent in 1 step
 * Based on this, we can find the parent in 2 steps, ... parent in 4 steps

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1275.md' %}
-
-* Design Tic Tac Toe
-
-```txt
-Input: moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
-Output: "A"
-```
-
-{% endtab %}{% tab title='LC_1275.py' %}
+{% tabs %}{% tab title='LC_1275.py' %}
 
 ```py
 def tictactoe(self, M: List[List[int]]) -> str:

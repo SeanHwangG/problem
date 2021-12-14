@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_621.md' %}
-
-* Given characters array tasks, representing the tasks CPU needs to do, where each letter represents different task
-* Each task is done in one unit of time. For each unit of time, the CPU could complete either one task or just be idle
-* However, there is a non-negative integer n that represents the cooldown period between two same tasks
-* Return the least number of units of times that the CPU will take to finish all the given tasks
-
-```txt
-Input: tasks = ["A","A","A","B","B","B"], n = 2
-Output: 8
-```
-
-{% endtab %}{% tab title='LC_621.py' %}
+{% tabs %}{% tab title='LC_621.py' %}
 
 ```py
 def leastInterval(self, tasks: List[str], n: int) -> int:

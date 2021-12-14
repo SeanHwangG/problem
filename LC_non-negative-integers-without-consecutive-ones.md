@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_600.md' %}
-
-* Given + integer n, return # integers in range [0, n] whose binary representations don't contain consecutive one
-
-```txt
-Input: n = 5
-Output: 5
-```
-
-{% endtab %}{% tab title='LC_600.py' %}
+{% tabs %}{% tab title='LC_600.py' %}
 
 1. Use fibonacci because 0-10000 is sum of 00000-01111 and 10000-10111
 2. If number starts with "11", all int will be smaller than our number, so return a Fibonacci number for n bits

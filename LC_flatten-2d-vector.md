@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_251.md' %}
-
-* Design flattened 2D Vector
-
-```txt
-Input:
-[
-  [1,2],
-  [3],
-  [4,5,6]
-]
-
-Output: [1,2,3,4,5,6]
-```
-
-{% endtab %}{% tab title='LC_251.py' %}
+{% tabs %}{% tab title='LC_251.py' %}
 
 ```py
 class Vector2D:

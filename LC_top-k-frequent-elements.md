@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_347.md' %}
-
-* Return Top Kth frequent number
-
-```txt
-Input: nums = [1,1,1,2,2,3], k = 2
-Output: [1,2]
-```
-
-{% endtab %}{% tab title='LC_347.cpp' %}
+{% tabs %}{% tab title='LC_347.cpp' %}
 
 ```cpp
 int maxChunksToSorted(vector<int>& arr) {

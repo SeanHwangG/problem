@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_689.md' %}
-
-* Given an integer array nums and an integer k, return three non-overlapping subarrays of length k with maximum sum
-
-```txt
-Input: nums = [1,2,1,2,6,7,5,1], k = 2
-Output: [0,3,5]
-```
-
-{% endtab %}{% tab title='LC_689.py' %}
+{% tabs %}{% tab title='LC_689.py' %}
 
 ```py
 def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:

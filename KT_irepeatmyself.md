@@ -1,21 +1,4 @@
-{% tabs %}{% tab title='KT_irepeatmyself.md' %}
-
-* Find number of repeated pattern
-
-```txt
-Input:
-3
-I Repeat Myself I Repeat Myself I Repeat
-aaaaaaaaaaaaaaaaaaaaa
-abbcabbcabbabbcabb
-
-Output:
-16
-1
-11
-```
-
-{% endtab %}{% tab title='KT_irepeatmyself.py' %}
+{% tabs %}{% tab title='KT_irepeatmyself.py' %}
 
 ```py
 def shortest_pattern(sentence):

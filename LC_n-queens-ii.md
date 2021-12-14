@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_52.md' %}
-
-* Given an integer n, return the number of distinct solutions to the n-queens puzzle
-
-```txt
-Input: n = 4
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_52.py' %}
+{% tabs %}{% tab title='LC_52.py' %}
 
 ```py
 def totalNQueens(self, n: int, queens=[], d1=[], d2=[]) -> int:

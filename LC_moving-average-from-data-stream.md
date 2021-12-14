@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_346.md' %}
-
-* Given a stream of integers and window size, calculate the moving average of all integers in the sliding window
-
-```txt
-MovingAverage m = new MovingAverage(3);
-m.next(1) = 1
-m.next(10) = (1 + 10) / 2
-m.next(3) = (1 + 10 + 3) / 3
-m.next(5) = (10 + 3 + 5) / 3
-```
-
-{% endtab %}{% tab title='LC_346.py' %}
+{% tabs %}{% tab title='LC_346.py' %}
 
 ```py
 class MovingAverage:

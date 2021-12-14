@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_50.md' %}
-
-* Implement pow(x, n), which calculates x raised to the power n
-
-```txt
-Input: 2 3
-Output: 8
-```
-
-{% endtab %}{% tab title='LC_50.py' %}
+{% tabs %}{% tab title='LC_50.py' %}
 
 ```py
 def myPow(self, x, n):

@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_51.md' %}
-
-* Return all answer for NQueen
-
-```txt
-Input: n = 4
-Output:
-[[".Q..","...Q","Q...","..Q."],
- ["..Q.","Q...","...Q",".Q.."]]
-```
-
-{% endtab %}{% tab title='LC_51.py' %}
+{% tabs %}{% tab title='LC_51.py' %}
 
 ```py
 def solveNQueens(self, n):

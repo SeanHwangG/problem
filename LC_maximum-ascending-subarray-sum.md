@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1800.md' %}
-
-* Given an array of positive integers nums, return maximum possible sum of an ascending subarray in nums
-
-```txt
-Input: nums = [10,20,30,5,10,50]
-Output: 65  # 5 10 50
-```
-
-{% endtab %}{% tab title='LC_1800.py' %}
+{% tabs %}{% tab title='LC_1800.py' %}
 
 ```py
 def maxAscendingSum(self, nums: List[int]) -> int:

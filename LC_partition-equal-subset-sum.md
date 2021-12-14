@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_416.md' %}
-
-* Check whether it can be splitted into two equal sum array
-
-```txt
-Input: nums = [1,5,11,5]
-Output: true
-```
-
-{% endtab %}{% tab title='LC_416.py' %}
+{% tabs %}{% tab title='LC_416.py' %}
 
 ```py
 def canPartition(nums):

@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1559.md' %}
-
-* Given a 2D array of grid of size m x n, find if there exists any cycle consisting of the same value in grid
-
-```txt
-Input: grid =
-[["a","a","a","a"],
- ["a","b","b","a"],
- ["a","b","b","a"],
- ["a","a","a","a"]]
-Output: true
-```
-
-{% endtab %}{% tab title='LC_1559.py' %}
+{% tabs %}{% tab title='LC_1559.py' %}
 
 ```py
 def containsCycle(self, G: List[List[str]]) -> bool:

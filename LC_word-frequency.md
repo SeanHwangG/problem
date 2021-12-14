@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_192.md' %}
-
-* Your script should output the following, sorted by descending frequency:
-
-```txt
-Input:
-the day is sunny the the
-the sunny is is
-
-Output:
-the 4
-is 3
-sunny 2
-day 1
-```
-
-{% endtab %}{% tab title='LC_192.sh' %}
+{% tabs %}{% tab title='LC_192.sh' %}
 
 ```sh
 # tr -s: truncate the string with target string, but only remaining one instance (e.g. multiple whitespaces)

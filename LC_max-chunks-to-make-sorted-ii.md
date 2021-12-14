@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_768.md' %}
-
-* Given an integer array arr, split arr into some number of chunks (i.e., partitions), and individually sort each chunk
-* After concatenating them, the result should equal the sorted array
-* Return largest # chunks we can make to sort the array
-
-```txt
-Input: arr = [5,4,3,2,1]
-Output: 1
-
-Input: arr = [2,1,3,4,4]
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_768.py' %}
+{% tabs %}{% tab title='LC_768.py' %}
 
 ```py
 def maxChunksToSorted(self, A):

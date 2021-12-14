@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_79.md' %}
-
-![LC_79](images/20210420_151424.png)
-
-* Given an m x n grid of characters board and a string word, return true if word exists in the grid
-
-```txt
-Input: board =
-[["A","B","C","E"],
- ["S","F","C","S"],
- ["A","D","E","E"]], word = "ABCCED"
-Output: true
-```
-
-{% endtab %}{% tab title='LC_79.py' %}
+{% tabs %}{% tab title='LC_79.py' %}
 
 ```py
 def exist(self, board: List[List[str]], word: str) -> bool:

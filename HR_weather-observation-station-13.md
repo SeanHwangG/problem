@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='HR_weather-observation-station-13.md' %}
-
-| LAT_N | City       |
-| ----- | ---------- |
-| 10    | Rotterdam  |
-| 123   | Ecottsdale |
-| 300   | Corona     |
-
-* Query the sum of Northern Latitudes (LAT_N) from STATION having values greater than 38.7880 and less than 137.2345
-* Truncate your answer to 4 decimal places
-
-| SUM      |
-| -------- |
-| 123.0000 |
-
-{% endtab %}{% tab title='HR_weather-observation-station-13.sql' %}
+{% tabs %}{% tab title='HR_weather-observation-station-13.sql' %}
 
 ```sql
 SELECT TRUNCATE(SUM(LAT_N), 4) FROM Station

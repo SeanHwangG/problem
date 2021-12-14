@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_927.md' %}
-
-* given an array arr which consists of only zeros and ones
-* divide the array into three non-empty parts such that all of these parts represent the same binary value
-* If it is possible, return any [i, j] with i + 1 < j, such that:
-  * arr[0], arr[1], ..., arr[i] is the first part,
-  * arr[i + 1], arr[i + 2], ..., arr[j - 1] is the second part, and
-  * arr[j], arr[j + 1], ..., arr[arr.length - 1] is the third part
-  * All three parts have equal binary values
-* If it is not possible, return [-1, -1]
-
-```txt
-Input: arr = [1,0,1,0,1]
-Output: [0,3]
-```
-
-{% endtab %}{% tab title='LC_927.py' %}
+{% tabs %}{% tab title='LC_927.py' %}
 
 ```py
 def threeEqualParts(self, A: List[int]) -> List[int]:

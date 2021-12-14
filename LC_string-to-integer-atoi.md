@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_8.md' %}
-
-* implement atoi function (string to int)
-
-```txt
-Input: s = "   -42"
-Output: -42
-```
-
-{% endtab %}{% tab title='LC_8.py' %}
+{% tabs %}{% tab title='LC_8.py' %}
 
 ```py
 def myAtoi(self, s):

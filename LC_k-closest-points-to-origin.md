@@ -1,9 +1,4 @@
-{% tabs %}{% tab title='LC_973.md' %}
-
-* Given an array of points where points[i] = [xi, yi] represents a point on X-Y plane and an integer k
-* return k closest points to the origin (0, 0) in any order (guaranteed to be unique)
-
-{% endtab %}{% tab title='LC_973.cpp' %}
+{% tabs %}{% tab title='LC_973.cpp' %}
 
 ```cpp
 vector<vector<int>> kClosest(vector<vector<int>>& A, int K) {

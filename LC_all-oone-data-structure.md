@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='LC_432.md' %}
-
-* Implement the AllOne class:
-* AllOne() Initializes the object of the data structure.
-* inc(String key) Increments count of string key by 1. If key not exist in data structure, insert it with count 1
-* dec(String key) Decrements count of string key by 1. If count of key is 0 after decrement, remove it from data structure
-  * It is guaranteed that key exists in the data structure before the decrement
-* getMaxKey() Returns one of the keys with the maximal count. If no element exists, return an empty string "".
-* getMinKey() Returns one of the keys with the minimum count. If no element exists, return an empty string "".
-
-```txt
-Input:
-["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "inc", "getMaxKey", "getMinKey"]
-[[], ["hello"], ["hello"], [], [], ["leet"], [], []]
-Output:
-[null, null, null, "hello", "hello", null, "hello", "leet"]
-```
-
-{% endtab %}{% tab title='LC_432.cpp' %}
+{% tabs %}{% tab title='LC_432.cpp' %}
 
 ```cpp
 class AllOne {

@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_815.md' %}
-
-* Start at the bus stop source (not on any bus initially), and you want to go to the bus stop target
-* Return the least number of buses you must take to travel from source to target. Return -1 if it's impossible
-
-```txt
-Input: routes = [[1,2,7],[3,6,7]], source = 1, target = 6
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_815.py' %}
+{% tabs %}{% tab title='LC_815.py' %}
 
 ```py
 def numBusesToDestination(self, routes, S, T):

@@ -1,25 +1,4 @@
-{% tabs %}{% tab title='LC_183.md' %}
-
-| Id  | Name  |
-| --- | ----- |
-| 1   | Joe   |
-| 2   | Henry |
-| 3   | Sam   |
-| 4   | Max   |
-
-| Id  | CustomerId |
-| --- | ---------- |
-| 1   | 3          |
-| 2   | 1          |
-
-* find all customers who never order anything
-
-| Customers |
-| --------- |
-| Henry     |
-| Max       |
-
-{% endtab %}{% tab title='LC_183.sql' %}
+{% tabs %}{% tab title='LC_183.sql' %}
 
 ```sql
 SELECT A.Name from Customers A

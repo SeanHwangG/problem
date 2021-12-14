@@ -1,17 +1,8 @@
-{% tabs %}{% tab title='LC_523.md' %}
+{% tabs %}{% tab title='LC_523.py' %}
 
-* Given an integer array nums and an integer k
-* return if nums has a continuous subarray of size at least two whose elements sum up to a multiple of k
-
-```txt
-Input: nums = [23,2,4,6,7], k = 6
-Output: true
-```
-
-{% endtab %}{% tab title='LC_523.py' %}
+* Time, Space; O(N), O(N)
 
 ```py
-# Time, Space : O(N), O(N)
 def checkSubarraySum(self, A, k):
   seen, cur = {0: -1}, 0
   for i, a in enumerate(A):

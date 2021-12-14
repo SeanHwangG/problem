@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_1553.md' %}
-
-* There are n oranges in the kitchen and you decided to eat some of these oranges every day as follows:
-  * Eat one orange
-  * If the number of remaining oranges (n) is divisible by 2 then you can eat  n/2 oranges
-  * If the number of remaining oranges (n) is divisible by 3 then you can eat  2*(n/3) oranges
-
-```txt
-Input: n = 10
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_1553.cpp' %}
+{% tabs %}{% tab title='LC_1553.cpp' %}
 
 ```cpp
 unordered_map<int, int> dp;

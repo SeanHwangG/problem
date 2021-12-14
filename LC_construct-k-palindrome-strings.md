@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1400.md' %}
-
-* Given a string s and integer k. You should construct k non-empty palindrome strings using all the characters in s
-* Return if you can use all the characters in s to construct k palindrome strings
-
-```txt
-Input: s = "annabelle", k = 2
-Output: true
-```
-
-{% endtab %}{% tab title='LC_1400.py' %}
+{% tabs %}{% tab title='LC_1400.py' %}
 
 ```py
 def canConstruct(self, s, k):

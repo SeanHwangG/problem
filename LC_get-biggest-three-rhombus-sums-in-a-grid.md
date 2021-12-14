@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='LC_1878.md' %}
-
-* Given an m x n integer matrix grid​​​
-* A rhombus sum is the sum of the elements that form the border of a regular rhombus shape in grid​​​
-* The rhombus must have the shape of a square rotated 45 degrees with each of the corners centered in a grid cell
-
-```txt
-Input:
-grid = [
-  [3,4,5,1,3],
-  [3,3,4,2,3],
-  [20,30,200,40,10],
-  [1,5,5,4,1],
-  [4,3,2,2,5]]
-
-Output: [228,216,211]
-```
-
-{% endtab %}{% tab title='LC_1878.py' %}
+{% tabs %}{% tab title='LC_1878.py' %}
 
 ```py
 def getBiggestThree(self, grid):

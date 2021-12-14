@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_213.md' %}
-
-* Each house, in circle, has a certain amount of money stashed
-* Adjacent houses have security systems connected and it will automatically contact police
-  * if two adjacent houses were broken into on same night
-* Maximize amount of money you can rob
-
-```txt
-Input: nums = [1,2,3,1]
-Output: 4  # Rob house 1 (money = 1) and then rob house 3 (money = 3).
-```
-
-{% endtab %}{% tab title='LC_213.cpp' %}
+{% tabs %}{% tab title='LC_213.cpp' %}
 
 ```cpp
 int rob(vector<int>& nums) {

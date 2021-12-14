@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_952.md' %}
-
-* There is an edge between A[i] and A[j] if and only if A[i] and A[j] share a common factor greater than 1
-* Return the size of the largest connected component in the graph
-
-```txt
-Input: nums = [20,50,9,63]
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_952.py' %}
+{% tabs %}{% tab title='LC_952.py' %}
 
 ```py
 import collections

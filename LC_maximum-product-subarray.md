@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_152.md' %}
-
-* Print maximum product subarray
-
-```txt
-Input: nums = [2,3,-2,4]
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_152.py' %}
+{% tabs %}{% tab title='LC_152.py' %}
 
 ```py
 def maxProduct(self, A):

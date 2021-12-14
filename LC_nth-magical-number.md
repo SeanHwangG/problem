@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_878.md' %}
-
-* A positive integer is magical if it is divisible by either a or b
-* Given the three integers n, a, and b, return the nth magical number modulo 10 ** 9 + 7
-
-```txt
-Input: n = 1, a = 2, b = 3
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_878.py' %}
+{% tabs %}{% tab title='LC_878.py' %}
 
 ```py
 import math

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_60.md' %}
-
-* Find kth permutation from the set [1, 2, ...]
-
-```txt
-Input: n = 3, k = 3
-Output: "213"
-```
-
-{% endtab %}{% tab title='LC_60.py' %}
+{% tabs %}{% tab title='LC_60.py' %}
 
 ```py
 class Solution:

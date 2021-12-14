@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_209.md' %}
-
-* Print minimum length of contiguous subarray sum is greater than target
-
-```txt
-Input: target = 7, nums = [2,3,1,2,4,3]
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_209.py' %}
+{% tabs %}{% tab title='LC_209.py' %}
 
 ```py
 def minSubArrayLen(self, s, A):

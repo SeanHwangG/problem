@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1856.md' %}
-
-* The min-product of an array is equal to the minimum value in the array multiplied by the array's sum
-* Given an array of integers nums, return the maximum min-product of any non-empty subarray of nums, modulo 109 + 7
-
-```txt
-Input: nums = [1,2,3,2]
-Output: 14
-```
-
-{% endtab %}{% tab title='LC_1856.cpp' %}
+{% tabs %}{% tab title='LC_1856.cpp' %}
 
 ```cpp
 int maxSumMinProduct(vector<int>& n) {

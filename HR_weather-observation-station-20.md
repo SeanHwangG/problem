@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='HR_weather-observation-station-20.md' %}
-
-* STATION
-
-| LAT_N | City       |
-| ----- | ---------- |
-| 10    | Rotterdam  |
-| 123   | Ecottsdale |
-| 123   | Corona     |
-
-* Query the median of the Northern Latitudes (LAT_N) from STATION and round your answer to 4 decimal places
-
-| Median   |
-| -------- |
-| 123.0000 |
-
-{% endtab %}{% tab title='HR_weather-observation-station-20.sql' %}
+{% tabs %}{% tab title='HR_weather-observation-station-20.sql' %}
 
 ```sql
 SELECT ROUND(x.LAT_N,4) from STATION x, STATION y

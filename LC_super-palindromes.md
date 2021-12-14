@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_906.md' %}
-
-* Let's say a positive integer is a super-palindrome if it is a palindrome, and it is also the square of a palindrome
-* Given two positive integers left and right, return # super-palindromes integers in inclusive range [left, right]
-
-```txt
-Input: left = "4", right = "1000"
-Output: 4  # 4, 9, 121, and 484 are superpalindromes.
-```
-
-{% endtab %}{% tab title='LC_906.py' %}
+{% tabs %}{% tab title='LC_super-palindromes.md' %}
 
 ```py
 def superpalindromesInRange(self, left: str, right: str) -> int:

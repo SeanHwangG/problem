@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1827.md' %}
-
-* Given integer array nums (0-indexed). In 1 operation, choose an element of array and increment it by 1
-* Return minimum number of operations needed to make nums strictly increasing
-
-```txt
-Input: nums = [1,1,1]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_1827.py' %}
+{% tabs %}{% tab title='LC_1827.py' %}
 
 ```cpp
 int minOperations(vector<int>& nums) {

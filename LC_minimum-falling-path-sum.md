@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_931.md' %}
-
-* Given 2D grid, find minium path sum
-* (row, col) can go to (row + 1, col - 1), (row + 1, col), or (row + 1, col + 1)
-
-```txt
-Input: matrix = [[2,1,3],[6,5,4],[7,8,9]]
-Output: 13
-```
-
-{% endtab %}{% tab title='LC_931.py' %}
+{% tabs %}{% tab title='LC_931.py' %}
 
 ```py
 def minFallingPathSum(self, A):

@@ -1,18 +1,9 @@
-{% tabs %}{% tab title='LC_648.md' %}
+{% tabs %}{% tab title='LC_648.py' %}
 
-* Given a dictionary consisting of many roots and a sentence consisting of words separated by spaces
-* replace all successors in sentence with root forming it
-* If a successor can be replaced by more than one root, replace it with the root that has the shortest length
-
-```txt
-Input: dictionary = ["cat","bat","rat"], sentence = "the cattle was rattled by the battery"
-Output: "the cat was rat by the bat"
-```
-
-{% endtab %}{% tab title='LC_648.py' %}
+* Time; O(N)
+* Space; O(N*K)
 
 ```py
-# Time : O(N), Space : O(N*K)
 def replaceWords(self, roots, sentence):
   _trie = lambda: collections.defaultdict(_trie)
   trie = _trie()

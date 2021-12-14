@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_675.md' %}
-
-* 0 means the cell cannot be walked through, 1 represents an empty cell that can be walked through
-* number greater than 1 represents a tree in a cell that can be walked through, and this number is the tree's height
-* Starting from point (0, 0), return minimum steps you need to walk to cut off all trees. If you cannot, return -1
-
-```txt
-Input: forest =
-[[1,2,3],
- [0,0,4],
- [7,6,5]]
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_675.py' %}
+{% tabs %}{% tab title='LC_675.py' %}
 
 * Hadlock's algorithm
 

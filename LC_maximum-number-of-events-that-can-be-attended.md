@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_1353.md' %}
-
-* Given an array of events where events[i] = [startDayi, endDayi]
-* Every event i starts at startDayi and ends at endDayi
-* can attend an event i at any day d where startTimei <= d <= endTimei (you can only attend one event at any time d)
-* Return the maximum number of events you can attend
-
-```txt
-Input: events = [[1,2],[2,3],[3,4]]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_1353.py' %}
+{% tabs %}{% tab title='LC_1353.py' %}
 
 ```py
 def maxEvents(self, A):

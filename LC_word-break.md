@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_139.md' %}
-
-* Given a string s and a dictionary of strings wordDict
-* return true if s can be segmented into a space-separated sequence of one or more dictionary words
-
-```txt
-Input: s = "applepenapple", wordDict = ["apple","pen"]
-Output: true
-```
-
-{% endtab %}{% tab title='LC_139.py' %}
+{% tabs %}{% tab title='LC_139.py' %}
 
 ```py
 def wordBreak(self, s: str, words: List[str]) -> bool:

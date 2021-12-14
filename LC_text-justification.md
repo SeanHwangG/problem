@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_68.md' %}
-
-* Full justify line
-
-```txt
-Input: words = ["This", "is", "an", "example", "of", "text", "justification."], maxWidth = 16
-Output:
-[
-   "This    is    an",
-   "example  of text",
-   "justification.  "
-]
-```
-
-{% endtab %}{% tab title='LC_68.py' %}
+{% tabs %}{% tab title='LC_68.py' %}
 
 ```py
 def fullJustify(self, words, maxWidth):

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_342.md' %}
-
-* Print if power if 4
-
-```txt
-Input: 16
-Output: True
-```
-
-{% endtab %}{% tab title='LC_342.cpp' %}
+{% tabs %}{% tab title='LC_342.cpp' %}
 
 ```cpp
 // (4^n - 1) % 3 == 0

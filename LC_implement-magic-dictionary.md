@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_676.md' %}
-
-* Implement the MagicDictionary class:
-  * MagicDictionary() Initializes the object
-  * void buildDict(String[] dictionary) Sets the data structure with an array of distinct strings dictionary
-  * bool search(String searchWord) Return if change exactly 1 character in searchWord to match any string in data structure
-
-```txt
-Input:
-["MagicDictionary", "buildDict", "search", "search", "search", "search"]
-[[], [["hello", "leetcode"]], ["hello"], ["hhllo"], ["hell"], ["leetcoded"]]
-
-Output: [null, null, false, true, false, false]
-```
-
-{% endtab %}{% tab title='LC_676.py' %}
+{% tabs %}{% tab title='LC_676.py' %}
 
 ```py
 class MagicDictionary:

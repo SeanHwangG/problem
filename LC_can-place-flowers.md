@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_605.md' %}
-
-* Flowers cannot be planted in adjacent plots
-* Given an integer array flowerbed containing 0's, 1's, where 0 means empty and 1 means not empty, and integer n
-* return if n new flowers can be planted
-
-```txt
-Input: flowerbed = [1,0,0,0,1], n = 1
-Output: true
-```
-
-{% endtab %}{% tab title='LC_605.py' %}
+{% tabs %}{% tab title='LC_605.py' %}
 
 ```py
 def canPlaceFlowers(self, A, N):

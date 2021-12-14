@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_75.md' %}
-
-* Sort three number
-
-```txt
-Input: nums = [2,0,2,1,1,0]
-Output: [0,0,1,1,2,2]
-```
-
-{% endtab %}{% tab title='LC_75.py' %}
+{% tabs %}{% tab title='LC_75.py' %}
 
 ```py
 def sortColors(self, nums):

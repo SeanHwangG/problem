@@ -1,27 +1,4 @@
-{% tabs %}{% tab title='LC_1301.md' %}
-
-* Given square board of characters. Move on board starting at the bottom right square marked with the character 'S'
-* Reach the top left square marked with the character 'E'
-* Rest of the squares are labeled with a numeric character 1...9 or with an obstacle 'X'
-* In one move you can go up, left or up-left (diagonally) only if there is no obstacle there.
-* Return a list of two integers: the first integer is the maximum sum of numeric characters you can collect
-* Second is # such paths that you can take to get that maximum sum, taken MOD 10^9 + 7. if no path, return [0, 0]
-
-```txt
-Input: board =
-["E23",
- "2X2",
- "12S"]
-Output: [7,1]
-
-Input: board =
-["E12",
- "1X1",
- "21S"]
-Output: [4,2]
-```
-
-{% endtab %}{% tab title='LC_1301.py' %}
+{% tabs %}{% tab title='LC_1301.py' %}
 
 * Time: O(N^2)
 * Space: O(N^2)

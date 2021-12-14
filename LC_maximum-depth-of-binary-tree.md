@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_104.md' %}
-
-* Given root of binary tree, return its maximum depth
-
-```txt
-Input: root = [3,9,20,null,null,15,7]
-Output: 3
-
-Input: root = [1,null,2]
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_104.go' %}
+{% tabs %}{% tab title='LC_104.go' %}
 
 ```go
 func maxDepth(root *TreeNode) int {

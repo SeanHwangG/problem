@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='HR_uk-and-us-2.md' %}
-
-* For some spelling, US uses or, while UK uses our
-* Given UK spelling, find the number of occurence from sentence either of them
-
-```txt
-Input:
-2
-the odour coming out of the leftover food was intolerable
-ammonia has a very pungent odor
-1
-odour
-
-Output: 2
-```
-
-{% endtab %}{% tab title='HR_uk-and-us-2.py' %}
+{% tabs %}{% tab title='HR_uk-and-us-2.py' %}
 
 ```py
 import re

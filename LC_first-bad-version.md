@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_278.md' %}
-
-* Find first bad version using isBadVersion function
-
-```txt
-50
-isBadVersion False
-25
-isBadVersion True
-...
-```
-
-{% endtab %}{% tab title='LC_278.py' %}
+{% tabs %}{% tab title='LC_278.py' %}
 
 ```py
 def firstBadVersion(self, n):

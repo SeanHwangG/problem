@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_1755.md' %}
-
-* Given an integer array nums and an integer goal
-* choose a subsequence of nums such that the sum of its elements is the closest possible to goal
-* That is, if sum of subsequence's elements is sum, then you want to minimize the absolute difference abs(sum - goal)
-* Return the minimum possible value of abs(sum - goal)
-
-```txt
-Input: nums = [5,-7,3,5], goal = 6
-Output: 0
-```
-
-{% endtab %}{% tab title='LC_1755.py' %}
+{% tabs %}{% tab title='LC_1755.py' %}
 
 ```py
 def minAbsDifference(self, nums: List[int], goal: int) -> int:

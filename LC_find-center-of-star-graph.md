@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1791.md' %}
-
-* Find most common item in 2d list
-
-```txt
-Input: edges = [[1,2],[2,3],[4,2]]
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_1791.py' %}
+{% tabs %}{% tab title='LC_1791.py' %}
 
 ```py
 def findCenter(self, edges: List[List[int]]) -> int:

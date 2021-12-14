@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1960.md' %}
-
-* Given string s, find two non-intersecting palindromic substrings of odd length st product of lengths is maximized
-* Return the maximum possible product of the lengths of the two non-intersecting palindromic substrings
-
-```txt
-Input: s = "ababbb"
-Output: 9
-
-Input: s = "zaaaxbbby"
-Output: 9
-```
-
-{% endtab %}{% tab title='LC_1960.py' %}
+{% tabs %}{% tab title='LC_1960.py' %}
 
 * Time: O(n)
 

@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_556.md' %}
-
-* Given positive integer n, find smallest int which has same digits existing in integer n, greater in value than n
-* If no such positive integer exists, return -1
-* Note that returned integer should fit in 32-bit integer, if valid answer does not fit in 32-bit integer, return -1.
-
-```txt
-Input: n = 12
-Output: 21
-
-Input: n = 21
-Output: -1
-```
-
-{% endtab %}{% tab title='LC_556.cpp' %}
+{% tabs %}{% tab title='LC_556.cpp' %}
 
 ```cpp
 int nextGreaterElement(int n) {

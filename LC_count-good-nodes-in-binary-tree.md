@@ -1,16 +1,7 @@
-{% tabs %}{% tab title='LC_1448.md' %}
+{% tabs %}{% tab title='LC_1448.cpp' %}
 
-* Count number of good nodes in a binary tree
-
-```txt
-Input: root = [3,1,4,3,null,1,5]
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_1448.cpp' %}
-
-* Time: O(N)
-* Space: O(height)
+* Time; O(N)
+* Space; O(height)
 
 ```cpp
 int goodNodes(TreeNode* r, int ma = -10000) {

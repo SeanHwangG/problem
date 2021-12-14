@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1116.md' %}
-
-* Thread A will call zero() which should only output 0's
-* Thread B will call even() which should only ouput even numbers
-* Thread C will call odd() which should only output odd numbers
-
-```txt
-Input: n = 5
-Output: "0102030405"
-```
-
-{% endtab %}{% tab title='LC_1116.cpp' %}
+{% tabs %}{% tab title='LC_1116.cpp' %}
 
 * lock
 

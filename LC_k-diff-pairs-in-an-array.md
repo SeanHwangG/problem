@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_532.md' %}
-
-* Given Array, find number of pairs with difference k
-
-```txt
-Input: nums = [3,1,4,1,5], k = 2
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_532.java' %}
+{% tabs %}{% tab title='LC_532.java' %}
 
 ```java
 public int findPairs(int[] nums, int k) {

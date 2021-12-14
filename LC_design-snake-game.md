@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_353.md' %}
-
-* Implement the SnakeGame class:
-  * SnakeGame(int width, int height, int[][] food) Initializes a screen of size height x width and positions of food
-  * int move(String direction) Returns score of game after applying one direction move by snake. -1 if over
-
-```txt
-Input:
-["SnakeGame", "move", "move", "move", "move", "move", "move"]
-[[3, 2, [[1, 2], [0, 1]]], ["R"], ["D"], ["R"], ["U"], ["L"], ["U"]]
-
-Output:
-[null, 0, 0, 1, 1, 2, -1]
-```
-
-{% endtab %}{% tab title='LC_353.py' %}
+{% tabs %}{% tab title='LC_353.py' %}
 
 ```py
 class SnakeGame:

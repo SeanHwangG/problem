@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_174.md' %}
-
-* Return the knight's minimum initial health so that he can rescue the princess
-
-```txt
-Input: dungeon = [[-2,-3,3],[-5,-10,1],[10,30,-5]]
-Output: 7
-```
-
-{% endtab %}{% tab title='LC_174.py' %}
+{% tabs %}{% tab title='LC_174.py' %}
 
 ```py
 def calculateMinimumHP(self, G: List[List[int]]) -> int:

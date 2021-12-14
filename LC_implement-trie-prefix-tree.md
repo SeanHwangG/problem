@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_208.md' %}
-
-* Design Trie
-
-```txt
-Input:
-["Trie", "insert", "search", "search", "startsWith", "insert", "search"]
-[[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
-
-Output:
-[null, null, true, false, true, null, true]
-```
-
-{% endtab %}{% tab title='LC_208.cpp' %}
+{% tabs %}{% tab title='LC_208.cpp' %}
 
 ```cpp
 class Trie {

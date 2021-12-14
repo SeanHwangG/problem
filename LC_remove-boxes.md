@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_546.md' %}
-
-* Given boxes with different colors represented by different positive numbers
-* Repeat until there is no box left
-* Each time choose some continuous boxes with same color, remove them and get k x k point, return max possible points
-
-```txt
-Input: boxes = [1,3,2,2,2,3,4,3,1]
-Output: 23
-```
-
-{% endtab %}{% tab title='LC_546.py' %}
+{% tabs %}{% tab title='LC_546.py' %}
 
 ```py
 def removeBoxes(self, B: List[int]) -> int:

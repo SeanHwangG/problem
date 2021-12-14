@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_15.md' %}
-
-* find list of three indices that sums up to zero
-
-```txt
-Input: nums = [-1,2,1,-4], target = 1
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_15.py' %}
+{% tabs %}{% tab title='LC_15.py' %}
 
 ```py
 def threeSum(self, nums):

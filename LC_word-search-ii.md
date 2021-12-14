@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_212.md' %}
-
-![LC_212](images/20210228_150711.png)
-
-* Find all words with in B
-
-```txt
-Input: board = [["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], words = ["oath","pea","eat","rain"]
-Output: ["eat","oath"]
-```
-
-{% endtab %}{% tab title='LC_212.py' %}
+{% tabs %}{% tab title='LC_212.py' %}
 
 ```py
 class TrieNode():

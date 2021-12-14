@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_376.md' %}
-
-* Wiggle sequence is sequence where differences between successive numbers strictly alternate between positive and negative
-* The first difference may be either positive or negative. One element is trivially a wiggle sequence
-* Find length of longest wiggle sequence
-
-```txt
-Input: nums = [1,7,4,9,2,5]
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_376.py' %}
+{% tabs %}{% tab title='LC_376.py' %}
 
 ```py
 def wiggleMaxLength(self, nums: List[int]) -> int:

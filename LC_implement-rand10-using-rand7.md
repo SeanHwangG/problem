@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_470.md' %}
-
-* Print rand10() given rand7()
-
-```txt
-Input: n = 2
-Output: [2, 8]
-```
-
-{% endtab %}{% tab title='LC_470.cpp' %}
+{% tabs %}{% tab title='LC_470.cpp' %}
 
 ```cpp
 int rand10() {

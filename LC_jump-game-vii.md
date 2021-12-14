@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_1871.md' %}
-
-* given a 0-indexed binary string s and two integers minJump and maxJump
-* Starting at index 0, which is equal to '0', move from index i to index j if the following conditions are fulfilled:
-  * i + minJump <= j <= min(i + maxJump, s.length - 1), and s[j] == '0'
-* Return true if you can reach index s.length - 1 in s, or false otherwise
-
-```txt
-Input: s = "011010", minJump = 2, maxJump = 3
-Output: true
-```
-
-{% endtab %}{% tab title='LC_1871.py' %}
+{% tabs %}{% tab title='LC_1871.py' %}
 
 ```py
 def canReach(self, s, minJ, maxJ):

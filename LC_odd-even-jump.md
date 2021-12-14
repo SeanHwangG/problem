@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_975.md' %}
-
-* During odd-numbered jumps, jump to index j ST arr[i] <= arr[j] and arr[j] is smallest possible (value, index)
-* During even-numbered jumps, jump to index j ST arr[i] >= arr[j] and arr[j] is largest possible (value, index)
-* Return the number of indices where you can reach the end of the array
-
-```txt
-Input: arr = [10,13,12,14,15]
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_975.cpp' %}
+{% tabs %}{% tab title='LC_975.cpp' %}
 
 * Time: O(NlogN)
 * Space: O(N)

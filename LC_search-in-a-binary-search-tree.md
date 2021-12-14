@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_700.md' %}
-
-* Given an expression such as expression = "e + 8 - a + 5" and an evaluation map such as {"e": 1}
-* Return list of tokens representing simplified expression, such as ["-1*a","14"]
-
-```txt
-Input: expression = "e - 8 + temperature - pressure", evalvars = ["e", "temperature"], evalints = [1, 12]
-Output: ["-1*pressure","5"]
-
-Input: expression = "(e + 8) * (e - 8)", evalvars = [], evalints = []
-Output: ["1*e*e","-64"]
-
-Input: expression = "a * b * c + b * a * c * 4", evalvars = [], evalints = []
-Output: ["5*a*b*c"]
-```
-
-{% endtab %}{% tab title='LC_700.py' %}
+{% tabs %}{% tab title='LC_700.py' %}
 
 ```py
 def basicCalculatorIV(self, expression: str, evalvars: List[str], evalints: List[int]) -> List[str]:

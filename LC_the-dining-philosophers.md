@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1226.md' %}
-
-* 5 silent philosophers sit at round table with bowls of spaghetti with Forks placed between each pair of adjacent philosophers
-* Design behaviour ST no philosopher will starve
-* Each can forever continue to alternate between eating and thinking
-* Assuming that no philosopher can know when others may want to eat or think
-
-```txt
-Input: n = 1
-Output: [[4,2,1],[4,1,1],[0,1,1],[2,2,1],[2,1,1],[2,0,3],[2,1,2],[2,2,2],[4,0,3],[4,1,2],[0,2,1],[4,2,2],[3,2,1],
-  [3,1,1],[0,0,3],[0,1,2],[0,2,2],[1,2,1],[1,1,1],[3,0,3],[3,1,2],[3,2,2],[1,0,3],[1,1,2],[1,2,2]]
-```
-
-{% endtab %}{% tab title='LC_1226.py' %}
+{% tabs %}{% tab title='LC_1226.py' %}
 
 ```py
 from threading import Lock

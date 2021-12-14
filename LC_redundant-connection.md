@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_684.md' %}
-
-* Return an edge that can be removed so that the resulting graph is a tree of N nodes
-
-```txt
-Input: edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]
-Output: [1,4]
-```
-
-{% endtab %}{% tab title='LC_684.cpp' %}
+{% tabs %}{% tab title='LC_684.cpp' %}
 
 ```cpp
 vector<int> findRedundantConnection(vector<vector<int>>& edges) {
@@ -22,15 +13,11 @@ vector<int> findRedundantConnection(vector<vector<int>>& edges) {
 }
 ```
 
-{% endtab %}{% tab title='LC_684.java' %}
-
-```java
-```
-
 {% endtab %}{% tab title='LC_684.py' %}
 
+* Time; O(n^2) because of string replace / Space : O(n)
+
 ```py
-# Time : O(n^2) because of string replace / Space : O(n)
 def findRedundantConnection(self, edges):
   tree = ''.join(map(chr, range(1001)))
   for u, v in edges:

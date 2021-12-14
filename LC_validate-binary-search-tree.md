@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_98.md' %}
-
-Check if tree is valid BST
-
-```txt
-Input: root = [5,1,4,null,null,3,6]
-Output: false
-```
-
-{% endtab %}{% tab title='LC_98.cpp' %}
+{% tabs %}{% tab title='LC_98.cpp' %}
 
 ```cpp
 class Solution {

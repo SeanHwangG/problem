@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1382.md' %}
-
-* Given a binary search tree, return a balanced binary search tree with the same node values
-* Binary search tree is balanced iff the depth of the two subtrees of every node never differ by more than 1
-
-```txt
-Input: root = [1,null,2,null,3,null,4,null,null]
-Output: [2,1,3,null,null,null,4]
-```
-
-{% endtab %}{% tab title='LC_1382.py' %}
+{% tabs %}{% tab title='LC_1382.py' %}
 
 ```py
 class Solution:

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_876.md' %}
-
-* Print middle node in linked list
-
-```txt
-Input: [1,2,3,4,5,6]
-Output: Node 4 from this list (Serialization: [4,5,6])
-```
-
-{% endtab %}{% tab title='LC_876.py' %}
+{% tabs %}{% tab title='LC_876.py' %}
 
 ```py
 def middleNode(self, head: ListNode) -> ListNode:

@@ -1,15 +1,4 @@
-
-{% tabs %}{% tab title='KT_peragrams.md' %}
-
-* Peragrams is Palindrome when suffle it's character
-* Given string, how many character should I remove to make Peragrams
-
-```txt
-Input: abc
-Output: 0
-```
-
-{% endtab %}{% tab title='KT_peragrams.py' %}
+{% tabs %}{% tab title='KT_peragrams.py' %}
 
 ```py
 from collections import Counter

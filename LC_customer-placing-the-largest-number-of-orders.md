@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_586.md' %}
-
-| order_number | customer_number |
-+--------------+-----------------+
-| 1            | 1               |
-| 2            | 2               |
-| 3            | 3               |
-| 4            | 3               |
-
-* find the customer_number for the customer who has placed the largest number of orders
-
-| customer_number |
-+-----------------+
-| 3               |
-
-{% endtab %}{% tab title='LC_586.sql' %}
+{% tabs %}{% tab title='LC_586.sql' %}
 
 ```sql
 SELECT  customer_number FROM orders

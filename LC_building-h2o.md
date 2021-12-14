@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1117.md' %}
-
-* You have function that prints h, o. Print hho sequentially
-
-```txt
-Input: "OOHHHH"
-Output: "HHOHHO"  # "HOHHHO", "OHHHHO", "HHOHOH", "HOHHOH", "OHHHOH", "HHOOHH", "HOHOHH" and "OHHOHH" are also valid
-```
-
-{% endtab %}{% tab title='LC_1117.cpp' %}
+{% tabs %}{% tab title='LC_1117.cpp' %}
 
 ```cpp
 class H2O {

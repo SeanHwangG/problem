@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_140.md' %}
-
-* Given a string s and a dictionary of strings wordDict
-* add spaces in s to construct a sentence where each word is a valid dictionary word
-* Return all such possible sentences in any order
-
-```txt
-Input: s = "catsanddog", wordDict = ["cat","cats","and","sand","dog"]
-Output: ["cats and dog","cat sand dog"]
-```
-
-{% endtab %}{% tab title='LC_140.py' %}
+{% tabs %}{% tab title='LC_140.py' %}
 
 ```py
 def wordBreak(self, s: str, words: List[str]) -> List[str]:

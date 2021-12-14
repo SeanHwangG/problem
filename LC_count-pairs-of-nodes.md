@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1782.md' %}
-
-* An undirected graph with n number of nodes, and an integer array queries are given
-* The answer to the jth query is the number of pairs of nodes (a, b) that satisfy the following conditions:
-  * a < b
-  * cnt is strictly greater than queries[j], where cnt is the number of edges incident to a or b
-* Return an array answers where answers[j] is the answer of the jth query
-
-```txt
-Input: n = 4, edges = [[1,2],[2,4],[1,3],[2,3],[2,1]], queries = [2,3]
-Output: [6,5]
-```
-
-{% endtab %}{% tab title='LC_1782.py' %}
+{% tabs %}{% tab title='LC_1782.py' %}
 
 ```py
 def countPairs(self, n: int, edges: List[List[int]], queries: List[int]) -> List[int]:

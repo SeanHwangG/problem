@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1850.md' %}
-
-* Given a string num, representing a large integer, and an integer k
-* integer is wonderful if it's a permutation of the digits in num and is greater in value than num
-* Return min number of adjacent digit swaps that needs to be applied to num to reach the kth smallest wonderful int
-
-```txt
-Input: num = "11112", k = 4
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_1850.cpp' %}
+{% tabs %}{% tab title='LC_1850.cpp' %}
 
 ```cpp
 int getMinSwaps(string num, int k) {

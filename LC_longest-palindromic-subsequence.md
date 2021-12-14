@@ -1,11 +1,8 @@
-{% tabs %}{% tab title='LC_516.md' %}
+{% tabs %}{% tab title='LC_516.cpp' %}
 
-* Given a string s, find the longest palindromic subsequence's length in s
-
-{% endtab %}{% tab title='LC_516.cpp' %}
+* Time, Space; O(N^2), O(N)
 
 ```cpp
-// Time, Space: O(N^2), O(N)
 int longestPalindromeSubseq(string s) {
   vector<int> dp(s.size(), 1);
   for (int j = 0; j < s.size(); ++j) {

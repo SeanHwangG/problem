@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_543.md' %}
-
-* Find diameter of binary tree
-
-```txt
-Input: root = [1,2,3,4,5]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_543.py' %}
+{% tabs %}{% tab title='LC_543.py' %}
 
 ```py
 def diameterOfBinaryTree(self, root):

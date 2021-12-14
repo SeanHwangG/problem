@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_400.md' %}
-
-* Find nth digit of the infinite integer sequence 1,2,..
-
-```txt
-Input: n = 11
-Output: 0
-```
-
-{% endtab %}{% tab title='LC_400.py' %}
+{% tabs %}{% tab title='LC_400.py' %}
 
 ```py
 def findNthDigit(self, n):

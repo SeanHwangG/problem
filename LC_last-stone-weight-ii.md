@@ -1,12 +1,4 @@
-{% tabs %}{% tab title='LC_1049.md' %}
-
-* Given an array of integers stones where stones[i] is the weight of the ith stone
-* On each turn, choose any two stones with x, y (x <= y) and smash them together
-  * If x == y, both stones are destroyed, and
-  * If x != y, the stone of weight x is destroyed, and the stone of weight y has new weight y - x
-* Return the smallest possible weight of the left stone at the end. if no stones left, 0
-
-{% endtab %}{% tab title='LC_1049.py' %}
+{% tabs %}{% tab title='LC_1049.py' %}
 
 * w[i] = stones[i] (Weight of jewel)
 * v[i] = stones[i] (Value of jewel)

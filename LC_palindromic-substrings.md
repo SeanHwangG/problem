@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_647.md' %}
-
-* Given a string s, return the number of palindromic substrings in it
-* A substring is a contiguous sequence of characters within the string
-
-```txt
-Input: s = "aaa"
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_647.cpp' %}
+{% tabs %}{% tab title='LC_647.cpp' %}
 
 ```cpp
 int countSubstrings(string s) {

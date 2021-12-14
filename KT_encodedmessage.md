@@ -1,10 +1,4 @@
-{% tabs %}{% tab title='KT_encodedmessage.md' %}
-
-![KT_encodedmessage](images/20210301_024150.png)
-
-* Encode as following
-
-{% endtab %}{% tab title='KT_encodedmessage.py' %}
+{% tabs %}{% tab title='KT_encodedmessage.py' %}
 
 ```py
 n = int(input())

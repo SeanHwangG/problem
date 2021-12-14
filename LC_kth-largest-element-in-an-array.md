@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_215.md' %}
-
-* Find kth largest number
-
-```txt
-Input: nums = [3,2,1,5,6,4], k = 2
-Output: 5
-```
-
-{% endtab %}{% tab title='LC_215.cpp' %}
+{% tabs %}{% tab title='LC_215.cpp' %}
 
 ```cpp
 int findKthLargest(vector<int>& nums, int k) {

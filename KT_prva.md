@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='KT_prva.md' %}
-
-* Output the lexicographically smallest word with <1 character in the crossword
-
-```txt
-Input:
-4 4
-luka
-o#a#
-kula
-i#a#
-
-Output: kala
-```
-
-{% endtab %}{% tab title='KT_prva.py' %}
+{% tabs %}{% tab title='KT_prva.py' %}
 
 ```py
 n, m = map(int, input().split())

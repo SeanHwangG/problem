@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='HR_s10-normal-distribution-2.md' %}
-
-* grades for a exam taken by students have a mean of 70 and a STD of 10, find probabilities
-* higher than 80, 60 / lower than 60
-
-```txt
-Input: 70 10
-
-Output:
-80
-60
-```
-
-{% endtab %}{% tab title='HR_s10-normal-distribution-2.py' %}
+{% tabs %}{% tab title='HR_s10-normal-distribution-2.py' %}
 
 ```py
 import math

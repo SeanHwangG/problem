@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_121.md' %}
-
-* Maximize profit by choosing 1 day to buy 1 stock and choosing different day in the future to sell that stock
-
-```txt
-Input: prices = [7,1,5,3,6,4]
-Output: 5  # Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
-```
-
-{% endtab %}{% tab title='LC_121.java' %}
+{% tabs %}{% tab title='LC_121.java' %}
 
 ```java
 public int maxProfit(int[] prices) {

@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='KT_pet.md' %}
-
-* When each participant is given an evaluation score, find the winner and his score
-
-```txt
-Input:
-5 4 4 5
-5 4 4 4
-5 5 4 4
-5 5 5 4
-4 4 4 5
-
-Output: 4 19
-```
-
-{% endtab %}{% tab title='KT_pet.py' %}
+{% tabs %}{% tab title='KT_pet.py' %}
 
 ```py
 num = mx = 0

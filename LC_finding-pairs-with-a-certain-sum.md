@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_1865.md' %}
-
-* given two integer arrays nums1 and nums2, implement a data structure that supports queries of two types:
-  * Add a positive integer to an element of a given index in the array nums2
-  * Count the number of pairs (i, j) s.t. nums1[i] + nums2[j] equals a given value
-
-```txt
-Input:
-["FindSumPairs", "count", "add", "count", "count", "add", "add", "count"]
-[[[1, 1, 2, 2, 2, 3], [1, 4, 5, 2, 5, 4]], [7], [3, 2], [8], [4], [0, 1], [1, 1], [7]]
-
-Output:
-[null, 8, null, 2, 1, null, null, 11]
-```
-
-{% endtab %}{% tab title='LC_1865.py' %}
+{% tabs %}{% tab title='LC_1865.py' %}
 
 ```py
 class FindSumPairs:

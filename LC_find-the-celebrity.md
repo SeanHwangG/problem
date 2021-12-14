@@ -1,21 +1,7 @@
-{% tabs %}{% tab title='LC_277.md' %}
+{% tabs %}{% tab title='LC_277.py' %}
 
-* Definition of a celebrity is that all the other n - 1 people know him/her, but he/she does not know any of them
-* Given a helper function bool knows(a, b) which tells you whether A knows B
-* Return celebrity's label if there is a celebrity in the party. If none, return -1.
-
-```txt
-Input: graph = [[1,1,0],[0,1,0],[1,1,1]]
-Output: 1
-
-Input: graph = [[1,0,1],[1,1,0],[0,1,1]]
-Output: -1
-```
-
-{% endtab %}{% tab title='LC_277.py' %}
-
-* Time: O(N)
-* Space: O(1)
+* Time; O(N)
+* Space; O(1)
 
 ```py
 # def knows(a: int, b: int) -> bool:

@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='LC_695.md' %}
-
-* Area of an island is the number of cells with a value 1 in the island.
-* Return the maximum area of an island in grid. If there is no island, return 0.
-
-```txt
-Input: grid =
-[[0,0,1,0,0,0,0,1,0,0,0,0,0],
- [0,0,0,0,0,0,0,1,1,1,0,0,0],
- [0,1,1,0,1,0,0,0,0,0,0,0,0],
- [0,1,0,0,1,1,0,0,1,0,1,0,0],
- [0,1,0,0,1,1,0,0,1,1,1,0,0],
- [0,0,0,0,0,0,0,0,0,0,1,0,0],
- [0,0,0,0,0,0,0,1,1,1,0,0,0],
- [0,0,0,0,0,0,0,1,1,0,0,0,0]]
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_695.py' %}
+{% tabs %}{% tab title='LC_695.py' %}
 
 ```py
 def maxAreaOfIsland(self, grid):

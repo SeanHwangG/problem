@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_1411.md' %}
-
-* Given grid of size n x 3 and paint each cell of grid with one of three colors
-  * Red, Yellow, or Green while making sure that no two adjacent cells have same color
-* Given n number of rows of grid, return number of ways you can paint this grid, Modulo 10**9 + 7
-
-```txt
-Input: n = 1
-Output: 12
-
-Input: n = 2
-Output: 54
-```
-
-{% endtab %}{% tab title='LC_1411.py' %}
+{% tabs %}{% tab title='LC_1411.py' %}
 
 ```py
 def numOfWays(self, n: int) -> int:

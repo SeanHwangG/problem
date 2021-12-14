@@ -1,21 +1,4 @@
-{% tabs %}{% tab title='HR_valid-pan-format.md' %}
-
-* \<char>\<char>\<char>\<char>\<char>\<digit>\<digit>\<digit>\<digit>\<char>
-
-```txt
-Input:
-3
-ABCDS1234Y
-ABAB12345Y
-avCDS1234Y
-
-Output:
-YES
-NO
-NO
-```
-
-{% endtab %}{% tab title='HR_valid-pan-format.py' %}
+{% tabs %}{% tab title='HR_valid-pan-format.py' %}
 
 ```py
 import re

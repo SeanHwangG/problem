@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_232.md' %}
-
-* Implement a first in first out (FIFO) queue using only two stacks
-* The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty)
-
-```txt
-Input:
-["MyQueue", "push", "push", "peek", "pop", "empty"]
-[[], [1], [2], [], [], []]
-
-Output:
-[null, null, null, 1, 1, false]
-```
-
-{% endtab %}{% tab title='LC_232.py' %}
+{% tabs %}{% tab title='LC_232.py' %}
 
 ```cpp
 class Queue {

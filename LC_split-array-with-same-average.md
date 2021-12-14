@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_805.md' %}
-
-* In a given integer array A, we must move every element of A to either list B or list C
-* Return if is it possible that average of B is equal to average of C, and B and C are both non-empty
-
-```txt
-Input: nums = [1,2,3,4,5,6,7,8]
-Output: true  # [1,4,5,8] and [2,3,6,7]
-```
-
-{% endtab %}{% tab title='LC_805.py' %}
+{% tabs %}{% tab title='LC_805.py' %}
 
 ```py
 from statistics import mean

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1698.md' %}
-
-* Given a string s, return the number of distinct substrings of s.
-
-```txt
-Input: s = "aabbaba"
-Output: 21  # ["a","b","aa","bb","ab","ba","aab","abb","bab","bba","aba","aabb","abba","bbab","baba","aabba","abbab","bbaba","aabbab","abbaba","aabbaba"]
-```
-
-{% endtab %}{% tab title='LC_1698.cpp' %}
+{% tabs %}{% tab title='LC_1698.cpp' %}
 
 ```cpp
 int countDistinct(string s) {

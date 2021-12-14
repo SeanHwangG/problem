@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1603.md' %}
-
-* Design parking system
-
-```txt
-Input:
-["ParkingSystem", "addCar", "addCar", "addCar", "addCar"]
-[[1, 1, 0], [1], [2], [3], [1]]
-
-Output:
-[null, true, true, false, false]
-```
-
-{% endtab %}{% tab title='LC_1603.cpp' %}
+{% tabs %}{% tab title='LC_1603.cpp' %}
 
 ```cpp
 vector<int> count;

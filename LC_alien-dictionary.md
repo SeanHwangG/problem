@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_269.md' %}
-
-* There is a new alien language that uses the English alphabet. However, the order among the letters is unknown to you.
-* Given a list of strings words from alien language's dictionary, with sorted string by rules of this new language
-
-```txt
-Input: words = ["wrt","wrf","er","ett","rftt"]
-Output: "wertf"
-
-Input: words = ["z","x","z"]
-Output: ""  # The order is invalid, so return "".
-```
-
-{% endtab %}{% tab title='LC_269.py' %}
+{% tabs %}{% tab title='LC_269.py' %}
 
 ```py
 def alienOrder(self, words):

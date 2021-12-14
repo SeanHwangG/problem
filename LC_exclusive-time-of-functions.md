@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_636.md' %}
-
-```txt
-[Input]
-Input: n = 2, logs = ["0:start:0","1:start:2","1:end:5","0:end:6"]
-[Output]
-[3,4]
-```
-
-{% endtab %}{% tab title='LC_636.py' %}
+{% tabs %}{% tab title='LC_636.py' %}
 
 ```cpp
 class Solution {

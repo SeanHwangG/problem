@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_325.md' %}
-
-* Given an integer array nums and an integer k, return the maximum length of a subarray that sums to k
-* If there isn't one, return 0 instead.
-
-```txt
-Input: nums = [1,-1,5,-2,3], k = 3
-Output: 4
-
-Input: nums = [-2,-1,2,1], k = 1
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_325.py' %}
+{% tabs %}{% tab title='LC_325.py' %}
 
 ```py
 def maxSubArrayLen(self, nums: List[int], k: int) -> int:

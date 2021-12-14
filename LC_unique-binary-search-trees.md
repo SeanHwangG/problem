@@ -1,20 +1,11 @@
-{% tabs %}{% tab title='LC_96.md' %}
-
-* Given an integer n, return # structurally unique BST's which has exactly n nodes of unique values from 1 to n
-
-```txt
-Input: n = 3
-Output: 5
-```
-
-{% endtab %}{% tab title='LC_96.py' %}
+{% tabs %}{% tab title='LC_96.py' %}
 
 * Catalan numbers: $$ \frac{(2n)!}{(n + 1)!n!} $$
+* Time, Space: O(N), O(1)
 
 ```py
-# Time, Space : O(N), O(1)
 def numTrees(self, n):
-  # return factorial(2*n)//factorial(n)//factorial(n)//(n+1)
+  # return factorial(2*n) // factorial(n) // factorial(n) // (n+1)
   res = [1]  + [0] * n
   for i in ange(1, n + 1):
     for j in range(i):

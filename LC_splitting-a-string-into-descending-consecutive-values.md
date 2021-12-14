@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1849.md' %}
-
-* Check if we can split s into two or more non-empty substrings
-* ST numerical values of substrings are in descending and diff between numerical values of adjacent substrings are 1
-
-```txt
-Input: s = "050043"
-Output: true
-```
-
-{% endtab %}{% tab title='LC_1849.cpp' %}
+{% tabs %}{% tab title='LC_1849.cpp' %}
 
 ```cpp
 bool splitString(string &s, int i = 0, long prev = 0) {

@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_502.md' %}
-
-* given n projects where ith project has a pure profit profits[i] and min capital of capital[i] is needed to start it
-* Starts with w capital. When finish project, obtain its pure profit and profit will be added to your total capital
-* Pick at most k distinct projects from given projects to maximize final capital, and return final maximized capital
-
-```txt
-Input: k = 2, w = 0, profits = [1,2,3], capital = [0,1,1]
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_502.py' %}
+{% tabs %}{% tab title='LC_502.py' %}
 
 ```py
 def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:

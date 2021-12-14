@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_31.md' %}
-
-* Print next permutation
-
-```txt
-Input: nums = [1,2,3]
-Output: [1,3,2]
-```
-
-{% endtab %}{% tab title='LC_31.cpp' %}
+{% tabs %}{% tab title='LC_31.cpp' %}
 
 ```cpp
 void nextPermutation(vector<int>& nums) {

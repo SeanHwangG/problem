@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_348.md' %}
-
-* Implement the TicTacToe class:
-  * TicTacToe(int n) Initializes the object the size of the board n.
-  * int move(int row, int col, int player) Indicates that player with id player plays at the cell (row, col) of board
-    * The move is guaranteed to be a valid move
-
-```txt
-Input:
-["TicTacToe", "move", "move", "move", "move", "move", "move", "move"]
-[[3], [0, 0, 1], [0, 2, 2], [2, 2, 1], [1, 1, 2], [2, 0, 1], [1, 0, 2], [2, 1, 1]]
-
-Output:
-[null, 0, 0, 0, 0, 0, 0, 1]
-```
-
-{% endtab %}{% tab title='LC_348.py' %}
+{% tabs %}{% tab title='LC_348.py' %}
 
 ```py
 class TicTacToe(object):

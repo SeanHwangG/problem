@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='HR_matching-range-of-characters.md' %}
-
-* first character must be a lowercase English alphabetic character
-* second character must be a positive digit. Note that we consider zero to be neither positive nor negative
-* third character must not be a lowercase English alphabetic character
-* fourth character must not be an uppercase English alphabetic character
-* fifth character must be an uppercase English alphabetic character
-
-```txt
-Input: h4CkR
-Output: true
-```
-
-{% endtab %}{% tab title='HR_matching-range-of-characters.py' %}
+{% tabs %}{% tab title='HR_matching-range-of-characters.py' %}
 
 ```py
 import re

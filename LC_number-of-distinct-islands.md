@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_694.md' %}
-
-* Given m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally
-* Island is considered to be same as another if island can be translated (not rotated or reflected) to equal the other
-* Return number of distinct islands
-
-```txt
-Input: grid = [[1,1,0,0,0],[1,1,0,0,0],[0,0,0,1,1],[0,0,0,1,1]]
-Output: 1
-
-Input: grid = [[1,1,0,1,1],[1,0,0,0,0],[0,0,0,0,1],[1,1,0,1,1]]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_694.py' %}
+{% tabs %}{% tab title='LC_694.py' %}
 
 ```py
 def numDistinctIslands(self, grid: List[List[int]]) -> int:

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_191.md' %}
-
-* Find number of 1 in binary
-
-```txt
-Input: n = 00000000000000000000000000001011
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_191.cpp' %}
+{% tabs %}{% tab title='LC_191.cpp' %}
 
 ```cpp
 int hammingWeight(uint32_t n) {

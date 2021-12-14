@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_1968.md' %}
-
-* Return any rearrangement of nums such that every element in rearranged array is not equal to average of its neighbors
-
-```txt
-Input: nums = [1,2,3,4,5]
-Output: [1,2,4,5,3]
-
-Input: nums = [6,2,0,9,7]
-Output: [9,7,6,2,0]
-```
-
-{% endtab %}{% tab title='LC_1968.py' %}
+{% tabs %}{% tab title='LC_1968.py' %}
 
 ```py
 def rearrangeArray(self, A: list):

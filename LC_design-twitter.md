@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_355.md' %}
-
-* Design twitter with following methods
-  * postTweet(userId, tweetId)
-  * getNewsFeed(userId)
-  * follow(follwerId, followeeId)
-  * unfollow(follwerId, follweeId)
-
-```txt
-Input:
-["Twitter", "postTweet", "getNewsFeed", "follow", "postTweet", "getNewsFeed", "unfollow", "getNewsFeed"]
-[[], [1, 5], [1], [1, 2], [2, 6], [1], [1, 2], [1]]
-
-Output: [null, null, [5], null, null, [6, 5], null, [5]]
-```
-
-{% endtab %}{% tab title='LC_355.go' %}
+{% tabs %}{% tab title='LC_355.go' %}
 
 ```go
 type Twitter struct {

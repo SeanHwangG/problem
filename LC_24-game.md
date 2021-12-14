@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_679.md' %}
-
-* Given an integer array cards of length 4 each containing a number in the range [1, 9]
-* Arrange numbers on these cards in a mathematical expression using ['+', '-', '*', '/', '(' and ')' to get 24
-
-```txt
-Input: cards = [4,1,8,7]
-Output: true  # (8-4) * (7-1) = 24
-
-Input: cards = [1,2,1,2]
-Output: false
-```
-
-{% endtab %}{% tab title='LC_679.py' %}
+{% tabs %}{% tab title='LC_679.py' %}
 
 ```py
 def judgePoint24(self, nums: List[int]) -> bool:

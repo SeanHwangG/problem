@@ -1,21 +1,8 @@
-{% tabs %}{% tab title='LC_407.md' %}
-
-* Given an m x n integer matrix heightMap representing height of each unit cell in a 2D elevation map
-* Return volume of water it can trap after raining.
-
-```txt
-Input: heightMap =
-[[1,4,3,1,3,2],
- [3,2,1,3,2,4],
- [2,3,3,2,3,1]]
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_407.py' %}
+{% tabs %}{% tab title='LC_407.py' %}
 
 * Enqueuing all cells on the outer edges of the input matrix
-* Time: O(mnlog(mn))
-* Space: O(mn)
+* Time; O(mnlog(mn))
+* Space; O(mn)
 
 ```py
 def trapRainWater(self, hm: List[List[int]]) -> int:

@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='KT_tripletexting.md' %}
-
-* Same string are repeated three times and but one of them are wrong
-* Print right string
-
-```txt
-Input: hellohrllohello
-Output: hello
-```
-
-{% endtab %}{% tab title='KT_tripletexting.py' %}
+{% tabs %}{% tab title='KT_tripletexting.py' %}
 
 ```py
 s = input()

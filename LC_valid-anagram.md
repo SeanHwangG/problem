@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_242.md' %}
-
-* Given two strings s and t, return true if t is an anagram of s, and false otherwise
-
-```txt
-Input: s = "anagram", t = "nagaram"
-Output: true
-```
-
-{% endtab %}{% tab title='LC_242.cpp' %}
+{% tabs %}{% tab title='LC_242.cpp' %}
 
 ```cpp
 bool isAnagram(string s, string t) {

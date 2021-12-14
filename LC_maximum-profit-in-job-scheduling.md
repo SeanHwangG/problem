@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1235.md' %}
-
-Given n jobs, where every job is scheduled to be done from startTime[i] to endTime[i], obtaining a profit of profit[i]
-Given startTime, endTime and profit arrays, return max profit ST there are no overlapping jobs
-If you choose a job that ends at time X you will be able to start another job that starts at time X
-
-```txt
-Input: startTime = [1,2,3,3], endTime = [3,4,5,6], profit = [50,10,40,70]
-Output: 120  # [1-3]+[3-6]
-```
-
-{% endtab %}{% tab title='LC_1235.cpp' %}
+{% tabs %}{% tab title='LC_1235.cpp' %}
 
 * Time: O(NlogN)
 * Space: O(N)

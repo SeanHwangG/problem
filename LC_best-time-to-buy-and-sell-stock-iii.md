@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_123.md' %}
-
-* Find maximum profit you can achieve. May complete at most two transactions
-* cannot engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again)
-
-```txt
-Input: prices = [3,3,5,0,0,3,1,4]
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_123.cpp' %}
+{% tabs %}{% tab title='LC_123.cpp' %}
 
 ```cpp
 int maxProfit(vector<int>& v, int N = 2) {

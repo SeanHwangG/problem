@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1802.md' %}
-
-* Given three positive integers n, index and maxSum. construct 0 indexed array nums that satisfies the following conditions
-  * nums.length == n
-  * nums[i] is a positive integer where 0 <= i < n
-  * abs(nums[i] - nums[i+1]) <= 1 where 0 <= i < n-1
-  * The sum of all the elements of nums does not exceed maxSum
-  * nums[index] is maximized
-* Return nums[index] of the constructed array
-
-{% endtab %}{% tab title='LC_1802.py' %}
+{% tabs %}{% tab title='LC_1802.py' %}
 
 ```py
 def maxValue(self, n, index, maxSum):

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_357.md' %}
-
-* Given an integer n, return the count of all numbers with unique digits, x, where 0 <= x < 10^n
-
-```txt
-Input: n = 2
-Output: 91  # excluding 11, 22
-```
-
-{% endtab %}{% tab title='LC_357.py' %}
+{% tabs %}{% tab title='LC_357.py' %}
 
 ```py
 def countNumbersWithUniqueDigits(self, n: int) -> int:

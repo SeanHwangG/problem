@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='HR_capturing-non-capturing-groups.md' %}
-
-* should have or more consecutive repetitions of ok
-
-```txt
-Input: okokok! cya
-Output: true
-```
-
-{% endtab %}{% tab title='HR_capturing-non-capturing-groups.py' %}
+{% tabs %}{% tab title='HR_capturing-non-capturing-groups.py' %}
 
 ```py
 import re

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_144.md' %}
-
-* Given the root of a binary tree, return the preorder traversal of its nodes' values
-
-```txt
-Input: root = [1,null,2,3]
-Output: [1,2,3]
-```
-
-{% endtab %}{% tab title='LC_144.py' %}
+{% tabs %}{% tab title='LC_144.py' %}
 
 ```py
 def preorderTraversal(self, root):

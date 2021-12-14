@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='LC_352.md' %}
-
-* Given data stream input of non-negative integers a1, ..., an, summarize the numbers seen as a list of intervals
-  * SummaryRanges(): Initializes the object with an empty stream
-  * void addNum(int val): Adds the integer val to the stream
-  * int[][] getIntervals(): Return summary of ints in stream currently as list of disjoint intervals [starti, endi]
-
-```txt
-Input:
-["SummaryRanges", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals",\
-"addNum", "getIntervals"]
-[[], [1], [], [3], [], [7], [], [2], [], [6], []]
-
-Output:
-[null, null, [[1, 1]], null, [[1, 1], [3, 3]], null, [[1, 1], [3, 3], [7, 7]], null, [[1, 3], [7, 7]], null, [[1, 3],\
-[6, 7]]]
-```
-
-{% endtab %}{% tab title='LC_352.py' %}
+{% tabs %}{% tab title='LC_352.py' %}
 
 ```py
 class SummaryRanges:

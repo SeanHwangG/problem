@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_959.md' %}
-
-* In a N x N grid composed of 1 x 1 squares, each 1 x 1 square consists of a /, \, or blank space
-* These characters divide the square into contiguous regions
-* Return the number of regions
-
-```txt
-Input:
-[ " /",
-  "/ " ]
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_959.py' %}
+{% tabs %}{% tab title='LC_959.py' %}
 
 ```py
 def regionsBySlashes(self, grid: List[str]) -> int:

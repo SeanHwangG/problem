@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='KT_isithalloween.md' %}
-
-* if input is OCT 31 or DEC 25 print 'yup' else print 'nope'
-
-```txt
-Input: OCT 31
-Output: yup
-```
-
-{% endtab %}{% tab title='KT_isithalloween.py' %}
+{% tabs %}{% tab title='KT_isithalloween.py' %}
 
 ```py
 s = input()

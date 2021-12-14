@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_668.md' %}
-
-* Multiplication table of size m x n is integer matrix mat where mat[i][j] == i * j (1-indexed)
-* Given three integers m, n, and k, return kth smallest element in the m x n multiplication table
-
-```txt
-Input: m = 3, n = 3, k = 5
-Output: 3  # 1, 2, 2, 3, 3
-```
-
-{% endtab %}{% tab title='LC_668.py' %}
+{% tabs %}{% tab title='LC_668.py' %}
 
 ```py
 def findKthNumber(self, m, n, k):

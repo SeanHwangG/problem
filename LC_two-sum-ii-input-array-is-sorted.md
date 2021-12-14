@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_167.md' %}
-
-* find two indices that sum up to target in sorted array
-
-```txt
-Input: numbers = [2,7,11,15], target = 9
-Output: [1,2]
-```
-
-{% endtab %}{% tab title='LC_167.py' %}
+{% tabs %}{% tab title='LC_167.py' %}
 
 ```py
 def twoSum1(self, numbers, target):

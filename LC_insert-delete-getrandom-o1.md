@@ -1,21 +1,4 @@
-{% tabs %}{% tab title='LC_380.md' %}
-
-* Implement the RandomizedSet class:
-  * RandomizedSet() Initializes the RandomizedSet object
-  * bool insert(int val) Inserts an item val into the set if not present. Returns if the item was not present
-  * bool remove(int val) Removes an item val from set if present. Returns if the item was present
-  * int getRandom() Return random element from current set of elements (guaranteed element exists when method is called)
-    * Each element must have the same probability of being returned
-
-```txt
-Input:
-["RandomizedSet", "insert", "remove", "insert", "getRandom", "remove", "insert", "getRandom"]
-[[], [1], [2], [2], [], [1], [2], []]
-
-Output: [null, true, false, true, 2, true, false, 2]
-```
-
-{% endtab %}{% tab title='LC_380.py' %}
+{% tabs %}{% tab title='LC_380.py' %}
 
 ```py
 import random

@@ -1,12 +1,4 @@
-{% tabs %}{% tab title='LC_1195.md' %}
-
-* Print fizz buzz given 4 threads
-  * a thread printing fizz
-  * a thread printing buzz
-  * a thread printing fizzbuzz
-  * a thread incrementing a number
-
-{% endtab %}{% tab title='LC_1195.cpp' %}
+{% tabs %}{% tab title='LC_1195.cpp' %}
 
 ```cpp
 class FizzBuzz {

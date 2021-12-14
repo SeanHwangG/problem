@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='KT_zanzibar.md' %}
-
-* Only double is possible
-* Print the lower bound for the number of turtles not born on Zanzibar
-
-```txt
-3
-1 100 0
-1 1 1 2 2 4 8 8 9 0
-1 28 72 0
-```
-
-{% endtab %}{% tab title='KT_zanzibar.py' %}
+{% tabs %}{% tab title='KT_zanzibar.py' %}
 
 ```py
 n_test = int(input())

@@ -1,19 +1,8 @@
-{% tabs %}{% tab title='LC_138.md' %}
-
-* Linked list of length n is given ST each node contains random pointer, which could point to any node in list, or null
-* Construct a deep copy of the list
-
-```txt
-Input: head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
-Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
-```
-
-{% endtab %}{% tab title='LC_138.py' %}
+{% tabs: %}{% tab title='LC_138.py' %}
 
 ```py
 class Solution:
   def copyRandomList(self, head: 'Node') -> 'Node':
-    # create new nodes
     node = head
     while node:
       node.random, node = Node(node.val, node.random, None), node.next

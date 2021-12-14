@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='HR_alternative-matching.md' %}
-
-* must start with Mr., Mrs., Ms., Dr. or Er.
-* The rest of the string must contain only one or more English alphabetic letters (upper and lowercase)
-
-```txt
-Input: Mr.DOSHI
-Output: true
-```
-
-{% endtab %}{% tab title='HR_alternative-matching.py' %}
+{% tabs %}{% tab title='HR_alternative-matching.py' %}
 
 ```py
 import re

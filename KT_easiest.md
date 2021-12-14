@@ -1,23 +1,4 @@
-{% tabs %}{% tab title='KT_easiest.md' %}
-
-* Single integer number p which is minimal number st N * p has the same sum of digits as N and p is bigger than 10
-
-```txt
-Input:
-3029
-4
-5
-42
-0
-
-Output:
-37
-28
-28
-25
-```
-
-{% endtab %}{% tab title='KT_easiest.py' %}
+{% tabs %}{% tab title='KT_easiest.py' %}
 
 ```py
 def SOD(st):

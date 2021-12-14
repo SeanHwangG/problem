@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_207.md' %}
-
-* Given jobs and prerequisite, check if all jobs can be done
-
-```txt
-Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
-Output: false
-```
-
-{% endtab %}{% tab title='LC_207.py' %}
+{% tabs %}{% tab title='LC_207.py' %}
 
 ```py
 def canFinish(n, prerequisites):

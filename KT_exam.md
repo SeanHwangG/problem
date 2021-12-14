@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='KT_exam.md' %}
-
-* First line number of correct from friend, and answer sheets from mine and my friend are given
-* Print maximum number of questions that I could have gotten right
-
-```txt
-Input:
-3
-FTFFF
-TFTTT
-
-Output: 2
-```
-
-{% endtab %}{% tab title='KT_exam.py' %}
+{% tabs %}{% tab title='KT_exam.py' %}
 
 ```py
 correct = int(input())

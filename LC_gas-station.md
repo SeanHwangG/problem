@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_134.md' %}
-
-* There are n gas stations along a circular route, where the amount of gas at ith station is gas[i]
-* Empty gas car starts from any of gas station, it costs cost[i] to travel from ith station to its next (i + 1)th station
-* Given two arrays gas and cost, return starting gas station's index that can travel around once in the clockwise direction
-  * otherwise return -1. Solution is unique
-
-```txt
-Input: gas = [1,2,3,4,5], cost = [3,4,5,1,2]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_134.cpp' %}
+{% tabs %}{% tab title='LC_134.cpp' %}
 
 ```cpp
 int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {

@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_259.md' %}
-
-* Given an integers and a target
-* find number of index triplets i, j, k with 0 <= i < j < k < n st condition nums[i] + nums[j] + nums[k] < target
-
-```txt
-Input: nums = [-2,0,1,3], and target = 2
-Output: 2
-```
-
-{% endtab %}{% tab title='LC_259.py' %}
+{% tabs %}{% tab title='LC_259.py' %}
 
 ```py
 def threeSumSmaller(self, nums, target):

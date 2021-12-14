@@ -1,12 +1,4 @@
-{% tabs %}{% tab title='KT_gerrymandering.md' %}
-
-$$ E\left(V, w_{A}, w_{B}\right)=\frac{\left|w_{A}-w_{B}\right|}{V} $$
-
-* Given # precincts: party vote totals for each precinct, and how those precincts have been grouped into districts
-* For each district determine winner party and wasted votes for each party
-* determine efficiency gap between two parties over all districts
-
-{% endtab %}{% tab title='KT_gerrymandering.py' %}
+{% tabs %}{% tab title='KT_gerrymandering.py' %}
 
 ```py
 n, m = map(int, input().split())

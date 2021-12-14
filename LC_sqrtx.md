@@ -1,8 +1,4 @@
-{% tabs %}{% tab title='LC_69.md' %}
-
-* Implement sqrt function
-
-{% endtab %}{% tab title='LC_69.py' %}
+{% tabs %}{% tab title='LC_69.py' %}
 
 * Newton's method
   * $$ x_{k + 1} = \frac{1}{2} (x_k+\frac{n}{x_k}), k ≥ 0, x_0 > 0 $$

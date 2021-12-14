@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_200.md' %}
-
-* Find number of island
-
-```txt
-Input: grid = [
-  ["1","1","1","1","0"],
-  ["1","1","0","1","0"],
-  ["1","1","0","0","0"],
-  ["0","0","0","0","0"]
-]
-
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_200.cpp' %}
+{% tabs %}{% tab title='LC_200.cpp' %}
 
 ```cpp
 int numIslands(vector<vector<char>>& grid) {

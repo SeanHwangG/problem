@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_382.md' %}
-
-* Given a singly linked list, return random node's value from the linked list
-
-```txt
-Input:
-["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
-[[[1, 2, 3]], [], [], [], [], []]
-
-Output:
-[null, 1, 3, 2, 2, 3]
-```
-
-{% endtab %}{% tab title='LC_382.go' %}
+{% tabs %}{% tab title='LC_382.go' %}
 
 ```go
 type Solution struct {

@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_711.md' %}
-
-* An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical)
-* island is considered to be the same as another if they have same shape, or have same shape after rotation or reflection
-
-```txt
-Input:
-grid =
-[[1,1,0,0,0],
- [1,0,0,0,0],
- [0,0,0,0,1],
- [0,0,0,1,1]]
-
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_711.py' %}
+{% tabs %}{% tab title='LC_711.py' %}
 
 ```py
 def dfs(self, G, r, c, shape):

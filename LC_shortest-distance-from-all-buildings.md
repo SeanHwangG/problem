@@ -1,23 +1,10 @@
-{% tabs %}{% tab title='LC_317.md' %}
-
-* Given an m x n grid grid of values 0, 1, or 2, where:
-* 0 marks an empty land, 1 marks a building, 2 marks an obstacle
-* Build a house on an empty land that reaches all buildings in the shortest total travel distance
-
-```txt
-Input: grid = [[1,0,2,0,1],[0,0,0,0,0],[0,0,1,0,0]]
-Output: 7
-
-Input: grid = [[1,0]]
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_317.py' %}
+{% tabs %}{% tab title='LC_317.py' %}
 
 * Start with building, mark all distance
 
+* Time, Space; O(kmn) O(mn)
+
 ```py
-# O(kmn) O(mn)
 def shortestDistance(self, grid):
   N, M = len(grid), len(grid[0])
 

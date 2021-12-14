@@ -1,16 +1,8 @@
-{% tabs %}{% tab title='LC_698.md' %}
+{% tabs %}{% tab title='LC_698.cpp' %}
 
-* Given int array nums and an integer k, return if can divide array into k non-empty subsets whose sums are all equal
-
-```txt
-Input: nums = [4,3,2,3,5,2,1], k = 4
-Output: true  # 5, 1 4, 2 3, 2 3
-```
-
-{% endtab %}{% tab title='LC_698.cpp' %}
+* Time; O(k * 2^n)
 
 ```cpp
-// Time: O(k * 2^n)
 bool recur(vector<int>& subset, vector<int>& nums, int index, int sum){
   if (index == nums.size()) return true;
   for (int i = 0; i < subset.size(); i++){

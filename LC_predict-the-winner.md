@@ -1,18 +1,8 @@
-{% tabs %}{% tab title='LC_486.md' %}
+{% tabs %}{% tab title='LC_486.py' %}
 
-* Given an integer array nums. Two players are playing a game with this array: player 1 and player 2
-* Player takes one of the numbers from either end of the array, adds chosen number to their score
-* If you start first, can you win?
-
-```txt
-Input: nums = [1,5,2]
-Output: false
-```
-
-{% endtab %}{% tab title='LC_486.py' %}
+* Time, Space; O(N^2), O(N^2)
 
 ```java
-// Time, Space : O(N^2), O(N^2)
 public boolean PredictTheWinner(int[] nums) {
   return helper(nums, 0, nums.length-1, new Integer[nums.length][nums.length]) >= 0;
 }

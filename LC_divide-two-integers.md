@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_29.md' %}
-
-* Implement division without using multiplication, division, and mod
-
-```txt
-Input: dividend = 7, divisor = -3
-Output: -2
-```
-
-{% endtab %}{% tab title='LC_29.py' %}
+{% tabs %}{% tab title='LC_29.py' %}
 
 ```py
 def divide(self, A, B):

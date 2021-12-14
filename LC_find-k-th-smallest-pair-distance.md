@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_719.md' %}
-
-* Distance of a pair of integers a and b is defined as absolute difference between a and b.
-* Given an integer array nums and an integer k, return kth smallest distance among all the pairs nums[i] and nums[j]
-  * where 0 <= i < j < nums.length.
-
-```txt
-Input: nums = [1,3,1], k = 1
-Output: 0
-
-Input: nums = [1,1,1], k = 2
-Output: 0
-```
-
-{% endtab %}{% tab title='LC_719.py' %}
+{% tabs %}{% tab title='LC_719.py' %}
 
 ```py
 def smallestDistancePair(self, li: List[int], k: int) -> int:

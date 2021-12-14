@@ -1,27 +1,4 @@
-{% tabs %}{% tab title='LC_1789.md' %}
-
-| employee_id | department_id | primary_flag |
-| ----------- | ------------- | ------------ |
-| 1           | 1             | N            |
-| 2           | 1             | Y            |
-| 2           | 2             | N            |
-| 3           | 3             | N            |
-| 4           | 2             | N            |
-| 4           | 3             | Y            |
-| 4           | 4             | N            |
-
-* employee joins other departments, they need to decide which department is their primary department
-* Note that when an employee belongs to only one department, their primary column is 'N'
-* report all the employees with their primary department
-
-| employee_id | department_id |
-| ----------- | ------------- |
-| 1           | 1             |
-| 2           | 1             |
-| 3           | 3             |
-| 4           | 3             |
-
-{% endtab %}{% tab title='LC_1789.sql' %}
+{% tabs %}{% tab title='LC_1789.sql' %}
 
 ```sql
 SELECT e.employee_id , e.department_id FROM Employee e

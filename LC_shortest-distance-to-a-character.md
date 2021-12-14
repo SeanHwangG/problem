@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_821.md' %}
-
-* Find closest occurrence of character c in s
-
-```txt
-Input: s = "loveleetcode", c = "e"
-Output: [3,2,1,0,1,0,0,1,2,2,1,0]
-```
-
-{% endtab %}{% tab title='LC_821.py' %}
+{% tabs %}{% tab title='LC_821.py' %}
 
 ```py
 def shortestToChar(self, S: str, C: str) -> List[int]:

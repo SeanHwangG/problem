@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1689.md' %}
-
-* print maximum number in character
-
-```txt
-Input: n = "27346209830709182346"
-Output: 9
-```
-
-{% endtab %}{% tab title='LC_1689.py' %}
+{% tabs %}{% tab title='LC_1689.py' %}
 
 ```py
 def minPartitions(self, n: str) -> int:

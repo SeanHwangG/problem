@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='KT_sevenwonders.md' %}
-
-* 문자열이 주어진다
-* 이 때 T, C, G 중 가장 적게 나온 개수 * 7 + T 개수^2 + C 개수^2 + G 개수^2 의 합을 구하라
-
-```txt
-Input: TCGTTC
-Output: 21
-```
-
-{% endtab %}{% tab title='KT_sevenwonders.py' %}
+{% tabs %}{% tab title='KT_sevenwonders.py' %}
 
 ```py
 from collections import Counter

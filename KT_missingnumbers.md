@@ -1,28 +1,4 @@
-{% tabs %}{% tab title='KT_missingnumbers.md' %}
-
-* print all missing number
-
-```txt
-Input:
-9
-2
-4
-5
-7
-8
-9
-10
-11
-13
-
-Output:
-1
-3
-6
-12
-```
-
-{% endtab %}{% tab title='KT_missingnumbers.py' %}
+{% tabs %}{% tab title='KT_missingnumbers.py' %}
 
 ```py
 n = int(input())

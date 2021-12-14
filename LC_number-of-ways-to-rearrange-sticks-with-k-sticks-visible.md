@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1866.md' %}
-
-* There are n uniquely-sized sticks whose lengths are integers from 1 to n
-* arrange the sticks such that exactly k sticks are visible from the left
-* Given n and k, return the number of such arrangements modulo 10e9 + 7
-
-```txt
-Input: n = 3, k = 2
-Output: 3  # [1,3,2], [2,3,1], and [2,1,3] exactly 2 sticks are visible
-```
-
-{% endtab %}{% tab title='LC_1866.py' %}
+{% tabs %}{% tab title='LC_1866.py' %}
 
 ```py
 @lru_cache(None)

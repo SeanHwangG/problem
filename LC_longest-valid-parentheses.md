@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_32.md' %}
-
-* Given a string containing just characters '(' and ')', find length of longest valid parentheses substring
-
-```txt
-Input: s = "(()"
-Output: 2  # "()".
-
-Input: s = ")()())"
-Output: 4  # "()()".
-```
-
-{% endtab %}{% tab title='LC_32.py' %}
+{% tabs %}{% tab title='LC_32.py' %}
 
 ```py
 def longestValidParentheses(self, s):

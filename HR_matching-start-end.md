@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='HR_matching-start-end.md' %}
-
-* must start with a digit and end with . symbol
-* should be characters long only
-
-```txt
-Input: 0qwer.
-Output: true
-```
-
-{% endtab %}{% tab title='HR_matching-start-end.py' %}
+{% tabs %}{% tab title='HR_matching-start-end.py' %}
 
 ```py
 import re

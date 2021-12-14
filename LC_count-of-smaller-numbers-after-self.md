@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_315.md' %}
-
-* Given an integer array nums and you have to return a new counts array
-* The counts array has the property where counts[i] is the number of smaller elements to the right of nums[i]
-
-```txt
-Input: nums = [5,2,6,1]
-Output: [2,1,1,0]
-```
-
-{% endtab %}{% tab title='LC_315.py' %}
+{% tabs %}{% tab title='LC_315.py' %}
 
 ```py
 class BIT:

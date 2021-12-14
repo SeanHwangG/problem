@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_322.md' %}
-
-* Given coins representing coins of different denominations and an integer amount representing total amount of money
-* Return fewest # coins that need to make up that amount. If cannot be made up by any combination of coins, return -1
-
-```txt
-Input: coins = [1,2,5], amount = 11
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_322.cpp' %}
+{% tabs %}{% tab title='LC_322.cpp' %}
 
 ```cpp
 int coinChange(vector<int>& coins, int amount) {

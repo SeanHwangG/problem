@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_126.md' %}
-
-* Transformation sequence from word begin to word end using dictionary wordList is words[] begin, s1, ..., sk ST
-  * Every adjacent pair of words differs by a single letter.
-  * Every si for 1 <= i <= k is in wordList. Note that begin does not need to be in wordList.
-  * sk == end
-* Given two words (begin, end), dictionary wordList, return all shortest transformation sequences from begin to end
-* Each sequence should be returned as a list of the words [begin, s1, s2, ..., sk].
-
-```txt
-Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
-Output: [["hit","hot","dot","dog","cog"],["hit","hot","lot","log","cog"]]
-```
-
-{% endtab %}{% tab title='LC_126.py' %}
+{% tabs %}{% tab title='LC_126.py' %}
 
 ```py
 def findLadders(self, begin: str, end: str, words: List[str]) -> List[List[str]]:

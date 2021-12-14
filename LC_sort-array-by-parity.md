@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_905.md' %}
-
-* Given array nums of non-negative integers, return an array consisting of all even nums, followed by all odd nums.
-* return any answer array that satisfies this condition.
-
-```txt
-Input: nums = [3,1,2,4]
-Output: [2,4,3,1]  # [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.
-```
-
-{% endtab %}{% tab title='LC_905.cpp' %}
+{% tabs %}{% tab title='LC_905.cpp' %}
 
 ```cpp
 vector<int> sortArrayByParity(vector<int> &A) {

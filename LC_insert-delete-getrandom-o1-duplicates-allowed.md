@@ -1,23 +1,4 @@
-{% tabs %}{% tab title='LC_381.md' %}
-
-* Implement the RandomizedCollection class:
-  * RandomizedCollection(): Initializes the RandomizedCollection object
-  * bool insert(int val): Inserts an item val into the multiset if not present. Returns if item not present
-  * bool remove(int val) Removes one item val from multiset if present. Returns if item is present
-  * int getRandom() Returns a random element from current multiset of elements
-    * it's guaranteed that at least one element exists when this method is called
-* The probability of each element being returned is linearly related to the number of same values the multiset contains
-
-```txt
-Input:
-["RandomizedCollection", "insert", "insert", "insert", "getRandom", "remove", "getRandom"]
-[[], [1], [1], [2], [], [1], []]
-
-Output:
-[null, true, false, true, 2, true, 1]
-```
-
-{% endtab %}{% tab title='LC_381.java' %}
+{% tabs %}{% tab title='LC_381.java' %}
 
 ```java
 public class RandomizedCollection {

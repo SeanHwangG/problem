@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_204.md' %}
-
-* Count the number of prime numbers less than a non-negative number, n
-
-```txt
-Input: n = 10
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_204.py' %}
+{% tabs %}{% tab title='LC_204.py' %}
 
 ```py
 def countPrimes(self, n: int) -> int:

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1115.md' %}
-
-* Print Foo bar alternatively
-
-```txt
-Input: n = 2
-Output: "foobarfoobar"
-```
-
-{% endtab %}{% tab title='LC_1115.cpp' %}
+{% tabs %}{% tab title='LC_1115.cpp' %}
 
 * Semaphore
 

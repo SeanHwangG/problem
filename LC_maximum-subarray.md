@@ -1,16 +1,8 @@
-{% tabs %}{% tab title='LC_53.md' %}
+{% tabs %}{% tab title='LC_53.py' %}
 
-* Given an integer array nums, find the contiguous subarray which has the largest sum and return its sum
-
-```txt
-Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_53.py' %}
+* Run; O(N)
 
 ```py
-# Run : O(N)
 def maxSubArray(self, nums: List[int]) -> int:
   for i in range(1, len(nums)):
     if nums[i - 1] > 0:

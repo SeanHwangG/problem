@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_1976.md' %}
-
-* City consists of n intersections numbered from 0 to n - 1 with bi-directional roads between some intersections
-* You can reach any intersection from any other intersection and that there is at most one road between any two intersections
-* Given n, 2D array roads where roads[i] = [ui, vi, timei] is a road between ui and vi that takes timei minutes to travel
-* Gow many ways you can travel from intersection 0 to intersection n - 1 in the shortest amount of time
-* Return number of ways modulo 10^9 + 7 you can arrive at your destination in the shortest amount of time
-
-```txt
-Input: n = 7, roads = [[0,6,7],[0,1,2],[1,2,3],[1,3,3],[6,3,3],[3,5,1],[6,5,1],[2,5,1],[0,4,5],[4,6,2]]
-Output: 4
-
-Input: n = 2, roads = [[1,0,10]]
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_1976.py' %}
+{% tabs %}{% tab title='LC_1976.py' %}
 
 ```py
 def countPaths(self, n: int, roads: List[List[int]]) -> int:

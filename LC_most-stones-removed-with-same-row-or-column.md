@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_947.md' %}
-
-* stone can be removed if it shares either the same row or the same column
-* return the largest possible number of stones that can be removed
-
-```txt
-Input: stones = [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]
-Output: 5
-```
-
-{% endtab %}{% tab title='LC_947.cpp' %}
+{% tabs %}{% tab title='LC_947.cpp' %}
 
 ```cpp
 int removeStones(vector<vector<int>>& stones) {

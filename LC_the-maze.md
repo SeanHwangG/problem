@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_490.md' %}
-
-* through the empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting a wall
-* When the ball stops, it could choose the next direction.
-* Given the m x n maze, the ball's start position and the destination, return if the ball can stop at the destination
-
-```txt
-Input: maze =
-  [[0,0,1,0,0],
-   [0,0,0,0,0],
-   [0,0,0,1,0],
-   [1,1,0,1,1],
-   [0,0,0,0,0]], start = [0,4], destination = [4,4]
-Output: true  # left -> down -> left -> down -> right -> down -> right.
-```
-
-{% endtab %}{% tab title='LC_490.py' %}
+{% tabs %}{% tab title='LC_490.py' %}
 
 ```py
 def hasPath(self, G: List[List[int]], start: List[int], goal: List[int]) -> bool:

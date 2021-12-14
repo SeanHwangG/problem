@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_141.md' %}
-
-* Check if linkedlist has cycle
-
-```txt
-Input: head = [3,2,0,-4], pos = 1
-Output: true
-```
-
-{% endtab %}{% tab title='LC_141.py' %}
+{% tabs %}{% tab title='LC_141.py' %}
 
 ```py
 def hasCycle(self, head):

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1012.md' %}
-
-* Given a positive integer N, return # positive integers less than or equal to N that have at least 1 repeated digit
-
-```txt
-Input: 20
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_1012.py' %}
+{% tabs %}{% tab title='LC_1012.py' %}
 
 * Count res the Number Without Repeated Digit
 * Transform N + 1 to List

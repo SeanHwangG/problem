@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1854.md' %}
-
-* Given a 2D integer array logs where each logs[i] = [birthi, deathi] indicates birth and death years of ith person
-* Return earliest year with the maximum population
-
-```txt
-Input: logs = [[1993,1999],[2000,2010]]
-Output: 1993
-```
-
-{% endtab %}{% tab title='LC_1854.cpp' %}
+{% tabs %}{% tab title='LC_1854.cpp' %}
 
 ```cpp
 int maximumPopulation(vector<vector<int>>& logs) {

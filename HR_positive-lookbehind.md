@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='HR_positive-lookbehind.md' %}
-
-* Write a regex which can match all the occurences of digit which are immediately preceded by odd digit
-
-```txt
-Input: 123Go!
-Output: 1
-```
-
-{% endtab %}{% tab title='HR_positive-lookbehind.py' %}
+{% tabs %}{% tab title='HR_positive-lookbehind.py' %}
 
 ```py
 import re

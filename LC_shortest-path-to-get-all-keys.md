@@ -1,30 +1,6 @@
-{% tabs %}{% tab title='LC_864.md' %}
+{% tabs %}{% tab title='LC_864.py' %}
 
-* Given an m x n grid grid where:
-  * '.' is an empty cell.
-  * '#' is a wall.
-  * '@' is the starting point.
-  * Lowercase letters represent keys.
-  * Uppercase letters represent locks.
-* Return the lowest number of moves to acquire all keys. If it is impossible, return -1.
-
-```txt
-Input: grid =
-["@.a.#",
- "###.#",
- "b.A.B"]
-Output: 8
-
-Input: grid =
-["@..aA",
- "..B#.",
- "....b"]
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_864.py' %}
-
-* Time: O(MN key)
+* Time; O(MN key)
 
 ```py
 def shortestPathAllKeys(self, G: List[str]) -> int:

@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1790.md' %}
-
-* Given two strings s1 and s2 of equal length
-* A string swap is an operation where you choose two indices in a string and swap the characters at these indices
-* is it possible to make both strings equal by performing at most one string swap on exactly one of the strings
-
-```txt
-Input: s1 = "bank", s2 = "kanb"
-Output: true
-```
-
-{% endtab %}{% tab title='LC_1790.py' %}
+{% tabs %}{% tab title='LC_1790.py' %}
 
 ```py
 def areAlmostEqual(self, s1: str, s2: str) -> bool:

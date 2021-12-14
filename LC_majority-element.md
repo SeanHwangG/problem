@@ -1,20 +1,9 @@
-{% tabs %}{% tab title='LC_169.md' %}
-
-* Given an array nums of size n, return the majority element
-
-```txt
-Input: [3,2,3]
-Output: 3
-```
-
-> Solutino
+{% tabs %}{% tab title='LC_169.cpp' %}
 
 * Boyer-Moore Voting Algorithm
-
-{% endtab %}{% tab title='LC_169.cpp' %}
+* Time; O(N)
 
 ```cpp
-// Time: O(N)
 int majorityElement(vector<int>& nums) {
   int counter = 0, majority;
   for (int num : nums) {

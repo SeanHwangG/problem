@@ -1,20 +1,6 @@
-{% tabs %}{% tab title='LC_265.md' %}
+{% tabs %}{% tab title='LC_265.py' %}
 
-* Given row of n houses, painted with 1 of k colors ST all houses such that no two adjacent houses have the same color
-* The cost of painting each house with a certain color is represented by an n x k cost matrix costs
-* Return the minimum cost to paint all houses
-
-```txt
-Input: costs = [[1,5,3],[2,9,4]]
-Output: 5
-
-Input: costs = [[1,3],[2,4]]
-Output: 5
-```
-
-{% endtab %}{% tab title='LC_265.py' %}
-
-* Time: O(NK)
+* Time; O(NK)
 
 ```py
 def minCostII(self, costs: List[List[int]]) -> int:

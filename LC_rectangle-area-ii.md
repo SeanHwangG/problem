@@ -1,11 +1,4 @@
-{% tabs %}{% tab title='LC_850.md' %}
-
-* given a list of (axis-aligned) rectangles
-* Each rectangle[i] = [xi1, yi1, xi2, yi2]
-* Where (xi1, yi1) are coordinates of bottom-left corner, (xi2, yi2) are coordinates of top-right corner of ith rectangle
-* Find the total area covered by all rectangles in the plane. Since the answer may be too large, return MOD 10^9+7
-
-{% endtab %}{% tab title='LC_850.cpp' %}
+{% tabs %}{% tab title='LC_850.cpp' %}
 
 ```cpp
 class Solution {

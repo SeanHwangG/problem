@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_238.md' %}
-
-* Given an integer array nums, return an array answer such that answer[i] is equal to product of all nums except nums[i]
-* The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer
-
-```txt
-Input: nums = [1,2,3,4]
-Output: [24,12,8,6]
-```
-
-{% endtab %}{% tab title='LC_238.cpp' %}
+{% tabs %}{% tab title='LC_238.cpp' %}
 
 ```cpp
 vector<int> productExceptSelf(vector<int>& nums) {

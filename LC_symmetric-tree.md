@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_101.md' %}
-
-* Given root of binary tree, check whether it is mirror of itself
-
-```txt
-Input: root = [1,2,2,3,4,4,3]
-Output: true
-```
-
-{% endtab %}{% tab title='LC_101.go' %}
+{% tabs %}{% tab title='LC_101.go' %}
 
 ```go
 func isSymmetric(root *TreeNode) bool {

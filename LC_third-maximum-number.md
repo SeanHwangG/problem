@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_414.md' %}
-
-* Given integer array nums, return the third maximum number in this array
-* If the third maximum does not exist, return the maximum number
-
-```txt
-Input: nums = [2,2,3,1]
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_414.py' %}
+{% tabs %}{% tab title='LC_414.py' %}
 
 ```py
 def thirdMax(self, nums):

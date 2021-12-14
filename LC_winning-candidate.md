@@ -1,32 +1,4 @@
-{% tabs %}{% tab title='LC_574.md' %}
-
-* Candidate
-
-| id  | Name |
-| --- | ---- |
-| 1   | A    |
-| 2   | B    |
-| 3   | C    |
-| 4   | D    |
-| 5   | E    |
-
-* Vote
-
-| id  | CandidateId |
-| --- | ----------- |
-| 1   | 2           |
-| 2   | 4           |
-| 3   | 3           |
-| 4   | 2           |
-| 5   | 5           |
-
-* find the name of the winning candidate, the above example will return the winner B.
-
-| Name |
-| ---- |
-| B    |
-
-{% endtab %}{% tab title='LC_574.sql' %}
+{% tabs %}{% tab title='LC_574.sql' %}
 
 ```sql
 SELECT Name

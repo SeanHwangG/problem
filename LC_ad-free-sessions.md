@@ -1,28 +1,4 @@
-{% tabs %}{% tab title='LC_1809.md' %}
-
-| session_id | customer_id | start_time | end_time |
-| ---------- | ----------- | ---------- | -------- |
-| 1          | 1           | 1          | 5        |
-| 2          | 1           | 15         | 23       |
-| 3          | 2           | 10         | 12       |
-| 4          | 2           | 17         | 28       |
-| 5          | 2           | 2          | 8        |
-
-| ad_id | customer_id | timestamp |
-| ----- | ----------- | --------- |
-| 1     | 1           | 5         |
-| 2     | 2           | 15        |
-| 3     | 2           | 20        |
-
-* report all the sessions that did not get shown any ads in any order
-
-| session_id |
-| ---------- |
-| 2          |
-| 3          |
-| 5          |
-
-{% endtab %}{% tab title='LC_1809.sql' %}
+{% tabs %}{% tab title='LC_1809.sql' %}
 
 ```sql
 SELECT p.session_id FROM Playback p

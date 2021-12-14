@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_794.md' %}
-
-* Given Tic-Tac-Toe board as string array, return iff it's possible to reach this board position during game
-* Board is 3 x 3 array that consists of characters ' ', 'X', and 'O'. The ' ' character represents an empty square
-
-```txt
-Input:
-Output:
-```
-
-{% endtab %}{% tab title='LC_794.py' %}
+{% tabs %}{% tab title='LC_794.py' %}
 
 ```py
 def validTicTacToe(self, board):

@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_763.md' %}
-
-* A string s of lowercase English letters is given
-* Partition this string into as many parts as possible so that each letter appears in at most one part
-* return a list of size of these parts
-
-```txt
-Input: s = "ababcbacadefegdehijhklij"
-Output: [9,7,8]
-```
-
-{% endtab %}{% tab title='LC_763.py' %}
+{% tabs %}{% tab title='LC_763.py' %}
 
 ```py
 def partitionLabels(self, s: str) -> List[int]:

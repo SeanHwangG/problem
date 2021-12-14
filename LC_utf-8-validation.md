@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_393.md' %}
-
-* A character in UTF8 can be from 1 to 4 bytes long, subjected to the following rules:
-* 1-byte char, first bit is a 0, followed by its Unicode code.
-* n-byte char, first n bits are all 1's, n + 1 bit is 0, followed by n - 1 bytes with most significant 2 bits 10
-
-```txt
-Input: data = [197,130,1]
-Output: true  # 11000101 10000010 00000001.
-
-Input: data = [235,140,4]
-Output: false  # data represented the octet sequence: 11101011 10001100 00000100.
-```
-
-{% endtab %}{% tab title='LC_393.cpp' %}
+{% tabs %}{% tab title='LC_393.cpp' %}
 
 ```cpp
 bool validUtf8(vector<int>& data) {

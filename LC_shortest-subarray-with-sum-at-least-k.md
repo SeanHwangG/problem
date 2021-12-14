@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_862.md' %}
-
-* Return the length of the shortest, non-empty, contiguous subarray of nums with sum at least k
-* If there is no non-empty subarray with sum at least k, return -1
-
-```txt
-Input: nums = [2,-1,2], k = 3
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_862.py' %}
+{% tabs %}{% tab title='LC_862.py' %}
 
 ```py
 def shortestSubarray(self, A: List[int], k: int) -> int:

@@ -1,18 +1,9 @@
-{% tabs %}{% tab title='LC_378.md' %}
+{% tabs %}{% tab title='LC_378.cpp' %}
 
-* Given n x n matrix where each of rows and columns are sorted in ascending order, return kth smallest element in matrix
-* Note that it is kth smallest element in sorted order, not kth distinct element
-
-```txt
-Input: matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8
-Output: 13
-```
-
-{% endtab %}{% tab title='LC_378.cpp' %}
+* Time; O(n x log(n) x log(N))
+* Space; O(1)
 
 ```cpp
-// Time: O(n * log(n) * log(N))
-// Space: O(1)
 int kthSmallest(vector<vector<int>>& matrix, int k) {
   int n = matrix.size();
   int lo = matrix[0][0], hi = matrix[n-1][n-1];

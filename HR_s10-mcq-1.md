@@ -1,12 +1,4 @@
-{% tabs %}{% tab title='HR_s10-mcq-1.md' %}
-
-* Two toss of fair six-sided dice, find the probability that their sum will be at most 9
-
-```txt
-Output: 5/6
-```
-
-{% endtab %}{% tab title='HR_s10-mcq-1.py' %}
+{% tabs %}{% tab title='HR_s10-mcq-1.py' %}
 
 ```py
 from fractions import Fraction

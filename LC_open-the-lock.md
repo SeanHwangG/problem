@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_752.md' %}
-
-* Given lock with 4 circular wheels. Each wheel has 10 slots: '0-9'
-* The wheels can rotate freely and wrap around, each move consists of turning one wheel one slot. (ex: '9'<->'0')
-* Lock initially starts at '0000', a string representing the state of the 4 wheels.
-* Given deadends lists, meaning if lock displays these, wheels of lock will stop turning, will be unable to open it
-* Given password, Return min total # turns required to open lock, or -1 if it's impossible
-
-```txt
-Input: deadends = ["0201","0101","0102","1212","2002"], target = "0202"
-Output: 6
-```
-
-{% endtab %}{% tab title='LC_752.py' %}
+{% tabs %}{% tab title='LC_752.py' %}
 
 ```py
 def openLock(self, deadends, target):

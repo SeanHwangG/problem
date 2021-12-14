@@ -1,25 +1,4 @@
-{% tabs %}{% tab title='KT_bela.md' %}
-
-* 첫 줄의 N과 B이 주어진다
-* 그 다음 N줄에 Value, Suit 이 주어지는데,
-* Suit 이 B와 같을 시 Dominant, 다를 시 Not dominant 점수를 얻는다. 총 합을 출력하라
-
-```txt
-Input:
-2 S
-TH
-9C
-KS
-QS
-JS
-TD
-AD
-JH
-
-Output: 60
-```
-
-{% endtab %}{% tab title='KT_bela.py' %}
+{% tabs %}{% tab title='KT_bela.py' %}
 
 ```py
 n_line, suit = input().split()

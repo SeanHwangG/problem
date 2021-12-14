@@ -1,8 +1,4 @@
-{% tabs %}{% tab title='HR_bash-tutorials---looping-with-numbers.md' %}
-
-* Print 1, 2, ..., 50
-
-{% endtab %}{% tab title='HR_bash-tutorials---looping-with-numbers.sh' %}
+{% tabs %}{% tab title='HR_bash-tutorials---looping-with-numbers.sh' %}
 
 ```sh
 seq 50

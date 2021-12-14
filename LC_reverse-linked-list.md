@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_206.md' %}
-
-* Reverse linked list
-
-```txt
-Input: head = [1,2,3,4,5]
-Output: [5,4,3,2,1]
-```
-
-{% endtab %}{% tab title='LC_206.js' %}
+{% tabs %}{% tab title='LC_206.js' %}
 
 ```js
 var reverseList = function(head) {

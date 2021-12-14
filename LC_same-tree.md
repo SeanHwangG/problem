@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_100.md' %}
-
-* Check if tree are same
-
-```txt
-Input: p = [1,2], q = [1,null,2]
-Output: false
-```
-
-{% endtab %}{% tab title='LC_100.py' %}
+{% tabs %}{% tab title='LC_100.py' %}
 
 ```py
 def isSameTree(self, p, q):

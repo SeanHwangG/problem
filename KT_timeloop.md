@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='KT_timeloop.md' %}
-
-* Given N, Print 1 Abracadabra … N Abracadabra
-
-```txt
-Input: 2
-Output:
-1 Abracadabra
-2 Abracadabra
-```
-
-{% endtab %}{% tab title='KT_timeloop.py' %}
+{% tabs %}{% tab title='KT_timeloop.py' %}
 
 ```py
 n_line = int(input())

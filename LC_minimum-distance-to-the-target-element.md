@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_1848.md' %}
-
-* Given an int array and two integers target and start
-* find an index i such that nums[i] == target and abs(i - start) is minimized
-* Return abs(i - start)
-
-```txt
-Input: nums = [1,2,3,4,5], target = 5, start = 3
-Output: 1
-```
-
-{% endtab %}{% tab title='LC_1848.py' %}
+{% tabs %}{% tab title='LC_1848.py' %}
 
 * Time; O(n)
 * Space; O(1)

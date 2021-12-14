@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_539.md' %}
-
-* Given a list of 24-hour clock time points in "HH:MM" format, return min minutes difference between any two time-points
-
-```txt
-Input: timePoints = ["23:59","00:00"]
-Output: 1
-
-Input: timePoints = ["00:00","23:59","00:00"]
-Output: 0
-```
-
-{% endtab %}{% tab title='LC_539.py' %}
+{% tabs %}{% tab title='LC_539.py' %}
 
 ```py
 def findMinDifference(self, timePoints: List[str]) -> int:

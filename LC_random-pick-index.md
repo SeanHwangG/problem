@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_398.md' %}
-
-* Given an integer array nums with possible duplicates, randomly output the index of a given target number
-* You can assume that the given target number must exist in the array
-
-```txt
-Input:
-["Solution", "pick", "pick", "pick"]
-[[[1, 2, 3, 3, 3]], [3], [1], [3]]
-
-Output:
-[null, 4, 0, 2]
-```
-
-{% endtab %}{% tab title='LC_398.java' %}
+{% tabs %}{% tab title='LC_398.java' %}
 
 * Reservior sampling
 

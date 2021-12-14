@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='KT_chanukah.md' %}
-
-* for each day n light is needed
-* determines how many candles would be necessary for a Chanukah holiday lasting for a given number of days
-
-```txt
-Input:
-3
-1 8
-2 1
-3 10
-
-Output:
-1 44
-2 2
-3 65
-```
-
-{% endtab %}{% tab title='KT_chanukah.py' %}
+{% tabs %}{% tab title='KT_chanukah.py' %}
 
 ```py
 n_test = int(input())

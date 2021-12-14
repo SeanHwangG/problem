@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_363.md' %}
-
-* Given m x n matrix matrix and integer k, return max sum of a rectangle in matrix ST its sum is no larger than k
-* It is guaranteed that there will be a rectangle with a sum no larger than k
-
-```txt
-Input: matrix = [[1,0,1],[0,-2,3]], k = 2
-Output: 2
-
-Input: matrix = [[2,2,-1]], k = 3
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_363.py' %}
+{% tabs %}{% tab title='LC_363.py' %}
 
 ```py
 from sortedcontainers import SortedList

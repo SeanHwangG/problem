@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='KT_apaxiaaans.md' %}
-
-* Print consecutive character at most once
-
-```txt
-Input: rooobert
-Output: robert
-```
-
-{% endtab %}{% tab title='KT_apaxiaaans.py' %}
+{% tabs %}{% tab title='KT_apaxiaaans.py' %}
 
 ```py
 st = input()

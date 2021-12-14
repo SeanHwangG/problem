@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_471.md' %}
-
-* Given a string s, encode string such that its encoded length is the shortest.
-* Encoding rule is: k[encoded_string], where encoded_string inside square brackets is being repeated k times
-
-```txt
-Input: s = "aaaaa"
-Output: "5[a]"
-
-Input: s = "aabcaabcd"
-Output: "2[aabc]d"
-```
-
-{% endtab %}{% tab title='LC_471.py' %}
+{% tabs %}{% tab title='LC_471.py' %}
 
 ```py
 @lru_cache(None)

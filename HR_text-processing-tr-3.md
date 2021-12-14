@@ -1,8 +1,4 @@
-{% tabs %}{% tab title='HR_text-processing-tr-3.md' %}
-
-* Replace all sequences of multiple spaces with just one space
-
-{% endtab %}{% tab title='HR_text-processing-tr-3.sh' %}
+{% tabs %}{% tab title='HR_text-processing-tr-3.sh' %}
 
 ```sh
 # -s, --squeeze-repeats

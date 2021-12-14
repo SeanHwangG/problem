@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_221.md' %}
-
-* Find largest square containing only 1's
-
-```txt
-Input: matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_221.py' %}
+{% tabs %}{% tab title='LC_221.py' %}
 
 ```py
 def maximalSquare(self, G):

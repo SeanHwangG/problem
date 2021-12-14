@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_3.md' %}
-
-* Given a string s, find the length of the longest substring without repeating characters
-
-```txt
-Input: s = "abcabcbb"
-Output: 3  # abc
-```
-
-{% endtab %}{% tab title='LC_3.py' %}
+{% tabs %}{% tab title='LC_3.py' %}
 
 ```py
 def lengthOfLongestSubstring(self, s: str) -> int:

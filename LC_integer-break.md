@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_343.md' %}
-
-* Given an integer n, break it into sum of k positive integers, where k >= 2, and maximize product of those integers
-* Return the maximum product you can get
-
-```txt
-Input: n = 10
-Output: 36  # 10 = 3 + 3 + 4, 3 × 3 × 4 = 36.
-```
-
-{% endtab %}{% tab title='LC_343.py' %}
+{% tabs %}{% tab title='LC_343.py' %}
 
 ```py
 def integerBreak(self, n: int) -> int:

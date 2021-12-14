@@ -1,26 +1,4 @@
-{% tabs %}{% tab title='LC_749.md' %}
-
-* Every night, the virus spreads to all neighboring cells in all four directions unless blocked by a wall
-* Each day, install walls around a region that threatens most uninfected cells following night. there won't be a tie.
-* Return # walls used to quarantine all the infected regions
-* If the world will become fully infected, return the number of walls used.
-
-```txt
-Input: isInfected =
-[[0,1,0,0,0,0,0,1],
- [0,1,0,0,0,0,0,1],
- [0,0,0,0,0,0,0,1],
- [0,0,0,0,0,0,0,0]]
-Output: 10  # 5 walls on first day, 5 walls on second day
-
-Input: isInfected =
-[[1,1,1],
- [1,0,1],
- [1,1,1]]
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_749.py' %}
+{% tabs %}{% tab title='LC_749.py' %}
 
 ```py
 def containVirus(self, grid: List[int]) -> int:

@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_338.md' %}
-
-* calculate the number of 1's in their binary representation and return them as an array
-
-```txt
-Input: n = 5
-Output: [0,1,1,2,1,2]
-```
-
-{% endtab %}{% tab title='LC_338.py' %}
+{% tabs %}{% tab title='LC_338.py' %}
 
 ```py
 def countBits(self, num) -> List[int]:

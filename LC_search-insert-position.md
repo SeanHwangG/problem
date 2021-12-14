@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_35.md' %}
-
-* Search for insertion point
-
-```txt
-Input: nums = [1,3,5,6], target = 7
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_35.py' %}
+{% tabs %}{% tab title='LC_35.py' %}
 
 ```py
 def searchInsert(self, nums, target):

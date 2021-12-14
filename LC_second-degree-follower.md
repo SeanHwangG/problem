@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_614.md' %}
-
-| followee | follower |
-| -------- | -------- |
-| A        | B        |
-| B        | C        |
-| B        | D        |
-| D        | E        |
-
-* get the amount of each follower’s follower if he/she has one
-
-| follower | num |
-| -------- | --- |
-| B        | 2   |
-| D        | 1   |
-
-{% endtab %}{% tab title='LC_614.sql' %}
+{% tabs %}{% tab title='LC_614.sql' %}
 
 ```sql
 SELECT DISTINCT f.follower, f3.num FROM follow f

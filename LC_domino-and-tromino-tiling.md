@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_790.md' %}
-
-* Given two types of domino (I and L), find the number of ways to tile 2 * N board
-
-```txt
-Input: n = 3
-Output: 5
-```
-
-{% endtab %}{% tab title='LC_790.py' %}
+{% tabs %}{% tab title='LC_790.py' %}
 
 ```cpp
 int numTilings(int N) {

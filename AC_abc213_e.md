@@ -1,36 +1,4 @@
-{% tabs %}{% tab title='AC_abc213_e.md' %}
-
-* There is a town divided into a grid of cells with H rows and W columns, . is blank and # if block
-* Trying to start at top left to go bottom right
-* Can move one cell a passable cell, or destroy all blocks in 2 × 2 cells with one punch, making these cells passable.
-* Find the minimum number of punches needed to reach the goal
-
-```txt
-Input:
-5 5
-..#..
-#.#.#
-##.##
-#.#.#
-..#..
-
-Output: 1
-
-Input:
-8 8
-.#######
-########
-########
-########
-########
-########
-########
-#######.
-
-Output: 5
-```
-
-{% endtab %}{% tab title='AC_abc213_e.py' %}
+{% tabs %}{% tab title='AC_abc213_e.py' %}
 
 ```py
 from collections import deque

@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_630.md' %}
-
-* There are n different courses numbered from 1 to n
-* courses[i] = [durationi, lastDayi] indicate that ith course should be taken continuously
-  * for durationi days and must be finished before or on lastDayi
-* Return the maximum number of courses that you can take
-
-```txt
-Input: courses = [[100,200],[200,1300],[1000,1250],[2000,3200]]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_630.py' %}
+{% tabs %}{% tab title='LC_630.py' %}
 
 ```py
 def scheduleCourse(self, courses: List[List[int]]) -> int:

@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='LC_627.md' %}
-
-| id  | name | sex | salary |
-| --- | ---- | --- | ------ |
-| 1   | A    | m   | 2500   |
-| 2   | B    | f   | 1500   |
-| 3   | C    | m   | 5500   |
-| 4   | D    | f   | 500    |
-
-* swap all 'f' and 'm' values with a single update statement and no intermediate temp table
-
-| id  | name | sex | salary |
-| --- | ---- | --- | ------ |
-| 1   | A    | f   | 2500   |
-| 2   | B    | m   | 1500   |
-| 3   | C    | f   | 5500   |
-| 4   | D    | m   | 500    |
-
-{% endtab %}{% tab title='LC_627.sql' %}
+{% tabs %}{% tab title='LC_627.sql' %}
 
 ```sql
 UPDATE salary SET sex =

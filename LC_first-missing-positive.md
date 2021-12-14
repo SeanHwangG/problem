@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_41.md' %}
-
-* Given an unsorted integer array nums, find the smallest missing positive integer
-
-```txt
-Input: nums = [1,2,0]
-Output: 3
-```
-
-{% endtab %}{% tab title='LC_41.cpp' %}
+{% tabs %}{% tab title='LC_41.cpp' %}
 
 ```cpp
 int firstMissingPositive(int A[], int n) {

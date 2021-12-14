@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1392.md' %}
-
-* A string is called a happy prefix if is a non-empty prefix which is also a suffix (excluding itself)
-* Given a string s, return longest happy prefix of s, empty string "" if no such prefix exists
-
-```txt
-Input: s = "level"
-Output: "l"
-
-Input: s = "ababab"
-Output: "abab"
-```
-
-{% endtab %}{% tab title='LC_1392.py' %}
+{% tabs %}{% tab title='LC_1392.py' %}
 
 ```py
 def longestPrefix(self, s: str) -> str:

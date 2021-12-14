@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='KT_cetvrta.md' %}
-
-* Given coordinate of three corners of rectangle, find the last corner
-
-```txt
-Input:
-1 3
-2 3
-2 5
-
-Output: 1 5
-```
-
-{% endtab %}{% tab title='KT_cetvrta.py' %}
+{% tabs %}{% tab title='KT_cetvrta.py' %}
 
 ```py
 x1, y1 = map(int, input().split())

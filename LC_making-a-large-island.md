@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_827.md' %}
-
-* Given an n x n binary matrix grid. You are allowed to change at most one 0 to be 1
-* Return the size of the largest island in grid after applying this operation
-* An island is a 4-directionally connected group of 1s
-
-```txt
-Input: grid = [[1,1],[1,0]]
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_827.cpp' %}
+{% tabs %}{% tab title='LC_827.cpp' %}
 
 ```cpp
 int get(int i, int j, vector<vector<int>>& g) {

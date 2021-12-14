@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_1610.md' %}
-
-* Return max # points you can see with given angle
-
-```txt
-Input: points = [[2,1],[2,2],[3,3]], angle = 90, location = [1,1]
-Output: 3
-
-Input: points = [[2,1],[2,2],[3,4],[1,1]], angle = 90, location = [1,1]
-Output: 4
-```
-
-{% endtab %}{% tab title='LC_1610.py' %}
+{% tabs %}{% tab title='LC_1610.py' %}
 
 ```py
 def visiblePoints(self, points: List[List[int]], angle: int, location: List[int]) -> int:

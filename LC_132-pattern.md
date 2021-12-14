@@ -1,15 +1,4 @@
-{% tabs %}{% tab title='LC_456.md' %}
-
-* Given an array of n integers nums, a 132 pattern is a subsequence of three integers nums[i], nums[j] and nums[k]
-* st i < j < k and nums[i] < nums[k] < nums[j]
-* Return whether there is 132 pattern in the list
-
-```txt
-Input: nums = [1,2,3,4]
-Output: false
-```
-
-{% endtab %}{% tab title='LC_456.cpp' %}
+{% tabs %}{% tab title='LC_456.cpp' %}
 
 ```cpp
 bool find132pattern(vector<int>& nums) {

@@ -1,16 +1,4 @@
-{% tabs %}{% tab title='LC_341.md' %}
-
-* Implement the NestedIterator class:
-  * NestedIterator(List\<NestedInteger\> nestedList) Initializes the iterator with the nested list nestedList.
-  * int next() Returns the next integer in the nested list.
-  * boolean hasNext() Returns true if there are still some integers in the nested list and false otherwise.
-
-```txt
-Input: nestedList = [[1,1],2,[1,1]]
-Output: [1,1,2,1,1]
-```
-
-{% endtab %}{% tab title='LC_341.py' %}
+{% tabs %}{% tab title='LC_341.py' %}
 
 ```py
 # class NestedInteger:

@@ -1,18 +1,7 @@
-{% tabs %}{% tab title='LC_210.md' %}
+{% tabs %}{% tab title='LC_210.py' %}
 
-* There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1
-* an array prerequisites where prerequisites[i] = [ai, bi] indicates that take course bi first before course ai
-* Return any ordering of courses to finish all courses (if impossible, return an empty array)
-
-```txt
-Input: numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]]
-Output: [0,2,1,3]
-```
-
-{% endtab %}{% tab title='LC_210.py' %}
-
-* Time: O(V + E)
-* Space: O(V + E)
+* Time; O(V + E)
+* Space; O(V + E)
 
 ```py
 def findOrder(self, n: int, prerequisites: List[List[int]]) -> List[int]:

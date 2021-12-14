@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_21.md' %}
-
-* Merge two linked lists
-
-```txt
-Input: l1 = [1,2,4], l2 = [1,3,4]
-Output: [1,1,2,3,4,4]
-```
-
-{% endtab %}{% tab title='LC_21.cpp' %}
+{% tabs %}{% tab title='LC_21.cpp' %}
 
 ```cpp
 ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {

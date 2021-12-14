@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='KT_pot.md' %}
-
-* print number when last number is exponent
-
-```txt
-5
-23
-17
-43
-52
-22
-
-Output: 102  # 2 ** 3 + 1 ** 7 ..
-```
-
-{% endtab %}{% tab title='KT_pot.py' %}
+{% tabs %}{% tab title='KT_pot.py' %}
 
 ```py
 n_line = int(input())

@@ -1,16 +1,8 @@
-{% tabs %}{% tab title='LC_326.md' %}
+{% tabs %}{% tab title='LC_326.py' %}
 
-* Check if n is power of three
-
-```txt
-Input: n = 27
-Output: true
-```
-
-{% endtab %}{% tab title='LC_326.py' %}
+* Time; O(1)
 
 ```py
-# Time : O(1)
 def isPowerOfThree(self, n):
   return n > 0 == 3**19 % n
 ```

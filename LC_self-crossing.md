@@ -1,8 +1,4 @@
-{% tabs %}{% tab title='LC_335.md' %}
-
-* Check if line is self crossing
-
-{% endtab %}{% tab title='LC_335.py' %}
+{% tabs %}{% tab title='LC_335.py' %}
 
 ```py
 def isSelfCrossing(self, x):

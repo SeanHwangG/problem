@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='HR_uk-and-us.md' %}
-
-* For some spelling, US uses -se, while UK uses -ze
-* Given text, find # occurence from sentence either of them
-
-```txt
-Input:
-2
-hackerrank has such a good ui that it takes no time to familiarise its environment
-to familiarize oneself with ui of hackerrank is easy
-1
-familiarize
-
-Output: 2
-```
-
-{% endtab %}{% tab title='HR_uk-and-us.go' %}
+{% tabs %}{% tab title='HR_uk-and-us.go' %}
 
 ```go
 package main

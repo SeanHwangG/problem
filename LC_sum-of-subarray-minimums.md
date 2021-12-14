@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_907.md' %}
-
-* Given an array of integers arr, find the sum of min(b), where b ranges over every (contiguous) subarray of arr
-
-```txt
-Input: arr = [3,1,2,4]
-Output: 17
-```
-
-{% endtab %}{% tab title='LC_907.py' %}
+{% tabs %}{% tab title='LC_907.py' %}
 
 ```py
 def sumSubarrayMins(self, A):

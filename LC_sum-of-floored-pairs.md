@@ -1,17 +1,4 @@
-{% tabs %}{% tab title='LC_1862.md' %}
-
-* Given integer array, return sum of floor(nums[i] / nums[j]) for all pairs 0 <= i, j < nums.length MOD 10^9+7
-* The floor() function returns the integer part of the division.
-
-```txt
-Input: nums = [2,5,9]
-Output: 10
-
-Input: nums = [7,7,7,7,7,7,7]
-Output: 49
-```
-
-{% endtab %}{% tab title='LC_1862.py' %}
+{% tabs %}{% tab title='LC_1862.py' %}
 
 ```py
 def sumOfFlooredPairs(self, nums: List[int]) -> int:

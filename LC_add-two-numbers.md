@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_2.md' %}
-
-* Add two linked list number
-
-```txt
-Input: l1 = [2,4,3], l2 = [5,6,4]
-Output: [7,0,8]
-```
-
-{% endtab %}{% tab title='LC_2.py' %}
+{% tabs %}{% tab title='LC_2.py' %}
 
 ```py
 def addTwoNumbers(self, l1, l2):

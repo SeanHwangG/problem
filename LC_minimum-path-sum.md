@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_64.md' %}
-
-* find a path from top left to bottom right minimizes the sum
-
-```txt
-Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
-Output: 7
-```
-
-{% endtab %}{% tab title='LC_64.py' %}
+{% tabs %}{% tab title='LC_64.py' %}
 
 ```py
 def minPathSum(self, grid):

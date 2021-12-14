@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1455.md' %}
-
-* Given a sentence that consists of some words separated by a single space, and a searchWord
-* You have to check if searchWord is a prefix of any word in sentence
-
-```txt
-Input: sentence = "i love eating burger", searchWord = "burg"
-Output: 4    # "burg" is prefix of "burger" which is the 4th word in the sentence.
-```
-
-{% endtab %}{% tab title='LC_1455.cpp' %}
+{% tabs %}{% tab title='LC_1455.cpp' %}
 
 ```cpp
 int isPrefixOfWord(string sentence, string searchWord) {

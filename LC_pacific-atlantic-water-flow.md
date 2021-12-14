@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='LC_417.md' %}
-
-* Given G with m x n, Pacific touches continent's left/top edges, and Atlantic touches continent's right/bottom edges
-* Water can only flow in four directions: up, down, left,  right, from cell to adjacent one with an equal or lower height
-* Return a list of grid coordinates where water can flow to both the Pacific and Atlantic oceans
-
-```txt
-Input:
-heights =
-[[1,2,2,3,5],
- [3,2,3,4,4],
- [2,4,5,3,1],
- [6,7,1,4,5],
- [5,1,1,2,4]]
-
-Output: [[0,4],[1,3],[1,4],[2,2],[3,0],[3,1],[4,0]]
-```
-
-{% endtab %}{% tab title='LC_417.py' %}
+{% tabs %}{% tab title='LC_417.py' %}
 
 ```py
 def pacificAtlantic(self, G):

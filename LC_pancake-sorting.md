@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_969.md' %}
-
-* Choose an integer k where 1 <= k <= arr.length
-* Reverse the sub-array arr[0...k-1] (0-indexed)
-
-```txt
-Input: arr = [3,2,4,1]
-Output: [4,2,4,3] # k = 4, 2, 4, 3
-```
-
-{% endtab %}{% tab title='LC_969.py' %}
+{% tabs %}{% tab title='LC_969.py' %}
 
 ```py
 def pancakeSort(self, A: List[int]) -> List[int]:

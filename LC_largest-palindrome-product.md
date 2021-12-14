@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_479.md' %}
-
-* Given integer n, return the largest palindromic integer that can be represented as the product of two n-digits ints
-* Since the answer can be very large, return it modulo 1337.
-
-```txt
-Input: n = 2
-Output: 987  # 99 x 91 = 9009, 9009 % 1337 = 987
-```
-
-{% endtab %}{% tab title='LC_479.py' %}
+{% tabs %}{% tab title='LC_479.py' %}
 
 ```py
 def largestPalindrome(self, n):  # 10 ^ (2n) - 10 ^ n * (x + y) + xy = 10 ^ n * (10 ^ n - (x + y)) + xy

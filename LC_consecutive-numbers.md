@@ -1,22 +1,4 @@
-{% tabs %}{% tab title='LC_180.md' %}
-
-| Id  | Num |
-| --- | --- |
-| 1   | 1   |
-| 2   | 1   |
-| 3   | 1   |
-| 4   | 2   |
-| 5   | 1   |
-| 6   | 2   |
-| 7   | 2   |
-
-* find all numbers that appear at least three times consecutively
-
-| ConsecutiveNums |
-| --------------- |
-| 1               |
-
-{% endtab %}{% tab title='LC_180.py' %}
+{% tabs %}{% tab title='LC_180.py' %}
 
 ```sql
 SELECT DISTINCT l1.Num as ConsecutiveNums FROM Logs l1, Logs l2, Logs l3

@@ -1,19 +1,4 @@
-{% tabs %}{% tab title='LC_464.md' %}
-
-* In the "100 game" two players take turns adding, to a running total, any integer from 1 to 10
-* The player who first causes the running total to reach or exceed 100 wins
-* What if we change the game so that players cannot re-use integers?
-* (ex: two players might take turns drawing from a common pool of numbers from 1 to 15 without replacement)
-  until they reach a total >= 100
-* Given two integers maxChoosableInteger and desiredTotal, return if the first player to move can force a win
-* Assume both players play optimally
-
-```txt
-Input: maxChoosableInteger = 10, desiredTotal = 11
-Output: false
-```
-
-{% endtab %}{% tab title='LC_464.cpp' %}
+{% tabs %}{% tab title='LC_464.cpp' %}
 
 ```py
   bool canIWin(int M, int T) {

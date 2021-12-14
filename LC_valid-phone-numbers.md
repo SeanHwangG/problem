@@ -1,20 +1,4 @@
-{% tabs %}{% tab title='LC_193.md' %}
-
-* Your script should output the following valid phone numbers:
-
-```txt
-Input:
-
-987-123-4567
-123 456 7890
-(123) 456-7890
-
-Output:
-987-123-4567
-(123) 456-7890
-```
-
-{% endtab %}{% tab title='LC_193.sh' %}
+{% tabs %}{% tab title='LC_193.sh' %}
 
 ```sh
 grep -e "^\([0-9]\{3\}-\|([0-9]\{3\}) \)[0-9]\{3\}-[0-9]\{4\}$" telephone.txt

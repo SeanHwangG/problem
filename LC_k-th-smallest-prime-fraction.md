@@ -1,3 +1,5 @@
+{% tabs %}{% tab title='LC_k-th-smallest-prime-fraction.py' %}
+
 ```py
 def kthSmallestPrimeFraction(self, A, K):
   def kthSmallest(matrix, k):
@@ -8,3 +10,5 @@ def kthSmallestPrimeFraction(self, A, K):
       return float(self) / A[~j], [int(self), A[~j]]
   return kthSmallest(map(Row, A), K)[1]
 ```
+
+{% endtab %}{% endtabs %}

@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_1717.md' %}
-
-* Given a string s and two integers x and y. You can perform two types of operations any number of times
-* Remove substring "ab" and gain x points
-* For example, when removing "ab" from "cabxbae" it becomes "cxbae"
-* Remove substring "ba" and gain y points
-* For example, when removing "ba" from "cabxbae" it becomes "cabxe"
-* Return the maximum points you can gain after applying the above operations on s
-
-```txt
-Input: s = "aabbaaxybbaabb", x = 5, y = 4
-Output: 20
-```
-
-{% endtab %}{% tab title='LC_1717.py' %}
+{% tabs %}{% tab title='LC_1717.py' %}
 
 ```py
 def maximumGain(self, s: str, x: int, y: int) -> int:

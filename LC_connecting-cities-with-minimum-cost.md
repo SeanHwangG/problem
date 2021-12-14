@@ -1,18 +1,4 @@
-{% tabs %}{% tab title='LC_1135.md' %}
-
-* There are n cities labeled from 1 to n. Given integer n and an array connections
-* connections[i] = [xi, yi, costi] indicate that cost of connecting city xi and yi (bidirectional connection) is costi
-* Return minimum cost to connect all n cities ST at least one path between each pair of cities, return -1 if impossible
-
-```txt
-Input: n = 3, connections = [[1,2,5],[1,3,6],[2,3,1]]
-Output: 6
-
-Input: n = 4, connections = [[1,2,3],[3,4,4]]
-Output: -1
-```
-
-{% endtab %}{% tab title='LC_1135.py' %}
+{% tabs %}{% tab title='LC_1135.py' %}
 
 ```py
 def minimumCost(self, N: int, connections: List[List[int]]) -> int:

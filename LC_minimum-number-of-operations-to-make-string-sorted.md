@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_1830.md' %}
-
-* what is the lexicographical order of string
-
-```txt
-Input: s = "cba"
-Output: 5
-```
-
-{% endtab %}{% tab title='LC_1830.py' %}
+{% tabs %}{% tab title='LC_1830.py' %}
 
 ```py
 cnt, ans, cur = [0] * 26, 0, 1  # cur: #op for cur positions

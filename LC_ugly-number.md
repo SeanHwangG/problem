@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_263.md' %}
-
-* Given an integer n, return true if n is an ugly number
-* Ugly number is a positive number whose prime factors only include 2, 3, and/or 5
-
-```txt
-Input: 6
-Output: true
-```
-
-{% endtab %}{% tab title='LC_263.py' %}
+{% tabs %}{% tab title='LC_263.py' %}
 
 ```py
 def isUgly(self, n: int) -> bool:

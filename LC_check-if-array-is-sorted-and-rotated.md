@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='LC_1752.md' %}
-
-* Given array nums, return if array was originally sorted in non-decreasing order, then rotated some number of positions
-* There may be duplicates in the original array
-
-```txt
-Input: nums = [3,4,5,1,2]
-Output: true
-```
-
-{% endtab %}{% tab title='LC_1752.py' %}
+{% tabs %}{% tab title='LC_1752.py' %}
 
 ```py
 def check(self, nums: List[int]) -> bool:

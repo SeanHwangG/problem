@@ -1,14 +1,4 @@
-{% tabs %}{% tab title='KT_pokerhand.md' %}
-
-* First character is rank
-* How many times did msot frequent rank appeared
-
-```txt
-Input: AC AD AH AS KD
-Output: 4
-```
-
-{% endtab %}{% tab title='KT_pokerhand.py' %}
+{% tabs %}{% tab title='KT_pokerhand.py' %}
 
 ```py
 from collections import Counter

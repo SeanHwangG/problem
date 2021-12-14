@@ -1,12 +1,4 @@
-{% tabs %}{% tab title='HR_s10-mcq-2.md' %}
-
-* Two toss of six-sided dice, find probability that values rolled by each die will be different, two dice sum to 6
-
-```txt
-Output: 1/9
-```
-
-{% endtab %}{% tab title='HR_s10-mcq-2.py' %}
+{% tabs %}{% tab title='HR_s10-mcq-2.py' %}
 
 ```py
 from fractions import Fraction

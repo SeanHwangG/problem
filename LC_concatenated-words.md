@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_472.md' %}
-
-* Given an array of unique strings words, return all the concatenated words in the given list of words
-
-```txt
-Input: words = ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
-Output: ["catsdogcats","dogcatsdog","ratcatdogcat"]
-```
-
-{% endtab %}{% tab title='LC_472.py' %}
+{% tabs %}{% tab title='LC_472.py' %}
 
 ```py
 def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:

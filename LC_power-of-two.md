@@ -1,13 +1,4 @@
-{% tabs %}{% tab title='LC_231.md' %}
-
-* Check if power of 2
-
-```txt
-Input: 8
-Output: True
-```
-
-{% endtab %}{% tab title='LC_231.py' %}
+{% tabs %}{% tab title='LC_231.py' %}
 
 ```py
 def isPowerOfTwo(self, n):
