@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1856.cpp' %}
-
 ```cpp
 int maxSumMinProduct(vector<int>& n) {
   long res = 0;
@@ -17,5 +15,3 @@ int maxSumMinProduct(vector<int>& n) {
   return res % 1000000007;
 }
 ```
-
-{% endtab %}{% endtabs %}

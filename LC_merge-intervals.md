@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_56.py' %}
-
 ```py
 def merge(self, intervals):
   out = []
@@ -10,5 +8,3 @@ def merge(self, intervals):
       out += [i]
   return out
 ```
-
-{% endtab %}{% endtabs %}

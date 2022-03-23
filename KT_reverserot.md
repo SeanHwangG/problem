@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_reverserot.py' %}
-
 ```py
 alp = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_.'
 while True:
@@ -12,5 +10,3 @@ while True:
     print(alp[(alp.find(ch) + shift) % len(alp)], end='')
   print()
 ```
-
-{% endtab %}{% endtabs %}

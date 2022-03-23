@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_123.cpp' %}
-
 ```cpp
 int maxProfit(vector<int>& v, int N = 2) {
   int M = v.size();
@@ -15,5 +13,3 @@ int maxProfit(vector<int>& v, int N = 2) {
   return dp[N][M - 1];
 }
 ```
-
-{% endtab %}{% endtabs %}

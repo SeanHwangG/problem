@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_695.py' %}
-
 ```py
 def maxAreaOfIsland(self, grid):
   m, n = len(grid), len(grid[0])
@@ -12,5 +10,3 @@ def maxAreaOfIsland(self, grid):
   areas = [dfs(i, j) for i in range(m) for j in range(n) if grid[i][j]]
   return max(areas) if areas else 0
 ```
-
-{% endtab %}{% endtabs %}

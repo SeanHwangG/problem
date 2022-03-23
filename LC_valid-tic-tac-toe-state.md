@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_794.py' %}
-
 ```py
 def validTicTacToe(self, board):
   b = '|'.join(board)
@@ -7,5 +5,3 @@ def validTicTacToe(self, board):
   m = b.count('X') - b.count('O')
   return m == (not o) if m else not x
 ```
-
-{% endtab %}{% endtabs %}

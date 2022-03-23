@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_134.cpp' %}
-
 ```cpp
 int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
   int total(0), subsum(INT_MAX), start(0);
@@ -13,5 +11,3 @@ int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
   return (total < 0) ?  -1 : (start % gas.size());
 }
 ```
-
-{% endtab %}{% endtabs %}

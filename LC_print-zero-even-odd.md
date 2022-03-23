@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1116.cpp' %}
-
 * lock
 
 ```cpp
@@ -43,8 +41,6 @@ public:
 };
 ```
 
-{% endtab %}{% tab title='LC_1116.java' %}
-
 * Semaphore
 
 ```java
@@ -87,8 +83,6 @@ class ZeroEvenOdd {
 }
 ```
 
-{% endtab %}{% tab title='LC_1116.py' %}
-
 * Condition
 
 ```py
@@ -127,5 +121,3 @@ class ZeroEvenOdd:
         self.sem = 0
         self.c.notify_all()
 ```
-
-{% endtab %}{% endtabs %}

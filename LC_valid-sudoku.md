@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_36.py' %}
-
 ```py
 def isValidSudoku(self, board: List[List[str]]) -> bool:
   seen = set()
@@ -14,5 +12,3 @@ def isValidSudoku(self, board: List[List[str]]) -> bool:
           seen.add((i//3, j//3, cval))
   return True
 ```
-
-{% endtab %}{% endtabs %}

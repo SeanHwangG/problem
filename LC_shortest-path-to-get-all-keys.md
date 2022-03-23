@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_864.py' %}
-
 * Time; O(MN key)
 
 ```py
@@ -25,5 +23,3 @@ def shortestPathAllKeys(self, G: List[str]) -> int:
           q.append((moves + 1, x, y, newState))
   return -1
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_542.py' %}
-
 ```py
 from collections import deque
 class Solution:
@@ -20,5 +18,3 @@ class Solution:
           q.append((nr, nc))
     return G
 ```
-
-{% endtab %}{% endtabs %}

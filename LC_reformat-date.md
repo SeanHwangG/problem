@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1507.go' %}
-
 ```go
 func reformatDate(date string) string {
   month := map[string]string{
@@ -21,19 +19,13 @@ func reformatDate(date string) string {
 }
 ```
 
-{% endtab %}{% tab title='LC_1507.js' %}
-
 ```js
 reformatDate(date) => {
   new Date(Date.parse(date.replace(/.. /, ''))).toISOString().slice(0, 10);
 }
 ```
 
-{% endtab %}{% tab title='LC_1507.py' %}
-
 ```py
 def reformatDate(self, date: str) -> str:
   return datetime.datetime.strptime(re.sub(r"(st|th|rd|nd)", "", date), "%d %b %Y").strftime("%Y-%m-%d")
 ```
-
-{% endtab %}{% endtabs %}

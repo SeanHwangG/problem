@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_964.py' %}
-
 ```py
 def leastOpsExpressTarget(self, x: int, target: int) -> int:
   @lru_cache(None)
@@ -14,5 +12,3 @@ def leastOpsExpressTarget(self, x: int, target: int) -> int:
 
   return dp(target, math.ceil(math.log(target, x)))
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_690.py' %}
-
 * Time; O(n)
 * Space; O(n)
 
@@ -10,5 +8,3 @@ class Solution:
     dfs = lambda id: sum(dfs(sub_id) for sub_id in emps[id].subordinates) + emps[id].importance
     return dfs(id)
 ```
-
-{% endtab %}{% endtabs %}

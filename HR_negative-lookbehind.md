@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_negative-lookbehind.py' %}
-
 ```py
 import re
 
@@ -8,5 +6,3 @@ match = re.findall(pattern, input)
 
 print("Number of matches :", len(match))
 ```
-
-{% endtab %}{% endtabs %}

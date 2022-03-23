@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1494.py' %}
-
 ```py
 class Solution:
   def minNumberOfSemesters(self, n: int, dependencies: List[List[int]], k: int) -> int:
@@ -29,5 +27,3 @@ class Solution:
 
     return dfs((1 << n) - 1, tuple(pre))
 ```
-
-{% endtab %}{% endtabs %}

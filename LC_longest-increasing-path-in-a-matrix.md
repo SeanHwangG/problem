@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_329.py' %}
-
 ```py
 def longestIncreasingPath(self, G: List[List[int]]) -> int:
   @lru_cache(None)
@@ -12,5 +10,3 @@ def longestIncreasingPath(self, G: List[List[int]]) -> int:
   if not any(G): return 0
   return max(dfs(i, j) for i in range(len(G)) for j in range(len(G[0])))
 ```
-
-{% endtab %}{% endtabs %}

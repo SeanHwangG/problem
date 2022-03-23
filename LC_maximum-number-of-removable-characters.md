@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1898.py' %}
-
 ```cpp
 int maximumRemovals(string s, string p, vector<int>& rem) {
   int l = 0, r = rem.size();
@@ -17,5 +15,3 @@ int maximumRemovals(string s, string p, vector<int>& rem) {
   return l;
 }
 ```
-
-{% endtab %}{% endtabs %}

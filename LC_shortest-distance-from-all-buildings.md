@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_317.py' %}
-
 * Start with building, mark all distance
 
 * Time, Space; O(kmn) O(mn)
@@ -32,5 +30,3 @@ def shortestDistance(self, grid):
       target -= 1
   return min_dist if min_dist != 1e9 else -1
 ```
-
-{% endtab %}{% endtabs %}

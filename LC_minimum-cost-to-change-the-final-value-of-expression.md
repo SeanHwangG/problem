@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1896.py' %}
-
 ```py
 def minOperationsToFlip(self, E):
   def dp(beg, end):
@@ -30,5 +28,3 @@ def minOperationsToFlip(self, E):
       d[i] = last
   return dp(0, len(E) - 1)[1]
 ```
-
-{% endtab %}{% endtabs %}

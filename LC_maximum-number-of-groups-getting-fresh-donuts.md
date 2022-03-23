@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1815.py' %}
-
 * Time: O((n/K)^K * K)
 * Space: O((n/K)^K * K)
 
@@ -28,5 +26,3 @@ def maxHappyGroups(self, batch_size: int, groups: List[int]) -> int:
     remains[batch_size - i] -= happy
   return ans + dp(tuple(remains), 0)
 ```
-
-{% endtab %}{% endtabs %}

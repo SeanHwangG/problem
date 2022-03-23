@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_symmetricorder.py' %}
-
 ```py
 si = 0
 while n := int(input()) != 0:
@@ -11,5 +9,3 @@ while n := int(input()) != 0:
   for i in range(1, n, 2):
     print(li[i])
 ```
-
-{% endtab %}{% endtabs %}

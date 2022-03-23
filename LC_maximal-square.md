@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_221.py' %}
-
 ```py
 def maximalSquare(self, G):
   if len(G) == 0:
@@ -23,5 +21,3 @@ def maximalSquare(self, G):
   #             dp[flag][j + 1] = 0
   #     flag ^= 1
   ```
-
-{% endtab %}{% endtabs %}

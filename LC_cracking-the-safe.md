@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_753.py' %}
-
 ```py
 def crackSafe(self, n: int, k: int) -> str:
   visited = set()
@@ -14,5 +12,3 @@ def crackSafe(self, n: int, k: int) -> str:
     else:
       return res
 ```
-
-{% endtab %}{% endtabs %}

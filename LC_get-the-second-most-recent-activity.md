@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1369.sql' %}
-
 ```sql
 WITH order_table AS (
   SELECT *,
@@ -8,5 +6,3 @@ WITH order_table AS (
 SELECT o.username, o.activity, o.startDate, o.endDate FROM order_table o
   WHERE o.order = 2 OR o.act_count = 1
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_278.py' %}
-
 ```py
 def firstBadVersion(self, n):
   lo, hi = 1, n
@@ -11,5 +9,3 @@ def firstBadVersion(self, n):
       hi = mi
   return lo
 ```
-
-{% endtab %}{% endtabs %}

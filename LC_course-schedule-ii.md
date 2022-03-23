@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_210.py' %}
-
 * Time; O(V + E)
 * Space; O(V + E)
 
@@ -18,5 +16,3 @@ def findOrder(self, n: int, prerequisites: List[List[int]]) -> List[int]:
         bfs.append(j)
   return reversed(bfs) if len(bfs) == n else []
 ```
-
-{% endtab %}{% endtabs %}

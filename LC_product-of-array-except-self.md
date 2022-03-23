@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_238.cpp' %}
-
 ```cpp
 vector<int> productExceptSelf(vector<int>& nums) {
   int n = nums.size();
@@ -14,5 +12,3 @@ vector<int> productExceptSelf(vector<int>& nums) {
   return prods;
 }
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_604.py' %}
-
 ```py
 import re
 class StringIterator(object):
@@ -19,5 +17,3 @@ class StringIterator(object):
   def hasNext(self):
     return bool(self.tokens)
 ```
-
-{% endtab %}{% endtabs %}

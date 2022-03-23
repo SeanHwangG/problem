@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_167.py' %}
-
 ```py
 def twoSum1(self, numbers, target):
   l, r = 0, len(numbers) - 1
@@ -12,5 +10,3 @@ def twoSum1(self, numbers, target):
     else:
       r -= 1
 ```
-
-{% endtab %}{% endtabs %}

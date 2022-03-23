@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_mirror.py' %}
-
 ```py
 n_test = int(input())
 for test in range(1, n_test + 1):
@@ -9,5 +7,3 @@ for test in range(1, n_test + 1):
   for st in reversed(G):
     print("".join(reversed(st)))
 ```
-
-{% endtab %}{% endtabs %}

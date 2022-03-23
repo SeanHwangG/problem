@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_72.py' %}
-
 * Time; O(MN)
 * Space; O(MN)
 
@@ -15,5 +13,3 @@ def minDistance(self, word1, word2):
         dp[i - 1][j - 1] if word1[i - 1] == word2[j - 1] else dp[i - 1][j - 1] + 1)
   return dp[N][M]
 ```
-
-{% endtab %}{% endtabs %}

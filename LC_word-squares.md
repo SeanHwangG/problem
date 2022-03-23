@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_425.py' %}
-
 ```py
 def wordSquares(self, words: List[str]) -> List[List[str]]:
   n = len(words[0])
@@ -18,5 +16,3 @@ def wordSquares(self, words: List[str]) -> List[List[str]]:
     build([word])
   return squares
 ```
-
-{% endtab %}{% endtabs %}

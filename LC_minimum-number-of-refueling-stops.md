@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_871.py' %}
-
 ```py
 def minRefuelStops(self, target: int, cur: int, s: List[List[int]]) -> int:
   pq, res, i = [], 0, 0
@@ -12,5 +10,3 @@ def minRefuelStops(self, target: int, cur: int, s: List[List[int]]) -> int:
     res += 1
   return res
 ```
-
-{% endtab %}{% endtabs %}

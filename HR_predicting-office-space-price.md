@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_predicting-office-space-price.py' %}
-
 ```py
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
@@ -22,5 +20,3 @@ for _ in range(int(input())):
   fit = poly.fit_transform(features)
   print(regression.predict(fit)[0])
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_90.cpp' %}
-
 ```cpp
 class Solution {
 public:
@@ -21,12 +19,8 @@ public:
 };
 ```
 
-{% endtab %}{% tab title='LC_90.py' %}
-
 ```py
 from itertools import compress, product
 def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
   return set(tuple(compress(sorted(nums), bits)) for bits in product(range(2), repeat=len(nums)))
 ```
-
-{% endtab %}{% endtabs %}

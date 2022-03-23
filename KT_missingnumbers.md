@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_missingnumbers.py' %}
-
 ```py
 n = int(input())
 gap = False
@@ -13,5 +11,3 @@ for i in range(n):
 if not gap:
   print('good job')
 ```
-
-{% endtab %}{% endtabs %}

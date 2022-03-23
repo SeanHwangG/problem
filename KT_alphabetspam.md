@@ -1,5 +1,3 @@
-{% tabs %}{% tab titlepyT_alphabetspam.md'' %}
-
 ```py
 st = input()
 white = 0
@@ -22,5 +20,3 @@ print(lower / total)
 print(upper / total)
 print(symbol / total)
 ```
-
-{% endtab %}{% endtabs %}

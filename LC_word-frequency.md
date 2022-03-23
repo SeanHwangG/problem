@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_192.sh' %}
-
 ```sh
 # tr -s: truncate the string with target string, but only remaining one instance (e.g. multiple whitespaces)
 # sort: To make the same string successive so that uniq could count the same string fully and correctly.
@@ -9,5 +7,3 @@
 
 cat words.txt | tr -s ' ' '\n' | sort | uniq -c | sort -r | awk '{ print $2, $1 }'
 ```
-
-{% endtab %}{% endtabs %}

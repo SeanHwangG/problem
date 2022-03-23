@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1225.sql' %}
-
 ```sql
 SELECT stats AS period_state, MIN(day) AS start_date, MAX(day) AS end_date
 FROM (
@@ -15,5 +13,3 @@ FROM (
 GROUP BY inv, stats
 ORDER BY start_date
 ```
-
-{% endtab %}{% endtabs %}

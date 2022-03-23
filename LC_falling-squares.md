@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_699.py' %}
-
 ```py
 def fallingSquares(self, positions: List[List[int]]) -> List[int]:
   height, pos, res = [0], [0], [0]
@@ -11,5 +9,3 @@ def fallingSquares(self, positions: List[List[int]]) -> List[int]:
     res.append(max(res[-1], high))
   return res[1:]
 ```
-
-{% endtab %}{% endtabs %}

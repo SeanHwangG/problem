@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_ip-address-validation.py' %}
-
 ```py
 import re
 
@@ -15,5 +13,3 @@ for n in range(number):
   else:
     print('Neither')
 ```
-
-{% endtab %}{% endtabs %}

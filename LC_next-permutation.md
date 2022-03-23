@@ -1,12 +1,8 @@
-{% tabs %}{% tab title='LC_31.cpp' %}
-
 ```cpp
 void nextPermutation(vector<int>& nums) {
   next_permutation(begin(nums), end(nums));
 }
 ```
-
-{% endtab %}{% tab title='LC_31.py' %}
 
 ```py
 def nextPermutation(self, nums):
@@ -25,5 +21,3 @@ def nextPermutation(self, nums):
     nums[l], nums[r] = nums[r], nums[l]
     l +=1 ; r -= 1
 ```
-
-{% endtab %}{% endtabs %}

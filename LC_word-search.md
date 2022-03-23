@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_79.py' %}
-
 ```py
 def exist(self, board: List[List[str]], word: str) -> bool:
   for r in range(len(board)):
@@ -19,5 +17,3 @@ def search(self, board, row, col, word, i):
   board[row][col] = char
   return res
 ```
-
-{% endtab %}{% endtabs %}

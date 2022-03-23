@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1800.py' %}
-
 ```py
 def maxAscendingSum(self, nums: List[int]) -> int:
   mx = 0
@@ -9,5 +7,3 @@ def maxAscendingSum(self, nums: List[int]) -> int:
     mx = max(mx, cur)
   return mx
 ```
-
-{% endtab %}{% endtabs %}

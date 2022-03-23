@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_410.py' %}
-
 ```py
 def is_valid(self, nums, m, mi):
   cuts, curr_sum = 0, 0
@@ -20,5 +18,3 @@ def splitArray(self, nums, m):
       lo = mi + 1
   return ans
 ```
-
-{% endtab %}{% endtabs %}

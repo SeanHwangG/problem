@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_516.cpp' %}
-
 * Time, Space; O(N^2), O(N)
 
 ```cpp
@@ -18,8 +16,6 @@ int longestPalindromeSubseq(string s) {
 }
 ```
 
-{% endtab %}{% tab title='LC_516.py' %}
-
 ```py
 # Time, Space O(N^2), O(N^2)
 @lru_cache(None)
@@ -27,5 +23,3 @@ def longestPalindromeSubseq(self, s):
   recurse = lambda i, j: 1 if i == j else 2 + self.longestPalindromeSubseq(s[i+1:j])
   return max((recurse(s.find(ch), s.rfind(ch)) for ch in set(s)), default=0)
 ```
-
-{% endtab %}{% endtabs %}

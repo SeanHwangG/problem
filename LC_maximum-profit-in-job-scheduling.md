@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1235.cpp' %}
-
 * Time: O(NlogN)
 * Space: O(N)
 
@@ -20,8 +18,6 @@ int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& pro
   return dp.rbegin()->second;
 }
 ```
-
-{% endtab %}{% tab title='LC_1235.java' %}
 
 * Time: O(NlogN)
 * Space: O(N)
@@ -45,8 +41,6 @@ public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1235.py' %}
-
 * Time: O(NlogN)
 * Space: O(N)
 
@@ -60,5 +54,3 @@ def jobScheduling(self, startTime, endTime, profit):
       dp.append([e, dp[i][1] + p])
   return dp[-1][1]
 ```
-
-{% endtab %}{% endtabs %}

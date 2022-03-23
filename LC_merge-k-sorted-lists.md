@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_23.py' %}
-
 ```py
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -15,5 +13,3 @@ def mergeKLists(self, lists):
     last.next = last = ListNode(val)
   return dummy.next
 ```
-
-{% endtab %}{% endtabs %}

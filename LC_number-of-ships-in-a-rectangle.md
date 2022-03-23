@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1274.py' %}
-
 ```py
 def countShips(self, sea, P, Q):
   res = 0
@@ -12,5 +10,3 @@ def countShips(self, sea, P, Q):
       res += self.countShips(sea, Point(P.x, my), Point(mx + 1, Q.y))
   return res
 ```
-
-{% endtab %}{% endtabs %}

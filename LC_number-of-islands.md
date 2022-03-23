@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_200.cpp' %}
-
 ```cpp
 int numIslands(vector<vector<char>>& grid) {
   int m = grid.size(), n = m ? grid[0].size() : 0, islands = 0;
@@ -23,8 +21,6 @@ void floodfill(vector<vector<char>>& grid, int i, int j) {
 }
 ```
 
-{% endtab %}{% tab title='LC_200.py' %}
-
 ```py
 def numIslands(self, grid):
   def floodfill(i, j):
@@ -35,5 +31,3 @@ def numIslands(self, grid):
     return 0
   return sum(floodfill(i, j) for i in range(len(grid)) for j in range(len(grid[i])))
 ```
-
-{% endtab %}{% endtabs %}

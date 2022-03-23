@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_312.py' %}
-
 ```py
 def maxCoins(self, li):
   li = [1] + li + [1]
@@ -12,5 +10,3 @@ def maxCoins(self, li):
         dp[i][j] = max(dp[i][j], li[i] * li[k] * li[j] + dp[i][k] + dp[k][j])
   return dp[0][n-1]
 ```
-
-{% endtab %}{% endtabs %}

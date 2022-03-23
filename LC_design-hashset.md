@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_705.py' %}
-
 ```py
 class MyHashSet:
   def __init__(self):
@@ -14,5 +12,3 @@ class MyHashSet:
   def contains(self, key: int) -> bool:
     return self.set[key % 197431]
 ```
-
-{% endtab %}{% endtabs %}

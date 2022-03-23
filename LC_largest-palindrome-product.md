@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_479.py' %}
-
 ```py
 def largestPalindrome(self, n):  # 10 ^ (2n) - 10 ^ n * (x + y) + xy = 10 ^ n * (10 ^ n - (x + y)) + xy
   if n == 1: return 9
@@ -15,5 +13,3 @@ def largestPalindrome(self, n):  # 10 ^ (2n) - 10 ^ n * (x + y) + xy = 10 ^ n * 
       if root_1.is_integer() or root_2.is_integer():
         return (10 ** n * left + right) %1337
 ```
-
-{% endtab %}{% endtabs %}

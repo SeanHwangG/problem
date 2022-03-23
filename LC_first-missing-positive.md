@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_41.cpp' %}
-
 ```cpp
 int firstMissingPositive(int A[], int n) {
   for (int i = 0; i < n; ++ i)
@@ -13,5 +11,3 @@ int firstMissingPositive(int A[], int n) {
   return n + 1;
 }
 ```
-
-{% endtab %}{% endtabs %}

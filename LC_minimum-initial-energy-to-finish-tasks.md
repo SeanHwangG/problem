@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1665.py' %}
-
 ```py
 def minimumEffort(self, tasks: List[List[int]]) -> int:
   sort = sorted(tasks, key = lambda x : x[1] - x[0])[::-1]
@@ -11,5 +9,3 @@ def minimumEffort(self, tasks: List[List[int]]) -> int:
     curr -= n[0]
   return res
 ```
-
-{% endtab %}{% endtabs %}

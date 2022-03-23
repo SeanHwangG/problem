@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_symmetric-pairs.sql' %}
-
 ```sql
 SELECT x, y FROM functions f1
   WHERE exists(SELECT * FROM functions f2 WHERE f2.y=f1.x
@@ -7,5 +5,3 @@ SELECT x, y FROM functions f1
 SELECT x, y FROM functions f1 WHERE x=y AND
   ((SELECT count(*) FROM functions WHERE x=f1.x AND y=f1.x) > 1) ORDER BY x;
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_973.cpp' %}
-
 ```cpp
 vector<vector<int>> kClosest(vector<vector<int>>& A, int K) {
   nth_element(A.begin(), A.begin() + K, A.end(), [](vector<int>& a, vector<int>& b) {
@@ -9,8 +7,6 @@ vector<vector<int>> kClosest(vector<vector<int>>& A, int K) {
 }
 ```
 
-{% endtab %}{% tab title='LC_973.java' %}
-
 ```java
 public int[][] kClosest(int[][] points, int K) {
   Arrays.sort(points, Comparator.comparing(p -> p[0] * p[0] + p[1] * p[1]));
@@ -18,11 +14,7 @@ public int[][] kClosest(int[][] points, int K) {
 }
 ```
 
-{% endtab %}{% tab title='LC_973.py' %}
-
 ```py
 def kClosest(self, points, K):
   return heapq.nsmallest(K, points, lambda (x, y): x * x + y * y)
 ```
-
-{% endtab %}{% endtabs %}

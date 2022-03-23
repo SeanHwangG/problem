@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_843.py' %}
-
 ```py
 def findSecretWord(self, wordlist: List[str], master: 'Master') -> None:
   def match(w1, w2):
@@ -12,5 +10,3 @@ def findSecretWord(self, wordlist: List[str], master: 'Master') -> None:
     n = master.guess(guess)
     wordlist = [w for w in wordlist if match(w, guess) == n]
 ```
-
-{% endtab %}{% endtabs %}

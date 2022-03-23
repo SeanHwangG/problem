@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_828.py' %}
-
 ```py
 def uniqueLetterString(self, S: str) -> int:
   dp = {c: [-1, -1] for c in string.ascii_uppercase} # last two occurrence index for every upper characters
@@ -13,5 +11,3 @@ def uniqueLetterString(self, S: str) -> int:
     res += (len(S) - j) * (j - k)
   return res % (10**9 + 7)
 ```
-
-{% endtab %}{% endtabs %}

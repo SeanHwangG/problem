@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_761.py' %}
-
 ```py
 def makeLargestSpecial(self, S: str) -> str:
   count, i, res = 0, 0, []
@@ -10,5 +8,3 @@ def makeLargestSpecial(self, S: str) -> str:
       i = j + 1
   return ''.join(sorted(res)[::-1])
 ```
-
-{% endtab %}{% endtabs %}

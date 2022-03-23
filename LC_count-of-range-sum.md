@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_327.py' %}
-
 ```py
 def countRangeSum(self, nums, lower, upper):
   first = [0]
@@ -19,5 +17,3 @@ def countRangeSum(self, nums, lower, upper):
     return count
   return sort(0, len(first))
 ```
-
-{% endtab %}{% endtabs %}

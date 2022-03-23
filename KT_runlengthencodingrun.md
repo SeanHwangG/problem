@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_runlengthencodingrun.py' %}
-
 ```py
 t, s = input().split()
 if t == 'E':
@@ -14,5 +12,3 @@ else:
   for i in range(1, len(s), 2):
     print(s[i - 1] * int(s[i]), end='')
 ```
-
-{% endtab %}{% endtabs %}

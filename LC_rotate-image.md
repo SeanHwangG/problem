@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_48.cpp' %}
-
 ```cpp
 /*
  * clockwise rotate: first reverse up to down, then swap the symmetry
@@ -15,11 +13,7 @@ void rotate(vector<vector<int> > &matrix) {
 }
 ```
 
-{% endtab %}{% tab title='LC_48.py' %}
-
 ```py
 def rotate(self, A):
   A[:] = zip(*A[::-1])
 ```
-
-{% endtab %}{% endtabs %}

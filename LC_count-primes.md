@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_204.py' %}
-
 ```py
 def countPrimes(self, n: int) -> int:
   if n < 3: return 0
@@ -10,5 +8,3 @@ def countPrimes(self, n: int) -> int:
       primes[i * i: n: i] = [False] * len(primes[i * i: n: i])
   return sum(primes)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_503.py' %}
-
 ```py
 def nextGreaterElements(self, nums: List[int]) -> List[int]:
   stack, res = [], [-1] * len(A)
@@ -9,5 +7,3 @@ def nextGreaterElements(self, nums: List[int]) -> List[int]:
     stack.append(i)
   return res
 ```
-
-{% endtab %}{% endtabs %}

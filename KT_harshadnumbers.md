@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_harshadnumbers.py' %}
-
 ```py
 def is_harshad(num):
   digit_sum = 0
@@ -15,5 +13,3 @@ while True:
     break
   n = n + 1
 ```
-
-{% endtab %}{% endtabs %}

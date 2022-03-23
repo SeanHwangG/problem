@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_341.py' %}
-
 ```py
 # class NestedInteger:
 #   def isInteger(self) -> bool:
@@ -35,5 +33,3 @@ def hasNext(self):
       s.append([x.getList(), 0])
   return False
 ```
-
-{% endtab %}{% endtabs %}

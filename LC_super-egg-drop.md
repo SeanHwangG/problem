@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_887.cpp' %}
-
 * Time; O(KlogN)
 * Space; O(K)
 
@@ -14,8 +12,6 @@ int superEggDrop(int K, int N) {
 }
 ```
 
-{% endtab %}{% tab title='LC_887.py' %}
-
 ```py
 def superEggDrop(self, K: int, N: int) -> int:
   dp = [[0] * (K + 1) for i in range(N + 1)]
@@ -24,5 +20,3 @@ def superEggDrop(self, K: int, N: int) -> int:
       dp[m][k] = dp[m - 1][k - 1] + dp[m - 1][k] + 1
     if dp[m][K] >= N: return m
 ```
-
-{% endtab %}{% endtabs %}

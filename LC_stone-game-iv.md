@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1510.py' %}
-
 ```py
 def winnerSquareGame(self, n: int) -> bool:
   dp = [False] * (n + 1)
@@ -7,5 +5,3 @@ def winnerSquareGame(self, n: int) -> bool:
     dp[i] = not all(dp[i - k * k] for k in range(1, int(i ** 0.5) + 1))
   return dp[-1]
 ```
-
-{% endtab %}{% endtabs %}

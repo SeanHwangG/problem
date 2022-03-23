@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_471.py' %}
-
 ```py
 @lru_cache(None)
 def encode(self, s: str) -> str:
@@ -9,5 +7,3 @@ def encode(self, s: str) -> str:
   multi = [self.encode(s[:i]) + self.encode(s[i:]) for i in range(1, n)]
   return min([s, one] + multi, key=len)
 ```
-
-{% endtab %}{% endtabs %}

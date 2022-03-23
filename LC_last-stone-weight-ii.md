@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1049.py' %}
-
 * w[i] = stones[i] (Weight of jewel)
 * v[i] = stones[i] (Value of jewel)
 * W = sum(stones) / 2 (Capacity of bag)
@@ -11,5 +9,3 @@ def lastStoneWeightII(self, A):
     dp |= {a + i for i in dp}
   return min(abs(sum(A) - i - i) for i in dp)
 ```
-
-{% endtab %}{% endtabs %}

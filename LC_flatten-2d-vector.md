@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_251.py' %}
-
 ```py
 class Vector2D:
   def __init__(self, lis):
@@ -17,5 +15,3 @@ class Vector2D:
   def hasNext(self) -> bool:
     return self.size
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_198.java' %}
-
 ```java
 public int rob(int[] nums) {
   if (nums.length == 0)   return 0;
@@ -14,5 +12,3 @@ public int rob(int[] nums) {
   return Math.max(N_best, Y_best);
 }
 ```
-
-{% endtab %}{% endtabs %}

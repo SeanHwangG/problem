@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1368.py' %}
-
 ```py
 def minCost(self, G: List[List[int]]) -> int:
   def neighborhood(r: int, c: int) -> Iterator[Tuple[int, int, int]]:
@@ -28,5 +26,3 @@ def minCost(self, G: List[List[int]]) -> int:
 
   return min_cost[(len(G) - 1, len(G[0]) - 1)]
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_s10-normal-distribution-2.py' %}
-
 ```py
 import math
 mean, std = 70, 10
@@ -9,5 +7,3 @@ print(round((1 - cdf(80)) * 100, 2))
 print(round((1 - cdf(60)) * 100, 2))
 print(round((cdf(60)) * 100, 2))
 ```
-
-{% endtab %}{% endtabs %}

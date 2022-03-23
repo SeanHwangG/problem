@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1397.py' %}
-
 ```py
 from functools import lru_cache
 
@@ -40,5 +38,3 @@ class Solution:
 
     return dfs(0) % (10 ** 9 + 7)
 ```
-
-{% endtab %}{% endtabs %}

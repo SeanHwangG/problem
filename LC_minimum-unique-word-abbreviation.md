@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_411.py' %}
-
 * Create diff-number whose bits tell me which of the word's letters differ from the target
 * Check 2^m abbreviations, represented as number from 0 to 2m-1, bits representing which letters of target are in abbreviation
 
@@ -14,5 +12,3 @@ def minAbbreviation(self, target: str, dic: List[str]) -> str:
   s = ''.join(target[i] if bits & 2 ** i else '#' for i in range(m))
   return re.sub('#+', lambda m: str(len(m.group())), s)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_s10-quartiles.py' %}
-
 ```py
 from statistics import median
 input()
@@ -16,5 +14,3 @@ print(int(median(L)))
 print(int(median(arr)))
 print(int(median(U)))
 ```
-
-{% endtab %}{% endtabs %}

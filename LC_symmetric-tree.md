@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_101.go' %}
-
 ```go
 func isSymmetric(root *TreeNode) bool {
   return helper(root, root)
@@ -16,8 +14,6 @@ func helper(left *TreeNode, right *TreeNode) bool {
 }
 ```
 
-{% endtab %}{% tab title='LC_101.py' %}
-
 ```py
 def isSymmetric(self, root: Optional[TreeNode]) -> bool:
   def helper(p, q):
@@ -27,5 +23,3 @@ def isSymmetric(self, root: Optional[TreeNode]) -> bool:
       return p is q
   return helper(root, root)
 ```
-
-{% endtab %}{% endtabs %}

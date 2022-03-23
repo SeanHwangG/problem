@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1012.py' %}
-
 * Count res the Number Without Repeated Digit
 * Transform N + 1 to List
 * Count the number with digits < n
@@ -32,5 +30,3 @@ def numDupDigitsAtMostN(self, N):
     s.add(x)
   return N - res
 ```
-
-{% endtab %}{% endtabs %}

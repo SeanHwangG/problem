@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_zamka.py' %}
-
 ```py
 mn = int(input())
 mx = int(input())
@@ -18,5 +16,3 @@ for i in range(mx, mn - 1, -1):
     print(i)
     break
 ```
-
-{% endtab %}{% endtabs %}

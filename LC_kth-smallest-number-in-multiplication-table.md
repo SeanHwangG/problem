@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_668.py' %}
-
 ```py
 def findKthNumber(self, m, n, k):
   def enough(x):
@@ -14,5 +12,3 @@ def findKthNumber(self, m, n, k):
       hi = mi
   return lo
 ```
-
-{% endtab %}{% endtabs %}

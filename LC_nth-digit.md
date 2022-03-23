@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_400.py' %}
-
 ```py
 def findNthDigit(self, n):
   n -= 1
@@ -9,5 +7,3 @@ def findNthDigit(self, n):
       return int(str(first + n/digits)[n % digits])
     n -= 9 * first * digits
 ```
-
-{% endtab %}{% endtabs %}

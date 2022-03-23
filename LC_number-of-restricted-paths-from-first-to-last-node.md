@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1786.py' %}
-
 ```py
 class Solution:
   def countRestrictedPaths(self, n: int, edges: List[List[int]]) -> int:
@@ -29,5 +27,3 @@ class Solution:
 
     return dfs(1)
 ```
-
-{% endtab %}{% endtabs %}

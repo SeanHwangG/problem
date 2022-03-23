@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_differentdistances.py' %}
-
 ```py
 while True:
   raw = input()
@@ -8,5 +6,3 @@ while True:
   a, b, c, d, e = map(float, raw.split())
   print((abs(a - c) ** e + abs(b - d) ** e) ** (1/e))
 ```
-
-{% endtab %}{% endtabs %}

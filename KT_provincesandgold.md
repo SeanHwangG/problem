@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_provincesandgold.py' %}
-
 ```py
 g, s, c = map(int, input().split())
 tot = g * 3 + s * 2 + c
@@ -16,5 +14,3 @@ elif tot >= 2:
 else:
   print("Copper")
 ```
-
-{% endtab %}{% endtabs %}

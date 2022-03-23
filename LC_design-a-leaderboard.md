@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1244.py' %}
-
 ```py
 class Leaderboard(object):
   def __init__(self):
@@ -14,5 +12,3 @@ class Leaderboard(object):
   def reset(self, playerId):
     self.A[playerId] = 0
 ```
-
-{% endtab %}{% endtabs %}

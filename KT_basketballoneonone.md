@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_basketballoneonone.py' %}
-
 ```py
 s = input()
 A = B = 0
@@ -13,5 +11,3 @@ if A > B:
 else:
   print('B')
 ```
-
-{% endtab %}{% endtabs %}

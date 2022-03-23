@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1756.cpp' %}
-
 ```cpp
 class MRUQueue {
 public:
@@ -23,5 +21,3 @@ public:
   }
 };
 ```
-
-{% endtab %}{% endtabs %}

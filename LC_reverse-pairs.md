@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_493.py' %}
-
 ```py
 class BIT:
   def __init__(self, n):
@@ -34,5 +32,3 @@ def reversePairs(self, nums):
 
   return res
 ```
-
-{% endtab %}{% endtabs %}

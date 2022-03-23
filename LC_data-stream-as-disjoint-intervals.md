@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_352.py' %}
-
 ```py
 class SummaryRanges:
   def __init__(self):
@@ -21,5 +19,3 @@ class SummaryRanges:
   def getIntervals(self) -> List[List[int]]:
     return self.intervals[1:-1]
 ```
-
-{% endtab %}{% endtabs %}

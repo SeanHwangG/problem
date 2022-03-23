@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_244.py' %}
-
 * Time; O(m + n)
 
 ```py
@@ -20,5 +18,3 @@ class WordDistance:
         j += 1
     return res
 ```
-
-{% endtab %}{% endtabs %}

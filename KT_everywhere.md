@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_everywhere.py' %}
-
 ```py
 n_test = int(input())
 for _ in range(n_test):
@@ -9,5 +7,3 @@ for _ in range(n_test):
     se.add(input())
   print(len(se))
 ```
-
-{% endtab %}{% endtabs %}

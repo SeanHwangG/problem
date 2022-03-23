@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1862.py' %}
-
 ```py
 def sumOfFlooredPairs(self, nums: List[int]) -> int:
   incs, co = [0] * (max(nums) + 1), Counter(nums)  # To store all the quotients increases
@@ -9,5 +7,3 @@ def sumOfFlooredPairs(self, nums: List[int]) -> int:
   quots = list(accumulate(incs))  # Accumulate the increases to get the sum of quotients
   return sum([quots[num] for num in nums]) % 1_000_000_007  # Sum up all the quotients for all the numbers in the list
 ```
-
-{% endtab %}{% endtabs %}

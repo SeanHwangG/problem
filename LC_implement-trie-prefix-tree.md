@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_208.cpp' %}
-
 ```cpp
 class Trie {
 public:
@@ -38,8 +36,6 @@ private:
 };
 ```
 
-{% endtab %}{% tab title='LC_208.py' %}
-
 ```py
 class Trie:
   def __init__(self):
@@ -55,5 +51,3 @@ class Trie:
   def startsWith(self, prefix):
     return bool(reduce(lambda cur, c: cur.get(c, {}), prefix, self.root))
 ```
-
-{% endtab %}{% endtabs %}

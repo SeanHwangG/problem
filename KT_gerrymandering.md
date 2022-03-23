@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_gerrymandering.py' %}
-
 ```py
 n, m = map(int, input().split())
 G = [[0, 0] for i in range(m)]
@@ -24,5 +22,3 @@ for a, b in G:
 
 print(abs(total_wa - total_wb) / sum(sum(l) for l in G))
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_726.py' %}
-
 ```py
 import re
 from collections import defaultdict
@@ -20,5 +18,3 @@ class Solution(object):
           stack[-1][atom] += atoms[atom] * count
     return ''.join([atom + (str(count) if count > 1 else '') for atom, count in sorted(stack[-1].items())])
 ```
-
-{% endtab %}{% endtabs %}

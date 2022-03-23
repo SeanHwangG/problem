@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_speedlimit.py' %}
-
 ```py
 def total_miles(speeds, times):
   total_miles = 0
@@ -17,5 +15,3 @@ while n_line := int(input()) != -1:
     times.append(time)
   print(f'{total_miles(speeds, times)} miles')
 ```
-
-{% endtab %}{% endtabs %}

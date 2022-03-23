@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_642.py' %}
-
 ```py
 _trie = lambda: collections.defaultdict(_trie)
 
@@ -54,5 +52,3 @@ class AutocompleteSystem:
       self.search, self.curnode = '', self.trie
       return []
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_173.py' %}
-
 ```py
 class BSTIterator(object):
   def __init__(self, root):
@@ -18,5 +16,3 @@ class BSTIterator(object):
     self.current_node=next.right
     return next.val
 ```
-
-{% endtab %}{% endtabs %}

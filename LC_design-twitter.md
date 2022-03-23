@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_355.go' %}
-
 ```go
 type Twitter struct {
   posts [][2]int
@@ -44,8 +42,6 @@ func (this *Twitter) Unfollow(followerId int, followeeId int)  {
 }
 ```
 
-{% endtab %}{% tab title='LC_355.py' %}
-
 ```py
 class Twitter(object):
   def __init__(self):
@@ -66,5 +62,3 @@ class Twitter(object):
   def unfollow(self, followerId, followeeId):
     self.followees[followerId].discard(followeeId)
 ```
-
-{% endtab %}{% endtabs %}

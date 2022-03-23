@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_548.py' %}
-
 ```py
 def splitArray(self, nums: list):
   def split(A):
@@ -8,5 +6,3 @@ def splitArray(self, nums: list):
     return {A[i - 1] for i in range(1, len(A) - 1) if A[i - 1] == total - A[i]}
   return any(split(nums[:j]) & split(nums[j+1:]) for j in range(3, len(nums)-3))
 ```
-
-{% endtab %}{% endtabs %}

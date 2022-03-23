@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_354.py' %}
-
 ```py
 def maxEnvelopes(self, en: List[List[int]]) -> int:
   en.sort(key = lambda x: (x[0], -x[1]))
@@ -9,5 +7,3 @@ def maxEnvelopes(self, en: List[List[int]]) -> int:
     lis[idx:idx+1] = [current]
   return len(lis)
 ```
-
-{% endtab %}{% endtabs %}

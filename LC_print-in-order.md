@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1114.cpp' %}
-
 * Promise
 
 ```cpp
@@ -26,8 +24,6 @@ public:
   }
 };
 ```
-
-{% endtab %}{% tab title='LC_1114.go' %}
 
 ```go
 package main
@@ -62,8 +58,6 @@ func main() {
 }
 ```
 
-{% endtab %}{% tab title='LC_1114.java' %}
-
 * Synchronized method
 
 ```java
@@ -95,8 +89,6 @@ class Foo {
   }
 }
 ```
-
-{% endtab %}{% tab title='LC_1114.py' %}
 
 * Lock
 
@@ -145,5 +137,3 @@ class Foo {
       self.done[1].wait()
       printThird()
   ```
-
-{% endtab %}{% endtabs %}

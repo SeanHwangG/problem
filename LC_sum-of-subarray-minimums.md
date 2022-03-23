@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_907.py' %}
-
 ```py
 def sumSubarrayMins(self, A):
   res, s = 0, []
@@ -12,5 +10,3 @@ def sumSubarrayMins(self, A):
     s.append(i)
   return res % (10**9 + 7)
 ```
-
-{% endtab %}{% endtabs %}

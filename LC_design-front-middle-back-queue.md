@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1670.py' %}
-
 ```py
 class FrontMiddleBackQueue(object):
   def __init__(self):
@@ -40,5 +38,3 @@ class FrontMiddleBackQueue(object):
     if len(self.A) < len(self.B):
       self.A.append(self.B.popleft())
 ```
-
-{% endtab %}{% endtabs %}

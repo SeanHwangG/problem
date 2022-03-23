@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_schoolspirit.py' %}
-
 ```py
 n_team = int(input())
 li = list(sorted([int(input()) for _ in range(n_team)], reverse=True))
@@ -14,5 +12,3 @@ for i, n in enumerate(li):
   score += n * (up * (0.8 ** (i - 1)) + stay * (0.8 ** i))
 print(score / 5 / n_team)
 ```
-
-{% endtab %}{% endtabs %}

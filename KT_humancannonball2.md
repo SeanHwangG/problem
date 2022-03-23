@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_humancannonball2.py' %}
-
 ```py
 import math
 n_shot = int(input())
@@ -14,5 +12,3 @@ for _ in range(n_shot):
     else:
         print('Not Safe')
 ```
-
-{% endtab %}{% endtabs %}

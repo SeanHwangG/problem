@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_222.py' %}
-
 * Time; O(log^2 N) (Master Theorem)
 * Space; O(log(n))
 
@@ -19,5 +17,3 @@ def countNodes(self, root):
     return pow(2, r_depth) + self.countNodes(root.left)
 
 ```
-
-{% endtab %}{% endtabs %}

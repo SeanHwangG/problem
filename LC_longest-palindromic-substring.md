@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_5.java' %}
-
 * Time: O(N^2)
 * Space : O(N)
 
@@ -23,8 +21,6 @@ private int extend(String s, int i, int j) {
 }
 ```
 
-{% endtab %}{% tab title='LC_5.py' %}
-
 * Time: O(N) (Manacher algorithm)
 * Space: O(N)
 
@@ -45,5 +41,3 @@ def longestPalindrome(self, s):
   max_len, center_i = max(in, i) for i, n in enumerate(P)) # Find the maximum element in P
   return s[(center_i  - max_len) // 2: (center_i  + maxien)//2]
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_28.cpp' %}
-
 ```cpp
 class Solution {
 public:
@@ -32,8 +30,6 @@ private:
 };
 ```
 
-{% endtab %}{% tab title='LC_28.py' %}
-
 ```py
 def strStr(self, haystack: str, needle: str) -> int:
   concat = needle + '#' + haystack
@@ -57,5 +53,3 @@ def strStr(self, haystack: str, needle: str) -> int:
       return i - 2 * n
   return -1
 ```
-
-{% endtab %}{% endtabs %}

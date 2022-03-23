@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_535.py' %}
-
 ```py
 class Codec:
   def __init__(self):
@@ -18,5 +16,3 @@ class Codec:
   def decode(self, shortUrl):
     return self.short_long[shortUrl[-6:]]
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_363.py' %}
-
 ```py
 from sortedcontainers import SortedList
 
@@ -24,5 +22,3 @@ def maxSumSubmatrix(self, M, k):
 
   return ans
 ```
-
-{% endtab %}{% endtabs %}

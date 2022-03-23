@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_472.py' %}
-
 ```py
 def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
   words = set(words)
@@ -12,5 +10,3 @@ def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
     return False
   return [word for word in words if dfs(word)]
 ```
-
-{% endtab %}{% endtabs %}

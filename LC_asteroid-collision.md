@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_735.py' %}
-
 ```py
 def asteroidCollision(self, asteroids):
   res = []
@@ -17,5 +15,3 @@ def asteroidCollision(self, asteroids):
       res.append(asteroid)
   return res
 ```
-
-{% endtab %}{% endtabs %}

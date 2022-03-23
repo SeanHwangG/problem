@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1690.cpp' %}
-
 ```cpp
 int dp[1001][1001] = {};
 int dfs(vector<int>& s, int i, int j, int sum) {
@@ -13,8 +11,6 @@ int stoneGameVII(vector<int>& s) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1690.py' %}
-
 ```py
 def stoneGameVII(self, s: List[int]) -> int:
   dp = [[0] * len(s) for _ in range(len(s))]
@@ -27,5 +23,3 @@ def stoneGameVII(self, s: List[int]) -> int:
     return dp[i][j]
   return dfs(0, len(s) - 1)
 ```
-
-{% endtab %}{% endtabs %}

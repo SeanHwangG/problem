@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1948.py' %}
-
 ```py
 class Node:
   def __init__(self):
@@ -35,5 +33,3 @@ class Solution:
     dfs2(root, [])
     return ans
 ```
-
-{% endtab %}{% endtabs %}

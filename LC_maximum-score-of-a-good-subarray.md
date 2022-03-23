@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1793.py' %}
-
 ```py
 def maximumScore(self, nums: List[int], k: int) -> int:
   res = mini = nums[k]
@@ -13,5 +11,3 @@ def maximumScore(self, nums: List[int], k: int) -> int:
     res = max(res, mini * (j - i + 1))
   return res
 ```
-
-{% endtab %}{% endtabs %}

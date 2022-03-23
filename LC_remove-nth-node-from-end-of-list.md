@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_19.cpp' %}
-
 ```cpp
 class Solution {
 public:
@@ -17,8 +15,6 @@ public:
 };
 ```
 
-{% endtab %}{% tab title='LC_19.py' %}
-
 ```py
 def removeNthFromEnd(self, head, n):
   fast = slow = head
@@ -32,5 +28,3 @@ def removeNthFromEnd(self, head, n):
   slow.next = slow.next.next
   return head
 ```
-
-{% endtab %}{% endtabs %}

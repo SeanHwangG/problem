@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='BJ_435.py' %}
-
 ```py
 def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
   end, cnt = float('-inf'), 0
@@ -10,5 +8,3 @@ def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
       cnt += 1
   return cnt
 ```
-
-{% endtab %}{% endtabs %}

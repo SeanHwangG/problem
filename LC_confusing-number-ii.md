@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1088.py' %}
-
 ```py
 res = 0
 rotate = {'0' : '0', '1' : '1', '6' : '9', '8' : '8', '9' : '6'}
@@ -21,5 +19,3 @@ def confusingNumberII(self, N: int) -> int:
 
   return self.res
 ```
-
-{% endtab %}{% endtabs %}

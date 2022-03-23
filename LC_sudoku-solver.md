@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_37.py' %}
-
 ```py
 def solveSudoku(self, board: List[List[str]]) -> None:
   box = lambda r, c: [(r - r % 3 + di, c - c % 3 + dj) for di in range(3) for dj in range(3)]
@@ -16,5 +14,3 @@ def solveSudoku(self, board: List[List[str]]) -> None:
       return False
   return board
 ```
-
-{% endtab %}{% endtabs %}

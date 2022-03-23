@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_277.py' %}
-
 * Time; O(N)
 * Space; O(1)
 
@@ -16,5 +14,3 @@ def findCelebrity(self, n: int) -> int:
     return -1
   return x
 ```
-
-{% endtab %}{% endtabs %}

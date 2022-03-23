@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1288.py' %}
-
 ```py
 def removeCoveredIntervals(self, A: List[List[int]]) -> int:
   res = right = 0
@@ -9,5 +7,3 @@ def removeCoveredIntervals(self, A: List[List[int]]) -> int:
     right = max(right, j)
   return res
 ```
-
-{% endtab %}{% endtabs %}

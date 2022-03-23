@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_3.py' %}
-
 ```py
 def lengthOfLongestSubstring(self, s: str) -> int:
   used = {}
@@ -12,5 +10,3 @@ def lengthOfLongestSubstring(self, s: str) -> int:
     used[c] = r
   return max_length
 ```
-
-{% endtab %}{% endtabs %}

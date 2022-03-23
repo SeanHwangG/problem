@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_956.py' %}
-
 ```py
 def tallestBillboard(self, rods: List[int]) -> int:
   dp = {0: 0}
@@ -12,5 +10,3 @@ def tallestBillboard(self, rods: List[int]) -> int:
     dp = cur
   return dp[0]
 ```
-
-{% endtab %}{% endtabs %}

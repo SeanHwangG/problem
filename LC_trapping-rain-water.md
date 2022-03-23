@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_42.cpp' %}
-
 ```cpp
 int trap(vector<int>& height) {
   int l = 0, r = height.size() - 1, level = 0, water = 0;
@@ -11,5 +9,3 @@ int trap(vector<int>& height) {
   return water;
 }
 ```
-
-{% endtab %}{% endtabs %}

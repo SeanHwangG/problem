@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_309.cpp' %}
-
 ```cpp
 int maxProfit(vector<int>& prices) {
   if (prices.size() == 0) return 0;
@@ -12,5 +10,3 @@ int maxProfit(vector<int>& prices) {
   return max(cool, nocool);
 }
 ```
-
-{% endtab %}{% endtabs %}

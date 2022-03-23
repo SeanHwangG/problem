@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_the-rubix-cube.py' %}
-
 ```py
 from scipy import spatial
 from scipy import ndimage
@@ -91,5 +89,3 @@ if all([dist01>mindist, dist12>mindist, dist23>mindist, dist01<maxdist, dist12<m
 else:
   print('unsolved')
 ```
-
-{% endtab %}{% endtabs %}

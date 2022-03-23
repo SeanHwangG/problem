@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_29.py' %}
-
 ```py
 def divide(self, A, B):
   if A == -2147483648 and B == -1: return 2147483647
@@ -10,5 +8,3 @@ def divide(self, A, B):
       a -= b << x
   return res if (A > 0) == (B > 0) else -res
 ```
-
-{% endtab %}{% endtabs %}

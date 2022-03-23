@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_745.py' %}
-
 ```py
 class WordFilter:
   def __init__(self, words):
@@ -13,5 +11,3 @@ class WordFilter:
   def f(self, prefix, suffix):
     return self.dic.get(prefix + '#' + suffix, -1)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_169.cpp' %}
-
 * Boyer-Moore Voting Algorithm
 * Time; O(N)
 
@@ -14,5 +12,3 @@ int majorityElement(vector<int>& nums) {
   return majority;
 }
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_125.py' %}
-
 ```cpp
 bool isPalindrome(string s) {
   int i = 0, j = s.size() - 1;
@@ -11,5 +9,3 @@ bool isPalindrome(string s) {
   return true;
 }
 ```
-
-{% endtab %}{% endtabs %}

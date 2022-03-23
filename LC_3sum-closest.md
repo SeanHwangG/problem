@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_16.java' %}
-
 ```java
 public int threeSumClosest(int[] nums, int target) {
   if (nums == null || nums.length < 3) return 0;
@@ -19,5 +17,3 @@ public int threeSumClosest(int[] nums, int target) {
   return closest;
 }
 ```
-
-{% endtab %}{% endtabs %}

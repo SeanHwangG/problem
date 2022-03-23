@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_avion.py' %}
-
 ```py
 seen = False
 for i in range(1, 6):
@@ -11,5 +9,3 @@ for i in range(1, 6):
 if not seen:
   print("HE GOT AWAY!")
 ```
-
-{% endtab %}{% endtabs %}

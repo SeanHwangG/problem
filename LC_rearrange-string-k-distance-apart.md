@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_358.py' %}
-
 ```py
 def rearrangeString(self, s: str, k: int) -> str:
   n = len(s)
@@ -18,5 +16,3 @@ def rearrangeString(self, s: str, k: int) -> str:
         i = (i - 1) % k
   return "".join(res)
 ```
-
-{% endtab %}{% endtabs %}

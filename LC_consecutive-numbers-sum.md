@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_829.cpp' %}
-
 * $$ Σ_{i=2}^{N+1} = Σ_{i=1}^{N} + N $$
 * Log(N)
 
@@ -11,8 +9,6 @@ int consecutiveNumbersSum(int N, int res = 0) {
 }
 ```
 
-{% endtab %}{% tab title='LC_829.py' %}
-
 * Log(N)
 
 ```py
@@ -23,5 +19,3 @@ def consecutiveNumbersSum(self, n):
       res += 1
   return res
 ```
-
-{% endtab %}{% endtabs %}

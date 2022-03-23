@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_901.py' %}
-
 ```py
 class StockSpanner:
   def __init__(self):
@@ -12,5 +10,3 @@ class StockSpanner:
     self.stack.append([price, res])
     return res
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_213.cpp' %}
-
 ```cpp
 int rob(vector<int>& nums) {
   int n = nums.size();
@@ -16,5 +14,3 @@ int robber(vector<int>& nums, int l, int r) {
   return cur;
 }
 ```
-
-{% endtab %}{% endtabs %}

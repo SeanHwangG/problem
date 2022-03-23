@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_636.py' %}
-
 ```cpp
 class Solution {
 public:
@@ -48,5 +46,3 @@ def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
         stk[-1][1] = time+1
   return ans
 ```
-
-{% endtab %}{% endtabs %}

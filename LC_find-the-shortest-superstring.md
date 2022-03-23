@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_943.py' %}
-
 ```py
 def shortestSuperstring(self, words: List[str]) -> str:
   overlaps = [[0 for _ in range(len(words))] for _ in range(len(words))]
@@ -23,5 +21,3 @@ def shortestSuperstring(self, words: List[str]) -> str:
 
   return min([dfs(i, 1<<i) for i in range(len(words))], key=len)
 ```
-
-{% endtab %}{% endtabs %}

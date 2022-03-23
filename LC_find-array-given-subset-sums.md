@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1982.py' %}
-
 * After sort nums, than x or -x is equal to nums[1] - nums[0] and recurse
 * Time: O(2^n x n)
 * Space: O(2^n)
@@ -29,5 +27,3 @@ def recoverArray(self, n, sums):
 
   return dfs(n, sorted(sums))
 ```
-
-{% endtab %}{% endtabs %}

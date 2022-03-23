@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_302.py' %}
-
 * Binary Search
 
 ```py
@@ -14,5 +12,3 @@ def minArea(self, image: List[List[str]], x: int, y: int) -> int:
   right  = first(y, len(image[0]), lambda y: all(row[y] == '0' for row in image))
   return (bottom - top) * (right - left)
 ```
-
-{% endtab %}{% endtabs %}

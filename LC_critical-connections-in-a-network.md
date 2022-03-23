@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1192.py' %}
-
 * Time; O(E+V)
 
 ```py
@@ -27,5 +25,3 @@ def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List
   self.dfs(0, -1, 0)
   return self.res
 ```
-
-{% endtab %}{% endtabs %}

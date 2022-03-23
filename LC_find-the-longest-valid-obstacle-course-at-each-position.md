@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1964.py' %}
-
 ```py
 def longestObstacleCourseAtEachPosition(self, A):
   mono, res = [], []
@@ -11,5 +9,3 @@ def longestObstacleCourseAtEachPosition(self, A):
     mono[i] = a
   return res
 ```
-
-{% endtab %}{% endtabs %}

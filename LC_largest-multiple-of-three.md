@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1363.py' %}
-
 ```py
 def largestMultipleOfThree(self, digits: List[int]) -> str:
   dp = [-1, -1, -1]
@@ -9,5 +7,3 @@ def largestMultipleOfThree(self, digits: List[int]) -> str:
       dp[y % 3] = max(dp[y % 3], y)
   return str(dp[0]) if dp[0] >= 0 else ""
 ```
-
-{% endtab %}{% endtabs %}

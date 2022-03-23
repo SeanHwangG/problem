@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_44.cpp' %}
-
 * Time: O(N + M)
 * Space: O(1)
 
@@ -32,8 +30,6 @@ public:
 };
 ```
 
-{% endtab %}{% tab title='LC_44.py' %}
-
 ```py
 # Time / Space : O(m * n)
 def isMatch(self, s, p):
@@ -51,5 +47,3 @@ def isMatch(self, s, p):
     dp[0] = dp[0] and i == '*'
   return dp[-1]
 ```
-
-{% endtab %}{% endtabs %}

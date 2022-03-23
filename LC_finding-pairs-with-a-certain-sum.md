@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1865.py' %}
-
 ```py
 class FindSumPairs:
   def __init__(self, nums1: List[int], nums2: List[int]):
@@ -14,5 +12,3 @@ class FindSumPairs:
   def count(self, tot: int) -> int:
     return sum(v * self.c2[tot - k] for k, v in self.c1.items())
 ```
-
-{% endtab %}{% endtabs %}

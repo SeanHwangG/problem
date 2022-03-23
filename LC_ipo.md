@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_502.py' %}
-
 ```py
 def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:
   pc = sorted(zip(capital, profits))
@@ -12,5 +10,3 @@ def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List
     w -= heapq.heappop(heap)
   return w
 ```
-
-{% endtab %}{% endtabs %}

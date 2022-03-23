@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_934.py' %}
-
 ```cpp
 int paint(vector<vector<int>>& A, int i, int j) {
   if (i < 0 || j < 0 || i == A.size() || j == A.size() || A[i][j] != 1) return 0;
@@ -23,5 +21,3 @@ int shortestBridge(vector<vector<int>>& A) {
             return cl - 2;
 }
 ```
-
-{% endtab %}{% endtabs %}

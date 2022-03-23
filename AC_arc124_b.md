@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='AC_arc124_b.py' %}
-
 ```py
 from collections import Counter
 
@@ -22,5 +20,3 @@ print(len(ans))
 if ans:
   print(*ans, sep="\n")
 ```
-
-{% endtab %}{% endtabs %}

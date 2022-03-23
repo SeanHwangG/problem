@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_219.go' %}
-
 ```go
 func containsNearbyDuplicate(nums []int, k int) bool {
   dic := make(map[int]int, len(nums))
@@ -13,8 +11,6 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 }
 ```
 
-{% endtab %}{% tab title='LC_219.py' %}
-
 ```py
 def containsNearbyDuplicate(self, nums, k):
   dic = {}
@@ -24,5 +20,3 @@ def containsNearbyDuplicate(self, nums, k):
     dic[v] = i
   return False
 ```
-
-{% endtab %}{% endtabs %}

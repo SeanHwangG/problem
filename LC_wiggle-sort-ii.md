@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_324.cpp' %}
-
 ```cpp
 void wiggleSort(vector<int>& nums) {
   int n = nums.size();
@@ -21,5 +19,3 @@ void wiggleSort(vector<int>& nums) {
   }
 }
 ```
-
-{% endtab %}{% endtabs %}

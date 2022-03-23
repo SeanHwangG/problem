@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_64.py' %}
-
 ```py
 def minPathSum(self, grid):
   r, c = len(grid), len(grid[0])
@@ -14,5 +12,3 @@ def minPathSum(self, grid):
       dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + grid[i][j]
   return dp[-1][-1]
 ```
-
-{% endtab %}{% endtabs %}

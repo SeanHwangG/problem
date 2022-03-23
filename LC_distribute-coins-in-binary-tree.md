@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_979.py' %}
-
 ```py
 res = 0
 def distributeCoins(self, root):
@@ -12,5 +10,3 @@ def distributeCoins(self, root):
   dfs(root)
   return self.res
 ```
-
-{% endtab %}{% endtabs %}

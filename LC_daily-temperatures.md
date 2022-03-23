@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_739.cpp' %}
-
 ```cpp
 vector<int> dailyTemperatures(vector<int>& T) {
   stack<pair<int,int>> s; // <number, position>
@@ -17,8 +15,6 @@ vector<int> dailyTemperatures(vector<int>& T) {
 }
 ```
 
-{% endtab %}{% tab title='LC_739.py' %}
-
 ```py
 def dailyTemperatures(self, T):
   ans = [0] * len(T)
@@ -31,5 +27,3 @@ def dailyTemperatures(self, T):
 
   return ans
 ```
-
-{% endtab %}{% endtabs %}

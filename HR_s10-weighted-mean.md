@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_s10-weighted-mean.py' %}
-
 ```py
 size = int(input())
 numbers = list(map(int, input().split()))
@@ -11,5 +9,3 @@ for i in range(size):
 
 print(round(sum_items / sum(weighted), 1))
 ```
-
-{% endtab %}{% endtabs %}

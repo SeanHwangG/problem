@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_image-upsampling.py' %}
-
 ```py
 import numpy as np
 
@@ -30,5 +28,3 @@ for i in range(R):
     print(','.join(map(str, map(int, o[i,j,:]))), sep=' ')
   print()
 ```
-
-{% endtab %}{% endtabs %}

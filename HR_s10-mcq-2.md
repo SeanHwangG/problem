@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_s10-mcq-2.py' %}
-
 ```py
 from fractions import Fraction
 poss = 0
@@ -12,5 +10,3 @@ for d1 in range(1, 7):
 
 print(f"Probability: {Fraction(poss, 36)}")
 ```
-
-{% endtab %}{% endtabs %}

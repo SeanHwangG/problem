@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_bela.py' %}
-
 ```py
 n_line, suit = input().split()
 n_line = int(n_line)
@@ -13,5 +11,3 @@ for _ in range(n_line * 4):
     ret += dic[card[0]][1]
 print(ret)
 ```
-
-{% endtab %}{% endtabs %}

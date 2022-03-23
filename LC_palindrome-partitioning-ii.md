@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_132.py' %}
-
 * Generate 2d palindrome table with l index and r indices (N^2 space)
 * dp[n] stores the minimum number of cuts s[0: n] (N space)
 * Time, Space; O(N^2), O(N)
@@ -15,5 +13,3 @@ def minCut(self, s: str) -> int:
         r += 1
   return dp[-1]
 ```
-
-{% endtab %}{% endtabs %}

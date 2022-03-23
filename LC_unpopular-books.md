@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1098.sql' %}
-
 ```sql
 SELECT book_id, name FROM Books
   WHERE available_from < subdate('2019-06-23',interval 1 month) AND
@@ -8,5 +6,3 @@ SELECT book_id, name FROM Books
     GROUP BY book_id
     HAVING SUM(quantity) >= 10)
 ```
-
-{% endtab %}{% endtabs %}

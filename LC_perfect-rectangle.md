@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_391.py' %}
-
 ```py
 def isRectangleCover(self, rectangles):
   cornera = set()
@@ -11,5 +9,3 @@ def isRectangleCover(self, rectangles):
     corner ^= {(x1,y1), (x2,y2), (x1,y2), (x2,y1)}
   return corner == {(a,b), (c,d), (a,d), (c,b)} and area == (c-a) * (d-b)
 ```
-
-{% endtab %}{% endtabs %}

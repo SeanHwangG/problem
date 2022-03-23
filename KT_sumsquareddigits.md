@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_sumsquareddigits.py' %}
-
 ```py
 n_test = int(input())
 def SSD(b, n):
@@ -12,5 +10,3 @@ for _ in range(1, n_test + 1):
   K, b, n = map(int, input().split())
   print(f'{K} {SSD(b, n)}')
 ```
-
-{% endtab %}{% endtabs %}

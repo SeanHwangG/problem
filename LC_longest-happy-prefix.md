@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1392.py' %}
-
 ```py
 def longestPrefix(self, s: str) -> str:
   lps = [0] * len(s)
@@ -12,5 +10,3 @@ def longestPrefix(self, s: str) -> str:
     lps[i] = t
   return s[:lps[-1]]
 ```
-
-{% endtab %}{% endtabs %}

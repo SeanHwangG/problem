@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_synchronizinglists.py' %}
-
 ```py
 while True:
   n = int(input())
@@ -16,5 +14,3 @@ while True:
     print(l2[rank[e]])
   print()
 ```
-
-{% endtab %}{% endtabs %}

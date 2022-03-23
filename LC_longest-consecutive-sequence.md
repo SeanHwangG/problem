@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_128.py' %}
-
 ```py
 def longestConsecutive(self, nums: List[int]) -> int:
   nums = set(nums)
@@ -12,5 +10,3 @@ def longestConsecutive(self, nums: List[int]) -> int:
       best = max(best, y - x)
   return best
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_486.py' %}
-
 * Time, Space; O(N^2), O(N^2)
 
 ```java
@@ -13,5 +11,3 @@ private int helper(int[] nums, int s, int e, Integer[][] mem){
   return mem[s][e];
 }
 ```
-
-{% endtab %}{% endtabs %}

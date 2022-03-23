@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_325.py' %}
-
 ```py
 def maxSubArrayLen(self, nums: List[int], k: int) -> int:
   res, s, d = 0, 0, {0: -1}
@@ -9,5 +7,3 @@ def maxSubArrayLen(self, nums: List[int], k: int) -> int:
     d.setdefault(s, i)
   return res
 ```
-
-{% endtab %}{% endtabs %}

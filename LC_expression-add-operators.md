@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_282.py' %}
-
 ```py
 def addOperators(self, num: str, target: int) -> List[str]:
   ans, stk = [], [(1, num[0], num[0]=='0')] # next_index, path, has_leading_zero
@@ -16,5 +14,3 @@ def addOperators(self, num: str, target: int) -> List[str]:
       stk.append((i+1, path+'*'+num[i], num[i]=='0'))
   return ans
 ```
-
-{% endtab %}{% endtabs %}

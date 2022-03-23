@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_50.py' %}
-
 ```py
 def myPow(self, x, n):
   if n < 0:
@@ -13,5 +11,3 @@ def myPow(self, x, n):
     n >>= 1
   return pow
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1680.cpp' %}
-
 ```cpp
 int concatenatedBinary(int n) {
   long ans = 0, mod = 1e9+7, len = 0;
@@ -22,5 +20,3 @@ def concatenatedBinary(self, n: int) -> int:
     ans = (ans * (1 << l) + x) % MOD
   return ans
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_oddities.py' %}
-
 ```py
 for _ in range(int(input())):
   n = int(input())
@@ -8,5 +6,3 @@ for _ in range(int(input())):
   else:
     print(f"{n} is odd")
 ```
-
-{% endtab %}{% endtabs %}

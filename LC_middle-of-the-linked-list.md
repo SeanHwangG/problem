@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_876.py' %}
-
 ```py
 def middleNode(self, head: ListNode) -> ListNode:
   slow, fast = head, head
@@ -8,5 +6,3 @@ def middleNode(self, head: ListNode) -> ListNode:
     fast = fast.next.next
   return slow
 ```
-
-{% endtab %}{% endtabs %}

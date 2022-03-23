@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_265.py' %}
-
 * Time; O(NK)
 
 ```py
@@ -11,5 +9,3 @@ def combine(self, house, tmp):
   tmp = [m] * i + [min(tmp[0: i] + tmp[i + 1:])] + [m] * (n - i - 1)
   return [sum(i) for i in zip(house, tmp)]
 ```
-
-{% endtab %}{% endtabs %}

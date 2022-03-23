@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_2.py' %}
-
 ```py
 def addTwoNumbers(self, l1, l2):
   carry = 0
@@ -15,5 +13,3 @@ def addTwoNumbers(self, l1, l2):
     n.next = n = ListNode(val)
   return res.next
 ```
-
-{% endtab %}{% endtabs %}

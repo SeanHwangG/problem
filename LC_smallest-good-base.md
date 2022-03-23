@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_smallest-good-base.md' %}
-
 ```py
 def smallestGoodBase(self, n: str) -> str:
   def is_valid(base, size):
@@ -20,5 +18,3 @@ def smallestGoodBase(self, n: str) -> str:
       else:
         return str(mi)
 ```
-
-{% endtab %}{% endtabs %}

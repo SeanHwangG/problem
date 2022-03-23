@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_691.py' %}
-
 ```py
 def minStickers(self, stickers: List[str], target: str) -> int:
   @lru_cache(None)
@@ -15,5 +13,3 @@ def minStickers(self, stickers: List[str], target: str) -> int:
     return ans
   return query(target) if query(target) != float('inf') else -1
 ```
-
-{% endtab %}{% endtabs %}

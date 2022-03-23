@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_lineup.py' %}
-
 ```py
 n = int(input())
 li = []
@@ -12,5 +10,3 @@ elif li == sorted(li, reverse=True):
 else:
   print('NEITHER')
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_207.py' %}
-
 ```py
 def canFinish(n, prerequisites):
   G = [[] for i in range(n)]
@@ -15,5 +13,3 @@ def canFinish(n, prerequisites):
         bfs.append(j)
   return len(bfs) == n
 ```
-
-{% endtab %}{% endtabs %}

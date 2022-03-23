@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_765.py' %}
-
 ```py
 def minSwapsCouples(self, row: List[int]) -> int:
   n = len(row)
@@ -15,5 +13,3 @@ def minSwapsCouples(self, row: List[int]) -> int:
       row[i + 1], row[temp] = row[temp], row[i + 1]
   return ans
 ```
-
-{% endtab %}{% endtabs %}

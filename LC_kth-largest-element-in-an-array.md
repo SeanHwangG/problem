@@ -1,13 +1,9 @@
-{% tabs %}{% tab title='LC_215.cpp' %}
-
 ```cpp
 int findKthLargest(vector<int>& nums, int k) {
   nth_element(nums.begin(), nums.begin() + k - 1, nums.end(), greater<int>());
   return nums[k - 1];
 }
 ```
-
-{% endtab %}{% tab title='LC_215.py' %}
 
 * Time: O(N)
 
@@ -24,5 +20,3 @@ def findKthLargest(self, li, k):
   else:
     return self.findKthLargest(lo, k - len(hi) - len(mi))
 ```
-
-{% endtab %}{% endtabs %}

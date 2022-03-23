@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_141.py' %}
-
 ```py
 def hasCycle(self, head):
   try:
@@ -12,5 +10,3 @@ def hasCycle(self, head):
   except:
     return False
 ```
-
-{% endtab %}{% endtabs %}

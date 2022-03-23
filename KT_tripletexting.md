@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_tripletexting.py' %}
-
 ```py
 s = input()
 chunk = len(s) // 3
@@ -11,5 +9,3 @@ if b == c:
 else:
   print(a)
 ```
-
-{% endtab %}{% endtabs %}

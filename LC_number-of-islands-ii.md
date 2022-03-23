@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_305.py' %}
-
 ```py
 def numIslands2(self, m, n, positions):
   counts, main, land = [], {}, {}
@@ -18,5 +16,3 @@ def numIslands2(self, m, n, positions):
     counts += len(land),
   return counts
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1444.py' %}
-
 ```py
 def ways(self, pizza: List[str], K: int) -> int:
   m, n, MOD = len(pizza), len(pizza[0]), 10 ** 9 + 7
@@ -23,5 +21,3 @@ def ways(self, pizza: List[str], K: int) -> int:
 
   return dp(K - 1, 0, 0)
 ```
-
-{% endtab %}{% endtabs %}

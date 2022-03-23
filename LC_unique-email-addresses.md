@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_929.py' %}
-
 ```py
 import re
 class Solution:
@@ -12,5 +10,3 @@ class Solution:
       set_.add(f"{local}@{domain}")
     return len(set_)
 ```
-
-{% endtab %}{% endtabs %}

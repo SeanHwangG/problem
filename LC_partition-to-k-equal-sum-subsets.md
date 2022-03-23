@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_698.cpp' %}
-
 * Time; O(k * 2^n)
 
 ```cpp
@@ -22,8 +20,6 @@ bool canPartitionKSubsets(vector<int>& nums, int k) {
 }
 ```
 
-{% endtab %}{% tab title='LC_698.py' %}
-
 ```py
 def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
   sums = [0] * k
@@ -44,5 +40,3 @@ def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
 
   return backtrack(0)
 ```
-
-{% endtab %}{% endtabs %}

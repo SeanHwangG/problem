@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_801.py' %}
-
 ```py
 def minSwap(self, A, B):
   N = len(A)
@@ -14,5 +12,3 @@ def minSwap(self, A, B):
       not_swap[i] = min(not_swap[i], swap[i - 1])  # Stay at i - 1 and swap at i
   return min(swap[-1], not_swap[-1])
 ```
-
-{% endtab %}{% endtabs %}

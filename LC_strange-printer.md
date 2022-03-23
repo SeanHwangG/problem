@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_664.py' %}
-
 ```py
 def strangePrinter(self, S):
   S = re.sub(r'(.)\1*', r'\1', S)
@@ -13,5 +11,3 @@ def strangePrinter(self, S):
     return ans
   return dp(0, len(S) - 1)
 ```
-
-{% endtab %}{% endtabs %}

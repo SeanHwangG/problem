@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_grassseed.py' %}
-
 ```py
 c = float(input())
 l = int(input())
@@ -9,5 +7,3 @@ for _ in range(l):
   ret += w * l * c
 print(ret)
 ```
-
-{% endtab %}{% endtabs %}

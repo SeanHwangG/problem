@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_peragrams.py' %}
-
 ```py
 from collections import Counter
 cnt = Counter()
@@ -11,5 +9,3 @@ for count in cnt:
     ret += 1
 print(max(0, ret - 1))
 ```
-
-{% endtab %}{% endtabs %}

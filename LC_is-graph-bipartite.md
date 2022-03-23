@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_785.py' %}
-
 ```py
 def isBipartite(self, G):
   color = {}
@@ -20,5 +18,3 @@ def isBipartite(self, G):
         return False
   return True
 ```
-
-{% endtab %}{% endtabs %}

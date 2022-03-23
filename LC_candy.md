@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_135.py' %}
-
 * Time, Space; O(N), O(N)
 
 ```py
@@ -13,5 +11,3 @@ def candy(self, ratings: List[int]) -> int:
       res[i-1] = max(res[i - 1], res[i] + 1)
   return sum(res)
 ```
-
-{% endtab %}{% endtabs %}

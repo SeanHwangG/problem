@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_399.py' %}
-
 * Time; O(V^3)
 
 ```py
@@ -15,5 +13,3 @@ def calcEquation(self, equations : List[List[str]], values, queries) -> List[flo
         quot[i][j] = quot[i][k] * quot[k][j]
   return [quot[num].get(den, -1.0) for num, den in queries]
 ```
-
-{% endtab %}{% endtabs %}

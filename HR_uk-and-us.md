@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_uk-and-us.go' %}
-
 ```go
 package main
 
@@ -33,8 +31,6 @@ func main() {
 }
 ```
 
-{% endtab %}{% tab title='HR_uk-and-us.py' %}
-
 ```py
 import re
 
@@ -43,5 +39,3 @@ for n in range(int(input())):
   e = input()
   print(len(re.findall(f"{e[:len(e)-2]}[sz]e", text)))
 ```
-
-{% endtab %}{% endtabs %}

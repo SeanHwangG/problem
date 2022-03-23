@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1195.cpp' %}
-
 ```cpp
 class FizzBuzz {
   private:
@@ -41,8 +39,6 @@ class FizzBuzz {
     }
 };
 ```
-
-{% endtab %}{% tab title='LC_1195.py' %}
 
 ```py
 from threading import Semaphore
@@ -90,5 +86,3 @@ class FizzBuzz(object):
     else:
       self.sem15.release()
 ```
-
-{% endtab %}{% endtabs %}

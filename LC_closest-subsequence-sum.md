@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1755.py' %}
-
 ```py
 def minAbsDifference(self, nums: List[int], goal: int) -> int:
   def generate_sum(nums):
@@ -15,5 +13,3 @@ def minAbsDifference(self, nums: List[int], goal: int) -> int:
               for k in [bisect_left(evens, goal - x)]
               for y in evens[k - 1 : k + 1])
 ```
-
-{% endtab %}{% endtabs %}

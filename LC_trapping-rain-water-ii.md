@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_407.py' %}
-
 * Enqueuing all cells on the outer edges of the input matrix
 * Time; O(mnlog(mn))
 * Space; O(mn)
@@ -21,5 +19,3 @@ def trapRainWater(self, hm: List[List[int]]) -> int:
         heapq.heappush(heap, (max(h, hm[xx][yy]), xx, yy))
   return res
 ```
-
-{% endtab %}{% endtabs %}

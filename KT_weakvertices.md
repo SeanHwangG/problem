@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_weakvertices.py' %}
-
 ```py
 from collections import defaultdict
 while True:
@@ -19,5 +17,3 @@ while True:
       print(i, end = ' ')
   print()
 ```
-
-{% endtab %}{% endtabs %}

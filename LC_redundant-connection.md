@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_684.cpp' %}
-
 ```cpp
 vector<int> findRedundantConnection(vector<vector<int>>& edges) {
   vector<int> parent(edges.size()+1, 0);
@@ -13,8 +11,6 @@ vector<int> findRedundantConnection(vector<vector<int>>& edges) {
 }
 ```
 
-{% endtab %}{% tab title='LC_684.py' %}
-
 * Time; O(n^2) because of string replace / Space : O(n)
 
 ```py
@@ -25,5 +21,3 @@ def findRedundantConnection(self, edges):
       return [u, v]
     tree = tree.replace(tree[u], tree[v])
 ```
-
-{% endtab %}{% endtabs %}

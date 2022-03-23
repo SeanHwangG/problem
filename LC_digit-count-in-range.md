@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1067.py' %}
-
 ```py
 def digitsCount(self, d: int, low: int, high: int) -> int:
   def count(N):
@@ -12,5 +10,3 @@ def digitsCount(self, d: int, low: int, high: int) -> int:
     return res
   return count(high + 1) - count(low)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_431.py' %}
-
 ```py
 """
 class Node:
@@ -34,5 +32,3 @@ class Codec:
       node = node.right
     return nary
 ```
-
-{% endtab %}{% endtabs %}

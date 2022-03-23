@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_deathknight.py' %}
-
 ```py
 n = int(input())
 ret = 0
@@ -8,5 +6,3 @@ for _ in range(n):
     ret += 1
 print(ret)
 ```
-
-{% endtab %}{% endtabs %}

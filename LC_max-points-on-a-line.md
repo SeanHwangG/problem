@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_149.cpp' %}
-
 ```cpp
 int maxPoints(vector<vector<int>>& points) {
   int res = 1;
@@ -21,5 +19,3 @@ int maxPoints(vector<vector<int>>& points) {
   return res;
 }
 ```
-
-{% endtab %}{% endtabs %}

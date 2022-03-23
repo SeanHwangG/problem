@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_359.cpp' %}
-
 ```cpp
 class Logger {
  public:
@@ -15,5 +13,3 @@ class Logger {
   unordered_map <string ,int > m;
 };
 ```
-
-{% endtab %}{% endtabs %}

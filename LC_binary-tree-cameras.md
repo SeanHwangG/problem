@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_968.py' %}
-
 ```py
 def minCameraCover(self, root):
   self.res = 0
@@ -12,5 +10,3 @@ def minCameraCover(self, root):
     return 2 if l == 1 or r == 1 else 0
   return (dfs(root) == 0) + self.res
 ```
-
-{% endtab %}{% endtabs %}

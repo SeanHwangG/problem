@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1851.py' %}
-
 * Time; O(N log N)
 
 ```py
@@ -16,5 +14,3 @@ def minInterval(self, li: List[List[int]], queries: List[int]) -> List[int]:
     res[q] = pq[0][0] if pq else -1
   return [res[q] for q in queries]
 ```
-
-{% endtab %}{% endtabs %}

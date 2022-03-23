@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_757.py' %}
-
 ```py
 def intersectionSizeTwo(self, intervals: List[List[int]]) -> int:
   intervals.sort(key=lambda x:(x[1],-x[0]))
@@ -14,5 +12,3 @@ def intersectionSizeTwo(self, intervals: List[List[int]]) -> int:
       cur = [cur[1], end]
   return res
 ```
-
-{% endtab %}{% endtabs %}

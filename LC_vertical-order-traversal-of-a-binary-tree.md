@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_987.py' %}
-
 ```py
 def verticalTraversal(self, root):
   g = collections.defaultdict(list)
@@ -15,5 +13,3 @@ def verticalTraversal(self, root):
     queue = new
   return [g[i] for i in sorted(g)]
 ```
-
-{% endtab %}{% endtabs %}

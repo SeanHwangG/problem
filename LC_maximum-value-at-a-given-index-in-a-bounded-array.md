@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1802.py' %}
-
 ```py
 def maxValue(self, n, index, maxSum):
   def test(mid):
@@ -17,5 +15,3 @@ def maxValue(self, n, index, maxSum):
       right = mid - 1
   return left + 1
 ```
-
-{% endtab %}{% endtabs %}

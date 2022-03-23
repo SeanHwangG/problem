@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_719.py' %}
-
 ```py
 def smallestDistancePair(self, li: List[int], k: int) -> int:
   def enough(distance) -> bool:  # two pointers
@@ -21,5 +19,3 @@ def smallestDistancePair(self, li: List[int], k: int) -> int:
       r = m
   return l
 ```
-
-{% endtab %}{% endtabs %}

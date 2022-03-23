@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_cudoviste.py' %}
-
 ```py
 N, M = map(int, input().split())
 G = []
@@ -15,5 +13,3 @@ for i in range(1, N):
 for ret in rets:
   print(ret)
 ```
-
-{% endtab %}{% endtabs %}

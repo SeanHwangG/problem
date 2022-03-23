@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_307.py' %}
-
 ```py
 class NumArray(object):
   def __init__(self, nums):
@@ -28,5 +26,3 @@ class NumArray(object):
       i -= (i & -i)
     return res
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_206.js' %}
-
 ```js
 var reverseList = function(head) {
   let [prev, current] = [null, head]
@@ -9,8 +7,6 @@ var reverseList = function(head) {
   return prev
 }
 ```
-
-{% endtab %}{% tab title='LC_206.py' %}
 
 ```py
 def reverseList(self, head: ListNode) -> ListNode:
@@ -24,5 +20,3 @@ def reverseList(self, head: ListNode) -> ListNode:
   head.next = prev
   return head
 ```
-
-{% endtab %}{% endtabs %}

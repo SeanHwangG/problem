@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_316.py' %}
-
 ```py
 def removeDuplicateLetters(self, s):
   for c in sorted(set(s)):
@@ -8,5 +6,3 @@ def removeDuplicateLetters(self, s):
       return c + self.removeDuplicateLetters(suffix.replace(c, ''))
   return ''
 ```
-
-{% endtab %}{% endtabs %}

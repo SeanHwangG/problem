@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1279.py' %}
-
 * Time; O(n)
 * Space; O(1)
 
@@ -25,5 +23,3 @@ class TrafficLight(object):
         turnGreen()
       crossCar()
 ```
-
-{% endtab %}{% endtabs %}

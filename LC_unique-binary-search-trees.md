@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_96.py' %}
-
 * Catalan numbers: $$ \frac{(2n)!}{(n + 1)!n!} $$
 * Time, Space: O(N), O(1)
 
@@ -13,5 +11,3 @@ def numTrees(self, n):
       res[i] += res[j] * res[i - 1 - j]
   return res[n]
 ```
-
-{% endtab %}{% endtabs %}

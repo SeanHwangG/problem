@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_bookingaroom.py' %}
-
 ```py
 a, b = map(int, input().split())
 se = set()
@@ -12,5 +10,3 @@ for i in range(1, a + 1):
 else:
   print("too late")
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_211.py' %}
-
 ```py
 class WordDictionary:
   def __init__(self):
@@ -22,5 +20,3 @@ class WordDictionary:
       node = node[c]
     return '$' in node
 ```
-
-{% endtab %}{% endtabs %}

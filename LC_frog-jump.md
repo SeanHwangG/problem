@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_403.py' %}
-
 ```py
 from functools import lru_cache
 
@@ -14,5 +12,3 @@ def canCross(self, stones):
 
   return bt(1, 1)
 ```
-
-{% endtab %}{% endtabs %}

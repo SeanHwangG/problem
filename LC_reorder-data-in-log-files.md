@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_937.cpp' %}
-
 ```cpp
 bool comp(string s1, string s2){
   int i1 = s1.find(' ') + 1, i2 = s2.find(' ') + 1;
@@ -17,8 +15,6 @@ public:
 };
 ```
 
-{% endtab %}{% tab title='LC_937.js' %}
-
 ```js
 const reorderLogFiles = logs =>
   logs.filter(log => /[a-z]$/.test(log))
@@ -31,8 +27,6 @@ const reorderLogFiles = logs =>
       ).concat(logs.filter(log => /\d$/.test(log)));
 ```
 
-{% endtab %}{% tab title='LC_937.py' %}
-
 ```py
 class Solution:
   def reorderLogFiles(self, logs: List[str]) -> List[str]:
@@ -41,5 +35,3 @@ class Solution:
       return (0, y[1], y[0]) if y[1][0].isalpha() else (1,)
     return sorted(a, key=comp)
 ```
-
-{% endtab %}{% endtabs %}

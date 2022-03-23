@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_209.py' %}
-
 ```py
 def minSubArrayLen(self, s, A):
   i, res = 0, len(A) + 1
@@ -11,5 +9,3 @@ def minSubArrayLen(self, s, A):
       i += 1
   return res % (len(A) + 1)
 ```
-
-{% endtab %}{% endtabs %}

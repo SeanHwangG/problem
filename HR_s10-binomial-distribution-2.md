@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_s10-binomial-distribution-2.py' %}
-
 ```py
 from math import comb
 
@@ -10,5 +8,3 @@ p, n = map(int, input().split())
 print(round(sum([b(i, n, p / 100) for i in range(3)]), 3))
 print(round(sum([b(i, n, p / 100) for i in range(2, n+1)]), 3))
 ```
-
-{% endtab %}{% endtabs %}

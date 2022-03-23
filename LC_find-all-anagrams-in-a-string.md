@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_438.cpp' %}
-
 ```cpp
 vector<int> findAnagrams(string s, string p) {
   if (s.size() < p.size()) return {};
@@ -17,5 +15,3 @@ vector<int> findAnagrams(string s, string p) {
   return ans;
 }
 ```
-
-{% endtab %}{% endtabs %}

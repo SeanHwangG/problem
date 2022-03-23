@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1010.py' %}
-
 ```py
 def numPairsDivisibleBy60(self, time):
   c = [0] * 60
@@ -9,5 +7,3 @@ def numPairsDivisibleBy60(self, time):
     c[t % 60] += 1
   return res
 ```
-
-{% endtab %}{% endtabs %}

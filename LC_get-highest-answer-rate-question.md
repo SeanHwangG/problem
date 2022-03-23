@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_578.sql' %}
-
 ```sql
 SELECT clean.question_id AS "survey_log" FROM (
   SELECT s.question_id, SUM(CASE WHEN action = "answer" THEN 1 END)/
@@ -7,5 +5,3 @@ SELECT clean.question_id AS "survey_log" FROM (
   GROUP BY s.question_id) clean
   ORDER BY clean.answer_rate DESC LIMIT 1
 ```
-
-{% endtab %}{% endtabs %}

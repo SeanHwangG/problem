@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_39.go' %}
-
 ```go
 func combinationSum(candidates []int, target int) [][]int {
   result := make([][]int, 0)
@@ -22,8 +20,6 @@ func backtracking(subset, candidates []int, sum, target int, result *[][]int) {
 }
 ```
 
-{% endtab %}{% tab title='LC_39.py' %}
-
 ```py
 def combinationSum(self, candidates, target):
   res = []
@@ -41,5 +37,3 @@ def combinationSum(self, candidates, target):
   dfs(target, 0, [])
   return res
 ```
-
-{% endtab %}{% endtabs %}

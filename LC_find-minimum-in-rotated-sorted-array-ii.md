@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_154.cpp' %}
-
 * O(N); Worst case
 
 ```cpp
@@ -19,8 +17,6 @@ int findMin(vector<int> &num) {
 }
 ```
 
-{% endtab %}{% tab title='LC_154.py' %}
-
 ```py
 def findMin(self, nums: List[int]) -> int:
   lo, hi = 0, len(nums)-1
@@ -34,5 +30,3 @@ def findMin(self, nums: List[int]) -> int:
       hi -= 1
   return nums[lo]
 ```
-
-{% endtab %}{% endtabs %}

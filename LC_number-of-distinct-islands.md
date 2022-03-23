@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_694.py' %}
-
 ```py
 def numDistinctIslands(self, grid: List[List[int]]) -> int:
   m, n = len(grid), len(grid[0])
@@ -12,5 +10,3 @@ def numDistinctIslands(self, grid: List[List[int]]) -> int:
       dfs(i, j - 1, 'l') + 'r' + dfs(i, j + 1, 'r') + 'l'
   return len({dfs(i, j, '') for i in range(m) for j in range(n) if grid[i][j]})
 ```
-
-{% endtab %}{% endtabs %}

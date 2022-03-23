@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_shatteredcake.py' %}
-
 ```py
 w = int(input())
 total = 0
@@ -8,5 +6,3 @@ for _ in range(int(input())):
   total += a * b
 print(total // w)
 ```
-
-{% endtab %}{% endtabs %}

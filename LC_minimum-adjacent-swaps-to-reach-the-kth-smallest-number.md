@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1850.cpp' %}
-
 ```cpp
 int getMinSwaps(string num, int k) {
   string next = num;
@@ -17,5 +15,3 @@ int getMinSwaps(string num, int k) {
   return ans;
 }
 ```
-
-{% endtab %}{% endtabs %}

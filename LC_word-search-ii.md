@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_212.py' %}
-
 ```py
 class TrieNode():
   def __init__(self):
@@ -40,5 +38,3 @@ class Solution(object):
       self.dfs(B, node.children[tmp], i + di, j + dj, path + tmp, res)
     B[i][j] = tmp
 ```
-
-{% endtab %}{% endtabs %}

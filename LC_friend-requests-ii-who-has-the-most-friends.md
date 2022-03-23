@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_602.sql' %}
-
 ```sql
 SELECT union_table.requester_id AS "id", COUNT(*) AS "num"
   FROM (SELECT r.requester_id FROM request_accepted r
@@ -7,5 +5,3 @@ SELECT union_table.requester_id AS "id", COUNT(*) AS "num"
   GROUP BY union_table.requester_id
   ORDER BY num DESC LIMIT 1
 ```
-
-{% endtab %}{% endtabs %}

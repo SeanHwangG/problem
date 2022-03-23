@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_729.py' %}
-
 ```py
 class MyCalendar:
   def __init__(self):
@@ -14,5 +12,3 @@ class MyCalendar:
     self.intervals[i:i] = [start, end]
     return True
 ```
-
-{% endtab %}{% endtabs %}

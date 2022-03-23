@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_109.py' %}
-
 ```py
 def sortedListToBST(self, head):
   if not head:
@@ -19,5 +17,3 @@ def sortedListToBST(self, head):
   root.right = self.sortedListToBST(tmp.next)
   return root
 ```
-
-{% endtab %}{% endtabs %}

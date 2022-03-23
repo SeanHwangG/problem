@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_723.py' %}
-
 * Mark with negative
 * Time: O((RxC)^2)
 * Space: 1
@@ -33,5 +31,3 @@ def candyCrush(self, board: List[List[int]]) -> List[List[int]]:
 
   return self.candyCrush(board) if todo else board
 ```
-
-{% endtab %}{% endtabs %}

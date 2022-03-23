@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_936.py' %}
-
 ```py
 def movesToStamp(self, s: str, t: str) -> List[int]:
   n, m, t, s, res = len(t), len(s), list(t), list(s), []
@@ -22,5 +20,3 @@ def movesToStamp(self, s: str, t: str) -> List[int]:
       changed |= check(i)
   return res[::-1] if t == ['?'] * n else []
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_pet.py' %}
-
 ```py
 num = mx = 0
 for i in range(5):
@@ -10,5 +8,3 @@ for i in range(5):
 
 print(num, mx)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_364.py' %}
-
 ```py
 def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
   unweighted = 0
@@ -15,5 +13,3 @@ def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
     nestedList = nextLevel
   return weighted
 ```
-
-{% endtab %}{% endtabs %}

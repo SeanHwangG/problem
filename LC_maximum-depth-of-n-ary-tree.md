@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_559.cpp' %}
-
 ```cpp
 int maxDepth(Node* root) {
   if (root == nullptr) return 0;
@@ -9,12 +7,8 @@ int maxDepth(Node* root) {
 }
 ```
 
-{% endtab %}{% tab title='LC_559.py' %}
-
 ```py
 def maxDepth(self, root):
   if not root: return 0
   return 1 + max(map(self.maxDepth, root.children or [None]))
 ```
-
-{% endtab %}{% endtabs %}

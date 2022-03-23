@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1970.py' %}
-
 * Time; O(n * log n)
 
 ```py
@@ -23,5 +21,3 @@ def latestDayToCross(self, row: int, col: int, A: List[List[int]]) -> int:
     if find('l') == find('r'):
       return i
 ```
-
-{% endtab %}{% endtabs %}

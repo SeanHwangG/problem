@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1854.cpp' %}
-
 ```cpp
 int maximumPopulation(vector<vector<int>>& logs) {
   int pop[2051] = {}, res = 0;
@@ -14,5 +12,3 @@ int maximumPopulation(vector<vector<int>>& logs) {
   return res;
 }
 ```
-
-{% endtab %}{% endtabs %}

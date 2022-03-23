@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_335.py' %}
-
 ```py
 def isSelfCrossing(self, x):
   """ Two cases
@@ -22,5 +20,3 @@ def isSelfCrossing(self, x):
     b, c, d, e, f = a, b, c, d, e
   return False
 ```
-
-{% endtab %}{% endtabs %}

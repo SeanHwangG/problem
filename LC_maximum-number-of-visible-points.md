@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1610.py' %}
-
 ```py
 def visiblePoints(self, points: List[List[int]], angle: int, location: List[int]) -> int:
   arr, extra = [], 0
@@ -21,5 +19,3 @@ def visiblePoints(self, points: List[List[int]], angle: int, location: List[int]
 
   return ans + extra
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1226.py' %}
-
 ```py
 from threading import Lock
 class DiningPhilosophers:
@@ -24,5 +22,3 @@ class DiningPhilosophers:
       putLeftFork()
       putRightFork()
 ```
-
-{% endtab %}{% endtabs %}

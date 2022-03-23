@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1525.py' %}
-
 ```py
 def numSplits(self, s: str) -> int:
   lc, rc = Counter(), Counter(s)
@@ -15,5 +13,3 @@ def numSplits(self, s: str) -> int:
 
   return res
 ```
-
-{% endtab %}{% endtabs %}

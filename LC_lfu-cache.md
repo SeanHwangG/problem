@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_460.py' %}
-
 ```py
 from collections import defaultdict, OrderedDict
 
@@ -51,5 +49,3 @@ class LFUCache(object):
     self.count2node[1][key] = self.key2node[key] = Node(key, value, 1)
     self.minCount = 1
 ```
-
-{% endtab %}{% endtabs %}

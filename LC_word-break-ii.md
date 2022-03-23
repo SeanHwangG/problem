@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_140.py' %}
-
 ```py
 def wordBreak(self, s: str, words: List[str]) -> List[str]:
   words, dp = set(words), dict()
@@ -17,5 +15,3 @@ def wordBreak(self, s: str, words: List[str]) -> List[str]:
 
   return helper(len(s))
 ```
-
-{% endtab %}{% endtabs %}

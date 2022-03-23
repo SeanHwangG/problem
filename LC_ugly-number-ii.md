@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_264.cpp' %}
-
 ```cpp
 int nthUglyNumber(int n) {
   vector<int> ugly(n, 1);
@@ -15,8 +13,6 @@ int nthUglyNumber(int n) {
 }
 ```
 
-{% endtab %}{% tab title='LC_264.py' %}
-
 ```py
 def nthUglyNumber(self, n):
   ugly = [1]
@@ -28,5 +24,3 @@ def nthUglyNumber(self, n):
     ugly.append(min(ugly[i2] * 2, ugly[i3] * 3, ugly[i5] * 5))
   return ugly[-1]
 ```
-
-{% endtab %}{% endtabs %}

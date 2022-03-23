@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_420.py' %}
-
 ```py
 def strongPasswordChecker(self, s):
   missing_type = 3
@@ -36,5 +34,3 @@ def strongPasswordChecker(self, s):
 
     return delete + max(missing_type, change)
 ```
-
-{% endtab %}{% endtabs %}

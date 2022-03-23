@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_378.cpp' %}
-
 * Time; O(n x log(n) x log(N))
 * Space; O(1)
 
@@ -23,8 +21,6 @@ int kthSmallest(vector<vector<int>>& matrix, int k) {
 }
 ```
 
-{% endtab %}{% tab title='LC_378.py' %}
-
 * Time: O(n * log n)
 * Space: O(1)
 
@@ -32,5 +28,3 @@ int kthSmallest(vector<vector<int>>& matrix, int k) {
 def kthSmallest(self, matrix, k):
   return sorted(itertools.chain(*matrix))[k - 1]
 ```
-
-{% endtab %}{% endtabs %}

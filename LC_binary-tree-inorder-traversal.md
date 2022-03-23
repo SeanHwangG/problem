@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_94.go' %}
-
 ```go
 func inorderTraversal(root *TreeNode) []int {
   var xs []int
@@ -12,8 +10,6 @@ func inorderTraversal(root *TreeNode) []int {
 }
 ```
 
-{% endtab %}{% tab title='LC_94.py' %}
-
 * Time: O(n)
 * Space: O(n)
 
@@ -21,5 +17,3 @@ func inorderTraversal(root *TreeNode) []int {
 def inorderTraversal(self, root):
   return self.inorderTraversal(root.left)+[root.val] + self.inorderTraversal(root.right) if root else []
 ```
-
-{% endtab %}{% endtabs %}

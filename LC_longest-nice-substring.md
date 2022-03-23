@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1763.py' %}
-
 ```py
 def longestNiceSubstring(self, s: str) -> str:
   if not s: return ""
@@ -11,5 +9,3 @@ def longestNiceSubstring(self, s: str) -> str:
       return max(s0, s1, key=len)
   return s
 ```
-
-{% endtab %}{% endtabs %}

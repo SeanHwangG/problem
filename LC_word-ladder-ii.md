@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_126.py' %}
-
 ```py
 def findLadders(self, begin: str, end: str, words: List[str]) -> List[List[str]]:
   def construct_tree(begin, end):
@@ -25,5 +23,3 @@ def findLadders(self, begin: str, end: str, words: List[str]) -> List[List[str]]
       front, back, forward = back, front, not forward
   return construct_tree(begin, end)
 ```
-
-{% endtab %}{% endtabs %}

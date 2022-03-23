@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_454.cpp' %}
-
 ```cpp
 int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
   int res = 0;
@@ -14,12 +12,8 @@ int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D)
 }
 ```
 
-{% endtab %}{% tab title='LC_454.py' %}
-
 ```py
 def fourSumCount(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:
   AB = collections.Counter(a+b for a in A for b in B)
   return sum(AB[-c-d] for c in C for d in D)
 ```
-
-{% endtab %}{% endtabs %}

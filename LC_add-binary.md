@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_67.cpp' %}
-
 ```cpp
 string addBinary(string a, string b) {
   string s = "";
@@ -14,19 +12,13 @@ string addBinary(string a, string b) {
 }
 ```
 
-{% endtab %}{% tab title='LC_67.js' %}
-
 ```js
 var addBinary = function(a, b) {
   return (BigInt(`0b${a}`) + BigInt(`0b${b}`)).toString(2);
 };
 ```
 
-{% endtab %}{% tab title='LC_67.py' %}
-
 ```py
 def addBinary(self, a: str, b: str) -> str:
   return bin(int(a, 2) + int(b, 2))[2:]
 ```
-
-{% endtab %}{% endtabs %}

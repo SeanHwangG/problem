@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_220.cpp' %}
-
 ```cpp
 bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
   set<long long> window;
@@ -12,8 +10,6 @@ bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
   return false;
 }
 ```
-
-{% endtab %}{% tab title='LC_220.py' %}
 
 ```py
 from sortedcontainers import SortedList
@@ -29,5 +25,3 @@ def containsNearbyAlmostDuplicate(self, nums, k, t):
 
     return False
 ```
-
-{% endtab %}{% endtabs %}

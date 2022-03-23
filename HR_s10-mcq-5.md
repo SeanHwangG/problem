@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_mcq-5.py' %}
-
 ```py
 from fractions import Fraction
 from itertools import combinations
@@ -10,5 +8,3 @@ for a, b in combs:
     s += 1
 print(Fraction(s, len(combs)))
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_432.cpp' %}
-
 ```cpp
 class AllOne {
 public:
@@ -53,8 +51,6 @@ private:
   unordered_map<string, list<Bucket>::iterator> bucketOfKey;
 };
 ```
-
-{% endtab %}{% tab title='LC_432.py' %}
 
 ```py
 class Block(object):
@@ -134,5 +130,3 @@ class AllOne(object):
     self.begin.after.keys.add(key)
     return key
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='BJ_5063.py' %}
-
 ```py
 for _ in range(int(input())):
   r, e, c = map(int, input().split())
@@ -10,5 +8,3 @@ for _ in range(int(input())):
   else:
     print('advertise')
 ```
-
-{% endtab %}{% endtabs %}

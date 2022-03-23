@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1671.py' %}
-
 ```py
 def minimumMountainRemovals(self, A: List[int]) -> int:
   n = len(A)
@@ -15,5 +13,3 @@ def minimumMountainRemovals(self, A: List[int]) -> int:
     dp[i] += j if j else -n
   return n - max(dp[1:-1])
 ```
-
-{% endtab %}{% endtabs %}

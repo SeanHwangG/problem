@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1172.cpp' %}
-
 ```cpp
 int c;
 map<int, vector<int>> m;
@@ -37,8 +35,6 @@ int popAtStack(int index) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1172.py' %}
-
 * Time: push=O(logN), pop=amortized O(1), popAtStack=O(logN)
 
 ```py
@@ -66,5 +62,3 @@ class DinnerPlates:
       return self.stacks[index].pop()
     return -1
 ```
-
-{% endtab %}{% endtabs %}

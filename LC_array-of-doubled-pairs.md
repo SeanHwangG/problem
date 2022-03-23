@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_954.py' %}
-
 ```py
 def canReorderDoubled(self, arr: List[int]) -> bool:
   cnt = Counter(arr)
@@ -12,5 +10,3 @@ def canReorderDoubled(self, arr: List[int]) -> bool:
     cnt[2 * num] -= 1
   return True
 ```
-
-{% endtab %}{% endtabs %}

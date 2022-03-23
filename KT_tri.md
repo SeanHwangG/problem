@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_tri.py' %}
-
 ```py
 a, b, c = input().split()
 for op in ['+', '-', '*', '/']:
@@ -10,5 +8,3 @@ for op in ['+', '-', '*', '/']:
     print(a + '=' + b + op + c)
     break
 ```
-
-{% endtab %}{% endtabs %}

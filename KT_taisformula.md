@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_taisformula.py' %}
-
 ```py
 pa, pb = None, None
 ret = 0
@@ -10,5 +8,3 @@ for _ in range(int(input())):
   pa, pb = a, b
 print(ret)
 ```
-
-{% endtab %}{% endtabs %}

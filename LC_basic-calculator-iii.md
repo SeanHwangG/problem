@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_772.py' %}
-
 ```py
 def calculate(self, s: str) -> int:
   s = filter(None, re.split(r'([+\-*/()\$])', (s + '$').replace(' ', '')))
@@ -30,5 +28,3 @@ def do_calculate(self, s):
       calculate_top()
       num, sign = 0, c
 ```
-
-{% endtab %}{% endtabs %}

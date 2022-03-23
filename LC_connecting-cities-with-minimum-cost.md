@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1135.py' %}
-
 ```py
 def minimumCost(self, N: int, connections: List[List[int]]) -> int:
   def find(city):
@@ -22,5 +20,3 @@ def minimumCost(self, N: int, connections: List[List[int]]) -> int:
   root = find(N)
   return total if all(root == find(city) for city in range(1, N + 1)) else -1
 ```
-
-{% endtab %}{% endtabs %}

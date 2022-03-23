@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_lastfactorialdigit.py' %}
-
 ```py
 n_test = int(input())
 for _ in range(n_test):
@@ -9,5 +7,3 @@ for _ in range(n_test):
     ret *= i
   print(ret % 10)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_336.py' %}
-
 ```py
 def palindromePairs(self, words: List[str]) -> List[List[int]]:
   lookup, res = {w: i for i, w in enumerate(words)}, []
@@ -12,5 +10,3 @@ def palindromePairs(self, words: List[str]) -> List[List[int]]:
         res.append([i, lookup[pre[::-1]]])
   return res
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_379.py' %}
-
 ```py
 class PhoneDirectory:
   def __init__(self, maxNumbers):
@@ -14,5 +12,3 @@ class PhoneDirectory:
   def release(self, number):
     self.available.add(number)
 ```
-
-{% endtab %}{% endtabs %}

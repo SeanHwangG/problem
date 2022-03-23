@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1440.sql' %}
-
 ```sql
 SELECT e.left_operand, e.operator, e.right_operand,
     CASE WHEN operator = '>' THEN IF(v1.value > v2.value, 'true', 'false')
@@ -10,5 +8,3 @@ SELECT e.left_operand, e.operator, e.right_operand,
   JOIN Variables v1 ON v1.name = e.left_operand
   JOIN Variables v2 ON v2.name = e.right_operand;
 ```
-
-{% endtab %}{% endtabs %}

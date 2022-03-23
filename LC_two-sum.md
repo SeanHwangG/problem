@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1.go' %}
-
 ```go
 func twoSum(nums []int, target int) []int {
   m := make(map[int]int, len(nums))
@@ -14,7 +12,17 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-{% endtab %}{% tab title='LC_1.py' %}
+```java
+public int[] twoSum(int[] nums, int target) {
+  HashMap<Integer, Integer> map = new HashMap<>();
+  for (int i = 0; i < nums.length; i++){
+    if (map.containsKey(target - nums[i]))
+      return new int[] { map.get(target - nums[i]), i };
+    map.put(nums[i], i);
+  }
+  return null;
+}
+```
 
 ```py
 def twoSum(self, nums, target):
@@ -24,5 +32,3 @@ def twoSum(self, nums, target):
       return d[target - num], i
     d[num] = i
 ```
-
-{% endtab %}{% endtabs %}

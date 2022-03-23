@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_647.cpp' %}
-
 ```cpp
 int countSubstrings(string s) {
   int res = 0, n = s.length();
@@ -12,8 +10,6 @@ int countSubstrings(string s) {
   return res;
 }
 ```
-
-{% endtab %}{% tab title='LC_647.py' %}
 
 ```py
 def countSubstrings(self, S):
@@ -31,5 +27,3 @@ def countSubstrings(self, S):
     return Z
   return sum((v + 1) // 2 for v in manachers(S))
 ```
-
-{% endtab %}{% endtabs %}

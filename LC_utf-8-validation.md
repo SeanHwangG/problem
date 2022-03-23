@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_393.cpp' %}
-
 ```cpp
 bool validUtf8(vector<int>& data) {
   int count = 0;
@@ -17,5 +15,3 @@ bool validUtf8(vector<int>& data) {
   return count == 0;
 }
 ```
-
-{% endtab %}{% endtabs %}

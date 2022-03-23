@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1976.py' %}
-
 ```py
 def countPaths(self, n: int, roads: List[List[int]]) -> int:
   graph = defaultdict(list)
@@ -24,5 +22,3 @@ def countPaths(self, n: int, roads: List[List[int]]) -> int:
 
   return dijkstra(0)
 ```
-
-{% endtab %}{% endtabs %}

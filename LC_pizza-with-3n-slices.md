@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1388.py' %}
-
 ```py
 def maxSizeSlices(self, A):
   @lru_cache(None)
@@ -9,5 +7,3 @@ def maxSizeSlices(self, A):
     return max(dp(i + cycle, j - 2, k - 1) + A[j], dp(i, j - 1, k))
   return dp(0, len(A) - 1, len(A) // 3, 1)
 ```
-
-{% endtab %}{% endtabs %}

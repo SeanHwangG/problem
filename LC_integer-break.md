@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_343.py' %}
-
 ```py
 def integerBreak(self, n: int) -> int:
   case = [0, 0, 1, 2, 4, 6, 9]
@@ -10,5 +8,3 @@ def integerBreak(self, n: int) -> int:
     dp[i] = 3 * dp[i - 3]
   return dp[-1]
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1679.cpp' %}
-
 ```cpp
 int maxOperations(vector<int>& nums, int k) {
   unordered_map<int, int> num2count;
@@ -21,8 +19,6 @@ int maxOperations(vector<int>& nums, int k) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1679.py' %}
-
 ```py
 from collections import Counter
 class Solution:
@@ -33,5 +29,3 @@ class Solution:
         ret += co[target - n] // 2 if n * 2 == target else min(co[n], co[target - n])
     return ret
 ```
-
-{% endtab %}{% endtabs %}

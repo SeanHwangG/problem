@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_798.py' %}
-
 ```py
 def bestRotation(self, A: List[int]) -> int:
   N = len(A)
@@ -10,5 +8,3 @@ def bestRotation(self, A: List[int]) -> int:
     change[i] += change[i - 1]
   return change.index(max(change))
 ```
-
-{% endtab %}{% endtabs %}

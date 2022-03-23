@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_818.py' %}
-
 1. Go pass our target, stop and turn back
     * We take n instructions of A.
     * 1 + 2 + 4 + ... + 2 ^ (n-1) = 2 ^ n - 1
@@ -27,5 +25,3 @@ def racecar(self, t: int) -> int:
       mn = min(mn, self.racecar(t - 2 ** (n - 1) + 2 ** m) + n + m + 1)
   return mn
 ```
-
-{% endtab %}{% endtabs %}

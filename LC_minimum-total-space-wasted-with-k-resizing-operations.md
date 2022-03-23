@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1959.py' %}
-
 ```py
 def minSpaceWastedKResizing(self, nums: List[int], k: int) -> int:
   @lru_cache
@@ -15,5 +13,3 @@ def minSpaceWastedKResizing(self, nums: List[int], k: int) -> int:
     return ans
   return fn(0, k)
 ```
-
-{% endtab %}{% endtabs %}

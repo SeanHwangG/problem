@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1149.md' %}
-
 | article_id | author_id | viewer_id | view_date  |
 | ---------- | --------- | --------- | ---------- |
 | 1          | 3         | 5         | 2019-08-01 |
@@ -18,11 +16,7 @@
 | 5   |
 | 6   |
 
-{% endtab %}{% tab title='LC_1149.sql' %}
-
 ```sql
 SELECT DISTINCT viewer_id AS id#, count(DISTINCT article_id) AS total FROM views
   GROUP BY viewer_id, view_date HAVING Count(DISTINCT Article_id) > 1 ORDER by 1
 ```
-
-{% endtab %}{% endtabs %}

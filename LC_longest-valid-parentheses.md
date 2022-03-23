@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_32.py' %}
-
 ```py
 def longestValidParentheses(self, s):
   dp = [0] * (len(s) + 1)
@@ -9,5 +7,3 @@ def longestValidParentheses(self, s):
       dp[i] = dp[i + 1] + dp[j + 1] + 2
   return max(dp)
 ```
-
-{% endtab %}{% endtabs %}

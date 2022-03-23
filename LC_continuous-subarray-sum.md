@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_523.py' %}
-
 * Time, Space; O(N), O(N)
 
 ```py
@@ -11,5 +9,3 @@ def checkSubarraySum(self, A, k):
       return True
   return False
 ```
-
-{% endtab %}{% endtabs %}

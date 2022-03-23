@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_315.py' %}
-
 ```py
 class BIT:
   def __init__(self, n):
@@ -25,5 +23,3 @@ def countSmaller(self, li):
     bit.update(ranks[e], 1)
   return ret[::-1]
 ```
-
-{% endtab %}{% endtabs %}

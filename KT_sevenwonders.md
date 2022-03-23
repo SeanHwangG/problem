@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_sevenwonders.py' %}
-
 ```py
 from collections import Counter
 st = input()
@@ -11,5 +9,3 @@ ret += co['G'] ** 2
 
 print(ret)
 ```
-
-{% endtab %}{% endtabs %}

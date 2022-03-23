@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_850.cpp' %}
-
 ```cpp
 class Solution {
 public:
@@ -31,5 +29,3 @@ public:
   }
 };
 ```
-
-{% endtab %}{% endtabs %}

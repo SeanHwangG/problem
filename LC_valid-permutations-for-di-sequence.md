@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_983.cpp' %}
-
 ```cpp
 int numPermsDISequence(string S) {
   int n = S.length(), mod = 1e9 + 7;
@@ -15,8 +13,6 @@ int numPermsDISequence(string S) {
   return dp[0];
 }
 ```
-
-{% endtab %}{% tab title='LC_903.py' %}
 
 * ![LC_903](images/20210727_010921.png)
 
@@ -34,5 +30,3 @@ def numPermsDISequence(self, S):
         dp[i] += dp[i + 1]
   return dp[0] % (10**9 + 7)
 ```
-
-{% endtab %}{% endtabs %}

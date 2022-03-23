@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_517.py' %}
-
 ```py
 def findMinMoves(self, machines):
   total, n = sum(machines), len(machines)
@@ -10,5 +8,3 @@ def findMinMoves(self, machines):
     res = max(res, abs(toRight), m - target)
   return res
 ```
-
-{% endtab %}{% endtabs %}

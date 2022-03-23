@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_300.cpp' %}
-
 ```cpp
 int lengthOfLIS(vector<int>& nums) {
   vector<int> res; // res[i] keeps track of the smallest tail of subsequences with length i + 1
@@ -12,8 +10,6 @@ int lengthOfLIS(vector<int>& nums) {
 }
 ```
 
-{% endtab %}{% tab title='LC_300.py' %}
-
 ```py
 def lengthOfLIS(self, nums):
   dp = [10 ** 10] * (len(nums) + 1)
@@ -21,5 +17,3 @@ def lengthOfLIS(self, nums):
     dp[bisect_left(dp, elem)] = elem
   return dp.index(10 ** 10)
 ```
-
-{% endtab %}{% endtabs %}

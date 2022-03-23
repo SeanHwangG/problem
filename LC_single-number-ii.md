@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_137.java' %}
-
 ```java
 public int singleNumber(int[] A) {
   int ones = 0, twos = 0;
@@ -10,8 +8,6 @@ public int singleNumber(int[] A) {
   return ones;
 }
 ```
-
-{% endtab %}{% tab title='LC_137.py' %}
 
 * O(32N)
 
@@ -27,5 +23,3 @@ def singleNumber(self, nums):
 
   return single if single < (1 << 31) else single - (1 << 32)
 ```
-
-{% endtab %}{% endtabs %}

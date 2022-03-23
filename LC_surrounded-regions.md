@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_130.py' %}
-
 ```py
 def solve(self, G):
   n, m = len(G), len(G[0])
@@ -11,5 +9,3 @@ def solve(self, G):
     queue.extend(filter(boardFilter, [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]))
   G[:] = [['XO'[x == 'M'] for x in row] for row in G]
 ```
-
-{% endtab %}{% endtabs %}

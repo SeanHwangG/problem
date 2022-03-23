@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_605.py' %}
-
 ```py
 def canPlaceFlowers(self, A, N):
   for i, x in enumerate(A):
@@ -8,5 +6,3 @@ def canPlaceFlowers(self, A, N):
       A[i] = 1
   return N <= 0
 ```
-
-{% endtab %}{% endtabs %}

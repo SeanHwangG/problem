@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_793.py' %}
-
 ```py
 def preimageSizeFZF(self, K):
   def f(x):
@@ -13,5 +11,3 @@ def preimageSizeFZF(self, K):
       r = m
   return 5 if f(l) == K else 0
 ```
-
-{% endtab %}{% endtabs %}

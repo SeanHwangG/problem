@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_the-trigram.py' %}
-
 ```py
 import sys
 from collections import Counter
@@ -14,5 +12,3 @@ txt = sys.stdin.read()
 trigrams = Counter(reduce(iconcat, map(getTrigrams, txt.lower().split('.')), []))
 print(max(trigrams, key=trigrams.get))
 ```
-
-{% endtab %}{% endtabs %}

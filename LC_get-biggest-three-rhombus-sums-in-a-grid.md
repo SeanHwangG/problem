@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1878.py' %}
-
 ```py
 def getBiggestThree(self, grid):
   m, n, heap = len(grid), len(grid[0]), []
@@ -28,5 +26,3 @@ def getBiggestThree(self, grid):
 
   return sorted(heap)[::-1]
 ```
-
-{% endtab %}{% endtabs %}

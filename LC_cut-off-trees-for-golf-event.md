@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_675.py' %}
-
 * Hadlock's algorithm
 
 ```py
@@ -40,5 +38,3 @@ def cutOffTree(self, forest: List[List[int]]) -> int:
   trees.sort()
   return sum(distance(i, j, I, J) for (_, i, j), (_, I, J) in zip([(0, 0, 0)] + trees, trees))
 ```
-
-{% endtab %}{% endtabs %}

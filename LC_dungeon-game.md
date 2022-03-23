@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_174.py' %}
-
 ```py
 def calculateMinimumHP(self, G: List[List[int]]) -> int:
   m, n = len(G), len(G[0])
@@ -12,5 +10,3 @@ def calculateMinimumHP(self, G: List[List[int]]) -> int:
 
   return dp[0][0]
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1553.cpp' %}
-
 ```cpp
 unordered_map<int, int> dp;
 int minDays(int n) {
@@ -11,8 +9,6 @@ int minDays(int n) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1553.py' %}
-
 ```py
 @lru_cache()
 def minDays(self, n: int) -> int:
@@ -20,5 +16,3 @@ def minDays(self, n: int) -> int:
     return n
   return 1 + min(n % 2 + self.minDays(n // 2), n % 3 + self.minDays(n // 3))
 ```
-
-{% endtab %}{% endtabs %}

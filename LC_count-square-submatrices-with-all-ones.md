@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1277.py' %}
-
 ```py
 def countSquares(self, A):
   for i in xrange(1, len(A)):
@@ -7,5 +5,3 @@ def countSquares(self, A):
       A[i][j] *= min(A[i - 1][j], A[i][j - 1], A[i - 1][j - 1]) + 1
   return sum(map(sum, A))
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_fiftyshades.py' %}
-
 ```py
 count = 0
 for _ in range(int(input())):
@@ -9,5 +7,3 @@ for _ in range(int(input())):
 
 print(count if count != 0 else "I must watch Star Wars with my daughter")
 ```
-
-{% endtab %}{% endtabs %}

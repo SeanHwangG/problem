@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_144.py' %}
-
 ```py
 def preorderTraversal(self, root):
   ret, stack = [], [root]
@@ -10,5 +8,3 @@ def preorderTraversal(self, root):
       stack.extend([node.right, node.left])
   return ret
 ```
-
-{% endtab %}{% endtabs %}

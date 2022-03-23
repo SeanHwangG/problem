@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_782.py' %}
-
 1. In a valid chess board, there are 2 and only 2 kinds of rows and one is inverse to the other
     * (ex: if there is a row 01010011 in the board, any other row must be either 01010011 or 10101100)
 1. Every row and column has half ones.
@@ -21,5 +19,3 @@ def movesToChessboard(self, b):
     row = min(N - row, row)
   return (col + row) // 2
 ```
-
-{% endtab %}{% endtabs %}

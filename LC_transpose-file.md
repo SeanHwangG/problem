@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_194.sh' %}
-
 * in awk ,$i is the i-th column of the line segmented by Field Separator(default " ")
 * NF = Number of Fields, how many pieces of the line we got after segmentation
 * END tells what to do after previous expression
@@ -21,5 +19,3 @@ END {
   }
 }' file.txt
 ```
-
-{% endtab %}{% endtabs %}

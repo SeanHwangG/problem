@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_45.py' %}
-
 * Time, Space; O(N), O(1)
 
 ```py
@@ -12,5 +10,3 @@ def jump(self, nums):
     l, r = r, nxt # nxt : farthest point that all points in [l, r] can reach
   return time
 ```
-
-{% endtab %}{% endtabs %}

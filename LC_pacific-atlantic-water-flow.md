@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_417.py' %}
-
 ```py
 def pacificAtlantic(self, G):
   if not G: return []
@@ -17,5 +15,3 @@ def pacificAtlantic(self, G):
   atlantic = set([(i, n-1) for i in range(m)] + [(m - 1, j) for j in range(n - 1)])
   return list( bfs(pacific) & bfs(atlantic) )
 ```
-
-{% endtab %}{% endtabs %}

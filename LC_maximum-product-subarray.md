@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_152.py' %}
-
 ```py
 def maxProduct(self, A):
   B = A[::-1]
@@ -8,5 +6,3 @@ def maxProduct(self, A):
     B[i] *= B[i - 1] or 1
   return max(A + B)
 ```
-
-{% endtab %}{% endtabs %}

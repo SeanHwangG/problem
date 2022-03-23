@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_46.go' %}
-
 ```go
 func permute(nums []int) [][]int {
   if len(nums) == 0
@@ -22,5 +20,3 @@ func backtrack(nums []int, prev []int, ans *[][]int) {
   }
 }
 ```
-
-{% endtab %}{% endtabs %}

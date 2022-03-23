@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_627.sql' %}
-
 ```sql
 UPDATE salary SET sex =
   CASE sex
@@ -7,5 +5,3 @@ UPDATE salary SET sex =
     WHEN 'm' THEN 'f'
   END
 ```
-
-{% endtab %}{% endtabs %}

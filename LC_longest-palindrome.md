@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_409.cpp' %}
-
 ```cpp
 int longestPalindrome(string s) {
   int odds = 0;
@@ -8,5 +6,3 @@ int longestPalindrome(string s) {
   return s.size() - odds + (odds > 0);
 }
 ```
-
-{% endtab %}{% endtabs %}

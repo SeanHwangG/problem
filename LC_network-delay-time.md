@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_743.py' %}
-
 * Time: O(VE)
 * Space: O(N)
 
@@ -13,5 +11,3 @@ def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
         dist[v - 1] = dist[u - 1] + w
   return max(dist) if max(dist) < float("inf") else -1
 ```
-
-{% endtab %}{% endtabs %}

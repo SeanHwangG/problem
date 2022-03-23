@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1301.py' %}
-
 * Time: O(N^2)
 * Space: O(N^2)
 
@@ -19,5 +17,3 @@ def pathsWithMaxScore(self, G: List[str]) -> List[int]:
       dp[r][c][0] += int(G[r][c]) if r or c else 0
   return [dp[0][0][0] if dp[0][0][1] else 0, dp[0][0][1] % MOD]
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_230.py' %}
-
 ```py
 class Solution(object):
   def kthSmallest(self, root: TreeNode, k: int):
@@ -13,5 +11,3 @@ class Solution(object):
     count.append(node.val)
     self.helper(node.right, count)
 ```
-
-{% endtab %}{% endtabs %}

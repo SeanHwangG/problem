@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_842.py' %}
-
 ```py
 def splitIntoFibonacci(self, num: str) -> List[int]:
   def backtrack(s, i, seq, l):
@@ -18,5 +16,3 @@ def splitIntoFibonacci(self, num: str) -> List[int]:
     return []
   return backtrack(S, 0, [], len(S))
 ```
-
-{% endtab %}{% endtabs %}

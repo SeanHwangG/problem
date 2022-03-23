@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_440.cpp' %}
-
 ```cpp
 int findKthNumber(int n, int k) {
   int result = 1;
@@ -23,8 +21,6 @@ int findKthNumber(int n, int k) {
   return result;
 };
 ```
-
-{% endtab %}{% tab title='LC_440.go' %}
 
 ```go
 func min(a, b int) int {
@@ -67,8 +63,6 @@ func findKthNumber(n int, k int) int {
 }
 ```
 
-{% endtab %}{% tab title='LC_440.py' %}
-
 ```py
 def findKthNumber(self, n, k):
   result = 1
@@ -91,5 +85,3 @@ def findKthNumber(self, n, k):
       k -= 1
   return result
 ```
-
-{% endtab %}{% endtabs %}

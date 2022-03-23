@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1015.py' %}
-
 ```py
 def smallestRepunitDivByK(self, K: int) -> int:
   if K % 10 not in {1, 3, 7, 9}: return -1
@@ -11,5 +9,3 @@ def smallestRepunitDivByK(self, K: int) -> int:
     mod_set.add(mod)
   return -1
 ```
-
-{% endtab %}{% endtabs %}

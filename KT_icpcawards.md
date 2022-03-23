@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_icpcawards.py' %}
-
 ```py
 N = int(input())
 seen = set()
@@ -9,5 +7,3 @@ for _ in range(N):
     print(uni, team)
   seen.add(uni)
 ```
-
-{% endtab %}{% endtabs %}

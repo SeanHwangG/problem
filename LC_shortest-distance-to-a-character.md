@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_821.py' %}
-
 ```py
 def shortestToChar(self, S: str, C: str) -> List[int]:
   ret = [0 if s == C else len(S) for s in S]
@@ -9,5 +7,3 @@ def shortestToChar(self, S: str, C: str) -> List[int]:
     ret[i] = min(ret[i + 1] + 1, ret[i])
   return ret
 ```
-
-{% endtab %}{% endtabs %}

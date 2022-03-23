@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_470.cpp' %}
-
 ```cpp
 int rand10() {
   int rand40 = 40;
@@ -10,8 +8,6 @@ int rand10() {
 }
 ```
 
-{% endtab %}{% tab title='LC_470.py' %}
-
 ```py
 def rand10(self):
   rand40 = 40
@@ -19,5 +15,3 @@ def rand10(self):
     rand40 = (rand7() - 1) * 7 + rand7() - 1
   return rand40 % 10 + 1
 ```
-
-{% endtab %}{% endtabs %}

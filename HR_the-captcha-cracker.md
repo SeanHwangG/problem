@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_the-captcha-cracker.py' %}
-
 ```py
 import sys
 import numpy
@@ -61,5 +59,3 @@ features = numpy.asarray([
 targets_predict = predict(theta1, theta2, features)
 print("".join(chr(targets_predict[0] + ord('A')) for i in range(5)))
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_Ptice.py' %}
-
 ```py
 length = int(input())
 li = list(input())
@@ -23,5 +21,3 @@ if max(scores) == scores[1]:
 if max(scores) == scores[2]:
   print('Goran')
 ```
-
-{% endtab %}{% endtabs %}

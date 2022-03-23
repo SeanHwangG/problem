@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_878.py' %}
-
 ```py
 import math
 def nthMagicalNumber(self, N, A, B):
@@ -12,5 +10,3 @@ def nthMagicalNumber(self, N, A, B):
       r = m
   return l % (10**9 + 7)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_s10-binomial-distribution-1.py' %}
-
 ```py
 from math import comb
 
@@ -10,5 +8,3 @@ l, r = map(float, input().split())
 odds = l / r
 print(round(sum([binomial(i, 6, odds / (1 + odds)) for i in range(3, 7)]), 3))
 ```
-
-{% endtab %}{% endtabs %}

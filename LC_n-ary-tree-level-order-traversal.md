@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_429.py' %}
-
 ```py
 def levelOrder(self, root):
   q, ret = [root], []
@@ -8,5 +6,3 @@ def levelOrder(self, root):
     q = [child for node in q for child in node.children if child]
   return ret
 ```
-
-{% endtab %}{% endtabs %}

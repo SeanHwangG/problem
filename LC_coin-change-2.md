@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_518.py' %}
-
 ```py
 def change(self, amount: int, coins: List[int]) -> int:
   dp = [1] + [0] * amount
@@ -8,5 +6,3 @@ def change(self, amount: int, coins: List[int]) -> int:
       dp[i] += dp[i-c]
   return dp[amount]
 ```
-
-{% endtab %}{% endtabs %}

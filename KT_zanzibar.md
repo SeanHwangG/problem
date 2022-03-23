@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_zanzibar.py' %}
-
 ```py
 n_test = int(input())
 for i in range(n_test):
@@ -13,5 +11,3 @@ a, b, c, d = map(int, input().split())
 s = sum([a, b, c, d]) / 2
 print(((s - a) * (s - b) * (s - c) * (s - d)) ** 0.5)
 ```
-
-{% endtab %}{% endtabs %}

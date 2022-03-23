@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_778.py' %}
-
 ```py
 def swimInWater(self, grid: List[List[int]]) -> int:
   N, pq, seen, res = len(grid), [(grid[0][0], 0, 0)], set([(0, 0)]), 0
@@ -13,5 +11,3 @@ def swimInWater(self, grid: List[List[int]]) -> int:
         seen.add((i, j))
         heapq.heappush(pq, (grid[i][j], i, j))
 ```
-
-{% endtab %}{% endtabs %}

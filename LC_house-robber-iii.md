@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_337.py' %}
-
 ```py
 def rob(self, root: TreeNode):
   def with_without_rob(root):
@@ -11,5 +9,3 @@ def rob(self, root: TreeNode):
 
   return max(with_without_rob(root))
 ```
-
-{% endtab %}{% endtabs %}

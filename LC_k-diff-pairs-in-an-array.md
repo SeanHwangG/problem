@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_532.java' %}
-
 ```java
 public int findPairs(int[] nums, int k) {
   Map<Integer, Integer> cnt = new HashMap<>();
@@ -14,12 +12,8 @@ public int findPairs(int[] nums, int k) {
 }
 ```
 
-{% endtab %}{% tab title='LC_532.py' %}
-
 ```py
 def findPairs(self, nums, k):
   c = collections.Counter(nums)
   return  sum(k > 0 and i + k in c or k == 0 and c[i] > 1 for i in c)
 ```
-
-{% endtab %}{% endtabs %}

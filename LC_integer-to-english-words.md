@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_273.py' %}
-
 ```py
 def numberToWords(self, num):
   to19 = 'One Two Three Four Five Six Seven Eight Nine Ten Eleven Twelve ' \
@@ -17,5 +15,3 @@ def numberToWords(self, num):
         return words(n // 1000 ** p) + [w] + words(n % 1000 ** p)
   return ' '.join(words(num)) or 'Zero'
 ```
-
-{% endtab %}{% endtabs %}

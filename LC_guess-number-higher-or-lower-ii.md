@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_375.py' %}
-
 ```py
 def getMoneyAmount(self, n: int) -> int:
   @lru_cache(maxsize=None)
@@ -8,5 +6,3 @@ def getMoneyAmount(self, n: int) -> int:
     return min(i + max(recur(l, i - 1), recur(i + 1, r)) for i in range(l, r + 1))
   return recur(1, n)
 ```
-
-{% endtab %}{% endtabs %}

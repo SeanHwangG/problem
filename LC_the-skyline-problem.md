@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_218.py' %}
-
 ```py
 from heapq import heappush, heappop
 def getSkyline(self, buildings):
@@ -16,5 +14,3 @@ def getSkyline(self, buildings):
         res += [[pos, -live[0][0]]]
   return res[1:]
 ```
-
-{% endtab %}{% endtabs %}

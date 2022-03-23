@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_263.py' %}
-
 ```py
 def isUgly(self, n: int) -> bool:
   for p in 2, 3, 5:
@@ -7,5 +5,3 @@ def isUgly(self, n: int) -> bool:
       n //= p
   return n == 1
 ```
-
-{% endtab %}{% endtabs %}

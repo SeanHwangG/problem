@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_873.py' %}
-
 ```py
 def lenLongestFibSubseq(self, A: List[int]) -> int:
   dp = collections.defaultdict(lambda: 2)
@@ -10,5 +8,3 @@ def lenLongestFibSubseq(self, A: List[int]) -> int:
         dp[A[i], A[j]] = dp[(A[j] - A[i], A[i])] + 1
   return max(dp.values() or [0])
 ```
-
-{% endtab %}{% endtabs %}

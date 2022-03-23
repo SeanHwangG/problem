@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_703.py' %}
-
 ```py
 class KthLargest:
   def __init__(self, k: int, nums: List[int]):
@@ -13,5 +11,3 @@ class KthLargest:
       heapq.heappop(self.pq)
     return self.pq[0]
 ```
-
-{% endtab %}{% endtabs %}

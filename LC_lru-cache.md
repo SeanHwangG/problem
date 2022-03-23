@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_146.py' %}
-
 ```py
 class LRUCache:
   def __init__(self, Capacity):
@@ -18,5 +16,3 @@ class LRUCache:
     if len(self.cache) > self.size:
       self.cache.popitem(last=False)
 ```
-
-{% endtab %}{% endtabs %}

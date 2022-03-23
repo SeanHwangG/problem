@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_helpaphd.py' %}
-
 ```py
 n_test = int(input())
 for _ in range(n_test):
@@ -9,5 +7,3 @@ for _ in range(n_test):
   else:
     print(eval(line))
 ```
-
-{% endtab %}{% endtabs %}

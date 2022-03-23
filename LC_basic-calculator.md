@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_224.py' %}
-
 * Push result and sign when openning a braces and pop both when closing a brace
 
 ```py
@@ -21,5 +19,3 @@ def calculate(self, s: str) -> int:
       num = 0
   return res + num * sign
 ```
-
-{% endtab %}{% endtabs %}

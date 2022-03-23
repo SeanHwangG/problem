@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_104.go' %}
-
 ```go
 func maxDepth(root *TreeNode) int {
   if root == nil {
@@ -15,5 +13,3 @@ func max(l, r int) int {
   return r
 }
 ```
-
-{% endtab %}{% endtabs %}

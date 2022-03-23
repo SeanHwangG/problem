@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1781.py' %}
-
 ```py
 def beautySum(self, s: str) -> int:
   ans = 0
@@ -10,5 +8,3 @@ def beautySum(self, s: str) -> int:
       ans += max(freq) - min(x for x in freq if x)
   return ans
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1782.py' %}
-
 ```py
 def countPairs(self, n: int, edges: List[List[int]], queries: List[int]) -> List[int]:
   v2count, res = Counter(v for edge in edges for v in edge), [0] * len(queries)
@@ -18,5 +16,3 @@ def countPairs(self, n: int, edges: List[List[int]], queries: List[int]) -> List
         res[k] -= 1
   return res
 ```
-
-{% endtab %}{% endtabs %}

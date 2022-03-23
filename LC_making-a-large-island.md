@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_827.cpp' %}
-
 ```cpp
 int get(int i, int j, vector<vector<int>>& g) {
   return (i < 0 || j < 0 || i >= g.size() || j >= g[0].size()) ? 0 : g[i][j];
@@ -24,5 +22,3 @@ int largestIsland(vector<vector<int>>& g) {
   return res == 0 ? g.size() * g[0].size(): res;
 }
 ```
-
-{% endtab %}{% endtabs %}

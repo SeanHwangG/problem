@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_encodedmessage.py' %}
-
 ```py
 n = int(input())
 for _ in range(n):
@@ -15,5 +13,3 @@ for _ in range(n):
       print(G[i][j], end='')
   print()
 ```
-
-{% endtab %}{% endtabs %}

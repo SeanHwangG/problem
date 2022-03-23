@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_243.py' %}
-
 ```py
 def shortestDistance(self, words: List[str], word1: str, word2: str) -> int:
   ans, cur_word, cur_idx = len(words), None, 0
@@ -11,5 +9,3 @@ def shortestDistance(self, words: List[str], word1: str, word2: str) -> int:
     cur_word, cur_idx = word, index
   return ans
 ```
-
-{% endtab %}{% endtabs %}

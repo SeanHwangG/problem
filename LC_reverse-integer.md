@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_7.cpp' %}
-
 ```cpp
 int reverse(int x) {
   long r = 0;
@@ -7,5 +5,3 @@ int reverse(int x) {
   return (int(r) == r) * r;
 }
 ```
-
-{% endtab %}{% endtabs %}

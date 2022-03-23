@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1048.py' %}
-
 ```py
 def longestStrChain(self, words: List[str]) -> int:
   dp = {}
@@ -7,5 +5,3 @@ def longestStrChain(self, words: List[str]) -> int:
     dp[w] = max(dp.get(w[:i] + w[i + 1:], 0) + 1 for i in range(len(w)))
   return max(dp.values())
 ```
-
-{% endtab %}{% endtabs %}

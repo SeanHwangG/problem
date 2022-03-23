@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1197.cpp' %}
-
 * Only look at 1/8 section
 * <https://leetcode.com/problems/minimum-knight-moves/discuss/682850/C%2B%2B-O(1)-Formula-solution-with-plot-explanation>
 * ![LC_1197.cpp](images/20210813_012432.png)
@@ -25,8 +23,6 @@ public:
 };
 ```
 
-{% endtab %}{% tab title='LC_1197.py' %}
-
 ```py
 def minKnightMoves(self, x: int, y: int) -> int:
   @lru_cache(None)
@@ -38,5 +34,3 @@ def minKnightMoves(self, x: int, y: int) -> int:
     return min(DP(abs(x - 1), abs(y - 2)), DP(abs(x - 2), abs(y - 1))) + 1
   return DP(abs(x), abs(y))
 ```
-
-{% endtab %}{% endtabs %}

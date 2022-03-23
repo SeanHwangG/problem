@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1871.py' %}
-
 ```py
 def canReach(self, s, minJ, maxJ):
   dp = [c == '0' for c in s]
@@ -10,5 +8,3 @@ def canReach(self, s, minJ, maxJ):
     dp[i] &= pre > 0
   return dp[-1]
 ```
-
-{% endtab %}{% endtabs %}

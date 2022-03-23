@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_353.py' %}
-
 ```py
 class SnakeGame:
   def __init__(self, width: int, height: int, food: int):
@@ -25,5 +23,3 @@ class SnakeGame:
 
       return len(self.snake) - 1
 ```
-
-{% endtab %}{% endtabs %}

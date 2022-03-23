@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1125.py' %}
-
 ```py
 def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:
   n, m = len(req_skills), len(people)
@@ -17,5 +15,3 @@ def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]])
         dp[with_him] = need + [i]
   return dp[(1 << n) - 1]
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1316.cpp' %}
-
 ```cpp
 int distinctEchoSubstrings(string text) {
   int N = text.size();
@@ -28,8 +26,6 @@ int distinctEchoSubstrings(string text) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1316.py' %}
-
 ```py
 def distinctEchoSubstrings(self, s):
   s += '.'
@@ -42,5 +38,3 @@ def distinctEchoSubstrings(self, s):
       same += (s[i + k] == s[i + k + k]) - (s[i] == s[i + k])
   return len(se)
 ```
-
-{% endtab %}{% endtabs %}

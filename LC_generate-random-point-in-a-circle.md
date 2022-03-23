@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_478.py' %}
-
 ```py
 import math
 import random
@@ -15,5 +13,3 @@ def randPoint(self):
   y = dist * math.sin(degree)
   return [self.x_center + x, self.y_center + y]
 ```
-
-{% endtab %}{% endtabs %}

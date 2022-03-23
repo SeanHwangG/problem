@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_741.py' %}
-
 ```py
 class Solution:
   def cherryPickup(self, G):
@@ -17,5 +15,3 @@ class Solution:
 
     return max(dfs(0, 0, 0, 0), 0)
 ```
-
-{% endtab %}{% endtabs %}

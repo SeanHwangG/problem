@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_transitwoes.py' %}
-
 ```py
 cur, t, n = map(int, input().split())
 D = list(map(int, input().split()))
@@ -14,5 +12,3 @@ if cur + D[-1] < t:
 else:
   print("no")
 ```
-
-{% endtab %}{% endtabs %}

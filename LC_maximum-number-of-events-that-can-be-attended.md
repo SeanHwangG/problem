@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1353.py' %}
-
 ```py
 def maxEvents(self, A):
   A.sort(reverse=1)
@@ -16,5 +14,3 @@ def maxEvents(self, A):
       heapq.heappop(h)
   return res
 ```
-
-{% endtab %}{% endtabs %}

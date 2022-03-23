@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_super-palindromes.md' %}
-
 ```py
 def superpalindromesInRange(self, left: str, right: str) -> int:
   def generate_palindromes():
@@ -17,5 +15,3 @@ def superpalindromesInRange(self, left: str, right: str) -> int:
 
   return count
 ```
-
-{% endtab %}{% endtabs %}

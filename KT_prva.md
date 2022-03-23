@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_prva.py' %}
-
 ```py
 n, m = map(int, input().split())
 G = []
@@ -28,5 +26,3 @@ for j in range(m + 1):
       word += G[i][j]
 print(sorted(words)[0])
 ```
-
-{% endtab %}{% endtabs %}

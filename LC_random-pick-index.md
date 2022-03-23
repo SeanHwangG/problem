@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_398.java' %}
-
 * Reservior sampling
 
 ```java
@@ -24,5 +22,3 @@ public int pick(int target) {
   return result;
 }
 ```
-
-{% endtab %}{% endtabs %}

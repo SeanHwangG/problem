@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_715.py' %}
-
 ```py
 from bisect import bisect_left, bisect_right
 
@@ -20,5 +18,3 @@ class RangeModule:
     i, j = bisect_left(self._X, left), bisect_right(self._X, right)
     self._X[i:j] = [left]*(i % 2 == 1) + [right] * (j % 2 == 1)
 ```
-
-{% endtab %}{% endtabs %}

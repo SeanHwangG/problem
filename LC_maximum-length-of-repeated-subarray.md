@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_718.py' %}
-
 ```py
 def findLength(self, A, B):
   dp = [[0 for _ in range(len(B) + 1)] for _ in range(len(A) + 1)]
@@ -9,5 +7,3 @@ def findLength(self, A, B):
         dp[i][j] = dp[i - 1][j - 1] + 1
   return max(max(row) for row in dp)
 ```
-
-{% endtab %}{% endtabs %}

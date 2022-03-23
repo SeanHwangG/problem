@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_581.py' %}
-
 ```py
 def findUnsortedSubarray(self, nums):
   start, end = -1, 0
@@ -20,5 +18,3 @@ def findUnsortedSubarray(self, nums):
 
   return 0 if end == 0 else end - (len(nums) + start) + 1
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_hackerrank-tweets.js' %}
-
 ```js
 process.stdin.resume();
 process.stdin.setEncoding("ascii");
@@ -13,13 +11,9 @@ process.stdin.on("end", function () {
 });
 ```
 
-{% endtab %}{% tab title='HR_hackerrank-tweets.py' %}
-
 ```py
 import re
 input_ = ' '.join([input() for _ in range(int(input()))])
 print(len(re.findall(r'hackerrank', input_, re.IGNORECASE)))
 # print(sum('HACKERRANK' in input().upper() for i in range(int(input()))))
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_689.py' %}
-
 ```py
 def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:
   sub_sum = sum(nums[:k]) #set first k-sized window
@@ -23,5 +21,3 @@ def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:
     # answer: max sum if we can choose 3 k-sized windows
   return take_3[-1][1]  # indices are stored at the end of take_3
 ```
-
-{% endtab %}{% endtabs %}

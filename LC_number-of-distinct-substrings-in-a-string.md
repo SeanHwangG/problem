@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1698.cpp' %}
-
 ```cpp
 int countDistinct(string s) {
   long res = 1, s_hash = 0, base = 1, mod = 1000000009;
@@ -16,5 +14,3 @@ int countDistinct(string s) {
   return res;
 }
 ```
-
-{% endtab %}{% endtabs %}

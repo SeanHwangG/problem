@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1489.py' %}
-
 ```py
 def findCriticalAndPseudoCriticalEdges(self, n: int, edges: List[List[int]]) -> List[List[int]]:
   def kruskal(ban = None, force = None):
@@ -35,5 +33,3 @@ def findCriticalAndPseudoCriticalEdges(self, n: int, edges: List[List[int]]) -> 
       res[1].append(i)
   return res
 ```
-
-{% endtab %}{% endtabs %}

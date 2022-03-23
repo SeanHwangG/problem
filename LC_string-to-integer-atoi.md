@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_8.py' %}
-
 ```py
 def myAtoi(self, s):
   ls = list(s.strip())
@@ -12,5 +10,3 @@ def myAtoi(self, s):
     i += 1
   return max(-2**31, min(sign * ret,2**31-1))
 ```
-
-{% endtab %}{% endtabs %}

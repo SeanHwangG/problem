@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_hangingout.py' %}
-
 ```py
 max_n, n_line = map(int, input().split())
 cur, ret = 0, 0
@@ -15,5 +13,3 @@ for _ in range(n_line):
     cur -= n
 print(ret)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1411.py' %}
-
 ```py
 def numOfWays(self, n: int) -> int:
   a121, a123, mod = 6, 6, 10 ** 9 + 7
@@ -7,5 +5,3 @@ def numOfWays(self, n: int) -> int:
     a121, a123 = a121 * 3 + a123 * 2, a121 * 2 + a123 * 2
   return (a121 + a123) % mod
 ```
-
-{% endtab %}{% endtabs %}

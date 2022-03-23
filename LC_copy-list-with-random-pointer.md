@@ -1,5 +1,3 @@
-{% tabs: %}{% tab title='LC_138.py' %}
-
 ```py
 class Solution:
   def copyRandomList(self, head: 'Node') -> 'Node':
@@ -16,5 +14,3 @@ class Solution:
       node.random.next, node.random, node = node.next.random if node.next else None, node.random.next, node.next
     return head_copy
 ```
-
-{% endtab %}{% endtabs %}

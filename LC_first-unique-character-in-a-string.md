@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_387.cpp' %}
-
 ```cpp
 int firstUniqChar(string s) {
   int arr[26] = {0};
@@ -14,12 +12,8 @@ int firstUniqChar(string s) {
 }
 ```
 
-{% endtab %}{% tab title='LC_387.py' %}
-
 ```py
 def firstUniqChar(self, s):
   index=[s.index(l) for l in 'abcdefghijklmnopqrstuvwxyz' if s.count(l) == 1]
   return min(index) if len(index) > 0 else -1
 ```
-
-{% endtab %}{% endtabs %}

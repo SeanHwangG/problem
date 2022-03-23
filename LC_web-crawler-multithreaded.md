@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1242.java' %}
-
 ```java
 import java.net.URI;
 class Solution {
@@ -42,8 +40,6 @@ class Crawler extends Thread {
   }
 }
 ```
-
-{% endtab %}{% tab title='LC_1242.py' %}
 
 ```py
 import threading
@@ -136,5 +132,3 @@ class Solution:
       return list(lookup)
 
   ```
-
-{% endtab %}{% endtabs %}

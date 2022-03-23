@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_707.py' %}
-
 ```py
 class ListNode:
   def __init__(self, val):
@@ -61,5 +59,3 @@ class MyLinkedList(object):
 
     self.size -= 1
 ```
-
-{% endtab %}{% endtabs %}

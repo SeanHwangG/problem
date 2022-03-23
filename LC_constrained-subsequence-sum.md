@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1425.py' %}
-
 * Time; O(N)
 
 ```py
@@ -15,5 +13,3 @@ def constrainedSubsetSum(self, dp: List[int], k: int) -> int:
       dq.popleft()
   return max(dp)
 ```
-
-{% endtab %}{% endtabs %}

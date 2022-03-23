@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_700.py' %}
-
 ```py
 def basicCalculatorIV(self, expression: str, evalvars: List[str], evalints: List[int]) -> List[str]:
   class C(collections.Counter):
@@ -23,5 +21,3 @@ def basicCalculatorIV(self, expression: str, evalvars: List[str], evalints: List
   c = eval(re.sub('(\w+)', r'f("\1")', expression))
   return ['*'.join((str(c[x]),) + x) for x in sorted(c, key=lambda x: (-len(x), x)) if c[x]]
 ```
-
-{% endtab %}{% endtabs %}

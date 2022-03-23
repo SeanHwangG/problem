@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_95.py' %}
-
 ```py
 def node(val, left, right):
   node = TreeNode(val)
@@ -12,5 +10,3 @@ def generateTrees(self, last, first=1):
           for left in self.generateTrees(root-1, first)
           for right in self.generateTrees(last, root+1)] or [None]
 ```
-
-{% endtab %}{% endtabs %}

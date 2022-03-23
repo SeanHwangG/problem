@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1478.py' %}
-
 * Time; O(KNN)
 * Space; O(N)
 
@@ -21,5 +19,3 @@ def minDistance(self, A: List[int], k: int) -> int:
         dp[j] = min(dp[j], dp[i] + cal(i + 1, j))
   return int(dp[-1])
 ```
-
-{% endtab %}{% endtabs %}

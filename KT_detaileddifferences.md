@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_detaileddifferences.py' %}
-
 ```py
 N = int(input())
 for _ in range(N):
@@ -14,5 +12,3 @@ for _ in range(N):
       print('*', end='')
   print()
 ```
-
-{% endtab %}{% endtabs %}

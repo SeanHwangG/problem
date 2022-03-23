@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_cups.py' %}
-
 ```py
 n_line = int(input())
 li = []
@@ -12,5 +10,3 @@ for _ in range(n_line):
 for _, color in sorted(li):
   print(color)
 ```
-
-{% endtab %}{% endtabs %}

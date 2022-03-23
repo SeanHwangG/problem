@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_75.py' %}
-
 ```py
 def sortColors(self, nums):
   red, white, blue = 0, 0, len(nums)-1
@@ -15,5 +13,3 @@ def sortColors(self, nums):
       nums[white], nums[blue] = nums[blue], nums[white]
       blue -= 1
 ```
-
-{% endtab %}{% endtabs %}

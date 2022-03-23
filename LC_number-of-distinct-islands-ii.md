@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_711.py' %}
-
 ```py
 def dfs(self, G, r, c, shape):
   G[r][c] = 0
@@ -43,5 +41,3 @@ def numDistinctIslands2(self, G: list[list[int]]) -> int:
 
   return len(res)
 ```
-
-{% endtab %}{% endtabs %}

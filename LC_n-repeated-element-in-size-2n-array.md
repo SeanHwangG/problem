@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_961.go' %}
-
 * Time: O(N)
 
 ```go
@@ -13,8 +11,6 @@ func repeatedNTimes(A []int) int {
 }
 ```
 
-{% endtab %}{% tab title='LC_961.py' %}
-
 * Time: O(1)
 
 ```py
@@ -24,5 +20,3 @@ def repeatedNTimes(self, A):
     if s[0] == s[1]:
       return s[0]
 ```
-
-{% endtab %}{% endtabs %}

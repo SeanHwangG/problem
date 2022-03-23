@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1483.py' %}
-
 * A is the parent in 1 step
 * Based on this, we can find the parent in 2 steps, ... parent in 4 steps
 
@@ -27,5 +25,3 @@ def getKthAncestor(self, x, k):
       step -= 1
   return x
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1960.py' %}
-
 * Time: O(n)
 
 ```py
@@ -30,5 +28,3 @@ def maxProduct(self, s):
   t1, t2 = helper(s), helper(s[::-1])[::-1][1:] + [0]
   return max(x * y for x, y in zip(t1, t2))
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1455.cpp' %}
-
 ```cpp
 int isPrefixOfWord(string sentence, string searchWord) {
   // auto sent = " " + sentence, word = " " + searchWord;
@@ -19,8 +17,6 @@ int isPrefixOfWord(string sentence, string searchWord) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1455.py' %}
-
 ```py
 def isPrefixOfWord(self, sentence: str, searchWord: str) -> int:
   for i, w in enumerate(sentence.split(' '), 1):
@@ -28,5 +24,3 @@ def isPrefixOfWord(self, sentence: str, searchWord: str) -> int:
       return i
   return -1
 ```
-
-{% endtab %}{% endtabs %}

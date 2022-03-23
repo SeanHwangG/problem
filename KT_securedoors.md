@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_securedoors.py' %}
-
 ```py
 N = int(input())
 se = set()
@@ -18,5 +16,3 @@ for _ in range(N):
     else:
       print(name, 'exited', ('(ANOMALY)' if name not in se else ''))
 ```
-
-{% endtab %}{% endtabs %}

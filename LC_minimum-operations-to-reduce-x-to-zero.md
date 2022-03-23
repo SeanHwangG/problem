@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1658.py' %}
-
 * Equivalent of finding largest contiguous subarrays with sum(nums) - x
 
 ```py
@@ -16,5 +14,3 @@ def minOperations(self, nums, x) :
 
   return len(nums) - ans if ans != -float("inf") else -1
 ```
-
-{% endtab %}{% endtabs %}

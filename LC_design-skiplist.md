@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1206.py' %}
-
 ```py
 class Node:
   def __init__(self, val, levels):
@@ -45,5 +43,3 @@ class Skiplist(object):
         cur.levels[level] = future.levels[level]
     return ans
 ```
-
-{% endtab %}{% endtabs %}

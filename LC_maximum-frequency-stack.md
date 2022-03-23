@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_895.go' %}
-
 ```go
 import "container/heap"
 
@@ -60,8 +58,6 @@ func (st *FreqStack) Pop() int {
 }
 ```
 
-{% endtab %}{% tab title='LC_895.py' %}
-
 ```py
 def __init__(self):
   self.freq = collections.Counter()
@@ -82,5 +78,3 @@ def pop(self):
   freq[x] -= 1
   return x
 ```
-
-{% endtab %}{% endtabs %}

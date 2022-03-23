@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_Hissing_microphone.py' %}
-
 ```py
 s = input()
 if 'ss' in s:
@@ -7,5 +5,3 @@ if 'ss' in s:
 else:
   print('no hiss')
 ```
-
-{% endtab %}{% endtabs %}

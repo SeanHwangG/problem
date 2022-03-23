@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_905.cpp' %}
-
 ```cpp
 vector<int> sortArrayByParity(vector<int> &A) {
   for (int i = 0, j = 0; j < A.size(); j++)
@@ -7,8 +5,6 @@ vector<int> sortArrayByParity(vector<int> &A) {
   return A;
 }
 ```
-
-{% endtab %}{% tab title='LC_905.java' %}
 
 ```java
 public int[] sortArrayByParity(int[] A) {
@@ -21,5 +17,3 @@ public int[] sortArrayByParity(int[] A) {
   return A;
 }
 ```
-
-{% endtab %}{% endtabs %}

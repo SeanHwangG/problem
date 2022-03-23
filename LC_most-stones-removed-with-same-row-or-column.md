@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_947.cpp' %}
-
 ```cpp
 int removeStones(vector<vector<int>>& stones) {
   for (int i = 0; i < stones.size(); ++i)
@@ -22,8 +20,6 @@ void uni(int x, int y) {
 }
 ```
 
-{% endtab %}{% tab title='LC_947.py' %}
-
 ```py
 def removeStones(self, points):
   UF = {}
@@ -40,5 +36,3 @@ def removeStones(self, points):
     union(i, ~j)
   return len(points) - len({find(x) for x in UF})
 ```
-
-{% endtab %}{% endtabs %}

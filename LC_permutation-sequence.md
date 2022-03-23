@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_60.py' %}
-
 ```py
 class Solution:
   def getPermutation(self, n: int, k: int) -> str:
@@ -12,5 +10,3 @@ class Solution:
       result += str(elements.pop(i))
     return result
 ```
-
-{% endtab %}{% endtabs %}

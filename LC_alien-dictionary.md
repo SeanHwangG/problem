@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_269.py' %}
-
 ```py
 def alienOrder(self, words):
   pre, suc = defaultdict(set), defaultdict(set)
@@ -23,5 +21,3 @@ def alienOrder(self, words):
         free.add(b)
   return ''.join(order) * (set(order) == chars)
 ```
-
-{% endtab %}{% endtabs %}

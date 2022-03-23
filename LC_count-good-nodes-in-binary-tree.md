@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1448.cpp' %}
-
 * Time; O(N)
 * Space; O(height)
 
@@ -9,8 +7,6 @@ int goodNodes(TreeNode* r, int ma = -10000) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1448.py' %}
-
 * Time: O(N)
 * Space: O(height)
 
@@ -19,5 +15,3 @@ def goodNodes(self, r, ma=-10000):
   return self.goodNodes(r.left, max(ma, r.val)) + self.goodNodes(r.right, max(ma, r.val)) + (r.val >= ma) if r
     else 0
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_exam.py' %}
-
 ```py
 correct = int(input())
 my = input()
@@ -15,5 +13,3 @@ if same > correct:
 else:
   print(same + (total - correct))
 ```
-
-{% endtab %}{% endtabs %}

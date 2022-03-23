@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1096.py' %}
-
 ```py
 def braceExpansionII(self, expression: str) -> List[str]:
   groups = [[]]
@@ -22,5 +20,3 @@ def braceExpansionII(self, expression: str) -> List[str]:
     word_set |= set(map(''.join, itertools.product(*group)))
   return sorted(word_set)
 ```
-
-{% endtab %}{% endtabs %}

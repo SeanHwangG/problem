@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_805.py' %}
-
 ```py
 from statistics import mean
 def splitArraySameAverage(self, A):
@@ -11,5 +9,3 @@ def splitArraySameAverage(self, A):
   n, s = len(A), sum(A)
   return any(find(s * k // n, k, 0) for k in range(1, n // 2 + 1) if s * k % n == 0)
 ```
-
-{% endtab %}{% endtabs %}

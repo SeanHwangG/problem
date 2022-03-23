@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1203.py' %}
-
 * Time; O(V + E)
 
 ```py
@@ -42,5 +40,3 @@ def sortItems(self, n: int, m: int, group: List[int], prereqs: List[List[int]]) 
     t_order += i_order
   return t_order if len(t_order) == n else []
 ```
-
-{% endtab %}{% endtabs %}

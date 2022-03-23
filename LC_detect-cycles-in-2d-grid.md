@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1559.py' %}
-
 ```py
 def containsCycle(self, G: List[List[str]]) -> bool:
   seen = defaultdict(int)
@@ -14,5 +12,3 @@ def containsCycle(self, G: List[List[str]]) -> bool:
     return False
   return any(not seen[r, c] and dfs(r, c, -1) for r, c in product(range(len(G)), range(len(G[0]))))
 ```
-
-{% endtab %}{% endtabs %}

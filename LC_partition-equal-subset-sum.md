@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_416.py' %}
-
 ```py
 def canPartition(nums):
   if sum(nums) & 1 == 0:
@@ -11,5 +9,3 @@ def canPartition(nums):
         return True
   return False
 ```
-
-{% endtab %}{% endtabs %}

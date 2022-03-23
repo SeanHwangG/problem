@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_927.py' %}
-
 ```py
 def threeEqualParts(self, A: List[int]) -> List[int]:
   num_ones = sum(A)
@@ -26,5 +24,3 @@ def threeEqualParts(self, A: List[int]) -> List[int]:
   else:
     return [-1, -1]
 ```
-
-{% endtab %}{% endtabs %}

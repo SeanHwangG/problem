@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_226.py' %}
-
 * Recursive
 
   ```py
@@ -21,5 +19,3 @@
         stack += node.left, node.right
     return root
   ```
-
-{% endtab %}{% endtabs %}

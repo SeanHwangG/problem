@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_552.py' %}
-
 ```py
 class Solution(object):
   def checkRecord(self, N):
@@ -10,5 +8,3 @@ class Solution(object):
       a, b, c, d, e, f = (a + b + c) % MOD, a, b, (a + b + c + d + e + f) % MOD, d, e
     return (a + b + c + d + + e + f) % MOD
 ```
-
-{% endtab %}{% endtabs %}

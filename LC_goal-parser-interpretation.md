@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1678.cpp' %}
-
 ```cpp
 string interpret(string s) {
   string ans;
@@ -12,11 +10,7 @@ string interpret(string s) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1678.py' %}
-
 ```py
 def interpret(self, command: str) -> str:
   return command.replace('()', 'o').replace('(al)', 'al')
 ```
-
-{% endtab %}{% endtabs %}

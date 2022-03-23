@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_992.py' %}
-
 ```py
 def subarraysWithKDistinct(self, A, K):
   return self.atMostK(A, K) - self.atMostK(A, K - 1)
@@ -19,5 +17,3 @@ def atMostK(self, A, K):
     res += j - i + 1
   return res
 ```
-
-{% endtab %}{% endtabs %}

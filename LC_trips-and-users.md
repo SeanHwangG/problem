@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_262.sql' %}
-
 ```sql
 SELECT Request_at as Day, ROUND(SUM(t.Status != "completed") / COUNT(*), 2) as "Cancellation Rate"
   FROM Trips t
@@ -8,5 +6,3 @@ SELECT Request_at as Day, ROUND(SUM(t.Status != "completed") / COUNT(*), 2) as "
   WHERE Request_at BETWEEN "2013-10-01" AND "2013-10-03"
   GROUP BY Request_at;
 ```
-
-{% endtab %}{% endtabs %}

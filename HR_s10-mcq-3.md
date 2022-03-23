@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_s10-mcq-3.py' %}
-
 ```py
 x = {"Red":4/7, "Black":3/7}
 y = {"Red":5/9, "Black":4/9}
@@ -11,5 +9,3 @@ third = x["Black"] * y["Red"] * z["Red"]
 
 print(first + second + third)
 ```
-
-{% endtab %}{% endtabs %}

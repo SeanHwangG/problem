@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_332.py' %}
-
 ```py
 def findItinerary(self, tickets: List[List[str]]) -> List[str]:
   targets = collections.defaultdict(list)
@@ -12,5 +10,3 @@ def findItinerary(self, tickets: List[List[str]]) -> List[str]:
     route += [stk.pop()]
   return route[::-1]
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_s10-interquartile-range.py' %}
-
 ```py
 import statistics as st
 n = int(input())
@@ -12,5 +10,3 @@ n = len(S)
 n2 = int(n/2)
 print(round(float(st.median(S[-n2:])-st.median(S[:n2])),1))
 ```
-
-{% endtab %}{% endtabs %}

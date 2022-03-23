@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1643.py' %}
-
 ```py
 from math import comb
 def kthSmallestPath(self, destination: List[int], k: int) -> str:
@@ -16,5 +14,3 @@ def kthSmallestPath(self, destination: List[int], k: int) -> str:
       ret.append("V")
   return ''.join(ret)
 ```
-
-{% endtab %}{% endtabs %}

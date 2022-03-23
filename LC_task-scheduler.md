@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_621.py' %}
-
 ```py
 def leastInterval(self, tasks: List[str], n: int) -> int:
   tasks_count = list(collections.Counter(tasks).values())
@@ -7,5 +5,3 @@ def leastInterval(self, tasks: List[str], n: int) -> int:
   max_count_tasks = tasks_count.count(max_count)
   return max(len(tasks), (max_count - 1) * (n + 1) + max_count_tasks)
 ```
-
-{% endtab %}{% endtabs %}

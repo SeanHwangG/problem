@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_959.py' %}
-
 ```py
 def regionsBySlashes(self, grid: List[str]) -> int:
   f = {}
@@ -25,5 +23,3 @@ def regionsBySlashes(self, grid: List[str]) -> int:
         union((i, j, 1), (i, j, 2))
   return len(set(map(find, f)))
 ```
-
-{% endtab %}{% endtabs %}

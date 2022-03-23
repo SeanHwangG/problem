@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_322.cpp' %}
-
 ```cpp
 int coinChange(vector<int>& coins, int amount) {
   sort(coins.begin(), coins.end());
@@ -17,8 +15,6 @@ int coinChange(vector<int>& coins, int amount) {
 }
 ```
 
-{% endtab %}{% tab title='LC_322.py' %}
-
 ```py
 def coinChange(self, coins: 'List[int]', amount: 'int') -> 'int':
   dp = [0] + [float('inf') for i in range(amount)]
@@ -30,5 +26,3 @@ def coinChange(self, coins: 'List[int]', amount: 'int') -> 'int':
     return -1
   return dp[-1]
 ```
-
-{% endtab %}{% endtabs %}

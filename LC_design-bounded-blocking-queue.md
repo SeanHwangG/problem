@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1188.cpp' %}
-
 * Condition variable
 * Time; O(n)
 * Space; O(1)
@@ -40,8 +38,6 @@ private:
   int cap_;
 };
 ```
-
-{% endtab %}{% tab title='LC_1188.py' %}
 
 * Condition variable
   * Time; O(n)
@@ -117,5 +113,3 @@ private:
     def size(self) -> int:
       return len(self.queue)
   ```
-
-{% endtab %}{% endtabs %}

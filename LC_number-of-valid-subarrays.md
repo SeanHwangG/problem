@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1063.py' %}
-
 ```py
 def validSubarrays(self, nums: List[int]) -> int:
   nums.append(-inf)
@@ -11,5 +9,3 @@ def validSubarrays(self, nums: List[int]) -> int:
 
   return result
 ```
-
-{% endtab %}{% endtabs %}

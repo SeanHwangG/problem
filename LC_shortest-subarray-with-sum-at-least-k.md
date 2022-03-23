@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_862.py' %}
-
 ```py
 def shortestSubarray(self, A: List[int], k: int) -> int:
   dq = collections.deque([])
@@ -18,5 +16,3 @@ def shortestSubarray(self, A: List[int], k: int) -> int:
       dq.append(i)
   return res if res < float('inf') else -1
 ```
-
-{% endtab %}{% endtabs %}

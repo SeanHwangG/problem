@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_706.cpp' %}
-
 ```cpp
 struct Node {
 public:
@@ -42,8 +40,6 @@ public:
   }
 };
 ```
-
-{% endtab %}{% tab title='LC_706.java' %}
 
 ```java
 class MyHashMap {
@@ -98,8 +94,6 @@ class MyHashMap {
 }
 ```
 
-{% endtab %}{% tab title='BJ_5613.js' %}
-
 ```js
 class ListNode {
   constructor(key, val, next) {
@@ -139,8 +133,6 @@ class MyHashMap {
   }
 };
 ```
-
-{% endtab %}{% tab title='LC_706.py' %}
 
 ```py
 class ListNode:
@@ -185,5 +177,3 @@ class MyHashMap:
         break
       cur, prev = cur.next, prev.next
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_beavergnaw.py' %}
-
 ```py
 import math
 while True:
@@ -8,5 +6,3 @@ while True:
     break
   print((a * a * a - 6 * b / math.pi) ** (1/3))
 ```
-
-{% endtab %}{% endtabs %}

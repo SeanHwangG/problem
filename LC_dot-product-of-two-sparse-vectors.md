@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1570.cpp' %}
-
 ```cpp
 vector<int> v, n;
 SparseVector(vector<int> &nums, int i = 0) : n(nums) {
@@ -11,13 +9,9 @@ int dotProduct(SparseVector& vec, vector<int> res = {}) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1570.py' %}
-
 ```py
 def __init__(self, A: List[int]):
   self.A = A
 def dotProduct(self, other: 'SparseVector') -> int:
   return sum([a * b for a, b in zip(self.A, other.A)])
 ```
-
-{% endtab %}{% endtabs %}

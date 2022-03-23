@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_214.cpp' %}
-
 ```cpp
 string shortestPalindrome(string s) {
   string rev_s = s;
@@ -16,8 +14,6 @@ string shortestPalindrome(string s) {
 }
 ```
 
-{% endtab %}{% tab title='LC_214.py' %}
-
 ```py
 def shortestPalindrome(self, s):
   r = s[::-1]
@@ -25,5 +21,3 @@ def shortestPalindrome(self, s):
     if s.startswith(r[i:]):
       return r[:i] + s
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_368.py' %}
-
 ```py
 def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
   S = {-1: set()}
@@ -7,5 +5,3 @@ def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
     S[x] = max((S[d] for d in S if x % d == 0), key = len) | {x}
   return list(max(S.values(), key=len))
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='CC_COOK127B.md' %}
-
 * guess random square number under 1e6
 
 ```txt
@@ -13,8 +11,6 @@ Grader:         You:
 1
 ```
 
-{% endtab %}{% tab title='CC_COOK127B.py' %}
-
 ```py
 import sys
 for _ in range(int(input())):
@@ -27,5 +23,3 @@ for _ in range(int(input())):
     elif ret == 1:
       break
 ```
-
-{% endtab %}{% endtabs %}

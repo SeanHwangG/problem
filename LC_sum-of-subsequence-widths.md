@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_891.py' %}
-
 ```py
 def sumSubseqWidths(self, A: List[int]) -> int:
   A.sort()
@@ -10,5 +8,3 @@ def sumSubseqWidths(self, A: List[int]) -> int:
     res %= 10 ** 9 + 7
   return res
 ```
-
-{% endtab %}{% endtabs %}

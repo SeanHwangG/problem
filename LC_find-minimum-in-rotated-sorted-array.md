@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_153.py' %}
-
 ```py
 def findMin(self, li):
   lo, hi = 0, len(li) - 1
@@ -11,5 +9,3 @@ def findMin(self, li):
       hi = mi
   return li[lo]
 ```
-
-{% endtab %}{% endtabs %}

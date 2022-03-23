@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_basic-probability-puzzles-6.py' %}
-
 ```py
 bag_x = ['w', 'w', 'w', 'w', 'w', 'b', 'b', 'b', 'b']
 bag_y = ['w', 'w', 'w', 'w', 'w', 'w', 'w', 'b', 'b', 'b', 'b', 'b', 'b']
@@ -14,5 +12,3 @@ while len(bag_x) != 0:
 
 print(f"{counter}/{total}")
 ```
-
-{% endtab %}{% endtabs %}

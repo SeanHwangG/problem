@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_913.py' %}
-
 * Color each node marked DRAW, If any child is colored MOUSE, then this node will also be MOUSE
 * Time. O(N ** 3)
 * Space. O(N^2)
@@ -51,5 +49,3 @@ def catMouseGame(self, G: List[List[int]]) -> int:
 
     return color[1, 2, 1]
 ```
-
-{% endtab %}{% endtabs %}

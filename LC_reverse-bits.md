@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_190.cpp' %}
-
 ```cpp
 uint32_t reverseBits(uint32_t n) {
   n = (n >> 16) | (n << 16);
@@ -11,12 +9,8 @@ uint32_t reverseBits(uint32_t n) {
 }
 ```
 
-{% endtab %}{% tab title='LC_190.py' %}
-
 ```py
 class Solution:
   def reverseBits(self, n):
     return int(bin(n)[:1:-1].ljust(32, '0'), 2)
 ```
-
-{% endtab %}{% endtabs %}

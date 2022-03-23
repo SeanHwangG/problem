@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_428.py' %}
-
 ```py
 class Codec:
   def serialize(self, root):
@@ -20,5 +18,3 @@ class Codec:
 
     return Node(val = data[0], children = [self.deserialize(c) for c in data[1]])
 ```
-
-{% endtab %}{% endtabs %}

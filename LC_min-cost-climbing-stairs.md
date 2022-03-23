@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_746.cpp' %}
-
 ```cpp
 int minCostClimbingStairs(vector<int>& cost) {
   int two_behind = cost[0], one_behind = cost[1];
@@ -11,5 +9,3 @@ int minCostClimbingStairs(vector<int>& cost) {
   return min(one_behind, two_behind);
 }
 ```
-
-{% endtab %}{% endtabs %}

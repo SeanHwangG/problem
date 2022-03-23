@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1717.py' %}
-
 ```py
 def maximumGain(self, s: str, x: int, y: int) -> int:
   if x < y:
@@ -19,5 +17,3 @@ def maximumGain(self, s: str, x: int, y: int) -> int:
 
   return ans
 ```
-
-{% endtab %}{% endtabs %}

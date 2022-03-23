@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_188.cpp' %}
-
 ```cpp
 int maxProfit(int N, vector<int>& v) {
   int M = v.size();
@@ -17,8 +15,6 @@ int maxProfit(int N, vector<int>& v) {
 }
 ```
 
-{% endtab %}{% tab title='LC_188.py' %}
-
 ```py
 # O(kn)
 def maxProfit(self, k, prices):
@@ -33,5 +29,3 @@ def maxProfit(self, k, prices):
       profits[i] = max(profits[i-1], preprofit)
   return profits[-1]
 ```
-
-{% endtab %}{% endtabs %}

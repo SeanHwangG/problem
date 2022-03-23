@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1829.py' %}
-
 ```cpp
 vector<int> getMaximumXor(vector<int>& n, int maximumBit) {
   vector<int> res(n.size());
@@ -9,5 +7,3 @@ vector<int> getMaximumXor(vector<int>& n, int maximumBit) {
   return res;
 }
 ```
-
-{% endtab %}{% endtabs %}

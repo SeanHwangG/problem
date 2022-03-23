@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_kemija08.py' %}
-
 ```py
 st = input()
 skip = 0
@@ -12,5 +10,3 @@ for ch in st:
   else:
     print(ch, end='')
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_oddmanout.py' %}
-
 ```py
 for test in range(1, int(input()) + 1):
   N = int(input())
@@ -8,5 +6,3 @@ for test in range(1, int(input()) + 1):
     ret ^= x
   print(f"Case #{test}: {ret}")
 ```
-
-{% endtab %}{% endtabs %}

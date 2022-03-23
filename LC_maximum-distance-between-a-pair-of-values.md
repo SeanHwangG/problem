@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1855.cpp' %}
-
 ```cpp
 int maxDistance(vector<int>& A, vector<int>& B) {
   int i = 0, j = 0, res = 0, n = A.size(), m = B.size();
@@ -12,5 +10,3 @@ int maxDistance(vector<int>& A, vector<int>& B) {
   return res;
 }
 ```
-
-{% endtab %}{% endtabs %}

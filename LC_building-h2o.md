@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1117.cpp' %}
-
 ```cpp
 class H2O {
   mutex mtxHH, mtxO;
@@ -40,8 +38,6 @@ public:
 };
 ```
 
-{% endtab %}{% tab title='LC_1117.py' %}
-
 ```py
 from threading import Barrier, Semaphore
 class H2O:
@@ -60,5 +56,3 @@ class H2O:
   releaseOxygen()
   self.o.release()
 ```
-
-{% endtab %}{% endtabs %}

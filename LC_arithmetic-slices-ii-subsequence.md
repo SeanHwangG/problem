@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_446.py' %}
-
 ```py
 def numberOfArithmeticSlices(self, li: List[int]) -> int:
   ans = 0
@@ -12,5 +10,3 @@ def numberOfArithmeticSlices(self, li: List[int]) -> int:
 
   return ans
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_538.py' %}
-
 ```py
 class Solution:
   def __init__(self):
@@ -14,5 +12,3 @@ class Solution:
     self.convertBST(root.left)
     return root
 ```
-
-{% endtab %}{% endtabs %}

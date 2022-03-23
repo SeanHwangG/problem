@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_346.py' %}
-
 ```py
 class MovingAverage:
   def __init__(self, size):
@@ -13,5 +11,3 @@ class MovingAverage:
     self.arr.append(val)
     return sum(self.arr) / len(self.arr)
 ```
-
-{% endtab %}{% endtabs %}

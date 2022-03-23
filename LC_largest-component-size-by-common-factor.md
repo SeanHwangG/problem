@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_952.py' %}
-
 ```py
 import collections
 import math
@@ -40,5 +38,3 @@ def largestComponentSize(self, A: List[int]) -> int:
       uf.union(i, factor2i[num])
   return max(uf.size)
 ```
-
-{% endtab %}{% endtabs %}

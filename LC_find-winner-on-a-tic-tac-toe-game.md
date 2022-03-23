@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1275.py' %}
-
 ```py
 def tictactoe(self, M: List[List[int]]) -> str:
   def check(r, c, f):
@@ -23,5 +21,3 @@ def tictactoe(self, M: List[List[int]]) -> str:
         return 'B'
   return 'Draw' if len(M) == 9 else 'Pending'
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_464.cpp' %}
-
 ```py
   bool canIWin(int M, int T) {
     int sum = M*(M+1)/2; // sum of entire choosable pool
@@ -43,5 +41,3 @@
   // 0: un-computed; 1: I win; -1: I lose
   int mem[1<<20] = {};
 ```
-
-{% endtab %}{% endtabs %}

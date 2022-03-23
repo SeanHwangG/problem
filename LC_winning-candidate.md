@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_574.sql' %}
-
 ```sql
 SELECT Name
 FROM Candidate
@@ -9,5 +7,3 @@ WHERE id = (SELECT CandidateId
   ORDER BY COUNT(*) DESC
   LIMIT 1);
 ```
-
-{% endtab %}{% endtabs %}

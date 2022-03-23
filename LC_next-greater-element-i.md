@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_496.py' %}
-
 ```py
 class Solution:
   def nextGreaterElement(self, findNums, nums):
@@ -10,5 +8,3 @@ class Solution:
       st.append(n)
     return [d.get(x, -1) for x in findNums]
 ```
-
-{% endtab %}{% endtabs %}

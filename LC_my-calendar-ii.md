@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_731.py' %}
-
 * Time; O(n) (Per query) / Space : O(n)
 
 ```py
@@ -17,5 +15,3 @@ class MyCalendarTwo:
     self.calendar.append((start, end))
     return True
 ```
-
-{% endtab %}{% endtabs %}

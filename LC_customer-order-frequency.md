@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1511.sql' %}
-
 ```sql
 SELECT customer_id, name FROM Customers
   JOIN Orders USING(customer_id) JOIN Product USING(product_id)
@@ -7,5 +5,3 @@ SELECT customer_id, name FROM Customers
   HAVING SUM(IF(LEFT(order_date, 7) = '2020-06', quantity, 0) * price) >= 100
     AND SUM(IF(LEFT(order_date, 7) = '2020-07', quantity, 0) * price) >= 100
 ```
-
-{% endtab %}{% endtabs %}

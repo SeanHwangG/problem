@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_600.py' %}
-
 1. Use fibonacci because 0-10000 is sum of 00000-01111 and 10000-10111
 2. If number starts with "11", all int will be smaller than our number, so return a Fibonacci number for n bits
 3. If number starts with "10", all int with n - 1 bits will be smaller than our number
@@ -16,5 +14,3 @@ def findIntegers(self, n: int) -> int:
     x, y = y, x + y
   return res
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_61.py' %}
-
 ```py
 def rotateRight(self, head: ListNode, k: int) -> ListNode:
   if not head:
@@ -18,5 +16,3 @@ def rotateRight(self, head: ListNode, k: int) -> ListNode:
   new_last.next = None
   return answer
 ```
-
-{% endtab %}{% endtabs %}

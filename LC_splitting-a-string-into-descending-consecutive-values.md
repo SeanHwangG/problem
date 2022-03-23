@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1849.cpp' %}
-
 ```cpp
 bool splitString(string &s, int i = 0, long prev = 0) {
   long num = 0;
@@ -12,8 +10,6 @@ bool splitString(string &s, int i = 0, long prev = 0) {
 }
 ```
 
-{% endtab %}{% tab title='LC_1849.py' %}
-
 ```py
 def splitString(self, s: str, num=None) -> bool:
   if num is None:
@@ -21,5 +17,3 @@ def splitString(self, s: str, num=None) -> bool:
   else:
     return len(s) == 0 or any(self.splitString(s[i:], num - 1) for i in range(1, len(s) + 1) if int(s[:i]) == num)
 ```
-
-{% endtab %}{% endtabs %}

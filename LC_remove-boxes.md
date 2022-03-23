@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_546.py' %}
-
 ```py
 def removeBoxes(self, B: List[int]) -> int:
   @lru_cache(None)
@@ -16,5 +14,3 @@ def removeBoxes(self, B: List[int]) -> int:
 
   return dp(0, len(B) - 1, 0)
 ```
-
-{% endtab %}{% endtabs %}

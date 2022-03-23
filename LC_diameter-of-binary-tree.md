@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_543.py' %}
-
 ```py
 def diameterOfBinaryTree(self, root):
   self.ans = 0
@@ -13,5 +11,3 @@ def diameterOfBinaryTree(self, root):
   depth(root)
   return self.ans
 ```
-
-{% endtab %}{% endtabs %}

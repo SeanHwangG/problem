@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_18.py' %}
-
 ```py
 def fourSum(self, nums, target):
   def findNsum(nums, target, N, cur, results):
@@ -25,5 +23,3 @@ def fourSum(self, nums, target):
   findNsum(sorted(nums), target, 4, [], results)
   return results
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1828.py' %}
-
 ```py
 def countPoints(self, points: List[List[int]], queries: List[List[int]]) -> List[int]:
   points.sort()
@@ -14,5 +12,3 @@ def countPoints(self, points: List[List[int]], queries: List[List[int]]) -> List
         result[ii] += 1
   return result
 ```
-
-{% endtab %}{% endtabs %}

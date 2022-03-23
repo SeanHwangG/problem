@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_630.py' %}
-
 ```py
 def scheduleCourse(self, courses: List[List[int]]) -> int:
   pq = []
@@ -11,5 +9,3 @@ def scheduleCourse(self, courses: List[List[int]]) -> int:
       start += heapq.heappop(pq)
   return len(pq)
 ```
-
-{% endtab %}{% endtabs %}

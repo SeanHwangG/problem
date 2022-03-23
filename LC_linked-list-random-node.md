@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_382.go' %}
-
 ```go
 type Solution struct {
   arr []int
@@ -20,8 +18,6 @@ func (this *Solution) GetRandom() int {
 }
 ```
 
-{% endtab %}{% tab title='LC_382.py' %}
-
 ```py
 def __init__(self, head):
   self.head = head
@@ -35,5 +31,3 @@ def getRandom(self):
     index += 1
   return result.val
 ```
-
-{% endtab %}{% endtabs %}

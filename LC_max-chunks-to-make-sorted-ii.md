@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_768.py' %}
-
 ```py
 def maxChunksToSorted(self, A):
   res, s1, s2 = 0, 0, 0
@@ -9,5 +7,3 @@ def maxChunksToSorted(self, A):
     res += s1 == s2
   return res
 ```
-
-{% endtab %}{% endtabs %}

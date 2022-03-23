@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_21.cpp' %}
-
 ```cpp
 ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
   ListNode dummy(INT_MIN);
@@ -21,8 +19,6 @@ ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
 
 ```
 
-{% endtab %}{% tab title='LC_21.py' %}
-
 ```py
 def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
   dummy = cur = ListNode(0)
@@ -37,5 +33,3 @@ def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
   cur.next = l1 or l2
   return dummy.next
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1872.py' %}
-
 ```py
 def stoneGameVIII(self, stones):
   ans = sum(stones)
@@ -7,5 +5,3 @@ def stoneGameVIII(self, stones):
     ans = max(ans, num - ans)
   return ans
 ```
-
-{% endtab %}{% endtabs %}

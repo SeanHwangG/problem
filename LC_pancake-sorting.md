@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_969.py' %}
-
 ```py
 def pancakeSort(self, A: List[int]) -> List[int]:
   res = []
@@ -9,5 +7,3 @@ def pancakeSort(self, A: List[int]) -> List[int]:
     A = A[:i:-1] + A[:i]
   return res
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,4 +1,4 @@
-{% tabs %}{% tab title='AC_abc213_e.py' %}
+
 
 ```py
 from collections import deque
@@ -27,5 +27,3 @@ while q:
         q.append([c + 1, r + dx, c + dy])
 print(dp[-1][-1])
 ```
-
-{% endtab %}{% endtabs %}

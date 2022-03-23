@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_apaxianparent.py' %}
-
 ```py
 a, b = input().split()
 if a[-1] == 'e':
@@ -11,5 +9,3 @@ elif a[-1] in 'aiou':
 else:
   print(a, 'ex', b, sep='')
 ```
-
-{% endtab %}{% endtabs %}

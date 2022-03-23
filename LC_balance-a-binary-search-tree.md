@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1382.py' %}
-
 ```py
 class Solution:
   def balanceBST(self, root: TreeNode) -> TreeNode:
@@ -18,5 +16,3 @@ class Solution:
 
     return build(0, len(ns) - 1)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_76.py' %}
-
 ```py
 def minWindow(self, s, t):
   need, missing = Counter(t), len(t)
@@ -15,5 +13,3 @@ def minWindow(self, s, t):
         l, r = i, j
   return s[l:r]
 ```
-
-{% endtab %}{% endtabs %}

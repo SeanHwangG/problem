@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_480.cpp' %}
-
 ```cpp
 vector<double> medianSlidingWindow(vector<int>& nums, int k) {
   multiset<int> window(nums.begin(), nums.begin() + k);
@@ -23,8 +21,6 @@ vector<double> medianSlidingWindow(vector<int>& nums, int k) {
 }
 ```
 
-{% endtab %}{% tab title='LC_480.py' %}
-
 ```py
 from sortedcontainers import SortedList
 class Solution:
@@ -39,5 +35,3 @@ class Solution:
 
     return median
 ```
-
-{% endtab %}{% endtabs %}

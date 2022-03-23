@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_499.py' %}
-
 ```py
 def findShortestWay(self, G, ball, hole):
   ball, hole = tuple(ball), tuple(hole)
@@ -25,5 +23,3 @@ def findShortestWay(self, G, ball, hole):
 
   return "impossible"
 ```
-
-{% endtab %}{% endtabs %}

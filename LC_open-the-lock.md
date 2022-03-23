@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_752.py' %}
-
 ```py
 def openLock(self, deadends, target):
   dead = set(deadends)
@@ -30,5 +28,3 @@ def openLock(self, deadends, target):
           q1.append((steps+1, cand))
   return -1
 ```
-
-{% endtab %}{% endtabs %}

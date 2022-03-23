@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_78.cpp' %}
-
 ```cpp
 vector<vector<int>> subsets(vector<int>& nums) {
   vector<vector<int>> subs = {{}};
@@ -13,11 +11,7 @@ vector<vector<int>> subsets(vector<int>& nums) {
 }
 ```
 
-{% endtab %}{% tab title='LC_78.py' %}
-
 ```py
 def subsets(self, nums):
   return [l for n in range(len(nums) + 1) for l in itertools.combinations(nums, n)]
 ```
-
-{% endtab %}{% endtabs %}

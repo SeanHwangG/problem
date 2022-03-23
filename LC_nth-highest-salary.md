@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_177.sql' %}
-
 ```sql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
@@ -10,5 +8,3 @@ SET M=N-1;
   );
 END
 ```
-
-{% endtab %}{% endtabs %}

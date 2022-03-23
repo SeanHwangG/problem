@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1416.py' %}
-
 ```py
 def numberOfArrays(self, s: str, k: int) -> int:
   N, s = len(s), [*map(int, s)] + [math.inf]
@@ -12,5 +10,3 @@ def numberOfArrays(self, s: str, k: int) -> int:
       j += 1
   return dp[0]
 ```
-
-{% endtab %}{% endtabs %}

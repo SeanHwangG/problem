@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_68.py' %}
-
 ```py
 def fullJustify(self, words, maxWidth):
   res, cur, num_of_letters = [], [], 0
@@ -13,5 +11,3 @@ def fullJustify(self, words, maxWidth):
     num_of_letters += len(w)
   return res + [' '.join(cur).ljust(maxWidth)]
 ```
-
-{% endtab %}{% endtabs %}

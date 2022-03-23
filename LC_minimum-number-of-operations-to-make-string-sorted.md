@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1830.py' %}
-
 ```py
 cnt, ans, cur = [0] * 26, 0, 1  # cur: #op for cur positions
 for i, cur_letter in enumerate(s[::-1]):
@@ -9,5 +7,3 @@ for i, cur_letter in enumerate(s[::-1]):
   ans += cur * sum(cnt[:num]) // (i + 1) # Add number of combinations for all smaller letters than current
 return ans % 1000000007
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_308.py' %}
-
 ```py
 class NumMatrix(object):
   def __init__(self, G):
@@ -24,5 +22,3 @@ class NumMatrix(object):
         ret -= self.G[x][col1-1]
     return ret
 ```
-
-{% endtab %}{% endtabs %}

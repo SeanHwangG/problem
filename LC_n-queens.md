@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_51.py' %}
-
 ```py
 def solveNQueens(self, n):
   def DFS(queens, xy_dif, xy_sum):
@@ -14,5 +12,3 @@ def solveNQueens(self, n):
   DFS([], [], [])
   return [["." * i + "Q" + "." * (n-i-1) for i in sol] for sol in result]
 ```
-
-{% endtab %}{% endtabs %}

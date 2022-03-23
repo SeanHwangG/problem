@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_detect-the-domain.name.go' %}
-
 ```go
 package main
 import "fmt"
@@ -28,8 +26,6 @@ func main() {
 }
 ```
 
-{% endtab %}{% tab title='HR_detect-the-domain.name.py' %}
-
 ```py
 import re, sys
 
@@ -37,5 +33,3 @@ page = sys.stdin.read()
 re_patt = r"https?:\/\/(?:ww[w\d]\.)?([\w\.-]+\.[a-zA-Z]*)"
 print(";".join(sorted(set(re.findall(re_patt, page, re.DOTALL)))))
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_4.py' %}
-
 ```py
 def findMedianSortedArrays(self, nums1, nums2):
   a, b = sorted((nums1, nums2), key=len)
@@ -14,5 +12,3 @@ def findMedianSortedArrays(self, nums1, nums2):
   nextfew = sorted(a[lo:lo+2] + b[after-lo:after-lo+2])
   return (nextfew[0] + nextfew[1 - (len(a) + len(b)) % 2]) / 2.0
 ```
-
-{% endtab %}{% endtabs %}

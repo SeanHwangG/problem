@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_679.py' %}
-
 ```py
 def judgePoint24(self, nums: List[int]) -> bool:
   if len(nums) == 1:
@@ -8,5 +6,3 @@ def judgePoint24(self, nums: List[int]) -> bool:
              for a, b, *rest in itertools.permutations(nums)
              for x in {a + b, a - b, a * b, b and a / b})
 ```
-
-{% endtab %}{% endtabs %}

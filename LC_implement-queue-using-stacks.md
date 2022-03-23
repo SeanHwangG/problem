@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_232.py' %}
-
 ```cpp
 class Queue {
   stack<int> input, output;
@@ -26,5 +24,3 @@ class Queue {
   }
 };
 ```
-
-{% endtab %}{% endtabs %}

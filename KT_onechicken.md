@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_onechicken.py' %}
-
 ```py
 a, b = map(int, input().split())
 if a < b:
@@ -7,5 +5,3 @@ if a < b:
 else:
   print(f"Dr. Chaz needs {a - b} more piece{'' if a - b == 1 else 's'} of chicken!")
 ```
-
-{% endtab %}{% endtabs %}

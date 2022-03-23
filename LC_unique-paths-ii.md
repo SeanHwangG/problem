@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_63.py' %}
-
 * Time; O(N^2)
 * Space; O(N)
 
@@ -18,5 +16,3 @@ def uniquePathsWithObstacles(self, G: List[List[int]]) -> int:
   return cur[-1]
 
 ```
-
-{% endtab %}{% endtabs %}

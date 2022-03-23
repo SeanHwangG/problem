@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_233.cpp' %}
-
 ```cpp
 int countDigitOne(int n) {
   int ones = 0;
@@ -8,8 +6,6 @@ int countDigitOne(int n) {
   return ones;
 }
 ```
-
-{% endtab %}{% tab title='LC_233.py' %}
 
 * Sum out how often a "1" appears at each position
 * Given 3141592, when m=1000. Then a=3141 and b=592
@@ -28,5 +24,3 @@ def countDigitOne(self, n):
     m *= 10
   return ones
 ```
-
-{% endtab %}{% endtabs %}

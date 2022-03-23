@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_648.py' %}
-
 * Time; O(N)
 * Space; O(N*K)
 
@@ -24,5 +22,3 @@ def replaceWords(self, roots, sentence):
 
   return " ".join(map(replace, sentence.split()))
 ```
-
-{% endtab %}{% endtabs %}

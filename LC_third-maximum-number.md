@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_414.py' %}
-
 ```py
 def thirdMax(self, nums):
   a = b = c = -float("inf")
@@ -13,5 +11,3 @@ def thirdMax(self, nums):
       n, c = c, n
   return a if c == -float("inf") else c
 ```
-
-{% endtab %}{% endtabs %}

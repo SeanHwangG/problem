@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_588.py' %}
-
 ```py
 Trie = lambda: collections.defaultdict(Trie)
 
@@ -33,5 +31,3 @@ class FileSystem(object):
   def readContentFromFile(self, filePath):
     return self.fileinfo[filePath]
 ```
-
-{% endtab %}{% endtabs %}

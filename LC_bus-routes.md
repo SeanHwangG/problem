@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_815.py' %}
-
 ```py
 def numBusesToDestination(self, routes, S, T):
   G = collections.defaultdict(set)
@@ -18,5 +16,3 @@ def numBusesToDestination(self, routes, S, T):
       routes[i] = []  # seen route
   return -1
 ```
-
-{% endtab %}{% endtabs %}

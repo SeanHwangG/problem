@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_920.py' %}
-
 * Last song might be new / old
 * Time: O((L-K)(N-K))
 
@@ -14,5 +12,3 @@ def numMusicPlaylists(self, N, L, K):
         dp[i][j] = dp[i - 1][j - 1] * i + dp[i][j - 1] * (i - K)
   return dp[N][L] % (10**9 + 7)
 ```
-
-{% endtab %}{% endtabs %}

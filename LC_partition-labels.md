@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_763.py' %}
-
 ```py
 def partitionLabels(self, s: str) -> List[int]:
   rightmost = {c : i for i, c in enumerate(s)}
@@ -12,5 +10,3 @@ def partitionLabels(self, s: str) -> List[int]:
       l = i + 1
   return result
 ```
-
-{% endtab %}{% endtabs %}

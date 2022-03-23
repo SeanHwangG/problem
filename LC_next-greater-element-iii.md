@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_556.cpp' %}
-
 ```cpp
 int nextGreaterElement(int n) {
   auto digits = to_string(n);
@@ -8,5 +6,3 @@ int nextGreaterElement(int n) {
   return (res > INT_MAX || res <= n) ? -1 : res;
 }
 ```
-
-{% endtab %}{% endtabs %}

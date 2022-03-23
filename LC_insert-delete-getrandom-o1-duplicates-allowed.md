@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_381.java' %}
-
 ```java
 public class RandomizedCollection {
   ArrayList<Integer> nums;
@@ -45,8 +43,6 @@ public class RandomizedCollection {
 }
 ```
 
-{% endtab %}{% tab title='LC_381.py' %}
-
 ```py
 import random
 
@@ -73,5 +69,3 @@ class RandomizedCollection(object):
   def getRandom(self):
       return random.choice(self.vals)
 ```
-
-{% endtab %}{% endtabs %}

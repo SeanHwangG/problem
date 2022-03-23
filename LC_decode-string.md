@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_394.py' %}
-
 ```py
 import re
 def decodeString(self, s: str) -> str:
@@ -7,5 +5,3 @@ def decodeString(self, s: str) -> str:
     s = re.sub(r'(\d+)\[([a-z]*)\]', lambda m: int(m.group(1)) * m.group(2), s)
   return s
 ```
-
-{% endtab %}{% endtabs %}

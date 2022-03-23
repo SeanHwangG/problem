@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_document-classification.py' %}
-
 ```py
 from sklearn.svm import LinearSVC
 from sklearn.feature_extraction.text import HashingVectorizer
@@ -22,5 +20,3 @@ for i in range(int(input())):
 test = transformer.transform(_test)
 print(*svm.predict(test), sep='\n')
 ```
-
-{% endtab %}{% endtabs %}

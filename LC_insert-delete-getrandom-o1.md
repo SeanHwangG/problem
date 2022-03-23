@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_380.py' %}
-
 ```py
 import random
 
@@ -25,5 +23,3 @@ class RandomizedSet(object):
   def getRandom(self):
     return self.nums[random.randint(0, len(self.nums) - 1)]
 ```
-
-{% endtab %}{% endtabs %}

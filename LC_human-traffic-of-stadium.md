@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_601.sql' %}
-
 * join
 
   ```sql
@@ -27,5 +25,3 @@
       OR (cte.people >= 100 AND cte.nxt >= 100 AND cte.pre >= 100)
       OR (cte.people >= 100 AND cte.pre >= 100 AND cte.pre2 >= 100)
   ```
-
-{% endtab %}{% endtabs %}

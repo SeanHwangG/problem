@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_164.py' %}
-
 ```py
 def maximumGap(self, num):
   if len(num) < 2 or min(num) == max(num):
@@ -14,5 +12,3 @@ def maximumGap(self, num):
   bucket = [mx for mx in bucket if mx[0] != math.inf]
   return max(bucket[i][0] - bucket[i - 1][1] for i in range(1, len(bucket)))
 ```
-
-{% endtab %}{% endtabs %}

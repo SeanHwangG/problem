@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_ostgotska.py' %}
-
 ```py
 li = input().split()
 n = len(li) * 0.4
@@ -12,5 +10,3 @@ if n <= count:
 else:
   print("haer talar vi rikssvenska")
 ```
-
-{% endtab %}{% endtabs %}

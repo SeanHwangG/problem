@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_15.py' %}
-
 ```py
 def threeSum(self, nums):
   res = []
@@ -20,5 +18,3 @@ def threeSum(self, nums):
         r -= 1
   return res
 ```
-
-{% endtab %}{% endtabs %}

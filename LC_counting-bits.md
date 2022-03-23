@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_338.py' %}
-
 ```py
 def countBits(self, num) -> List[int]:
   ret = [0] * (num + 1)
@@ -7,5 +5,3 @@ def countBits(self, num) -> List[int]:
     ret[i] = ret[i // 2] + i % 2
   return ret
 ```
-
-{% endtab %}{% endtabs %}

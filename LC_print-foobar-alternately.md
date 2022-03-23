@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1115.cpp' %}
-
 * Semaphore
 
 ```cpp
@@ -33,8 +31,6 @@ public:
   }
 };
 ```
-
-{% endtab %}{% tab title='LC_1115.go' %}
 
 ```go
 package main
@@ -73,8 +69,6 @@ func main() {
 }
 ```
 
-{% endtab %}{% tab title='LC_1115.java' %}
-
 * Monitor
 
 ```java
@@ -107,8 +101,6 @@ public class FooBarSynchronized {
 }
 ```
 
-{% endtab %}{% tab title='LC_1115.py' %}
-
 * Barrior
 
 ```py
@@ -129,5 +121,3 @@ class FooBar:
       self.barrier.wait()
       printBar()
 ```
-
-{% endtab %}{% endtabs %}

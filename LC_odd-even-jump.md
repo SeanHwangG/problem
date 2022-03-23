@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_975.cpp' %}
-
 * Time: O(NlogN)
 * Space: O(N)
 
@@ -19,8 +17,6 @@ int oddEvenJumps(vector<int>& A) {
   return res;
 }
 ```
-
-{% endtab %}{% tab title='LC_975.py' %}
 
 ```py
 def oddEvenJumps(self, A):
@@ -46,5 +42,3 @@ def oddEvenJumps(self, A):
     lower[i] = higher[next_lower[i]]
   return sum(higher)
 ```
-
-{% endtab %}{% endtabs %}

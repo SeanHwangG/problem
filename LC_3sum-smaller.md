@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_259.py' %}
-
 ```py
 def threeSumSmaller(self, nums, target):
   count = 0
@@ -15,5 +13,3 @@ def threeSumSmaller(self, nums, target):
         k -= 1
   return count
 ```
-
-{% endtab %}{% endtabs %}

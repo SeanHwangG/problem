@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_dicegame.py' %}
-
 ```py
 a = sum(map(int, input().split()))
 b = sum(map(int, input().split()))
@@ -10,5 +8,3 @@ elif b < a:
 else:
   print('Tie')
 ```
-
-{% endtab %}{% endtabs %}

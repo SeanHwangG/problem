@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1492.py' %}
-
 ```py
 import math
 def kthFactor(self, n: int, k: int) -> int:
@@ -13,5 +11,3 @@ def kthFactor(self, n: int, k: int) -> int:
   if k > len(factors): return -1
   return n // factors[-k]
 ```
-
-{% endtab %}{% endtabs %}

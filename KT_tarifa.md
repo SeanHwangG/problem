@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_tarifa.py' %}
-
 ```py
 add = int(input())
 n_line = int(input())
@@ -9,5 +7,3 @@ for n in range(n_line):
   cur = max(0, cur - int(input()))
 print(cur + add)
 ```
-
-{% endtab %}{% endtabs %}

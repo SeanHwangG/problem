@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_547.py' %}
-
 * Time: O(n**2)
 
 ```py
@@ -16,5 +14,3 @@ def findCircleNum(self, M: List[List[int]]):
     res += 1
   return res
 ```
-
-{% endtab %}{% endtabs %}

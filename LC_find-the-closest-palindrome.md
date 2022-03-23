@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_564.py' %}
-
 ```py
 def nearestPalindromic(self, n: str) -> str:
   l = len(n)
@@ -10,5 +8,3 @@ def nearestPalindromic(self, n: str) -> str:
   candidates.discard(n)
   return min(candidates, key=lambda x: (abs(int(x) - int(n)), int(x)))
 ```
-
-{% endtab %}{% endtabs %}

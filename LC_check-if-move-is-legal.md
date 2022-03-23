@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1958.py' %}
-
 ```py
 def checkMove(self, G: List[List[str]], r: int, c: int, color: str) -> bool:
   for dr, dc in (0, 1), (0, -1), (1, 0), (-1, 0), (1, 1), (-1, -1), (1, -1), (-1, 1):
@@ -11,5 +9,3 @@ def checkMove(self, G: List[List[str]], r: int, c: int, color: str) -> bool:
       return True
   return False
 ```
-
-{% endtab %}{% endtabs %}

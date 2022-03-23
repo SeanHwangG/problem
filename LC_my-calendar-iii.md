@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_732.py' %}
-
 ```cpp
 map<int, int> count = {{-1, 0}};
 int res = 0;
@@ -12,5 +10,3 @@ int book(int s, int e) {
   return res;
 }
 ```
-
-{% endtab %}{% endtabs %}

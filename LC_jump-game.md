@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_55.py' %}
-
 ```py
 def canJump(self, nums: List[int]) -> bool:
   pos = 0
@@ -8,5 +6,3 @@ def canJump(self, nums: List[int]) -> bool:
       pos = max(pos, i + n)
   return len(nums) - 1 <= pos
 ```
-
-{% endtab %}{% endtabs %}

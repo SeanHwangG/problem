@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_749.py' %}
-
 ```py
 def containVirus(self, grid: List[int]) -> int:
   m, n = len(grid), len(grid[0])
@@ -56,5 +54,3 @@ def containVirus(self, grid: List[int]) -> int:
 
   return wall_count
 ```
-
-{% endtab %}{% endtabs %}

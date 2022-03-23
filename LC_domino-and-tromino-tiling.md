@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_790.py' %}
-
 ```cpp
 int numTilings(int N) {
   int p3 = -1, p2 = 0, p1 = 1;
@@ -12,5 +10,3 @@ int numTilings(int N) {
   return p1;
 }
 ```
-
-{% endtab %}{% endtabs %}

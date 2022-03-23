@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_142.py' %}
-
 ```py
 def detectCycle(self, head):
   try:
@@ -17,5 +15,3 @@ def detectCycle(self, head):
     slow = slow.next
   return head
 ```
-
-{% endtab %}{% endtabs %}

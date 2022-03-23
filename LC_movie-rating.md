@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1341.sql' %}
-
 ```sql
 ( SELECT u.name AS results
   FROM Movie_Rating r LEFT JOIN Users u
@@ -16,5 +14,3 @@ UNION
   ORDER BY AVG(r.rating) DESC, m.title
   LIMIT 1)
 ```
-
-{% endtab %}{% endtabs %}

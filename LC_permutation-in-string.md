@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_567.py' %}
-
 ```py
 def checkInclusion(self, s1: str, s2: str) -> bool:
   k = len(s1)
@@ -18,5 +16,3 @@ def checkInclusion(self, s1: str, s2: str) -> bool:
 
   return False
 ```
-
-{% endtab %}{% endtabs %}

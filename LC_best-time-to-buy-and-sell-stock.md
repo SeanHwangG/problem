@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_121.java' %}
-
 ```java
 public int maxProfit(int[] prices) {
   if (prices.length < 2)  return 0;
@@ -11,5 +9,3 @@ public int maxProfit(int[] prices) {
   return maxProfit;
 }
 ```
-
-{% endtab %}{% endtabs %}

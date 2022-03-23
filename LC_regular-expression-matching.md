@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_10.py' %}
-
 ```py
 @lru_cache(None)
 def isMatch(self, s, p):
@@ -10,5 +8,3 @@ def isMatch(self, s, p):
     return (matched and self.isMatch(s[1:], p)) or self.isMatch(s, p[2:])
   return matched and self.isMatch(s[1:], p[1:])
 ```
-
-{% endtab %}{% endtabs %}

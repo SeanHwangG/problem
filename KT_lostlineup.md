@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_lostlineup.py' %}
-
 ```py
 n = int(input())
 ret = [1] * n
@@ -8,5 +6,3 @@ for i, n in enumerate(li):
   ret[n + 1] = i + 2
 print(*ret)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_acm.py' %}
-
 ```py
 from collections import Counter
 total_score = total_time = 0
@@ -19,5 +17,3 @@ while True:
 
 print(total_score, total_time)
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1157.py' %}
-
 ```py
 from bisect import bisect_left, bisect_right
 class MajorityChecker(object):
@@ -16,5 +14,3 @@ class MajorityChecker(object):
         return a
     return -1
 ```
-
-{% endtab %}{% endtabs %}

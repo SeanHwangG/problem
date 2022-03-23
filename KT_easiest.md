@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='KT_easiest.py' %}
-
 ```py
 def SOD(st):
   return sum(map(int, st))
@@ -12,5 +10,3 @@ while True:
       print(i)
       break
 ```
-
-{% endtab %}{% endtabs %}

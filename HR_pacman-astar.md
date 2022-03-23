@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='HR_pacman-astar.py' %}
-
 ```py
 from collections import deque
 
@@ -37,5 +35,3 @@ print(str(len(answer_routes) - 1))
 for point in answer_routes:
   print(f"{point[0]} {point[1]}")
 ```
-
-{% endtab %}{% endtabs %}

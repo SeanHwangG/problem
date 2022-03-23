@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_714.py' %}
-
 ```py
 def maxProfit(self, prices, fee):
   cash, hold = 0, -prices[0]
@@ -8,5 +6,3 @@ def maxProfit(self, prices, fee):
     hold = max(hold, cash - prices[i])
   return cash
 ```
-
-{% endtab %}{% endtabs %}

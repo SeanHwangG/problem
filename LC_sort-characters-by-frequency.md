@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_451.cpp' %}
-
 ```cpp
 string frequencySort(string s) {
   int freq[256] = {};
@@ -21,8 +19,6 @@ string frequencySort(string s) {
 }
 ```
 
-{% endtab %}{% tab title='LC_451.go' %}
-
 ```go
 func frequencySort(s string) string {
   dict := make([]int, 128)
@@ -40,5 +36,3 @@ func frequencySort(s string) string {
   return string(list)
 }
 ```
-
-{% endtab %}{% endtabs %}

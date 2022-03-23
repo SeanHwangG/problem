@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_505.py' %}
-
 ```py
 def shortestDistance(self, maze: List[List[int]], start: List[int], destination: List[int]) -> int:
   m, n, q, stopped = len(maze), len(maze[0]), [(0, start[0], start[1])], {(start[0], start[1]): 0}
@@ -18,5 +16,3 @@ def shortestDistance(self, maze: List[List[int]], start: List[int], destination:
         heapq.heappush(q, (dist + d, newX, newY))
   return -1
 ```
-
-{% endtab %}{% endtabs %}

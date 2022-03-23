@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_738.py' %}
-
 * Find first decreasing digit
 * 20s / 5422 -> 300s / 5322 -> 4000s / 4322 -> 4999
 
@@ -14,5 +12,3 @@ def monotoneIncreasingDigits(self, N: int) -> int:
   s[maker:] = ['9'] * (len(s) - maker)
   return int(''.join(s))
 ```
-
-{% endtab %}{% endtabs %}

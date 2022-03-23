@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_143.py' %}
-
 ```py
 # Definition for singly-linked list.
 # class ListNode:
@@ -25,5 +23,3 @@ class Solution:
       first.next, first = second, first.next
       second.next, second = first, second.next
 ```
-
-{% endtab %}{% endtabs %}

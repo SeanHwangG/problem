@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1187.py' %}
-
 ```py
 def makeArrayIncreasing(self, li1: List[int], li2: List[int]) -> int:
   dp = {-1:0}
@@ -15,5 +13,3 @@ def makeArrayIncreasing(self, li1: List[int], li2: List[int]) -> int:
     dp = tmp
   return min(dp.values()) if dp else -1
 ```
-
-{% endtab %}{% endtabs %}

@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_490.py' %}
-
 ```py
 def hasPath(self, G: List[List[int]], start: List[int], goal: List[int]) -> bool:
   Q = deque([start])
@@ -23,5 +21,3 @@ def hasPath(self, G: List[List[int]], start: List[int], goal: List[int]) -> bool
 
   return False
 ```
-
-{% endtab %}{% endtabs %}

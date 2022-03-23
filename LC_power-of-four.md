@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_342.cpp' %}
-
 ```cpp
 // (4^n - 1) % 3 == 0
 // 4^n - 1 = (2^n + 1) * (2^n - 1) one  must be a multiple of 3
@@ -8,11 +6,7 @@ bool isPowerOfFour(int num) {
 }
 ```
 
-{% endtab %}{% tab title='LC_342.py' %}
-
 ```py
 def isPowerOfFour(self, num: int) -> bool:
   return num > 0 and num & (num - 1) == 0 and (num - 1) % 3 == 0
 ```
-
-{% endtab %}{% endtabs %}

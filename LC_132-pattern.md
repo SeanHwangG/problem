@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_456.cpp' %}
-
 ```cpp
 bool find132pattern(vector<int>& nums) {
   int s3 = INT_MIN;
@@ -14,5 +12,3 @@ bool find132pattern(vector<int>& nums) {
   return false;
 }
 ```
-
-{% endtab %}{% endtabs %}

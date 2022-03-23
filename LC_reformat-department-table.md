@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1179.sql' %}
-
 ```sql
 SELECT id,
   SUM(CASE WHEN month="Jan" THEN revenue ELSE NULL END) as "Jan_Revenue",
@@ -17,5 +15,3 @@ SELECT id,
   FROM Department
   GROUP BY id
 ```
-
-{% endtab %}{% endtabs %}

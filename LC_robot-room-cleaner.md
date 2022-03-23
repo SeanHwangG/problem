@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_489.py' %}
-
 ```py
 def cleanRoom(self, robot):
   path = set()
@@ -19,5 +17,3 @@ def cleanRoom(self, robot):
 
   dfs(0, 0, 0, 1)
 ```
-
-{% endtab %}{% endtabs %}

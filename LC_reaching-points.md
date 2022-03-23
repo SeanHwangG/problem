@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_780.py' %}
-
 * ![LC_780](images/20210729_232232.png)
 
 ```py
@@ -16,5 +14,3 @@ def reachingPoints(self, sx, sy, tx, ty):
   else:
     return self.reachingPoints(sx, sy, tx, ty % tx)
 ```
-
-{% endtab %}{% endtabs %}

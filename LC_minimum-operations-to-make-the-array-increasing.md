@@ -1,5 +1,3 @@
-{% tabs %}{% tab title='LC_1827.py' %}
-
 ```cpp
 int minOperations(vector<int>& nums) {
   int res = 0, last = 0;
@@ -10,5 +8,3 @@ int minOperations(vector<int>& nums) {
   return res;
 }
 ```
-
-{% endtab %}{% endtabs %}
