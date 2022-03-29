@@ -9,6 +9,15 @@ func climbStairs(n int) int {
 }
 ```
 
+```java
+public int climbStairs(int n) {
+  int a = 1, b = 1;
+  while (n-- > 0)
+      a = (b += a) - a;
+  return a;
+}
+```
+
 ```py
 def climbStairs(self, n):
   return int((5 ** .5 / 5) * (((1 + 5 ** .5) / 2) ** (n + 1) - ((1 - 5 ** .5) / 2) ** (n + 1)))

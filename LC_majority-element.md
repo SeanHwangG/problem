@@ -12,3 +12,15 @@ int majorityElement(vector<int>& nums) {
   return majority;
 }
 ```
+
+```java
+public int majorityElement(int[] nums) {
+  int count = 0, candidate = 0;
+  for (int num : nums) {
+    if (count == 0)
+      candidate = num;
+    count += (num == candidate) ? 1 : -1;
+  }
+  return candidate;
+}
+```
