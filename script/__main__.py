@@ -18,6 +18,18 @@ class Problem:
   def __repr__(self):
     return f"[problem: {self.pid}, group: {self.group}]"
 
+  def current_path(self):
+
+    current_path = list(pathlib.Path(".").glob(f"**/{self.pid}.md"))
+    if len(current_path) == 0:
+      print(self)
+      return None
+
+    return current_path[0]
+
+  def correct_path(self):
+    return pathlib.Path(self.group) / f"{self.pid}.md"
+
 
 def extract_problems():
   creds = None
@@ -40,18 +52,17 @@ def extract_problems():
   service = build('sheets', 'v4', credentials=creds)
 
   sheet = service.spreadsheets()
-  result = sheet.values().get(spreadsheetId="1Wo5Z4E3ViISDVqQ5ATPbtEglzuaVEbCFIzMJ0GpiRiQ", range='D:E').execute()
+  result = sheet.values().get(spreadsheetId="1Wo5Z4E3ViISDVqQ5ATPbtEglzuaVEbCFIzMJ0GpiRiQ", range='D2:E9000').execute()
   values = result.get('values', [])
 
   return [Problem(row[0], row[1]) for row in values if len(row) == 2]
 
 
 def move_problems(problem):
-  print(problems)
   for problem in problems:
-    p = pathlib.Path(problem.pid)
-    pathlib.mkdir(p.group, exists_ok=True)
-    print(p.rename(pathlib.Path(p.group / p.pid)))
+    if problem.current_path():
+      pathlib.Path(problem.correct_path().parent).mkdir(exist_ok=True)
+      problem.current_path().rename(problem.correct_path())
 
 
 if __name__ == '__main__':
