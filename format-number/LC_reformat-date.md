@@ -1,3 +1,15 @@
+# [LC_reformat-date](https://leetcode.com/problems/reformat-date)
+
+Given date string in the form Day Month Year
+Convert date string to the format YYYY-MM-DD
+
+```txt
+Input: date = "20th Oct 2052"
+Output: "2052-10-20"
+```
+
+## Solution
+
 ```go
 func reformatDate(date string) string {
   month := map[string]string{

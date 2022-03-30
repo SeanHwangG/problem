@@ -1,3 +1,30 @@
+# [KT_weakvertices](https://open.kattis.com/problems/weakvertices)
+
+Weak vertices in graphs – those vertices that is not part of any triangle
+
+```txt
+Input:
+9
+0 1 1 1 0 0 0 0 0
+1 0 0 0 0 0 1 0 0
+1 0 0 1 0 1 0 0 0
+1 0 1 0 0 1 1 0 0
+0 0 0 0 0 0 1 1 0
+0 0 1 1 0 0 0 0 0
+0 1 0 1 1 0 0 1 0
+0 0 0 0 1 0 1 0 1
+0 0 0 0 0 0 0 1 0
+1
+0
+-1
+
+Output:
+1 8
+0
+```
+
+## Solution
+
 ```py
 from collections import defaultdict
 while True:

@@ -1,3 +1,14 @@
+# [LC_maximal-square](https://leetcode.com/problems/maximal-square)
+
+Find largest square containing only 1's
+
+```txt
+Input: matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
+Output: 4
+```
+
+## Solution
+
 ```py
 def maximalSquare(self, G):
   if len(G) == 0:

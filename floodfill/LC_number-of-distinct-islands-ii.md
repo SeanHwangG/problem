@@ -1,3 +1,21 @@
+# [LC_number-of-distinct-islands-ii](https://leetcode.com/problems/number-of-distinct-islands-ii)
+
+Island is group of 1's (representing land) connected 4-directionally (horizontal or vertical)
+Island is considered to be the same as another if they have same shape, or have same shape after rotation or reflection
+
+```txt
+Input:
+grid =
+[[1,1,0,0,0],
+ [1,0,0,0,0],
+ [0,0,0,0,1],
+ [0,0,0,1,1]]
+
+Output: 1
+```
+
+## Solution
+
 ```py
 def dfs(self, G, r, c, shape):
   G[r][c] = 0

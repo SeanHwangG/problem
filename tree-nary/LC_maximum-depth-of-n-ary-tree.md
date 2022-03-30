@@ -1,3 +1,14 @@
+# [LC_maximum-depth-of-n-ary-tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)
+
+Print depth of tree
+
+```txt
+Input: root = [1,null,3,2,4,null,5,6]
+Output: 3
+```
+
+## Solution
+
 ```cpp
 int maxDepth(Node* root) {
   if (root == nullptr) return 0;

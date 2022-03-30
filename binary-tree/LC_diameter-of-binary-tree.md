@@ -1,3 +1,14 @@
+# [LC_diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree)
+
+Find diameter of binary tree
+
+```txt
+Input: root = [1,2,3,4,5]
+Output: 3
+```
+
+## Solution
+
 ```py
 def diameterOfBinaryTree(self, root):
   self.ans = 0

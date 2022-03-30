@@ -1,3 +1,14 @@
+# [LC_two-sum](https://leetcode.com/problems/two-sum)
+
+Find two index that sums up to target
+
+```txt
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+```
+
+## Solution
+
 ```go
 func twoSum(nums []int, target int) []int {
   m := make(map[int]int, len(nums))

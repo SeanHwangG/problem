@@ -1,3 +1,15 @@
+# [LC_longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)
+
+Given a string s, find the longest palindromic subsequence's length in s
+
+```txt
+Input: s = "(()"
+Output: 2
+
+```
+
+## Solution
+
 * Time, Space; O(N^2), O(N)
 
 ```cpp

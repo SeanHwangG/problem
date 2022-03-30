@@ -1,3 +1,14 @@
+# [LC_couples-holding-hands](https://leetcode.com/problems/couples-holding-hands)
+
+Print minimum swaps to make partner sit next to each other (2 x N, 2 x N - 1)
+
+```txt
+Input: row = [0, 2, 1, 3]
+Output: 1
+```
+
+## Solution
+
 ```py
 def minSwapsCouples(self, row: List[int]) -> int:
   n = len(row)

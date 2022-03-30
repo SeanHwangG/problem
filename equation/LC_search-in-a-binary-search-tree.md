@@ -1,3 +1,21 @@
+# [LC_search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
+
+Given an expression such as expression = "e + 8 - a + 5" and an evaluation map such as {"e": 1}
+Return the list of tokens representing simplified expression, such as ["-1*a","14"]
+
+```txt
+Input: expression = "e - 8 + temperature - pressure", evalvars = ["e", "temperature"], evalints = [1, 12]
+Output: ["-1*pressure","5"]
+
+Input: expression = "(e + 8) * (e - 8)", evalvars = [], evalints = []
+Output: ["1*e*e","-64"]
+
+Input: expression = "a * b * c + b * a * c * 4", evalvars = [], evalints = []
+Output: ["5*a*b*c"]
+```
+
+## Solution
+
 ```py
 def basicCalculatorIV(self, expression: str, evalvars: List[str], evalints: List[int]) -> List[str]:
   class C(collections.Counter):

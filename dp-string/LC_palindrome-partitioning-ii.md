@@ -1,3 +1,15 @@
+# [LC_palindrome-partitioning-ii](https://leetcode.com/problems/palindrome-partitioning-ii)
+
+Given a string s, partition s such that every substring of partition is a palindrome
+Return minimum cuts needed for a palindrome partitioning of s
+
+```txt
+Input: s = "aab"
+Output: 1
+```
+
+## Solution
+
 * Generate 2d palindrome table with l index and r indices (N^2 space)
 * dp[n] stores the minimum number of cuts s[0: n] (N space)
 * Time, Space; O(N^2), O(N)

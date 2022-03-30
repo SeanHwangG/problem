@@ -1,3 +1,22 @@
+# [KT_irepeatmyself](https://open.kattis.com/problems/irepeatmyself)
+
+Find number of repeated pattern
+
+```txt
+Input:
+3
+I Repeat Myself I Repeat Myself I Repeat
+aaaaaaaaaaaaaaaaaaaaa
+abbcabbcabbabbcabb
+
+Output:
+16
+1
+11
+```
+
+## Solution
+
 ```py
 def shortest_pattern(sentence):
   n = len(sentence)

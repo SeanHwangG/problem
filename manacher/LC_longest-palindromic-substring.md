@@ -1,3 +1,15 @@
+# [LC_longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring)
+
+Given a string s, return the longest palindromic substring in s
+
+```txt
+Input: s = "babad"
+Output: "bab"
+
+```
+
+## Solution
+
 * Time: O(N^2)
 * Space : O(N)
 

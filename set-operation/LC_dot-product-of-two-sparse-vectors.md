@@ -1,3 +1,16 @@
+# [LC_dot-product-of-two-sparse-vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors)
+
+Implement class SparseVector:
+SparseVector(nums) Initializes the object with the vector nums
+dotProduct(vec) Compute the dot product between the instance of SparseVector and vec
+
+```txt
+Input: nums1 = [1,0,0,2,3], nums2 = [0,3,0,4,0]
+Output: 8  # v1.dotProduct(v2) = 1*0 + 0*3 + 0*0 + 2*4 + 3*0 = 8
+```
+
+## Solution
+
 ```cpp
 vector<int> v, n;
 SparseVector(vector<int> &nums, int i = 0) : n(nums) {

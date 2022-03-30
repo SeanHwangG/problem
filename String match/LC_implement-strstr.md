@@ -1,3 +1,14 @@
+# [LC_implement-strstr](https://leetcode.com/problems/implement-strstr)
+
+Return index of first occurrence of needle in haystack, or -1 if needle is not part of haystack
+
+```txt
+Input: haystack = "hello", needle = "ll"
+Output: 2
+```
+
+## Solution
+
 ```cpp
 class Solution {
 public:

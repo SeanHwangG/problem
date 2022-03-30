@@ -1,3 +1,14 @@
+# [LC_string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)
+
+Implement atoi function (string to int)
+
+```txt
+Input: s = "   -42"
+Output: -42
+```
+
+## Solution
+
 ```py
 def myAtoi(self, s):
   ls = list(s.strip())

@@ -1,3 +1,17 @@
+# [LC_word-search](https://leetcode.com/problems/word-search)
+
+Given an m x n grid of characters board and a string word, return true if word exists in the grid
+
+```txt
+Input: board =
+[["A","B","C","E"],
+ ["S","F","C","S"],
+ ["A","D","E","E"]], word = "ABCCED"
+Output: true
+```
+
+## Solution
+
 ```py
 def exist(self, board: List[List[str]], word: str) -> bool:
   for r in range(len(board)):

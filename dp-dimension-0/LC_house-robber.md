@@ -1,3 +1,16 @@
+# [LC_house-robber](https://leetcode.com/problems/house-robber)
+
+Each house has a certain amount of money stashed
+Adjacent houses have security systems connected
+Automatically contact the police if two adjacent houses were broken into on the same night
+
+```txt
+Input: nums = [1,2,3,1]
+Output: 4
+```
+
+## Solution
+
 ```java
 public int rob(int[] nums) {
   if (nums.length == 0)   return 0;

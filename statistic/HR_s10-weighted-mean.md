@@ -1,3 +1,17 @@
+# [HR_s10-weighted-mean](https://www.hackerrank.com/challenges/s10-weighted-mean)
+
+Given values and weights, printed weighted mean
+
+```txt
+Input: 5
+10 40 30 50 20
+1 2 3 4 5
+
+Output: 32.0
+```
+
+## Solution
+
 ```py
 size = int(input())
 numbers = list(map(int, input().split()))

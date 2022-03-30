@@ -1,3 +1,14 @@
+# [KT_sevenwonders](https://open.kattis.com/problems/sevenwonders)
+
+
+
+```txt
+Input: TCGTTC
+Output: 21
+```
+
+## Solution
+
 ```py
 from collections import Counter
 st = input()

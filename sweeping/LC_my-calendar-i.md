@@ -1,3 +1,18 @@
+# [LC_my-calendar-i](https://leetcode.com/problems/my-calendar-i)
+
+Implement a MyCalendar class to store your events
+  book(int start, int end). represents a booking on the half open interval [start, end)
+Return False if booking is impossible
+
+```txt
+MyCalendar();
+MyCalendar.book(10, 20); // returns true
+MyCalendar.book(15, 25); // returns false
+MyCalendar.book(20, 30); // returns true
+```
+
+## Solution
+
 ```py
 class MyCalendar:
   def __init__(self):

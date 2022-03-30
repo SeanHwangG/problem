@@ -1,3 +1,20 @@
+# [LC_number-of-islands](https://leetcode.com/problems/number-of-islands)
+
+Find number of island
+
+```txt
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+
+Output: 1
+```
+
+## Solution
+
 ```cpp
 int numIslands(vector<vector<char>>& grid) {
   int m = grid.size(), n = m ? grid[0].size() : 0, islands = 0;

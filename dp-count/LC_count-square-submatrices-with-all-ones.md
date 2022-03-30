@@ -1,3 +1,27 @@
+# [LC_count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones)
+
+Given m * n matrix of ones and zeros, return how many square submatrices have all ones
+
+```txt
+Input: matrix =
+[
+  [0,1,1,1],
+  [1,1,1,1],
+  [0,1,1,1]
+]
+Output: 15
+
+Input: matrix =
+[
+  [1,0,1],
+  [1,1,0],
+  [1,1,0]
+]
+Output: 7
+```
+
+## Solution
+
 ```py
 def countSquares(self, A):
   for i in xrange(1, len(A)):

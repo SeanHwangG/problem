@@ -1,3 +1,14 @@
+# [LC_print-in-order](https://leetcode.com/problems/print-in-order)
+
+Print first, second third always in order
+
+```txt
+Input: nums = [1,3,2]
+Output: "firstsecondthird"
+```
+
+## Solution
+
 * Promise
 
 ```cpp

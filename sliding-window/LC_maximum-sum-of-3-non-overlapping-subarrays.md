@@ -1,3 +1,14 @@
+# [LC_maximum-sum-of-3-non-overlapping-subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays)
+
+Given int array nums and an integer k, return three non-overlapping subarrays of length k with maximum sum
+
+```txt
+Input: nums = [1,2,1,2,6,7,5,1], k = 2
+Output: [0,3,5]
+```
+
+## Solution
+
 ```py
 def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:
   sub_sum = sum(nums[:k]) #set first k-sized window

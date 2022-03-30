@@ -1,3 +1,23 @@
+# [LC_stone-game-iv](https://leetcode.com/problems/stone-game-iv)
+
+Alice and Bob take turns playing a game, with Alice starting first, initially, given n stones in pile
+On each player's turn, that player move consisting of removing any non-zero square number of stones in pile
+Also, if a player cannot make a move, he/she loses game
+Given positive integer n, return if and only if Alice wins game, assuming both players play optimally
+
+```txt
+Input: n = 1
+Output: true
+
+Input: n = 2
+Output: false
+
+Input: n = 7
+Output: false
+```
+
+## Solution
+
 ```py
 def winnerSquareGame(self, n: int) -> bool:
   dp = [False] * (n + 1)

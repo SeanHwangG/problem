@@ -1,3 +1,25 @@
+# [KT_numberfun](https://open.kattis.com/problems/numberfun)
+
+
+
+```txt
+Input: 6
+1 2 3
+2 24 12
+5 3 1
+9 16 7
+7 2 14
+12 4 2
+Output: Possible
+Possible
+Impossible
+Possible
+Possible
+Impossible
+```
+
+## Solution
+
 ```py
 n_test = int(input())
 for _ in range(n_test):

@@ -1,3 +1,14 @@
+# [LC_next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii)
+
+Return next greater number for every element in nums
+
+```txt
+Input: nums = [1,2,1]
+Output: [2,-1,2]
+```
+
+## Solution
+
 ```py
 def nextGreaterElements(self, nums: List[int]) -> List[int]:
   stack, res = [], [-1] * len(A)

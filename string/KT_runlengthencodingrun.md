@@ -1,3 +1,14 @@
+# [KT_runlengthencodingrun](https://open.kattis.com/problems/runlengthencodingrun)
+
+Convert using two rules
+
+```txt
+Input: E HHHeellloWooorrrrlld!!
+Output: H3e2l3o1W1o3r4l2d1!2
+```
+
+## Solution
+
 ```py
 t, s = input().split()
 if t == 'E':

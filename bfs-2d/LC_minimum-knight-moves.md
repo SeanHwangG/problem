@@ -1,3 +1,18 @@
+# [LC_minimum-knight-moves](https://leetcode.com/problems/minimum-knight-moves)
+
+In infinite chess board with coordinates, you have a knight at square [0, 0].
+Return minimum number of steps needed to move knight to square [x, y]. It is guaranteed the answer exists.
+
+```txt
+Input: x = 2, y = 1
+Output: 1  # [0, 0] → [2, 1]
+
+Input: x = 5, y = 5
+Output: 4  # [0, 0] → [2, 1] → [4, 2] → [3, 4] → [5, 5]
+```
+
+## Solution
+
 * Only look at 1/8 section
 * <https://leetcode.com/problems/minimum-knight-moves/discuss/682850/C%2B%2B-O(1)-Formula-solution-with-plot-explanation>
 * ![LC_1197.cpp](images/20210813_012432.png)

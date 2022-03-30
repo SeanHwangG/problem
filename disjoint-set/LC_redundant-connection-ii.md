@@ -1,3 +1,14 @@
+# [LC_redundant-connection-ii](https://leetcode.com/problems/redundant-connection-ii)
+
+Return an edge that can be removed so that the resulting graph is a rooted tree of n nodes
+
+```txt
+Input: edges = [[1,2],[2,3],[3,4],[4,1],[1,5]]
+Output: [4,1]
+```
+
+## Solution
+
 1. There is no cycle in the graph, but there exist two edges pointing to the same node;
 1. There is a cycle, but there do not exist two edges pointing to the same node;
 1. There is a cycle, and there exist two edges pointing to the same node.

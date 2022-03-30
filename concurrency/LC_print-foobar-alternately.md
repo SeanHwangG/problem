@@ -1,3 +1,14 @@
+# [LC_print-foobar-alternately](https://leetcode.com/problems/print-foobar-alternately)
+
+Print Foo bar alternatively
+
+```txt
+Input: n = 2
+Output: "foobarfoobar"
+```
+
+## Solution
+
 * Semaphore
 
 ```cpp

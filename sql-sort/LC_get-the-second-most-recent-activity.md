@@ -1,3 +1,27 @@
+# [LC_get-the-second-most-recent-activity](https://leetcode.com/problems/get-the-second-most-recent-activity)
+
+Show second most recent activity of each user
+If user only has one activity, return that one
+
+```txt
+Input: 
+| username | activity | startDate  | endDate    |
+| -------- | -------- | ---------- | ---------- |
+| Alice    | Travel   | 2020-02-12 | 2020-02-20 |
+| Alice    | Dancing  | 2020-02-21 | 2020-02-23 |
+| Alice    | Travel   | 2020-02-24 | 2020-02-28 |
+| Bob      | Travel   | 2020-02-11 | 2020-02-18 |
+
+Output:
+
+| username | activity | startDate  | endDate    |
+| -------- | -------- | ---------- | ---------- |
+| Alice    | Dancing  | 2020-02-21 | 2020-02-23 |
+| Bob      | Travel   | 2020-02-11 | 2020-02-18 |
+```
+
+## Solution
+
 ```sql
 WITH order_table AS (
   SELECT *,

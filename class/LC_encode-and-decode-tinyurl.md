@@ -1,3 +1,14 @@
+# [LC_encode-and-decode-tinyurl](https://leetcode.com/problems/encode-and-decode-tinyurl)
+
+Design url shortener
+
+```txt
+Input: url = "https://leetcode.com/problems/design-tinyurl"
+Output: "https://leetcode.com/problems/design-tinyurl"
+```
+
+## Solution
+
 ```py
 class Codec:
   def __init__(self):

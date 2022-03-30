@@ -1,3 +1,14 @@
+# [LC_find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)
+
+Perform binary search on rotated sorted array
+
+```txt
+Input: nums = [3,4,5,1,2]
+Output: 1
+```
+
+## Solution
+
 ```py
 def findMin(self, li):
   lo, hi = 0, len(li) - 1

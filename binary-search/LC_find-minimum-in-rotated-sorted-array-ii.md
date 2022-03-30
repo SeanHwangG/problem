@@ -1,3 +1,14 @@
+# [LC_find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)
+
+Perform binary search on sorted array if duplicate is possible
+
+```txt
+Input: nums = [2,2,2,0,1]
+Output: 0
+```
+
+## Solution
+
 * O(N); Worst case
 
 ```cpp

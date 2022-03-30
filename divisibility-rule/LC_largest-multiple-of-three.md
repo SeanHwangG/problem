@@ -1,3 +1,16 @@
+# [LC_largest-multiple-of-three](https://leetcode.com/problems/largest-multiple-of-three)
+
+Given int array of digits, return largest multiple of three that can be formed by concatenating some given digits
+Since the answer may not fit in an integer data type, return the answer as a string
+If there is no answer return an empty string
+
+```txt
+Input: digits = [8,1,9]
+Output: "981"
+```
+
+## Solution
+
 ```py
 def largestMultipleOfThree(self, digits: List[int]) -> str:
   dp = [-1, -1, -1]

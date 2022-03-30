@@ -1,3 +1,14 @@
+# [LC_self-crossing](https://leetcode.com/problems/self-crossing)
+
+Check if line is self crossing
+
+```txt
+Input: distance = [2,1,1,2]
+Output: true
+```
+
+## Solution
+
 ```py
 def isSelfCrossing(self, x):
   """ Two cases

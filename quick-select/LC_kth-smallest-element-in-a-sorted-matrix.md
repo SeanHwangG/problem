@@ -1,3 +1,15 @@
+# [LC_kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)
+
+Given n x n matrix where each of rows, columns sorted in ascending order, return kth smallest element
+Note that it is kth smallest element in sorted order, not kth distinct element
+
+```txt
+Input: matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8
+Output: 13
+```
+
+## Solution
+
 * Time; O(n x log(n) x log(N))
 * Space; O(1)
 

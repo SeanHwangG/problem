@@ -1,3 +1,18 @@
+# [LC_least-operators-to-express-number](https://leetcode.com/problems/least-operators-to-express-number)
+
+Given 4 arithmetic operator without parenthesis
+Return least number of operators used when expression equals the given target
+
+```txt
+Input: x = 3, target = 19
+Output: 5  # 3 * 3 + 3 * 3 + 3 / 3.
+
+Input: x = 5, target = 501
+Output: 8  # 5 * 5 * 5 * 5 - 5 * 5 * 5 + 5 / 5.
+```
+
+## Solution
+
 ```py
 def leastOpsExpressTarget(self, x: int, target: int) -> int:
   @lru_cache(None)

@@ -1,3 +1,32 @@
+# [KT_mirror](https://open.kattis.com/problems/mirror)
+
+Print mirrored string
+
+```txt
+Input:
+2
+2 2
+.*
+..
+4 4
+***.
+**..
+....
+....
+
+Output:
+Test 1
+..
+*.
+Test 2
+....
+....
+..**
+.***
+```
+
+## Solution
+
 ```py
 n_test = int(input())
 for test in range(1, n_test + 1):

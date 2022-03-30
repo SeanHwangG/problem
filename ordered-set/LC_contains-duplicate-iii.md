@@ -1,3 +1,15 @@
+# [LC_contains-duplicate-iii](https://leetcode.com/problems/contains-duplicate-iii)
+
+Given an int array nums and two integers k and t, return if there are two distinct indices i and j in array
+Such that abs(nums[i] - nums[j]) <= t and abs(i - j) <= k
+
+```txt
+Input: nums = [1,2,3,1], k = 3, t = 0
+Output: true
+```
+
+## Solution
+
 ```cpp
 bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
   set<long long> window;

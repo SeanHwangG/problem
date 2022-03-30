@@ -1,3 +1,21 @@
+# [LC_cracking-the-safe](https://leetcode.com/problems/cracking-the-safe)
+
+Password with sequence of n digits where each digit can be in range [0, k-1]
+While entering password, last n digits entered will automatically be matched against password
+Return len of password guaranteed to open box at some point of entering it
+
+```txt
+Input: n = 2, k = 2
+
+n = 1, k = 2
+Output:
+"01100"  # "01100", "10011", "11001" will be accepted
+
+"10"     # "01" will be accepted
+```
+
+## Solution
+
 ```py
 def crackSafe(self, n: int, k: int) -> str:
   visited = set()

@@ -1,3 +1,14 @@
+# [KT_apaxianparent](https://open.kattis.com/problems/apaxianparent)
+
+
+
+```txt
+Input: menolaxios mox
+Output: menolaxiosexmox
+```
+
+## Solution
+
 ```py
 a, b = input().split()
 if a[-1] == 'e':

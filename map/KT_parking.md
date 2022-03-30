@@ -1,3 +1,19 @@
+# [KT_parking](https://open.kattis.com/problems/parking)
+
+
+
+```txt
+Input:
+5 3 1
+1 6
+3 5
+2 8
+
+Output: 33
+```
+
+## Solution
+
 ```py
 n_test = int(input())
 for i in range(n_test):

@@ -1,3 +1,19 @@
+# [LC_find-the-closest-palindrome](https://leetcode.com/problems/find-the-closest-palindrome)
+
+Given a string n representing an integer, return the closest integer (not including itself), which is a palindrome
+If there is a tie, return the smaller one
+Closest is defined as the absolute difference minimized between two integers
+
+```txt
+Input: n = "123"
+Output: "121"
+
+Input: n = "1"
+Output: "0"
+```
+
+## Solution
+
 ```py
 def nearestPalindromic(self, n: str) -> str:
   l = len(n)

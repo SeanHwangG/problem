@@ -1,3 +1,14 @@
+# [LC_number-of-distinct-substrings-in-a-string](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string)
+
+Given a string s, return the number of distinct substrings of s.
+
+```txt
+Input: s = "aabbaba"
+Output: 21  # ["a","b","aa","bb","ab","ba","aab","abb","bab","bba","aba","aabb","abba","bbab","baba","aabba","abbab","bbaba","aabbab","abbaba","aabbaba"]
+```
+
+## Solution
+
 ```cpp
 int countDistinct(string s) {
   long res = 1, s_hash = 0, base = 1, mod = 1000000009;

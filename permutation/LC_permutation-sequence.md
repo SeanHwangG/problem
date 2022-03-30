@@ -1,3 +1,14 @@
+# [LC_permutation-sequence](https://leetcode.com/problems/permutation-sequence)
+
+Find kth permutation from the set [1, 2, ...]
+
+```txt
+Input: n = 3, k = 3
+Output: "213"
+```
+
+## Solution
+
 ```py
 class Solution:
   def getPermutation(self, n: int, k: int) -> str:

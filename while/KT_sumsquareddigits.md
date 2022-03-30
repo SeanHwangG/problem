@@ -1,3 +1,20 @@
+# [KT_sumsquareddigits](https://open.kattis.com/problems/sumsquareddigits)
+
+
+
+```txt
+Input: 3
+1 10 1234
+2 3 98765
+3 16 987654321
+Output:
+1 30
+2 19
+3 696
+```
+
+## Solution
+
 ```py
 n_test = int(input())
 def SSD(b, n):

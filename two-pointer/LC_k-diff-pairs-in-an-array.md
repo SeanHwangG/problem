@@ -1,3 +1,14 @@
+# [LC_k-diff-pairs-in-an-array](https://leetcode.com/problems/k-diff-pairs-in-an-array)
+
+Given Array, find number of pairs with difference k
+
+```txt
+Input: nums = [3,1,4,1,5], k = 2
+Output: 2
+```
+
+## Solution
+
 ```java
 public int findPairs(int[] nums, int k) {
   Map<Integer, Integer> cnt = new HashMap<>();

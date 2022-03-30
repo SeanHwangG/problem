@@ -1,3 +1,14 @@
+# [LC_majority-element](https://leetcode.com/problems/majority-element)
+
+Given an array nums of size n, return the majority element
+
+```txt
+Input: [3,2,3]
+Output: 3
+```
+
+## Solution
+
 * Boyer-Moore Voting Algorithm
 * Time; O(N)
 

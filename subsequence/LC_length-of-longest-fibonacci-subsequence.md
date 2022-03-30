@@ -1,3 +1,14 @@
+# [LC_length-of-longest-fibonacci-subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)
+
+Find longest fibonacci subsequence
+
+```txt
+Input: arr = [1, 3, 7, 11, 12, 14, 18]
+Output: 3
+```
+
+## Solution
+
 ```py
 def lenLongestFibSubseq(self, A: List[int]) -> int:
   dp = collections.defaultdict(lambda: 2)

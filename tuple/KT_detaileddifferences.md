@@ -1,3 +1,34 @@
+# [KT_detaileddifferences](https://open.kattis.com/problems/detaileddifferences)
+
+Print . if two character are same, else *
+
+
+```txt
+Input:
+3
+ATCCGCTTAGAGGGATT
+GTCCGTTTAGAAGGTTT
+abcdefghijklmnopqrstuvwxyz
+bcdefghijklmnopqrstuvwxyza
+abcdefghijklmnopqrstuvwxyz0123456789
+abcdefghijklmnopqrstuvwxyz0123456789
+
+Output:
+ATCCGCTTAGAGGGATT
+GTCCGTTTAGAAGGTTT
+*....*.....*..*..
+
+abcdefghijklmnopqrstuvwxyz
+bcdefghijklmnopqrstuvwxyza
+**************************
+
+abcdefghijklmnopqrstuvwxyz0123456789
+abcdefghijklmnopqrstuvwxyz0123456789
+....................................
+```
+
+## Solution
+
 ```py
 N = int(input())
 for _ in range(N):

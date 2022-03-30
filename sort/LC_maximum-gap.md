@@ -1,3 +1,15 @@
+# [LC_maximum-gap](https://leetcode.com/problems/maximum-gap)
+
+Given an integer array nums, return maximum difference between two successive elements in its sorted form
+If the array contains less than two elements, return 0
+
+```txt
+Input: nums = [3,6,9,1]
+Output: 3
+```
+
+## Solution
+
 ```py
 def maximumGap(self, num):
   if len(num) < 2 or min(num) == max(num):

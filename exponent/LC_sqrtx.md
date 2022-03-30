@@ -1,3 +1,14 @@
+# [LC_sqrtx](https://leetcode.com/problems/sqrtx)
+
+Implement sqrt function
+
+```txt
+Input: x = 4
+Output: 2
+```
+
+## Solution
+
 * Newton's method
   * $$ x_{k + 1} = \frac{1}{2} (x_k+\frac{n}{x_k}), k ≥ 0, x_0 > 0 $$
 

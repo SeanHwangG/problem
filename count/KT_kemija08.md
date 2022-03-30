@@ -1,3 +1,14 @@
+# [KT_kemija08](https://open.kattis.com/problems/kemija08)
+
+
+
+```txt
+Input: zepelepenapa papapripikapa
+Output: zelena paprika
+```
+
+## Solution
+
 ```py
 st = input()
 skip = 0

@@ -1,3 +1,14 @@
+# [KT_yinyangstones](https://open.kattis.com/problems/yinyangstones)
+
+
+
+```txt
+Input: WWBWBB
+Output: 1
+```
+
+## Solution
+
 ```py
 from collections import Counter
 cnt = Counter(input())

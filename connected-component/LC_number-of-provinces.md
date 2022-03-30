@@ -1,3 +1,14 @@
+# [LC_number-of-provinces](https://leetcode.com/problems/number-of-provinces)
+
+Given adjacency matrix, find total number of SCC
+
+```txt
+Input: isConnected = [[1,1,0],[1,1,0],[0,0,1]]
+Output: 2
+```
+
+## Solution
+
 * Time: O(n**2)
 
 ```py

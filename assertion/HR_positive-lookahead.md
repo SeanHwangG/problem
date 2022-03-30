@@ -1,3 +1,14 @@
+# [HR_positive-lookahead](https://www.hackerrank.com/challenges/positive-lookahead)
+
+Write a regex that can match all occurrences of o followed immediately by oo in S
+
+```txt
+Input: gooooo!
+Output: Number of matches : 3
+```
+
+## Solution
+
 ```py
 import re
 

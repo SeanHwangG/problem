@@ -1,3 +1,18 @@
+# [LC_max-sum-of-rectangle-no-larger-than-k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)
+
+Given m x n matrix matrix and integer k, return max sum of a rectangle in matrix ST its sum is no larger than k
+It is guaranteed that there will be a rectangle with a sum no larger than k
+
+```txt
+Input: matrix = [[1,0,1],[0,-2,3]], k = 2
+Output: 2
+
+Input: matrix = [[2,2,-1]], k = 3
+Output: 3
+```
+
+## Solution
+
 ```py
 from sortedcontainers import SortedList
 

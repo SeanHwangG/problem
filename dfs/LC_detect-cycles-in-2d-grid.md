@@ -1,3 +1,18 @@
+# [LC_detect-cycles-in-2d-grid](https://leetcode.com/problems/detect-cycles-in-2d-grid)
+
+Given a 2D array of grid of size m x n, find if there exists any cycle consisting of the same value in grid
+
+```txt
+Input: grid =
+[["a","a","a","a"],
+ ["a","b","b","a"],
+ ["a","b","b","a"],
+ ["a","a","a","a"]]
+Output: true
+```
+
+## Solution
+
 ```py
 def containsCycle(self, G: List[List[str]]) -> bool:
   seen = defaultdict(int)

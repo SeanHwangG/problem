@@ -1,3 +1,20 @@
+# [LC_maximum-number-of-groups-getting-fresh-donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts)
+
+Given integer batchSize and an integer array groups, where groups[i] denotes that they will buy groups[i] donuts
+When group visits shop, all customers of group must be served before serving any of following group
+Group is happy if first customer of group doesn't receive leftover donut from previous group
+Rearrange ordering of groups, return maximum possible number of happy groups after rearranging the groups
+
+```txt
+Input: batchSize = 3, groups = [1,2,3,4,5,6]
+Output: 4  # [6,2,4,5,1,3] makes 1, 2, 4, 6 happy
+
+Input: batchSize = 4, groups = [1,3,2,5,2,2,1,6]
+Output: 4
+```
+
+## Solution
+
 * Time: O((n/K)^K * K)
 * Space: O((n/K)^K * K)
 

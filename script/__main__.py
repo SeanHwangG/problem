@@ -1,48 +1,62 @@
 from __future__ import print_function
 
 import pathlib
+import re
 import os
 import os.path
+
+from dataclasses import dataclass
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
+@dataclass
 class Group:
-  def __init__(self, gid):
-    self.gid = gid
+  gid: str
 
+@dataclass
 class Problem:
-  def __init__(self, pid, gid, sample="", english=""):
-    self.pid = pid
-    self.gid = gid
-    self.sample = sample
-    self.english = english
-    self.cur_path = None
+  pid: str
+  gid: str
+  sample: str
+  english: str
+  cur_path = ""
 
   def __repr__(self):
     return f"[problem: {self.pid}, gid: {self.gid}]"
 
-  """
-  @property
-  def cur_path(self):
-    if self.cur_path:
-      return self.cur_path
-
-    current_path = list(pathlib.Path(".").glob(f"**/{self.pid}.md"))
-    if len(current_path) == 0:
-      print(self)
-      return None
-
-    return current_path[0]
-  """
+  def link(self):
+    category = self.pid[:2]
+    value = self.pid[3:]
+    if category == "BJ":
+      return f"[{self.pid}](https://acmicpc.net/problem/{value})"
+    if category == "KT":
+      return f"[{self.pid}](https://open.kattis.com/problems/{value})"
+    if category == "HR":
+      return f"[{self.pid}](https://www.hackerrank.com/challenges/{value})"
+    if category == "LC":
+      return f"[{self.pid}](https://leetcode.com/problems/{value})"
+    if category == "CF":
+      contest, problem = re.findall(r"CF_([0-9]+)([A-Z0-9]*)", self.pid)[0]
+      return f"[{self.pid}](https://codeforces.com/contest/{contest}/{problem})"
 
   def correct_path(self):
     return pathlib.Path(self.gid) / f"{self.pid}.md"
 
+def update_cur_paths(problems: list[Problem]):
+  pid2problem = {p.pid: p for p in problems}
+  for p in pathlib.Path(".").glob(f"*/*.md"):
+    if p.stem in pid2problem:
+      pid2problem[p.stem].cur_path = p
+    else:
+      print(p.stem, "missing")
+  return problems
+
 
 def extract_problems():
+  print("Extracting Problem")
   creds = None
   # The file token.json stores the user's access and refresh tokens, and is
   # created automatically when the authorization flow completes for the first time.
@@ -66,21 +80,26 @@ def extract_problems():
   result = sheet.values().get(spreadsheetId="1Wo5Z4E3ViISDVqQ5ATPbtEglzuaVEbCFIzMJ0GpiRiQ", range='Problem!D2:G9000').execute()
   values = result.get('values', [])
 
-  return [Problem(row[0], row[1], row[2], row[3]) for row in values if len(row) == 4]
+  problems = [Problem(row[0], row[1], row[2], row[3] if len(row) == 4 else "") for row in values if len(row) >= 3]
+  print(f"Extracted {len(problems)} Problem")
+  return problems
 
 
 def move_problems(problems):
+  print("Moving Problem")
   for problem in problems:
-    if problem.cur_path:
+    if problem.cur_path != problem.correct_path():
       pathlib.Path(problem.cur_path.parent).mkdir(exist_ok=True)
       problem.cur_path.rename(problem.correct_path())
 
 def update_meta_problems(problems: Problem):
+  print("Updating meta problem")
   for p in problems:
-    solution = p.correct_path().read_text().split("## Solution\n")[-1]
-    p.correct_path().write_text(f"""# {p.pid}\n\n{p.english}\n\n```txt\n{p.sample}\n```\n\n## Solution\n{solution}""")
+    solution = p.correct_path().read_text().split("## Solution\n\n")[-1]
+    p.correct_path().write_text(f"""# {p.link()}\n\n{p.english}\n\n```txt\n{p.sample}\n```\n\n## Solution\n\n{solution}""")
 
 if __name__ == '__main__':
   problems = extract_problems()
-  # move_problems(problems)
+  problems = update_cur_paths(problems)
+  move_problems(problems)
   update_meta_problems(problems)

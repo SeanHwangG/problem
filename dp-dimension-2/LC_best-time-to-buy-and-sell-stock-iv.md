@@ -1,3 +1,16 @@
+# [LC_best-time-to-buy-and-sell-stock-iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)
+
+Given integer array prices where prices[i] is the price of a given stock on the ith day, and integer k
+Find the maximum profit you can achieve. You may complete at most k transactions
+You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again)
+
+```txt
+Input: k = 2, prices = [3,2,6,5,0,3]
+Output: 7  #  Buy on day 2 and sell on day 3, profit = 4. Then buy on day 5 and sell on day 6, profit 3
+```
+
+## Solution
+
 ```cpp
 int maxProfit(int N, vector<int>& v) {
   int M = v.size();

@@ -1,3 +1,24 @@
+# [KT_bela](https://open.kattis.com/problems/bela)
+
+
+
+```txt
+Input:
+2 S
+TH
+9C
+KS
+QS
+JS
+TD
+AD
+JH
+
+Output: 60
+```
+
+## Solution
+
 ```py
 n_line, suit = input().split()
 n_line = int(n_line)

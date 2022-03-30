@@ -1,3 +1,19 @@
+# [LC_random-pick-with-weight](https://leetcode.com/problems/random-pick-with-weight)
+
+Given arr of positive integers w where w[i] describes the weight of ith index (0-indexed)
+pickIndex(): return random integer in [0, w.length - 1], integer proportional to its weight in w array
+
+```txt
+Input
+["Solution","pickIndex"]
+[[[1]],[]]
+
+Output
+[null,0]
+```
+
+## Solution
+
 ```py
 from bisect import bisect_left
 

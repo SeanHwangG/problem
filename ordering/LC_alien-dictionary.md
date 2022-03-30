@@ -1,3 +1,18 @@
+# [LC_alien-dictionary](https://leetcode.com/problems/alien-dictionary)
+
+There is new alien language that uses English alphabet. However, order among letters is unknown to you
+Given list of words from alien language's dictionary, with sorted string by rule of this new language
+
+```txt
+Input: words = ["wrt","wrf","er","ett","rftt"]
+Output: "wertf"
+
+Input: words = ["z","x","z"]
+Output: ""  # The order is invalid, so return "".
+```
+
+## Solution
+
 ```py
 def alienOrder(self, words):
   pre, suc = defaultdict(set), defaultdict(set)

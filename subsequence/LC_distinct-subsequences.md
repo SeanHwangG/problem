@@ -1,3 +1,14 @@
+# [LC_distinct-subsequences](https://leetcode.com/problems/distinct-subsequences)
+
+Given two strings s and t, return the number of distinct subsequences of s which equals t
+
+```txt
+Input: s = "rabbbit", t = "rabbit"
+Output: 3
+```
+
+## Solution
+
 ```py
 def numDistinct(self, s: str, t: str) -> int:
   dp = [[1] * (len(s)+1)] + [[0] * (len(s)+1) for y in range(len(t))]

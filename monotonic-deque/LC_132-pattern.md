@@ -1,3 +1,16 @@
+# [LC_132-pattern](https://leetcode.com/problems/132-pattern)
+
+Given array of n integers nums, a 132 pattern is a subsequence of three integers nums[i], nums[j] and nums[k]
+ST i < j < k and nums[i] < nums[k] < nums[j]
+Return whether there is 132 pattern in the list
+
+```txt
+Input: nums = [1,2,3,4]
+Output: false
+```
+
+## Solution
+
 ```cpp
 bool find132pattern(vector<int>& nums) {
   int s3 = INT_MIN;

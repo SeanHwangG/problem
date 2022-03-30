@@ -1,3 +1,18 @@
+# [LC_implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree)
+
+Design Trie
+
+```txt
+Input:
+["Trie", "insert", "search", "search", "startsWith", "insert", "search"]
+[[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
+
+Output:
+[null, null, true, false, true, null, true]
+```
+
+## Solution
+
 ```cpp
 class Trie {
 public:

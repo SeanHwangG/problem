@@ -1,3 +1,19 @@
+# [LC_text-justification](https://leetcode.com/problems/text-justification)
+
+Full justify line
+
+```txt
+Input: words = ["This", "is", "an", "example", "of", "text", "justification."], maxWidth = 16
+Output:
+[
+   "This    is    an",
+   "example  of text",
+   "justification.  "
+]
+```
+
+## Solution
+
 ```py
 def fullJustify(self, words, maxWidth):
   res, cur, num_of_letters = [], [], 0

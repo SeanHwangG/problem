@@ -1,3 +1,14 @@
+# [LC_sort-colors](https://leetcode.com/problems/sort-colors)
+
+Sort three number
+
+```txt
+Input: nums = [2,0,2,1,1,0]
+Output: [0,0,1,1,2,2]
+```
+
+## Solution
+
 ```py
 def sortColors(self, nums):
   red, white, blue = 0, 0, len(nums)-1

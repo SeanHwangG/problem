@@ -1,3 +1,13 @@
+# [HR_s10-mcq-2](https://www.hackerrank.com/challenges/s10-mcq-2)
+
+Two toss of six-sided dice, find probability that values rolled by each die will be different, two dice sum to 6
+
+```txt
+Output: 1/9
+```
+
+## Solution
+
 ```py
 from fractions import Fraction
 poss = 0

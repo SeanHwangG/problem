@@ -1,3 +1,18 @@
+# [LC_number-of-ships-in-a-rectangle](https://leetcode.com/problems/number-of-ships-in-a-rectangle)
+
+Given Sea.hasShips(topRight, bottomLeft) which returns if at least one ship in the rectangle represented by 2 points
+Given two points: top right, bottom left corners of a rectangle, return # ships present in that rectangle
+
+```txt
+ships = [[1,1],[2,2],[3,3],[5,5]], topRight = [4,4], bottomLeft = [0,0]
+Output: 3
+
+Input: ans = [[1,1],[2,2],[3,3]], topRight = [1000,1000], bottomLeft = [0,0]
+Output: 3
+```
+
+## Solution
+
 ```py
 def countShips(self, sea, P, Q):
   res = 0

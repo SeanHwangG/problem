@@ -1,3 +1,14 @@
+# [LC_first-unique-character-in-a-string](https://leetcode.com/problems/first-unique-character-in-a-string)
+
+Given string, find first non-repeating character in it and return its index. If it doesn't exist, return -1
+
+```txt
+Input: s = "loveleetcode"
+Output: 2
+```
+
+## Solution
+
 ```cpp
 int firstUniqChar(string s) {
   int arr[26] = {0};

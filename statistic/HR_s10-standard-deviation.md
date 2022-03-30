@@ -1,3 +1,17 @@
+# [HR_s10-standard-deviation](https://www.hackerrank.com/challenges/s10-standard-deviation)
+
+Print standard deviation of given array up to 1st decimal
+
+```txt
+Input:
+5
+10 40 30 50 20
+
+Output: 14.1
+```
+
+## Solution
+
 ```py
 import statistics as stats
 

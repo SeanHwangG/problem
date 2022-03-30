@@ -1,3 +1,25 @@
+# [KT_cudoviste](https://open.kattis.com/problems/cudoviste)
+
+
+
+```txt
+Input:
+4 4
+#..#
+..X.
+..X.
+#XX#
+
+Output:
+1
+1
+2
+1
+0
+```
+
+## Solution
+
 ```py
 N, M = map(int, input().split())
 G = []

@@ -1,3 +1,14 @@
+# [LC_goal-parser-interpretation](https://leetcode.com/problems/goal-parser-interpretation)
+
+
+
+```txt
+Input: command = "G()()()()(al)"
+Output: "Gooooal"
+```
+
+## Solution
+
 ```cpp
 string interpret(string s) {
   string ans;

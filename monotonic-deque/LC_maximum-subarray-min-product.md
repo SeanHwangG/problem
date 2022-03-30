@@ -1,3 +1,15 @@
+# [LC_maximum-subarray-min-product](https://leetcode.com/problems/maximum-subarray-min-product)
+
+Min-product of an array is equal to the minimum value in the array multiplied by the array's sum
+Given array of int nums, return max min-product of any non-empty subarray of nums, modulo 10^9 + 7
+
+```txt
+Input: nums = [1,2,3,2]
+Output: 14
+```
+
+## Solution
+
 ```cpp
 int maxSumMinProduct(vector<int>& n) {
   long res = 0;

@@ -1,3 +1,19 @@
+# [HR_document-classification](https://www.hackerrank.com/challenges/document-classification)
+
+Given Train data https://s3.amazonaws.com/hr-testcases/597/assets/trainingdata.txt
+
+Classify each document
+
+```txt
+Input:
+5485
+1 champion products ch approves stock split champion products inc said its board of directors approved a two for ...
+2 computer terminal systems cpml completes sale computer terminal systems inc said it has completed the sale of ...
+1 cobanco inc cbco year net shr cts vs dlrs net vs assets mln vs mln deposits mln vs mln loans mln vs mln note th ...
+```
+
+## Solution
+
 ```py
 from sklearn.svm import LinearSVC
 from sklearn.feature_extraction.text import HashingVectorizer

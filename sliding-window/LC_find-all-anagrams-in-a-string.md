@@ -1,3 +1,14 @@
+# [LC_find-all-anagrams-in-a-string](https://leetcode.com/problems/find-all-anagrams-in-a-string)
+
+Given string s and p, return array of all the start indices of p's anagrams in s in any order
+
+```txt
+Input: s = "cbaebabacd", p = "abc"
+Output: [0,6]
+```
+
+## Solution
+
 ```cpp
 vector<int> findAnagrams(string s, string p) {
   if (s.size() < p.size()) return {};

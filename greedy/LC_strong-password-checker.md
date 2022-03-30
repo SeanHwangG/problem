@@ -1,3 +1,21 @@
+# [LC_strong-password-checker](https://leetcode.com/problems/strong-password-checker)
+
+It has at least 6 characters and at most 20 characters
+It contains at least one lowercase letter, at least one uppercase letter, and at least one digit
+It does not contain three repeating characters in a row
+  (ex: "...aaa..." is weak, but "...aa...a..." is strong, assuming other conditions are met)
+Minimum nubmer of steps to make password strong
+  Insert one character to password,
+  Delete one character from password, or
+  Replace one character of password with another character
+
+```txt
+Input: password = "aA1"
+Output: 3
+```
+
+## Solution
+
 ```py
 def strongPasswordChecker(self, s):
   missing_type = 3

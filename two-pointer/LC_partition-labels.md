@@ -1,3 +1,16 @@
+# [LC_partition-labels](https://leetcode.com/problems/partition-labels)
+
+String s of lowercase English letters is given
+Partition this string into as many parts as possible so that each letter appears in at most one part
+Return list of size of these parts
+
+```txt
+Input: s = "ababcbacadefegdehijhklij"
+Output: [9,7,8]
+```
+
+## Solution
+
 ```py
 def partitionLabels(self, s: str) -> List[int]:
   rightmost = {c : i for i, c in enumerate(s)}

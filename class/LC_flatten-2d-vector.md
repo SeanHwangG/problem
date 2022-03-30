@@ -1,3 +1,17 @@
+# [LC_flatten-2d-vector](https://leetcode.com/problems/flatten-2d-vector)
+
+Design flattened 2D Vector
+
+```txt
+Input: [ [1,2],
+  [3],
+  [4,5,6]]
+
+Output: [1,2,3,4,5,6]
+```
+
+## Solution
+
 ```py
 class Vector2D:
   def __init__(self, lis):

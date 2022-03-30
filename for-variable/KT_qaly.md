@@ -1,3 +1,20 @@
+# [KT_qaly](https://open.kattis.com/problems/qaly)
+
+
+
+```txt
+Input:
+2
+1 2
+3 -2
+
+Output:
+2
+-6
+```
+
+## Solution
+
 ```py
 n_line = int(input())
 ret = 0

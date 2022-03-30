@@ -1,3 +1,14 @@
+# [LC_same-tree](https://leetcode.com/problems/same-tree)
+
+Check if tree are same
+
+```txt
+Input: p = [1,2], q = [1,null,2]
+Output: false
+```
+
+## Solution
+
 ```py
 def isSameTree(self, p, q):
   if p and q:

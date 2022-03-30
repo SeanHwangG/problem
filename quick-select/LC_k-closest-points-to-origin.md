@@ -1,3 +1,18 @@
+# [LC_k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin)
+
+Given array of points where points[i] = [xi, yi] represents a point on X-Y plane and an integer k
+return k closest points to the origin (0, 0) in any order (guaranteed to be unique)
+
+```txt
+Input: points = [[1,3],[-2,2]], k = 1
+Output: [[-2,2]]
+
+Input: points = [[3,3],[5,-1],[-2,4]], k = 2
+Output: [[3,3],[-2,4]]
+```
+
+## Solution
+
 ```cpp
 vector<vector<int>> kClosest(vector<vector<int>>& A, int K) {
   nth_element(A.begin(), A.begin() + K, A.end(), [](vector<int>& a, vector<int>& b) {

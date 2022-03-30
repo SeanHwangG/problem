@@ -1,3 +1,21 @@
+# [LC_transform-to-chessboard](https://leetcode.com/problems/transform-to-chessboard)
+
+Given n x n binary grid board. In each move, swap any two rows with each other, or any two columns with each other
+Return minimum number of moves to transform the board into a chessboard board. If impossible, return -1
+Chessboard board is a board where no 0's and no 1's are 4-directionally adjacent.
+
+```txt
+Input: board =
+[[0,1,1,0],
+ [0,1,1,0],
+ [1,0,0,1],
+ [1,0,0,1]]
+
+Output: 2
+```
+
+## Solution
+
 1. In a valid chess board, there are 2 and only 2 kinds of rows and one is inverse to the other
     * (ex: if there is a row 01010011 in the board, any other row must be either 01010011 or 10101100)
 1. Every row and column has half ones.

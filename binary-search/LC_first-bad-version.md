@@ -1,3 +1,17 @@
+# [LC_first-bad-version](https://leetcode.com/problems/first-bad-version)
+
+Find first bad version using isBadVersion function
+
+```txt
+50
+isBadVersion False
+25
+isBadVersion True
+...
+```
+
+## Solution
+
 ```py
 def firstBadVersion(self, n):
   lo, hi = 1, n

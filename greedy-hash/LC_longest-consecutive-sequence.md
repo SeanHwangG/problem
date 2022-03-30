@@ -1,3 +1,14 @@
+# [LC_longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence)
+
+Given unsorted array of int nums, return the length of the longest consecutive elements sequence
+
+```txt
+Input: nums = [100,4,200,1,3,2]
+Output: 4
+```
+
+## Solution
+
 ```py
 def longestConsecutive(self, nums: List[int]) -> int:
   nums = set(nums)

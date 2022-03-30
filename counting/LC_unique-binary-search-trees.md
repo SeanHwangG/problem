@@ -1,3 +1,14 @@
+# [LC_unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees)
+
+Given an integer n, return # structurally unique BST's which has exactly n nodes of unique values from 1 to n
+
+```txt
+Input: n = 3
+Output: 5
+```
+
+## Solution
+
 * Catalan numbers: $$ \frac{(2n)!}{(n + 1)!n!} $$
 * Time, Space: O(N), O(1)
 

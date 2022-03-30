@@ -1,3 +1,14 @@
+# [LC_arithmetic-slices-ii-subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)
+
+Given an integer array nums, return the number of all the arithmetic subsequences of length greater than 2
+
+```txt
+Input: nums = [2,4,6,8,10]
+Output: 7
+```
+
+## Solution
+
 ```py
 def numberOfArithmeticSlices(self, li: List[int]) -> int:
   ans = 0

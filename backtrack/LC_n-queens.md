@@ -1,3 +1,16 @@
+# [LC_n-queens](https://leetcode.com/problems/n-queens)
+
+Return all answer for NQueen
+
+```txt
+Input: n = 4
+Output:
+[[".Q..","...Q","Q...","..Q."],
+ ["..Q.","Q...","...Q",".Q.."]]
+```
+
+## Solution
+
 ```py
 def solveNQueens(self, n):
   def DFS(queens, xy_dif, xy_sum):

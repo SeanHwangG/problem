@@ -1,3 +1,14 @@
+# [LC_course-schedule](https://leetcode.com/problems/course-schedule)
+
+Given jobs and prerequisite, check if all jobs can be done
+
+```txt
+Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
+Output: false
+```
+
+## Solution
+
 ```py
 def canFinish(n, prerequisites):
   G = [[] for i in range(n)]

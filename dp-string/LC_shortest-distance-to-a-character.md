@@ -1,3 +1,14 @@
+# [LC_shortest-distance-to-a-character](https://leetcode.com/problems/shortest-distance-to-a-character)
+
+Find closest occurrence of character c in s
+
+```txt
+Input: s = "loveleetcode", c = "e"
+Output: [3,2,1,0,1,0,0,1,2,2,1,0]
+```
+
+## Solution
+
 ```py
 def shortestToChar(self, S: str, C: str) -> List[int]:
   ret = [0 if s == C else len(S) for s in S]

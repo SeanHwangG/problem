@@ -1,3 +1,14 @@
+# [LC_maximum-subarray](https://leetcode.com/problems/maximum-subarray)
+
+Given an integer array nums, find the contiguous subarray which has the largest sum and return its sum
+
+```txt
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+```
+
+## Solution
+
 * Run; O(N)
 
 ```java

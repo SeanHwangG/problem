@@ -1,3 +1,18 @@
+# [LC_preimage-size-of-factorial-zeroes-function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function)
+
+Let f(x) be the number of zeroes at the end of x!
+Given an integer k, return the number of non-negative integers x have the property that f(x) = k.
+
+```txt
+Input: k = 0
+Output: 5 # 0!, 1!, 2!, 3!, and 4! end with k = 0 zeroes.
+
+Input: k = 5
+Output: 0
+```
+
+## Solution
+
 ```py
 def preimageSizeFZF(self, K):
   def f(x):

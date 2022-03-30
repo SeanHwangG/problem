@@ -1,3 +1,15 @@
+# [LC_climbing-stairs](https://leetcode.com/problems/climbing-stairs)
+
+Climbing staircase which takes n steps to reach top
+Each time either climb 1 or 2 steps. In how many distinct ways can climb to top?
+
+```txt
+Input: n = 2
+Output: 2
+```
+
+## Solution
+
 ```go
 func climbStairs(n int) int {
   a := 1

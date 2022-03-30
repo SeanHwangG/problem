@@ -1,3 +1,27 @@
+# [KT_missingnumbers](https://open.kattis.com/problems/missingnumbers)
+
+Print  all missing numbers 
+
+```txt
+Input: 9
+2
+4
+5
+7
+8
+9
+10
+11
+13
+
+Output: 1
+3
+6
+12
+```
+
+## Solution
+
 ```py
 n = int(input())
 gap = False

@@ -1,3 +1,14 @@
+# [LC_3sum-closest](https://leetcode.com/problems/3sum-closest)
+
+Given array S of n int, find three int in S such that the sum is closest to a given number, target
+
+```txt
+Input: nums = [-1,2,1,-4], target = 1
+Output: 2
+```
+
+## Solution
+
 ```java
 public int threeSumClosest(int[] nums, int target) {
   if (nums == null || nums.length < 3) return 0;

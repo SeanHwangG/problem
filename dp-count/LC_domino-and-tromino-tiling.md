@@ -1,3 +1,14 @@
+# [LC_domino-and-tromino-tiling](https://leetcode.com/problems/domino-and-tromino-tiling)
+
+Given two types of domino (I and L), find the number of ways to tile 2 * N board
+
+```txt
+Input: n = 3
+Output: 5
+```
+
+## Solution
+
 ```cpp
 int numTilings(int N) {
   int p3 = -1, p2 = 0, p1 = 1;

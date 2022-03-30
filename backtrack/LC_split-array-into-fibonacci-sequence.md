@@ -1,3 +1,14 @@
+# [LC_split-array-into-fibonacci-sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence)
+
+Return any Fibonacci-like sequence split from num, or return [] if it cannot be done
+
+```txt
+Input: num = "123456579"
+Output: [123,456,579]
+```
+
+## Solution
+
 ```py
 def splitIntoFibonacci(self, num: str) -> List[int]:
   def backtrack(s, i, seq, l):

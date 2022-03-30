@@ -1,3 +1,17 @@
+# [LC_integer-to-english-words](https://leetcode.com/problems/integer-to-english-words)
+
+Convert a non-negative integer num to its English words representation.
+
+```txt
+Input: num = 123
+Output: "One Hundred Twenty Three"
+
+Input: num = 12345
+Output: "Twelve Thousand Three Hundred Forty Five"
+```
+
+## Solution
+
 ```py
 def numberToWords(self, num):
   to19 = 'One Two Three Four Five Six Seven Eight Nine Ten Eleven Twelve ' \

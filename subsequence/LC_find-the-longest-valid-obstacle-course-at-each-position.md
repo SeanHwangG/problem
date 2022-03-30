@@ -1,3 +1,17 @@
+# [LC_find-the-longest-valid-obstacle-course-at-each-position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position)
+
+Given integer array, find longest increasing subsequence ends at particular index
+
+```txt
+Input: obstacles = [1,2,3,2]
+Output: [1,2,3,3]
+
+Input: obstacles = [3,1,5,6,4,2]
+Output: [1,1,2,3,2,2]
+```
+
+## Solution
+
 ```py
 def longestObstacleCourseAtEachPosition(self, A):
   mono, res = [], []

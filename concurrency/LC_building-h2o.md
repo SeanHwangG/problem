@@ -1,3 +1,14 @@
+# [LC_building-h2o](https://leetcode.com/problems/building-h2o)
+
+Given function that prints h, o. Print hho sequentially
+
+```txt
+Input: "OOHHHH"
+Output: "HHOHHO"  # "HOHHHO", "OHHHHO", "HHOHOH", "HOHHOH", "OHHHOH", "HHOOHH", "HOHOHH" and "OHHOHH" are also valid
+```
+
+## Solution
+
 ```cpp
 class H2O {
   mutex mtxHH, mtxO;

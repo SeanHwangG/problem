@@ -1,3 +1,16 @@
+# [LC_find-the-shortest-superstring](https://leetcode.com/problems/find-the-shortest-superstring)
+
+Given array of strings words, return the smallest string that contains each string in words as a substring
+If there are multiple valid strings of the smallest length, return any of them
+Assume that no string in words is a substring of another string in words
+
+```txt
+Input: words = ["catg","ctaagt","gcta","ttca","atgcatc"]
+Output: "gctaagttcatgcatc"
+```
+
+## Solution
+
 ```py
 def shortestSuperstring(self, words: List[str]) -> str:
   overlaps = [[0 for _ in range(len(words))] for _ in range(len(words))]

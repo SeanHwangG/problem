@@ -1,3 +1,14 @@
+# [LC_maximum-ascending-subarray-sum](https://leetcode.com/problems/maximum-ascending-subarray-sum)
+
+Given an array of positive integers nums, return maximum possible sum of an ascending subarray in nums
+
+```txt
+Input: nums = [10,20,30,5,10,50]
+Output: 65  # 5 10 50
+```
+
+## Solution
+
 ```py
 def maxAscendingSum(self, nums: List[int]) -> int:
   mx = 0

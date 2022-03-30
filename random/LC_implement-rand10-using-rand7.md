@@ -1,3 +1,14 @@
+# [LC_implement-rand10-using-rand7](https://leetcode.com/problems/implement-rand10-using-rand7)
+
+Print rand10() given rand7()
+
+```txt
+Input: n = 2
+Output: [2, 8]
+```
+
+## Solution
+
 ```cpp
 int rand10() {
   int rand40 = 40;

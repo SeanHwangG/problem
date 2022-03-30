@@ -1,3 +1,14 @@
+# [LC_partition-to-k-equal-sum-subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)
+
+Given int array nums and int k, return if can divide array into k non-empty subsets whose sums are all equal
+
+```txt
+Input: nums = [4,3,2,3,5,2,1], k = 4
+Output: true  # 5, 1 4, 2 3, 2 3
+```
+
+## Solution
+
 * Time; O(k * 2^n)
 
 ```cpp

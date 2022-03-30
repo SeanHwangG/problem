@@ -1,3 +1,14 @@
+# [KT_provincesandgold](https://open.kattis.com/problems/provincesandgold)
+
+
+
+```txt
+Input: 2 1 0
+Output: Province or Gold
+```
+
+## Solution
+
 ```py
 g, s, c = map(int, input().split())
 tot = g * 3 + s * 2 + c

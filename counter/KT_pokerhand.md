@@ -1,3 +1,15 @@
+# [KT_pokerhand](https://open.kattis.com/problems/pokerhand)
+
+First character is rank
+How many times did msot frequent rank appeared
+
+```txt
+Input: AC AD AH AS KD
+Output: 4
+```
+
+## Solution
+
 ```py
 from collections import Counter
 cnter = Counter()

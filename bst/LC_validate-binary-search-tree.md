@@ -1,3 +1,14 @@
+# [LC_validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree)
+
+Check if tree is valid BST
+
+```txt
+Input: root = [5,1,4,null,null,3,6]
+Output: false
+```
+
+## Solution
+
 ```cpp
 class Solution {
 public:

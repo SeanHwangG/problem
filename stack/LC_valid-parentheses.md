@@ -1,3 +1,21 @@
+# [LC_valid-parentheses](https://leetcode.com/problems/valid-parentheses)
+
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if input is valid
+
+
+```txt
+Input: s = "()"
+Output: true
+
+Input: s = "()[]{}"
+Output: true
+
+Input: s = "(]"
+Output: false
+```
+
+## Solution
+
 ```java
 public boolean isValid(String s) {
   Stack<Character> stack = new Stack<Character>();

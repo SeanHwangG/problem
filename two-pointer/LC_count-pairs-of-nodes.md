@@ -1,3 +1,18 @@
+# [LC_count-pairs-of-nodes](https://leetcode.com/problems/count-pairs-of-nodes)
+
+Undirected graph with n # nodes, and an integer array queries are given
+Answer to jth query is # pairs of nodes (a, b) that satisfy following conditions:
+  a < b
+  cnt is strictly greater than queries[j], where cnt is # edges incident to a or b
+Return array answers where answers[j] is answer of jth query
+
+```txt
+Input: n = 4, edges = [[1,2],[2,4],[1,3],[2,3],[2,1]], queries = [2,3]
+Output: [6,5]
+```
+
+## Solution
+
 ```py
 def countPairs(self, n: int, edges: List[List[int]], queries: List[int]) -> List[int]:
   v2count, res = Counter(v for edge in edges for v in edge), [0] * len(queries)

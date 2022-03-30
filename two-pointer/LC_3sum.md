@@ -1,3 +1,14 @@
+# [LC_3sum](https://leetcode.com/problems/3sum)
+
+Find list of three indices that sums up to zero
+
+```txt
+Input: nums = [-1,2,1,-4], target = 1
+Output: 2
+```
+
+## Solution
+
 ```py
 def threeSum(self, nums):
   res = []

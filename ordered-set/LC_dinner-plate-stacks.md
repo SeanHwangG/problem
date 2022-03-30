@@ -1,3 +1,22 @@
+# [LC_dinner-plate-stacks](https://leetcode.com/problems/dinner-plate-stacks)
+
+Implement the DinnerPlates class:
+DinnerPlates(int capacity) Initializes the object with the maximum capacity of the stacks capacity.
+void push(int val) Pushes the given integer val into the leftmost stack with a size less than capacity.
+int pop() Return value at top of rightmost non-empty stack and removes it from that stack, -1 if all stacks are empty
+int popAtStack(int index) Return value at top of stack with given index, and removes it from that stack or -1 if empty
+
+```txt
+Input
+["DinnerPlates", "push", "push", "push", "push", "push", "popAtStack", "push", "push", "popAtStack", "popAtStack", "pop",
+ "pop", "pop", "pop", "pop"]
+[[2], [1], [2], [3], [4], [5], [0], [20], [21], [0], [2], [], [], [], [], []]
+Output
+[null, null, null, null, null, null, 2, null, null, 20, 21, 5, 4, 3, 1, -1]
+```
+
+## Solution
+
 ```cpp
 int c;
 map<int, vector<int>> m;

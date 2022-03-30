@@ -1,3 +1,21 @@
+# [LC_the-maze](https://leetcode.com/problems/the-maze)
+
+Through empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting wall
+When the ball stops, it could choose the next direction.
+Given m x n maze, ball's start position and destination, return if ball can stop at destination
+
+```txt
+Input: maze =
+  [[0,0,1,0,0],
+   [0,0,0,0,0],
+   [0,0,0,1,0],
+   [1,1,0,1,1],
+   [0,0,0,0,0]], start = [0,4], destination = [4,4]
+Output: true  # left -> down -> left -> down -> right -> down -> right.
+```
+
+## Solution
+
 ```py
 def hasPath(self, G: List[List[int]], start: List[int], goal: List[int]) -> bool:
   Q = deque([start])

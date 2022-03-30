@@ -1,3 +1,15 @@
+# [LC_splitting-a-string-into-descending-consecutive-values](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values)
+
+Check if we can split s into two or more non-empty substrings
+ST numerical values of substrings are in descending and diff between numerical values of adjacent substrings are 1
+
+```txt
+Input: s = "050043"
+Output: true
+```
+
+## Solution
+
 ```cpp
 bool splitString(string &s, int i = 0, long prev = 0) {
   long num = 0;

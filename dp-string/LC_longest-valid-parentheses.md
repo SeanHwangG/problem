@@ -1,3 +1,17 @@
+# [LC_longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses)
+
+Given a string containing just characters '(' and ')', find length of longest valid parentheses substring
+
+```txt
+Input: s = "(()"
+Output: 2  # "()".
+
+Input: s = ")()())"
+Output: 4  # "()()".
+```
+
+## Solution
+
 ```py
 def longestValidParentheses(self, s):
   dp = [0] * (len(s) + 1)

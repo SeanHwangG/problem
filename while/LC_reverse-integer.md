@@ -1,3 +1,15 @@
+# [LC_reverse-integer](https://leetcode.com/problems/reverse-integer)
+
+Reverse integer
+
+```txt
+Input: 421
+Output:
+124
+```
+
+## Solution
+
 ```cpp
 int reverse(int x) {
   long r = 0;

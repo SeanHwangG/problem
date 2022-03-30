@@ -1,3 +1,14 @@
+# [LC_count-primes](https://leetcode.com/problems/count-primes)
+
+Count # prime numbers less than a non-negative number, n
+
+```txt
+Input: n = 10
+Output: 4
+```
+
+## Solution
+
 ```py
 def countPrimes(self, n: int) -> int:
   if n < 3: return 0

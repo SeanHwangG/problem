@@ -1,3 +1,14 @@
+# [LC_number-of-atoms](https://leetcode.com/problems/number-of-atoms)
+
+Given chemical formula (given as a string), return the count of each atom
+
+```txt
+Input: formula = "K4(ON(SO3)2)2"
+Output: "K4N2O14S4"
+```
+
+## Solution
+
 ```py
 import re
 from collections import defaultdict

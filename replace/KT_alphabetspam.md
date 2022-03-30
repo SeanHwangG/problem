@@ -1,3 +1,18 @@
+# [KT_alphabetspam](https://open.kattis.com/problems/alphabetspam)
+
+
+
+```txt
+Input: Welcome_NWERC_participants!
+Output:
+0.0740740740740741
+0.666666666666667
+0.222222222222222
+0.0370370370370370
+```
+
+## Solution
+
 ```py
 st = input()
 white = 0

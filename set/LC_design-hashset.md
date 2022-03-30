@@ -1,3 +1,17 @@
+# [LC_design-hashset](https://leetcode.com/problems/design-hashset)
+
+Design Hashset
+
+```txt
+Input:
+["MyHashSet", "add", "add", "contains", "contains", "add", "contains", "remove", "contains"]
+[[], [1], [2], [1], [3], [2], [2], [2], [2]]
+
+Output: [null, null, null, true, false, null, true, null, false]
+```
+
+## Solution
+
 ```py
 class MyHashSet:
   def __init__(self):

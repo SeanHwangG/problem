@@ -1,3 +1,18 @@
+# [HR_s10-interquartile-range](https://www.hackerrank.com/challenges/s10-interquartile-range)
+
+Given values and frequencies print quratile Q1-Q3 range
+
+```txt
+Input:
+6
+6 12 8 10 20 16
+5 4 3 2 1 5
+
+Output: 9.0
+```
+
+## Solution
+
 ```py
 import statistics as st
 n = int(input())

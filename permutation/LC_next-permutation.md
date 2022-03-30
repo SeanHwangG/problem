@@ -1,3 +1,14 @@
+# [LC_next-permutation](https://leetcode.com/problems/next-permutation)
+
+Print next permutation
+
+```txt
+Input: nums = [1,2,3]
+Output: [1,3,2]
+```
+
+## Solution
+
 ```cpp
 void nextPermutation(vector<int>& nums) {
   next_permutation(begin(nums), end(nums));

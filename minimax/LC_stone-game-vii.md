@@ -1,3 +1,17 @@
+# [LC_stone-game-vii](https://leetcode.com/problems/stone-game-vii)
+
+There are n stones arranged in a row
+On each player's turn, they can remove either the leftmost stone or the rightmost stone from the row
+And receive points equal to the sum of the remaining stones' values in the row
+The winner is the one with the higher score when there are no stones left to remove
+
+```txt
+Input: stones = [5,3,1,4,2]
+Output: 6
+```
+
+## Solution
+
 ```cpp
 int dp[1001][1001] = {};
 int dfs(vector<int>& s, int i, int j, int sum) {

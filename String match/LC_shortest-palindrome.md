@@ -1,3 +1,18 @@
+# [LC_shortest-palindrome](https://leetcode.com/problems/shortest-palindrome)
+
+Given a string s. You can convert s to a palindrome by adding characters in front of it
+Return shortest palindrome you can find by performing this transformation.
+
+```txt
+Input: s = "aacecaaa"
+Output: "aaacecaaa"
+
+Input: s = "abcd"
+Output: "dcbabcd"
+```
+
+## Solution
+
 ```cpp
 string shortestPalindrome(string s) {
   string rev_s = s;

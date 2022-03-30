@@ -1,3 +1,18 @@
+# [LC_linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)
+
+Given a singly linked list, return random node's value from the linked list
+
+```txt
+Input:
+["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
+[[[1, 2, 3]], [], [], [], [], []]
+
+Output:
+[null, 1, 3, 2, 2, 3]
+```
+
+## Solution
+
 ```go
 type Solution struct {
   arr []int

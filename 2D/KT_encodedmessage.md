@@ -1,3 +1,22 @@
+# [KT_encodedmessage](https://open.kattis.com/problems/encodedmessage)
+
+Encode string
+
+```txt
+Input: 3
+RSTEEOTCP
+eedARBtVrolsiesuAoReerles
+EarSvyeqeBsuneMa
+
+Output:
+TOPSECRET
+RosesAreRedVioletsAreBlue
+SquaresMayBeEven
+
+```
+
+## Solution
+
 ```py
 n = int(input())
 for _ in range(n):

@@ -1,3 +1,15 @@
+# [LC_wiggle-sort-ii](https://leetcode.com/problems/wiggle-sort-ii)
+
+Given int array nums, reorder it such that nums[0] < nums[1] > nums[2] < nums[3]...
+Assume input array always has valid answer
+
+```txt
+Input: nums = [1,5,1,1,6,4]
+Output: [1,6,1,5,1,4]
+```
+
+## Solution
+
 ```cpp
 void wiggleSort(vector<int>& nums) {
   int n = nums.size();

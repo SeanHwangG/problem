@@ -1,3 +1,16 @@
+# [LC_odd-even-jump](https://leetcode.com/problems/odd-even-jump)
+
+During odd-numbered jumps, jump to index j ST arr[i] <= arr[j] and arr[j] is smallest possible (value, index)
+During even-numbered jumps, jump to index j ST arr[i] >= arr[j] and arr[j] is largest possible (value, index)
+Return the number of indices where you can reach the end of the array
+
+```txt
+Input: arr = [10,13,12,14,15]
+Output: 2
+```
+
+## Solution
+
 * Time: O(NlogN)
 * Space: O(N)
 

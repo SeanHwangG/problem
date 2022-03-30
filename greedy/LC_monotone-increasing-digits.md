@@ -1,3 +1,14 @@
+# [LC_monotone-increasing-digits](https://leetcode.com/problems/monotone-increasing-digits)
+
+Print largest monotonic increasing number less than N
+
+```txt
+Input: n = 5432
+Output: 4999
+```
+
+## Solution
+
 * Find first decreasing digit
 * 20s / 5422 -> 300s / 5322 -> 4000s / 4322 -> 4999
 

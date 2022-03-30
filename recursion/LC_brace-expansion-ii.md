@@ -1,3 +1,17 @@
+# [LC_brace-expansion-ii](https://leetcode.com/problems/brace-expansion-ii)
+
+
+
+```txt
+Input: "{a,b}{c,{d,e}}"
+Output: ["ac","ad","ae","bc","bd","be"]
+
+Input: "{{a,z},a{b,c},{ab,z}}"
+Output: ["a","ab","ac","z"]
+```
+
+## Solution
+
 ```py
 def braceExpansionII(self, expression: str) -> List[str]:
   groups = [[]]

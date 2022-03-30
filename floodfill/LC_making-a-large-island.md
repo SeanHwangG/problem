@@ -1,3 +1,16 @@
+# [LC_making-a-large-island](https://leetcode.com/problems/making-a-large-island)
+
+Given n x n binary matrix grid. You are allowed to change at most one 0 to be 1
+Return size of the largest island in grid after applying this operation
+Island is a 4-directionally connected group of 1s
+
+```txt
+Input: grid = [[1,1],[1,0]]
+Output: 4
+```
+
+## Solution
+
 ```cpp
 int get(int i, int j, vector<vector<int>>& g) {
   return (i < 0 || j < 0 || i >= g.size() || j >= g[0].size()) ? 0 : g[i][j];

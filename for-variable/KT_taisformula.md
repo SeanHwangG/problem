@@ -1,3 +1,18 @@
+# [KT_taisformula](https://open.kattis.com/problems/taisformula)
+
+Each N line contains, where ti is the time of the sample, and vi is the glucose value at time ti
+
+```txt
+Input: 3  # N
+1000 2.0   # ti, vi
+2000 12.0
+3000 22.0
+
+Output: 24
+```
+
+## Solution
+
 ```py
 pa, pb = None, None
 ret = 0

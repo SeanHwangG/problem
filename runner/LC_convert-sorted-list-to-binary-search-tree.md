@@ -1,3 +1,14 @@
+# [LC_convert-sorted-list-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)
+
+Make BST from sorted linked list
+
+```txt
+Input: head = [-10,-3,0,5,9]
+Output: [0,-3,9,-10,null,5]
+```
+
+## Solution
+
 ```py
 def sortedListToBST(self, head):
   if not head:

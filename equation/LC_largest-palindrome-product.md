@@ -1,3 +1,15 @@
+# [LC_largest-palindrome-product](https://leetcode.com/problems/largest-palindrome-product)
+
+Given integer n, return largest palindromic integer that can be represented as product of two n-digits ints
+Return it modulo 1337
+
+```txt
+Input: n = 2
+Output: 987  # 99 x 91 = 9009, 9009 % 1337 = 987
+```
+
+## Solution
+
 ```py
 def largestPalindrome(self, n):  # 10 ^ (2n) - 10 ^ n * (x + y) + xy = 10 ^ n * (10 ^ n - (x + y)) + xy
   if n == 1: return 9

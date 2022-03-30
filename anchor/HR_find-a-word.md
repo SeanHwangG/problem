@@ -1,3 +1,22 @@
+# [HR_find-a-word](https://www.hackerrank.com/challenges/find-a-word)
+
+For every word, print the number of occurrences of the word in all the N sentences listed
+
+```txt
+Input:
+1
+foo bar (foo) bar foo-bar foo_bar foobar bar-foo bar, foo.
+2
+foo
+foobar
+
+Output:
+5  # foobar doesn't count
+1
+```
+
+## Solution
+
 ```py
 import re
 

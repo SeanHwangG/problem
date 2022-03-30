@@ -1,3 +1,16 @@
+# [LC_unique-paths-ii](https://leetcode.com/problems/unique-paths-ii)
+
+Robot is located at the top-left corner of a m x n grid
+The robot can only move either down or right, trying to reach the bottom-right corner of the grid
+Now consider if some obstacles are added to the grids. How many unique paths would there be?
+
+```txt
+Input: obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
+Output: 2
+```
+
+## Solution
+
 * Time; O(N^2)
 * Space; O(N)
 

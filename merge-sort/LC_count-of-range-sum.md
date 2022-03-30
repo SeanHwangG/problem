@@ -1,3 +1,15 @@
+# [LC_count-of-range-sum](https://leetcode.com/problems/count-of-range-sum)
+
+Given int array nums and two integers lower and upper, return # range sums that lie in [lower, upper] inclusive
+Range sum S(i, j) is defined as the sum of the elements in nums between indices i and j inclusive, where i <= j
+
+```txt
+Input: nums = [-2,5,-1], lower = -2, upper = 2
+Output: 3  # [0,0], [2,2], and [0,2]
+```
+
+## Solution
+
 ```py
 def countRangeSum(self, nums, lower, upper):
   first = [0]

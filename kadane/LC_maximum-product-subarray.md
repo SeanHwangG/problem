@@ -1,3 +1,14 @@
+# [LC_maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray)
+
+Print maximum product subarray
+
+```txt
+Input: nums = [2,3,-2,4]
+Output: 6
+```
+
+## Solution
+
 ```py
 def maxProduct(self, A):
   B = A[::-1]

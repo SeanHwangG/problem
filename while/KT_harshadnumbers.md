@@ -1,3 +1,14 @@
+# [KT_harshadnumbers](https://open.kattis.com/problems/harshadnumbers)
+
+
+
+```txt
+Input: 25
+Output: 27
+```
+
+## Solution
+
 ```py
 def is_harshad(num):
   digit_sum = 0

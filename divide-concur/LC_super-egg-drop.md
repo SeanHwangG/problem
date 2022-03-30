@@ -1,3 +1,15 @@
+# [LC_super-egg-drop](https://leetcode.com/problems/super-egg-drop)
+
+Given K eggs, and you have access to a building with N floors from 1 to N
+What is the minimum number of moves that you need to know with certainty what F
+
+```txt
+Input: k = 2, n = 6
+Output: 3
+```
+
+## Solution
+
 * Time; O(KlogN)
 * Space; O(K)
 

@@ -1,3 +1,15 @@
+# [LC_count-of-smaller-numbers-after-self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)
+
+Given int array nums and you have to return a new counts array
+Counts array has the property where counts[i] is the number of smaller elements to the right of nums[i]
+
+```txt
+Input: nums = [5,2,6,1]
+Output: [2,1,1,0]
+```
+
+## Solution
+
 ```py
 class BIT:
   def __init__(self, n):

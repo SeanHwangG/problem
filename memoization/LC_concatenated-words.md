@@ -1,3 +1,14 @@
+# [LC_concatenated-words](https://leetcode.com/problems/concatenated-words)
+
+Given array of unique strings words, return all the concatenated words in the given list of words
+
+```txt
+Input: words = ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
+Output: ["catsdogcats","dogcatsdog","ratcatdogcat"]
+```
+
+## Solution
+
 ```py
 def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
   words = set(words)

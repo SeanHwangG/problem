@@ -1,3 +1,14 @@
+# [KT_ostgotska](https://open.kattis.com/problems/ostgotska)
+
+
+
+```txt
+Input: dae ae ju traeligt va
+Output: dae ae ju traeligt va
+```
+
+## Solution
+
 ```py
 li = input().split()
 n = len(li) * 0.4

@@ -1,3 +1,23 @@
+# [KT_schoolspirit](https://open.kattis.com/problems/schoolspirit)
+
+1/5 ∑_{i=0}^{n-1} s_i ⋅(4/5)^i
+
+What is the average value of gi over all all n students?
+
+```txt
+Input:
+3
+500
+120
+75
+
+Output:
+128.8
+89.06666666666666
+```
+
+## Solution
+
 ```py
 n_team = int(input())
 li = list(sorted([int(input()) for _ in range(n_team)], reverse=True))

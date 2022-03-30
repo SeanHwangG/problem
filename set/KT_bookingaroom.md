@@ -1,3 +1,21 @@
+# [KT_bookingaroom](https://open.kattis.com/problems/bookingaroom)
+
+
+
+```txt
+Input:
+100 5
+42
+3
+2
+99
+1
+
+Output: 23
+```
+
+## Solution
+
 ```py
 a, b = map(int, input().split())
 se = set()

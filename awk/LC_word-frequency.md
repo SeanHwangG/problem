@@ -1,3 +1,21 @@
+# [LC_word-frequency](https://leetcode.com/problems/word-frequency)
+
+Script should output the following, sorted by descending frequency:
+
+```txt
+Input:
+the day is sunny the the
+the sunny is is
+
+Output:
+the 4
+is 3
+sunny 2
+day 1
+```
+
+## Solution
+
 ```sh
 # tr -s: truncate the string with target string, but only remaining one instance (e.g. multiple whitespaces)
 # sort: To make the same string successive so that uniq could count the same string fully and correctly.

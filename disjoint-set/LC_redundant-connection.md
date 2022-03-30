@@ -1,3 +1,14 @@
+# [LC_redundant-connection](https://leetcode.com/problems/redundant-connection)
+
+Return edge that can be removed so that the resulting graph is a tree of N nodes
+
+```txt
+Input: edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]
+Output: [1,4]
+```
+
+## Solution
+
 ```cpp
 vector<int> findRedundantConnection(vector<vector<int>>& edges) {
   vector<int> parent(edges.size()+1, 0);

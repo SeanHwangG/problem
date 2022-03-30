@@ -1,3 +1,15 @@
+# [HR_the-trigram](https://www.hackerrank.com/challenges/the-trigram)
+
+Print most frequent trigram in text, first one in case of tie
+
+
+```txt
+Input: I came from the moon. He went to the other room. She went to the drawing room.
+Output: went to the
+```
+
+## Solution
+
 ```py
 import sys
 from collections import Counter

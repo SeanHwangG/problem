@@ -1,3 +1,14 @@
+# [LC_nth-digit](https://leetcode.com/problems/nth-digit)
+
+Find nth digit of the infinite integer sequence 1,2,..
+
+```txt
+Input: n = 11
+Output: 0
+```
+
+## Solution
+
 ```py
 def findNthDigit(self, n):
   n -= 1

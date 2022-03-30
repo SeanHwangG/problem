@@ -1,3 +1,14 @@
+# [LC_median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
+
+Return median of two sorted array
+
+```txt
+Input: nums1 = [1,2], nums2 = [3,4]
+Output: 2.50000  # merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5
+```
+
+## Solution
+
 ```py
 def findMedianSortedArrays(self, nums1, nums2):
   a, b = sorted((nums1, nums2), key=len)

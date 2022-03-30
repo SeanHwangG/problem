@@ -1,3 +1,15 @@
+# [LC_super-palindromes](https://leetcode.com/problems/super-palindromes)
+
+Let's say a positive integer is a super-palindrome if it is a palindrome, and it is also the square of a palindrome
+Given 2 positive int left and right represented as strings, return # of super-palindromes int in inclusive range [left, right]
+
+```txt
+Input: left = "4", right = "1000"
+Output: 4
+```
+
+## Solution
+
 ```py
 def superpalindromesInRange(self, left: str, right: str) -> int:
   def generate_palindromes():

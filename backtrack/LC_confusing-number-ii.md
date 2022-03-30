@@ -1,3 +1,18 @@
+# [LC_confusing-number-ii](https://leetcode.com/problems/confusing-number-ii)
+
+Confusing number is a number that when rotated 180 degrees becomes a different number with each digit valid
+Given int n, return number of confusing numbers in inclusive range [1, n]
+
+```txt
+Input: n = 20
+Output: 6
+
+Input: n = 100
+Output: 19
+```
+
+## Solution
+
 ```py
 res = 0
 rotate = {'0' : '0', '1' : '1', '6' : '9', '8' : '8', '9' : '6'}

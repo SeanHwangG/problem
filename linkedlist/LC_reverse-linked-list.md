@@ -1,3 +1,14 @@
+# [LC_reverse-linked-list](https://leetcode.com/problems/reverse-linked-list)
+
+Reverse linked list
+
+```txt
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
+```
+
+## Solution
+
 ```java
 public ListNode reverseList(ListNode head) {
   if(head == null || head.next == null)  return head;

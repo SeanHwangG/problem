@@ -1,3 +1,22 @@
+# [KT_cups](https://open.kattis.com/problems/cups)
+
+
+
+```txt
+Input:
+3
+red 10
+10 blue
+green 7
+
+Output:
+blue
+green
+red
+```
+
+## Solution
+
 ```py
 n_line = int(input())
 li = []

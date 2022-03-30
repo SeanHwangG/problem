@@ -1,3 +1,18 @@
+# [LC_minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid)
+
+Find min number of changes to make at least one valid path
+
+```txt
+Input: grid =
+[[1,1,1,1],
+ [2,2,2,2],
+ [1,1,1,1],
+ [2,2,2,2]]
+Output: 3
+```
+
+## Solution
+
 ```py
 def minCost(self, G: List[List[int]]) -> int:
   def neighborhood(r: int, c: int) -> Iterator[Tuple[int, int, int]]:

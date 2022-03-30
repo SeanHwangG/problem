@@ -1,3 +1,18 @@
+# [LC_number-of-valid-subarrays](https://leetcode.com/problems/number-of-valid-subarrays)
+
+Given an integer array nums
+Return # of non-empty subarrays with leftmost element of the subarray not larger than other elements in subarray
+
+```txt
+Input: nums = [1,4,2,5,3]
+Output: 11
+
+Input: nums = [3,2,1]
+Output: 3
+```
+
+## Solution
+
 ```py
 def validSubarrays(self, nums: List[int]) -> int:
   nums.append(-inf)

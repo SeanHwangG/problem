@@ -1,3 +1,14 @@
+# [LC_valid-perfect-square](https://leetcode.com/problems/valid-perfect-square)
+
+Check if a number is square
+
+```txt
+Input: num = 16
+Output: true
+```
+
+## Solution
+
 * Newton's method
 
 ```py

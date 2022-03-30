@@ -1,3 +1,15 @@
+# [LC_largest-component-size-by-common-factor](https://leetcode.com/problems/largest-component-size-by-common-factor)
+
+There is edge between A[i] and A[j] if and only if A[i] and A[j] share a common factor greater than 1
+Return the size of the largest connected component in the graph
+
+```txt
+Input: nums = [20,50,9,63]
+Output: 2
+```
+
+## Solution
+
 ```py
 import collections
 import math

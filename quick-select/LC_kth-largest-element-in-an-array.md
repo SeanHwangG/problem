@@ -1,3 +1,14 @@
+# [LC_kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array)
+
+Find kth largest number
+
+```txt
+Input: nums = [3,2,1,5,6,4], k = 2
+Output: 5
+```
+
+## Solution
+
 ```cpp
 int findKthLargest(vector<int>& nums, int k) {
   nth_element(nums.begin(), nums.begin() + k - 1, nums.end(), greater<int>());

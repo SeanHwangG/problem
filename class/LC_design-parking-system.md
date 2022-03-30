@@ -1,3 +1,16 @@
+# [LC_design-parking-system](https://leetcode.com/problems/design-parking-system)
+
+Design parking system
+
+```txt
+Input: ["ParkingSystem", "addCar", "addCar", "addCar", "addCar"]
+[[1, 1, 0], [1], [2], [3], [1]]
+
+Output: [null, true, true, false, false]
+```
+
+## Solution
+
 ```cpp
 vector<int> count;
 ParkingSystem(int big, int medium, int small) {

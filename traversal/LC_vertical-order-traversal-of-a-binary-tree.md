@@ -1,3 +1,14 @@
+# [LC_vertical-order-traversal-of-a-binary-tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)
+
+Given the root of a binary tree, calculate the vertical order traversal of the binary tree
+
+```txt
+Input: root = [1,2,3,4,5,6,7]
+Output: [[4],[2],[1,5,6],[3],[7]]
+```
+
+## Solution
+
 ```py
 def verticalTraversal(self, root):
   g = collections.defaultdict(list)

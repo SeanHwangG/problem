@@ -1,3 +1,14 @@
+# [LC_valid-palindrome](https://leetcode.com/problems/valid-palindrome)
+
+Check if string is palindrome
+
+```txt
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
+```
+
+## Solution
+
 ```cpp
 bool isPalindrome(string s) {
   int i = 0, j = s.size() - 1;

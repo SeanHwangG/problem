@@ -1,3 +1,21 @@
+# [LC_design-twitter](https://leetcode.com/problems/design-twitter)
+
+Input:
+["Twitter", "postTweet", "getNewsFeed", "follow", "postTweet", "getNewsFeed", "unfollow", "getNewsFeed"]
+[[], [1, 5], [1], [1, 2], [2, 6], [1], [1, 2], [1]]
+
+Output: [null, null, [5], null, null, [6, 5], null, [5]]
+
+```txt
+Design twitter with following methods
+  postTweet(userId, tweetId)
+  getNewsFeed(userId)
+  follow(follwerId, followeeId)
+  unfollow(follwerId, follweeId)
+```
+
+## Solution
+
 ```go
 type Twitter struct {
   posts [][2]int

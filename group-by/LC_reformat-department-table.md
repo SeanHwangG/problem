@@ -1,3 +1,27 @@
+# [LC_reformat-department-table](https://leetcode.com/problems/reformat-department-table)
+
+Reformat table such that there is a department id column and a revenue column for each month
+
+```txt
+Input:
+| id  | revenue | month |
+| --- | ------- | ----- |
+| 1   | 8000    | Jan   |
+| 2   | 9000    | Jan   |
+| 3   | 10000   | Feb   |
+| 1   | 7000    | Feb   |
+| 1   | 6000    | Mar   |
+
+Output:
+| id  | Jan_Revenue | Feb_Revenue | Mar_Revenue | ... | Dec_Revenue |
+| --- | ----------- | ----------- | ----------- | --- | ----------- |
+| 1   | 8000        | 7000        | 6000        | ... | null        |
+| 2   | 9000        | null        | null        | ... | null        |
+| 3   | null        | 10000       | null        | ... | null        |
+```
+
+## Solution
+
 ```sql
 SELECT id,
   SUM(CASE WHEN month="Jan" THEN revenue ELSE NULL END) as "Jan_Revenue",

@@ -1,3 +1,15 @@
+# [LC_combination-sum](https://leetcode.com/problems/combination-sum)
+
+Given an array of distinct integers candidates and a target integer target
+Return list of all unique combinations of candidates where chosen numbers sum to target in any order
+
+```txt
+Input: candidates = [2,3,6,7], target = 7
+Output: [[2,2,3],[7]]
+```
+
+## Solution
+
 ```go
 func combinationSum(candidates []int, target int) [][]int {
   result := make([][]int, 0)

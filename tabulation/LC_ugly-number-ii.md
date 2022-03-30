@@ -1,3 +1,15 @@
+# [LC_ugly-number-ii](https://leetcode.com/problems/ugly-number-ii)
+
+Given an integer n, return the nth ugly number
+Ugly number is a positive number whose prime factors only include 2, 3, and/or 5
+
+```txt
+Input: n = 10
+Output: 12 # [1, 2, 3, 4, 5, 6, 8, 9, 10, 12]
+```
+
+## Solution
+
 ```cpp
 int nthUglyNumber(int n) {
   vector<int> ugly(n, 1);

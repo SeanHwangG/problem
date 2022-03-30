@@ -1,3 +1,14 @@
+# [LC_burst-balloons](https://leetcode.com/problems/burst-balloons)
+
+Burst gives nums[left] x nums[i] x nums[right] point
+
+```txt
+Input: nums = [3,1,5,8]
+Output: 167
+```
+
+## Solution
+
 ```py
 def maxCoins(self, li):
   li = [1] + li + [1]

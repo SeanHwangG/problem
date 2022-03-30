@@ -1,3 +1,20 @@
+# [KT_tarifa](https://open.kattis.com/problems/tarifa)
+
+
+
+```txt
+Input:
+10
+3
+4
+6
+2
+
+Output: 28
+```
+
+## Solution
+
 ```py
 add = int(input())
 n_line = int(input())

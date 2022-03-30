@@ -1,3 +1,15 @@
+# [LC_coin-change](https://leetcode.com/problems/coin-change)
+
+Given coins representing coins of different denominations and int amount representing total amount of money
+Return fewest # coins that need to make up that amount. If cannot be made up by any combinations, return -1
+
+```txt
+Input: coins = [1,2,5], amount = 11
+Output: 3
+```
+
+## Solution
+
 ```cpp
 int coinChange(vector<int>& coins, int amount) {
   sort(coins.begin(), coins.end());

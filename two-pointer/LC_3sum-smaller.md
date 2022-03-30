@@ -1,3 +1,15 @@
+# [LC_3sum-smaller](https://leetcode.com/problems/3sum-smaller)
+
+Given integers and a target
+Find number of index triplets i, j, k with 0 <= i < j < k < n st condition nums[i] + nums[j] + nums[k] < target
+
+```txt
+Input: nums = [-2,0,1,3], and target = 2
+Output: 2
+```
+
+## Solution
+
 ```py
 def threeSumSmaller(self, nums, target):
   count = 0

@@ -1,3 +1,17 @@
+# [HR_lonely-integer-2](https://www.hackerrank.com/challenges/lonely-integer-2)
+
+First line of input contains number of integers, next contains space-separated integers that form array
+Output, the number that occurs only once
+
+```txt
+Input: 5
+0 0 1 2 1
+
+Output: 2
+```
+
+## Solution
+
 ```sh
 read
 tr ' ' '\n' | sort | uniq -u

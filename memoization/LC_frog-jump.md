@@ -1,3 +1,17 @@
+# [LC_frog-jump](https://leetcode.com/problems/frog-jump)
+
+Given list of stones' positions in sorted ascending order, determine if frog can cross river by landing on last stone
+Initially, frog is on first stone and assumes first jump must be 1 unit
+If frog's last jump was k units, its next jump must be either k - 1, k, or k + 1 units
+  Frog can only jump in forward direction
+
+```txt
+Input: stones = [0,1,3,5,6,8,12,17]
+Output: true
+```
+
+## Solution
+
 ```py
 from functools import lru_cache
 

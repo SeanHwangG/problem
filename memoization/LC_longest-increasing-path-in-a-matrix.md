@@ -1,3 +1,17 @@
+# [LC_longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)
+
+Given an m x n integers matrix, return the length of the longest increasing path in matrix
+
+```txt
+Input: matrix =
+  [[9, 9, 4],
+  [6, 6, 8],
+  [2, 1, 1]]
+Output: 4
+```
+
+## Solution
+
 ```py
 def longestIncreasingPath(self, G: List[List[int]]) -> int:
   @lru_cache(None)

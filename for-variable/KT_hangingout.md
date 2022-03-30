@@ -1,3 +1,20 @@
+# [KT_hangingout](https://open.kattis.com/problems/hangingout)
+
+
+
+```txt
+Input: 4 5  # L, x
+enter 3
+enter 2
+leave 1
+enter 1
+enter 2
+
+Output: 2
+```
+
+## Solution
+
 ```py
 max_n, n_line = map(int, input().split())
 cur, ret = 0, 0

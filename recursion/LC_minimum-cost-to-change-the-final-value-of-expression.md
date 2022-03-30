@@ -1,3 +1,22 @@
+# [LC_minimum-cost-to-change-the-final-value-of-expression](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression)
+
+Given a boolean expression as a string with '1','0','&', '|', '(', and ')'
+Return minimum cost to change final value of expression to be 0
+  Turn a '1' into a '0'.
+  Turn a '0' into a '1'.
+  Turn a '&' into a '|'.
+  Turn a '|' into a '&'.
+
+```txt
+Input: expression = "1&(0|1)"
+Output: 1
+
+Input: expression = "(0&0)&(0&0&0)"
+Output: 3
+```
+
+## Solution
+
 ```py
 def minOperationsToFlip(self, E):
   def dp(beg, end):

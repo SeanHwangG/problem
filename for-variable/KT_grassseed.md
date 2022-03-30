@@ -1,3 +1,19 @@
+# [KT_grassseed](https://open.kattis.com/problems/grassseed)
+
+
+
+```txt
+Input:
+0.75
+2
+2 3.333
+3.41 4.567
+
+Output: 16.6796025
+```
+
+## Solution
+
 ```py
 c = float(input())
 l = int(input())

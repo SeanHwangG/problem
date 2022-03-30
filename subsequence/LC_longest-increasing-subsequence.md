@@ -1,3 +1,14 @@
+# [LC_longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence)
+
+Given int array nums, return the length of the longest strictly increasing subsequence
+
+```txt
+Input: nums = [10,9,2,5,3,7,101,18]
+Output: 4
+```
+
+## Solution
+
 ```cpp
 int lengthOfLIS(vector<int>& nums) {
   vector<int> res; // res[i] keeps track of the smallest tail of subsequences with length i + 1

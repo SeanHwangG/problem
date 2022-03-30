@@ -1,3 +1,20 @@
+# [KT_ptice](https://open.kattis.com/problems/ptice)
+
+Repeat ABC, BABC, CCAABB
+Find whose sequence contains the most correct answers
+
+```txt
+Input:
+5
+BAACC
+
+Output:
+3
+Bruno
+```
+
+## Solution
+
 ```py
 length = int(input())
 li = list(input())

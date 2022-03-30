@@ -1,3 +1,23 @@
+# [LC_surrounded-regions](https://leetcode.com/problems/surrounded-regions)
+
+Given an m x n matrix board containing 'X' and 'O', capture all regions surrounded by 'X'
+
+```txt
+Input: board =
+[["X","X","X","X"],
+["X","O","O","X"],
+["X","X","O","X"],
+["X","O","X","X"]]
+
+Output:
+[["X","X","X","X"],
+["X","X","X","X"],
+["X","X","X","X"],
+["X","O","X","X"]]
+```
+
+## Solution
+
 ```py
 def solve(self, G):
   n, m = len(G), len(G[0])

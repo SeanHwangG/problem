@@ -1,3 +1,15 @@
+# [LC_binary-tree-cameras](https://leetcode.com/problems/binary-tree-cameras)
+
+Each camera at a node can monitor its parent, itself, and its immediate children
+Print minimum number of cameras
+
+```txt
+Input: [0,0,null,0,0]
+Output: 1
+```
+
+## Solution
+
 ```py
 def minCameraCover(self, root):
   self.res = 0

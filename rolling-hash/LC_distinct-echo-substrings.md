@@ -1,3 +1,14 @@
+# [LC_distinct-echo-substrings](https://leetcode.com/problems/distinct-echo-substrings)
+
+Return number of distinct non-empty substrings of text that can be written as concatenation of some string with itself
+
+```txt
+Input: text = "abcabcabc"
+Output: 3  # "abcabc", "bcabca" and "cabcab".
+```
+
+## Solution
+
 ```cpp
 int distinctEchoSubstrings(string text) {
   int N = text.size();

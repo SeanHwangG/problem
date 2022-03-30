@@ -1,3 +1,15 @@
+# [LC_perfect-rectangle](https://leetcode.com/problems/perfect-rectangle)
+
+Given an array rectangles where rectangles[i] = [xi, yi, ai, bi] represents an axis-aligned rectangle
+Return true if all the rectangles together form an exact cover of a rectangular region
+
+```txt
+Input: rectangles = [[1,1,3,3],[3,1,4,2],[3,2,4,4],[1,3,2,4],[2,3,3,4]]
+Output: true  # All 5 rectangles together form an exact cover of a rectangular region.
+```
+
+## Solution
+
 ```py
 def isRectangleCover(self, rectangles):
   cornera = set()

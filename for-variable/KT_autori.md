@@ -1,3 +1,14 @@
+# [KT_autori](https://open.kattis.com/problems/autori)
+
+
+
+```txt
+Input: Knuth-Morris-Pratt
+Output: KMP
+```
+
+## Solution
+
 ```py
 st = input()
 for i, ch in enumerate(st):

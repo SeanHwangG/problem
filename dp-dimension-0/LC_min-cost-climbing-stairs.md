@@ -1,3 +1,16 @@
+# [LC_min-cost-climbing-stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
+
+Given an integer array cost where cost[i] is the cost of ith step on a staircase
+Once you pay the cost, you can either climb one or two steps
+Minimize the cost
+
+```txt
+Input: cost = [10,15,20]
+Output: 15
+```
+
+## Solution
+
 ```cpp
 int minCostClimbingStairs(vector<int>& cost) {
   int two_behind = cost[0], one_behind = cost[1];

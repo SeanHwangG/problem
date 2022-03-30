@@ -1,3 +1,14 @@
+# [LC_powx-n](https://leetcode.com/problems/powx-n)
+
+Implement pow(x, n), which calculates x raised to the power n
+
+```txt
+Input: 2 3
+Output: 8
+```
+
+## Solution
+
 ```py
 def myPow(self, x, n):
   if n < 0:

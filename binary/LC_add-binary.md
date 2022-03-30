@@ -1,3 +1,14 @@
+# [LC_add-binary](https://leetcode.com/problems/add-binary)
+
+Given two binary strings a and b, return their sum as a binary string
+
+```txt
+Input: a = "11", b = "1"
+Output: "100"
+```
+
+## Solution
+
 ```cpp
 string addBinary(string a, string b) {
   string s = "";

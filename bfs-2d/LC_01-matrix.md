@@ -1,3 +1,23 @@
+# [LC_01-matrix](https://leetcode.com/problems/01-matrix)
+
+Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell
+Distance between two adjacent cells is 1
+
+```txt
+Input:
+mat =
+[[0,0,0],
+ [0,1,0],
+ [0,0,0]]
+
+Output:
+[[0,0,0],
+ [0,1,0],
+ [0,0,0]]
+```
+
+## Solution
+
 ```py
 from collections import deque
 class Solution:

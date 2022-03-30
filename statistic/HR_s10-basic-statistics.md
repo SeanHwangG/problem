@@ -1,3 +1,19 @@
+# [HR_s10-basic-statistics](https://www.hackerrank.com/challenges/s10-basic-statistics)
+
+Print mean median mode of followings
+
+```txt
+Input: 10
+64630 11735 14216 99233 14470 4978 73429 38120 51135 67060
+
+Output:
+43900.6
+44627.5
+4978
+```
+
+## Solution
+
 ```py
 import numpy as np
 from scipy import stats

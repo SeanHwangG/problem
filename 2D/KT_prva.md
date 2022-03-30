@@ -1,3 +1,20 @@
+# [KT_prva](https://open.kattis.com/problems/prva)
+
+Output the lexicographically smallest word with <1 character in the crossword
+
+```txt
+Input:
+4 4
+luka
+o#a#
+kula
+i#a#
+
+Output: kala
+```
+
+## Solution
+
 ```py
 n, m = map(int, input().split())
 G = []
