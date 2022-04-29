@@ -1,0 +1,29 @@
+# [HR_matching-word-non-word](https://www.hackerrank.com/challenges/matching-word-non-word)
+
+You have a test string S. Your task is to match the pattern xxxXxxxxxxxxxxXxxx
+Here x denotes any word character and X denotes any non-word character
+
+```txt
+Matches
+www.hk.com
+www.he.com
+www.123jhg-kup.com
+www.a-a.com
+www.aaaaaaa-aaaaaaaaaaaaaaaaaaaaaaaaaaa.com
+
+Non-Matches
+www.a.com
+www.bb-bbbb-bb.com
+```
+
+## Solution
+
+* py
+
+  ```py
+  Regex_Pattern = r"\w{3}\W\w{10}\W\w{3}"	# Do not delete 'r'.
+
+  import re
+
+  print(str(bool(re.search(Regex_Pattern, input()))).lower())
+  ```
