@@ -9,7 +9,9 @@ Output: 9
 
 ## Solution
 
-```py
-def minPartitions(self, n: str) -> int:
-  return int(max(n))
-```
+* py
+
+  ```py
+  def minPartitions(self, n: str) -> int:
+    return int(max(n))
+  ```

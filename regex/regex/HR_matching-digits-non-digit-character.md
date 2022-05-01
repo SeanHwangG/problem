@@ -15,19 +15,23 @@ Output: False
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+* cpp
 
-int main() {
-  string s, b;
-  regex p{"\\d{2}\\D\\d{2}\\D\\d{4}"};
-  getline(cin, s);
-  cout << boolalpha << regex_search(s, p) << endl;
-  return 0;
-}
-```
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
 
-```py
-Regex_Pattern = r"\d\d\D\d\d\D\d\d\d\d"   # Do not delete 'r'.
-```
+  int main() {
+    string s, b;
+    regex p{"\\d{2}\\D\\d{2}\\D\\d{4}"};
+    getline(cin, s);
+    cout << boolalpha << regex_search(s, p) << endl;
+    return 0;
+  }
+  ```
+
+* py
+
+  ```py
+  Regex_Pattern = r"\d\d\D\d\d\D\d\d\d\d"   # Do not delete 'r'.
+  ```

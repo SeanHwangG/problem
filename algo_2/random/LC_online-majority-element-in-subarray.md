@@ -16,19 +16,19 @@ majorityChecker.query(2,3,2); // returns 2
 
 * py
 
-```py
-from bisect import bisect_left, bisect_right
-class MajorityChecker(object):
-  def __init__(self, A):
-    a2i = collections.defaultdict(list)
-    for i, x in enumerate(A):
-      a2i[x].append(i)
-    self.A, self.a2i = A, a2i
+  ```py
+  from bisect import bisect_left, bisect_right
+  class MajorityChecker(object):
+    def __init__(self, A):
+      a2i = collections.defaultdict(list)
+      for i, x in enumerate(A):
+        a2i[x].append(i)
+      self.A, self.a2i = A, a2i
 
-  def query(self, left, right, threshold):
-    for _ in range(20):
-      a = self.A[random.randint(left, right)]
-      if bisect_right(self.a2i[a], right) - bisect_left(self.a2i[a], left) >= threshold:
-        return a
-    return -1
-```
+    def query(self, left, right, threshold):
+      for _ in range(20):
+        a = self.A[random.randint(left, right)]
+        if bisect_right(self.a2i[a], right) - bisect_left(self.a2i[a], left) >= threshold:
+          return a
+      return -1
+  ```

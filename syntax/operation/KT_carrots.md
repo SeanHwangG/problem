@@ -11,7 +11,9 @@ Output: 1
 
 ## Solution
 
-```py
-_, a = map(int, input().split())
-print(a)
-```
+* py
+
+  ```py
+  _, a = map(int, input().split())
+  print(a)
+  ```

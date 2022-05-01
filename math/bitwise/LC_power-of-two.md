@@ -11,7 +11,7 @@ Output: True
 
 * py
 
-```py
-def isPowerOfTwo(self, n):
-  return n > 0 and not (n & n-1)
-```
+  ```py
+  def isPowerOfTwo(self, n):
+    return n > 0 and not (n & n-1)
+  ```

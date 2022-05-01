@@ -10,13 +10,15 @@ Output: 0.696
 
 ## Solution
 
-```py
-from math import comb
+* py
 
-def binomial(x, n, p):
-  return comb(n, x) * p ** x * (1 - p) ** (n - x)
+  ```py
+  from math import comb
 
-l, r = map(float, input().split())
-odds = l / r
-print(round(sum([binomial(i, 6, odds / (1 + odds)) for i in range(3, 7)]), 3))
-```
+  def binomial(x, n, p):
+    return comb(n, x) * p ** x * (1 - p) ** (n - x)
+
+  l, r = map(float, input().split())
+  odds = l / r
+  print(round(sum([binomial(i, 6, odds / (1 + odds)) for i in range(3, 7)]), 3))
+  ```

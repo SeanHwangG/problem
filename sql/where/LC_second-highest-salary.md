@@ -18,7 +18,9 @@ Output:
 
 ## Solution
 
-```sql
-SELECT MAX(Salary) SecondHighestSalary FROM Employee
-  WHERE Salary != (SELECT MAX(Salary) FROM Employee);
-```
+* sql
+
+  ```sql
+  SELECT MAX(Salary) SecondHighestSalary FROM Employee
+    WHERE Salary != (SELECT MAX(Salary) FROM Employee);
+  ```

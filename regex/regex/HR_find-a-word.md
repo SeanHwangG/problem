@@ -3,8 +3,7 @@
 For every word, print the number of occurrences of the word in all the N sentences listed
 
 ```txt
-Input:
-1
+Input: 1
 foo bar (foo) bar foo-bar foo_bar foobar bar-foo bar, foo.
 2
 foo

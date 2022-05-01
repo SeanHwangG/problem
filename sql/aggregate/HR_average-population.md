@@ -19,6 +19,8 @@ Output:
 
 ## Solution
 
-```sql
-SELECT ROUND(AVG(Population)) FROM City;
-```
+* sql
+
+  ```sql
+  SELECT ROUND(AVG(Population)) FROM City;
+  ```

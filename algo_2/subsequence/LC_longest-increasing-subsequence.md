@@ -9,22 +9,26 @@ Output: 4
 
 ## Solution
 
-```cpp
-int lengthOfLIS(vector<int>& nums) {
-  vector<int> res; // res[i] keeps track of the smallest tail of subsequences with length i + 1
-  for(int i = 0; i < nums.size(); i++) {
-    auto it = lower_bound(res.begin(), res.end(), nums[i]);
-    if (it == res.end()) res.push_back(nums[i]);
-    else *it = nums[i];
-  }
-  return res.size();
-}
-```
+* cpp
 
-```py
-def lengthOfLIS(self, nums):
-  dp = [10 ** 10] * (len(nums) + 1)
-  for elem in nums:
-    dp[bisect_left(dp, elem)] = elem
-  return dp.index(10 ** 10)
-```
+  ```cpp
+  int lengthOfLIS(vector<int>& nums) {
+    vector<int> res; // res[i] keeps track of the smallest tail of subsequences with length i + 1
+    for(int i = 0; i < nums.size(); i++) {
+      auto it = lower_bound(res.begin(), res.end(), nums[i]);
+      if (it == res.end()) res.push_back(nums[i]);
+      else *it = nums[i];
+    }
+    return res.size();
+  }
+  ```
+
+* py
+
+  ```py
+  def lengthOfLIS(self, nums):
+    dp = [10 ** 10] * (len(nums) + 1)
+    for elem in nums:
+      dp[bisect_left(dp, elem)] = elem
+    return dp.index(10 ** 10)
+  ```

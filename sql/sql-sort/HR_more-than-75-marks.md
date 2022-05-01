@@ -16,7 +16,9 @@ Input:
 
 ## Solution
 
-```sql
-SELECT Name FROM Students WHERE Marks > 75
-  ORDER BY RIGHT(Name, 3), Id;
-```
+* sql
+
+  ```sql
+  SELECT Name FROM Students WHERE Marks > 75
+    ORDER BY RIGHT(Name, 3), Id;
+  ```

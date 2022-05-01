@@ -18,6 +18,8 @@ Input:
 
 ## Solution
 
-```sql
-SELECT * FROM City WHERE Id = 1661;
-```
+* sql
+
+  ```sql
+  SELECT * FROM City WHERE Id = 1661;
+  ```

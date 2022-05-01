@@ -9,11 +9,13 @@ Output: [[1],[3,2,4],[5,6]]
 
 ## Solution
 
-```py
-def levelOrder(self, root):
-  q, ret = [root], []
-  while any(q):
-    ret.append([node.val for node in q])
-    q = [child for node in q for child in node.children if child]
-  return ret
-```
+* py
+
+  ```py
+  def levelOrder(self, root):
+    q, ret = [root], []
+    while any(q):
+      ret.append([node.val for node in q])
+      q = [child for node in q for child in node.children if child]
+    return ret
+  ```

@@ -10,21 +10,23 @@ Output: [2,1,3,null,null,null,4]
 
 ## Solution
 
-```py
-class Solution:
-  def balanceBST(self, root: TreeNode) -> TreeNode:
+* py
 
-    def dfs(node):
-      if not node: return []
-      return dfs(node.left) + [node.val] + dfs(node.right)
-    ns = dfs(root)
+  ```py
+  class Solution:
+    def balanceBST(self, root: TreeNode) -> TreeNode:
 
-    def build(l, r):
-      if l > r: return None
-      m = (l + r) // 2
-      root = TreeNode(ns[m])
-      root.left, root.right = build(l, m-1), build(m + 1, r)
-      return root
+      def dfs(node):
+        if not node: return []
+        return dfs(node.left) + [node.val] + dfs(node.right)
+      ns = dfs(root)
 
-    return build(0, len(ns) - 1)
-```
+      def build(l, r):
+        if l > r: return None
+        m = (l + r) // 2
+        root = TreeNode(ns[m])
+        root.left, root.right = build(l, m-1), build(m + 1, r)
+        return root
+
+      return build(0, len(ns) - 1)
+  ```

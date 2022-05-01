@@ -13,17 +13,19 @@ MyCalendar.book(20, 30); // returns true
 
 ## Solution
 
-```py
-class MyCalendar:
-  def __init__(self):
-    self.intervals = []
+* py
 
-  def book(self, start : int, end : int) -> bool:
-    i = bisect.bisect_right(self.intervals, start)
-    j = bisect.bisect_left(self.intervals, end)
-    if i % 2 or i != j:  # start is in interval or another interval exists
-      return False
+  ```py
+  class MyCalendar:
+    def __init__(self):
+      self.intervals = []
 
-    self.intervals[i:i] = [start, end]
-    return True
-```
+    def book(self, start : int, end : int) -> bool:
+      i = bisect.bisect_right(self.intervals, start)
+      j = bisect.bisect_left(self.intervals, end)
+      if i % 2 or i != j:  # start is in interval or another interval exists
+        return False
+
+      self.intervals[i:i] = [start, end]
+      return True
+  ```

@@ -50,6 +50,8 @@ Output:
 
 ## Solution
 
-```sh
-sort -r
-```
+* sh
+
+  ```sh
+  sort -r
+  ```

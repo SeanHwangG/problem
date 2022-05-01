@@ -21,9 +21,39 @@ Output: hackers@hackerrank.com;interviewstreet@hackerrank.com;product@hackerrank
 
 ## Solution
 
-```py
-import re
-N = int(input())
-myStr = " ".join([input() for i in range(N)])
-print(";".join(sorted(set([i for i in re.findall(r"([\w.]+@[\w.]+\w+)", myStr)]))))
-```
+* cpp
+
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
+
+  int main() {
+    string s;
+    set<string> addrs;
+    regex emailp{"[[:alnum:]_\\.\\-]+@[[:alnum:]\\._\\-]+[[:alnum:]]+"};
+    smatch sm;
+    getline(cin, s);
+    while (getline(cin, s)) {
+      while (regex_search(s, sm, emailp)) {
+        addrs.insert(sm.str());
+        s = sm.suffix();
+      }
+    }
+    for (set<string>::iterator si = addrs.begin(); si != addrs.end(); ++si) {
+      if (si != addrs.begin())
+        cout << ";";
+      cout << *si;
+    }
+    cout << endl;
+    return 0;
+  }
+  ```
+
+* py
+
+  ```py
+  import re
+  N = int(input())
+  myStr = " ".join([input() for i in range(N)])
+  print(";".join(sorted(set([i for i in re.findall(r"([\w.]+@[\w.]+\w+)", myStr)]))))
+  ```

@@ -15,11 +15,13 @@ Output: false
 
 ## Solution
 
-```py
-def splitArray(self, nums: list):
-  def split(A):
-    total = sum(A)
-    for i in range(1, len(A)): A[i] += A[i - 1]
-    return {A[i - 1] for i in range(1, len(A) - 1) if A[i - 1] == total - A[i]}
-  return any(split(nums[:j]) & split(nums[j+1:]) for j in range(3, len(nums)-3))
-```
+* py
+
+  ```py
+  def splitArray(self, nums: list):
+    def split(A):
+      total = sum(A)
+      for i in range(1, len(A)): A[i] += A[i - 1]
+      return {A[i - 1] for i in range(1, len(A) - 1) if A[i - 1] == total - A[i]}
+    return any(split(nums[:j]) & split(nums[j+1:]) for j in range(3, len(nums)-3))
+  ```

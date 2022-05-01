@@ -27,6 +27,8 @@ A00
 
 ## Solution
 
-```sh
-uniq -u
-```
+* sh
+
+  ```sh
+  uniq -u
+  ```

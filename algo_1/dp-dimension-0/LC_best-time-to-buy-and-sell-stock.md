@@ -12,14 +12,16 @@ Output: 5  # Buy on day 2 (price = 1) and sell on day 5
 
 ## Solution
 
-```java
-public int maxProfit(int[] prices) {
-  if (prices.length < 2)  return 0;
-  int maxProfit = 0, min = prices[0];
-  for (int i = 1; i < prices.length; i++){
-    if (min > prices[i]) min = prices[i];
-    else maxProfit = prices[i] - min > maxProfit? prices[i] - min: maxProfit;
+* java
+
+  ```java
+  public int maxProfit(int[] prices) {
+    if (prices.length < 2)  return 0;
+    int maxProfit = 0, min = prices[0];
+    for (int i = 1; i < prices.length; i++){
+      if (min > prices[i]) min = prices[i];
+      else maxProfit = prices[i] - min > maxProfit? prices[i] - min: maxProfit;
+    }
+    return maxProfit;
   }
-  return maxProfit;
-}
-```
+  ```

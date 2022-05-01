@@ -22,6 +22,6 @@ Henry Hudson's 1609
 
 * sh
 
-```sh
-cut -d' ' -f1-3
-```
+  ```sh
+  cut -d' ' -f1-3
+  ```

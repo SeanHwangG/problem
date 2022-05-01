@@ -22,6 +22,8 @@ Output:
 
 ## Solution
 
-```sh
-sort -nr
-```
+* sh
+
+  ```sh
+  sort -nr
+  ```

@@ -15,6 +15,8 @@ Output: New York is a state
 
 ## Solution
 
-```sh
-head -c 20
-```
+* sh
+
+  ```sh
+  head -c 20
+  ```

@@ -9,7 +9,9 @@ Output: 3
 
 ## Solution
 
-```py
-def numRookCaptures(self, A):
-  return sum(''.join(r).replace('.', '').count('Rp') for r in A + zip(*A) for r in [r, r[::-1]])
-```
+* py
+
+  ```py
+  def numRookCaptures(self, A):
+    return sum(''.join(r).replace('.', '').count('Rp') for r in A + zip(*A) for r in [r, r[::-1]])
+  ```

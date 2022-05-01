@@ -20,6 +20,8 @@ Output:
 
 ## Solution
 
-```sql
-SELECT Name FROM City WHERE CountryCode = 'JPN';
-```
+* sql
+
+  ```sql
+  SELECT Name FROM City WHERE CountryCode = 'JPN';
+  ```

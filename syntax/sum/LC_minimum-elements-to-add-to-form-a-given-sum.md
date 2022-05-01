@@ -13,7 +13,7 @@ Output: 2  # add -2 and -3, then the sum of the array will be 1 - 1 + 1 - 2 - 3 
 
 * py
 
-```py
-def minElements(self, A, limit, goal):
-  return (abs(sum(A) - goal) + limit - 1) / limit
-```
+  ```py
+  def minElements(self, A, limit, goal):
+    return (abs(sum(A) - goal) + limit - 1) / limit
+  ```

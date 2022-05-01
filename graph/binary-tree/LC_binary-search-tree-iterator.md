@@ -16,21 +16,23 @@ Output: [null, 3, 7, true, 9, true, 15, true, 20, false]
 
 ## Solution
 
-```py
-class BSTIterator(object):
-  def __init__(self, root):
-    self.root_node=root
-    self.current_node=root
-    self.stack=[]
+* py
 
-  def hasNext(self):
-    return self.current_node is not None or self.stack
+  ```py
+  class BSTIterator(object):
+    def __init__(self, root):
+      self.root_node=root
+      self.current_node=root
+      self.stack=[]
 
-  def next(self):
-    while self.current_node:
-      self.stack.append(self.current_node)
-      self.current_node=self.current_node.left
-    next=self.stack.pop()
-    self.current_node=next.right
-    return next.val
-```
+    def hasNext(self):
+      return self.current_node is not None or self.stack
+
+    def next(self):
+      while self.current_node:
+        self.stack.append(self.current_node)
+        self.current_node=self.current_node.left
+      next=self.stack.pop()
+      self.current_node=next.right
+      return next.val
+  ```

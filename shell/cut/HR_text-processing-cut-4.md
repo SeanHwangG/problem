@@ -16,7 +16,7 @@ Output:
 
 * sh
 
-```sh
-# by default seperator is tab
-cut -f-3
-```
+  ```sh
+  # by default seperator is tab
+  cut -f-3
+  ```

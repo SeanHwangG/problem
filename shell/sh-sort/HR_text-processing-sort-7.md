@@ -16,6 +16,8 @@ Bismarck, N.D.|10.2|43.3|70.4|45.2|16.84|96|44.3|64
 
 ## Solution
 
-```sh
-sort -nr -k2 -t'|'
-```
+* sh
+
+  ```sh
+  sort -nr -k2 -t'|'
+  ```

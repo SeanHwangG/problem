@@ -6,8 +6,7 @@ IPv6 8 groups of 16 bits each
   Leading 0 may be omitted
 
 ```txt
-Input:
-3
+Input: 3
 This line has junk text.
 121.18.19.20
 2001:0db8:0000:0000:0000:ff00:0042:8329

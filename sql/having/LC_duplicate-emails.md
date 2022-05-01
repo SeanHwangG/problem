@@ -20,7 +20,9 @@ Output:
 
 ## Solution
 
-```sql
-SELECT email FROM Person
-  GROUP BY email HAVING count(*) > 1;
-```
+* sql
+
+  ```sql
+  SELECT email FROM Person
+    GROUP BY email HAVING count(*) > 1;
+  ```

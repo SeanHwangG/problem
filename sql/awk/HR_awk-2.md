@@ -19,6 +19,8 @@ D : Pass
 
 ## Solution
 
-```sh
-awk '{print $1,":", ($2<50||$3<50||$4<50) ? "Fail" : "Pass"}'
-```
+* sh
+
+  ```sh
+  awk '{print $1,":", ($2<50||$3<50||$4<50) ? "Fail" : "Pass"}'
+  ```

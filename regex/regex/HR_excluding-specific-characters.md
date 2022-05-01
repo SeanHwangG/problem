@@ -15,22 +15,26 @@ Output: true
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+* cpp
 
-int main() {
-  std::string input;
-  std::getline(std::cin, input);
-  std::regex re(R"([^\d][^aeiou][^bcDF][^\s][^AEIOU][^.,])");
-  std::cout << std::boolalpha << std::regex_match(input, re);
-  return 0;
-}
-```
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
 
-```py
-import re
+  int main() {
+    std::string input;
+    std::getline(std::cin, input);
+    std::regex re(R"([^\d][^aeiou][^bcDF][^\s][^AEIOU][^.,])");
+    std::cout << std::boolalpha << std::regex_match(input, re);
+    return 0;
+  }
+  ```
 
-pattern = r'^[^\d][^aeiou][^bcDF]\S[^AEIOU][^.,]$'
-print(str(bool(re.search(pattern, input()))).lower())
-```
+* py
+
+  ```py
+  import re
+
+  pattern = r'^[^\d][^aeiou][^bcDF]\S[^AEIOU][^.,]$'
+  print(str(bool(re.search(pattern, input()))).lower())
+  ```

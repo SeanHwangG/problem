@@ -17,10 +17,12 @@ Output: [[ 7 10]
 
 ## Solution
 
-```py
-import numpy
-n = int(input())
-a = numpy.array([input().split() for _ in range(n)], int)
-b = numpy.array([input().split() for _ in range(n)], int)
-print(numpy.dot(a, b))
-```
+* py
+
+  ```py
+  import numpy
+  n = int(input())
+  a = numpy.array([input().split() for _ in range(n)], int)
+  b = numpy.array([input().split() for _ in range(n)], int)
+  print(numpy.dot(a, b))
+  ```

@@ -9,7 +9,9 @@ Output: 7.41
 
 ## Solution
 
-```py
-import math
-print(math.log2(int(input())))
-```
+* py
+
+  ```py
+  import math
+  print(math.log2(int(input())))
+  ```

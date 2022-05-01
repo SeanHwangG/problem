@@ -22,6 +22,6 @@ Sugar Land-Baytown, TX MSA  6,086,538   5   Boston-Worcester-Manchester, MA-RI-N
 
 * sh
 
-```sh
-cut -c13-
-```
+  ```sh
+  cut -c13-
+  ```

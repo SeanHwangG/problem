@@ -23,9 +23,10 @@ Feed'st thy light's flame with self-substantial fuel,
 
 ## Solution
 
-* highlight all the occurrences of 'thy' by wrapping them up in brace brackets
+* sh
+  * highlight all the occurrences of 'thy' by wrapping them up in brace brackets
 
-```sh
-# & is captured group
-sed -e 's/thy/{&}/gi'
-```
+  ```sh
+  # & is captured group
+  sed -e 's/thy/{&}/gi'
+  ```

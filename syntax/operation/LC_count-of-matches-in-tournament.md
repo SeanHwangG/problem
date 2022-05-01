@@ -9,7 +9,9 @@ Output: 6
 
 ## Solution
 
-```py
-def numberOfMatches(self, n: int) -> int:
-  return n - 1
-```
+* py
+
+  ```py
+  def numberOfMatches(self, n: int) -> int:
+    return n - 1
+  ```

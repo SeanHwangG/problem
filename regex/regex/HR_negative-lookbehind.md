@@ -9,11 +9,13 @@ Output: Number of matches : 3   # abr
 
 ## Solution
 
-```py
-import re
+* py
 
-pattern = r"(?<![aeiouAEIOU])."
-match = re.findall(pattern, input)
+  ```py
+  import re
 
-print("Number of matches :", len(match))
-```
+  pattern = r"(?<![aeiouAEIOU])."
+  match = re.findall(pattern, input)
+
+  print("Number of matches :", len(match))
+  ```

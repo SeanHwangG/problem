@@ -15,6 +15,8 @@ Output: ent with the area.
 
 ## Solution
 
-```sh
-tail -c 20
-```
+* sh
+
+  ```sh
+  tail -c 20
+  ```

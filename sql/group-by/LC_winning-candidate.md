@@ -30,12 +30,14 @@ Output:
 
 ## Solution
 
-```sql
-SELECT Name
-FROM Candidate
-WHERE id = (SELECT CandidateId
-  FROM Vote
-  GROUP BY CandidateId
-  ORDER BY COUNT(*) DESC
-  LIMIT 1);
-```
+* sql
+
+  ```sql
+  SELECT Name
+  FROM Candidate
+  WHERE id = (SELECT CandidateId
+    FROM Vote
+    GROUP BY CandidateId
+    ORDER BY COUNT(*) DESC
+    LIMIT 1);
+  ```

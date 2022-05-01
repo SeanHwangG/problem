@@ -9,20 +9,24 @@ Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 
 ## Solution
 
-```cpp
-vector<vector<int>> subsets(vector<int>& nums) {
-  vector<vector<int>> subs = {{}};
-  for (int num : nums) {
-    for (int i = 0; i < subs.size(); i++) {
-      subs.push_back(subs[i]);
-      subs.back().push_back(num);
-    }
-  }
-  return subs;
-}
-```
+* cpp
 
-```py
-def subsets(self, nums):
-  return [l for n in range(len(nums) + 1) for l in itertools.combinations(nums, n)]
-```
+  ```cpp
+  vector<vector<int>> subsets(vector<int>& nums) {
+    vector<vector<int>> subs = {{}};
+    for (int num : nums) {
+      for (int i = 0; i < subs.size(); i++) {
+        subs.push_back(subs[i]);
+        subs.back().push_back(num);
+      }
+    }
+    return subs;
+  }
+  ```
+
+* py
+
+  ```py
+  def subsets(self, nums):
+    return [l for n in range(len(nums) + 1) for l in itertools.combinations(nums, n)]
+  ```

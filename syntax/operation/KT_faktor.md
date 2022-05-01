@@ -21,7 +21,9 @@ Output: 875
 
 ## Solution
 
-```py
-a, b = map(int, input().split())
-print((b - 1) * a + 1)
-```
+* py
+
+  ```py
+  a, b = map(int, input().split())
+  print((b - 1) * a + 1)
+  ```

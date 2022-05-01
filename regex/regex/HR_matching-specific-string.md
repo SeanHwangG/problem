@@ -10,22 +10,26 @@ Output: 2
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h>
+* cpp
 
-using namespace std;
+  ```cpp
+  #include <bits/stdc++.h>
 
-int main() {
-  regex r("hackerrank");
-  string s;
-  getline(cin, s);
+  using namespace std;
 
-  cout << "Number of matches : " << distance(sregex_iterator(s.begin(), s.end(), r), sregex_iterator()) << endl;
-  return 0;
-}
-```
+  int main() {
+    regex r("hackerrank");
+    string s;
+    getline(cin, s);
 
-```py
-import re
-print(str(re.match(r"...\....\....\....", input()) is not None).lower())
-```
+    cout << "Number of matches : " << distance(sregex_iterator(s.begin(), s.end(), r), sregex_iterator()) << endl;
+    return 0;
+  }
+  ```
+
+* py
+
+  ```py
+  import re
+  print(str(re.match(r"...\....\....\....", input()) is not None).lower())
+  ```

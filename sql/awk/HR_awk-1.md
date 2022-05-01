@@ -17,6 +17,8 @@ Not all scores are available for C
 
 ## Solution
 
-```sh
-awk '{if (NF < 4){print "Not all scores are available for "$1}}'
-```
+* sh
+
+  ```sh
+  awk '{if (NF < 4){print "Not all scores are available for "$1}}'
+  ```

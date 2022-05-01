@@ -14,28 +14,28 @@ Output: 3
 
 * cpp
 
-```cpp
-int majorityElement(vector<int>& nums) {
-  int counter = 0, majority;
-  for (int num : nums) {
-    if (!counter)
-      majority = num;
-    counter += num == majority ? 1 : -1;
+  ```cpp
+  int majorityElement(vector<int>& nums) {
+    int counter = 0, majority;
+    for (int num : nums) {
+      if (!counter)
+        majority = num;
+      counter += num == majority ? 1 : -1;
+    }
+    return majority;
   }
-  return majority;
-}
-```
+  ```
 
 * java
 
-```java
-public int majorityElement(int[] nums) {
-  int count = 0, candidate = 0;
-  for (int num : nums) {
-    if (count == 0)
-      candidate = num;
-    count += (num == candidate) ? 1 : -1;
+  ```java
+  public int majorityElement(int[] nums) {
+    int count = 0, candidate = 0;
+    for (int num : nums) {
+      if (count == 0)
+        candidate = num;
+      count += (num == candidate) ? 1 : -1;
+    }
+    return candidate;
   }
-  return candidate;
-}
-```
+  ```

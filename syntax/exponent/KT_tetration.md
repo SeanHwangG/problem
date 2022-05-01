@@ -9,7 +9,9 @@ Output: 1.414214
 
 ## Solution
 
-```py
-n = float(input())
-print(n ** (1/n))
-```
+* py
+
+  ```py
+  n = float(input())
+  print(n ** (1/n))
+  ```

@@ -22,9 +22,10 @@ But as the riper should by time decease,
 
 ## Solution
 
-* Output first 20 lines
+* sh
+  * Output first 20 lines
 
-```sh
-# cat | cut -d$'\n' -f -20
-head -n 20
-```
+  ```sh
+  # cat | cut -d$'\n' -f -20
+  head -n 20
+  ```

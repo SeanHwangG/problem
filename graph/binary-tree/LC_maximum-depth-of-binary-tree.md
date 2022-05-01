@@ -12,18 +12,20 @@ Output: 2
 
 ## Solution
 
-```go
-func maxDepth(root *TreeNode) int {
-  if root == nil {
-    return 0
-  }
-  return 1 + max(maxDepth(root.Left), maxDepth(root.Right))
-}
+* go
 
-func max(l, r int) int {
-  if l > r {
-    return l
+  ```go
+  func maxDepth(root *TreeNode) int {
+    if root == nil {
+      return 0
+    }
+    return 1 + max(maxDepth(root.Left), maxDepth(root.Right))
   }
-  return r
-}
-```
+
+  func max(l, r int) int {
+    if l > r {
+      return l
+    }
+    return r
+  }
+  ```

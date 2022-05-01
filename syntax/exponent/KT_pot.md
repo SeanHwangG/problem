@@ -15,11 +15,13 @@ Output: 102  # 2 ** 3 + 1 ** 7 ..
 
 ## Solution
 
-```py
-n_line = int(input())
-ret = 0
-for _ in range(n_line):
-  n = int(input())
-  ret += (n // 10) ** (n % 10)
-print(ret)
-```
+* py
+
+  ```py
+  n_line = int(input())
+  ret = 0
+  for _ in range(n_line):
+    n = int(input())
+    ret += (n // 10) ** (n % 10)
+  print(ret)
+  ```

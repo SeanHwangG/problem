@@ -16,6 +16,8 @@ C 75 78 80;D 99 88 76
 
 ## Solution
 
-```sh
-awk 'ORS=NR%2?";":"\n"'
-```
+* sh
+
+  ```sh
+  awk 'ORS=NR%2?";":"\n"'
+  ```

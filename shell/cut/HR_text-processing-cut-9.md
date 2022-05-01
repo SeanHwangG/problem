@@ -22,6 +22,6 @@ Houston-Sugar Land-Baytown, TX MSA  6,086,538   5   Boston-Worcester-Manchester,
 
 * sh
 
-```sh
-cut -f 2-
-```
+  ```sh
+  cut -f 2-
+  ```

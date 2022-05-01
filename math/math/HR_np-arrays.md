@@ -10,13 +10,15 @@ Output: [-10.  -8.   4.   3.   2.   1.]
 
 ## Solution
 
-```py
-import numpy
+* py
 
-def arrays(arr):
-  return numpy.array(arr[::-1], float)
+  ```py
+  import numpy
 
-arr = input().strip().split(' ')
-result = arrays(arr)
-print(result)
-```
+  def arrays(arr):
+    return numpy.array(arr[::-1], float)
+
+  arr = input().strip().split(' ')
+  result = arrays(arr)
+  print(result)
+  ```

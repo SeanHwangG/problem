@@ -29,22 +29,26 @@ Output: False
 
 ## Solution
 
-```cpp
-#include <bits/stdc.h++>
-using namespace std;
+* cpp
 
-int main() {
-  string s;
-  regex p{R"(([a-z]\w\s\W\d\D[A-Z][[:alpha:]][aeiouAEIOU]\S)\1)"};
-  getline(cin, s);
-  cout << boolalpha << regex_match(s, p) << endl;
-  return 0;
-}
-```
+  ```cpp
+  #include <bits/stdc.h++>
+  using namespace std;
 
-```py
-import re
+  int main() {
+    string s;
+    regex p{R"(([a-z]\w\s\W\d\D[A-Z][[:alpha:]][aeiouAEIOU]\S)\1)"};
+    getline(cin, s);
+    cout << boolalpha << regex_match(s, p) << endl;
+    return 0;
+  }
+  ```
 
-pattern = r'^([a-z]\w\s\W\d\D[A-Z][a-z,A-Z][aieouAEIOU]\S)\1$'
-print(str(bool(re.search(pattern, input()))).lower())
-```
+* py
+
+  ```py
+  import re
+
+  pattern = r'^([a-z]\w\s\W\d\D[A-Z][a-z,A-Z][aieouAEIOU]\S)\1$'
+  print(str(bool(re.search(pattern, input()))).lower())
+  ```

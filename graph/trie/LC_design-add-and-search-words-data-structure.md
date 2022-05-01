@@ -18,25 +18,27 @@ Output
 
 ## Solution
 
-```py
-class WordDictionary:
-  def __init__(self):
-    self.trie = {}
+* py
 
-  def addWord(self, word: str) -> None:
-    node = self.trie
-    for c in word + "$":
-      node = node.setdefault(c, {})
+  ```py
+  class WordDictionary:
+    def __init__(self):
+      self.trie = {}
 
-  def search(self, word: str) -> bool:
-    return self.searchNode(self.trie, word)
+    def addWord(self, word: str) -> None:
+      node = self.trie
+      for c in word + "$":
+        node = node.setdefault(c, {})
 
-  def searchNode(self, node, word: str) -> bool:
-    for i, c in enumerate(word):
-      if c == '.':
-        return any(self.searchNode(node[w], word[i+1:]) for w in node if w != '$')
-      if c not in node:
-        return False
-      node = node[c]
-    return '$' in node
-```
+    def search(self, word: str) -> bool:
+      return self.searchNode(self.trie, word)
+
+    def searchNode(self, node, word: str) -> bool:
+      for i, c in enumerate(word):
+        if c == '.':
+          return any(self.searchNode(node[w], word[i+1:]) for w in node if w != '$')
+        if c not in node:
+          return False
+        node = node[c]
+      return '$' in node
+  ```

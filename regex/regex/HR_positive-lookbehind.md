@@ -9,11 +9,12 @@ Output: 1
 
 ## Solution
 
-```py
-import re
-Test_String = input()
-pattern = r"(?<=[13579])\d"
-match = re.findall(pattern, Test_String)
+* py
 
-print("Number of matches :", len(match))
-```
+  ```py
+  import re
+  Test_String = input()
+  match = re.findall(r"(?<=[13579])\d", Test_String)
+
+  print("Number of matches :", len(match))
+  ```

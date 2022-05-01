@@ -13,20 +13,24 @@ Output: False
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+* cpp
 
-int main() {
-  std::string input;
-  std::getline(std::cin, input);
-  std::regex re (R"(...\....\....\....)");
-  std::cout << std::boolalpha << std::regex_match(input, re);
-  return 0;
-}
-```
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
 
-```py
-import re
-print(str(bool(re.match(r"...\....\....\....", input()))).lower())
-```
+  int main() {
+    std::string input;
+    std::getline(std::cin, input);
+    std::regex re (R"(...\....\....\....)");
+    std::cout << std::boolalpha << std::regex_match(input, re);
+    return 0;
+  }
+  ```
+
+* py
+
+  ```py
+  import re
+  print(str(bool(re.match(r"...\....\....\....", input()))).lower())
+  ```

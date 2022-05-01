@@ -12,27 +12,27 @@ Output: true
 
 * go
 
-```go
-func containsNearbyDuplicate(nums []int, k int) bool {
-  dic := make(map[int]int, len(nums))
-  for i, v := range nums{
-    if pos, ok := dic[v]; ok && i - pos <= k {
-      return true
+  ```go
+  func containsNearbyDuplicate(nums []int, k int) bool {
+    dic := make(map[int]int, len(nums))
+    for i, v := range nums{
+      if pos, ok := dic[v]; ok && i - pos <= k {
+        return true
+      }
+      dic[v] = i
     }
-    dic[v] = i
+    return false
   }
-  return false
-}
-```
+  ```
 
 * py
 
-```py
-def containsNearbyDuplicate(self, nums, k):
-  dic = {}
-  for i, v in enumerate(nums):
-    if v in dic and i - dic[v] <= k:
-      return True
-    dic[v] = i
-  return False
-```
+  ```py
+  def containsNearbyDuplicate(self, nums, k):
+    dic = {}
+    for i, v in enumerate(nums):
+      if v in dic and i - dic[v] <= k:
+        return True
+      dic[v] = i
+    return False
+  ```

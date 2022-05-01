@@ -22,7 +22,9 @@ Feed'st thy light's flame with self-substantial fuel,
 
 ## Solution
 
-```sh
-# -v   : Invert the sense of matching
-grep -viw 'that'
-```
+* sh
+
+  ```sh
+  # -v   : Invert the sense of matching
+  grep -viw 'that'
+  ```

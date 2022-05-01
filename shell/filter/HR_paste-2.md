@@ -22,6 +22,6 @@ Austin, Texas;Baltimore, Md.;Baton Rouge, La.
 
 * sh
 
-```sh
-paste - - - -d ';'
-```
+  ```sh
+  paste - - - -d ';'
+  ```

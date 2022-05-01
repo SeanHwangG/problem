@@ -10,28 +10,30 @@ Output: [2,1,1,0]
 
 ## Solution
 
-```py
-class BIT:
-  def __init__(self, n):
-    self.n = n + 1
-    self.sums = [0] * self.n
+* py
 
-  def update(self, i, delta):
-    while i < self.n:
-      self.sums[i] += delta
-      i += i & (-i)
+  ```py
+  class BIT:
+    def __init__(self, n):
+      self.n = n + 1
+      self.sums = [0] * self.n
 
-  def query(self, i):
-    res = 0
-    while i > 0:
-      res += self.sums[i]
-      i -= i & (-i)
-    return res
+    def update(self, i, delta):
+      while i < self.n:
+        self.sums[i] += delta
+        i += i & (-i)
 
-def countSmaller(self, li):
-  ranks, bit, ret = {e : i + 1 for i, e in enumerate(sorted(li))}, self.BIT(len(li)), []
-  for e in reversed(li):
-    ret.append(bit.query(ranks[e] - 1))
-    bit.update(ranks[e], 1)
-  return ret[::-1]
-```
+    def query(self, i):
+      res = 0
+      while i > 0:
+        res += self.sums[i]
+        i -= i & (-i)
+      return res
+
+  def countSmaller(self, li):
+    ranks, bit, ret = {e : i + 1 for i, e in enumerate(sorted(li))}, self.BIT(len(li)), []
+    for e in reversed(li):
+      ret.append(bit.query(ranks[e] - 1))
+      bit.update(ranks[e], 1)
+    return ret[::-1]
+  ```

@@ -12,8 +12,10 @@ Output: false
 
 ## Solution
 
-```cpp
-bool canWinNim(int n) {
-  return (n % 4) != 0;
-}
-```
+* cpp
+
+  ```cpp
+  bool canWinNim(int n) {
+    return (n % 4) != 0;
+  }
+  ```

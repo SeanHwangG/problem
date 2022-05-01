@@ -16,6 +16,8 @@ Austin, Texas   50.2    68.3    84.2    70.6    33.65   85  0.9 62 / 58
 
 ## Solution
 
-```sh
-sort -n -k2 -t$'\t'
-```
+* sh
+
+  ```sh
+  sort -n -k2 -t$'\t'
+  ```

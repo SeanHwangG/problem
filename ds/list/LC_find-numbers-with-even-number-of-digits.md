@@ -14,16 +14,20 @@ Output: 1  # 1771 contains even number of digit
 
 ## Solution
 
-```cpp
-int findNumbers(vector<int>& nums) {
-  return accumulate(nums.cbegin(), nums.cend(), 0,
-    [](auto a, auto b) {
-      return a + (to_string(b).size() % 2 == 0);
-    });
-}
-```
+* cpp
 
-```py
-def findNumbers(self, nums: List[int]) -> int:
-  return len([i for i in nums if len(str(i)) % 2 == 0])
-```
+  ```cpp
+  int findNumbers(vector<int>& nums) {
+    return accumulate(nums.cbegin(), nums.cend(), 0,
+      [](auto a, auto b) {
+        return a + (to_string(b).size() % 2 == 0);
+      });
+  }
+  ```
+
+* py
+
+  ```py
+  def findNumbers(self, nums: List[int]) -> int:
+    return len([i for i in nums if len(str(i)) % 2 == 0])
+  ```

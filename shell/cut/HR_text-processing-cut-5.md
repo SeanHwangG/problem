@@ -22,6 +22,6 @@ Output:
 
 * sh
 
-```sh
-cut -f1-3
-```
+  ```sh
+  cut -f1-3
+  ```

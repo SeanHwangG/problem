@@ -18,27 +18,27 @@ Output: [null,1,0,-1]
 
 * py
 
-```py
-step = 15
-def __init__(self, n, A):
-  A = dict(enumerate(A))
-  jump = [A]
-  for s in range(self.step):
-    B = {}
-    for i, a in A.items():
-      if a in A:
-        B[i] = A[a]
-    jump.append(B)
-    A = B
-  self.jump = jump
+  ```py
+  step = 15
+  def __init__(self, n, A):
+    A = dict(enumerate(A))
+    jump = [A]
+    for s in range(self.step):
+      B = {}
+      for i, a in A.items():
+        if a in A:
+          B[i] = A[a]
+      jump.append(B)
+      A = B
+    self.jump = jump
 
-def getKthAncestor(self, x, k):
-  step = self.step
-  while k > 0 and x > -1:
-    if k >= 1 << step:
-      x = self.jump[step].get(x, -1)
-      k -= 1 << step
-    else:
-      step -= 1
-  return x
-```
+  def getKthAncestor(self, x, k):
+    step = self.step
+    while k > 0 and x > -1:
+      if k >= 1 << step:
+        x = self.jump[step].get(x, -1)
+        k -= 1 << step
+      else:
+        step -= 1
+    return x
+  ```

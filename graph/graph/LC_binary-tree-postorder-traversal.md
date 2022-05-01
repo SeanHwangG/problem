@@ -9,13 +9,15 @@ Output: [3,2,1]
 
 ## Solution
 
-```py
-def postorderTraversal(self, root):
-  traversal, stack = [], [root]
-  while stack:
-    node = stack.pop()
-    if node:
-      traversal.append(node.val)
-      stack.extend([node.left, node.right])
-  return traversal[::-1]
-```
+* py
+
+  ```py
+  def postorderTraversal(self, root):
+    traversal, stack = [], [root]
+    while stack:
+      node = stack.pop()
+      if node:
+        traversal.append(node.val)
+        stack.extend([node.left, node.right])
+    return traversal[::-1]
+  ```

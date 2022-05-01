@@ -11,10 +11,12 @@ Output: true
 
 * Newton's method
 
-```py
-def isPerfectSquare(self, x: int) -> bool:
-  r = x
-  while r * r > x:
-    r = (r + x // r) // 2
-  return r * r == x
-```
+* py
+
+  ```py
+  def isPerfectSquare(self, x: int) -> bool:
+    r = x
+    while r * r > x:
+      r = (r + x // r) // 2
+    return r * r == x
+  ```

@@ -9,7 +9,9 @@ Output: [4,0,1,1,3]
 
 ## Solution
 
-```py
-def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
-  return [sum(m < n for m in nums) for n in nums]
-```
+* py
+
+  ```py
+  def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+    return [sum(m < n for m in nums) for n in nums]
+  ```

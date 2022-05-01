@@ -28,18 +28,18 @@ X
 
 * py
 
-```py
-def numDupDigitsAtMostN(self, N):
-  L = list(map(int, str(N + 1)))
-  res = 0
+  ```py
+  def numDupDigitsAtMostN(self, N):
+    L = list(map(int, str(N + 1)))
+    res = 0
 
-  for i in range(1, len(L)): res += 9 * math.perm(9, i - 1) # count postive number with digits less than K
-  s = set()
-  for i, x in enumerate(L):
-    for y in range(0 if i else 1, x):
-      if y not in s:
-        res += math.perm(9 - i, len(L) - i - 1)
-    if x in s: break
-    s.add(x)
-  return N - res
-```
+    for i in range(1, len(L)): res += 9 * math.perm(9, i - 1) # count postive number with digits less than K
+    s = set()
+    for i, x in enumerate(L):
+      for y in range(0 if i else 1, x):
+        if y not in s:
+          res += math.perm(9 - i, len(L) - i - 1)
+      if x in s: break
+      s.add(x)
+    return N - res
+  ```

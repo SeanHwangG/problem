@@ -14,8 +14,8 @@ Albany, N.Y.;Albuquerque, N.M.;Anchorage, Alaska
 
 * sh
 
-```sh
-# -d: Use one or more of the provided characters to replace the newline characters instead of the default tab
-# -s: Concatenate all of the lines of each separate input file in command line order
-paste -sd ';'
-```
+  ```sh
+  # -d: Use one or more of the provided characters to replace the newline characters instead of the default tab
+  # -s: Concatenate all of the lines of each separate input file in command line order
+  paste -sd ';'
+  ```

@@ -8,15 +8,17 @@ Output: 1/9
 
 ## Solution
 
-```py
-from fractions import Fraction
-poss = 0
+* py
 
-for d1 in range(1, 7):
-  for d2 in range(1, 7):
-    if d1 != d2 and d1 + d2 == 6:
-      poss += 1
-      print(f"{d1} + {d2} = {d1 + d2}")
+  ```py
+  from fractions import Fraction
+  poss = 0
 
-print(f"Probability: {Fraction(poss, 36)}")
-```
+  for d1 in range(1, 7):
+    for d2 in range(1, 7):
+      if d1 != d2 and d1 + d2 == 6:
+        poss += 1
+        print(f"{d1} + {d2} = {d1 + d2}")
+
+  print(f"Probability: {Fraction(poss, 36)}")
+  ```

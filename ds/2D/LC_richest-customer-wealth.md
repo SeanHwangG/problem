@@ -17,16 +17,16 @@ Output: 10
 
 * cpp
 
-```cpp
-auto maximumWealth(auto const& accounts) -> int {
-  return std::ranges::max(accounts | std::views::transform([](auto const& row) {
-    return std::reduce(row.cbegin(), row.cend());
-  }));
-}
-```
+  ```cpp
+  auto maximumWealth(auto const& accounts) -> int {
+    return std::ranges::max(accounts | std::views::transform([](auto const& row) {
+      return std::reduce(row.cbegin(), row.cend());
+    }));
+  }
+  ```
 
 * py
 
-```py
-return max(map(sum, accounts))
-```
+  ```py
+  return max(map(sum, accounts))
+  ```

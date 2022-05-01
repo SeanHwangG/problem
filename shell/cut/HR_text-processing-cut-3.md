@@ -18,6 +18,6 @@ ow are
 
 * sh
 
-```sh
-cut -c2-7
-```
+  ```sh
+  cut -c2-7
+  ```

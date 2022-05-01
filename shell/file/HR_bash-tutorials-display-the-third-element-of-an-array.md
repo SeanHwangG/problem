@@ -14,6 +14,8 @@ Output: Netherlands
 
 ## Solution
 
-```sh
-head -n3 | tail -n1
-```
+* sh
+
+  ```sh
+  head -n3 | tail -n1
+  ```

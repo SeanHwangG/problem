@@ -14,13 +14,13 @@ Output: 2*2=4  # can be 2+2=4
 
 * py
 
-```py
-a, b, c = input().split()
-for op in ['+', '-', '*', '/']:
-  if eval(a + op + b) == int(c):
-    print(a + op + b + '=' + c)
-    break
-  if int(a) == eval(b + op + c):
-    print(a + '=' + b + op + c)
-    break
-```
+  ```py
+  a, b, c = input().split()
+  for op in ['+', '-', '*', '/']:
+    if eval(a + op + b) == int(c):
+      print(a + op + b + '=' + c)
+      break
+    if int(a) == eval(b + op + c):
+      print(a + '=' + b + op + c)
+      break
+  ```

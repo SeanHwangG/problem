@@ -16,14 +16,14 @@ Output: 5
 
 * py
 
-```py
-def findIntegers(self, n: int) -> int:
-  res, x, y, n = 0, 1, 2, n + 1   # 00000-01111 and 10000-10111 so fibonacci
-  while n:
-    if n & 3 == 3:
-      res = 0
-    res += x * (n & 1)
-    n >>= 1
-    x, y = y, x + y
-  return res
-```
+  ```py
+  def findIntegers(self, n: int) -> int:
+    res, x, y, n = 0, 1, 2, n + 1   # 00000-01111 and 10000-10111 so fibonacci
+    while n:
+      if n & 3 == 3:
+        res = 0
+      res += x * (n & 1)
+      n >>= 1
+      x, y = y, x + y
+    return res
+  ```

@@ -16,8 +16,10 @@ Output: 2
 
 ## Solution
 
-```py
-def minDifference(self, A):
-  A.sort()
-  return min(b - a for a, b in zip(A[:4], A[-4:]))
-```
+* py
+
+  ```py
+  def minDifference(self, A):
+    A.sort()
+    return min(b - a for a, b in zip(A[:4], A[-4:]))
+  ```

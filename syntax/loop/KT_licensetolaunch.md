@@ -14,8 +14,8 @@ Output: 2
 
 * py
 
-```py
-input()
-s = input()
-print(s.index(min(s)))
-```
+  ```py
+  input()
+  s = input()
+  print(s.index(min(s)))
+  ```

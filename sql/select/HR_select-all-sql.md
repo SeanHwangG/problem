@@ -22,6 +22,8 @@ Output:
 
 ## Solution
 
-```sql
-SELECT * FROM City;
-```
+* sql
+
+  ```sql
+  SELECT * FROM City;
+  ```

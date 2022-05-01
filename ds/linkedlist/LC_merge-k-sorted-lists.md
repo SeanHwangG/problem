@@ -10,18 +10,20 @@ Output: [1,1,2,3,4,4,5,6]
 
 ## Solution
 
-```py
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-def mergeKLists(self, lists):
-  def vals(node):
-    while node:
-      yield node.val
-      node = node.next
-  dummy = last = ListNode(None)
-  for val in heapq.merge(*map(vals, lists)):
-    last.next = last = ListNode(val)
-  return dummy.next
-```
+* py
+
+  ```py
+  # class ListNode:
+  #     def __init__(self, val=0, next=None):
+  #         self.val = val
+  #         self.next = next
+  def mergeKLists(self, lists):
+    def vals(node):
+      while node:
+        yield node.val
+        node = node.next
+    dummy = last = ListNode(None)
+    for val in heapq.merge(*map(vals, lists)):
+      last.next = last = ListNode(val)
+    return dummy.next
+  ```

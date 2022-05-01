@@ -11,11 +11,11 @@ Output: 91  # excluding 11, 22
 
 * py
 
-```py
-def countNumbersWithUniqueDigits(self, n: int) -> int:
-  res, prev = 10, 9
-  for i in range(1, n):
-    prev *= 10 - i
-    res += prev
-  return n and res or 1
-```
+  ```py
+  def countNumbersWithUniqueDigits(self, n: int) -> int:
+    res, prev = 10, 9
+    for i in range(1, n):
+      prev *= 10 - i
+      res += prev
+    return n and res or 1
+  ```

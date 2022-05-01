@@ -17,6 +17,8 @@ james
 
 ## Solution
 
-```sh
-sort
-```
+* sh
+
+  ```sh
+  sort
+  ```

@@ -17,9 +17,9 @@ Output: 7 (2 + 1 + 2 + 4)
 
 * py
 
-```py
-for _ in range(int(input())):
-  li = list(map(int, input().split()))
-  count = sum(li) - 2 * li[0] + 1
-  print(count)
-```
+  ```py
+  for _ in range(int(input())):
+    li = list(map(int, input().split()))
+    count = sum(li) - 2 * li[0] + 1
+    print(count)
+  ```

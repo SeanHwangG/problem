@@ -16,7 +16,7 @@ Output: "c"  # c is larger than b
 
 * py
 
-```py
-def slowestKey(self, r, k):
-  return max(zip(map(sub, r, [0, *r]), k))[1]
-```
+  ```py
+  def slowestKey(self, r, k):
+    return max(zip(map(sub, r, [0, *r]), k))[1]
+  ```

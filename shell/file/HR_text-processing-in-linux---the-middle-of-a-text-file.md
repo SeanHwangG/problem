@@ -45,7 +45,9 @@ Were an all-eating shame, and thriftless praise.
 
 ## Solution
 
-```sh
-# cut -d$'\n' -f12-22
-head -n 22 | tail -n +12
-```
+* sh
+
+  ```sh
+  # cut -d$'\n' -f12-22
+  head -n 22 | tail -n +12
+  ```

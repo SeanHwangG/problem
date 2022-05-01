@@ -13,6 +13,6 @@ Albany, N.Y.    Albuquerque, N.M.
 
 * sh
 
-```sh
-paste -s
-```
+  ```sh
+  paste -s
+  ```

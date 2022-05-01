@@ -18,6 +18,6 @@ Asheville, N.C. Atlanta, Ga.    Atlantic City, N.J.
 
 * sh
 
-```sh
-paste - - -
-```
+  ```sh
+  paste - - -
+  ```

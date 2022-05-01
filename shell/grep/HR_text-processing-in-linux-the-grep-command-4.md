@@ -22,6 +22,8 @@ Thou that art now the world's fresh ornament,
 
 ## Solution
 
-```sh
-grep -Eiw 'th(e|ose|en|at)'
-```
+* sh
+
+  ```sh
+  grep -Eiw 'th(e|ose|en|at)'
+  ```

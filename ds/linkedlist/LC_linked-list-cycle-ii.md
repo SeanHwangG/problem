@@ -9,20 +9,22 @@ Output: tail connects to node index 1
 
 ## Solution
 
-```py
-def detectCycle(self, head):
-  try:
-    fast = head.next
-    slow = head
-    while fast is not slow:
-      fast = fast.next.next
-      slow = slow.next
-  except:
-    return None
+* py
 
-  slow = slow.next
-  while head is not slow:
-    head = head.next
+  ```py
+  def detectCycle(self, head):
+    try:
+      fast = head.next
+      slow = head
+      while fast is not slow:
+        fast = fast.next.next
+        slow = slow.next
+    except:
+      return None
+
     slow = slow.next
-  return head
-```
+    while head is not slow:
+      head = head.next
+      slow = slow.next
+    return head
+  ```

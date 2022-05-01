@@ -26,28 +26,28 @@ Output: "impossible"
 
 * py
 
-```py
-def findShortestWay(self, G, ball, hole):
-  ball, hole = tuple(ball), tuple(hole)
-  def neighbors(r, c):
-    for dr, dc, di in [(-1, 0, 'u'), (0, 1, 'r'), (0, -1, 'l'), (1, 0, 'd')]:
-      cr, cc, dist = r, c, 0
-      while 0 <= cr + dr < len(G) and  0 <= cc + dc < len(G[0]) and not G[cr+dr][cc+dc]:
-        cr += dr
-        cc += dc
-        dist += 1
-        if (cr, cc) == hole:
-          break
-      yield (cr, cc), di, dist
+  ```py
+  def findShortestWay(self, G, ball, hole):
+    ball, hole = tuple(ball), tuple(hole)
+    def neighbors(r, c):
+      for dr, dc, di in [(-1, 0, 'u'), (0, 1, 'r'), (0, -1, 'l'), (1, 0, 'd')]:
+        cr, cc, dist = r, c, 0
+        while 0 <= cr + dr < len(G) and  0 <= cc + dc < len(G[0]) and not G[cr+dr][cc+dc]:
+          cr += dr
+          cc += dc
+          dist += 1
+          if (cr, cc) == hole:
+            break
+        yield (cr, cc), di, dist
 
-  pq, seen = [(0, '', ball)], set()
-  while pq:
-    dist, path, node = heapq.heappop(pq)
-    if node in seen: continue
-    if node == hole: return path
-    seen.add(node)
-    for nei, di, nei_dist in neighbors(*node):
-      heapq.heappush(pq, (dist+nei_dist, path+di, nei))
+    pq, seen = [(0, '', ball)], set()
+    while pq:
+      dist, path, node = heapq.heappop(pq)
+      if node in seen: continue
+      if node == hole: return path
+      seen.add(node)
+      for nei, di, nei_dist in neighbors(*node):
+        heapq.heappush(pq, (dist+nei_dist, path+di, nei))
 
-  return "impossible"
-```
+    return "impossible"
+  ```

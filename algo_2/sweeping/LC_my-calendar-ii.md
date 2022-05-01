@@ -18,18 +18,20 @@ MyCalendar.book(25, 55); // returns true
 
 * Time; O(n) (Per query) / Space : O(n)
 
-```py
-class MyCalendarTwo:
-  def __init__(self):
-    self.overlaps, self.calendar = [], []
+* py
 
-  def book(self, start, end):
-    for i, j in self.overlaps:
-      if start < j and end > i:
-        return False
-    for i, j in self.calendar:
-      if start < j and end > i:
-        self.overlaps.append((max(start, i), min(end, j)))
-    self.calendar.append((start, end))
-    return True
-```
+  ```py
+  class MyCalendarTwo:
+    def __init__(self):
+      self.overlaps, self.calendar = [], []
+
+    def book(self, start, end):
+      for i, j in self.overlaps:
+        if start < j and end > i:
+          return False
+      for i, j in self.calendar:
+        if start < j and end > i:
+          self.overlaps.append((max(start, i), min(end, j)))
+      self.calendar.append((start, end))
+      return True
+  ```

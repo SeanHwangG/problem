@@ -11,21 +11,25 @@ Output: true
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+* cpp
 
-int main() {
-  string s;
-  regex p{"[[:alpha:]02468]{40}[13579\\s]{5}"};
-  getline(cin, s);
-  cout << boolalpha << regex_match(s, p) << endl;
-  return 0;
-}
-```
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
 
-```py
-import re
-pattern = r'^[a-zA-Z02468]{40}[13579\s]{5}$'  # Do not delete 'r'.
-print(str(bool(re.search(pattern, input()))).lower())
-```
+  int main() {
+    string s;
+    regex p{"[[:alpha:]02468]{40}[13579\\s]{5}"};
+    getline(cin, s);
+    cout << boolalpha << regex_match(s, p) << endl;
+    return 0;
+  }
+  ```
+
+* py
+
+  ```py
+  import re
+  pattern = r'^[a-zA-Z02468]{40}[13579\s]{5}$'  # Do not delete 'r'.
+  print(str(bool(re.search(pattern, input()))).lower())
+  ```

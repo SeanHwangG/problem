@@ -20,6 +20,8 @@ Output: Niger
 
 ## Solution
 
-```sh
-grep -vi 'a' || printf "\n"
-```
+* sh
+
+  ```sh
+  grep -vi 'a' || printf "\n"
+  ```

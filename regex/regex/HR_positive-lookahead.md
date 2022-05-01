@@ -9,13 +9,15 @@ Output: Number of matches : 3
 
 ## Solution
 
-```py
-import re
+* py
 
-Test_String = input()
+  ```py
+  import re
 
-pattern = r"o(?=oo)"
-match = re.findall(pattern, Test_String)
+  Test_String = input()
 
-print("Number of matches :", len(match))
-```
+  pattern = r"o(?=oo)"
+  match = re.findall(pattern, Test_String)
+
+  print("Number of matches :", len(match))
+  ```

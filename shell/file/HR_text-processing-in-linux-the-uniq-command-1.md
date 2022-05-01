@@ -22,6 +22,8 @@ Output:
 
 ## Solution
 
-```sh
-uniq
-```
+* sh
+
+  ```sh
+  uniq
+  ```

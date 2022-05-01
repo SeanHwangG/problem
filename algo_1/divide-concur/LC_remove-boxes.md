@@ -11,19 +11,21 @@ Output: 23
 
 ## Solution
 
-```py
-def removeBoxes(self, B: List[int]) -> int:
-  @lru_cache(None)
-  def dp(l, r, k):
-    if l > r: return 0
-    while l + 1 <= r and B[l] == B[l + 1]:  # Increase both `l` and `k` if they have consecutive colors with `B[l]`
-      l += 1
-      k += 1
-    ans = (k + 1) * (k + 1) + dp(l + 1, r, 0)  # Remove all B which has same with `B[l]`
-    for m in range(l + 1, r + 1):  # Try to merge non-contiguous B of same color together
-      if B[l] == B[m]:
-        ans = max(ans, dp(m, r, k + 1) + dp(l + 1, m - 1, 0))
-    return ans
+* py
 
-  return dp(0, len(B) - 1, 0)
-```
+  ```py
+  def removeBoxes(self, B: List[int]) -> int:
+    @lru_cache(None)
+    def dp(l, r, k):
+      if l > r: return 0
+      while l + 1 <= r and B[l] == B[l + 1]:  # Increase both `l` and `k` if they have consecutive colors with `B[l]`
+        l += 1
+        k += 1
+      ans = (k + 1) * (k + 1) + dp(l + 1, r, 0)  # Remove all B which has same with `B[l]`
+      for m in range(l + 1, r + 1):  # Try to merge non-contiguous B of same color together
+        if B[l] == B[m]:
+          ans = max(ans, dp(m, r, k + 1) + dp(l + 1, m - 1, 0))
+      return ans
+
+    return dp(0, len(B) - 1, 0)
+  ```

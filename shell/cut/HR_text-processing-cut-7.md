@@ -20,6 +20,6 @@ test
 
 * sh
 
-```sh
-cut -d' ' -f4
-```
+  ```sh
+  cut -d' ' -f4
+  ```

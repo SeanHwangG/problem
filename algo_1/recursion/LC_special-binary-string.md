@@ -15,13 +15,15 @@ Output: "11100100"  # The strings "10" [occuring at s[1]] and "1100" [at s[3]] a
 
 ## Solution
 
-```py
-def makeLargestSpecial(self, S: str) -> str:
-  count, i, res = 0, 0, []
-  for j, v in enumerate(S):
-    count = count + 1 if v == '1' else count - 1
-    if count == 0:
-      res.append('1' + self.makeLargestSpecial(S[i + 1: j]) + '0')
-      i = j + 1
-  return ''.join(sorted(res)[::-1])
-```
+* py
+
+  ```py
+  def makeLargestSpecial(self, S: str) -> str:
+    count, i, res = 0, 0, []
+    for j, v in enumerate(S):
+      count = count + 1 if v == '1' else count - 1
+      if count == 0:
+        res.append('1' + self.makeLargestSpecial(S[i + 1: j]) + '0')
+        i = j + 1
+    return ''.join(sorted(res)[::-1])
+  ```

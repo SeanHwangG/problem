@@ -9,23 +9,26 @@ Output: 6
 
 ## Solution
 
-* Run; O(N)
+* java
+  * Run; O(N)
 
-```java
-public static int maxSubArray(int[] A) {
-  int maxSoFar = A[0], maxEndingHere = A[0];
-  for (int i = 1; i < A.length; ++i){
-    maxEndingHere = Math.max(maxEndingHere + A[i], A[i]);
-    maxSoFar = Math.max(maxSoFar, maxEndingHere);
+  ```java
+  public static int maxSubArray(int[] A) {
+    int maxSoFar = A[0], maxEndingHere = A[0];
+    for (int i = 1; i < A.length; ++i){
+      maxEndingHere = Math.max(maxEndingHere + A[i], A[i]);
+      maxSoFar = Math.max(maxSoFar, maxEndingHere);
+    }
+    return maxSoFar;
   }
-  return maxSoFar;
-}
-```
+  ```
 
-```py
-def maxSubArray(self, nums: List[int]) -> int:
-  for i in range(1, len(nums)):
-    if nums[i - 1] > 0:
-      nums[i] += nums[i - 1]
-    return max(nums)
-```
+* py
+
+  ```py
+  def maxSubArray(self, nums: List[int]) -> int:
+    for i in range(1, len(nums)):
+      if nums[i - 1] > 0:
+        nums[i] += nums[i - 1]
+      return max(nums)
+  ```

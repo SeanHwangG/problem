@@ -28,6 +28,8 @@ Output:
 
 ## Solution
 
-```sh
-uniq -ci | sed "s/^[[:space:]]*//g"
-```
+* sh
+
+  ```sh
+  uniq -ci | sed "s/^[[:space:]]*//g"
+  ```

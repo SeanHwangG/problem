@@ -13,7 +13,9 @@ Output: 1
 
 ## Solution
 
-```py
-def findGCD(self, nums: List[int]) -> int:
-  return gcd(min(nums), max(nums))
-```
+* py
+
+  ```py
+  def findGCD(self, nums: List[int]) -> int:
+    return gcd(min(nums), max(nums))
+  ```

@@ -10,33 +10,37 @@ Output: 7
 
 ## Solution
 
-```cpp
-class Solution {
-public:
-  int rob(TreeNode* root) {
-    auto [best_with_root, best_without_root] = rob_helper(root);
-    return max(best_with_root, best_without_root);
-  }
+* cpp
 
-  std::pair<int, int> rob_helper(TreeNode* root) {
-    if (!root)
-      return {0, 0};
-    auto [l_with_node, l_wo_node] = rob_helper(root->left);
-    auto [r_with_node, r_wo_node] = rob_helper(root->right);
+  ```cpp
+  class Solution {
+  public:
+    int rob(TreeNode* root) {
+      auto [best_with_root, best_without_root] = rob_helper(root);
+      return max(best_with_root, best_without_root);
+    }
 
-    return {root->val + l_wo_node + r_wo_node, max(l_with_node, l_wo_node) + max(r_with_node, r_wo_node)};
-  }
-};
-```
+    std::pair<int, int> rob_helper(TreeNode* root) {
+      if (!root)
+        return {0, 0};
+      auto [l_with_node, l_wo_node] = rob_helper(root->left);
+      auto [r_with_node, r_wo_node] = rob_helper(root->right);
 
-```py
-def rob(self, root: TreeNode):
-  def with_without_rob(root):
-    if root :
-      wi_l, wo_l = with_without_rob(root.left)
-      wi_r, wo_r = with_without_rob(root.right)
-      return (root.val + wo_l + wo_r, max(wi_l, wo_l) + max(wi_r, wo_r))
-    return (0, 0)
+      return {root->val + l_wo_node + r_wo_node, max(l_with_node, l_wo_node) + max(r_with_node, r_wo_node)};
+    }
+  };
+  ```
 
-  return max(with_without_rob(root))
-```
+* py
+
+  ```py
+  def rob(self, root: TreeNode):
+    def with_without_rob(root):
+      if root :
+        wi_l, wo_l = with_without_rob(root.left)
+        wi_r, wo_r = with_without_rob(root.right)
+        return (root.val + wo_l + wo_r, max(wi_l, wo_l) + max(wi_r, wo_r))
+      return (0, 0)
+
+    return max(with_without_rob(root))
+  ```

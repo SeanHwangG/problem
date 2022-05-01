@@ -12,25 +12,25 @@ Output: true
 
 * cpp
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
 
 
-int main() {
-  string s;
-  regex p{ "^\\d\\w{4}\\.$" };
-  getline(cin, s);
-  cout << boolalpha << regex_match(s, p) << endl;
-  return 0;
-}
-```
+  int main() {
+    string s;
+    regex p{ "^\\d\\w{4}\\.$" };
+    getline(cin, s);
+    cout << boolalpha << regex_match(s, p) << endl;
+    return 0;
+  }
+  ```
 
 * py
 
-```py
-import re
+  ```py
+  import re
 
-pattern = r'^\d\w\w\w\w\.$'
-print(str(bool(re.search(pattern, input()))).lower())
-```
+  pattern = r'^\d\w\w\w\w\.$'
+  print(str(bool(re.search(pattern, input()))).lower())
+  ```

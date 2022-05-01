@@ -22,21 +22,25 @@ Invalid
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+* cpp
+
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
 
 
-int main() {
-  regex reg_pat(R"(^\d\d(---|-|\.|:)(\d\d\1){2}\d\d$)");
-  string str;
-  cin >> str;
-  cout << std::boolalpha << regex_search(str,reg_pat);
-  return 0;
-}
-```
+  int main() {
+    regex reg_pat(R"(^\d\d(---|-|\.|:)(\d\d\1){2}\d\d$)");
+    string str;
+    cin >> str;
+    cout << std::boolalpha << regex_search(str,reg_pat);
+    return 0;
+  }
+  ```
 
-```py
-import re
-print(str(bool(re.search(r'^\d\d(?|(-)|(:)|(\.)|(---))\d\d\1\d\d\1\d\d$', input()))).lower())
-```
+* py
+
+  ```py
+  import re
+  print(str(bool(re.search(r'^\d\d(?|(-)|(:)|(\.)|(---))\d\d\1\d\d\1\d\d$', input()))).lower())
+  ```

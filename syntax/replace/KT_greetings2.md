@@ -11,6 +11,6 @@ Output: heeeeeeeeeey
 
 * py
 
-```py
-print(input().replace("e", "ee"))
-```
+  ```py
+  print(input().replace("e", "ee"))
+  ```

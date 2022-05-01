@@ -21,9 +21,7 @@ www.bb-bbbb-bb.com
 * py
 
   ```py
-  Regex_Pattern = r"\w{3}\W\w{10}\W\w{3}"	# Do not delete 'r'.
-
   import re
 
-  print(str(bool(re.search(Regex_Pattern, input()))).lower())
+  print(str(bool(re.search(r"\w{3}\W\w{10}\W\w{3}", input()))).lower())
   ```

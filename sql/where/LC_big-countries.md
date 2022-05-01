@@ -22,7 +22,9 @@ Output:
 
 ## Solution
 
-```sql
-SELECT name, population, area FROM World
-  WHERE 3000000 < area OR 25000000 < population;
-```
+* sql
+
+  ```sql
+  SELECT name, population, area FROM World
+    WHERE 3000000 < area OR 25000000 < population;
+  ```

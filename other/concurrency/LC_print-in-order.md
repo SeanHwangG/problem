@@ -13,103 +13,103 @@ Output: "firstsecondthird"
 
 * cpp
 
-```cpp
-class Foo {
-private:
-  std::promise<void> p1;
-  std::promise<void> p2;
+  ```cpp
+  class Foo {
+  private:
+    std::promise<void> p1;
+    std::promise<void> p2;
 
-public:
-  void first(function<void()> printFirst) {
-    printFirst();
-    p1.set_value();
-  }
+  public:
+    void first(function<void()> printFirst) {
+      printFirst();
+      p1.set_value();
+    }
 
-  void second(function<void()> printSecond) {
-    p1.get_future().wait();
-    printSecond();
-    p2.set_value();
-  }
+    void second(function<void()> printSecond) {
+      p1.get_future().wait();
+      printSecond();
+      p2.set_value();
+    }
 
-  void third(function<void()> printThird) {
-    p2.get_future().wait();
-    printThird();
-  }
-};
-```
+    void third(function<void()> printThird) {
+      p2.get_future().wait();
+      printThird();
+    }
+  };
+  ```
 
 * go
 
-```go
-package main
+  ```go
+  package main
 
-import "fmt"
+  import "fmt"
 
-var oneDone = make(chan bool)
-var twoDone = make(chan bool)
+  var oneDone = make(chan bool)
+  var twoDone = make(chan bool)
 
-func first() {
-  fmt.Println("one")
-  oneDone <- true
-}
+  func first() {
+    fmt.Println("one")
+    oneDone <- true
+  }
 
-func second() {
-  <-oneDone
-  fmt.Println("two")
-  twoDone <- true
-}
+  func second() {
+    <-oneDone
+    fmt.Println("two")
+    twoDone <- true
+  }
 
-func third() {
-  <-twoDone
-  fmt.Println("three")
-}
+  func third() {
+    <-twoDone
+    fmt.Println("three")
+  }
 
-func main() {
-  go second()
-  go third()
-  go first()
+  func main() {
+    go second()
+    go third()
+    go first()
 
-  fmt.Scanln()
-}
-```
-
-* Synchronized method
+    fmt.Scanln()
+  }
+  ```
 
 * java
+  * Synchronized method
 
-```java
-class Foo {
-  private boolean oneDone;
-  private boolean twoDone;
+  ```java
+  class Foo {
+    private boolean oneDone;
+    private boolean twoDone;
 
-  public Foo() {
-    oneDone = false;
-    twoDone = false;
+    public Foo() {
+      oneDone = false;
+      twoDone = false;
+    }
+
+    public synchronized void first(Runnable printFirst) throws InterruptedException {
+      printFirst.run();
+      oneDone = true;
+      notifyAll();
+    }
+
+    public synchronized void second(Runnable printSecond) throws InterruptedException {
+      while (!oneDone) wait();
+      printSecond.run();
+      twoDone = true;
+      notifyAll();
+    }
+
+    public synchronized void third(Runnable printThird) throws InterruptedException {
+      while (!twoDone) wait();
+      printThird.run();
+    }
   }
+  ```
 
-  public synchronized void first(Runnable printFirst) throws InterruptedException {
-    printFirst.run();
-    oneDone = true;
-    notifyAll();
-  }
-
-  public synchronized void second(Runnable printSecond) throws InterruptedException {
-    while (!oneDone) wait();
-    printSecond.run();
-    twoDone = true;
-    notifyAll();
-  }
-
-  public synchronized void third(Runnable printThird) throws InterruptedException {
-    while (!twoDone) wait();
-    printThird.run();
-  }
-}
-```
-
-* Lock
+* py
 
   ```py
+  # Lock
   from threading import Lock
 
   class Foo:
@@ -130,11 +130,8 @@ class Foo {
     def third(self, printThird):
       with self.locks[1]:
           printThird()
-  ```
 
-* Event
-
-  ```py
+  # Event
   from threading import Event
 
   class Foo:

@@ -12,23 +12,25 @@ Output: [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null
 
 ## Solution
 
-```py
-class Codec:
-  def serialize(self, root):
-    if not root:
-        return []
+* py
 
-    if not root.children:
-        return root.val
+  ```py
+  class Codec:
+    def serialize(self, root):
+      if not root:
+          return []
 
-    return [root.val, [self.serialize(c) for c in root.children]]
+      if not root.children:
+          return root.val
 
-  def deserialize(self, data):
-    if data == []:
-        return None
+      return [root.val, [self.serialize(c) for c in root.children]]
 
-    if isinstance(data, int):
-      return Node(data, [])
+    def deserialize(self, data):
+      if data == []:
+          return None
 
-    return Node(val = data[0], children = [self.deserialize(c) for c in data[1]])
-```
+      if isinstance(data, int):
+        return Node(data, [])
+
+      return Node(val = data[0], children = [self.deserialize(c) for c in data[1]])
+  ```

@@ -19,8 +19,10 @@ Output:
 
 ## Solution
 
-```sql
-SELECT  customer_number FROM orders
-  GROUP BY customer_number
-  ORDER BY COUNT(order_number) DESC LIMIT 1
-```
+* sql
+
+  ```sql
+  SELECT  customer_number FROM orders
+    GROUP BY customer_number
+    ORDER BY COUNT(order_number) DESC LIMIT 1
+  ```

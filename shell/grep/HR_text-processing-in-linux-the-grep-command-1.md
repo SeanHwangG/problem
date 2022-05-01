@@ -21,6 +21,8 @@ Thou that art now the world's fresh ornament,
 
 ## Solution
 
-```sh
-grep  " the "
-```
+* sh
+
+  ```sh
+  grep  " the "
+  ```

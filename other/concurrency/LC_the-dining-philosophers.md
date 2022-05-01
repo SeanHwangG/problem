@@ -15,27 +15,27 @@ Output: [[4,2,1],[4,1,1],[0,1,1],[2,2,1],[2,1,1],[2,0,3],[2,1,2],[2,2,2],[4,0,3]
 
 * py
 
-```py
-from threading import Lock
-class DiningPhilosophers:
+  ```py
+  from threading import Lock
+  class DiningPhilosophers:
 
-  def __init__(self):
-    self.locks = [Lock() for _ in range(5)]
+    def __init__(self):
+      self.locks = [Lock() for _ in range(5)]
 
-  def wantsToEat(self, philosopher: int,
-           pickLeftFork: 'Callable[[], None]',
-           pickRightFork: 'Callable[[], None]',
-           eat: 'Callable[[], None]',
-           putLeftFork: 'Callable[[], None]',
-           putRightFork: 'Callable[[], None]') -> None:
-    if philosopher != 0:
-      first, second = philosopher, (philosopher + 1) % 5
-    else:
-      second, first = philosopher, (philosopher + 1) % 5
-    with (self.locks[first], self.locks[second]):
-      pickLeftFork()
-      pickRightFork()
-      eat()
-      putLeftFork()
-      putRightFork()
-```
+    def wantsToEat(self, philosopher: int,
+            pickLeftFork: 'Callable[[], None]',
+            pickRightFork: 'Callable[[], None]',
+            eat: 'Callable[[], None]',
+            putLeftFork: 'Callable[[], None]',
+            putRightFork: 'Callable[[], None]') -> None:
+      if philosopher != 0:
+        first, second = philosopher, (philosopher + 1) % 5
+      else:
+        second, first = philosopher, (philosopher + 1) % 5
+      with (self.locks[first], self.locks[second]):
+        pickLeftFork()
+        pickRightFork()
+        eat()
+        putLeftFork()
+        putRightFork()
+  ```

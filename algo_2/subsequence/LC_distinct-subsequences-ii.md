@@ -9,10 +9,12 @@ Output: 7   # "a", "b", "c", "ab", "ac", "bc", and "abc".
 
 ## Solution
 
-```py
-def distinctSubseqII(self, S):
-  res, end = 0, collections.Counter()
-  for c in S:
-    res, end[c] = res * 2 + 1 - end[c], res + 1
-  return res % (10 ** 9 + 7)
-```
+* py
+
+  ```py
+  def distinctSubseqII(self, S):
+    res, end = 0, collections.Counter()
+    for c in S:
+      res, end[c] = res * 2 + 1 - end[c], res + 1
+    return res % (10 ** 9 + 7)
+  ```

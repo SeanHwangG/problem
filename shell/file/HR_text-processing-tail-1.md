@@ -54,6 +54,8 @@ Shall sum my count, and make my old excuse'
 
 ## Solution
 
-```sh
-tail -n 20
-```
+* sh
+
+  ```sh
+  tail -n 20
+  ```

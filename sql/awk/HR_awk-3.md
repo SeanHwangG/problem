@@ -18,6 +18,8 @@ D 99 88 76 : A
 
 ## Solution
 
-```sh
-awk '{avg=($2+$3+$4)/3; print $0, ":", (avg<50)?"FAIL":(avg<80)?"B":"A"}'
-```
+* sh
+
+  ```sh
+  awk '{avg=($2+$3+$4)/3; print $0, ":", (avg<50)?"FAIL":(avg<80)?"B":"A"}'
+  ```

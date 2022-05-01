@@ -18,6 +18,8 @@ Output:
 
 ## Solution
 
-```sql
-SELECT MAX(Population) - MIN(Population) FROM City;
-```
+* sql
+
+  ```sql
+  SELECT MAX(Population) - MIN(Population) FROM City;
+  ```

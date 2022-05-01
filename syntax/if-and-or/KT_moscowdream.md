@@ -11,7 +11,7 @@ Output: NO
 
 * py
 
-```py
-a, b, c, d = map(int, input().split())
-print("NO" if a == 0 or b == 0 or c == 0 or a + b + c < d or d < 3 else "YES)
-```
+  ```py
+  a, b, c, d = map(int, input().split())
+  print("NO" if a == 0 or b == 0 or c == 0 or a + b + c < d or d < 3 else "YES)
+  ```

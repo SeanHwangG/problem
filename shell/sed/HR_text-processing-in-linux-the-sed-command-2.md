@@ -13,8 +13,10 @@ Making a famine where abundance lies,
 
 ## Solution
 
-```sh
-# g : global
-# i : insensitive
-sed 's/thy/your/ig'
-```
+* sh
+
+  ```sh
+  # g : global
+  # i : insensitive
+  sed 's/thy/your/ig'
+  ```

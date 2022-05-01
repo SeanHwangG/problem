@@ -43,7 +43,9 @@ Output:
 | 5   |
 | 6   |
 
-```sql
-SELECT DISTINCT viewer_id AS id#, count(DISTINCT article_id) AS total FROM views
-  GROUP BY viewer_id, view_date HAVING Count(DISTINCT Article_id) > 1 ORDER by 1
-```
+* sql
+
+  ```sql
+  SELECT DISTINCT viewer_id AS id#, count(DISTINCT article_id) AS total FROM views
+    GROUP BY viewer_id, view_date HAVING Count(DISTINCT Article_id) > 1 ORDER by 1
+  ```

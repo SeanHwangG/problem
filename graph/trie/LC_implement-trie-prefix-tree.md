@@ -13,56 +13,60 @@ Output:
 
 ## Solution
 
-```cpp
-class Trie {
-public:
-  Trie() {}
+* cpp
 
-  void insert(string word) {
-    Trie* node = this;
-    for (char ch : word) {
-      if (!node->next.count(ch)) node->next[ch] = new Trie();
-      node = node->next[ch];
+  ```cpp
+  class Trie {
+  public:
+    Trie() {}
+
+    void insert(string word) {
+      Trie* node = this;
+      for (char ch : word) {
+        if (!node->next.count(ch)) node->next[ch] = new Trie();
+        node = node->next[ch];
+      }
+      node->isword = true;
     }
-    node->isword = true;
-  }
 
-  bool search(string word) {
-    Trie* node = this;
-    for (char ch : word) {
-      if (!node->next.count(ch)) return false;
-      node = node->next[ch];
+    bool search(string word) {
+      Trie* node = this;
+      for (char ch : word) {
+        if (!node->next.count(ch)) return false;
+        node = node->next[ch];
+      }
+      return node->isword;
     }
-    return node->isword;
-  }
 
-  bool startsWith(string prefix) {
-    Trie* node = this;
-    for (char ch : prefix) {
-      if (!node->next.count(ch)) return false;
-      node = node->next[ch];
+    bool startsWith(string prefix) {
+      Trie* node = this;
+      for (char ch : prefix) {
+        if (!node->next.count(ch)) return false;
+        node = node->next[ch];
+      }
+      return true;
     }
-    return true;
-  }
 
-private:
-  map<char, Trie*> next = {};
-  bool isword = false;
-};
-```
+  private:
+    map<char, Trie*> next = {};
+    bool isword = false;
+  };
+  ```
 
-```py
-class Trie:
-  def __init__(self):
-    T = lambda: collections.defaultdict(T)
-    self.root = T()
+* py
 
-  def insert(self, word):
-    reduce(dict.__getitem__, word, self.root)['#'] = True
+  ```py
+  class Trie:
+    def __init__(self):
+      T = lambda: collections.defaultdict(T)
+      self.root = T()
 
-  def search(self, word):
-    return '#' in reduce(lambda cur, c: cur.get(c, {}), word, self.root)
+    def insert(self, word):
+      reduce(dict.__getitem__, word, self.root)['#'] = True
 
-  def startsWith(self, prefix):
-    return bool(reduce(lambda cur, c: cur.get(c, {}), prefix, self.root))
-```
+    def search(self, word):
+      return '#' in reduce(lambda cur, c: cur.get(c, {}), word, self.root)
+
+    def startsWith(self, prefix):
+      return bool(reduce(lambda cur, c: cur.get(c, {}), prefix, self.root))
+  ```

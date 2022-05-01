@@ -11,6 +11,8 @@ Output: 2
 
 ## Solution
 
-```py
-print(sum(n for n in map(int, input().split()) if n < 0))
-```
+* py
+
+  ```py
+  print(sum(n for n in map(int, input().split()) if n < 0))
+  ```

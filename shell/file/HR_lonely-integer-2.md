@@ -12,7 +12,9 @@ Output: 2
 
 ## Solution
 
-```sh
-read
-tr ' ' '\n' | sort | uniq -u
-```
+* sh
+
+  ```sh
+  read
+  tr ' ' '\n' | sort | uniq -u
+  ```

@@ -14,18 +14,20 @@ Output: 17  # 1*3 + 4*2 + 6*1 = 17
 
 ## Solution
 
-```py
-def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
-  unweighted = 0
-  weighted = 0
-  while nestedList:
-    nextLevel = []
-    for item in nestedList:
-      if item.isInteger():
-        unweighted += item.getInteger()
-      else:
-        nextLevel.extend(item.getList())
-    weighted += unweighted
-    nestedList = nextLevel
-  return weighted
-```
+* py
+
+  ```py
+  def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
+    unweighted = 0
+    weighted = 0
+    while nestedList:
+      nextLevel = []
+      for item in nestedList:
+        if item.isInteger():
+          unweighted += item.getInteger()
+        else:
+          nextLevel.extend(item.getList())
+      weighted += unweighted
+      nestedList = nextLevel
+    return weighted
+  ```

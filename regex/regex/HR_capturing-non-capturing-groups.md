@@ -9,8 +9,10 @@ Output: true
 
 ## Solution
 
-```py
-import re
-pattern = r'(ok){3,}'
-print(str(bool(re.search(pattern, input()))).lower())
-```
+* py
+
+  ```py
+  import re
+  pattern = r'(ok){3,}'
+  print(str(bool(re.search(pattern, input()))).lower())
+  ```

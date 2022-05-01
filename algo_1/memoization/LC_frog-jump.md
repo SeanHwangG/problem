@@ -12,17 +12,19 @@ Output: true
 
 ## Solution
 
-```py
-from functools import lru_cache
+* py
 
-def canCross(self, stones):
-  goal, stones = stones[-1], set(stones)
+  ```py
+  from functools import lru_cache
 
-  @lru_cache(None)
-  def bt(cur, speed):
-    if cur > goal or cur < 0 or speed <= 0 or cur not in stones:
-      return False
-    return cur == goal or any(bt(cur + ns, ns) for ds in (speed - 1, speed, speed + 1) if cur + ns in stones)
+  def canCross(self, stones):
+    goal, stones = stones[-1], set(stones)
 
-  return bt(1, 1)
-```
+    @lru_cache(None)
+    def bt(cur, speed):
+      if cur > goal or cur < 0 or speed <= 0 or cur not in stones:
+        return False
+      return cur == goal or any(bt(cur + ns, ns) for ds in (speed - 1, speed, speed + 1) if cur + ns in stones)
+
+    return bt(1, 1)
+  ```

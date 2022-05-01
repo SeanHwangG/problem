@@ -12,20 +12,20 @@ Output: 4
 
 * py
 
-```py
-def superpalindromesInRange(self, left: str, right: str) -> int:
-  def generate_palindromes():
-    yield from range(1, 10)
-    for i in range(1, 10000):
-      yield int(f"{i}{str(i)[::-1]}")
-      yield from [int(f"{i}{j}{str(i)[::-1]}") for j in range(10)]
+  ```py
+  def superpalindromesInRange(self, left: str, right: str) -> int:
+    def generate_palindromes():
+      yield from range(1, 10)
+      for i in range(1, 10000):
+        yield int(f"{i}{str(i)[::-1]}")
+        yield from [int(f"{i}{j}{str(i)[::-1]}") for j in range(10)]
 
-  left, right = int(left), int(right)
-  count = 0
-  for n in generate_palindromes():
-    sq = n*n
-    if left <= sq and sq <= right and str(sq) == str(sq)[::-1]:
-      count += 1
+    left, right = int(left), int(right)
+    count = 0
+    for n in generate_palindromes():
+      sq = n*n
+      if left <= sq and sq <= right and str(sq) == str(sq)[::-1]:
+        count += 1
 
-  return count
-```
+    return count
+  ```

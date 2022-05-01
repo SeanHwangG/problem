@@ -14,16 +14,16 @@ Output: 3
 
 * cpp
 
-```cpp
-int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-  int total(0), subsum(INT_MAX), start(0);
-  for (int i = 0; i < gas.size(); ++i) {
-    total += gas[i] - cost[i];
-    if(total < subsum) {
-      subsum = total;
-      start = i + 1;
+  ```cpp
+  int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+    int total(0), subsum(INT_MAX), start(0);
+    for (int i = 0; i < gas.size(); ++i) {
+      total += gas[i] - cost[i];
+      if(total < subsum) {
+        subsum = total;
+        start = i + 1;
+      }
     }
+    return (total < 0) ?  -1 : (start % gas.size());
   }
-  return (total < 0) ?  -1 : (start % gas.size());
-}
-```
+  ```

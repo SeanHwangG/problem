@@ -23,64 +23,70 @@ Output: askoxford.com;bnsf.com;hydrogencarsnow.com;mrvc.indianrail.gov.in;web.ar
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+* cpp
 
-int main() {
-  smatch searchResult;
-  regex expression(R"(https?://(www.)?([a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+)[/?"])");
-  string line, all = "";
-  getline(cin, line);
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
 
-  while (getline(cin, line))
-    all += line + " ";
+  int main() {
+    smatch searchResult;
+    regex expression(R"(https?://(www.)?([a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+)[/?"])");
+    string line, all = "";
+    getline(cin, line);
 
-  set<string> output;
-  while (regex_search(all, searchResult, expression)) {
-    output.insert(searchResult[2]);
-    all = searchResult.suffix().str();
-  }
-  string displayed;
-  for(string s : output)
-    displayed += s + ";";
-  cout << string(displayed.begin(), displayed.end()-1);
-  return 0;
-}
-```
+    while (getline(cin, line))
+      all += line + " ";
 
-```go
-package main
-import "fmt"
-import "os"
-import "io/ioutil"
-import "regexp"
-import "strings"
-import "sort"
-
-func main() {
- bytes, _ := ioutil.ReadAll(os.Stdin)
-  text := string(bytes)
-
-  r := regexp.MustCompile(`(?m)(?:https?\:\/\/)(?:www\.|ww2\.)*([\w\d\-\.]+\.[a-z]{2,})`)
-  find := r.FindAllStringSubmatch(text, -1)
-  s := []string{}
-  un := make(map[string]struct{})
-  for i := range find {
-    if _, ok := un[find[i][1]]; !ok {
-      un[find[i][1]] = struct{}{}
-      s = append(s,find[i][1])
+    set<string> output;
+    while (regex_search(all, searchResult, expression)) {
+      output.insert(searchResult[2]);
+      all = searchResult.suffix().str();
     }
+    string displayed;
+    for(string s : output)
+      displayed += s + ";";
+    cout << string(displayed.begin(), displayed.end()-1);
+    return 0;
   }
-  sort.Strings(s)
-  fmt.Println(strings.Join(s,";"))
-}
-```
+  ```
 
-```py
-import re, sys
+* go
 
-page = sys.stdin.read()
-re_patt = r"https?:\/\/(?:ww[w\d]\.)?([\w\.-]+\.[a-zA-Z]*)"
-print(";".join(sorted(set(re.findall(re_patt, page, re.DOTALL)))))
-```
+  ```go
+  package main
+  import "fmt"
+  import "os"
+  import "io/ioutil"
+  import "regexp"
+  import "strings"
+  import "sort"
+
+  func main() {
+  bytes, _ := ioutil.ReadAll(os.Stdin)
+    text := string(bytes)
+
+    r := regexp.MustCompile(`(?m)(?:https?\:\/\/)(?:www\.|ww2\.)*([\w\d\-\.]+\.[a-z]{2,})`)
+    find := r.FindAllStringSubmatch(text, -1)
+    s := []string{}
+    un := make(map[string]struct{})
+    for i := range find {
+      if _, ok := un[find[i][1]]; !ok {
+        un[find[i][1]] = struct{}{}
+        s = append(s,find[i][1])
+      }
+    }
+    sort.Strings(s)
+    fmt.Println(strings.Join(s,";"))
+  }
+  ```
+
+* py
+
+  ```py
+  import re, sys
+
+  page = sys.stdin.read()
+  re_patt = r"https?:\/\/(?:ww[w\d]\.)?([\w\.-]+\.[a-zA-Z]*)"
+  print(";".join(sorted(set(re.findall(re_patt, page, re.DOTALL)))))
+  ```

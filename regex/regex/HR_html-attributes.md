@@ -17,16 +17,18 @@ p:
 
 ## Solution
 
-```py
-import re
-from collections import defaultdict
+* py
 
-tags = defaultdict(set)
+  ```py
+  import re
+  from collections import defaultdict
 
-for _ in range(int(input())):
-  for tag, attrs in re.findall(r'<(\w+)(.*?)?>', input()):
-    tags[tag].update(re.findall(r'\s(\w+)=', attrs))
+  tags = defaultdict(set)
 
-for tag, attrs in sorted(tags.items()):
-  print(f"{tag}:{','.join(sorted(attrs))}")
-```
+  for _ in range(int(input())):
+    for tag, attrs in re.findall(r'<(\w+)(.*?)?>', input()):
+      tags[tag].update(re.findall(r'\s(\w+)=', attrs))
+
+  for tag, attrs in sorted(tags.items()):
+    print(f"{tag}:{','.join(sorted(attrs))}")
+  ```

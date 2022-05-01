@@ -15,7 +15,9 @@ And only herald to this gaudy spring,
 
 ## Solution
 
-```sh
-# \< and > in regex world (sed syntax) represents words boundaries
-sed -e 's/\<the\>/this/'
-```
+* sh
+
+  ```sh
+  # \< and > in regex world (sed syntax) represents words boundaries
+  sed -e 's/\<the\>/this/'
+  ```

@@ -21,6 +21,8 @@ Output: 10th line
 
 ## Solution
 
-```sh
-awk 'NR == 10' file.txt
-```
+* sh
+
+  ```sh
+  awk 'NR == 10' file.txt
+  ```

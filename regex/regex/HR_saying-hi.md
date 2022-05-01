@@ -6,8 +6,7 @@ Third character must be a single space
 Fourth character must not be the letter D or d
 
 ```txt
-Input:
-5
+Input: 5
 Hi Alex how are you doing
 hI dave how are you doing
 Good by Alex

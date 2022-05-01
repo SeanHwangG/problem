@@ -9,7 +9,9 @@ Output: 22046
 
 ## Solution
 
-```py
-n = float(input())
-print(int(n * 5280000 / 4854 + 0.5))
-```
+* py
+
+  ```py
+  n = float(input())
+  print(int(n * 5280000 / 4854 + 0.5))
+  ```

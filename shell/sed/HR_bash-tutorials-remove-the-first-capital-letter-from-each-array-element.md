@@ -20,6 +20,8 @@ Output: .amibia .auru .epal .etherlands .ewZealand .icaragua .iger .igeria .orth
 
 ## Solution
 
-```sh
-sed 's/^[A-Z]/./' | tr '\n' ' '
-```
+* sh
+
+  ```sh
+  sed 's/^[A-Z]/./' | tr '\n' ' '
+  ```

@@ -9,7 +9,9 @@ Output: "blue is sky the"
 
 ## Solution
 
-```py
-def reverseWords(self, s: str) -> str:
-  return s[::-1]
-```
+* py
+
+  ```py
+  def reverseWords(self, s: str) -> str:
+    return s[::-1]
+  ```

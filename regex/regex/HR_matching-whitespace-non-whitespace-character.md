@@ -13,21 +13,25 @@ Output: False
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+* cpp
+
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
 
 
-int main() {
-  string s, b;
-  regex p{ "\\S{2}\\s\\S{2}\\s\\S{2}" };
-  getline(cin, s);
-  cout << boolalpha << regex_search(s, p) << endl;
-  return 0;
-}
-```
+  int main() {
+    string s, b;
+    regex p{ "\\S{2}\\s\\S{2}\\s\\S{2}" };
+    getline(cin, s);
+    cout << boolalpha << regex_search(s, p) << endl;
+    return 0;
+  }
+  ```
 
-```py
-import re
-print(str(bool(re.search(r"\S\S\s\S\S\s\S\S", input()))).lower())
-```
+* py
+
+  ```py
+  import re
+  print(str(bool(re.search(r"\S\S\s\S\S\s\S\S", input()))).lower())
+  ```

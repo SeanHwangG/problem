@@ -16,41 +16,43 @@ Output: 6
 
 * Hadlock's algorithm
 
-```py
-def cutOffTree(self, forest: List[List[int]]) -> int:
-  # Add sentinels (a border of zeros) so we don't need index-checks later on.
-  forest.append([0] * len(forest[0]))
-  for row in forest:
-    row.append(0)
+* py
 
-  trees = [(height, i, j) for i, row in enumerate(forest) for j, height in enumerate(row) if height > 1]
+  ```py
+  def cutOffTree(self, forest: List[List[int]]) -> int:
+    # Add sentinels (a border of zeros) so we don't need index-checks later on.
+    forest.append([0] * len(forest[0]))
+    for row in forest:
+      row.append(0)
 
-  # Can we reach every tree? If not, return -1 right away.
-  queue, reached = [(0, 0)], set()
-  for i, j in queue:
-    if (i, j) not in reached and forest[i][j]:
-      reached.add((i, j))
-      queue += (i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)
-  if not all((i, j) in reached for (_, i, j) in trees):
-    return -1
+    trees = [(height, i, j) for i, row in enumerate(forest) for j, height in enumerate(row) if height > 1]
 
-  def distance(i, j, I, J):
-    now, soon, expanded = [(i, j)], [], set()
-    manhattan, detours = abs(i - I) + abs(j - J), 0
-    while True:
-      if not now:
-        now, soon = soon, []
-        detours += 1
-      i, j = now.pop()
-      if (i, j) == (I, J):
-        return manhattan + 2 * detours
-      if (i, j) in expanded:
-        continue
-      expanded.add((i, j))
-      for i, j, closer in (i + 1, j, i < I), (i - 1, j, i > I), (i, j + 1, j < J), (i, j - 1, j > J):
-        if forest[i][j]:
-          (now if closer else soon).append((i, j))
+    # Can we reach every tree? If not, return -1 right away.
+    queue, reached = [(0, 0)], set()
+    for i, j in queue:
+      if (i, j) not in reached and forest[i][j]:
+        reached.add((i, j))
+        queue += (i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)
+    if not all((i, j) in reached for (_, i, j) in trees):
+      return -1
 
-  trees.sort()
-  return sum(distance(i, j, I, J) for (_, i, j), (_, I, J) in zip([(0, 0, 0)] + trees, trees))
-```
+    def distance(i, j, I, J):
+      now, soon, expanded = [(i, j)], [], set()
+      manhattan, detours = abs(i - I) + abs(j - J), 0
+      while True:
+        if not now:
+          now, soon = soon, []
+          detours += 1
+        i, j = now.pop()
+        if (i, j) == (I, J):
+          return manhattan + 2 * detours
+        if (i, j) in expanded:
+          continue
+        expanded.add((i, j))
+        for i, j, closer in (i + 1, j, i < I), (i - 1, j, i > I), (i, j + 1, j < J), (i, j - 1, j > J):
+          if forest[i][j]:
+            (now if closer else soon).append((i, j))
+
+    trees.sort()
+    return sum(distance(i, j, I, J) for (_, i, j), (_, I, J) in zip([(0, 0, 0)] + trees, trees))
+  ```

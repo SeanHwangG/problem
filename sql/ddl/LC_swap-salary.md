@@ -23,10 +23,12 @@ Output:
 
 ## Solution
 
-```sql
-UPDATE salary SET sex =
-  CASE sex
-    WHEN 'f' THEN 'm'
-    WHEN 'm' THEN 'f'
-  END
-```
+* sql
+
+  ```sql
+  UPDATE salary SET sex =
+    CASE sex
+      WHEN 'f' THEN 'm'
+      WHEN 'm' THEN 'f'
+    END
+  ```

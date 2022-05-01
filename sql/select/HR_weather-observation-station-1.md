@@ -26,6 +26,8 @@ Output:
 
 ## Solution
 
-```sql
-SELECT City, State FROM STATION;
-```
+* sql
+
+  ```sql
+  SELECT City, State FROM STATION;
+  ```

@@ -16,20 +16,20 @@ Output_2: 0
 
 * cpp
 
-```cpp
-int maximumRemovals(string s, string p, vector<int>& rem) {
-  int l = 0, r = rem.size();
-  while (l < r) {
-    int m = (l + r + 1) / 2, j = 0;
-    unordered_set<int> st(begin(rem), begin(rem) + m);
-    for (int i = 0; i < s.size() && j < p.size(); ++i)
-      if (st.count(i) == 0 && s[i] == p[j])
-        ++j;
-    if (j == p.size())
-      l = m;
-    else
-      r = m - 1;
+  ```cpp
+  int maximumRemovals(string s, string p, vector<int>& rem) {
+    int l = 0, r = rem.size();
+    while (l < r) {
+      int m = (l + r + 1) / 2, j = 0;
+      unordered_set<int> st(begin(rem), begin(rem) + m);
+      for (int i = 0; i < s.size() && j < p.size(); ++i)
+        if (st.count(i) == 0 && s[i] == p[j])
+          ++j;
+      if (j == p.size())
+        l = m;
+      else
+        r = m - 1;
+    }
+    return l;
   }
-  return l;
-}
-```
+  ```

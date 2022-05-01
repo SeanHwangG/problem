@@ -15,6 +15,6 @@ W
 
 * sh
 
-```sh
-tr -d a-z  # tr -d [:lower:]
-```
+  ```sh
+  tr -d a-z  # tr -d [:lower:]
+  ```

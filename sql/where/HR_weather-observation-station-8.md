@@ -18,7 +18,9 @@ Output:
 
 ## Solution
 
-```sql
-SELECT DISTINCT city FROM station
-  WHERE city REGEXP '^[aeiou].*[aeiou]$'
-```
+* sql
+
+  ```sql
+  SELECT DISTINCT city FROM station
+    WHERE city REGEXP '^[aeiou].*[aeiou]$'
+  ```

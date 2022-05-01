@@ -31,9 +31,11 @@ Output: [[[0 0 0]
 
 ## Solution
 
-```py
-import numpy
-nums = tuple(map(int, input().split()))
-print (numpy.zeros(nums, dtype = numpy.int))
-print (numpy.ones(nums, dtype = numpy.int))
-```
+* py
+
+  ```py
+  import numpy
+  nums = tuple(map(int, input().split()))
+  print (numpy.zeros(nums, dtype = numpy.int))
+  print (numpy.ones(nums, dtype = numpy.int))
+  ```
