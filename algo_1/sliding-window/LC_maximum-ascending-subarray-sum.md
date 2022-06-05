@@ -1,6 +1,8 @@
 # [LC_maximum-ascending-subarray-sum](https://leetcode.com/problems/maximum-ascending-subarray-sum)
 
+```en
 Given an array of positive integers nums, return maximum possible sum of an ascending subarray in nums
+```
 
 ```txt
 Input: nums = [10,20,30,5,10,50]

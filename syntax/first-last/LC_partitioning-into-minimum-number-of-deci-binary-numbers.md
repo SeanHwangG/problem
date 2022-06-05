@@ -1,6 +1,8 @@
 # [LC_partitioning-into-minimum-number-of-deci-binary-numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers)
 
+```en
 Print maximum number in character
+```
 
 ```txt
 Input: n = "27346209830709182346"

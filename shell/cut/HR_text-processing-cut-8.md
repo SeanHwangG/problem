@@ -1,6 +1,8 @@
 # [HR_text-processing-cut-8](https://www.hackerrank.com/challenges/text-processing-cut-8)
 
+```en
 Print first three words
+```
 
 ```txt
 Input:

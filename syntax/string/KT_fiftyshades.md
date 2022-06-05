@@ -1,6 +1,8 @@
 # [KT_fiftyshades](https://open.kattis.com/problems/fiftyshades)
 
+```en
 Count number of lines with rose or pink (Ignore case)
+```
 
 ```txt
 Input: 12

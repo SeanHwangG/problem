@@ -1,6 +1,8 @@
 # [HR_text-processing-in-linux-the-grep-command-5](https://www.hackerrank.com/challenges/text-processing-in-linux-the-grep-command-5)
 
+```en
 Grep all lines with consecutively repeated digits
+```
 
 ```txt
 Input:

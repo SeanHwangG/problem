@@ -1,6 +1,8 @@
 # [LC_binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)
 
+```en
 Given root of a binary tree, return postorder traversal of its nodes' values
+```
 
 ```txt
 Input: root = [1,null,2,3]

@@ -1,6 +1,8 @@
 # [LC_couples-holding-hands](https://leetcode.com/problems/couples-holding-hands)
 
+```en
 Print minimum swaps to make partner sit next to each other (2 x N, 2 x N - 1)
+```
 
 ```txt
 Input: row = [0, 2, 1, 3]

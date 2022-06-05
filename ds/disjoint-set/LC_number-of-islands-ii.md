@@ -1,7 +1,9 @@
 # [LC_number-of-islands-ii](https://leetcode.com/problems/number-of-islands-ii)
 
+```en
 Return an array of integers answer where answer[i] is # islands after turning cell (ri, ci) into a land
 Island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically
+```
 
 ```txt
 Input: m = 3, n = 3, positions = [[0,0],[0,1],[1,2],[2,1]]

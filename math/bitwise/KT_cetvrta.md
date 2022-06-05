@@ -1,6 +1,8 @@
 # [KT_cetvrta](https://open.kattis.com/problems/cetvrta)
 
+```en
 Given coordinate of three corners of rectangle, find the last corner
+```
 
 ```txt
 Input:

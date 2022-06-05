@@ -1,6 +1,8 @@
 # [HR_s10-quartiles](https://www.hackerrank.com/challenges/s10-quartiles)
 
+```en
 Print quartile Q1, Q2, Q3
+```
 
 ```txt
 Input:

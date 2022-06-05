@@ -1,5 +1,6 @@
 # [HR_matching-same-text-again-again](https://www.hackerrank.com/challenges/matching-same-text-again-again)
 
+```en
 S must be of length: 20
 1 character: lowercase letter
 2 character: word character
@@ -21,6 +22,7 @@ S must be of length: 20
 18 character: should be same as 8th character
 19 character: should be same as 9th character
 20 character: should be same as 10th character
+```
 
 ```txt
 Input: ab #1?AZa$ab #1?AZa$

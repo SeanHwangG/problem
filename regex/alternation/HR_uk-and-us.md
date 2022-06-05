@@ -1,7 +1,9 @@
 # [HR_uk-and-us](https://www.hackerrank.com/challenges/uk-and-us)
 
+```en
 For some spelling, US uses -se, while UK uses -ze
 Given text, find # occurence from sentence either of them
+```
 
 ```txt
 Input: 2

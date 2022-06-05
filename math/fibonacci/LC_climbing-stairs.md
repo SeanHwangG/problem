@@ -1,7 +1,9 @@
 # [LC_climbing-stairs](https://leetcode.com/problems/climbing-stairs)
 
+```en
 Climbing staircase which takes n steps to reach top
 Each time either climb 1 or 2 steps. In how many distinct ways can climb to top?
+```
 
 ```txt
 Input: n = 2

@@ -1,7 +1,9 @@
 # [KT_pokerhand](https://open.kattis.com/problems/pokerhand)
 
+```en
 First character is rank
 How many times did msot frequent rank appeared
+```
 
 ```txt
 Input: AC AD AH AS KD

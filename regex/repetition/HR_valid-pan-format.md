@@ -1,6 +1,8 @@
 # [HR_valid-pan-format](https://www.hackerrank.com/challenges/valid-pan-format)
 
+```en
 <char>\<char>\<char>\<char>\<char>\<digit>\<digit>\<digit>\<digit>\<char>
+```
 
 ```txt
 Input: 3

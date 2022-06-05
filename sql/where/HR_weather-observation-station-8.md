@@ -1,6 +1,8 @@
 # [HR_weather-observation-station-8](https://www.hackerrank.com/challenges/weather-observation-station-8)
 
+```en
 Query unique list of CITY names from STATION which have vowels as both their first and last characters
+```
 
 ```txt
 Input:

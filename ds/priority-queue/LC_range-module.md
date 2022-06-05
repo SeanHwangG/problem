@@ -1,9 +1,11 @@
 # [LC_range-module](https://leetcode.com/problems/range-module)
 
+```en
 A Range Module is a module that tracks ranges of numbers, implement the following interfaces
   addRange(int left, int right)
   queryRange(int left, int right)
   removeRange(int left, int right)
+```
 
 ```txt
 addRange(10, 20): null

@@ -1,6 +1,8 @@
 # [LC_reverse-string](https://leetcode.com/problems/reverse-string)
 
+```en
 Reverse array of characters
+```
 
 ```txt
 Input: s = ["h","e","l","l","o"]

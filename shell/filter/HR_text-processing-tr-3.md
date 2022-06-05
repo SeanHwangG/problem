@@ -1,6 +1,8 @@
 # [HR_text-processing-tr-3](https://www.hackerrank.com/challenges/text-processing-tr-3)
 
+```en
 Replace all sequences of multiple spaces with just one space
+```
 
 ```txt
 Input: He  llo

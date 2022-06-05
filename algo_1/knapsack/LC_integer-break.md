@@ -1,7 +1,9 @@
 # [LC_integer-break](https://leetcode.com/problems/integer-break)
 
+```en
 Given int n, break it into sum of k positive integers, where k >= 2, and maximize product of those integers
 Return maximum product you can get
+```
 
 ```txt
 Input: n = 10

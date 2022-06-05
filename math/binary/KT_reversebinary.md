@@ -1,6 +1,8 @@
 # [KT_reversebinary](https://open.kattis.com/problems/reversebinary)
 
+```en
 Print reversed binary
+```
 
 ```txt
 Input: 13

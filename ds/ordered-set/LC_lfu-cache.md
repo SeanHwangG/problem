@@ -1,6 +1,8 @@
 # [LC_lfu-cache](https://leetcode.com/problems/lfu-cache)
 
+```en
 Deisng LFU Cache
+```
 
 ```txt
 Input:

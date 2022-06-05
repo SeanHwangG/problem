@@ -1,6 +1,8 @@
 # [LC_longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)
 
+```en
 Given an m x n integers matrix, return the length of the longest increasing path in matrix
+```
 
 ```txt
 Input: matrix =

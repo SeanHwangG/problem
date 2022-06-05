@@ -1,8 +1,10 @@
 # [LC_number-of-distinct-islands](https://leetcode.com/problems/number-of-distinct-islands)
 
+```en
 Given m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally
 Island is considered to be same as another if island can be translated (not rotated or reflected) to equal the other
 Return number of distinct islands
+```
 
 ```txt
 Input: grid = [[1,1,0,0,0],[1,1,0,0,0],[0,0,0,1,1],[0,0,0,1,1]]

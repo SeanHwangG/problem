@@ -1,8 +1,10 @@
 # [LC_course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
 
+```en
 There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1
 Array prerequisites where prerequisites[i] = [ai, bi] indicates that take course bi first before course ai
 Return any ordering of courses to finish all courses (if impossible, return an empty array)
+```
 
 ```txt
 Input: numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]]

@@ -1,7 +1,9 @@
 # [LC_trapping-rain-water](https://leetcode.com/problems/trapping-rain-water)
 
+```en
 Given n non-negative integers representing elevation map where the width of each bar is 1
 Compute how much water it can trap after raining
+```
 
 ```txt
 Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]

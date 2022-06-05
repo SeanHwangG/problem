@@ -1,6 +1,8 @@
 # [HR_the-captcha-cracker](https://www.hackerrank.com/challenges/the-captcha-cracker)
 
+```en
 Print line containing a 5-character token representing the Captcha's text
+```
 
 ```txt
 Input:

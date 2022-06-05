@@ -1,8 +1,10 @@
 # [LC_minimum-number-of-refueling-stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)
 
+```en
 Gas stations[i] = [positioni, fueli] indicates ith station is i miles east with fueli gas
 Car starts with an infinite tank of gas, which initially has startFuel liters of fuel in it
 Return minimum number of refueling stops the car must make in order to reach its destination
+```
 
 ```txt
 Input: target = 1, startFuel = 1, stations = []

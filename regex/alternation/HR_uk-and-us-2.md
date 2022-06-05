@@ -1,7 +1,9 @@
 # [HR_uk-and-us-2](https://www.hackerrank.com/challenges/uk-and-us-2)
 
+```en
 For some spelling, US uses or, while UK uses our
 Given UK spelling, find the number of occurence from sentence either of them
+```
 
 ```txt
 Input: 2

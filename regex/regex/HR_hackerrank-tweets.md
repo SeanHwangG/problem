@@ -1,6 +1,8 @@
 # [HR_hackerrank-tweets](https://www.hackerrank.com/challenges/hackerrank-tweets)
 
+```en
 Print total number of tweets that has hackerrank (case insensitive) in it
+```
 
 ```txt
 Input: 4

@@ -1,6 +1,8 @@
 # [LC_first-missing-positive](https://leetcode.com/problems/first-missing-positive)
 
+```en
 Given unsorted integer array nums, find the smallest missing positive integer
+```
 
 ```txt
 Input: nums = [1,2,0]

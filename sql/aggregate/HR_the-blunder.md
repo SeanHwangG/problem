@@ -1,6 +1,8 @@
 # [HR_the-blunder](https://www.hackerrank.com/challenges/the-blunder)
 
+```en
 Finding difference between miscalculation (salaries with any zeros removed), and actual average salary
+```
 
 ```txt
 Input:

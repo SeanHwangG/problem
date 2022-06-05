@@ -1,6 +1,8 @@
 # [LC_lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)
 
+```en
 Find loest common ancestor of p and q
+```
 
 ```txt
 Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1

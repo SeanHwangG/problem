@@ -1,7 +1,9 @@
 # [LC_third-maximum-number](https://leetcode.com/problems/third-maximum-number)
 
+```en
 Given integer array nums, return third maximum number in this array
 If third maximum does not exist, return maximum number
+```
 
 ```txt
 Input: nums = [2,2,3,1]

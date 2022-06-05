@@ -1,6 +1,8 @@
 # [LC_power-of-four](https://leetcode.com/problems/power-of-four)
 
+```en
 Print if power if 4
+```
 
 ```txt
 Input: 16

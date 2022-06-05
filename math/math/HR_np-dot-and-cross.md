@@ -1,9 +1,11 @@
 # [HR_np-dot-and-cross](https://www.hackerrank.com/challenges/np-dot-and-cross)
 
+```en
 The first line contains the integer N.
 The next N lines contains N space separated integers of array A.
 The following N lines contains N space separated integers of array B.
 Print the matrix multiplication of A and B.
+```
 
 ```txt
 Input: 2

@@ -1,6 +1,8 @@
 # [LC_sort-colors](https://leetcode.com/problems/sort-colors)
 
+```en
 Sort three number
+```
 
 ```txt
 Input: nums = [2,0,2,1,1,0]

@@ -1,6 +1,8 @@
 # [HR_negative-lookbehind](https://www.hackerrank.com/challenges/negative-lookbehind)
 
+```en
 Match all the occurences of characters which are not immediately preceded by vowels
+```
 
 ```txt
 Input: abru

@@ -1,6 +1,8 @@
 # [LC_consecutive-available-seats](https://leetcode.com/problems/consecutive-available-seats)
 
+```en
 Query all consecutive available seats order by the seat_id
+```
 
 ```txt
 Input:

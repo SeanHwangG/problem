@@ -1,6 +1,8 @@
 # [KT_bijele](https://open.kattis.com/problems/bijele)
 
+```en
 Print sum of 5 numbers
+```
 
 ```txt
 Input: 1

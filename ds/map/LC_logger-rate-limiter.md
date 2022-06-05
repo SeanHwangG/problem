@@ -1,7 +1,9 @@
 # [LC_logger-rate-limiter](https://leetcode.com/problems/logger-rate-limiter)
 
+```en
 Design logger system that receive stream of messages along with its timestamps
 Each message should be printed if and only if it is not printed in the last 10 seconds
+```
 
 ```txt
 Logger logger = new Logger();

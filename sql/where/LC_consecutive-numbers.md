@@ -1,6 +1,8 @@
 # [LC_consecutive-numbers](https://leetcode.com/problems/consecutive-numbers)
 
+```en
 Find all numbers that appear at least three times consecutively
+```
 
 ```txt
 Input:

@@ -1,5 +1,6 @@
 # [LC_three-equal-parts](https://leetcode.com/problems/three-equal-parts)
 
+```en
 Given an array arr which consists of only zeros and ones
 Divide the array into three non-empty parts such that all of these parts represent the same binary value
 If it is possible, return any [i, j] with i + 1 < j, such that:
@@ -8,6 +9,7 @@ If it is possible, return any [i, j] with i + 1 < j, such that:
   arr[j], arr[j + 1], ..., arr[arr.length - 1] is the third part
   All three parts have equal binary values
 If it is not possible, return [-1, -1]
+```
 
 ```txt
 Input: arr = [1,0,1,0,1]

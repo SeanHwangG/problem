@@ -1,9 +1,11 @@
 # [LC_maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts)
 
+```en
 Given a rectangular cake of size h x w and two arrays of integers horizontals and verticals where:
 horizontals[i] is the distance from the top of the rectangular cake to the ith horizontal cut and similarly, and
 verticals[j] is the distance from the left of the rectangular cake to the jth vertical cut.
 Return max area of piece of cake after cut at each horizontal and vertical position, MOD 1e9+ 7
+```
 
 ```txt
 Input: h = 5, w = 4, horizontalCuts = [1,2,4], verticalCuts = [1,3]

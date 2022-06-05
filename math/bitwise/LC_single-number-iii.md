@@ -1,7 +1,9 @@
 # [LC_single-number-iii](https://leetcode.com/problems/single-number-iii)
 
+```en
 Given int array nums, in which exactly 2 elements appear only once and all the other elements appear exactly twice
 Find the two elements that appear only once. You can return the answer in any order
+```
 
 ```txt
 Input: nums = [1,2,1,3,2,5]

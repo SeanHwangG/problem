@@ -1,6 +1,8 @@
 # [KT_simpleaddition](https://open.kattis.com/problems/simpleaddition)
 
+```en
 Print a + b
+```
 
 ```txt
 Input: 3

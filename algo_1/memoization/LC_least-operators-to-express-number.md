@@ -1,7 +1,9 @@
 # [LC_least-operators-to-express-number](https://leetcode.com/problems/least-operators-to-express-number)
 
+```en
 Given 4 arithmetic operator without parenthesis
 Return least number of operators used when expression equals the given target
+```
 
 ```txt
 Input: x = 3, target = 19

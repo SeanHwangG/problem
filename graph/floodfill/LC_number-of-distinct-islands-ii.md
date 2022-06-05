@@ -1,7 +1,9 @@
 # [LC_number-of-distinct-islands-ii](https://leetcode.com/problems/number-of-distinct-islands-ii)
 
+```en
 Island is group of 1's (representing land) connected 4-directionally (horizontal or vertical)
 Island is considered to be the same as another if they have same shape, or have same shape after rotation or reflection
+```
 
 ```txt
 Input:

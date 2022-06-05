@@ -1,6 +1,8 @@
 # [LC_flatten-2d-vector](https://leetcode.com/problems/flatten-2d-vector)
 
+```en
 Design flattened 2D Vector
+```
 
 ```txt
 Input: [ [1,2],

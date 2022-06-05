@@ -1,6 +1,8 @@
 # [KT_prva](https://open.kattis.com/problems/prva)
 
+```en
 Output the lexicographically smallest word with <1 character in the crossword
+```
 
 ```txt
 Input:

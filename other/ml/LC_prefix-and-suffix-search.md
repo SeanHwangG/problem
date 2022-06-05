@@ -1,9 +1,11 @@
 # [LC_prefix-and-suffix-search](https://leetcode.com/problems/prefix-and-suffix-search)
 
+```en
 Implement the WordFilter class:
 WordFilter(string[] words): Initializes the object with the words in the dictionary.
 f(string prefix, string suffix): Returns index of the word in the dictionary, which has prefix and suffix
 If there is more than one valid index, return the largest of them, -1 if there is no such word
+```
 
 ```txt
 Input:

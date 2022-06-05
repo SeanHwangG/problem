@@ -1,7 +1,9 @@
 # [LC_digit-count-in-range](https://leetcode.com/problems/digit-count-in-range)
 
+```en
 Given a single-digit integer d and two integers low and high
 Return number of times that d occurs as a digit in all integers in inclusive range [low, right]
+```
 
 ```txt
 Input: d = 3, low = 100, high = 250

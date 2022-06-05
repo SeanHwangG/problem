@@ -1,6 +1,8 @@
 # [LC_numbers-with-repeated-digits](https://leetcode.com/problems/numbers-with-repeated-digits)
 
+```en
 Given a positive integer N, return # positive integers less than or equal to N that have at least 1 repeated digit
+```
 
 ```txt
 Input: 20
@@ -9,10 +11,12 @@ Output: 1
 
 ## Solution
 
+```en
 * Count res the Number Without Repeated Digit
 * Transform N + 1 to List
 * Count the number with digits < n
 * Count the number with same prefix
+```
 
 ```txt
 XXX

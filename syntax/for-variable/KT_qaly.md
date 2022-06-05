@@ -1,6 +1,12 @@
 # [KT_qaly](https://open.kattis.com/problems/qaly)
 
+```en
 
+```
+
+```kr
+첫 줄에는 n이, 그 다음 n 번째 줄에는 a, b가 주어진다. n개의 a x b 의 합을 구하라
+```
 
 ```txt
 Input:

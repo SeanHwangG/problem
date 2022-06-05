@@ -1,7 +1,9 @@
 # [LC_largest-palindrome-product](https://leetcode.com/problems/largest-palindrome-product)
 
+```en
 Given integer n, return largest palindromic integer that can be represented as product of two n-digits ints
 Return it modulo 1337
+```
 
 ```txt
 Input: n = 2

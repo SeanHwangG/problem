@@ -1,6 +1,8 @@
 # [LC_goal-parser-interpretation](https://leetcode.com/problems/goal-parser-interpretation)
 
+```en
 
+```
 
 ```txt
 Input: command = "G()()()()(al)"

@@ -1,8 +1,10 @@
 # [LC_transform-to-chessboard](https://leetcode.com/problems/transform-to-chessboard)
 
+```en
 Given n x n binary grid board. In each move, swap any two rows with each other, or any two columns with each other
 Return minimum number of moves to transform the board into a chessboard board. If impossible, return -1
 Chessboard board is a board where no 0's and no 1's are 4-directionally adjacent.
+```
 
 ```txt
 Input: board =

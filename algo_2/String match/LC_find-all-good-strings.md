@@ -1,8 +1,10 @@
 # [LC_find-all-good-strings](https://leetcode.com/problems/find-all-good-strings)
 
+```en
 Given strings s1 and s2 of size n and string evil, return number of good strings.
 good string has size n, alphabetically greater than or equal to s1, alphabetically smaller than or equal to s2
 It doesn't contain string evil as a substring, return MOD 10^9 + 7
+```
 
 ```txt
 Input: n = 2, s1 = "aa", s2 = "da", evil = "b"

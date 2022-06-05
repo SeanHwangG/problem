@@ -1,8 +1,10 @@
 # [LC_get-biggest-three-rhombus-sums-in-a-grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid)
 
+```en
 Given an m x n integer matrix grid
 A rhombus sum is the sum of the elements that form the border of a regular rhombus shape in grid
 The rhombus must have the shape of a square rotated 45 degrees with each of the corners centered in a grid cell
+```
 
 ```txt
 Input:

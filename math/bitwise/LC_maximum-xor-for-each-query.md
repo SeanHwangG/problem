@@ -1,9 +1,11 @@
 # [LC_maximum-xor-for-each-query](https://leetcode.com/problems/maximum-xor-for-each-query)
 
+```en
 Given a sorted array of n non-negative integers and an integer maximumBit, perform following query n times:
 Find non-negative int k < 2 maximumBit ST nums[0]^...^nums[nums.length-1] ^ k is maximized
   k is answer to the ith query
 Remove last element from current array nums, Return answer, where answer[i] is answer to ith query
+```
 
 ```txt
 Input: nums = [0,1,1,3], maximumBit = 2

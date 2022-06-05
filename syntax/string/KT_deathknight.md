@@ -1,6 +1,8 @@
 # [KT_deathknight](https://open.kattis.com/problems/deathknight)
 
+```en
 Given N lines, count number of lines without CD
+```
 
 ```txt
 Input: 3

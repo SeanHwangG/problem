@@ -1,7 +1,9 @@
 # [LC_balance-a-binary-search-tree](https://leetcode.com/problems/balance-a-binary-search-tree)
 
+```en
 Given a binary search tree, return a balanced binary search tree with the same node values
 Binary search tree is balanced iff the depth of the two subtrees of every node never differ by more than 1
+```
 
 ```txt
 Input: root = [1,null,2,null,3,null,4,null,null]

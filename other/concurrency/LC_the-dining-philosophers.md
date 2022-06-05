@@ -1,9 +1,11 @@
 # [LC_the-dining-philosophers](https://leetcode.com/problems/the-dining-philosophers)
 
+```en
 5 silent philosophers sit at round table with bowls of spaghetti with Forks placed between each pair of adjacent philosophers
 Design behaviour ST no philosopher will starve
 Each can forever continue to alternate between eating and thinking
 Assuming that no philosopher can know when others may want to eat or think
+```
 
 ```txt
 Input: n = 1

@@ -1,6 +1,8 @@
 # [LC_triangle-judgement](https://leetcode.com/problems/triangle-judgement)
 
+```en
 Judge whether these three sides can form a triangle
+```
 
 ```txt
 Input:

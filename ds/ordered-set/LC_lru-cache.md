@@ -1,10 +1,12 @@
 # [LC_lru-cache](https://leetcode.com/problems/lru-cache)
 
+```en
 Implement the LRUCache class
 LRUCache(int capacity) Initialize the LRU cache with positive size capacity
   int get(int key) Return the value of the key if the key exists, otherwise return -1
   void put(int key, int value) Update value of key if key exists. Otherwise, add key-value pair to cache
     If number of keys exceeds capacity from this operation, evict least recently used key
+```
 
 ```txt
 Input:

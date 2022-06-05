@@ -1,6 +1,8 @@
 # [LC_minimum-number-of-operations-to-make-string-sorted](https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted)
 
+```en
 What is the lexicographical order of string
+```
 
 ```txt
 Input: s = "cba"

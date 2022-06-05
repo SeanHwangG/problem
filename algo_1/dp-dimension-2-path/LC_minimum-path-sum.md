@@ -1,6 +1,8 @@
 # [LC_minimum-path-sum](https://leetcode.com/problems/minimum-path-sum)
 
+```en
 Find path from top left to bottom right minimizes the sum
+```
 
 ```txt
 Input: grid = [[1,3,1],[1,5,1],[4,2,1]]

@@ -1,6 +1,8 @@
 # [LC_diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree)
 
+```en
 Find diameter of binary tree
+```
 
 ```txt
 Input: root = [1,2,3,4,5]

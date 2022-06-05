@@ -1,7 +1,9 @@
 # [LC_design-skiplist](https://leetcode.com/problems/design-skiplist)
 
+```en
 Design a Skiplist without using any built-in libraries
   O(log(n)) time to add, erase and search
+```
 
 ```txt
 Skiplist skiplist = new Skiplist();

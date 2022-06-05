@@ -1,6 +1,8 @@
 # [HR_the-rubix-cube](https://www.hackerrank.com/challenges/the-rubix-cube)
 
+```en
 Identify whether all the visible sides have been 'solved' in rubix cube
+```
 
 ```txt
 Input: Solve picture

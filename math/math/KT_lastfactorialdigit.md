@@ -1,6 +1,8 @@
 # [KT_lastfactorialdigit](https://open.kattis.com/problems/lastfactorialdigit)
 
+```en
 Print last digit of factorial
+```
 
 ```txt
 Input: 3

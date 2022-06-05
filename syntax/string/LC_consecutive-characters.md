@@ -1,6 +1,8 @@
 # [LC_consecutive-characters](https://leetcode.com/problems/consecutive-characters)
 
+```en
 
+```
 
 ```txt
 Input: s = "leetcode"

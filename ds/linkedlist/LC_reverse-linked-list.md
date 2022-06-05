@@ -1,6 +1,8 @@
 # [LC_reverse-linked-list](https://leetcode.com/problems/reverse-linked-list)
 
+```en
 Reverse linked list
+```
 
 ```txt
 Input: head = [1,2,3,4,5]

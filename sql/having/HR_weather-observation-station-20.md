@@ -1,6 +1,8 @@
 # [HR_weather-observation-station-20](https://www.hackerrank.com/challenges/weather-observation-station-20)
 
+```en
 Query median of Northern Latitudes (LAT_N) from STATION and round your answer to 4 decimal places
+```
 
 ```txt
 Input:

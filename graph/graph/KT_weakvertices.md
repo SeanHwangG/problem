@@ -1,6 +1,8 @@
 # [KT_weakvertices](https://open.kattis.com/problems/weakvertices)
 
+```en
 Weak vertices in graphs – those vertices that is not part of any triangle
+```
 
 ```txt
 Input:

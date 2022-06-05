@@ -1,6 +1,8 @@
 # [LC_two-sum](https://leetcode.com/problems/two-sum)
 
+```en
 Find two index that sums up to target
+```
 
 ```txt
 Input: nums = [2,7,11,15], target = 9

@@ -1,6 +1,13 @@
 # [KT_ostgotska](https://open.kattis.com/problems/ostgotska)
 
+```en
 
+```
+
+```kr
+문장에 ae가 포함 된 단어가 40% 이상이면 스웨덴 어이다
+첫 줄에 문장이 주어질 때 스웨덴 어이면 dae ae ju traeligt va 아니면 haer talar vi rikssvenska 을 출력하라
+```
 
 ```txt
 Input: dae ae ju traeligt va

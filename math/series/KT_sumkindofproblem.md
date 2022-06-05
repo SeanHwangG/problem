@@ -1,6 +1,8 @@
 # [KT_sumkindofproblem](https://open.kattis.com/problems/sumkindofproblem)
 
+```en
 For N line, given k, m, print k and sum of first m natural, odd, even number
+```
 
 ```txt
 Input:

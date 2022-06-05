@@ -1,7 +1,9 @@
 # [LC_constrained-subsequence-sum](https://leetcode.com/problems/constrained-subsequence-sum)
 
+```en
 Given int array nums and int k, return the maximum sum of a non-empty subsequence
 ST for every two consecutive int in subsequence, nums[i] and nums[j], where i < j, condition j - i <= k is satisfied
+```
 
 ```txt
 Input: nums = [10,2,-10,5,20], k = 2

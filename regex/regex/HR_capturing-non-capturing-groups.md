@@ -1,6 +1,8 @@
 # [HR_capturing-non-capturing-groups](https://www.hackerrank.com/challenges/capturing-non-capturing-groups)
 
+```en
 Should have or more consecutive repetitions of ok
+```
 
 ```txt
 Input: okokok! cya

@@ -1,6 +1,8 @@
 # [LC_word-frequency](https://leetcode.com/problems/word-frequency)
 
+```en
 Script should output the following, sorted by descending frequency:
+```
 
 ```txt
 Input:

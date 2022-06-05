@@ -1,6 +1,13 @@
 # [KT_whatdoesthefoxsay](https://open.kattis.com/problems/whatdoesthefoxsay)
 
+```en
 
+```
+
+```kr
+한 테스트 마다, 띄어쓰기로 나누어진 울음 소리 / animal says ~ / what does the fox say? 가 나온다
+이때 다른 동물이 내지 않은 울음소리를 모두 출력하라
+```
 
 ```txt
 Input: 1

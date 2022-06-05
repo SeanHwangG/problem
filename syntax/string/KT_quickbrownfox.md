@@ -1,6 +1,8 @@
 # [KT_quickbrownfox](https://open.kattis.com/problems/quickbrownfox)
 
+```en
 Print unused character from ascii
+```
 
 ```txt
 Input:

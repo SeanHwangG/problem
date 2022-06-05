@@ -1,6 +1,8 @@
 # [LC_maximum-depth-of-n-ary-tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)
 
+```en
 Print depth of tree
+```
 
 ```txt
 Input: root = [1,null,3,2,4,null,5,6]

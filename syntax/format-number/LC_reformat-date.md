@@ -1,7 +1,9 @@
 # [LC_reformat-date](https://leetcode.com/problems/reformat-date)
 
+```en
 Given date string in the form Day Month Year
 Convert date string to the format YYYY-MM-DD
+```
 
 ```txt
 Input: date = "20th Oct 2052"

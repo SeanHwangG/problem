@@ -1,6 +1,8 @@
 # [LC_counting-bits](https://leetcode.com/problems/counting-bits)
 
+```en
 Calculate number of 1's in their binary representation and return them as an array
+```
 
 ```txt
 Input: n = 5

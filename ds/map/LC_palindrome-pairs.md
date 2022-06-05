@@ -1,7 +1,9 @@
 # [LC_palindrome-pairs](https://leetcode.com/problems/palindrome-pairs)
 
+```en
 Given list of unique words, return all pairs of distinct indices (i, j) in given list
 So that concatenation of the two words words[i] + words[j] is a palindrome
+```
 
 ```txt
 Input: words = ["abcd","dcba","lls","s","sssll"]

@@ -1,8 +1,10 @@
 # [LC_regions-cut-by-slashes](https://leetcode.com/problems/regions-cut-by-slashes)
 
+```en
 In a N x N grid composed of 1 x 1 squares, each 1 x 1 square consists of a /, \, or blank space
 These characters divide the square into contiguous regions
 Return the number of regions
+```
 
 ```txt
 Input:

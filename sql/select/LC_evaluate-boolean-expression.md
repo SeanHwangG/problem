@@ -1,6 +1,8 @@
 # [LC_evaluate-boolean-expression](https://leetcode.com/problems/evaluate-boolean-expression)
 
+```en
 Evaluate the boolean expressions in Expressions table in any order
+```
 
 ```txt
 Input: 

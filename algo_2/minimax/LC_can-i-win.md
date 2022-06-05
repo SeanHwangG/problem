@@ -1,5 +1,6 @@
 # [LC_can-i-win](https://leetcode.com/problems/can-i-win)
 
+```en
 In the "100 game" two players take turns adding, to a running total, any integer from 1 to 10
 The player who first causes the running total to reach or exceed 100 wins
 What if we change the game so that players cannot re-use integers?
@@ -7,6 +8,7 @@ What if we change the game so that players cannot re-use integers?
   until they reach a total >= 100
 Given two integers maxChoosableInteger and desiredTotal, return if the first player to move can force a win
 Assume both players play optimally
+```
 
 ```txt
 Input: maxChoosableInteger = 10, desiredTotal = 11

@@ -1,6 +1,8 @@
 # [LC_duplicate-emails](https://leetcode.com/problems/duplicate-emails)
 
+```en
 Find all duplicate emails in a table named Person
+```
 
 ```txt
 Input:

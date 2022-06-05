@@ -1,8 +1,10 @@
 # [LC_slowest-key](https://leetcode.com/problems/slowest-key)
 
+```en
 Return the key of the keypress that had the longest duration
 If there are multiple such keypresses, return the lexicographically largest key of the keypresses
 
+```
 
 ```txt
 Input: releaseTimes = [12,23,36,46,62], keysPressed = "spuda"

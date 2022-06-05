@@ -1,9 +1,11 @@
 # [LC_maximum-average-pass-ratio](https://leetcode.com/problems/maximum-average-pass-ratio)
 
+```en
 classes[i] = [passi, totali]. You know beforehand that in ith class
   There are totali total students, but only passi number of students will pass exam
 There're another extraStudents brilliant students that are guaranteed to pass exam of any class they're assigned to
 Assign each of the extraStudents students to a class in a way that maximizes the average pass ratio across all classes
+```
 
 ```txt
 Input: classes = [[1,2],[3,5],[2,2]], extraStudents = 2

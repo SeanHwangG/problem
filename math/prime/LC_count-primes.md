@@ -1,6 +1,8 @@
 # [LC_count-primes](https://leetcode.com/problems/count-primes)
 
+```en
 Count # prime numbers less than a non-negative number, n
+```
 
 ```txt
 Input: n = 10

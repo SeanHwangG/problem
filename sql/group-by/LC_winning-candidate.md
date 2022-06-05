@@ -1,6 +1,8 @@
 # [LC_winning-candidate](https://leetcode.com/problems/winning-candidate)
 
+```en
 Find the name of the winning candidate, the above example will return the winner B
+```
 
 ```txt
 Input:

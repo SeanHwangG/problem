@@ -1,6 +1,8 @@
 # [LC_product-price-at-a-given-date](https://leetcode.com/problems/product-price-at-a-given-date)
 
+```en
 Find prices of all products on 2019-08-16, Assume price of all products before any change is 1
+```
 
 ```txt
 Input: 

@@ -1,6 +1,8 @@
 # [HR_select-all-sql](https://www.hackerrank.com/challenges/select-all-sql)
 
+```en
 Select all city information
+```
 
 ```txt
 Input:

@@ -1,8 +1,10 @@
 # [LC_shortest-distance-from-all-buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings)
 
+```en
 Given m x n grid grid of values 0, 1, or 2, where:
 0 marks an empty land, 1 marks a building, 2 marks an obstacle
 Build house on an empty land that reaches all buildings in the shortest total travel distance
+```
 
 ```txt
 Input: grid = [[1,0,2,0,1],[0,0,0,0,0],[0,0,1,0,0]]

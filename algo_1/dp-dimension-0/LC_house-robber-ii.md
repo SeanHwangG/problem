@@ -1,9 +1,11 @@
 # [LC_house-robber-ii](https://leetcode.com/problems/house-robber-ii)
 
+```en
 Each house, in circle, has a certain amount of money stashed
 Adjacent houses have security systems connected and it will automatically contact police
   If two adjacent houses were broken into on same night
 Maximize amount of money you can rob
+```
 
 ```txt
 Input: nums = [1,2,3,1]

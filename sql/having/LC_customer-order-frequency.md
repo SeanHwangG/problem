@@ -1,6 +1,8 @@
 # [LC_customer-order-frequency](https://leetcode.com/problems/customer-order-frequency)
 
+```en
 Report customer_id, customer_name of customers who have spent at least $100 in each month of June and July 2020
+```
 
 ```txt
 Input:

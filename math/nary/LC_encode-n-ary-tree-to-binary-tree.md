@@ -1,6 +1,8 @@
 # [LC_encode-n-ary-tree-to-binary-tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)
 
+```en
 Design algorithm to encode N-ary tree into a binary tree and decode binary tree to get original N-ary tree
+```
 
 ```txt
 Input: root = [1,null,3,2,4,null,5,6]

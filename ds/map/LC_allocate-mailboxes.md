@@ -1,7 +1,9 @@
 # [LC_allocate-mailboxes](https://leetcode.com/problems/allocate-mailboxes)
 
+```en
 Given array houses and integer k, houses[i] is location of ith house along street, allocate k mailboxes in street
 Return min total distance between each house and its nearest mailbox, answer fits in 32-bit signed int
+```
 
 ```txt
 Input: houses = [1,4,8,10,20], k = 3

@@ -1,7 +1,9 @@
 # [HR_lonely-integer-2](https://www.hackerrank.com/challenges/lonely-integer-2)
 
+```en
 First line of input contains number of integers, next contains space-separated integers that form array
 Output, the number that occurs only once
+```
 
 ```txt
 Input: 5

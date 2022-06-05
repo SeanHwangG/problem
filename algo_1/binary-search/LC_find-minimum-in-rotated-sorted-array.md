@@ -1,6 +1,8 @@
 # [LC_find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)
 
+```en
 Perform binary search on rotated sorted array
+```
 
 ```txt
 Input: nums = [3,4,5,1,2]

@@ -1,8 +1,10 @@
 # [LC_smallest-good-base](https://leetcode.com/problems/smallest-good-base)
 
+```en
 Given an integer n represented as a string, return the smallest good base of n
 We call k >= 2 a good base of n, if all digits of n base k are 1's
 
+```
 
 ```txt
 Input: n = "13"

@@ -1,6 +1,8 @@
 # [LC_count-numbers-with-unique-digits](https://leetcode.com/problems/count-numbers-with-unique-digits)
 
+```en
 Given an integer n, return the count of all numbers with unique digits, x, where 0 <= x < 10^n
+```
 
 ```txt
 Input: n = 2

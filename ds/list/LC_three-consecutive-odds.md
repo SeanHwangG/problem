@@ -1,6 +1,8 @@
 # [LC_three-consecutive-odds](https://leetcode.com/problems/three-consecutive-odds)
 
+```en
 
+```
 
 ```txt
 Input: arr = [2,6,4,1]

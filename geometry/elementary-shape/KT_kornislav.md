@@ -1,6 +1,8 @@
 # [KT_kornislav](https://open.kattis.com/problems/kornislav)
 
+```en
 Print largest rectangular width that can be made when given the length of four sides
+```
 
 ```txt
 Input: 1 2 3 4

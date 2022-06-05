@@ -1,10 +1,12 @@
 # [LC_critical-connections-in-a-network](https://leetcode.com/problems/critical-connections-in-a-network)
 
+```en
 There are n servers numbered from 0 to n - 1 connected by undirected server connections forming network
   connections[i] = [ai, bi] represents a connection between servers ai and bi
 Any server can reach other servers directly or indirectly through the network
 Critical connection is a connection that, if removed, will make some servers unable to reach some other server
 Return all critical connections in the network in any order
+```
 
 ```txt
 Input: n = 4, connections = [[0,1],[1,2],[2,0],[1,3]]

@@ -1,6 +1,8 @@
 # [HR_bash-tutorials-concatenate-an-array-with-itself](https://www.hackerrank.com/challenges/bash-tutorials-concatenate-an-array-with-itself)
 
+```en
 Concatenate three repetitions of the original array
+```
 
 ```txt
 Input:

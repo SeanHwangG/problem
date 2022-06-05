@@ -1,6 +1,8 @@
 # [LC_reformat-department-table](https://leetcode.com/problems/reformat-department-table)
 
+```en
 Reformat table such that there is a department id column and a revenue column for each month
+```
 
 ```txt
 Input:

@@ -1,7 +1,9 @@
 # [HR_html-attributes](https://www.hackerrank.com/challenges/html-attributes)
 
+```en
 tag-n:attribute-1,attribute-2,attribute-3...
 Where tag-1 is lexicographically smaller than tag-2 and attribute-1 is lexicographically smaller than attribute-2
+```
 
 ```txt
 Input:

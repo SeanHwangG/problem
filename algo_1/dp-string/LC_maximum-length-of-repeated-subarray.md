@@ -1,6 +1,8 @@
 # [LC_maximum-length-of-repeated-subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray)
 
+```en
 Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays
+```
 
 ```txt
 Input: nums1 = [1,2,3,2,1], nums2 = [3,2,1,4,7]

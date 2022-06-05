@@ -1,6 +1,8 @@
 # [LC_customer-placing-the-largest-number-of-orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders)
 
+```en
 Find customer_number for the customer who has placed the largest number of orders
+```
 
 ```txt
 Input:

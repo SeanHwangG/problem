@@ -1,6 +1,8 @@
 # [LC_majority-element](https://leetcode.com/problems/majority-element)
 
+```en
 Given an array nums of size n, return the majority element
+```
 
 ```txt
 Input: [3,2,3]

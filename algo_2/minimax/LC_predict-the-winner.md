@@ -1,8 +1,10 @@
 # [LC_predict-the-winner](https://leetcode.com/problems/predict-the-winner)
 
+```en
 Given an integer array nums. Two players are playing a game with this array: player 1 and player 2
 Player takes one of the numbers from either end of the array, adds chosen number to their score
 If you start first, can you win?
+```
 
 ```txt
 Input: nums = [1,5,2]

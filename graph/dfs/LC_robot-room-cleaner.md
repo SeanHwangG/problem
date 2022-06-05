@@ -1,7 +1,9 @@
 # [LC_robot-room-cleaner](https://leetcode.com/problems/robot-room-cleaner)
 
+```en
 Use robot to clean entire room, with 4 given APIs can move forward, turn left or right (Each turn is 90 degrees)
 When robot tries to move into a wall cell, its bumper sensor detects the obstacle, and it stays on the current cell
+```
 
 ```txt
 Input: room =

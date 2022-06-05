@@ -1,6 +1,8 @@
 # [HR_text-processing-in-linux-the-grep-command-4](https://www.hackerrank.com/challenges/text-processing-in-linux-the-grep-command-4)
 
+```en
 Grep all lines with containing any of the followings: "the" "that" "then" "those"
+```
 
 ```txt
 Input:

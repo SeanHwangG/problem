@@ -1,6 +1,8 @@
 # [KT_oktalni](https://open.kattis.com/problems/oktalni)
 
+```en
 Convert binary to oct
+```
 
 ```txt
 Input: 1010

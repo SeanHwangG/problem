@@ -1,6 +1,12 @@
 # [KT_helpaphd](https://open.kattis.com/problems/helpaphd)
 
+```en
 
+```
+
+```kr
+n개 줄의 a + b가 주어진다. 이 때 결과 값을 출력하라. 단 P=NP 가 주어질 때는 skipped를 출력하라
+```
 
 ```txt
 Input: 4

@@ -1,6 +1,8 @@
 # [LC_self-crossing](https://leetcode.com/problems/self-crossing)
 
+```en
 Check if line is self crossing
+```
 
 ```txt
 Input: distance = [2,1,1,2]

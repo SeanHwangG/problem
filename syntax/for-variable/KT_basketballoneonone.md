@@ -1,6 +1,8 @@
 # [KT_basketballoneonone](https://open.kattis.com/problems/basketballoneonone)
 
+```en
 A + point 혹은 B + point와 같은 형식으로 점수를 출력 할 때 더 많은 점수를 얻는 사람을 출력하라
+```
 
 ```txt
 Input: A2B1A2B2A1A2A2A2

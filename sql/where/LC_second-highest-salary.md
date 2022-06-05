@@ -1,6 +1,8 @@
 # [LC_second-highest-salary](https://leetcode.com/problems/second-highest-salary)
 
+```en
 Find second highest salary from the Employee table
+```
 
 ```txt
 Input:

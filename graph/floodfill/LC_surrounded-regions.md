@@ -1,6 +1,8 @@
 # [LC_surrounded-regions](https://leetcode.com/problems/surrounded-regions)
 
+```en
 Given an m x n matrix board containing 'X' and 'O', capture all regions surrounded by 'X'
+```
 
 ```txt
 Input: board =

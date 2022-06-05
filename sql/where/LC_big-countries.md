@@ -1,7 +1,9 @@
 # [LC_big-countries](https://leetcode.com/problems/big-countries)
 
+```en
 Country is big if it has area of bigger than 3 million square km or a population of more than 25 million
 Output big countries' name, population and area
+```
 
 ```txt
 Input:

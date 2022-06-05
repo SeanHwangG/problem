@@ -1,7 +1,9 @@
 # [LC_most-stones-removed-with-same-row-or-column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column)
 
+```en
 Stone can be removed if it shares either the same row or the same column
 Return largest possible number of stones that can be removed
+```
 
 ```txt
 Input: stones = [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]

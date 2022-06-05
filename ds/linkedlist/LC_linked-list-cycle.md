@@ -1,6 +1,8 @@
 # [LC_linked-list-cycle](https://leetcode.com/problems/linked-list-cycle)
 
+```en
 Check if linkedlist has cycle
+```
 
 ```txt
 Input: head = [3,2,0,-4], pos = 1

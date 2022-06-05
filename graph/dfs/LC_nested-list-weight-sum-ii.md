@@ -1,8 +1,10 @@
 # [LC_nested-list-weight-sum-ii](https://leetcode.com/problems/nested-list-weight-sum-ii)
 
+```en
 Given nested list of ints nestedList, Each element is int or list whose elements may also be ints or other lists
 Depth is number of lists that it is inside of, weight of an int is maxDepth - (depth of the int) + 1
 Return sum of each int in nestedList multiplied by its weight.
+```
 
 ```txt
 Input: nestedList = [[1,1],2,[1,1]]

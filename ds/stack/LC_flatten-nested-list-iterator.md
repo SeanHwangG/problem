@@ -1,9 +1,11 @@
 # [LC_flatten-nested-list-iterator](https://leetcode.com/problems/flatten-nested-list-iterator)
 
+```en
 Implement the NestedIterator class:
 NestedIterator(List\<NestedInteger\> nestedList) Initializes the iterator with the nested list nestedList.
 int next() Returns the next integer in the nested list.
 boolean hasNext() Returns true if there are still some integers in the nested list and false otherwise.
+```
 
 ```txt
 Input: nestedList = [[1,1],2,[1,1]]

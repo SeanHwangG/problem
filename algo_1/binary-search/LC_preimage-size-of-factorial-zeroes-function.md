@@ -1,7 +1,9 @@
 # [LC_preimage-size-of-factorial-zeroes-function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function)
 
+```en
 Let f(x) be the number of zeroes at the end of x!
 Given an integer k, return the number of non-negative integers x have the property that f(x) = k.
+```
 
 ```txt
 Input: k = 0

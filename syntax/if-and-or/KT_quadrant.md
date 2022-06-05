@@ -1,6 +1,8 @@
 # [KT_quadrant](https://open.kattis.com/problems/quadrant)
 
+```en
 Given x, y print corresponding quadrant
+```
 
 ```txt
 Input: 12

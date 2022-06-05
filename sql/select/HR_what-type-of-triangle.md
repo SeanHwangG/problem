@@ -1,6 +1,8 @@
 # [HR_what-type-of-triangle](https://www.hackerrank.com/challenges/what-type-of-triangle)
 
+```en
 Determine type of each triangle
+```
 
 ```txt
 Input: 

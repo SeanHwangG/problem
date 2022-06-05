@@ -1,6 +1,8 @@
 # [LC_game-play-analysis-ii](https://leetcode.com/problems/game-play-analysis-ii)
 
+```en
 Reports device that is first logged in for each player
+```
 
 ```txt
 Input:

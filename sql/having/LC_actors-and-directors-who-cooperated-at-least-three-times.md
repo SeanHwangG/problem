@@ -1,6 +1,8 @@
 # [LC_actors-and-directors-who-cooperated-at-least-three-times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times)
 
+```en
 Report that provides pairs (actor_id, director_id) where the actor have cooperated with the director at least 3 times
+```
 
 ```txt
 Input:

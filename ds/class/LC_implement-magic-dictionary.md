@@ -1,9 +1,11 @@
 # [LC_implement-magic-dictionary](https://leetcode.com/problems/implement-magic-dictionary)
 
+```en
 Implement the MagicDictionary class:
   MagicDictionary() Initializes the object
   void buildDict(String[] dictionary) Sets the data structure with an array of distinct strings dictionary
   bool search(String searchWord) Return if change exactly 1 character in searchWord to match any string in data structure
+```
 
 ```txt
 Input:

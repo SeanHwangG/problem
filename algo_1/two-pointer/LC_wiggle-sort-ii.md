@@ -1,7 +1,9 @@
 # [LC_wiggle-sort-ii](https://leetcode.com/problems/wiggle-sort-ii)
 
+```en
 Given int array nums, reorder it such that nums[0] < nums[1] > nums[2] < nums[3]...
 Assume input array always has valid answer
+```
 
 ```txt
 Input: nums = [1,5,1,1,6,4]

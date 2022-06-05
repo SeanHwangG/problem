@@ -1,9 +1,11 @@
 # [LC_design-bounded-blocking-queue](https://leetcode.com/problems/design-bounded-blocking-queue)
 
+```en
 BoundedBlockingQueue(int capacity) The constructor initializes the queue with a maximum capacity
 void enqueue(int element) Adds an element to front of queue. If full, calling thread is blocked until no longer full
 int dequeue() Return element at rear of queue and remove it. If empty, calling thread is blocked until no longer empty
 int size() Returns the number of elements currently in the queue
+```
 
 ```txt
 Input:

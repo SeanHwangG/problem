@@ -1,7 +1,9 @@
 # [HR_np-zeros-and-ones](https://www.hackerrank.com/challenges/np-zeros-and-ones)
 
+```en
 First, print the array using the numpy.zeros tool and then print the array with the numpy.ones tool
 
+```
 
 ```txt
 Input: 3 3 3

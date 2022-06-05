@@ -1,6 +1,8 @@
 # [HR_paste-1](https://www.hackerrank.com/challenges/paste-1)
 
+```en
 Join all rows with ;
+```
 
 ```txt
 Input: Albany, N.Y.

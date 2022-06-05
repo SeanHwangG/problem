@@ -1,6 +1,8 @@
 # [LC_subsets](https://leetcode.com/problems/subsets)
 
+```en
 Given an integer array nums of unique elements, return all possible subsets (the power set)
+```
 
 ```txt
 Input: nums = [1,2,3]

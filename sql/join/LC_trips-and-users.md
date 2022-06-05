@@ -1,8 +1,10 @@
 # [LC_trips-and-users](https://leetcode.com/problems/trips-and-users)
 
+```en
 Find cancellation rate of requests with unbanned users (both client and driver)
 Dividing # canceled (client/driver) requests with unbanned users by total # requests with unbanned users on day
 Return the result table between "2013-10-01" and "2013-10-03". in any order. Round up to two decimal points
+```
 
 ```txt
 Input:

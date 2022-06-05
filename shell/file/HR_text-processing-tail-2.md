@@ -1,6 +1,8 @@
 # [HR_text-processing-tail-2](https://www.hackerrank.com/challenges/text-processing-tail-2)
 
+```en
 Output last 20 characters
+```
 
 ```txt
 Input: New York is a state in the Northeastern and Mid-Atlantic regions of the United States. 

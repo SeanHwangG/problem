@@ -1,6 +1,8 @@
 # [LC_longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence)
 
+```en
 Given int array nums, return the length of the longest strictly increasing subsequence
+```
 
 ```txt
 Input: nums = [10,9,2,5,3,7,101,18]

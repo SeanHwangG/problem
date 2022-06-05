@@ -1,9 +1,11 @@
 # [HR_saying-hi](https://www.hackerrank.com/challenges/saying-hi)
 
+```en
 First character must be the letter H or h
 Second character must be the letter I or i
 Third character must be a single space
 Fourth character must not be the letter D or d
+```
 
 ```txt
 Input: 5

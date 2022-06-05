@@ -1,6 +1,8 @@
 # [LC_number-of-islands](https://leetcode.com/problems/number-of-islands)
 
+```en
 Find number of island
+```
 
 ```txt
 Input: grid = [

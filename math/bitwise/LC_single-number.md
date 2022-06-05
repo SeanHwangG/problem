@@ -1,6 +1,8 @@
 # [LC_single-number](https://leetcode.com/problems/single-number)
 
+```en
 Find only number where all other numbers appear twice
+```
 
 ```txt
 Input: nums = [0,1,0,1,99]

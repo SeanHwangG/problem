@@ -1,6 +1,8 @@
 # [KT_pot](https://open.kattis.com/problems/pot)
 
+```en
 Print number when last number is exponent
+```
 
 ```txt
 Input: 5

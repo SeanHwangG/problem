@@ -1,6 +1,8 @@
 # [LC_nth-digit](https://leetcode.com/problems/nth-digit)
 
+```en
 Find nth digit of the infinite integer sequence 1,2,..
+```
 
 ```txt
 Input: n = 11

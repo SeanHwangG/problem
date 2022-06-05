@@ -1,6 +1,13 @@
 # [KT_alphabetspam](https://open.kattis.com/problems/alphabetspam)
 
+```en
 
+```
+
+```kr
+첫줄에 문장이 주어진다
+이 때 문장에서 _의 비율, 소문자의 비율, 대문자의 비율, 나머지 부호의 비율을 각각 출력하라
+```
 
 ```txt
 Input: Welcome_NWERC_participants!

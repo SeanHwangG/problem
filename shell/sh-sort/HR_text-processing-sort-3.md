@@ -1,6 +1,8 @@
 # [HR_text-processing-sort-3](https://www.hackerrank.com/challenges/text-processing-sort-3)
 
+```en
 Order lines in reverse lexicographical order
+```
 
 ```txt
 Input:

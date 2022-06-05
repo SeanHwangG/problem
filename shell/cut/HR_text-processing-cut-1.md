@@ -1,6 +1,8 @@
 # [HR_text-processing-cut-1](https://www.hackerrank.com/challenges/text-processing-cut-1)
 
+```en
 Print 3rd character
+```
 
 ```txt
 Input:

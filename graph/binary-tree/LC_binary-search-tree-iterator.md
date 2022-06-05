@@ -1,10 +1,12 @@
 # [LC_binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator)
 
+```en
 Implement the BSTIterator class that represents an iterator over the in-order traversal of a binary search tree (BST):
 BSTIterator(TreeNode root) Initializes an object of the BSTIterator class
   The pointer should be initialized to a non-existent number smaller than any element in the BST
 boolean hasNext() Returns true if there exists a number in traversal to right of pointer, otherwise returns false
 int next() Moves the pointer to the right, then returns the number at the pointer
+```
 
 ```txt
 Input:

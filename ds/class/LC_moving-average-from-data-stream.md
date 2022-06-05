@@ -1,6 +1,8 @@
 # [LC_moving-average-from-data-stream](https://leetcode.com/problems/moving-average-from-data-stream)
 
+```en
 Given a stream of integers and window size, calculate the moving average of all integers in the sliding window
+```
 
 ```txt
 MovingAverage m = new MovingAverage(3);

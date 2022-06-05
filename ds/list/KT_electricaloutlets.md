@@ -1,6 +1,8 @@
 # [KT_electricaloutlets](https://open.kattis.com/problems/electricaloutlets)
 
+```en
 For N lines, find maximum number of plugs with n plugs with port
+```
 
 ```txt
 Input: 3  # N

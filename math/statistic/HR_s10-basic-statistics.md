@@ -1,6 +1,8 @@
 # [HR_s10-basic-statistics](https://www.hackerrank.com/challenges/s10-basic-statistics)
 
+```en
 Print mean median mode of followings
+```
 
 ```txt
 Input: 10

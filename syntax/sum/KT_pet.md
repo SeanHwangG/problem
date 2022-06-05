@@ -1,6 +1,12 @@
 # [KT_pet](https://open.kattis.com/problems/pet)
 
+```en
 When each participant is given an evaluation score, find the winner and his score
+```
+
+```kr
+5명의 선수가 4명에게 점수를 받는다. 이 때 우승자와 그 점수를 구하라
+```
 
 ```txt
 Input:

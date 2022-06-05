@@ -1,7 +1,9 @@
 # [LC_daily-temperatures](https://leetcode.com/problems/daily-temperatures)
 
+```en
 Given list of daily temperatures T, return a list st, for each day, how many days to wait until warmer temperature
 If no future day for which this is possible, put 0 instead
+```
 
 ```txt
 Input : T = [73, 74, 75, 71, 69, 72, 76, 73]

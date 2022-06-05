@@ -1,8 +1,10 @@
 # [LC_exchange-seats](https://leetcode.com/problems/exchange-seats)
 
+```en
 Mary is teacher in middle school and she has a table seat storing students' names and their corresponding seat ids
 The column id is continuous increment
 Change seats for the adjacent students
+```
 
 ```txt
 Input:

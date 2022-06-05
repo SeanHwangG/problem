@@ -1,7 +1,9 @@
 # [HR_matching-word-non-word](https://www.hackerrank.com/challenges/matching-word-non-word)
 
+```en
 You have a test string S. Your task is to match the pattern xxxXxxxxxxxxxxXxxx
 Here x denotes any word character and X denotes any non-word character
+```
 
 ```txt
 Matches

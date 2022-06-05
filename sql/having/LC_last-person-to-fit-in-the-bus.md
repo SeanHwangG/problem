@@ -1,7 +1,9 @@
 # [LC_last-person-to-fit-in-the-bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus)
 
+```en
 Maximum weight elevator can hold is 1000
 Find person_name of last person who will fit in elevator without exceeding weight limit
+```
 
 ```txt
 Input:

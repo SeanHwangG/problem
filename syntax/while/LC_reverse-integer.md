@@ -1,6 +1,8 @@
 # [LC_reverse-integer](https://leetcode.com/problems/reverse-integer)
 
+```en
 Reverse integer
+```
 
 ```txt
 Input: 421

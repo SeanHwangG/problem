@@ -1,7 +1,9 @@
 # [LC_house-robber-iii](https://leetcode.com/problems/house-robber-iii)
 
+```en
 Automatically contact police if two directly-linked houses were broken into on same night
 Determine maximum amount of money thief can rob tonight without alerting police
+```
 
 ```txt
 Input: root = [3,2,3,null,3,null,1]

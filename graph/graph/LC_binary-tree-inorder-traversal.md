@@ -1,6 +1,8 @@
 # [LC_binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
 
+```en
 Given root of binary tree, return inorder traversal of its nodes' values
+```
 
 ```txt
 Input: root = [1,null,2,3]

@@ -1,7 +1,9 @@
 # [LC_split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum)
 
+```en
 Given array nums which consists of non-negative integers and integer m, split array into m non-empty continuous subarrays
 Minimize the largest sum among these m subarrays
+```
 
 ```txt
 Input: nums = [7,2,5,10,8], m = 2

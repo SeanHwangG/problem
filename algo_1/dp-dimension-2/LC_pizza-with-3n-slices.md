@@ -1,5 +1,6 @@
 # [LC_pizza-with-3n-slices](https://leetcode.com/problems/pizza-with-3n-slices)
 
+```en
 There is a pizza with 3n slices of varying size, you and your friends will take slices of pizza as follows:
   You will pick any pizza slice
   Your friend Alice will pick next slice in anti clockwise direction of your pick
@@ -7,6 +8,7 @@ There is a pizza with 3n slices of varying size, you and your friends will take 
   Repeat until there are no more slices of pizzas
 Sizes of Pizza slices is represented by circular array slices in clockwise direction
 Return the maximum possible sum of slice sizes which you can have
+```
 
 ```txt
 Input: slices = [3,1,2]

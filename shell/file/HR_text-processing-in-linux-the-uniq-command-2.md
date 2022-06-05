@@ -1,6 +1,8 @@
 # [HR_text-processing-in-linux-the-uniq-command-2](https://www.hackerrank.com/challenges/text-processing-in-linux-the-uniq-command-2)
 
+```en
 Count each character
+```
 
 ```txt
 Input:

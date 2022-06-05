@@ -1,6 +1,8 @@
 # [LC_next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii)
 
+```en
 Return next greater number for every element in nums
+```
 
 ```txt
 Input: nums = [1,2,1]

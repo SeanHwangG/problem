@@ -1,7 +1,9 @@
 # [LC_implement-queue-using-stacks](https://leetcode.com/problems/implement-queue-using-stacks)
 
+```en
 Implement a first in first out (FIFO) queue using only two stacks
 Implemented queue should support all the functions of a normal queue (push, peek, pop, and empty)
+```
 
 ```txt
 Input: ["MyQueue", "push", "push", "peek", "pop", "empty"]

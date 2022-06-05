@@ -1,6 +1,8 @@
 # [HR_text-processing-in-linux-the-grep-command-2](https://www.hackerrank.com/challenges/text-processing-in-linux-the-grep-command-2)
 
+```en
 Use grep to display all those lines that contain the word the in them, case insensitive
+```
 
 ```txt
 Input:

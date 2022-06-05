@@ -1,6 +1,8 @@
 # [KT_symmetricorder](https://open.kattis.com/problems/symmetricorder)
 
+```en
 Print name in symetric order respect to name length
+```
 
 ```txt
 Input: 7

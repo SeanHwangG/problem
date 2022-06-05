@@ -1,7 +1,9 @@
 # [LC_range-sum-query-2d-mutable](https://leetcode.com/problems/range-sum-query-2d-mutable)
 
+```en
 Update value of a cell in matrix.
 Calculate sum of element of matrix inside rectangle defined by its upper left (r1, c1) and lower right (r2, c2)
+```
 
 ```txt
 Input:

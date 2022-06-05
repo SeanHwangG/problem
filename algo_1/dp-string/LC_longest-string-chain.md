@@ -1,7 +1,9 @@
 # [LC_longest-string-chain](https://leetcode.com/problems/longest-string-chain)
 
+```en
 wordA is predecessor of wordB iff 1 letter is inserted in wordA is to make it equal to wordB
 Return length of longest possible word chain with words chosen from the given list of words
+```
 
 ```txt
 Input: words = ["a","b","ba","bca","bda","bdca"]

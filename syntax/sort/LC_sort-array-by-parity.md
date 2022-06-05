@@ -1,8 +1,10 @@
 # [LC_sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity)
 
+```en
 Given int array nums, move all even ints at the beginning of array followed by all odd int
 Return any array that satisfies this condition.
 
+```
 
 ```txt
 Input: nums = [3,1,2,4]

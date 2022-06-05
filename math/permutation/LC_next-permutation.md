@@ -1,6 +1,8 @@
 # [LC_next-permutation](https://leetcode.com/problems/next-permutation)
 
+```en
 Print next permutation
+```
 
 ```txt
 Input: nums = [1,2,3]

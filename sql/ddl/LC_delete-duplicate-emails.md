@@ -1,6 +1,8 @@
 # [LC_delete-duplicate-emails](https://leetcode.com/problems/delete-duplicate-emails)
 
+```en
 Delete all duplicate email entries in table named Person, keeping only unique emails based on its smallest Id
+```
 
 ```txt
 Input: 

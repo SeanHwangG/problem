@@ -1,8 +1,10 @@
 # [LC_utf-8-validation](https://leetcode.com/problems/utf-8-validation)
 
+```en
 A character in UTF8 can be from 1 to 4 bytes long, subjected to the following rules:
 1-byte char, first bit is a 0, followed by its Unicode code.
 n-byte char, first n bits are all 1's, n + 1 bit is 0, followed by n - 1 bytes with most significant 2 bits 10
+```
 
 ```txt
 Input: data = [197,130,1]

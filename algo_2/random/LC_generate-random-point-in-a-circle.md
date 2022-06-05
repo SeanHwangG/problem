@@ -1,6 +1,8 @@
 # [LC_generate-random-point-in-a-circle](https://leetcode.com/problems/generate-random-point-in-a-circle)
 
+```en
 Print random point inside circle
+```
 
 ```txt
 Input:

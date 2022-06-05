@@ -1,6 +1,8 @@
 # [HR_select-by-id](https://www.hackerrank.com/challenges/select-by-id)
 
+```en
 All columns for a city in CITY with the ID 1661
+```
 
 ```txt
 Input:

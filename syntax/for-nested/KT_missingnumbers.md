@@ -1,6 +1,8 @@
 # [KT_missingnumbers](https://open.kattis.com/problems/missingnumbers)
 
+```en
 Print  all missing numbers 
+```
 
 ```txt
 Input: 9

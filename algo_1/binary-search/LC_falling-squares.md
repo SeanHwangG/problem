@@ -1,7 +1,9 @@
 # [LC_falling-squares](https://leetcode.com/problems/falling-squares)
 
+```en
 After each square is dropped, record height of current tallest stack of squares
 Return an integer array ans where ans[i] represents height described above after dropping ith square
+```
 
 ```txt
 Input: positions = [[1,2],[2,3],[6,1]]

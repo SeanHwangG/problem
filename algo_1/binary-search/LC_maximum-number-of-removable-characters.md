@@ -1,8 +1,10 @@
 # [LC_maximum-number-of-removable-characters](https://leetcode.com/problems/maximum-number-of-removable-characters)
 
+```en
 Given strings s and p where p is a subsequence of s
 Given a distinct integer array removable containing a subset of indices of s
 Return the maximum k you can choose such that p is still a subsequence of s after the removals
+```
 
 ```txt
 Input_1: s = "abcbddddd", p = "abcd", removable = [3,2,1,4,5,6]

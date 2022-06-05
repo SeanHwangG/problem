@@ -1,6 +1,8 @@
 # [LC_detect-cycles-in-2d-grid](https://leetcode.com/problems/detect-cycles-in-2d-grid)
 
+```en
 Given a 2D array of grid of size m x n, find if there exists any cycle consisting of the same value in grid
+```
 
 ```txt
 Input: grid =

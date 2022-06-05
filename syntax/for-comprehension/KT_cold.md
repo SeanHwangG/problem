@@ -1,6 +1,12 @@
 # [KT_cold](https://open.kattis.com/problems/cold)
 
+```en
 Print number of negative numbers
+```
+
+```kr
+음수의 개수를 구하라
+```
 
 ```txt
 Input: 3

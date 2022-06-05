@@ -1,7 +1,9 @@
 # [LC_reported-posts-ii](https://leetcode.com/problems/reported-posts-ii)
 
+```en
 Find average for daily percentage of posts that got removed after being reported as spam, rounded to 2 decimal places
 2019-07-04 is 50% / 2019-07-02 is 100%
+```
 
 ```txt
 Input: 

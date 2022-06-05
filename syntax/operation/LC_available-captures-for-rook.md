@@ -1,6 +1,8 @@
 # [LC_available-captures-for-rook](https://leetcode.com/problems/available-captures-for-rook)
 
+```en
 Print a + b
+```
 
 ```txt
 Input: 1 2

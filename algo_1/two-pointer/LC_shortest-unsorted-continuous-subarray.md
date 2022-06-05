@@ -1,7 +1,9 @@
 # [LC_shortest-unsorted-continuous-subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)
 
+```en
 Given array, find continuous subarray that if you sort this subarray, then whole array will be sorted
 Return shortest such subarray and output its length
+```
 
 ```txt
 Input: nums = [2,6,4,8,10,9,15]

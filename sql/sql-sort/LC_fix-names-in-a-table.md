@@ -1,7 +1,9 @@
 # [LC_fix-names-in-a-table](https://leetcode.com/problems/fix-names-in-a-table)
 
+```en
 Fix names so that only first character is uppercase and rest are lowercase
 Return result table ordered by user_id
+```
 
 ```txt
 Input:

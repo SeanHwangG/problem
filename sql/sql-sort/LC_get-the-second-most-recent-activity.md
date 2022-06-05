@@ -1,7 +1,9 @@
 # [LC_get-the-second-most-recent-activity](https://leetcode.com/problems/get-the-second-most-recent-activity)
 
+```en
 Show second most recent activity of each user
 If user only has one activity, return that one
+```
 
 ```txt
 Input: 

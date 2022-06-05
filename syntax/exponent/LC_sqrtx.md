@@ -1,6 +1,8 @@
 # [LC_sqrtx](https://leetcode.com/problems/sqrtx)
 
+```en
 Implement sqrt function
+```
 
 ```txt
 Input: x = 4

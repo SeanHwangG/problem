@@ -1,7 +1,9 @@
 # [LC_combine-two-tables](https://leetcode.com/problems/combine-two-tables)
 
+```en
 query for a report that provides following information for each person in Person table
 Regardless if is an address for each of those people: FirstName, LastName, City, State
+```
 
 ```txt
 Input:

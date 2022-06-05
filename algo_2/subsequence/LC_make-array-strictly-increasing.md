@@ -1,9 +1,11 @@
 # [LC_make-array-strictly-increasing](https://leetcode.com/problems/make-array-strictly-increasing)
 
+```en
 Given two integer arrays arr1 and arr2, return min # operations (possibly zero) needed to make arr1 strictly increasing
 In one operation, choose two indices 0 <= i < arr1.length and 0 <= j < arr2.length and do assignment arr1[i] = arr2[j]
 If there is no way to make arr1 strictly increasing, return -1.
 
+```
 
 ```txt
 Input: arr1 = [1,5,3,6,7], arr2 = [1,3,2,4]

@@ -1,7 +1,9 @@
 # [KT_nastyhacks](https://open.kattis.com/problems/nastyhacks)
 
+```en
 For N lines, print "advertise" or "does not matter" or "do not advertise".
 r is expected revenue if you do not advertise, e is expected revenue if you do advertise, c, is the cost of advertising
+```
 
 ```txt
 Input: 3  # N

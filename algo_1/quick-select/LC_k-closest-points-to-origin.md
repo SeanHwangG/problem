@@ -1,7 +1,9 @@
 # [LC_k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin)
 
+```en
 Given array of points where points[i] = [xi, yi] represents a point on X-Y plane and an integer k
 return k closest points to the origin (0, 0) in any order (guaranteed to be unique)
+```
 
 ```txt
 Input: points = [[1,3],[-2,2]], k = 1

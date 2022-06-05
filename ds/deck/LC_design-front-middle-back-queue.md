@@ -1,5 +1,6 @@
 # [LC_design-front-middle-back-queue](https://leetcode.com/problems/design-front-middle-back-queue)
 
+```en
 Design a queue that supports push and pop operations in the front, middle, and back.
 Implement the FrontMiddleBack class:
   FrontMiddleBack() Initializes the queue
@@ -9,6 +10,7 @@ Implement the FrontMiddleBack class:
   int popFront() Removes the front element of the queue and returns it. If the queue is empty, return -1
   int popMiddle() Removes the middle element of the queue and returns it. If the queue is empty, return -1
   int popBack() Removes the back element of the queue and returns it. If the queue is empty, return -1
+```
 
 ```txt
 Input:

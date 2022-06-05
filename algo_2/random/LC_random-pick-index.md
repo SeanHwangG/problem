@@ -1,7 +1,9 @@
 # [LC_random-pick-index](https://leetcode.com/problems/random-pick-index)
 
+```en
 Given an integer array nums with possible duplicates, randomly output the index of a given target number
 Assume that the given target number must exist in the array
+```
 
 ```txt
 Input:

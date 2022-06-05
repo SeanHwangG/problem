@@ -1,11 +1,13 @@
 # [LC_range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)
 
+```en
 Design class with following methods
   NumArray(int[] nums) initializes the object with the integer array nums
   void update(int index, int val) updates the value of nums[index] to be val
   int sumRange(int left, int right) returns the sum of the subarray nums[left, right]
     (i.e., nums[left] + nums[left + 1], ..., nums[right])
 At most 3 * 10^4 calls will be made to update and sumRange
+```
 
 ```txt
 Input:

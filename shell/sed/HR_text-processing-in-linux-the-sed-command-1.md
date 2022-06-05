@@ -1,7 +1,9 @@
 # [HR_text-processing-in-linux-the-sed-command-1](https://www.hackerrank.com/challenges/text-processing-in-linux-the-sed-command-1)
 
+```en
 For each line in a given input file, transform the first occurrence of the word 'the' with 'this'
 Search and transformation should be strictly case sensitive
+```
 
 ```txt
 Input: 

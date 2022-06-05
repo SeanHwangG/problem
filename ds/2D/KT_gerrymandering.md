@@ -1,9 +1,11 @@
 # [KT_gerrymandering](https://open.kattis.com/problems/gerrymandering)
 
+```en
 Given # precincts: party vote totals for each precinct, and how those precincts have been grouped into districts
 For each district determine winner party and wasted votes for each party
 determine efficiency gap between two parties over all districts
 E(V, w_A, w_B)=\frac{|w_A-w_B|}{V}
+```
 
 ```txt
 Input: 5 3

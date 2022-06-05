@@ -1,8 +1,10 @@
 # [LC_traffic-light-controlled-intersection](https://leetcode.com/problems/traffic-light-controlled-intersection)
 
+```en
 Given intersection of two roads
 First road is road A where cars travel from North to South in direction 1 and from South to North in direction 2
 Second road is road B where cars travel from West to East in direction 3 and from East to West in direction 4
+```
 
 ```txt
 Input: cars = [1,3,5,2,4], directions = [2,1,2,4,3], arrivalTimes = [10,20,30,40,50]

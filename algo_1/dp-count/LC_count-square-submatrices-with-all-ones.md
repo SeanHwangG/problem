@@ -1,6 +1,8 @@
 # [LC_count-square-submatrices-with-all-ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones)
 
+```en
 Given m * n matrix of ones and zeros, return how many square submatrices have all ones
+```
 
 ```txt
 Input: matrix =

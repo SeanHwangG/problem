@@ -1,7 +1,9 @@
 # [HR_alternative-matching](https://www.hackerrank.com/challenges/alternative-matching)
 
+```en
 Must start with Mr., Mrs., Ms., Dr. or Er.
 Rest of string must contain only one or more English alphabetic letters (upper and lowercase)
+```
 
 ```txt
 Input: Mr.DOSHI

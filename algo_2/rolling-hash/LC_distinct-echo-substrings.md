@@ -1,6 +1,8 @@
 # [LC_distinct-echo-substrings](https://leetcode.com/problems/distinct-echo-substrings)
 
+```en
 Return number of distinct non-empty substrings of text that can be written as concatenation of some string with itself
+```
 
 ```txt
 Input: text = "abcabcabc"

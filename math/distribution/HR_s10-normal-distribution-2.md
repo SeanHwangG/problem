@@ -1,7 +1,9 @@
 # [HR_s10-normal-distribution-2](https://www.hackerrank.com/challenges/s10-normal-distribution-2)
 
+```en
 Grades for a exam taken by students have a mean of 70 and a STD of 10, find probabilities
 Higher than 80, 60 / lower than 60
+```
 
 ```txt
 Input: 70 10

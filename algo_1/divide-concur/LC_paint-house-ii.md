@@ -1,8 +1,10 @@
 # [LC_paint-house-ii](https://leetcode.com/problems/paint-house-ii)
 
+```en
 Given row of n houses, painted with 1 of k colors ST all houses such that no two adjacent houses have the same color
 Cost of painting each house with a certain color is represented by an n x k cost matrix costs
 Return the minimum cost to paint all houses
+```
 
 ```txt
 Input: costs = [[1,5,3],[2,9,4]]

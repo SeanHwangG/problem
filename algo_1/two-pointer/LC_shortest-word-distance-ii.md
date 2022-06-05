@@ -1,8 +1,10 @@
 # [LC_shortest-word-distance-ii](https://leetcode.com/problems/shortest-word-distance-ii)
 
+```en
 Design data structure with string array, and then answer queries of shortest distance between two strings from array
   WordDistance(String[] wordsDict) initializes the object with the strings array wordsDict
   int shortest(String word1, String word2) returns the shortest distance between word1 and word2 in the array wordsDict
+```
 
 ```txt
 Input

@@ -1,6 +1,8 @@
 # [HR_bash-tutorials-filter-an-array-with-patterns](https://www.hackerrank.com/challenges/bash-tutorials-filter-an-array-with-patterns)
 
+```en
 Given list of countries, each on new line, filter out names containing 'a' or 'A'
+```
 
 ```txt
 Input:

@@ -1,0 +1,1 @@
+# [LC_smallest-integer-divisible-by-k](https://leetcode.com/problems/smallest-integer-divisible-by-k)

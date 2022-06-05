@@ -1,6 +1,8 @@
 # [LC_same-tree](https://leetcode.com/problems/same-tree)
 
+```en
 Check if tree are same
+```
 
 ```txt
 Input: p = [1,2], q = [1,null,2]

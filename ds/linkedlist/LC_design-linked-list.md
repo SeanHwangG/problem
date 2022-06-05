@@ -1,5 +1,6 @@
 # [LC_design-linked-list](https://leetcode.com/problems/design-linked-list)
 
+```en
 Implement the MyLinkedList class:
 MyLinkedList() Initializes the MyLinkedList object.
 int get(int index) Get the value of the indexth node in the linked list. If the index is invalid, return -1.
@@ -11,6 +12,7 @@ void addAtIndex(int index, int val) Add a node of value val before the indexth n
   If index is greater than the length, the node will not be inserted.
 void deleteAtIndex(int index) Delete the indexth node in the linked list, if the index is valid
 
+```
 
 ```txt
 Input:

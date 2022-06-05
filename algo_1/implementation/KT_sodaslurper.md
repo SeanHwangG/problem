@@ -1,5 +1,6 @@
 # [KT_sodaslurper](https://open.kattis.com/problems/sodaslurper)
 
+```en
 Only way to obtain more soda is to take the money he gets when he recycles empty soda bottles to buy new ones.
 In addition to the empty bottles resulting from his own consumption he sometimes nd empty bottles in the street. 
 One day he was extra thirsty, so he actually drank sodas until he couldn't afford a new one.
@@ -7,6 +8,13 @@ One day he was extra thirsty, so he actually drank sodas until he couldn't affor
 3 non-negative int e, f, c, where e < 1000 equals # empty soda bottles in at start of day, f < 1000 # of empty soda bottles found during day
 1 < c < 2000 # empty bottles required to buy a new soda.
 How many sodas did Tim drink on his extra thirsty day?
+```
+
+```kr
+첫 줄에 e, f, c 가 주어진다
+e와 f 를 합치면 가지고 있는 총 빈 병의 개수가 나오고,
+병을 c개 가지고 오면 꽉 찬 음료수를 받을 수 있다. 이 때 총 마실 수 있는 음료수의 수를 출력하라
+```
 
 ```txt
 Input: 9 0 3

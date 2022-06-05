@@ -1,7 +1,14 @@
 # [KT_mixedfractions](https://open.kattis.com/problems/mixedfractions)
 
+```en
 In each line a, b are given and input ends with 0 0
 Print a / b in mixed number form
+```
+
+```kr
+각 줄에 a, b 가 주어진다
+이 때 a / b 인 분수를 대분수로 형식으로 출력하라. a, b가 둘다 0 일 경우 종료한다
+```
 
 ```txt
 Input: 27 12  # a, b

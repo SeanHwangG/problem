@@ -1,10 +1,12 @@
 # [LC_contain-virus](https://leetcode.com/problems/contain-virus)
 
+```en
 Every night, the virus spreads to all neighboring cells in all four directions unless blocked by a wall
 Each day, install walls around a region that threatens most uninfected cells following night. there won't be a tie.
 Return # walls used to quarantine all the infected regions
 If the world will become fully infected, return the number of walls used
 
+```
 
 ```txt
 Input: isInfected =

@@ -1,6 +1,8 @@
 # [LC_candy-crush](https://leetcode.com/problems/candy-crush)
 
+```en
 Simulate Candicrush
+```
 
 ```txt
 Input:

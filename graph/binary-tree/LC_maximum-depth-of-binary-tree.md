@@ -1,6 +1,8 @@
 # [LC_maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
 
+```en
 Given root of binary tree, return its maximum depth
+```
 
 ```txt
 Input: root = [3,9,20,null,null,15,7]

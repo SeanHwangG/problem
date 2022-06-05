@@ -1,7 +1,9 @@
 # [LC_smallest-integer-divisible-by-k](https://leetcode.com/problems/smallest-integer-divisible-by-k)
 
+```en
 Given positive integer K, you need to find the length of the smallest positive integer N
 that N is divisible by K, and N only contains the digit 1
+```
 
 ```txt
 Input: k = 3

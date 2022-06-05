@@ -1,6 +1,8 @@
 # [HR_s10-standard-deviation](https://www.hackerrank.com/challenges/s10-standard-deviation)
 
+```en
 Print standard deviation of given array up to 1st decimal
+```
 
 ```txt
 Input: 5

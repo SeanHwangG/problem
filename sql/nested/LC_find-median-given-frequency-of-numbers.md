@@ -1,6 +1,8 @@
 # [LC_find-median-given-frequency-of-numbers](https://leetcode.com/problems/find-median-given-frequency-of-numbers)
 
+```en
 
+```
 
 ```txt
 Input: 

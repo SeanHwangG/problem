@@ -1,6 +1,8 @@
 # [LC_nth-highest-salary](https://leetcode.com/problems/nth-highest-salary)
 
+```en
 Get nth highest salary from Employee table
+```
 
 ```txt
 Input: 

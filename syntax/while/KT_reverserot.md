@@ -1,6 +1,14 @@
 # [KT_reverserot](https://open.kattis.com/problems/reverserot)
 
+```en
 
+```
+
+```kr
+숫자 a, 문자 b가 매 줄마다 주어진다
+이 때 문자를 뒤집어서 a만큼 회전한 문자를 출력한다. (단 Z → _ → . → A 으로 순환된다)
+마지막 줄은 0이다
+```
 
 ```txt
 Input: 1 ABCD

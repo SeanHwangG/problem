@@ -1,10 +1,12 @@
 # [LC_fizz-buzz-multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded)
 
+```en
 Print fizz buzz given 4 threads
   a thread printing fizz
   a thread printing buzz
   a thread printing fizzbuzz
   a thread incrementing a number
+```
 
 ```txt
 Input: n = 15

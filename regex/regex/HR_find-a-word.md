@@ -1,6 +1,8 @@
 # [HR_find-a-word](https://www.hackerrank.com/challenges/find-a-word)
 
+```en
 For every word, print the number of occurrences of the word in all the N sentences listed
+```
 
 ```txt
 Input: 1

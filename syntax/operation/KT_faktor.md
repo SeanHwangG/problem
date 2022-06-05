@@ -1,5 +1,6 @@
 # [KT_faktor](https://open.kattis.com/problems/faktor)
 
+```en
 Impact factor of a scientific journal is a measure reflecting the average number of citations to articles published in science journals.
 For this task we are using a simplified formula for calculating the impact factor:
 
@@ -13,6 +14,12 @@ You know how much article you are going to publish and the owners are pushing yo
 You are wondering how many scientists you will have to bribe to cite your article to meet the owners demands.
 Since money is tight you want to bribe the minimal amount of scientists.
 
+```
+
+```kr
+(창영이 앨범에 수록된 곡에 포함되어 있는 저작권이 있는 멜로디의 개수) / (앨범에 수록된 곡의 개수)
+적어도 몇 곡이 저작권이 있는 멜로디인지 구하라
+```
 
 ```txt
 Input: 38 24

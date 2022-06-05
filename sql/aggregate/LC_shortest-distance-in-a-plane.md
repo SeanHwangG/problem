@@ -1,7 +1,9 @@
 # [LC_shortest-distance-in-a-plane](https://leetcode.com/problems/shortest-distance-in-a-plane)
 
+```en
 Find the shortest distance between these points rounded to 2 decimals
 The shortest distance is 1.00 from point (-1,-1) to (-1,2)
+```
 
 ```txt
 Input: 

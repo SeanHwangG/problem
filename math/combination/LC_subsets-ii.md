@@ -1,6 +1,8 @@
 # [LC_subsets-ii](https://leetcode.com/problems/subsets-ii)
 
+```en
 Given an integer array nums that may contain duplicates, return all possible subsets (the power set)
+```
 
 ```txt
 Input: nums = [1,2,2]

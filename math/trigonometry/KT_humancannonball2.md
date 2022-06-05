@@ -1,6 +1,8 @@
 # [KT_humancannonball2](https://open.kattis.com/problems/humancannonball2)
 
+```en
 Check whether cannon safely pass with safe margin 1m
+```
 
 ```txt
 Input:

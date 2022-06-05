@@ -1,6 +1,8 @@
 # [KT_sjecista](https://open.kattis.com/problems/sjecista)
 
+```en
 Find n choose M
+```
 
 ```txt
 Input: 100 6

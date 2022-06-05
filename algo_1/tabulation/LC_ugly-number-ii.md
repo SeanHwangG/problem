@@ -1,7 +1,9 @@
 # [LC_ugly-number-ii](https://leetcode.com/problems/ugly-number-ii)
 
+```en
 Given an integer n, return the nth ugly number
 Ugly number is a positive number whose prime factors only include 2, 3, and/or 5
+```
 
 ```txt
 Input: n = 10

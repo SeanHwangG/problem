@@ -1,8 +1,10 @@
 # [LC_my-calendar-i](https://leetcode.com/problems/my-calendar-i)
 
+```en
 Implement a MyCalendar class to store your events
   book(int start, int end). represents a booking on the half open interval [start, end)
 Return False if booking is impossible
+```
 
 ```txt
 MyCalendar();

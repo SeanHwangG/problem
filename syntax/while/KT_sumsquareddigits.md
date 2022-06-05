@@ -1,6 +1,13 @@
 # [KT_sumsquareddigits](https://open.kattis.com/problems/sumsquareddigits)
 
+```en
 
+```
+
+```kr
+N-test개의 줄에  k(data set 수),b,n 정수가 주어진다
+k개의 줄에 각 test 번호 k와 SSB(b,n)을 출력하라
+```
 
 ```txt
 Input: 3

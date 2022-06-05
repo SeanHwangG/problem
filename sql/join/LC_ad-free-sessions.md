@@ -1,6 +1,8 @@
 # [LC_ad-free-sessions](https://leetcode.com/problems/ad-free-sessions)
 
+```en
 Report all the sessions that did not get shown any ads in any order
+```
 
 ```txt
 Input:

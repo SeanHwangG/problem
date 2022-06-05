@@ -1,8 +1,10 @@
 # [HR_matching-zero-or-more-repetitions](https://www.hackerrank.com/challenges/matching-zero-or-more-repetitions)
 
+```en
 Begin with 1 or 2 digits
 After that, 3 or more letters (both lowercase and uppercase)
 End with up to 3 symbol(s)
+```
 
 ```txt
 Input: 14

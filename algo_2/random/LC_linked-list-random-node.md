@@ -1,6 +1,8 @@
 # [LC_linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)
 
+```en
 Given a singly linked list, return random node's value from the linked list
+```
 
 ```txt
 Input:

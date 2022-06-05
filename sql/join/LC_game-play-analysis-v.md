@@ -1,9 +1,11 @@
 # [LC_game-play-analysis-v](https://leetcode.com/problems/game-play-analysis-v)
 
+```en
 Install date is the first login day of that player
 Day 1 retention of some date X to be # players whose install date is X and they logged back next day
   Divided by # players whose install date is X, rounded to 2 decimal places
 For each install date, # players that installed the game on that day and the day 1 retention
+```
 
 ```txt
 Input: 

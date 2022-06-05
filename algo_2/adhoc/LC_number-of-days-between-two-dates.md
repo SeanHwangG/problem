@@ -1,7 +1,9 @@
 # [LC_number-of-days-between-two-dates](https://leetcode.com/problems/number-of-days-between-two-dates)
 
+```en
 Write a program to count the number of days between two dates.
 The two dates are given as strings, their format is YYYY-MM-DD as shown in the examples.
+```
 
 ```txt
 Input: date1 = "2019-06-29", date2 = "2019-06-30"

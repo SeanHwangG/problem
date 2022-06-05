@@ -1,6 +1,8 @@
 # [HR_text-processing-in-linux-the-uniq-command-1](https://www.hackerrank.com/challenges/text-processing-in-linux-the-uniq-command-1)
 
+```en
 Remove consecutive duplicate
+```
 
 ```txt
 Input:

@@ -1,6 +1,8 @@
 # [LC_median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 
+```en
 Return median of two sorted array
+```
 
 ```txt
 Input: nums1 = [1,2], nums2 = [3,4]

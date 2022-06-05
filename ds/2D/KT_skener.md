@@ -1,6 +1,8 @@
 # [KT_skener](https://open.kattis.com/problems/skener)
 
+```en
 Print magnified picture with r, c factor
+```
 
 ```txt
 Input:

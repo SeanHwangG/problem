@@ -1,8 +1,10 @@
 # [LC_the-maze-iii](https://leetcode.com/problems/the-maze-iii)
 
+```en
 Ball can go through empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting wall
 Return string instructions of all instructions that ball should follow to drop in hole with shortest distance possible
 Print lexicographically minimum in case of tie
+```
 
 ```txt
 Input: maze =

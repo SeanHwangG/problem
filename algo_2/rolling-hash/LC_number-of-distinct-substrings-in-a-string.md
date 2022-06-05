@@ -1,6 +1,8 @@
 # [LC_number-of-distinct-substrings-in-a-string](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string)
 
+```en
 Given a string s, return the number of distinct substrings of s.
+```
 
 ```txt
 Input: s = "aabbaba"

@@ -1,7 +1,9 @@
 # [LC_minimum-operations-to-reduce-x-to-zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero)
 
+```en
 Can either pop from left or right element and subtract from x
 Print minimum number of operations to make x to be 0
+```
 
 ```txt
 Input: nums = [1,1,4,2,3], x = 5

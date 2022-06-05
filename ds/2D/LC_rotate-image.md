@@ -1,6 +1,8 @@
 # [LC_rotate-image](https://leetcode.com/problems/rotate-image)
 
+```en
 Rotate 2D array
+```
 
 ```txt
 Input:

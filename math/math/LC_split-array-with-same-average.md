@@ -1,0 +1,1 @@
+# [LC_split-array-with-same-average](https://leetcode.com/problems/split-array-with-same-average)

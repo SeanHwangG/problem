@@ -1,6 +1,8 @@
 # [HR_japanese-cities-name](https://www.hackerrank.com/challenges/japanese-cities-name)
 
+```en
 Names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN
+```
 
 ```txt
 Input:

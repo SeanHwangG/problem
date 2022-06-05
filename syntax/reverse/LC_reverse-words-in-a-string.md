@@ -1,6 +1,8 @@
 # [LC_reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string)
 
+```en
 Reverse word
+```
 
 ```txt
 Input: s = "the sky is blue"

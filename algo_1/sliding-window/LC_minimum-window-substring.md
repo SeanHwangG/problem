@@ -1,7 +1,9 @@
 # [LC_minimum-window-substring](https://leetcode.com/problems/minimum-window-substring)
 
+```en
 Given strs s and t, return min window substring of s, ST every char in t (including duplicates) is included in window
 If there is no such substring, return the empty string ""
+```
 
 ```txt
 Input: s = "ADOBECODEBANC", t = "ABC"

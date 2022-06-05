@@ -1,6 +1,12 @@
 # [KT_mirror](https://open.kattis.com/problems/mirror)
 
+```en
 Print mirrored string
+```
+
+```kr
+거울에 비친 글자를 출력하라
+```
 
 ```txt
 Input:

@@ -1,6 +1,8 @@
 # [HR_bash-tutorials-remove-the-first-capital-letter-from-each-array-element](https://www.hackerrank.com/challenges/bash-tutorials-remove-the-first-capital-letter-from-each-array-element)
 
+```en
 Transform names as described and display entire array of country names with space between each of them
+```
 
 ```txt
 Input:

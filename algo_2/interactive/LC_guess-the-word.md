@@ -1,10 +1,12 @@
 # [LC_guess-the-word](https://leetcode.com/problems/guess-the-word)
 
+```en
 Given unique strings where wordlist[i] is 6 letters, and 1 word in this list is chosen as secret
 Master.guess(word): guessed word must be from original list with 6 lowercase letters
   returns int, representing # exact matches (value and position) of guess to secret word
   Also, if guess is not in given wordlist, it will return -1 instead
 For each test case, have exactly 10 chances to guess word
+```
 
 ```txt
 Input: secret = "acckzz", wordlist = ["acckzz", "ccbazz", "eiowzz", "abcczz"]

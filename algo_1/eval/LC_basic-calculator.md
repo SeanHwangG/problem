@@ -1,6 +1,8 @@
 # [LC_basic-calculator](https://leetcode.com/problems/basic-calculator)
 
+```en
 Implement eval, consists of digits, '+', '-', '(', ')', and ' '
+```
 
 ```txt
 Input: s = "1 + 1"

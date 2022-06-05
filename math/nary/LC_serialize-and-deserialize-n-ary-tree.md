@@ -1,6 +1,8 @@
 # [LC_serialize-and-deserialize-n-ary-tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree)
 
+```en
 Design an algorithm to serialize and deserialize an N-ary tree
+```
 
 ```txt
 Input: root = [1,null,3,2,4,null,5,6]

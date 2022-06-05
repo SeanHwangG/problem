@@ -1,6 +1,8 @@
 # [LC_product-sales-analysis-ii](https://leetcode.com/problems/product-sales-analysis-ii)
 
+```en
 Reports the total quantity sold for every product id
+```
 
 ```txt
 Input:

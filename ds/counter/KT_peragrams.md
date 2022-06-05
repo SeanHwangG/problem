@@ -1,7 +1,9 @@
 # [KT_peragrams](https://open.kattis.com/problems/peragrams)
 
+```en
 Peragrams is Palindrome when suffle it's character
 Given string, how many character should I remove to make Peragrams
+```
 
 ```txt
 Input: abc

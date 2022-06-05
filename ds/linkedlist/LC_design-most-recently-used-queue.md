@@ -1,7 +1,9 @@
 # [LC_design-most-recently-used-queue](https://leetcode.com/problems/design-most-recently-used-queue)
 
+```en
 MRUQueue(int n) constructs the MRUQueue with n elements: [1,2,3,...,n].
 int fetch(int k) moves the kth element (1-indexed) to the end of the queue and returns it.
+```
 
 ```txt
 Input:

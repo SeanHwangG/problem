@@ -1,8 +1,10 @@
 # [LC_rectangle-area-ii](https://leetcode.com/problems/rectangle-area-ii)
 
+```en
 Given a list of (axis-aligned) rectangles, each rectangle[i] = [xi1, yi1, xi2, yi2]
 Where (xi1, yi1) are coordinates of bottom-left corner, (xi2, yi2) are coordinates of top-right corner of ith rectangle
 Find total area covered by all rectangles in plane, return MOD 10^9+7
+```
 
 ```txt
 Input: rectangles = [[0,0,2,2],[1,0,2,3],[1,0,3,1]]

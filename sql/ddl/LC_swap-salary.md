@@ -1,7 +1,9 @@
 # [LC_swap-salary](https://leetcode.com/problems/swap-salary)
 
+```en
 swap all 'f' and 'm' values with a single update statement and no intermediate temp table
 
+```
 
 ```txt
 Input: 

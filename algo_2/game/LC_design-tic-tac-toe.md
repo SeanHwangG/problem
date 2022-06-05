@@ -1,9 +1,11 @@
 # [LC_design-tic-tac-toe](https://leetcode.com/problems/design-tic-tac-toe)
 
+```en
 Implement the TicTacToe class:
 TicTacToe(int n) Initializes the object the size of the board n.
 int move(int row, int col, int player) Indicates that player with id player plays at the cell (row, col) of board
   Move is guaranteed to be a valid move
+```
 
 ```txt
 Input:

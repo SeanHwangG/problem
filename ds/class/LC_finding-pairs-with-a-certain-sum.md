@@ -1,8 +1,10 @@
 # [LC_finding-pairs-with-a-certain-sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum)
 
+```en
 Given two integer arrays nums1 and nums2, implement a data structure that supports queries of two types:
   Add a positive integer to an element of a given index in the array nums2
   Count the number of pairs (i, j) s.t. nums1[i] + nums2[j] equals a given value
+```
 
 ```txt
 Input:

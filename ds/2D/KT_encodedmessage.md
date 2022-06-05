@@ -1,6 +1,8 @@
 # [KT_encodedmessage](https://open.kattis.com/problems/encodedmessage)
 
+```en
 Encode string
+```
 
 ```txt
 Input: 3

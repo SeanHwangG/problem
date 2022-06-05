@@ -1,6 +1,8 @@
 # [KT_hangingout](https://open.kattis.com/problems/hangingout)
 
+```en
 
+```
 
 ```txt
 Input: 4 5  # L, x

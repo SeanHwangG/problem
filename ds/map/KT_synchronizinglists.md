@@ -1,6 +1,8 @@
 # [KT_synchronizinglists](https://open.kattis.com/problems/synchronizinglists)
 
+```en
 For each line, print second list so that it has same ordering as first list, with blank line between lists
+```
 
 ```txt
 Input:

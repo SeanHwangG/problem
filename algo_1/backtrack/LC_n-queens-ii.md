@@ -1,6 +1,8 @@
 # [LC_n-queens-ii](https://leetcode.com/problems/n-queens-ii)
 
+```en
 Given integer n, return the number of distinct solutions to the n-queens puzzle
+```
 
 ```txt
 Input: n = 4

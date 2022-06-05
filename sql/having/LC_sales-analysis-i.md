@@ -1,6 +1,8 @@
 # [LC_sales-analysis-i](https://leetcode.com/problems/sales-analysis-i)
 
+```en
 Reports best seller by total sales price, If there is a tie, report them all
+```
 
 ```txt
 Input:

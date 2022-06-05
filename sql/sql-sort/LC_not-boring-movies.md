@@ -1,6 +1,8 @@
 # [LC_not-boring-movies](https://leetcode.com/problems/not-boring-movies)
 
+```en
 Output movies with odd numbered ID and description that is not 'boring'. Order the result by rating
+```
 
 ```txt
 Input:

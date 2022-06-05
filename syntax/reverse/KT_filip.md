@@ -1,7 +1,9 @@
 # [KT_filip](https://open.kattis.com/problems/filip)
 
+```en
 Print larger number when they are reverse
 
+```
 
 ```txt
 Input: 734 893

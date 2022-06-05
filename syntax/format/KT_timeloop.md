@@ -1,6 +1,8 @@
 # [KT_timeloop](https://open.kattis.com/problems/timeloop)
 
+```en
 Given N, Print 1 Abracadabra … N Abracadabra
+```
 
 ```txt
 Input: 2

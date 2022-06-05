@@ -1,7 +1,9 @@
 # [KT_trik](https://open.kattis.com/problems/trik)
 
+```en
 Print location of cup at the end of simulation
 A reverse 1, 2 / B reverse 2, 3 / C reverse 1, 3
+```
 
 ```txt
 Input: AB

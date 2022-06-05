@@ -1,10 +1,12 @@
 # [LC_minimum-unique-word-abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation)
 
+```en
 String can be abbreviated by replacing any number of non-adjacent substrings with their lengths
 For example, a string such as "substitution" could be abbreviated as (not limited to):
   "sub4u4" ("sub stit u tion") / "12" ("substitution") / "su3i1u2on" ("su bst i t u ti on")
 Given target string target and an array of strings dictionary, return any shortest abbreviation of target
 ST it is not an abbreviation of any string in dictionary
+```
 
 ```txt
 Input: target = "apple", dictionary = ["blade"]

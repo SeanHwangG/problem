@@ -1,6 +1,8 @@
 # [LC_permutation-sequence](https://leetcode.com/problems/permutation-sequence)
 
+```en
 Find kth permutation from the set [1, 2, ...]
+```
 
 ```txt
 Input: n = 3, k = 3

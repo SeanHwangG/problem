@@ -1,6 +1,8 @@
 # [LC_design-parking-system](https://leetcode.com/problems/design-parking-system)
 
+```en
 Design parking system
+```
 
 ```txt
 Input: ["ParkingSystem", "addCar", "addCar", "addCar", "addCar"]

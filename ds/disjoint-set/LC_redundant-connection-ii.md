@@ -1,6 +1,8 @@
 # [LC_redundant-connection-ii](https://leetcode.com/problems/redundant-connection-ii)
 
+```en
 Return an edge that can be removed so that the resulting graph is a rooted tree of n nodes
+```
 
 ```txt
 Input: edges = [[1,2],[2,3],[3,4],[4,1],[1,5]]

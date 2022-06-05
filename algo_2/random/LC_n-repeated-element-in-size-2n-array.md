@@ -1,7 +1,9 @@
 # [LC_n-repeated-element-in-size-2n-array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array)
 
+```en
 In array nums of size 2 x n, there are n + 1 unique elements, and exactly one of these elements is repeated n times
 Return element repeated n times
+```
 
 ```txt
 Input: nums[2,1,2,5,3,2]

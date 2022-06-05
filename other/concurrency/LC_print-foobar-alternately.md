@@ -1,6 +1,8 @@
 # [LC_print-foobar-alternately](https://leetcode.com/problems/print-foobar-alternately)
 
+```en
 Print Foo bar alternatively
+```
 
 ```txt
 Input: n = 2

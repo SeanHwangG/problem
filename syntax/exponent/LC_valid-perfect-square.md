@@ -1,6 +1,8 @@
 # [LC_valid-perfect-square](https://leetcode.com/problems/valid-perfect-square)
 
+```en
 Check if a number is square
+```
 
 ```txt
 Input: num = 16

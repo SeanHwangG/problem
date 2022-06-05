@@ -1,6 +1,8 @@
 # [LC_implement-rand10-using-rand7](https://leetcode.com/problems/implement-rand10-using-rand7)
 
+```en
 Print rand10() given rand7()
+```
 
 ```txt
 Input: n = 2

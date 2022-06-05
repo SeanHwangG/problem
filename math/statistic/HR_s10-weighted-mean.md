@@ -1,6 +1,8 @@
 # [HR_s10-weighted-mean](https://www.hackerrank.com/challenges/s10-weighted-mean)
 
+```en
 Given values and weights, printed weighted mean
+```
 
 ```txt
 Input: 5

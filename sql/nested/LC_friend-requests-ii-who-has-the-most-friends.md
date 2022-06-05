@@ -1,6 +1,8 @@
 # [LC_friend-requests-ii-who-has-the-most-friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends)
 
+```en
 Find the people who has most friends and the most friends number
+```
 
 ```txt
 Input: 

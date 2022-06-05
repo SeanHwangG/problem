@@ -1,7 +1,9 @@
 # [LC_customers-who-never-order](https://leetcode.com/problems/customers-who-never-order)
 
+```en
 Find all customers who never order anything
 
+```
 
 ```txt
 Input: 

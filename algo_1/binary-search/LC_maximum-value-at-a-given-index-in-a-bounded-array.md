@@ -1,5 +1,6 @@
 # [LC_maximum-value-at-a-given-index-in-a-bounded-array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array)
 
+```en
 Given three positive integers n, index and maxSum. construct 0 indexed array nums that satisfies the following conditions
   nums.length == n
   nums[i] is a positive integer where 0 <= i < n
@@ -7,6 +8,7 @@ Given three positive integers n, index and maxSum. construct 0 indexed array num
   The sum of all the elements of nums does not exceed maxSum
   nums[index] is maximized
 Return nums[index] of the constructed array
+```
 
 ```txt
 Input: n = 4, index = 2,  maxSum = 6

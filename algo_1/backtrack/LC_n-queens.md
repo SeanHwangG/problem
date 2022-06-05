@@ -1,6 +1,8 @@
 # [LC_n-queens](https://leetcode.com/problems/n-queens)
 
+```en
 Return all answer for NQueen
+```
 
 ```txt
 Input: n = 4

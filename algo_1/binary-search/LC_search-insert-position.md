@@ -1,6 +1,8 @@
 # [LC_search-insert-position](https://leetcode.com/problems/search-insert-position)
 
+```en
 Search for insertion point
+```
 
 ```txt
 Input: nums = [1,3,5,6], target = 7

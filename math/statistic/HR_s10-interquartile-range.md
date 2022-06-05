@@ -1,6 +1,8 @@
 # [HR_s10-interquartile-range](https://www.hackerrank.com/challenges/s10-interquartile-range)
 
+```en
 Given values and frequencies print quratile Q1-Q3 range
+```
 
 ```txt
 Input:

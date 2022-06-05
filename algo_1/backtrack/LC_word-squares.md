@@ -1,8 +1,10 @@
 # [LC_word-squares](https://leetcode.com/problems/word-squares)
 
+```en
 Given array of unique strings words, return all the word squares you can build from words in any order
 Same word from words can be used multiple times
 Sequence of strings forms valid word square if kth row and column read same string, where 0 <= k < max(numRows, numColumns)
+```
 
 ```txt
 Input: words = ["area","lead","wall","lady","ball"]

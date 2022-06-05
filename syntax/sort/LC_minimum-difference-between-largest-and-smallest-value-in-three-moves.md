@@ -1,7 +1,9 @@
 # [LC_minimum-difference-between-largest-and-smallest-value-in-three-moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves)
 
+```en
 Given array nums, you can choose 1 element and change it by any value in one move
 Return min difference between largest and smallest value of nums after perfoming at most 3 moves
+```
 
 ```txt
 Input: nums = [5,3,2,4]

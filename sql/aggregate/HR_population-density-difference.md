@@ -1,6 +1,8 @@
 # [HR_population-density-difference](https://www.hackerrank.com/challenges/population-density-difference)
 
+```en
 Query the difference between the maximum and minimum populations in CITY
+```
 
 ```txt
 Input:

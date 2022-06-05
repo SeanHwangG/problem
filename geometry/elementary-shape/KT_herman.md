@@ -1,6 +1,8 @@
 # [KT_herman](https://open.kattis.com/problems/herman)
 
+```en
 Print area of circle with radius n. then print n ** 2 * 2
+```
 
 ```txt
 Input: 1

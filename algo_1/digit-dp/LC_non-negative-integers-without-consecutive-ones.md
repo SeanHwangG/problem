@@ -1,6 +1,8 @@
 # [LC_non-negative-integers-without-consecutive-ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones)
 
+```en
 Given + integer n, return # integers in range [0, n] whose binary representations don't contain consecutive one
+```
 
 ```txt
 Input: n = 5

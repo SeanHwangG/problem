@@ -1,7 +1,9 @@
 # [LC_unpopular-books](https://leetcode.com/problems/unpopular-books)
 
+```en
 Reports books that have sold less than 10 copies in last year
 Excluding books that have been available for less than 1 month from today. Assume today is 2019-06-23
+```
 
 ```txt
 Input: 

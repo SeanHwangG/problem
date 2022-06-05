@@ -1,7 +1,9 @@
 # [LC_find-greatest-common-divisor-of-array](https://leetcode.com/problems/find-greatest-common-divisor-of-array)
 
+```en
 Given an integer array nums, return greatest common divisor of smallest number and largest number in nums
 greatest common divisor of two numbers is largest positive integer that evenly divides both numbers
+```
 
 ```txt
 Input: nums = [2,5,6,9,10]

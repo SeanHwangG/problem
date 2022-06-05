@@ -1,7 +1,9 @@
 # [KT_modulo](https://open.kattis.com/problems/modulo)
 
+```en
 After receiving 10 inputs, divide them by 42 to find the remainder
 Then write a program that prints out how many different values there are
+```
 
 ```txt
 Input:

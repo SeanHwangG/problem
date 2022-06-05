@@ -1,6 +1,8 @@
 # [LC_sudoku-solver](https://leetcode.com/problems/sudoku-solver)
 
+```en
 Solve a Sudoku puzzle by filling the empty cells
+```
 
 ```txt
 Input:

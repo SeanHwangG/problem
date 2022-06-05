@@ -1,7 +1,9 @@
 # [LC_word-break](https://leetcode.com/problems/word-break)
 
+```en
 Given a string s and a dictionary of strings wordDict
 return if s can be segmented into a space-separated sequence of one or more dictionary words
+```
 
 ```txt
 Input: s = "applepenapple", wordDict = ["apple","pen"]

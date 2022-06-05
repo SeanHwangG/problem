@@ -1,7 +1,9 @@
 # [LC_sum-of-beauty-of-all-substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings)
 
+```en
 Beauty of a string is difference in frequencies between most frequent and least frequent characters
 Given string s, return sum of beauty of all of its substrings
+```
 
 ```txt
 Input: s = "aabcb"

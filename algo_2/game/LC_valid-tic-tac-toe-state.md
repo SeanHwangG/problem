@@ -1,7 +1,9 @@
 # [LC_valid-tic-tac-toe-state](https://leetcode.com/problems/valid-tic-tac-toe-state)
 
+```en
 Given Tic-Tac-Toe board as string array, return iff it's possible to reach this board position during game
 Board is 3 x 3 array that consists of characters ' ', 'X', and 'O'. The ' ' character represents an empty square
+```
 
 ```txt
 Input: board = ["XOX"," X ","   "]

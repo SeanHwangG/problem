@@ -1,7 +1,9 @@
 # [HR_s10-geometric-distribution-1](https://www.hackerrank.com/challenges/s10-geometric-distribution-1)
 
+```en
 Probability that a machine produces a defective product is 1/3.
 What is the probability that the 1st defect is found during the 5th inspection?
+```
 
 ```txt
 Input:

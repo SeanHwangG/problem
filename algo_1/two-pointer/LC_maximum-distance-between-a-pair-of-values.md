@@ -1,8 +1,10 @@
 # [LC_maximum-distance-between-a-pair-of-values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values)
 
+```en
 Given 2 non-increasing 0-indexed integer arrays nums1 and nums2
 Pair (i, j), where 0 <= i < nums1.length, 0 <= j < nums2.length, is valid if i<=j, nums1[i]<=nums2[j]
 Return maximum (j - i) of any valid pair (i, j). If there are no valid pairs, return 0
+```
 
 ```txt
 Input: nums1 = [55,30,5,4,2], nums2 = [100,20,10,10,5]

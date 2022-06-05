@@ -1,8 +1,10 @@
 # [LC_design-snake-game](https://leetcode.com/problems/design-snake-game)
 
+```en
 Implement the SnakeGame class:
 SnakeGame(int width, int height, int[][] food) Initializes a screen of size height x width and positions of food
 int move(String direction) Returns score of game after applying one direction move by snake. -1 if over
+```
 
 ```txt
 Input:

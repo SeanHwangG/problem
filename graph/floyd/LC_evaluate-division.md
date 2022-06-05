@@ -1,8 +1,10 @@
 # [LC_evaluate-division](https://leetcode.com/problems/evaluate-division)
 
+```en
 Given an array of variable pairs equations and an array of real numbers values
   equations[i] = [Ai, Bi] and values[i] represent the equation Ai / Bi = values[i]
 Return answer to queries, where querie = [C, D] represents where you must find the answer for C / D = ?
+```
 
 ```txt
 Input: equations = [["a","b"],["b","c"]], values = [2.0,3.0], queries = [["a","c"],["b","a"],["a","e"],["a","a"],["x","x"]]

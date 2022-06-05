@@ -1,7 +1,9 @@
 # [HR_matching-whitespace-non-whitespace-character](https://www.hackerrank.com/challenges/matching-whitespace-non-whitespace-character)
 
+```en
 You have a test string S. Your task is to match the pattern XXxXXxXX
 Here, x denotes whitespace characters, and X denotes non-white space characters
+```
 
 ```txt
 Input: 12 11 15

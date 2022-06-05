@@ -1,6 +1,12 @@
 # [KT_oddities](https://open.kattis.com/problems/oddities)
 
+```en
 
+```
+
+```kr
+n 이 짝수이면 n is even 홀수이면 n is odd 라고 출력하라
+```
 
 ```txt
 Input: 2

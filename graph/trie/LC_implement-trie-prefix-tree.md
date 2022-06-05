@@ -1,6 +1,8 @@
 # [LC_implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree)
 
+```en
 Design Trie
+```
 
 ```txt
 Input:

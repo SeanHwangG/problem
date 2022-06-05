@@ -1,8 +1,10 @@
 # [HR_basic-probability-puzzles-6](https://www.hackerrank.com/challenges/basic-probability-puzzles-6)
 
+```en
 X contains 5 white balls and 4 black balls, Y contains 7 white balls and 6 black balls
 draw 1 ball from bag X and, without observing its color, put it into bag Y
 Now, if a ball is drawn from bag Y, find the probability that it is black
+```
 
 ```txt
 Output: 29/63

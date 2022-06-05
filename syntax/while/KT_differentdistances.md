@@ -1,6 +1,14 @@
 # [KT_differentdistances](https://open.kattis.com/problems/differentdistances)
 
+```en
 
+```
+
+```kr
+x1, x2, y1, y2, p가 주어진다
+(|x1 - x2|ᵖ + |y1 - y2|ᵖ)¹ᐟᵖ 를 구하라
+마지막 줄에 0이 나온다
+```
 
 ```txt
 Input: 1.0 1.0 2.0 2.0 2.0

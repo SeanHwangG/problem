@@ -1,7 +1,9 @@
 # [HR_detect-the-domain-name](https://www.hackerrank.com/challenges/detect-the-domain-name)
 
+```en
 One line, containing list of detected domains, separated by semi-colons, in lexicographical order
 Don't leave any leading/trailing spaces either at ends of line, or before and after the individual domain names
+```
 
 ```txt
 10

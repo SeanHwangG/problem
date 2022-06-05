@@ -1,7 +1,9 @@
 # [LC_contains-duplicate-ii](https://leetcode.com/problems/contains-duplicate-ii)
 
+```en
 Given array and integer k
 Return if there are two distinct indices i and j in array ST nums[i] == nums[j] and abs(i - j) <= k
+```
 
 ```txt
 Input: nums = [1,2,3,1], k = 3

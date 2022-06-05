@@ -1,9 +1,11 @@
 # [LC_find-nearest-point-that-has-the-same-x-or-y-coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate)
 
+```en
 Given 2 integers, x and y, which represent your current location on a Cartesian grid: (x, y)
 Given array points where each points[i] = [ai, bi] represents that a point exists at (ai, bi)
 A point is valid if it shares the same x-coordinate or the same y-coordinate as your location
 Return the index (0-indexed) of the valid point with the smallest Manhattan distance from your current location
+```
 
 ```txt
 Input: x = 3, y = 4,

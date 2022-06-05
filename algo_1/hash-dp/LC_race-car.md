@@ -1,5 +1,6 @@
 # [LC_race-car](https://leetcode.com/problems/race-car)
 
+```en
 Car starts at position 0 and speed +1 on an infinite number line, can go into negative positions
 Car drives automatically according to a sequence of instructions 'A' (accelerate) and 'R' (reverse):
 When you get an instruction 'A', your car does the following:
@@ -9,6 +10,7 @@ When you get an instruction 'R', your car does the following:
 Your position stays the same
 (ex: After commands "AAR", car goes to positions 0 -> 1 -> 3 -> 3, and your speed goes to 1 -> 2 -> 4 -> -1)
 Given a target position target, return length of shortest sequence of instructions to get there.
+```
 
 ```txt
 Input: target = 3

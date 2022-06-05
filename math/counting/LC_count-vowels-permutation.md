@@ -1,7 +1,9 @@
 # [LC_count-vowels-permutation](https://leetcode.com/problems/count-vowels-permutation)
 
+```en
 Input: n = 2
 Output: 10  # "ae", "ea", "ei", "ia", "ie", "io", "iu", "oi", "ou" and "ua".
+```
 
 ```txt
 Given an integer n, your task is to count how many strings of length n can be formed under the following rules:

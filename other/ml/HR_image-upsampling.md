@@ -1,6 +1,8 @@
 # [HR_image-upsampling](https://www.hackerrank.com/challenges/image-upsampling)
 
+```en
 Upsample given image
+```
 
 ```txt
 Input:

@@ -1,9 +1,11 @@
 # [HR_matching-digits-non-digit-character](https://www.hackerrank.com/challenges/matching-digits-non-digit-character)
 
+```en
 You have a test string . Your task is to match the pattern XXxXXxXX
 Here x denotes a digit character, and X denotes a non-digit character.
 
 
+```
 
 ```txt
 Input: 06-11-2015

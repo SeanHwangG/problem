@@ -1,8 +1,10 @@
 # [LC_find-array-given-subset-sums](https://leetcode.com/problems/find-array-given-subset-sums)
 
+```en
 Given an integer n representing length of an unknown array that you are trying to recover
 Also given an array sums containing values of all 2n subset sums of unknown array (in no particular order).
 Return any array ans of length n representing unknown array
+```
 
 ```txt
 Input: n = 3, sums = [-3,-2,-1,0,0,1,2,3]

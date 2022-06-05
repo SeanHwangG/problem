@@ -1,5 +1,6 @@
 # [LC_shortest-path-to-get-all-keys](https://leetcode.com/problems/shortest-path-to-get-all-keys)
 
+```en
 Given an m x n grid grid where:
   '.' is an empty cell
   '#' is a wall
@@ -7,6 +8,7 @@ Given an m x n grid grid where:
   Lowercase letters represent keys
   Uppercase letters represent locks
 Return lowest number of moves to acquire all keys. If it is impossible, return -1
+```
 
 ```txt
 Input: grid =

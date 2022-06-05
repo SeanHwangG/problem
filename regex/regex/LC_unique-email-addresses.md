@@ -1,9 +1,11 @@
 # [LC_unique-email-addresses](https://leetcode.com/problems/unique-email-addresses)
 
+```en
 Every valid email consists of a local local and a domain name, separated by the '@' sign
 Besides lowercase letters, the email may contain one or more '.' or '+'
 '.' is ignored
 '+' is ignored with characters after '+'
+```
 
 ```txt
 Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]

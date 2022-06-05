@@ -1,6 +1,8 @@
 # [LC_remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list)
 
+```en
 Remove nth node from end
+```
 
 ```txt
 Input: head = [1,2,3,4,5], n = 2

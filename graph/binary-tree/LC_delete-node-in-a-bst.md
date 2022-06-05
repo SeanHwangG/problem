@@ -1,7 +1,9 @@
 # [LC_delete-node-in-a-bst](https://leetcode.com/problems/delete-node-in-a-bst)
 
+```en
 Given a root node reference of a BST and a key, delete the node with the given key in the BST
 Return root node reference (possibly updated) of the BST
+```
 
 ```txt
 Input: root = [5,3,6,2,4,null,7], key = 3

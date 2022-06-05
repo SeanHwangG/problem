@@ -1,6 +1,8 @@
 # [KT_runlengthencodingrun](https://open.kattis.com/problems/runlengthencodingrun)
 
+```en
 Convert using two rules
+```
 
 ```txt
 Input: E HHHeellloWooorrrrlld!!

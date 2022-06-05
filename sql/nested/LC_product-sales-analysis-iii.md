@@ -1,6 +1,8 @@
 # [LC_product-sales-analysis-iii](https://leetcode.com/problems/product-sales-analysis-iii)
 
+```en
 Selects product id, year, quantity, and price for first year of every product sold
+```
 
 ```txt
 Input: 

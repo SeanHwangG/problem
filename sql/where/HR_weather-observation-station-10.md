@@ -1,6 +1,8 @@
 # [HR_weather-observation-station-10](https://www.hackerrank.com/challenges/weather-observation-station-10)
 
+```en
 List of CITY names from STATION that do not end with vowels without duplicates
+```
 
 ```txt
 Input:

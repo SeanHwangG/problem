@@ -1,10 +1,12 @@
 # [LC_check-if-move-is-legal](https://leetcode.com/problems/check-if-move-is-legal)
 
+```en
 You are given a 0-indexed 8 x 8 grid board, where board[r][c] represents cell (r, c) on a game board
 On board, free cell is represented by '.', white cell is represented by 'W', and black cell is represented by 'B'
 Move is only legal if, after changing it, cell becomes endpoint of a good line (horizontal, vertical, or diagonal)
 Good line is has three or more cells (including endpoints) where endpoints are in once color, and remainings are opposite
 Given two integers r, c and player color (white or black), return if move is legal
+```
 
 ```txt
 Input: board =

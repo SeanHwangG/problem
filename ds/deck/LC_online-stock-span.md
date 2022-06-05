@@ -1,7 +1,9 @@
 # [LC_online-stock-span](https://leetcode.com/problems/online-stock-span)
 
+```en
 Write class StockSpanner which collects daily price quotes for some stock
 Return span of that stock's price for the current day
+```
 
 ```txt
 Input: ["StockSpanner","next","next","next","next","next","next","next"], [[],[100],[80],[60],[70],[60],[75],[85]]

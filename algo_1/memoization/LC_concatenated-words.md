@@ -1,6 +1,8 @@
 # [LC_concatenated-words](https://leetcode.com/problems/concatenated-words)
 
+```en
 Given array of unique strings words, return all the concatenated words in the given list of words
+```
 
 ```txt
 Input: words = ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]

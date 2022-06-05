@@ -1,6 +1,8 @@
 # [HR_pacman-astar](https://www.hackerrank.com/challenges/pacman-astar)
 
+```en
 
+```
 
 ```txt
 Input:

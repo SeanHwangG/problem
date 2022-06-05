@@ -1,6 +1,8 @@
 # [KT_patuljci](https://open.kattis.com/problems/patuljci)
 
+```en
 Out of 9 numbers, print 7 numbers that sums up to 100
+```
 
 ```txt
 Input:

@@ -1,6 +1,8 @@
 # [LC_building-h2o](https://leetcode.com/problems/building-h2o)
 
+```en
 Given function that prints h, o. Print hho sequentially
+```
 
 ```txt
 Input: "OOHHHH"

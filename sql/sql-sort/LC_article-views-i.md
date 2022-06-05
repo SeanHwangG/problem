@@ -1,7 +1,9 @@
 # [LC_article-views-i](https://leetcode.com/problems/article-views-i)
 
+```en
 Find all authors that viewed at least one of their own articles, sorted in ascending order by their id
 
+```
 
 ```txt
 Input:

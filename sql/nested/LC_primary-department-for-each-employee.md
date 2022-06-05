@@ -1,8 +1,10 @@
 # [LC_primary-department-for-each-employee](https://leetcode.com/problems/primary-department-for-each-employee)
 
+```en
 Employee joins other departments, they need to decide which department is their primary department
 Note that when an employee belongs to only one department, their primary column is 'N'
 Report all employees with their primary department
+```
 
 ```txt
 Input: 

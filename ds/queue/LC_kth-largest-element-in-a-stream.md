@@ -1,7 +1,9 @@
 # [LC_kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream)
 
+```en
 Design a class to find the kth largest element in a stream
 Note that it is the kth largest element in the sorted order, not the kth distinct element
+```
 
 ```txt
 Input:

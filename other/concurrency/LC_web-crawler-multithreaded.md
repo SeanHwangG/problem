@@ -1,11 +1,13 @@
 # [LC_web-crawler-multithreaded](https://leetcode.com/problems/web-crawler-multithreaded)
 
+```en
 Given a url startUrl and an interface HtmlParser
 implement a Multi-threaded web crawler to crawl all links that are under same hostname as startUrl
   Start from the page: startUrl
   Call HtmlParser.getUrls(url) to get all urls from a webpage of given url
   Do not crawl the same link twice
   Explore only the links that are under the same hostname as startUrl
+```
 
 ```txt
 Input:

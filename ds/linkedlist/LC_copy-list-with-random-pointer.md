@@ -1,7 +1,9 @@
 # [LC_copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer)
 
+```en
 Linked list of length n is given ST each node contains random pointer, which could point to any node in list, or null
 Construct a deep copy of the list
+```
 
 ```txt
 Input: head = [[7,null],[13,0],[11,4],[10,2],[1,0]]

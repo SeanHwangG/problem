@@ -1,6 +1,8 @@
 # [LC_human-traffic-of-stadium](https://leetcode.com/problems/human-traffic-of-stadium)
 
+```en
 Display records which have 3 or more consecutive rows and the amount of people more than 100
+```
 
 ```txt
 Input:

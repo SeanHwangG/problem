@@ -1,6 +1,8 @@
 # [HR_sed-command-5](https://www.hackerrank.com/challenges/sed-command-5)
 
+```en
 Reverse the ordering of segments in each credit card number
+```
 
 ```txt
 Input: 

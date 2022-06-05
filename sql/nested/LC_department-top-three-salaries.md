@@ -1,7 +1,9 @@
 # [LC_department-top-three-salaries](https://leetcode.com/problems/department-top-three-salaries)
 
+```en
 Find employees who earn the top three salaries in each of the department
 
+```
 
 ```txt
 Input: 

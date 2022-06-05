@@ -1,7 +1,9 @@
 # [LC_count-apples-and-oranges](https://leetcode.com/problems/count-apples-and-oranges)
 
+```en
 Report difference between number of apples and oranges sold each day
 Return result table ordered by sale_date in format ('YYYY-MM-DD')
+```
 
 ```txt
 Input:

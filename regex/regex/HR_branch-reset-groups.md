@@ -1,5 +1,6 @@
 # [HR_branch-reset-groups](https://www.hackerrank.com/challenges/branch-reset-groups)
 
+```en
 You have a test string S
 Your task is to write a regex which will match , with following condition(s):
 
@@ -7,6 +8,7 @@ S consists of 8 digits.
 S must have "---", "-", ".", ":" separator such that str S gets divided in 4 parts, with each part having exactly 2 digits
 S string must have exactly one kind of separator
 Separators must have integers on both sides
+```
 
 ```txt
 Valid 

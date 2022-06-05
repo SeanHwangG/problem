@@ -1,9 +1,11 @@
 # [LC_maximum-number-of-events-that-can-be-attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended)
 
+```en
 Given array of events where events[i] = [startDayi, endDayi]
 Every event i starts at startDayi and ends at endDayi
 Can attend an event i at any day d where startTimei <= d <= endTimei (you can only attend one event at any time d)
 Return max number of events you can attend
+```
 
 ```txt
 Input: events = [[1,2],[2,3],[3,4]]

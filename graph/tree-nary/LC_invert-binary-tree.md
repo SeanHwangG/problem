@@ -1,6 +1,8 @@
 # [LC_invert-binary-tree](https://leetcode.com/problems/invert-binary-tree)
 
+```en
 Invert binary tree
+```
 
 ```txt
 Input: root = [4,2,7,1,3,6,9]

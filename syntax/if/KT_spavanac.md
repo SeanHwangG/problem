@@ -1,6 +1,8 @@
 # [KT_spavanac](https://open.kattis.com/problems/spavanac)
 
+```en
 Print time 45m ago
+```
 
 ```txt
 Input: 10 10

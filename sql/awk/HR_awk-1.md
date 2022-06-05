@@ -1,7 +1,9 @@
 # [HR_awk-1](https://www.hackerrank.com/challenges/awk-1)
 
+```en
 For each student, if one or more of the three scores is missing
 Display Not all scores are available for [Identifier]
+```
 
 ```txt
 Input:

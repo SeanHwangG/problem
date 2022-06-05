@@ -1,7 +1,9 @@
 # [LC_game-play-analysis-iii](https://leetcode.com/problems/game-play-analysis-iii)
 
+```en
 Reports for each player and date, how many games played so far by the player
 That is, the total number of games played by the player until that date
+```
 
 ```txt
 Input:

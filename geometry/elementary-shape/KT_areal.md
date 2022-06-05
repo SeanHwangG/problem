@@ -1,7 +1,9 @@
 # [KT_areal](https://open.kattis.com/problems/areal)
 
+```en
 Find side of square given area
 
+```
 
 ```txt
 Input: 64

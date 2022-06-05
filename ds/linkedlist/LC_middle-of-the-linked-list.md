@@ -1,6 +1,8 @@
 # [LC_middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list)
 
+```en
 Print middle node in linked list
+```
 
 ```txt
 Input: [1,2,3,4,5,6]

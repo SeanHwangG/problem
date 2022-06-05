@@ -1,7 +1,9 @@
 # [KT_ptice](https://open.kattis.com/problems/ptice)
 
+```en
 Repeat ABC, BABC, CCAABB
 Find whose sequence contains the most correct answers
+```
 
 ```txt
 Input:

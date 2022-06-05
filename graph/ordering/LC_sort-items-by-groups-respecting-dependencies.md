@@ -1,11 +1,13 @@
 # [LC_sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies)
 
+```en
 There are n items each belonging to zero or one of m groups where group[i] is group that i-th item belongs
 It's equal to -1 if i-th item belongs to no group. items and groups are zero indexed (Group can have no item)
 Return sorted list of the items such that:
 Items that belong to same group are next to each other in the sorted list
 beforeItems[i] is list containing all items that should come before i-th item in sorted array (to left of i-th item)
 Return any solution if there is more than one solution and return an empty list if there is no solution
+```
 
 ```txt
 Input: n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3,6],[],[],[]]

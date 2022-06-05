@@ -1,5 +1,6 @@
 # [LC_cherry-pickup](https://leetcode.com/problems/cherry-pickup)
 
+```en
 Given an n x n grid representing a field of cherries, each cell is one of three possible integers.
   0 means the cell is empty, so you can pass through,
   1 means the cell contains a cherry that you can pick up and pass through, or
@@ -9,6 +10,7 @@ Return maximum number of cherries you can collect by following rules below:
   After reaching (n - 1, n - 1), returning to (0, 0) by moving left or up through valid path cells
   When passing through a path cell containing a cherry, you pick it up, and cell becomes an empty cell 0
   If there is no valid path between (0, 0) and (n - 1, n - 1), then no cherries can be collected
+```
 
 ```txt
 Input: grid = [[0,1,-1],[1,0,-1],[1,1,1]]

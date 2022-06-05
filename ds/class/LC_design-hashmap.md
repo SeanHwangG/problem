@@ -1,11 +1,13 @@
 # [LC_design-hashmap](https://leetcode.com/problems/design-hashmap)
 
+```en
 MyHashMap() initializes the object with an empty map
 void put(int key, int value) inserts a (key, value) pair into the HashMap
   If the key already exists in the map, update the corresponding value
 int get(int key) returns the value to which the specified key is mapped
   -1 if this map contains no mapping for the key
 void remove(key) removes the key and its corresponding value if the map contains the mapping for the key
+```
 
 ```txt
 Input:

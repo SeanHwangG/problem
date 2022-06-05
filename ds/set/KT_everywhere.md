@@ -1,6 +1,13 @@
 # [KT_everywhere](https://open.kattis.com/problems/everywhere)
 
+```en
 
+```
+
+```kr
+첫 줄에 테스트 케이스 수
+각 테스트 케이스는 N 과 N개의 줄에 도시이름이 주어진다. 이 때 다른 도시 개수를 출력하라
+```
 
 ```txt
 Input: 2

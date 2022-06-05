@@ -1,6 +1,8 @@
 # [LC_combinations](https://leetcode.com/problems/combinations)
 
+```en
 Given n, k return all possible combinations of k numbers out of the range (1, n) in any order
+```
 
 ```txt
 Input: n = 4, k = 2

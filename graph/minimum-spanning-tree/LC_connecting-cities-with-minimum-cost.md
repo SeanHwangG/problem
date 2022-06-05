@@ -1,8 +1,10 @@
 # [LC_connecting-cities-with-minimum-cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost)
 
+```en
 There are n cities labeled from 1 to n. Given integer n and an array connections
 connections[i] = [xi, yi, costi] indicate that cost of connecting city xi, yi (bidirectional connection) is costi
 Return min cost to connect all n cities ST at least one path between each pair of cities, return -1 if impossible
+```
 
 ```txt
 Input: n = 3, connections = [[1,2,5],[1,3,6],[2,3,1]]

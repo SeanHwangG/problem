@@ -1,8 +1,10 @@
 # [LC_cracking-the-safe](https://leetcode.com/problems/cracking-the-safe)
 
+```en
 Password with sequence of n digits where each digit can be in range [0, k-1]
 While entering password, last n digits entered will automatically be matched against password
 Return len of password guaranteed to open box at some point of entering it
+```
 
 ```txt
 Input: n = 2, k = 2

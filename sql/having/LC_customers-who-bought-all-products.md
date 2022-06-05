@@ -1,6 +1,8 @@
 # [LC_customers-who-bought-all-products](https://leetcode.com/problems/customers-who-bought-all-products)
 
+```en
 Report that provides the customer ids from the Customer table that bought all the products in the Product table
+```
 
 ```txt
 Input:

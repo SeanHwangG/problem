@@ -1,6 +1,8 @@
 # [LC_burst-balloons](https://leetcode.com/problems/burst-balloons)
 
+```en
 Burst gives nums[left] x nums[i] x nums[right] point
+```
 
 ```txt
 Input: nums = [3,1,5,8]

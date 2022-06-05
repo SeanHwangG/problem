@@ -1,6 +1,8 @@
 # [LC_subarray-sum-equals-k](https://leetcode.com/problems/subarray-sum-equals-k)
 
+```en
 Given array of int nums and int k, return total # continuous subarrays whose sum equals to k
+```
 
 ```txt
 Input: nums = [1,1,1], k = 2

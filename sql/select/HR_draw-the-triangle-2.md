@@ -1,6 +1,8 @@
 # [HR_draw-the-triangle-2](https://www.hackerrank.com/challenges/draw-the-triangle-2)
 
+```en
 Draw triangle when input is 20
+```
 
 ```txt
 Input: 5

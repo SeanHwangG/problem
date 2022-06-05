@@ -1,6 +1,8 @@
 # [LC_minimum-size-subarray-sum](https://leetcode.com/problems/minimum-size-subarray-sum)
 
+```en
 Print minimum length of contiguous subarray sum is greater than target
+```
 
 ```txt
 Input: target = 7, nums = [2,3,1,2,4,3]

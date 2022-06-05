@@ -1,6 +1,16 @@
 # [KT_apaxianparent](https://open.kattis.com/problems/apaxianparent)
 
+```en
 
+```
+
+```kr
+문자 Y, P가 주어진다. print
+  Y가 ex로 끝날 시 Y + P
+  Y가 e로 끝날 시 Y + 'e' + P
+  Y가 aiou 로 끝날 시 그 모음을 제거하고 Y + 'ex' + P
+  위에 어느 것도 아닐 시 Y + 'ex' + P
+  ```
 
 ```txt
 Input: menolaxios mox

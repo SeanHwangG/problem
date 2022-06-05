@@ -1,6 +1,8 @@
 # [HR_awk-3](https://www.hackerrank.com/challenges/awk-3)
 
+```en
 A >=80, B >= 60, C >= 60, FAIL otherwise
+```
 
 ```txt
 Input:

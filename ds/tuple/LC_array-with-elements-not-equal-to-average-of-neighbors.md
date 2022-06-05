@@ -1,6 +1,8 @@
 # [LC_array-with-elements-not-equal-to-average-of-neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors)
 
+```en
 Return any rearrangement of nums such that every element in rearranged array is not equal to average of its neighbors
+```
 
 ```txt
 Input: nums = [1,2,3,4,5]

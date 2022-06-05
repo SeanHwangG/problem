@@ -1,6 +1,13 @@
 # [KT_apaxiaaans](https://open.kattis.com/problems/apaxiaaans)
 
+```en
 
+```
+
+```kr
+Print consecutive character at most once
+
+```
 
 ```txt
 Input: rooobert

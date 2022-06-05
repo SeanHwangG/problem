@@ -1,6 +1,8 @@
 # [LC_string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)
 
+```en
 Implement atoi function (string to int)
+```
 
 ```txt
 Input: s = "   -42"

@@ -1,6 +1,8 @@
 # [LC_number-of-strings-that-appear-as-substrings-in-word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word)
 
+```en
 Given array of strings patterns and string word, return # strings in patterns that exist as substring in word
+```
 
 ```txt
 Input: patterns = ["a","abc","bc","d"], word = "abc"

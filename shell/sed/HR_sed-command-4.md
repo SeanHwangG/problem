@@ -1,7 +1,9 @@
 # [HR_sed-command-4](https://www.hackerrank.com/challenges/sed-command-4)
 
+```en
 Each line contains a credit card number in the form dddd dddd dddd dddd
 Mask first 12 character
+```
 
 ```txt
 Input: 

@@ -1,6 +1,8 @@
 # [HR_bash-tutorials---looping-with-numbers](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers)
 
+```en
 Print 1, 2, ..., 50
+```
 
 ```txt
 Output: 1 2 3 ... 50

@@ -1,7 +1,9 @@
 # [LC_toeplitz-matrix](https://leetcode.com/problems/toeplitz-matrix)
 
+```en
 Given an m x n matrix, return true if the matrix is Toeplitz. Otherwise, return false
 Matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements
+```
 
 ```txt
 Input:

@@ -1,6 +1,8 @@
 # [LC_number-of-1-bits](https://leetcode.com/problems/number-of-1-bits)
 
+```en
 Find number of 1 in binary
+```
 
 ```txt
 Input: n = 00000000000000000000000000001011

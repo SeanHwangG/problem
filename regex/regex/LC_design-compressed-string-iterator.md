@@ -1,7 +1,9 @@
 # [LC_design-compressed-string-iterator](https://leetcode.com/problems/design-compressed-string-iterator)
 
+```en
 next() Return next character if the original string still has uncompressed characters, otherwise returns white space
 hasNext() Return if there is any letter needs to be uncompressed in the original string
+```
 
 ```txt
 Input:

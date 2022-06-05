@@ -1,6 +1,8 @@
 # [LC_consecutive-numbers-sum](https://leetcode.com/problems/consecutive-numbers-sum)
 
+```en
 Given an integer n, return # ways write n as sum of consecutive positive integers
+```
 
 ```txt
 Input: n = 5

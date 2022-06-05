@@ -1,8 +1,10 @@
 # [LC_minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array)
 
+```en
 Given array of positive integers target and an array initial of same size with all zeros
 Return minimum # operations to form target array from initial if you are allowed to do the following operation:
 Choose any subarray from initial and increment each value by one
+```
 
 ```txt
 Input: target = [1,2,3,2,1]

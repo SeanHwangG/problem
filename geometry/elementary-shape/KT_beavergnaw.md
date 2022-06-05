@@ -1,6 +1,8 @@
 # [KT_beavergnaw](https://open.kattis.com/problems/beavergnaw)
 
+```en
 What should be the diameter 𝑑 of the inner cylinder such that the beaver chomped out V cubic units of wood?
+```
 
 ```txt
 Input: 10 250

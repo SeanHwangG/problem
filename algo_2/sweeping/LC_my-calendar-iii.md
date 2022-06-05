@@ -1,7 +1,9 @@
 # [LC_my-calendar-iii](https://leetcode.com/problems/my-calendar-iii)
 
+```en
 K-booking happens when k events have some non-empty intersection (ex: there is some time that is common to all k events)
 Given events [start, end), after each given event, return k representing maximum k-booking between all previous events
+```
 
 ```txt
 Input:

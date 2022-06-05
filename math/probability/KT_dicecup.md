@@ -1,7 +1,9 @@
 # [KT_dicecup](https://open.kattis.com/problems/dicecup)
 
+```en
 Two dices with a, b sides
 Print all numbers that appear with highest probability
+```
 
 ```txt
 Input: 12 20

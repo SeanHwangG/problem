@@ -1,6 +1,8 @@
 # CC_GUESSIT
 
+```en
 * guess random square number under 1e6
+```
 
 ```txt
 Grader:         You:

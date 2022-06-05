@@ -1,6 +1,8 @@
 # [LC_valid-sudoku](https://leetcode.com/problems/valid-sudoku)
 
+```en
 Determine if a 9 x 9 Sudoku board is valid
+```
 
 ```txt
 Input: board =

@@ -1,6 +1,8 @@
 # [LC_valid-palindrome](https://leetcode.com/problems/valid-palindrome)
 
+```en
 Check if string is palindrome
+```
 
 ```txt
 Input: s = "A man, a plan, a canal: Panama"

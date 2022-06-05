@@ -1,8 +1,10 @@
 # [LC_edit-distance](https://leetcode.com/problems/edit-distance)
 
+```en
 Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.
 You have following three operations permitted on a word:
 Insert / Delete / Replace a character
+```
 
 ```txt
 Input: word1 = "horse", word2 = "ros"

@@ -1,6 +1,8 @@
 # [LC_rank-scores](https://leetcode.com/problems/rank-scores)
 
+```en
 Rank scores if there is a tie between two scores, both should have the same ranking
+```
 
 ```txt
 Input:

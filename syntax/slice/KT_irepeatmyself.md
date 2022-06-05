@@ -1,6 +1,8 @@
 # [KT_irepeatmyself](https://open.kattis.com/problems/irepeatmyself)
 
+```en
 Find number of repeated pattern
+```
 
 ```txt
 Input:

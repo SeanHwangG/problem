@@ -1,7 +1,9 @@
 # [LC_sum-of-subsequence-widths](https://leetcode.com/problems/sum-of-subsequence-widths)
 
+```en
 Width of a sequence is the difference between the maximum and minimum elements in the sequence
 Given array of integers nums, return sum of widths of all non-empty subsequences of nums modulo 10**9 + 7
+```
 
 ```txt
 Input: nums = [2,1,3]

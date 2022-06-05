@@ -1,6 +1,8 @@
 # [HR_detect-the-email-addresses](https://www.hackerrank.com/challenges/detect-the-email-addresses)
 
+```en
 Print all unique e-mail addresses detected by you, in one line, in lexicographical order, a semi-colon as delimiter
+```
 
 ```txt
 Input:

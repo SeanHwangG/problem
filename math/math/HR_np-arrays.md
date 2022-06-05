@@ -1,7 +1,9 @@
 # [HR_np-arrays](https://www.hackerrank.com/challenges/np-arrays)
 
+```en
 Given single line of input containing space separated numbers.
 Print the reverse NumPy array with type float
+```
 
 ```txt
 Input: 1 2 3 4 -8 -10

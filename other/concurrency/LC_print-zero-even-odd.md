@@ -1,8 +1,10 @@
 # [LC_print-zero-even-odd](https://leetcode.com/problems/print-zero-even-odd)
 
+```en
 Thread A will call zero() which should only output 0's
 Thread B will call even() which should only ouput even numbers
 Thread C will call odd() which should only output odd numbers
+```
 
 ```txt
 Input: n = 5

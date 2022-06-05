@@ -1,6 +1,8 @@
 # [LC_concatenation-of-consecutive-binary-numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers)
 
+```en
 Given n, return decimal value of binary string formed by concatenating binary of 1 to n in order, modulo 10**9 + 7
+```
 
 ```txt
 Input: n = 3

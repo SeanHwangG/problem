@@ -1,6 +1,13 @@
 # [KT_oddmanout](https://open.kattis.com/problems/oddmanout)
 
+```en
 
+```
+
+```kr
+n_test개의 줄에 N과 N개의 정수가 주어진다
+이때 짝이 없는 정수를 출력하라
+```
 
 ```txt
 Input:

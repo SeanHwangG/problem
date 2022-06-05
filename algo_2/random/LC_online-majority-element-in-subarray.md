@@ -1,9 +1,11 @@
 # [LC_online-majority-element-in-subarray](https://leetcode.com/problems/online-majority-element-in-subarray)
 
+```en
 MajorityChecker(int[] arr) constructs an instance of MajorityChecker with the given array arr;
 int query(int left, int right, int threshold) has arguments such that:
 0 <= left <= right < arr.length representing a subarray of arr;
 2 * threshold > right - left + 1, ie. the threshold is always a strict majority of the length of the subarray
+```
 
 ```txt
 MajorityChecker majorityChecker = new MajorityChecker([1,1,2,2,1,1]);

@@ -1,6 +1,8 @@
 # [LC_sales-person](https://leetcode.com/problems/sales-person)
 
+```en
 Output all the names in the table salesperson, who didn’t have sales to company 'RED'
+```
 
 ```txt
 Input:

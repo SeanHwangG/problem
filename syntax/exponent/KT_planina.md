@@ -1,6 +1,8 @@
 # [KT_planina](https://open.kattis.com/problems/planina)
 
+```en
 Find number of points in Nth iteration
+```
 
 ```txt
 Input: 1

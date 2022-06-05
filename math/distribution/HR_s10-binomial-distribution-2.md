@@ -1,7 +1,9 @@
 # [HR_s10-binomial-distribution-2](https://www.hackerrank.com/challenges/s10-binomial-distribution-2)
 
+```en
 Manufacturer of metal pistons finds that, on average, 12% of pistons are rejected
 What is the probability that a batch of 10 pistons will contain: No more than 2 rejects? / At least 2 rejects?
+```
 
 ```txt
 Input: 12 10

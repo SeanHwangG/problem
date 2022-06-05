@@ -1,6 +1,8 @@
 # [LC_tenth-line](https://leetcode.com/problems/tenth-line)
 
+```en
 Print 10th line
+```
 
 ```txt
 Input:

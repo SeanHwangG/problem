@@ -1,7 +1,9 @@
 # [HR_split-number](https://www.hackerrank.com/challenges/split-number)
 
+```en
 There might either be a hyphen, or a space between the segments
 Country and local area codes can have 1-3 numerals each and the number section can have 4-10 numerals each
+```
 
 ```txt
 Input:

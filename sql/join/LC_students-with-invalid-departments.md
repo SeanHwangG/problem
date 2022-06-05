@@ -1,6 +1,8 @@
 # [LC_students-with-invalid-departments](https://leetcode.com/problems/students-with-invalid-departments)
 
+```en
 Find id and name of all students who are enrolled in departments that no longer exists in any order
+```
 
 ```txt
 Input:

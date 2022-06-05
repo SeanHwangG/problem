@@ -1,6 +1,8 @@
 # [KT_taisformula](https://open.kattis.com/problems/taisformula)
 
+```en
 Each N line contains, where ti is the time of the sample, and vi is the glucose value at time ti
+```
 
 ```txt
 Input: 3  # N

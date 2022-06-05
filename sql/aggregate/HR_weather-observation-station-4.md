@@ -1,6 +1,8 @@
 # [HR_weather-observation-station-4](https://www.hackerrank.com/challenges/weather-observation-station-4)
 
+```en
 Find difference between total number of CITY entries in table and number of distinct CITY entries in table
+```
 
 ```txt
 Input: 

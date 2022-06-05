@@ -1,6 +1,8 @@
 # [LC_first-bad-version](https://leetcode.com/problems/first-bad-version)
 
+```en
 Find first bad version using isBadVersion function
+```
 
 ```txt
 50

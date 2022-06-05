@@ -1,7 +1,9 @@
 # [LC_encode-string-with-shortest-length](https://leetcode.com/problems/encode-string-with-shortest-length)
 
+```en
 Given a string s, encode string such that its encoded length is the shortest.
 Encoding rule is: k[encoded_string], where encoded_string inside square brackets is being repeated k times
+```
 
 ```txt
 Input: s = "aaaaa"

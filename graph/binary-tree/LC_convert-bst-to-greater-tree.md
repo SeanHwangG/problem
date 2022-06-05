@@ -1,7 +1,9 @@
 # [LC_convert-bst-to-greater-tree](https://leetcode.com/problems/convert-bst-to-greater-tree)
 
+```en
 Given the root of a BST, convert it to a Greater Tree
 st every key of original BST is changed to original key plus sum of all keys greater than the original key in BST
+```
 
 ```txt
 Input: root = [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]

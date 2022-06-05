@@ -1,6 +1,8 @@
 # [LC_report-contiguous-dates](https://leetcode.com/problems/report-contiguous-dates)
 
+```en
 Generate a report of period_state for each continuous interval of days in period from 2019-01-01 to 2019-12-31
+```
 
 ```txt
 Input:

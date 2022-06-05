@@ -1,6 +1,8 @@
 # [LC_shortest-distance-to-a-character](https://leetcode.com/problems/shortest-distance-to-a-character)
 
+```en
 Find closest occurrence of character c in s
+```
 
 ```txt
 Input: s = "loveleetcode", c = "e"

@@ -1,9 +1,11 @@
 # [LC_design-search-autocomplete-system](https://leetcode.com/problems/design-search-autocomplete-system)
 
+```en
 Users may input a sentence (at least one word and end with a special character '#').
 Given a string array sentences and an integer array times both of length n
 Sentences[i] is a previously typed sentence and times[i] is the corresponding number of times sentence was typed
 For each input character except #, return top 3 hot sentences that have same prefix as part of sentence already typed
+```
 
 ```txt
 Input:

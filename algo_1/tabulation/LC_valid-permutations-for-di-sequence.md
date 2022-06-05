@@ -1,9 +1,11 @@
 # [LC_valid-permutations-for-di-sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence)
 
+```en
 Given s, a length n string of characters from the set {'D', 'I'}. (stand for "decreasing" and "increasing".)
 Count permutation p[0], p[1], ..., p[n] of integers {0, 1, ..., n}, such that for all i:
   If s[i] == 'D', then p[i] > p[i+1], and;
   If s[i] == 'I', then p[i] < p[i+1
+```
 
 ```txt
 Input: s = "DID"

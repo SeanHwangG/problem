@@ -1,6 +1,8 @@
 # [LC_design-hashset](https://leetcode.com/problems/design-hashset)
 
+```en
 Design Hashset
+```
 
 ```txt
 Input:

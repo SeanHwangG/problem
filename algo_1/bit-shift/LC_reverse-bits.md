@@ -1,6 +1,8 @@
 # [LC_reverse-bits](https://leetcode.com/problems/reverse-bits)
 
+```en
 Reverse bits of a given 32 bits unsigned integer
+```
 
 ```txt
 Input: n = 00000010100101000001111010011100

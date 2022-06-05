@@ -1,6 +1,8 @@
 # [KT_isithalloween](https://open.kattis.com/problems/isithalloween)
 
+```en
 If input is OCT 31 or DEC 25 print 'yup' else print 'nope'
+```
 
 ```txt
 Input: OCT 31

@@ -1,7 +1,9 @@
 # [LC_activity-participants](https://leetcode.com/problems/activity-participants)
 
+```en
 Find names of all activities with neither max, nor min number of participants in any order
 Each activity in table Activities is performed by any person in table Friends
+```
 
 ```txt
 Input: 

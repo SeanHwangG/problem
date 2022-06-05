@@ -1,6 +1,8 @@
 # [KT_easiest](https://open.kattis.com/problems/easiest)
 
+```en
 Single int number p which is minimal number st N * p has the same sum of digits as N and p is bigger than 10
+```
 
 ```txt
 Input:

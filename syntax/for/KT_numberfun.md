@@ -1,6 +1,12 @@
 # [KT_numberfun](https://open.kattis.com/problems/numberfun)
 
+```en
 
+```
+
+```kr
+a, b, c가 주어 질 때, a, b와 +, -, *, / 로 c를 만들 수 있으면 Possible 불가능 하면 Impossible을 출력하라
+```
 
 ```txt
 Input: 6

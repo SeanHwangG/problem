@@ -1,8 +1,10 @@
 # [LC_find-the-shortest-superstring](https://leetcode.com/problems/find-the-shortest-superstring)
 
+```en
 Given array of strings words, return the smallest string that contains each string in words as a substring
 If there are multiple valid strings of the smallest length, return any of them
 Assume that no string in words is a substring of another string in words
+```
 
 ```txt
 Input: words = ["catg","ctaagt","gcta","ttca","atgcatc"]

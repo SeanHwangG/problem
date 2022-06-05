@@ -1,7 +1,9 @@
 # [LC_subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers)
 
+```en
 Given array nums ints, call subarray of nums good if number of different integers in that subarray is exactly k
 Return the number of good subarrays of nums.
+```
 
 ```txt
 Input: nums = [1,2,1,2,3], k = 2

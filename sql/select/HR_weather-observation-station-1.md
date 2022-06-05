@@ -1,6 +1,8 @@
 # [HR_weather-observation-station-1](https://www.hackerrank.com/challenges/weather-observation-station-1)
 
+```en
 Query a list of CITY and STATE from the STATION table
+```
 
 ```txt
 Input:

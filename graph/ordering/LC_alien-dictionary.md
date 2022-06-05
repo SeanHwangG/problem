@@ -1,7 +1,9 @@
 # [LC_alien-dictionary](https://leetcode.com/problems/alien-dictionary)
 
+```en
 There is new alien language that uses English alphabet. However, order among letters is unknown to you
 Given list of words from alien language's dictionary, with sorted string by rule of this new language
+```
 
 ```txt
 Input: words = ["wrt","wrf","er","ett","rftt"]

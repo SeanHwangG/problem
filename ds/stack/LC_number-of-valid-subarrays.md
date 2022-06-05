@@ -1,7 +1,9 @@
 # [LC_number-of-valid-subarrays](https://leetcode.com/problems/number-of-valid-subarrays)
 
+```en
 Given an integer array nums
 Return # of non-empty subarrays with leftmost element of the subarray not larger than other elements in subarray
+```
 
 ```txt
 Input: nums = [1,4,2,5,3]

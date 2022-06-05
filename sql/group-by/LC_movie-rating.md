@@ -1,7 +1,9 @@
 # [LC_movie-rating](https://leetcode.com/problems/movie-rating)
 
+```en
 Find name of user who has rated greatest number of movies. If tie, lexicographically smaller user name
 Find movie name with highest average rating in February 2020. If tie, lexicographically smaller movie name
+```
 
 ```txt
 Input:

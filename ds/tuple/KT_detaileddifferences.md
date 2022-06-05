@@ -1,7 +1,9 @@
 # [KT_detaileddifferences](https://open.kattis.com/problems/detaileddifferences)
 
+```en
 Print . if two character are same, else *
 
+```
 
 ```txt
 Input:

@@ -1,6 +1,8 @@
 # [LC_second-degree-follower](https://leetcode.com/problems/second-degree-follower)
 
+```en
 Get amount of each follower’s follower if he/she has one
+```
 
 ```txt
 Input:

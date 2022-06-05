@@ -1,7 +1,9 @@
 # [LC_non-overlapping-intervals](https://leetcode.com/problems/non-overlapping-intervals)
 
+```en
 Given array of intervals intervals where intervals[i] = [starti, endi]
 Return min number of intervals you need to remove to make the rest of the intervals non-overlapping
+```
 
 ```txt
 Input: intervals = [[1,2],[2,3],[3,4],[1,3]]

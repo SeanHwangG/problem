@@ -1,6 +1,8 @@
 # [LC_valid-phone-numbers](https://leetcode.com/problems/valid-phone-numbers)
 
+```en
 Output following valid phone numbers:
+```
 
 ```txt
 Input:

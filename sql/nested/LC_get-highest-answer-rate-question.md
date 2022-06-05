@@ -1,6 +1,8 @@
 # [LC_get-highest-answer-rate-question](https://leetcode.com/problems/get-highest-answer-rate-question)
 
+```en
 Identify the question which has the highest answer rate
+```
 
 ```txt
 Input: 

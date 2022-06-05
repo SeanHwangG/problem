@@ -1,6 +1,8 @@
 # [HR_negative-lookahead](https://www.hackerrank.com/challenges/negative-lookahead)
 
+```en
 Match all characters which are not immediately followed by that same character
+```
 
 ```txt
 Input: gooooo

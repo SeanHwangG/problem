@@ -1,7 +1,9 @@
 # [LC_employee-importance](https://leetcode.com/problems/employee-importance)
 
+```en
 Employee have id, importance, subordinate (list of the IDs of the direct subordinates of the ith employee)
 Given integer id, return total importance value of this employee + their direct subordinates
+```
 
 ```txt
 Input: employees = [[1,2,[5]],[5,-3,[]]], id = 5

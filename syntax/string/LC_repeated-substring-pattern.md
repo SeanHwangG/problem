@@ -1,6 +1,8 @@
 # [LC_repeated-substring-pattern](https://leetcode.com/problems/repeated-substring-pattern)
 
+```en
 Given string s, check if it can be constructed by taking substring of it and appending 1+ copies of substring together
+```
 
 ```txt
 Input: s = "abab"

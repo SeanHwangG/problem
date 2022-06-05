@@ -1,7 +1,9 @@
 # [KT_speedlimit](https://open.kattis.com/problems/speedlimit)
 
+```en
 Given speed and time, find avergage velocity
 
+```
 
 ```txt
 Input: 3
