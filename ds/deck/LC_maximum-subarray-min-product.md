@@ -1,14 +1,18 @@
 # [LC_maximum-subarray-min-product](https://leetcode.com/problems/maximum-subarray-min-product)
 
-```en
-Min-product of an array is equal to the minimum value in the array multiplied by the array's sum
-Given array of int nums, return max min-product of any non-empty subarray of nums, modulo 10^9 + 7
-```
+* en
 
-```txt
-Input: nums = [1,2,3,2]
-Output: 14
-```
+  ```en
+  Min-product of an array is equal to the minimum value in the array multiplied by the array's sum
+  Given array of int nums, return max min-product of any non-empty subarray of nums, modulo 10^9 + 7
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,3,2]
+  Output: 14
+  ```
 
 ## Solution
 

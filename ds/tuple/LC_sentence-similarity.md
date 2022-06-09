@@ -1,19 +1,23 @@
 # [LC_sentence-similarity](https://leetcode.com/problems/sentence-similarity)
 
-```en
-Given two sentences sentence1 and sentence2 each represented as a string array
-Also given array of str pairs similarPairs where similarPairs[i] = [xi, yi] indicates that words xi and yi are similar
-Return true if sentence1 and sentence2 are similar, or false if they are not similar
-```
+* en
 
-```txt
-Input: sentence1 = ["great"], sentence2 = ["great"], similarPairs = []
-Output: true
+  ```en
+  Given two sentences sentence1 and sentence2 each represented as a string array
+  Also given array of str pairs similarPairs where similarPairs[i] = [xi, yi] indicates that words xi and yi are similar
+  Return true if sentence1 and sentence2 are similar, or false if they are not similar
+  ```
 
-Input: sentence1 = ["great","acting","skills"], sentence2 = ["fine","drama","talent"],
-  similarPairs = [["great","fine"],["drama","acting"],["skills","talent"]]
-Output: true
-```
+* tc
+
+  ```tc
+  Input: sentence1 = ["great"], sentence2 = ["great"], similarPairs = []
+  Output: true
+
+  Input: sentence1 = ["great","acting","skills"], sentence2 = ["fine","drama","talent"],
+    similarPairs = [["great","fine"],["drama","acting"],["skills","talent"]]
+  Output: true
+  ```
 
 ## Solution
 

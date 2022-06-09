@@ -1,14 +1,18 @@
 # [HR_matching-specific-string](https://www.hackerrank.com/challenges/matching-specific-string)
 
-```en
-Count hackerrank in string
-```
+* en
 
-```txt
-Input: hackerrank team makes hackerrank platform which let engineers to hone their skills
+  ```en
+  Count hackerrank in string
+  ```
 
-Output: 2
-```
+* tc
+
+  ```tc
+  Input: hackerrank team makes hackerrank platform which let engineers to hone their skills
+
+  Output: 2
+  ```
 
 ## Solution
 

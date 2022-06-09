@@ -1,22 +1,26 @@
 # [KT_chanukah](https://open.kattis.com/problems/chanukah)
 
-```en
-For each day n light is needed
-Determines how many candles would be necessary for a Chanukah holiday lasting for a given number of days
-```
+* en
 
-```txt
-Input:
-3
-1 8
-2 1
-3 10
+  ```en
+  For each day n light is needed
+  Determines how many candles would be necessary for a Chanukah holiday lasting for a given number of days
+  ```
 
-Output:
-1 44
-2 2
-3 65
-```
+* tc
+
+  ```tc
+  Input:
+  3
+  1 8
+  2 1
+  3 10
+
+  Output:
+  1 44
+  2 2
+  3 65
+  ```
 
 ## Solution
 

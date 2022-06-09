@@ -1,14 +1,18 @@
 # [LC_bus-routes](https://leetcode.com/problems/bus-routes)
 
-```en
-Start at bus stop source (not on any bus initially), and you want to go to bus stop target
-Return least number of buses you must take to travel from source to target. Return -1 if it's impossible
-```
+* en
 
-```txt
-Input: routes = [[1,2,7],[3,6,7]], source = 1, target = 6
-Output: 2
-```
+  ```en
+  Start at bus stop source (not on any bus initially), and you want to go to bus stop target
+  Return least number of buses you must take to travel from source to target. Return -1 if it's impossible
+  ```
+
+* tc
+
+  ```tc
+  Input: routes = [[1,2,7],[3,6,7]], source = 1, target = 6
+  Output: 2
+  ```
 
 ## Solution
 

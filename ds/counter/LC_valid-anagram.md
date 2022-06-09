@@ -1,13 +1,17 @@
 # [LC_valid-anagram](https://leetcode.com/problems/valid-anagram)
 
-```en
-Given two strings s and t, return true if t is an anagram of s, and false otherwise
-```
+* en
 
-```txt
-Input: s = "anagram", t = "nagaram"
-Output: true
-```
+  ```en
+  Given two strings s and t, return true if t is an anagram of s, and false otherwise
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "anagram", t = "nagaram"
+  Output: true
+  ```
 
 ## Solution
 

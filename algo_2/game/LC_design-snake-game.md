@@ -1,19 +1,23 @@
 # [LC_design-snake-game](https://leetcode.com/problems/design-snake-game)
 
-```en
-Implement the SnakeGame class:
-SnakeGame(int width, int height, int[][] food) Initializes a screen of size height x width and positions of food
-int move(String direction) Returns score of game after applying one direction move by snake. -1 if over
-```
+* en
 
-```txt
-Input:
-["SnakeGame", "move", "move", "move", "move", "move", "move"]
-[[3, 2, [[1, 2], [0, 1]]], ["R"], ["D"], ["R"], ["U"], ["L"], ["U"]]
+  ```en
+  Implement the SnakeGame class:
+  SnakeGame(int width, int height, int[][] food) Initializes a screen of size height x width and positions of food
+  int move(String direction) Returns score of game after applying one direction move by snake. -1 if over
+  ```
 
-Output:
-[null, 0, 0, 1, 1, 2, -1]
-```
+* tc
+
+  ```tc
+  Input:
+  ["SnakeGame", "move", "move", "move", "move", "move", "move"]
+  [[3, 2, [[1, 2], [0, 1]]], ["R"], ["D"], ["R"], ["U"], ["L"], ["U"]]
+
+  Output:
+  [null, 0, 0, 1, 1, 2, -1]
+  ```
 
 ## Solution
 

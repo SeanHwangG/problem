@@ -1,24 +1,28 @@
 # [LC_second-degree-follower](https://leetcode.com/problems/second-degree-follower)
 
-```en
-Get amount of each follower’s follower if he/she has one
-```
+* en
 
-```txt
-Input:
-| followee | follower |
-| -------- | -------- |
-| A        | B        |
-| B        | C        |
-| B        | D        |
-| D        | E        |
+  ```en
+  Get amount of each follower’s follower if he/she has one
+  ```
 
-Output:
-| follower | num |
-| -------- | --- |
-| B        | 2   |
-| D        | 1   |
-```
+* tc
+
+  ```tc
+  Input:
+  | followee | follower |
+  | -------- | -------- |
+  | A        | B        |
+  | B        | C        |
+  | B        | D        |
+  | D        | E        |
+
+  Output:
+  | follower | num |
+  | -------- | --- |
+  | B        | 2   |
+  | D        | 1   |
+  ```
 
 ## Solution
 

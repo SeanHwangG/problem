@@ -1,14 +1,18 @@
 # [LC_super-palindromes](https://leetcode.com/problems/super-palindromes)
 
-```en
-Let's say a positive integer is a super-palindrome if it is a palindrome, and it is also the square of a palindrome
-Given 2 positive int left and right represented as strings, return # of super-palindromes int in inclusive range [left, right]
-```
+* en
 
-```txt
-Input: left = "4", right = "1000"
-Output: 4
-```
+  ```en
+  Let's say a positive integer is a super-palindrome if it is a palindrome, and it is also the square of a palindrome
+  Given 2 positive int left and right represented as strings, return # of super-palindromes int in inclusive range [left, right]
+  ```
+
+* tc
+
+  ```tc
+  Input: left = "4", right = "1000"
+  Output: 4
+  ```
 
 ## Solution
 

@@ -1,15 +1,19 @@
 # [LC_employee-free-time](https://leetcode.com/problems/employee-free-time)
 
-```en
-Given list schedule of employees, which represents the working time for each employee
-Each employee has a list of non-overlapping Intervals, and these intervals are in sorted order
-Return list of finite intervals representing common, positive-length free time for all employees, also in sorted order
-```
+* en
 
-```txt
-Input: schedule = [[[1,2],[5,6]],[[1,3]],[[4,10]]]
-Output: [[3,4]]
-```
+  ```en
+  Given list schedule of employees, which represents the working time for each employee
+  Each employee has a list of non-overlapping Intervals, and these intervals are in sorted order
+  Return list of finite intervals representing common, positive-length free time for all employees, also in sorted order
+  ```
+
+* tc
+
+  ```tc
+  Input: schedule = [[[1,2],[5,6]],[[1,3]],[[4,10]]]
+  Output: [[3,4]]
+  ```
 
 ## Solution
 

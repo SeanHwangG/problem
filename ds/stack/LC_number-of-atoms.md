@@ -1,13 +1,17 @@
 # [LC_number-of-atoms](https://leetcode.com/problems/number-of-atoms)
 
-```en
-Given chemical formula (given as a string), return the count of each atom
-```
+* en
 
-```txt
-Input: formula = "K4(ON(SO3)2)2"
-Output: "K4N2O14S4"
-```
+  ```en
+  Given chemical formula (given as a string), return the count of each atom
+  ```
+
+* tc
+
+  ```tc
+  Input: formula = "K4(ON(SO3)2)2"
+  Output: "K4N2O14S4"
+  ```
 
 ## Solution
 

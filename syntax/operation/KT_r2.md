@@ -1,17 +1,23 @@
 # [KT_r2](https://open.kattis.com/problems/r2)
 
-```en
-Print 2 * b - a
-```
+* en
 
-```kr
-2 * b - a를 출력하라
-```
+  ```en
+  Print 2 * b - a
+  ```
 
-```txt
-Input: 4 2
-Output: 6
-```
+* kr
+
+  ```kr
+  2 * b - a를 출력하라
+  ```
+
+* tc
+
+  ```tc
+  Input: 4 2
+  Output: 6
+  ```
 
 ## Solution
 

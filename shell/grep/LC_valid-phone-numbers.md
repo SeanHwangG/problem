@@ -1,19 +1,23 @@
 # [LC_valid-phone-numbers](https://leetcode.com/problems/valid-phone-numbers)
 
-```en
-Output following valid phone numbers:
-```
+* en
 
-```txt
-Input:
-987-123-4567
-123 456 7890
-(123) 456-7890
+  ```en
+  Output following valid phone numbers:
+  ```
 
-Output:
-987-123-4567
-(123) 456-7890
-```
+* tc
+
+  ```tc
+  Input:
+  987-123-4567
+  123 456 7890
+  (123) 456-7890
+
+  Output:
+  987-123-4567
+  (123) 456-7890
+  ```
 
 ## Solution
 

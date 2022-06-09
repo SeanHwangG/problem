@@ -1,13 +1,17 @@
 # [LC_unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees)
 
-```en
-Given an integer n, return # structurally unique BST's which has exactly n nodes of unique values from 1 to n
-```
+* en
 
-```txt
-Input: n = 3
-Output: 5
-```
+  ```en
+  Given an integer n, return # structurally unique BST's which has exactly n nodes of unique values from 1 to n
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 3
+  Output: 5
+  ```
 
 ## Solution
 

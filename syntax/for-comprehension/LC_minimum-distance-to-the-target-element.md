@@ -1,15 +1,19 @@
 # [LC_minimum-distance-to-the-target-element](https://leetcode.com/problems/minimum-distance-to-the-target-element)
 
-```en
-Given an int array and two integers target and start
-Find an index i such that nums[i] == target and abs(i - start) is minimized
-Return abs(i - start)
-```
+* en
 
-```txt
-Input: nums = [1,2,3,4,5], target = 5, start = 3
-Output: 1
-```
+  ```en
+  Given an int array and two integers target and start
+  Find an index i such that nums[i] == target and abs(i - start) is minimized
+  Return abs(i - start)
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,3,4,5], target = 5, start = 3
+  Output: 1
+  ```
 
 ## Solution
 

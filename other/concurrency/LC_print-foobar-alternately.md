@@ -1,13 +1,17 @@
 # [LC_print-foobar-alternately](https://leetcode.com/problems/print-foobar-alternately)
 
-```en
-Print Foo bar alternatively
-```
+* en
 
-```txt
-Input: n = 2
-Output: "foobarfoobar"
-```
+  ```en
+  Print Foo bar alternatively
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 2
+  Output: "foobarfoobar"
+  ```
 
 ## Solution
 

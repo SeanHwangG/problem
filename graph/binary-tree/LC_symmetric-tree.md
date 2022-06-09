@@ -1,13 +1,17 @@
 # [LC_symmetric-tree](https://leetcode.com/problems/symmetric-tree)
 
-```en
-Given root of binary tree, check whether it is mirror of itself
-```
+* en
 
-```txt
-Input: root = [1,2,2,3,4,4,3]
-Output: true
-```
+  ```en
+  Given root of binary tree, check whether it is mirror of itself
+  ```
+
+* tc
+
+  ```tc
+  Input: root = [1,2,2,3,4,4,3]
+  Output: true
+  ```
 
 ## Solution
 

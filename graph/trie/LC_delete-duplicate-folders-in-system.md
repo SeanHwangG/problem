@@ -1,22 +1,26 @@
 # [LC_delete-duplicate-folders-in-system](https://leetcode.com/problems/delete-duplicate-folders-in-system)
 
-```en
-There are duplicate folders in a file system
-given a 2D array paths, where paths[i] is an array representing an absolute path to the ith folder in file system
-Two folders (not necessarily on the same level) are identical
-if they contain the same non-empty set of identical subfolders and underlying subfolder structure
-folders do not need to be at the root level to be identical
-If two or more folders are identical, then mark the folders as well as all their subfolders.
-Return 2D array ans containing paths of remaining folders after deleting all marked folders (in any order)
-```
+* en
 
-```txt
-Input: paths = [["a"],["c"],["d"],["a","b"],["c","b"],["d","a"]]
-Output: [["d"],["d","a"]]
+  ```en
+  There are duplicate folders in a file system
+  given a 2D array paths, where paths[i] is an array representing an absolute path to the ith folder in file system
+  Two folders (not necessarily on the same level) are identical
+  if they contain the same non-empty set of identical subfolders and underlying subfolder structure
+  folders do not need to be at the root level to be identical
+  If two or more folders are identical, then mark the folders as well as all their subfolders.
+  Return 2D array ans containing paths of remaining folders after deleting all marked folders (in any order)
+  ```
 
-Input: paths = [["a"],["c"],["a","b"],["c","b"],["a","b","x"],["a","b","x","y"],["w"],["w","y"]]
-Output: [["c"],["c","b"],["a"],["a","b"]]
-```
+* tc
+
+  ```tc
+  Input: paths = [["a"],["c"],["d"],["a","b"],["c","b"],["d","a"]]
+  Output: [["d"],["d","a"]]
+
+  Input: paths = [["a"],["c"],["a","b"],["c","b"],["a","b","x"],["a","b","x","y"],["w"],["w","y"]]
+  Output: [["c"],["c","b"],["a"],["a","b"]]
+  ```
 
 ## Solution
 

@@ -1,14 +1,18 @@
 # [LC_daily-temperatures](https://leetcode.com/problems/daily-temperatures)
 
-```en
-Given list of daily temperatures T, return a list st, for each day, how many days to wait until warmer temperature
-If no future day for which this is possible, put 0 instead
-```
+* en
 
-```txt
-Input : T = [73, 74, 75, 71, 69, 72, 76, 73]
-Output : [1, 1, 4, 2, 1, 1, 0, 0]
-```
+  ```en
+  Given list of daily temperatures T, return a list st, for each day, how many days to wait until warmer temperature
+  If no future day for which this is possible, put 0 instead
+  ```
+
+* tc
+
+  ```tc
+  Input : T = [73, 74, 75, 71, 69, 72, 76, 73]
+  Output : [1, 1, 4, 2, 1, 1, 0, 0]
+  ```
 
 ## Solution
 

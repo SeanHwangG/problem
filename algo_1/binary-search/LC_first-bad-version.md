@@ -1,16 +1,20 @@
 # [LC_first-bad-version](https://leetcode.com/problems/first-bad-version)
 
-```en
-Find first bad version using isBadVersion function
-```
+* en
 
-```txt
-50
-isBadVersion False
-25
-isBadVersion True
-...
-```
+  ```en
+  Find first bad version using isBadVersion function
+  ```
+
+* tc
+
+  ```tc
+  50
+  isBadVersion False
+  25
+  isBadVersion True
+  ...
+  ```
 
 ## Solution
 

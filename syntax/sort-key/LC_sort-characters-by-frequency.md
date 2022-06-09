@@ -1,13 +1,17 @@
 # [LC_sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency)
 
-```en
-Given string s, sort it in decreasing order based on frequency of characters, and return sorted string
-```
+* en
 
-```txt
-Input: s = "tree"
-Output: "eert"
-```
+  ```en
+  Given string s, sort it in decreasing order based on frequency of characters, and return sorted string
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "tree"
+  Output: "eert"
+  ```
 
 ## Solution
 

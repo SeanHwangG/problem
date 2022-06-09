@@ -1,13 +1,17 @@
 # [LC_monotone-increasing-digits](https://leetcode.com/problems/monotone-increasing-digits)
 
-```en
-Print largest monotonic increasing number less than N
-```
+* en
 
-```txt
-Input: n = 5432
-Output: 4999
-```
+  ```en
+  Print largest monotonic increasing number less than N
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 5432
+  Output: 4999
+  ```
 
 ## Solution
 

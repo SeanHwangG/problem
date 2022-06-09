@@ -1,15 +1,19 @@
 # [LC_partition-labels](https://leetcode.com/problems/partition-labels)
 
-```en
-String s of lowercase English letters is given
-Partition this string into as many parts as possible so that each letter appears in at most one part
-Return list of size of these parts
-```
+* en
 
-```txt
-Input: s = "ababcbacadefegdehijhklij"
-Output: [9,7,8]
-```
+  ```en
+  String s of lowercase English letters is given
+  Partition this string into as many parts as possible so that each letter appears in at most one part
+  Return list of size of these parts
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "ababcbacadefegdehijhklij"
+  Output: [9,7,8]
+  ```
 
 ## Solution
 

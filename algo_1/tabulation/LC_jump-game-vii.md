@@ -1,16 +1,20 @@
 # [LC_jump-game-vii](https://leetcode.com/problems/jump-game-vii)
 
-```en
-Given a 0-indexed binary string s and two integers minJump and maxJump
-Starting at index 0, which is equal to '0', move from index i to index j if the following conditions are fulfilled:
-  i + minJump <= j <= min(i + maxJump, s.length - 1), and s[j] == '0'
-Return if you can reach index s.length - 1 in s
-```
+* en
 
-```txt
-Input: s = "011010", minJump = 2, maxJump = 3
-Output: true
-```
+  ```en
+  Given a 0-indexed binary string s and two integers minJump and maxJump
+  Starting at index 0, which is equal to '0', move from index i to index j if the following conditions are fulfilled:
+    i + minJump <= j <= min(i + maxJump, s.length - 1), and s[j] == '0'
+  Return if you can reach index s.length - 1 in s
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "011010", minJump = 2, maxJump = 3
+  Output: true
+  ```
 
 ## Solution
 

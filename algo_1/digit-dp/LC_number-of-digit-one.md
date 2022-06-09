@@ -1,13 +1,17 @@
 # [LC_number-of-digit-one](https://leetcode.com/problems/number-of-digit-one)
 
-```en
-Given int n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n
-```
+* en
 
-```txt
-Input: n = 13
-Output: 6         # 1, 10, 11, 12, 13
-```
+  ```en
+  Given int n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 13
+  Output: 6         # 1, 10, 11, 12, 13
+  ```
 
 ## Solution
 

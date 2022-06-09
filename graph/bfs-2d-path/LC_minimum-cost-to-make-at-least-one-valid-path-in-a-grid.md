@@ -1,17 +1,21 @@
 # [LC_minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid)
 
-```en
-Find min number of changes to make at least one valid path
-```
+* en
 
-```txt
-Input: grid =
-[[1,1,1,1],
- [2,2,2,2],
- [1,1,1,1],
- [2,2,2,2]]
-Output: 3
-```
+  ```en
+  Find min number of changes to make at least one valid path
+  ```
+
+* tc
+
+  ```tc
+  Input: grid =
+  [[1,1,1,1],
+   [2,2,2,2],
+   [1,1,1,1],
+   [2,2,2,2]]
+  Output: 3
+  ```
 
 ## Solution
 

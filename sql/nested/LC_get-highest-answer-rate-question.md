@@ -1,23 +1,27 @@
 # [LC_get-highest-answer-rate-question](https://leetcode.com/problems/get-highest-answer-rate-question)
 
-```en
-Identify the question which has the highest answer rate
-```
+* en
 
-```txt
-Input: 
-| uid | action | question_id | answer_id | q_num | timestamp |
-| --- | ------ | ----------- | --------- | ----- | --------- |
-| 5   | show   | 285         | null      | 1     | 123       |
-| 5   | answer | 285         | 124124    | 1     | 124       |
-| 5   | show   | 369         | null      | 2     | 125       |
-| 5   | skip   | 369         | null      | 2     | 126       |
+  ```en
+  Identify the question which has the highest answer rate
+  ```
 
-Output:
-| survey_log |
-| ---------- |
-| 285        |
-```
+* tc
+
+  ```tc
+  Input:
+  | uid | action | question_id | answer_id | q_num | timestamp |
+  | --- | ------ | ----------- | --------- | ----- | --------- |
+  | 5   | show   | 285         | null      | 1     | 123       |
+  | 5   | answer | 285         | 124124    | 1     | 124       |
+  | 5   | show   | 369         | null      | 2     | 125       |
+  | 5   | skip   | 369         | null      | 2     | 126       |
+
+  Output:
+  | survey_log |
+  | ---------- |
+  | 285        |
+  ```
 
 ## Solution
 

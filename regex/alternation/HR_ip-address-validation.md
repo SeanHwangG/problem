@@ -1,23 +1,27 @@
 # [HR_ip-address-validation](https://www.hackerrank.com/challenges/ip-address-validation)
 
-```en
-IPv4 address is A.B.C.D where A, B, C and D are Integers lying between 0 and 255
-IPv6 8 groups of 16 bits each
-  Each group is written as 4 hexadecimal digits and the groups are separated by colons (:)
-  Leading 0 may be omitted
-```
+* en
 
-```txt
-Input: 3
-This line has junk text.
-121.18.19.20
-2001:0db8:0000:0000:0000:ff00:0042:8329
+  ```en
+  IPv4 address is A.B.C.D where A, B, C and D are Integers lying between 0 and 255
+  IPv6 8 groups of 16 bits each
+    Each group is written as 4 hexadecimal digits and the groups are separated by colons (:)
+    Leading 0 may be omitted
+  ```
 
-Output:
-Neither
-IPv4
-IPv6
-```
+* tc
+
+  ```tc
+  Input: 3
+  This line has junk text.
+  121.18.19.20
+  2001:0db8:0000:0000:0000:ff00:0042:8329
+
+  Output:
+  Neither
+  IPv4
+  IPv6
+  ```
 
 ## Solution
 

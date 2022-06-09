@@ -1,14 +1,18 @@
 # [LC_pancake-sorting](https://leetcode.com/problems/pancake-sorting)
 
-```en
-Choose int k where 1 <= k <= arr.length
-Reverse sub-array arr[0...k-1] (0-indexed)
-```
+* en
 
-```txt
-Input: arr = [3,2,4,1]
-Output: [4,2,4,3] # k = 4, 2, 4, 3
-```
+  ```en
+  Choose int k where 1 <= k <= arr.length
+  Reverse sub-array arr[0...k-1] (0-indexed)
+  ```
+
+* tc
+
+  ```tc
+  Input: arr = [3,2,4,1]
+  Output: [4,2,4,3] # k = 4, 2, 4, 3
+  ```
 
 ## Solution
 

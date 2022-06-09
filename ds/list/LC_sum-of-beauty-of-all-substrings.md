@@ -1,14 +1,18 @@
 # [LC_sum-of-beauty-of-all-substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings)
 
-```en
-Beauty of a string is difference in frequencies between most frequent and least frequent characters
-Given string s, return sum of beauty of all of its substrings
-```
+* en
 
-```txt
-Input: s = "aabcb"
-Output: 5
-```
+  ```en
+  Beauty of a string is difference in frequencies between most frequent and least frequent characters
+  Given string s, return sum of beauty of all of its substrings
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "aabcb"
+  Output: 5
+  ```
 
 ## Solution
 

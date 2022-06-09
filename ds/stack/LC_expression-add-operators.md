@@ -1,14 +1,18 @@
 # [LC_expression-add-operators](https://leetcode.com/problems/expression-add-operators)
 
-```en
-Given string num that contains only digits an, an integer target
-return all possibilities to add binary operators '+', '-', or '*' between digits so that result evaluates to target
-```
+* en
 
-```txt
-Input: num = "105", target = 5
-Output: ["1*0+5","10-5"]
-```
+  ```en
+  Given string num that contains only digits an, an integer target
+  return all possibilities to add binary operators '+', '-', or '*' between digits so that result evaluates to target
+  ```
+
+* tc
+
+  ```tc
+  Input: num = "105", target = 5
+  Output: ["1*0+5","10-5"]
+  ```
 
 ## Solution
 

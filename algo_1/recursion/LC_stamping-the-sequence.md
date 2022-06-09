@@ -1,18 +1,22 @@
 # [LC_stamping-the-sequence](https://leetcode.com/problems/stamping-the-sequence)
 
-```en
-Convert s to target using at most 10 x target.length turns
-In one turn, place stamp over s and replace every letter in the s with the corresponding letter from stamp
-Return array of index of left-most letter being stamped at each turn, if cannot obtain target, return empty array
-```
+* en
 
-```txt
-Input: stamp = "abc", target = "ababc"
-Output: [0,2]  # abc?? -> ababc
+  ```en
+  Convert s to target using at most 10 x target.length turns
+  In one turn, place stamp over s and replace every letter in the s with the corresponding letter from stamp
+  Return array of index of left-most letter being stamped at each turn, if cannot obtain target, return empty array
+  ```
 
-Input: stamp = "abca", target = "aabcaca"
-Output: [3,0,1]
-```
+* tc
+
+  ```tc
+  Input: stamp = "abc", target = "ababc"
+  Output: [0,2]  # abc?? -> ababc
+
+  Input: stamp = "abca", target = "aabcaca"
+  Output: [3,0,1]
+  ```
 
 ## Solution
 

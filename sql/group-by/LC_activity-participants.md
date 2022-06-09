@@ -1,32 +1,36 @@
 # [LC_activity-participants](https://leetcode.com/problems/activity-participants)
 
-```en
-Find names of all activities with neither max, nor min number of participants in any order
-Each activity in table Activities is performed by any person in table Friends
-```
+* en
 
-```txt
-Input: 
-| id  | name        | activity     |
-| --- | ----------- | ------------ |
-| 1   | Jonathan D. | Eating       |
-| 2   | Jade W.     | Singing      |
-| 3   | Victor J.   | Singing      |
-| 4   | Elvis Q.    | Eating       |
-| 5   | Daniel A.   | Eating       |
-| 6   | Bob B.      | Horse Riding |
+  ```en
+  Find names of all activities with neither max, nor min number of participants in any order
+  Each activity in table Activities is performed by any person in table Friends
+  ```
 
-| id  | name         |
-| --- | ------------ |
-| 1   | Eating       |
-| 2   | Singing      |
-| 3   | Horse Riding |
+* tc
 
-Output:
-| results |
-| ------- |
-| Singing |
-```
+  ```tc
+  Input:
+  | id  | name        | activity     |
+  | --- | ----------- | ------------ |
+  | 1   | Jonathan D. | Eating       |
+  | 2   | Jade W.     | Singing      |
+  | 3   | Victor J.   | Singing      |
+  | 4   | Elvis Q.    | Eating       |
+  | 5   | Daniel A.   | Eating       |
+  | 6   | Bob B.      | Horse Riding |
+
+  | id  | name         |
+  | --- | ------------ |
+  | 1   | Eating       |
+  | 2   | Singing      |
+  | 3   | Horse Riding |
+
+  Output:
+  | results |
+  | ------- |
+  | Singing |
+  ```
 
 ## Solution
 

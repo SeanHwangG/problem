@@ -1,26 +1,30 @@
 # [HR_what-type-of-triangle](https://www.hackerrank.com/challenges/what-type-of-triangle)
 
-```en
-Determine type of each triangle
-```
+* en
 
-```txt
-Input: 
-| A   | B   | C   |
-| --- | --- | --- |
-| 20  | 20  | 23  |
-| 20  | 20  | 20  |
-| 20  | 21  | 22  |
-| 13  | 14  | 30  |
+  ```en
+  Determine type of each triangle
+  ```
 
-Output:
-| Type           |
-| -------------- |
-| Isosceles      |
-| Equilateral    |
-| Scalene        |
-| Not A Triangle |
-```
+* tc
+
+  ```tc
+  Input:
+  | A   | B   | C   |
+  | --- | --- | --- |
+  | 20  | 20  | 23  |
+  | 20  | 20  | 20  |
+  | 20  | 21  | 22  |
+  | 13  | 14  | 30  |
+
+  Output:
+  | Type           |
+  | -------------- |
+  | Isosceles      |
+  | Equilateral    |
+  | Scalene        |
+  | Not A Triangle |
+  ```
 
 ## Solution
 

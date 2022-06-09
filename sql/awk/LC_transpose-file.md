@@ -1,20 +1,24 @@
 # [LC_transpose-file](https://leetcode.com/problems/transpose-file)
 
-```en
-Transpose its contents
+* en
 
-```
+  ```en
+  Transpose its contents
 
-```txt
-Input:
-name age
-alice 21
-ryan 30
+  ```
 
-Output:
-name alice ryan
-age 21 30
-```
+* tc
+
+  ```tc
+  Input:
+  name age
+  alice 21
+  ryan 30
+
+  Output:
+  name alice ryan
+  age 21 30
+  ```
 
 ## Solution
 

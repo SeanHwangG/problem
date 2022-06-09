@@ -1,13 +1,17 @@
 # [LC_burst-balloons](https://leetcode.com/problems/burst-balloons)
 
-```en
-Burst gives nums[left] x nums[i] x nums[right] point
-```
+* en
 
-```txt
-Input: nums = [3,1,5,8]
-Output: 167
-```
+  ```en
+  Burst gives nums[left] x nums[i] x nums[right] point
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [3,1,5,8]
+  Output: 167
+  ```
 
 ## Solution
 

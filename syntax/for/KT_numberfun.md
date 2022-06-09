@@ -1,28 +1,34 @@
 # [KT_numberfun](https://open.kattis.com/problems/numberfun)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-a, b, c가 주어 질 때, a, b와 +, -, *, / 로 c를 만들 수 있으면 Possible 불가능 하면 Impossible을 출력하라
-```
+  ```
 
-```txt
-Input: 6
-1 2 3
-2 24 12
-5 3 1
-9 16 7
-7 2 14
-12 4 2
-Output: Possible
-Possible
-Impossible
-Possible
-Possible
-Impossible
-```
+* kr
+
+  ```kr
+  a, b, c가 주어 질 때, a, b와 +, -, *, / 로 c를 만들 수 있으면 Possible 불가능 하면 Impossible을 출력하라
+  ```
+
+* tc
+
+  ```tc
+  Input: 6
+  1 2 3
+  2 24 12
+  5 3 1
+  9 16 7
+  7 2 14
+  12 4 2
+  Output: Possible
+  Possible
+  Impossible
+  Possible
+  Possible
+  Impossible
+  ```
 
 ## Solution
 

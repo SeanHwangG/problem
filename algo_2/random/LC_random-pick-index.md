@@ -1,18 +1,22 @@
 # [LC_random-pick-index](https://leetcode.com/problems/random-pick-index)
 
-```en
-Given an integer array nums with possible duplicates, randomly output the index of a given target number
-Assume that the given target number must exist in the array
-```
+* en
 
-```txt
-Input:
-["Solution", "pick", "pick", "pick"]
-[[[1, 2, 3, 3, 3]], [3], [1], [3]]
+  ```en
+  Given an integer array nums with possible duplicates, randomly output the index of a given target number
+  Assume that the given target number must exist in the array
+  ```
 
-Output:
-[null, 4, 0, 2]
-```
+* tc
+
+  ```tc
+  Input:
+  ["Solution", "pick", "pick", "pick"]
+  [[[1, 2, 3, 3, 3]], [3], [1], [3]]
+
+  Output:
+  [null, 4, 0, 2]
+  ```
 
 ## Solution
 

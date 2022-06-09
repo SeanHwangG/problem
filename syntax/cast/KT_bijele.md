@@ -1,18 +1,22 @@
 # [KT_bijele](https://open.kattis.com/problems/bijele)
 
-```en
-Print sum of 5 numbers
-```
+* en
 
-```txt
-Input: 1
-2
-3
-4
-5
+  ```en
+  Print sum of 5 numbers
+  ```
 
-Output: 15
-```
+* tc
+
+  ```tc
+  Input: 1
+  2
+  3
+  4
+  5
+
+  Output: 15
+  ```
 
 ## Solution
 

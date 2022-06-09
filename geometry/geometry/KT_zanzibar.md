@@ -1,20 +1,24 @@
 # [KT_zanzibar](https://open.kattis.com/problems/zanzibar)
 
-```en
-Only double is possible
-Print the lower bound for the number of turtles not born on Zanzibar
-```
+* en
 
-```txt
-Input: 3
-1 100 0
-1 1 1 2 2 4 8 8 9 0
-1 28 72 0
+  ```en
+  Only double is possible
+  Print the lower bound for the number of turtles not born on Zanzibar
+  ```
 
-Output: 98
-0
-42
-```
+* tc
+
+  ```tc
+  Input: 3
+  1 100 0
+  1 1 1 2 2 4 8 8 9 0
+  1 28 72 0
+
+  Output: 98
+  0
+  42
+  ```
 
 ## Solution
 

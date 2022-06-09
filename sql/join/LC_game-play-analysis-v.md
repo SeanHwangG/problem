@@ -1,28 +1,32 @@
 # [LC_game-play-analysis-v](https://leetcode.com/problems/game-play-analysis-v)
 
-```en
-Install date is the first login day of that player
-Day 1 retention of some date X to be # players whose install date is X and they logged back next day
-  Divided by # players whose install date is X, rounded to 2 decimal places
-For each install date, # players that installed the game on that day and the day 1 retention
-```
+* en
 
-```txt
-Input: 
-| player_id | device_id | event_date | games_played |
-| --------- | --------- | ---------- | ------------ |
-| 1         | 2         | 2016-03-01 | 5            |
-| 1         | 2         | 2016-03-02 | 6            |
-| 2         | 3         | 2017-06-25 | 1            |
-| 3         | 1         | 2016-03-01 | 0            |
-| 3         | 4         | 2016-07-03 | 5            |
+  ```en
+  Install date is the first login day of that player
+  Day 1 retention of some date X to be # players whose install date is X and they logged back next day
+    Divided by # players whose install date is X, rounded to 2 decimal places
+  For each install date, # players that installed the game on that day and the day 1 retention
+  ```
 
-Output:
-| install_dt | installs | Day1_retention |
-| ---------- | -------- | -------------- |
-| 2016-03-01 | 2        | 0.50           |
-| 2017-06-25 | 1        | 0.00           |
-```
+* tc
+
+  ```tc
+  Input:
+  | player_id | device_id | event_date | games_played |
+  | --------- | --------- | ---------- | ------------ |
+  | 1         | 2         | 2016-03-01 | 5            |
+  | 1         | 2         | 2016-03-02 | 6            |
+  | 2         | 3         | 2017-06-25 | 1            |
+  | 3         | 1         | 2016-03-01 | 0            |
+  | 3         | 4         | 2016-07-03 | 5            |
+
+  Output:
+  | install_dt | installs | Day1_retention |
+  | ---------- | -------- | -------------- |
+  | 2016-03-01 | 2        | 0.50           |
+  | 2017-06-25 | 1        | 0.00           |
+  ```
 
 ## Solution
 

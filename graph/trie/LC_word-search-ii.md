@@ -1,13 +1,17 @@
 # [LC_word-search-ii](https://leetcode.com/problems/word-search-ii)
 
-```en
-Find all words with in B
-```
+* en
 
-```txt
-Input: board = [["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], words = ["oath","pea","eat","rain"]
-Output: ["eat","oath"]
-```
+  ```en
+  Find all words with in B
+  ```
+
+* tc
+
+  ```tc
+  Input: board = [["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], words = ["oath","pea","eat","rain"]
+  Output: ["eat","oath"]
+  ```
 
 ## Solution
 

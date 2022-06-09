@@ -1,14 +1,18 @@
 # [LC_maximum-population-year](https://leetcode.com/problems/maximum-population-year)
 
-```en
-Given 2D int array logs where each logs[i] = [birthi, deathi] indicates birth and death years of ith person
-Return earliest year with the maximum population
-```
+* en
 
-```txt
-Input: logs = [[1993,1999],[2000,2010]]
-Output: 1993
-```
+  ```en
+  Given 2D int array logs where each logs[i] = [birthi, deathi] indicates birth and death years of ith person
+  Return earliest year with the maximum population
+  ```
+
+* tc
+
+  ```tc
+  Input: logs = [[1993,1999],[2000,2010]]
+  Output: 1993
+  ```
 
 ## Solution
 

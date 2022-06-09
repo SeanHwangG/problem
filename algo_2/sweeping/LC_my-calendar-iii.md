@@ -1,17 +1,21 @@
 # [LC_my-calendar-iii](https://leetcode.com/problems/my-calendar-iii)
 
-```en
-K-booking happens when k events have some non-empty intersection (ex: there is some time that is common to all k events)
-Given events [start, end), after each given event, return k representing maximum k-booking between all previous events
-```
+* en
 
-```txt
-Input:
-["MyCalendarThree", "book", "book", "book", "book", "book", "book"]
-[[], [10, 20], [50, 60], [10, 40], [5, 15], [5, 10], [25, 55]]
+  ```en
+  K-booking happens when k events have some non-empty intersection (ex: there is some time that is common to all k events)
+  Given events [start, end), after each given event, return k representing maximum k-booking between all previous events
+  ```
 
-Output: [null, 1, 1, 2, 3, 3, 3]
-```
+* tc
+
+  ```tc
+  Input:
+  ["MyCalendarThree", "book", "book", "book", "book", "book", "book"]
+  [[], [10, 20], [50, 60], [10, 40], [5, 15], [5, 10], [25, 55]]
+
+  Output: [null, 1, 1, 2, 3, 3, 3]
+  ```
 
 ## Solution
 

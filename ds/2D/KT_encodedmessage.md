@@ -1,21 +1,25 @@
 # [KT_encodedmessage](https://open.kattis.com/problems/encodedmessage)
 
-```en
-Encode string
-```
+* en
 
-```txt
-Input: 3
-RSTEEOTCP
-eedARBtVrolsiesuAoReerles
-EarSvyeqeBsuneMa
+  ```en
+  Encode string
+  ```
 
-Output:
-TOPSECRET
-RosesAreRedVioletsAreBlue
-SquaresMayBeEven
+* tc
 
-```
+  ```tc
+  Input: 3
+  RSTEEOTCP
+  eedARBtVrolsiesuAoReerles
+  EarSvyeqeBsuneMa
+
+  Output:
+  TOPSECRET
+  RosesAreRedVioletsAreBlue
+  SquaresMayBeEven
+
+  ```
 
 ## Solution
 

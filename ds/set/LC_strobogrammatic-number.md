@@ -1,23 +1,27 @@
 # [LC_strobogrammatic-number](https://leetcode.com/problems/strobogrammatic-number)
 
-```en
-Given a string num which represents an integer, return true if num is a strobogrammatic number.
-Strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down)
-```
+* en
 
-```txt
-Input: num = "69"
-Output: true
+  ```en
+  Given a string num which represents an integer, return true if num is a strobogrammatic number.
+  Strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down)
+  ```
 
-Input: num = "88"
-Output: true
+* tc
 
-Input: num = "962"
-Output: false
+  ```tc
+  Input: num = "69"
+  Output: true
 
-Input: num = "1"
-Output: true
-```
+  Input: num = "88"
+  Output: true
+
+  Input: num = "962"
+  Output: false
+
+  Input: num = "1"
+  Output: true
+  ```
 
 ## Solution
 

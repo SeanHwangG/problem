@@ -1,12 +1,16 @@
 # [HR_s10-mcq-2](https://www.hackerrank.com/challenges/s10-mcq-2)
 
-```en
-Two toss of six-sided dice, find probability that values rolled by each die will be different, two dice sum to 6
-```
+* en
 
-```txt
-Output: 1/9
-```
+  ```en
+  Two toss of six-sided dice, find probability that values rolled by each die will be different, two dice sum to 6
+  ```
+
+* tc
+
+  ```tc
+  Output: 1/9
+  ```
 
 ## Solution
 

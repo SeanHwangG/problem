@@ -1,13 +1,17 @@
 # [LC_subsets-ii](https://leetcode.com/problems/subsets-ii)
 
-```en
-Given an integer array nums that may contain duplicates, return all possible subsets (the power set)
-```
+* en
 
-```txt
-Input: nums = [1,2,2]
-Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
-```
+  ```en
+  Given an integer array nums that may contain duplicates, return all possible subsets (the power set)
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,2]
+  Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
+  ```
 
 ## Solution
 

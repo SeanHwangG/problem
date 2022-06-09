@@ -1,14 +1,18 @@
 # [LC_unique-paths](https://leetcode.com/problems/unique-paths)
 
-```en
-Robot is located at the top-left corner of a m x n grid, can move either down or right
-How many possible unique paths are there to the bottom-right corner of the grid?
-```
+* en
 
-```txt
-Input: m = 7, n = 3
-Output: 28
-```
+  ```en
+  Robot is located at the top-left corner of a m x n grid, can move either down or right
+  How many possible unique paths are there to the bottom-right corner of the grid?
+  ```
+
+* tc
+
+  ```tc
+  Input: m = 7, n = 3
+  Output: 28
+  ```
 
 ## Solution
 

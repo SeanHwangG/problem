@@ -1,30 +1,34 @@
 # [LC_exchange-seats](https://leetcode.com/problems/exchange-seats)
 
-```en
-Mary is teacher in middle school and she has a table seat storing students' names and their corresponding seat ids
-The column id is continuous increment
-Change seats for the adjacent students
-```
+* en
 
-```txt
-Input:
-  | id  | student |
-  | --- | ------- |
-  | 1   | Abbot   |
-  | 2   | Doris   |
-  | 3   | Emerson |
-  | 4   | Green   |
-  | 5   | Jeames  |
+  ```en
+  Mary is teacher in middle school and she has a table seat storing students' names and their corresponding seat ids
+  The column id is continuous increment
+  Change seats for the adjacent students
+  ```
 
-Ouput:
-  | id  | student |
-  | --- | ------- |
-  | 1   | Doris   |
-  | 2   | Abbot   |
-  | 3   | Green   |
-  | 4   | Emerson |
-  | 5   | Jeames  |
-```
+* tc
+
+  ```tc
+  Input:
+    | id  | student |
+    | --- | ------- |
+    | 1   | Abbot   |
+    | 2   | Doris   |
+    | 3   | Emerson |
+    | 4   | Green   |
+    | 5   | Jeames  |
+
+  Ouput:
+    | id  | student |
+    | --- | ------- |
+    | 1   | Doris   |
+    | 2   | Abbot   |
+    | 3   | Green   |
+    | 4   | Emerson |
+    | 5   | Jeames  |
+  ```
 
 ## Solution
 

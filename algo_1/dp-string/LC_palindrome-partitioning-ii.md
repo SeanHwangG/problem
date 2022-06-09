@@ -1,14 +1,18 @@
 # [LC_palindrome-partitioning-ii](https://leetcode.com/problems/palindrome-partitioning-ii)
 
-```en
-Given a string s, partition s such that every substring of partition is a palindrome
-Return minimum cuts needed for a palindrome partitioning of s
-```
+* en
 
-```txt
-Input: s = "aab"
-Output: 1
-```
+  ```en
+  Given a string s, partition s such that every substring of partition is a palindrome
+  Return minimum cuts needed for a palindrome partitioning of s
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "aab"
+  Output: 1
+  ```
 
 ## Solution
 

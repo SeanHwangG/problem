@@ -1,23 +1,27 @@
 # [LC_friend-requests-ii-who-has-the-most-friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends)
 
-```en
-Find the people who has most friends and the most friends number
-```
+* en
 
-```txt
-Input: 
-| requester_id | accepter_id | accept_date |
-| ------------ | ----------- | ----------- |
-| 1            | 2           | 2016_06-03  |
-| 1            | 3           | 2016-06-08  |
-| 2            | 3           | 2016-06-08  |
-| 3            | 4           | 2016-06-09  |
+  ```en
+  Find the people who has most friends and the most friends number
+  ```
 
-Output:
-| id  | num |
-| --- | --- |
-| 3   | 3   |
-```
+* tc
+
+  ```tc
+  Input:
+  | requester_id | accepter_id | accept_date |
+  | ------------ | ----------- | ----------- |
+  | 1            | 2           | 2016_06-03  |
+  | 1            | 3           | 2016-06-08  |
+  | 2            | 3           | 2016-06-08  |
+  | 3            | 4           | 2016-06-09  |
+
+  Output:
+  | id  | num |
+  | --- | --- |
+  | 3   | 3   |
+  ```
 
 ## Solution
 

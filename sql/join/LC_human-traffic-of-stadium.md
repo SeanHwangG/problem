@@ -1,32 +1,36 @@
 # [LC_human-traffic-of-stadium](https://leetcode.com/problems/human-traffic-of-stadium)
 
-```en
-Display records which have 3 or more consecutive rows and the amount of people more than 100
-```
+* en
 
-```txt
-Input:
+  ```en
+  Display records which have 3 or more consecutive rows and the amount of people more than 100
+  ```
 
-  | id  | visit_date | people |
-  | --- | ---------- | ------ |
-  | 1   | 2017-01-01 | 10     |
-  | 2   | 2017-01-02 | 109    |
-  | 3   | 2017-01-03 | 150    |
-  | 4   | 2017-01-04 | 99     |
-  | 5   | 2017-01-05 | 145    |
-  | 6   | 2017-01-06 | 1455   |
-  | 7   | 2017-01-07 | 199    |
-  | 8   | 2017-01-08 | 188    |
+* tc
 
-Output:
+  ```tc
+  Input:
 
-  | id  | visit_date | people |
-  | --- | ---------- | ------ |
-  | 5   | 2017-01-05 | 145    |
-  | 6   | 2017-01-06 | 1455   |
-  | 7   | 2017-01-07 | 199    |
-  | 8   | 2017-01-08 | 188    |
-```
+    | id  | visit_date | people |
+    | --- | ---------- | ------ |
+    | 1   | 2017-01-01 | 10     |
+    | 2   | 2017-01-02 | 109    |
+    | 3   | 2017-01-03 | 150    |
+    | 4   | 2017-01-04 | 99     |
+    | 5   | 2017-01-05 | 145    |
+    | 6   | 2017-01-06 | 1455   |
+    | 7   | 2017-01-07 | 199    |
+    | 8   | 2017-01-08 | 188    |
+
+  Output:
+
+    | id  | visit_date | people |
+    | --- | ---------- | ------ |
+    | 5   | 2017-01-05 | 145    |
+    | 6   | 2017-01-06 | 1455   |
+    | 7   | 2017-01-07 | 199    |
+    | 8   | 2017-01-08 | 188    |
+  ```
 
 ## Solution
 

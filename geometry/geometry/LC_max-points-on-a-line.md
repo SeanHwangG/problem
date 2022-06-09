@@ -1,15 +1,19 @@
 # [LC_max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line)
 
-```en
-Given array of points where points[i] = [xi, yi] represents a point on the X-Y plane
-Return maximum number of points that lie on the same straight line
-```
+* en
 
-```txt
-Input: points = [[1,1],[2,2],[3,3]]
-Output: 3
+  ```en
+  Given array of points where points[i] = [xi, yi] represents a point on the X-Y plane
+  Return maximum number of points that lie on the same straight line
+  ```
 
-```
+* tc
+
+  ```tc
+  Input: points = [[1,1],[2,2],[3,3]]
+  Output: 3
+
+  ```
 
 ## Solution
 

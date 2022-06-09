@@ -1,13 +1,17 @@
 # [LC_reverse-linked-list](https://leetcode.com/problems/reverse-linked-list)
 
-```en
-Reverse linked list
-```
+* en
 
-```txt
-Input: head = [1,2,3,4,5]
-Output: [5,4,3,2,1]
-```
+  ```en
+  Reverse linked list
+  ```
+
+* tc
+
+  ```tc
+  Input: head = [1,2,3,4,5]
+  Output: [5,4,3,2,1]
+  ```
 
 ## Solution
 

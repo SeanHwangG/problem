@@ -1,13 +1,17 @@
 # [LC_shortest-distance-to-a-character](https://leetcode.com/problems/shortest-distance-to-a-character)
 
-```en
-Find closest occurrence of character c in s
-```
+* en
 
-```txt
-Input: s = "loveleetcode", c = "e"
-Output: [3,2,1,0,1,0,0,1,2,2,1,0]
-```
+  ```en
+  Find closest occurrence of character c in s
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "loveleetcode", c = "e"
+  Output: [3,2,1,0,1,0,0,1,2,2,1,0]
+  ```
 
 ## Solution
 

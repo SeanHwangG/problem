@@ -1,26 +1,30 @@
 # [LC_consecutive-numbers](https://leetcode.com/problems/consecutive-numbers)
 
-```en
-Find all numbers that appear at least three times consecutively
-```
+* en
 
-```txt
-Input:
-| Id  | Num |
-| --- | --- |
-| 1   | 1   |
-| 2   | 1   |
-| 3   | 1   |
-| 4   | 2   |
-| 5   | 1   |
-| 6   | 2   |
-| 7   | 2   |
+  ```en
+  Find all numbers that appear at least three times consecutively
+  ```
 
-Output:
-| ConsecutiveNums |
-| --------------- |
-| 1               |
-```
+* tc
+
+  ```tc
+  Input:
+  | Id  | Num |
+  | --- | --- |
+  | 1   | 1   |
+  | 2   | 1   |
+  | 3   | 1   |
+  | 4   | 2   |
+  | 5   | 1   |
+  | 6   | 2   |
+  | 7   | 2   |
+
+  Output:
+  | ConsecutiveNums |
+  | --------------- |
+  | 1               |
+  ```
 
 ## Solution
 

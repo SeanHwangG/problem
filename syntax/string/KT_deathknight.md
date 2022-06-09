@@ -1,17 +1,21 @@
 # [KT_deathknight](https://open.kattis.com/problems/deathknight)
 
-```en
-Given N lines, count number of lines without CD
-```
+* en
 
-```txt
-Input: 3
-DCOOO
-DODOCD
-COD
+  ```en
+  Given N lines, count number of lines without CD
+  ```
 
-Output: 2
-```
+* tc
+
+  ```tc
+  Input: 3
+  DCOOO
+  DODOCD
+  COD
+
+  Output: 2
+  ```
 
 ## Solution
 

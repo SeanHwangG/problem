@@ -1,28 +1,32 @@
 # [LC_last-person-to-fit-in-the-bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus)
 
-```en
-Maximum weight elevator can hold is 1000
-Find person_name of last person who will fit in elevator without exceeding weight limit
-```
+* en
 
-```txt
-Input:
+  ```en
+  Maximum weight elevator can hold is 1000
+  Find person_name of last person who will fit in elevator without exceeding weight limit
+  ```
 
-| person_id | person_name       | weight | turn |
-+-----------+-------------------+--------+------+
-| 5         | George Washington | 250    | 1    |
-| 3         | John Adams        | 350    | 2    |
-| 6         | Thomas Jefferson  | 400    | 3    |
-| 2         | Will Johnliams    | 200    | 4    |
-| 4         | Thomas Jefferson  | 175    | 5    |
-| 1         | James Elephant    | 500    | 6    |
+* tc
 
-Output:
+  ```tc
+  Input:
 
-| person_name       |
-+-------------------+
-| Thomas Jefferson  |
-```
+  | person_id | person_name       | weight | turn |
+  +-----------+-------------------+--------+------+
+  | 5         | George Washington | 250    | 1    |
+  | 3         | John Adams        | 350    | 2    |
+  | 6         | Thomas Jefferson  | 400    | 3    |
+  | 2         | Will Johnliams    | 200    | 4    |
+  | 4         | Thomas Jefferson  | 175    | 5    |
+  | 1         | James Elephant    | 500    | 6    |
+
+  Output:
+
+  | person_name       |
+  +-------------------+
+  | Thomas Jefferson  |
+  ```
 
 ## Solution
 

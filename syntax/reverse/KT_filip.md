@@ -1,14 +1,18 @@
 # [KT_filip](https://open.kattis.com/problems/filip)
 
-```en
-Print larger number when they are reverse
+* en
 
-```
+  ```en
+  Print larger number when they are reverse
 
-```txt
-Input: 734 893
-Output: 437
-```
+  ```
+
+* tc
+
+  ```tc
+  Input: 734 893
+  Output: 437
+  ```
 
 ## Solution
 

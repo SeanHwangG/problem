@@ -1,14 +1,18 @@
 # [LC_maximum-gap](https://leetcode.com/problems/maximum-gap)
 
-```en
-Given an integer array nums, return maximum difference between two successive elements in its sorted form
-If the array contains less than two elements, return 0
-```
+* en
 
-```txt
-Input: nums = [3,6,9,1]
-Output: 3
-```
+  ```en
+  Given an integer array nums, return maximum difference between two successive elements in its sorted form
+  If the array contains less than two elements, return 0
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [3,6,9,1]
+  Output: 3
+  ```
 
 ## Solution
 

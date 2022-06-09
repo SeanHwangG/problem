@@ -1,18 +1,22 @@
 # [LC_cut-off-trees-for-golf-event](https://leetcode.com/problems/cut-off-trees-for-golf-event)
 
-```en
-0 means cell cannot be walked through, 1 represents an empty cell that can be walked through
-Number greater than 1 represents a tree in a cell that can be walked through, and this number is tree's height
-Starting from point (0, 0), return min steps you need to walk to cut off all trees. If you cannot, return -1
-```
+* en
 
-```txt
-Input: forest =
-[[1,2,3],
- [0,0,4],
- [7,6,5]]
-Output: 6
-```
+  ```en
+  0 means cell cannot be walked through, 1 represents an empty cell that can be walked through
+  Number greater than 1 represents a tree in a cell that can be walked through, and this number is tree's height
+  Starting from point (0, 0), return min steps you need to walk to cut off all trees. If you cannot, return -1
+  ```
+
+* tc
+
+  ```tc
+  Input: forest =
+  [[1,2,3],
+   [0,0,4],
+   [7,6,5]]
+  Output: 6
+  ```
 
 ## Solution
 

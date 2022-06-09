@@ -1,13 +1,17 @@
 # [LC_next-permutation](https://leetcode.com/problems/next-permutation)
 
-```en
-Print next permutation
-```
+* en
 
-```txt
-Input: nums = [1,2,3]
-Output: [1,3,2]
-```
+  ```en
+  Print next permutation
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,3]
+  Output: [1,3,2]
+  ```
 
 ## Solution
 

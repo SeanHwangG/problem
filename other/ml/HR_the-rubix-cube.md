@@ -1,13 +1,17 @@
 # [HR_the-rubix-cube](https://www.hackerrank.com/challenges/the-rubix-cube)
 
-```en
-Identify whether all the visible sides have been 'solved' in rubix cube
-```
+* en
 
-```txt
-Input: Solve picture
-Output: solved
-```
+  ```en
+  Identify whether all the visible sides have been 'solved' in rubix cube
+  ```
+
+* tc
+
+  ```tc
+  Input: Solve picture
+  Output: solved
+  ```
 
 ## Solution
 

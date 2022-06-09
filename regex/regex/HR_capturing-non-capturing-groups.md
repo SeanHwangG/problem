@@ -1,13 +1,17 @@
 # [HR_capturing-non-capturing-groups](https://www.hackerrank.com/challenges/capturing-non-capturing-groups)
 
-```en
-Should have or more consecutive repetitions of ok
-```
+* en
 
-```txt
-Input: okokok! cya
-Output: true
-```
+  ```en
+  Should have or more consecutive repetitions of ok
+  ```
+
+* tc
+
+  ```tc
+  Input: okokok! cya
+  Output: true
+  ```
 
 ## Solution
 

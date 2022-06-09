@@ -1,13 +1,17 @@
 # [LC_find-all-anagrams-in-a-string](https://leetcode.com/problems/find-all-anagrams-in-a-string)
 
-```en
-Given string s and p, return array of all the start indices of p's anagrams in s in any order
-```
+* en
 
-```txt
-Input: s = "cbaebabacd", p = "abc"
-Output: [0,6]
-```
+  ```en
+  Given string s and p, return array of all the start indices of p's anagrams in s in any order
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "cbaebabacd", p = "abc"
+  Output: [0,6]
+  ```
 
 ## Solution
 

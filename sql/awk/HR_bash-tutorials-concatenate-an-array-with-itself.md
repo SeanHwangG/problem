@@ -1,27 +1,31 @@
 # [HR_bash-tutorials-concatenate-an-array-with-itself](https://www.hackerrank.com/challenges/bash-tutorials-concatenate-an-array-with-itself)
 
-```en
-Concatenate three repetitions of the original array
-```
+* en
 
-```txt
-Input:
-Namibia
-Nauru
-Nepal
-Netherlands
-NewZealand
-Nicaragua
-Niger
-Nigeria
-NorthKorea
-Norway
+  ```en
+  Concatenate three repetitions of the original array
+  ```
 
-Output:
-Namibia Nauru Nepal Netherlands NewZealand Nicaragua Niger Nigeria NorthKorea Norway Namibia Nauru Nepal Netherlands
-NewZealand Nicaragua Niger Nigeria NorthKorea Norway Namibia Nauru Nepal Netherlands NewZealand Nicaragua Niger Nigeria
-NorthKorea Norway
-```
+* tc
+
+  ```tc
+  Input:
+  Namibia
+  Nauru
+  Nepal
+  Netherlands
+  NewZealand
+  Nicaragua
+  Niger
+  Nigeria
+  NorthKorea
+  Norway
+
+  Output:
+  Namibia Nauru Nepal Netherlands NewZealand Nicaragua Niger Nigeria NorthKorea Norway Namibia Nauru Nepal Netherlands
+  NewZealand Nicaragua Niger Nigeria NorthKorea Norway Namibia Nauru Nepal Netherlands NewZealand Nicaragua Niger Nigeria
+  NorthKorea Norway
+  ```
 
 ## Solution
 

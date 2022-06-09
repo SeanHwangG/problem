@@ -1,15 +1,19 @@
 # [LC_word-break-ii](https://leetcode.com/problems/word-break-ii)
 
-```en
-Given a string s and a dictionary of strings wordDict
-Add spaces in s to construct a sentence where each word is a valid dictionary word
-Return all such possible sentences in any order
-```
+* en
 
-```txt
-Input: s = "catsanddog", wordDict = ["cat","cats","and","sand","dog"]
-Output: ["cats and dog","cat sand dog"]
-```
+  ```en
+  Given a string s and a dictionary of strings wordDict
+  Add spaces in s to construct a sentence where each word is a valid dictionary word
+  Return all such possible sentences in any order
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "catsanddog", wordDict = ["cat","cats","and","sand","dog"]
+  Output: ["cats and dog","cat sand dog"]
+  ```
 
 ## Solution
 

@@ -1,15 +1,19 @@
 # [LC_maximum-score-from-removing-stones](https://leetcode.com/problems/maximum-score-from-removing-stones)
 
-```en
-Begin with three piles of stones of sizes a​​​​​​, b,​​​​​​ and c​​​​​​ respectively
-Each turn you choose two different non-empty piles, take one stone from each, and add 1 point to your score
-Game stops when there are fewer than two non-empty piles, return maximum score you can get
-```
+* en
 
-```txt
-Input: a = 2, b = 4, c = 6
-Output: 6
-```
+  ```en
+  Begin with three piles of stones of sizes a​​​​​​, b,​​​​​​ and c​​​​​​ respectively
+  Each turn you choose two different non-empty piles, take one stone from each, and add 1 point to your score
+  Game stops when there are fewer than two non-empty piles, return maximum score you can get
+  ```
+
+* tc
+
+  ```tc
+  Input: a = 2, b = 4, c = 6
+  Output: 6
+  ```
 
 ## Solution
 

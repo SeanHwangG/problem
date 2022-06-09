@@ -1,20 +1,24 @@
 # [LC_longest-string-chain](https://leetcode.com/problems/longest-string-chain)
 
-```en
-wordA is predecessor of wordB iff 1 letter is inserted in wordA is to make it equal to wordB
-Return length of longest possible word chain with words chosen from the given list of words
-```
+* en
 
-```txt
-Input: words = ["a","b","ba","bca","bda","bdca"]
-Output: 4  # One of the longest word chains is ["a","ba","bda","bdca"].
+  ```en
+  wordA is predecessor of wordB iff 1 letter is inserted in wordA is to make it equal to wordB
+  Return length of longest possible word chain with words chosen from the given list of words
+  ```
 
-Input: words = ["xbc","pcxbcf","xb","cxbc","pcxbc"]
-Output: 5  # All the words can be put in a word chain ["xb", "xbc", "cxbc", "pcxbc", "pcxbcf"].
+* tc
 
-Input: words = ["abcd","dbqca"]
-Output: 1  # The trivial word chain ["abcd"] is one of the longest word chains.
-```
+  ```tc
+  Input: words = ["a","b","ba","bca","bda","bdca"]
+  Output: 4  # One of the longest word chains is ["a","ba","bda","bdca"].
+
+  Input: words = ["xbc","pcxbcf","xb","cxbc","pcxbc"]
+  Output: 5  # All the words can be put in a word chain ["xb", "xbc", "cxbc", "pcxbc", "pcxbcf"].
+
+  Input: words = ["abcd","dbqca"]
+  Output: 1  # The trivial word chain ["abcd"] is one of the longest word chains.
+  ```
 
 ## Solution
 

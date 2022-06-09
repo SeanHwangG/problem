@@ -1,13 +1,17 @@
 # [KT_planina](https://open.kattis.com/problems/planina)
 
-```en
-Find number of points in Nth iteration
-```
+* en
 
-```txt
-Input: 1
-Output: 9
-```
+  ```en
+  Find number of points in Nth iteration
+  ```
+
+* tc
+
+  ```tc
+  Input: 1
+  Output: 9
+  ```
 
 ## Solution
 

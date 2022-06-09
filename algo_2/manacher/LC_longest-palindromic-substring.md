@@ -1,14 +1,18 @@
 # [LC_longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring)
 
-```en
-Given a string s, return the longest palindromic substring in s
-```
+* en
 
-```txt
-Input: s = "babad"
-Output: "bab"
+  ```en
+  Given a string s, return the longest palindromic substring in s
+  ```
 
-```
+* tc
+
+  ```tc
+  Input: s = "babad"
+  Output: "bab"
+
+  ```
 
 ## Solution
 

@@ -1,20 +1,24 @@
 # [LC_number-of-distinct-islands-ii](https://leetcode.com/problems/number-of-distinct-islands-ii)
 
-```en
-Island is group of 1's (representing land) connected 4-directionally (horizontal or vertical)
-Island is considered to be the same as another if they have same shape, or have same shape after rotation or reflection
-```
+* en
 
-```txt
-Input:
-grid =
-[[1,1,0,0,0],
- [1,0,0,0,0],
- [0,0,0,0,1],
- [0,0,0,1,1]]
+  ```en
+  Island is group of 1's (representing land) connected 4-directionally (horizontal or vertical)
+  Island is considered to be the same as another if they have same shape, or have same shape after rotation or reflection
+  ```
 
-Output: 1
-```
+* tc
+
+  ```tc
+  Input:
+  grid =
+  [[1,1,0,0,0],
+   [1,0,0,0,0],
+   [0,0,0,0,1],
+   [0,0,0,1,1]]
+
+  Output: 1
+  ```
 
 ## Solution
 

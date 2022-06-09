@@ -1,20 +1,24 @@
 # [LC_constrained-subsequence-sum](https://leetcode.com/problems/constrained-subsequence-sum)
 
-```en
-Given int array nums and int k, return the maximum sum of a non-empty subsequence
-ST for every two consecutive int in subsequence, nums[i] and nums[j], where i < j, condition j - i <= k is satisfied
-```
+* en
 
-```txt
-Input: nums = [10,2,-10,5,20], k = 2
-Output: 37  # The subsequence is [10, 2, 5, 20].
+  ```en
+  Given int array nums and int k, return the maximum sum of a non-empty subsequence
+  ST for every two consecutive int in subsequence, nums[i] and nums[j], where i < j, condition j - i <= k is satisfied
+  ```
 
-Input: nums = [-1,-2,-3], k = 1
-Output: -1
+* tc
 
-Input: nums = [10,-2,-10,-5,20], k = 2
-Output: 23  # The subsequence is [10, -2, -5, 20].
-```
+  ```tc
+  Input: nums = [10,2,-10,5,20], k = 2
+  Output: 37  # The subsequence is [10, 2, 5, 20].
+
+  Input: nums = [-1,-2,-3], k = 1
+  Output: -1
+
+  Input: nums = [10,-2,-10,-5,20], k = 2
+  Output: 23  # The subsequence is [10, -2, -5, 20].
+  ```
 
 ## Solution
 

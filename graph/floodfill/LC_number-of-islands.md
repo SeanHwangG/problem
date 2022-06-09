@@ -1,19 +1,23 @@
 # [LC_number-of-islands](https://leetcode.com/problems/number-of-islands)
 
-```en
-Find number of island
-```
+* en
 
-```txt
-Input: grid = [
-  ["1","1","1","1","0"],
-  ["1","1","0","1","0"],
-  ["1","1","0","0","0"],
-  ["0","0","0","0","0"]
-]
+  ```en
+  Find number of island
+  ```
 
-Output: 1
-```
+* tc
+
+  ```tc
+  Input: grid = [
+    ["1","1","1","1","0"],
+    ["1","1","0","1","0"],
+    ["1","1","0","0","0"],
+    ["0","0","0","0","0"]
+  ]
+
+  Output: 1
+  ```
 
 ## Solution
 

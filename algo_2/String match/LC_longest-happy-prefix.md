@@ -1,17 +1,21 @@
 # [LC_longest-happy-prefix](https://leetcode.com/problems/longest-happy-prefix)
 
-```en
-String is called happy prefix if is non-empty prefix which is also a suffix (excluding itself)
-Given a string s, return longest happy prefix of s, empty string "" if no such prefix exists
-```
+* en
 
-```txt
-Input: s = "level"
-Output: "l"
+  ```en
+  String is called happy prefix if is non-empty prefix which is also a suffix (excluding itself)
+  Given a string s, return longest happy prefix of s, empty string "" if no such prefix exists
+  ```
 
-Input: s = "ababab"
-Output: "abab"
-```
+* tc
+
+  ```tc
+  Input: s = "level"
+  Output: "l"
+
+  Input: s = "ababab"
+  Output: "abab"
+  ```
 
 ## Solution
 

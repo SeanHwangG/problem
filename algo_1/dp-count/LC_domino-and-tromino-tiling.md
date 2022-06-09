@@ -1,13 +1,17 @@
 # [LC_domino-and-tromino-tiling](https://leetcode.com/problems/domino-and-tromino-tiling)
 
-```en
-Given two types of domino (I and L), find the number of ways to tile 2 * N board
-```
+* en
 
-```txt
-Input: n = 3
-Output: 5
-```
+  ```en
+  Given two types of domino (I and L), find the number of ways to tile 2 * N board
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 3
+  Output: 5
+  ```
 
 ## Solution
 

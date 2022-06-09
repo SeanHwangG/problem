@@ -1,21 +1,25 @@
 # [HR_html-attributes](https://www.hackerrank.com/challenges/html-attributes)
 
-```en
-tag-n:attribute-1,attribute-2,attribute-3...
-Where tag-1 is lexicographically smaller than tag-2 and attribute-1 is lexicographically smaller than attribute-2
-```
+* en
 
-```txt
-Input:
-2
-<p><a href="http://www.quackit.com/html/tutorial/html_links.cfm">Example Link</a></p>
-<div class="more-info"><a href="http://www.quackit.com/html/examples/html_links_examples.cfm">More Link Examples...</a></div>
+  ```en
+  tag-n:attribute-1,attribute-2,attribute-3...
+  Where tag-1 is lexicographically smaller than tag-2 and attribute-1 is lexicographically smaller than attribute-2
+  ```
 
-Output:
-a:href
-div:class
-p:
-```
+* tc
+
+  ```tc
+  Input:
+  2
+  <p><a href="http://www.quackit.com/html/tutorial/html_links.cfm">Example Link</a></p>
+  <div class="more-info"><a href="http://www.quackit.com/html/examples/html_links_examples.cfm">More Link Examples...</a></div>
+
+  Output:
+  a:href
+  div:class
+  p:
+  ```
 
 ## Solution
 

@@ -1,14 +1,18 @@
 # [LC_single-number-ii](https://leetcode.com/problems/single-number-ii)
 
-```en
-Given int array nums where every element appears 3 times except for one, which appears exactly once
-Find single element and return it
-```
+* en
 
-```txt
-Input: nums = [0,1,0,1,0,1,99]
-Output: 99
-```
+  ```en
+  Given int array nums where every element appears 3 times except for one, which appears exactly once
+  Find single element and return it
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [0,1,0,1,0,1,99]
+  Output: 99
+  ```
 
 ## Solution
 

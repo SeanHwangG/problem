@@ -1,13 +1,17 @@
 # [KT_sjecista](https://open.kattis.com/problems/sjecista)
 
-```en
-Find n choose M
-```
+* en
 
-```txt
-Input: 100 6
-Output: 1192052400
-```
+  ```en
+  Find n choose M
+  ```
+
+* tc
+
+  ```tc
+  Input: 100 6
+  Output: 1192052400
+  ```
 
 ## Solution
 

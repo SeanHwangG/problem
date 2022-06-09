@@ -1,13 +1,17 @@
 # [LC_goal-parser-interpretation](https://leetcode.com/problems/goal-parser-interpretation)
 
-```en
+* en
 
-```
+  ```en
 
-```txt
-Input: command = "G()()()()(al)"
-Output: "Gooooal"
-```
+  ```
+
+* tc
+
+  ```tc
+  Input: command = "G()()()()(al)"
+  Output: "Gooooal"
+  ```
 
 ## Solution
 

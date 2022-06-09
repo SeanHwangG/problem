@@ -1,24 +1,28 @@
 # [KT_dicecup](https://open.kattis.com/problems/dicecup)
 
-```en
-Two dices with a, b sides
-Print all numbers that appear with highest probability
-```
+* en
 
-```txt
-Input: 12 20
+  ```en
+  Two dices with a, b sides
+  Print all numbers that appear with highest probability
+  ```
 
-Output:
-13
-14
-15
-16
-17
-18
-19
-20
-21
-```
+* tc
+
+  ```tc
+  Input: 12 20
+
+  Output:
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  ```
 
 ## Solution
 

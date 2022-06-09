@@ -1,15 +1,19 @@
 # [LC_n-queens](https://leetcode.com/problems/n-queens)
 
-```en
-Return all answer for NQueen
-```
+* en
 
-```txt
-Input: n = 4
-Output:
-[[".Q..","...Q","Q...","..Q."],
- ["..Q.","Q...","...Q",".Q.."]]
-```
+  ```en
+  Return all answer for NQueen
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 4
+  Output:
+  [[".Q..","...Q","Q...","..Q."],
+   ["..Q.","Q...","...Q",".Q.."]]
+  ```
 
 ## Solution
 

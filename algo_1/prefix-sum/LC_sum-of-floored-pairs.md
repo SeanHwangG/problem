@@ -1,17 +1,21 @@
 # [LC_sum-of-floored-pairs](https://leetcode.com/problems/sum-of-floored-pairs)
 
-```en
-Given int array, return sum of floor(nums[i] / nums[j]) for all pairs 0 <= i, j < nums.length MOD 10^9+7
-The floor() function returns the integer part of the division.
-```
+* en
 
-```txt
-Input: nums = [2,5,9]
-Output: 10
+  ```en
+  Given int array, return sum of floor(nums[i] / nums[j]) for all pairs 0 <= i, j < nums.length MOD 10^9+7
+  The floor() function returns the integer part of the division.
+  ```
 
-Input: nums = [7,7,7,7,7,7,7]
-Output: 49
-```
+* tc
+
+  ```tc
+  Input: nums = [2,5,9]
+  Output: 10
+
+  Input: nums = [7,7,7,7,7,7,7]
+  Output: 49
+  ```
 
 ## Solution
 

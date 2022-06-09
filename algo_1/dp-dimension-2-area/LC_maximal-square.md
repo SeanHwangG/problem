@@ -1,13 +1,17 @@
 # [LC_maximal-square](https://leetcode.com/problems/maximal-square)
 
-```en
-Find largest square containing only 1's
-```
+* en
 
-```txt
-Input: matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
-Output: 4
-```
+  ```en
+  Find largest square containing only 1's
+  ```
+
+* tc
+
+  ```tc
+  Input: matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
+  Output: 4
+  ```
 
 ## Solution
 

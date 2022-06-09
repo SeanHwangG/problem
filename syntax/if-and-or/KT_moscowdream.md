@@ -1,19 +1,25 @@
 # [KT_moscowdream](https://open.kattis.com/problems/moscowdream)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-첫줄에 a, b, c, d가 주어진다
-이는 각각 easy, medium, hard, total문제 개수 이다
-easy, medium, hard를 모두 포함하고, 총 문제 수가 total인 문제집을 만들 수 있으면 YES 아니면 NO를 출력하라
-```
+  ```
 
-```txt
-Input: 0 3 3 5
-Output: NO
-```
+* kr
+
+  ```kr
+  첫줄에 a, b, c, d가 주어진다
+  이는 각각 easy, medium, hard, total문제 개수 이다
+  easy, medium, hard를 모두 포함하고, 총 문제 수가 total인 문제집을 만들 수 있으면 YES 아니면 NO를 출력하라
+  ```
+
+* tc
+
+  ```tc
+  Input: 0 3 3 5
+  Output: NO
+  ```
 
 ## Solution
 

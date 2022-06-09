@@ -1,16 +1,20 @@
 # [LC_brace-expansion-ii](https://leetcode.com/problems/brace-expansion-ii)
 
-```en
+* en
 
-```
+  ```en
 
-```txt
-Input: "{a,b}{c,{d,e}}"
-Output: ["ac","ad","ae","bc","bd","be"]
+  ```
 
-Input: "{{a,z},a{b,c},{ab,z}}"
-Output: ["a","ab","ac","z"]
-```
+* tc
+
+  ```tc
+  Input: "{a,b}{c,{d,e}}"
+  Output: ["ac","ad","ae","bc","bd","be"]
+
+  Input: "{{a,z},a{b,c},{ab,z}}"
+  Output: ["a","ab","ac","z"]
+  ```
 
 ## Solution
 

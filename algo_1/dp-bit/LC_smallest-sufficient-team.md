@@ -1,23 +1,27 @@
 # [LC_smallest-sufficient-team](https://leetcode.com/problems/smallest-sufficient-team)
 
-```en
-In a project, you have a list of required skills req_skills, and a list of people
-The ith person people[i] contains a list of skills that the person has
-Sufficient team: set of people ST for every required skill in req_skills, there should be person with that skill
-  Can represent these teams by the index of each person
-Return any sufficient team of the smallest possible size, represented by the index of each person in any order
-```
+* en
 
-```txt
-Input: req_skills = ["java","nodejs","reactjs"], people = [["java"],["nodejs"],["nodejs","reactjs"]]
-Output: [0,2]
+  ```en
+  In a project, you have a list of required skills req_skills, and a list of people
+  The ith person people[i] contains a list of skills that the person has
+  Sufficient team: set of people ST for every required skill in req_skills, there should be person with that skill
+    Can represent these teams by the index of each person
+  Return any sufficient team of the smallest possible size, represented by the index of each person in any order
+  ```
 
-Input:
-req_skills = ["algorithms","math","java","reactjs","csharp","aws"],
-people = [["algorithms","math","java"],["algorithms","math","reactjs"],["java","csharp","aws"],["reactjs","csharp"],
-  ["csharp","math"],["aws","java"]]
-Output: [1,2]
-```
+* tc
+
+  ```tc
+  Input: req_skills = ["java","nodejs","reactjs"], people = [["java"],["nodejs"],["nodejs","reactjs"]]
+  Output: [0,2]
+
+  Input:
+  req_skills = ["algorithms","math","java","reactjs","csharp","aws"],
+  people = [["algorithms","math","java"],["algorithms","math","reactjs"],["java","csharp","aws"],["reactjs","csharp"],
+    ["csharp","math"],["aws","java"]]
+  Output: [1,2]
+  ```
 
 ## Solution
 

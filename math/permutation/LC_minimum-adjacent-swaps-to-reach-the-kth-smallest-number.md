@@ -1,15 +1,19 @@
 # [LC_minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number)
 
-```en
-Given string num, representing a large integer, and an integer k
-Int is wonderful if it's a permutation of digits in num and is greater in value than num
-Return min number of adjacent digit swaps that needs to be applied to num to reach kth smallest wonderful int
-```
+* en
 
-```txt
-Input: num = "11112", k = 4
-Output: 4
-```
+  ```en
+  Given string num, representing a large integer, and an integer k
+  Int is wonderful if it's a permutation of digits in num and is greater in value than num
+  Return min number of adjacent digit swaps that needs to be applied to num to reach kth smallest wonderful int
+  ```
+
+* tc
+
+  ```tc
+  Input: num = "11112", k = 4
+  Output: 4
+  ```
 
 ## Solution
 

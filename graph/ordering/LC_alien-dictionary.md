@@ -1,17 +1,21 @@
 # [LC_alien-dictionary](https://leetcode.com/problems/alien-dictionary)
 
-```en
-There is new alien language that uses English alphabet. However, order among letters is unknown to you
-Given list of words from alien language's dictionary, with sorted string by rule of this new language
-```
+* en
 
-```txt
-Input: words = ["wrt","wrf","er","ett","rftt"]
-Output: "wertf"
+  ```en
+  There is new alien language that uses English alphabet. However, order among letters is unknown to you
+  Given list of words from alien language's dictionary, with sorted string by rule of this new language
+  ```
 
-Input: words = ["z","x","z"]
-Output: ""  # The order is invalid, so return "".
-```
+* tc
+
+  ```tc
+  Input: words = ["wrt","wrf","er","ett","rftt"]
+  Output: "wertf"
+
+  Input: words = ["z","x","z"]
+  Output: ""  # The order is invalid, so return "".
+  ```
 
 ## Solution
 

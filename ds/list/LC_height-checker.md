@@ -1,19 +1,23 @@
 # [LC_height-checker](https://leetcode.com/problems/height-checker)
 
-```en
-Return the number of indices where heights[i] != expected[i]
-```
+* en
 
-```txt
-Input: heights = [1,1,4,2,1,3]
-Output: 3  # 4, 1, 3
+  ```en
+  Return the number of indices where heights[i] != expected[i]
+  ```
 
-Input: heights = [5,1,2,3,4]
-Output: 5
+* tc
 
-Input: heights = [1,2,3,4,5]
-Output: 0
-```
+  ```tc
+  Input: heights = [1,1,4,2,1,3]
+  Output: 3  # 4, 1, 3
+
+  Input: heights = [5,1,2,3,4]
+  Output: 5
+
+  Input: heights = [1,2,3,4,5]
+  Output: 0
+  ```
 
 ## Solution
 

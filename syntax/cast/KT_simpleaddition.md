@@ -1,15 +1,19 @@
 # [KT_simpleaddition](https://open.kattis.com/problems/simpleaddition)
 
-```en
-Print a + b
-```
+* en
 
-```txt
-Input: 3
-5
+  ```en
+  Print a + b
+  ```
 
-Output: 8
-```
+* tc
+
+  ```tc
+  Input: 3
+  5
+
+  Output: 8
+  ```
 
 ## Solution
 

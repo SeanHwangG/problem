@@ -1,13 +1,17 @@
 # [LC_course-schedule](https://leetcode.com/problems/course-schedule)
 
-```en
-Given jobs and prerequisite, check if all jobs can be done
-```
+* en
 
-```txt
-Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
-Output: false
-```
+  ```en
+  Given jobs and prerequisite, check if all jobs can be done
+  ```
+
+* tc
+
+  ```tc
+  Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
+  Output: false
+  ```
 
 ## Solution
 

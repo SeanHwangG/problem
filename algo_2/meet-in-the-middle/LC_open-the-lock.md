@@ -1,17 +1,21 @@
 # [LC_open-the-lock](https://leetcode.com/problems/open-the-lock)
 
-```en
-Given lock with 4 circular wheels. Each wheel has 10 slots: '0-9'
-Wheels can rotate freely and wrap around, each move consists of turning one wheel one slot. (ex: '9'<->'0')
-Lock initially starts at '0000', a string representing the state of the 4 wheels.
-Given deadends lists, meaning if lock displays these, wheels of lock will stop turning, will be unable to open it
-Given password, Return min total # turns required to open lock, or -1 if it's impossible
-```
+* en
 
-```txt
-Input: deadends = ["0201","0101","0102","1212","2002"], target = "0202"
-Output: 6
-```
+  ```en
+  Given lock with 4 circular wheels. Each wheel has 10 slots: '0-9'
+  Wheels can rotate freely and wrap around, each move consists of turning one wheel one slot. (ex: '9'<->'0')
+  Lock initially starts at '0000', a string representing the state of the 4 wheels.
+  Given deadends lists, meaning if lock displays these, wheels of lock will stop turning, will be unable to open it
+  Given password, Return min total # turns required to open lock, or -1 if it's impossible
+  ```
+
+* tc
+
+  ```tc
+  Input: deadends = ["0201","0101","0102","1212","2002"], target = "0202"
+  Output: 6
+  ```
 
 ## Solution
 

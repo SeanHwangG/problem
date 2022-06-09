@@ -1,14 +1,18 @@
 # [KT_conundrum](https://open.kattis.com/problems/conundrum)
 
-```en
-How many character must be change to make the string as PERPERPER...
+* en
 
-```
+  ```en
+  How many character must be change to make the string as PERPERPER...
 
-```txt
-Input: SECRET
-Output: 4
-```
+  ```
+
+* tc
+
+  ```tc
+  Input: SECRET
+  Output: 4
+  ```
 
 ## Solution
 

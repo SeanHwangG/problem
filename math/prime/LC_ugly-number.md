@@ -1,14 +1,18 @@
 # [LC_ugly-number](https://leetcode.com/problems/ugly-number)
 
-```en
-Given int n, return true if n is an ugly number
-Ugly number is a positive number whose prime factors only include 2, 3, and/or 5
-```
+* en
 
-```txt
-Input: 6
-Output: true
-```
+  ```en
+  Given int n, return true if n is an ugly number
+  Ugly number is a positive number whose prime factors only include 2, 3, and/or 5
+  ```
+
+* tc
+
+  ```tc
+  Input: 6
+  Output: true
+  ```
 
 ## Solution
 

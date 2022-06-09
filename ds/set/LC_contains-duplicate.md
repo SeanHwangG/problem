@@ -1,13 +1,17 @@
 # [LC_contains-duplicate](https://leetcode.com/problems/contains-duplicate)
 
-```en
-Check whether list has duplicates in it
-```
+* en
 
-```txt
-Input: nums = [1,2,3,4]
-Output: false
-```
+  ```en
+  Check whether list has duplicates in it
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,3,4]
+  Output: false
+  ```
 
 ## Solution
 

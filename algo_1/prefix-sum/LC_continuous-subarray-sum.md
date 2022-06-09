@@ -1,14 +1,18 @@
 # [LC_continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum)
 
-```en
-Given int array nums and an integer k
-Return if nums has a continuous subarray of size at least two whose elements sum up to multiple of k
-```
+* en
 
-```txt
-Input: nums = [23,2,4,6,7], k = 6
-Output: true
-```
+  ```en
+  Given int array nums and an integer k
+  Return if nums has a continuous subarray of size at least two whose elements sum up to multiple of k
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [23,2,4,6,7], k = 6
+  Output: true
+  ```
 
 ## Solution
 

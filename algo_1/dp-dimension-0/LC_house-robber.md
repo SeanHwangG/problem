@@ -1,15 +1,19 @@
 # [LC_house-robber](https://leetcode.com/problems/house-robber)
 
-```en
-Each house has a certain amount of money stashed
-Adjacent houses have security systems connected
-Automatically contact the police if two adjacent houses were broken into on the same night
-```
+* en
 
-```txt
-Input: nums = [1,2,3,1]
-Output: 4
-```
+  ```en
+  Each house has a certain amount of money stashed
+  Adjacent houses have security systems connected
+  Automatically contact the police if two adjacent houses were broken into on the same night
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,3,1]
+  Output: 4
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_encode-and-decode-tinyurl](https://leetcode.com/problems/encode-and-decode-tinyurl)
 
-```en
-Design url shortener
-```
+* en
 
-```txt
-Input: url = "https://leetcode.com/problems/design-tinyurl"
-Output: "https://leetcode.com/problems/design-tinyurl"
-```
+  ```en
+  Design url shortener
+  ```
+
+* tc
+
+  ```tc
+  Input: url = "https://leetcode.com/problems/design-tinyurl"
+  Output: "https://leetcode.com/problems/design-tinyurl"
+  ```
 
 ## Solution
 

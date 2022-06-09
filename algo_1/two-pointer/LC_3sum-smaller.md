@@ -1,14 +1,18 @@
 # [LC_3sum-smaller](https://leetcode.com/problems/3sum-smaller)
 
-```en
-Given integers and a target
-Find number of index triplets i, j, k with 0 <= i < j < k < n st condition nums[i] + nums[j] + nums[k] < target
-```
+* en
 
-```txt
-Input: nums = [-2,0,1,3], and target = 2
-Output: 2
-```
+  ```en
+  Given integers and a target
+  Find number of index triplets i, j, k with 0 <= i < j < k < n st condition nums[i] + nums[j] + nums[k] < target
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [-2,0,1,3], and target = 2
+  Output: 2
+  ```
 
 ## Solution
 

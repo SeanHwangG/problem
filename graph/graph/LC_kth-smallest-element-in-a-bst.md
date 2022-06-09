@@ -1,13 +1,17 @@
 # [LC_kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst)
 
-```en
-Given root of binary search tree, and an integer k, return kth (1-indexed) smallest element in the tree
-```
+* en
 
-```txt
-Input: root = [5,3,6,2,4,null,null,1], k = 3
-Output: 3
-```
+  ```en
+  Given root of binary search tree, and an integer k, return kth (1-indexed) smallest element in the tree
+  ```
+
+* tc
+
+  ```tc
+  Input: root = [5,3,6,2,4,null,null,1], k = 3
+  Output: 3
+  ```
 
 ## Solution
 

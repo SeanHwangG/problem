@@ -1,13 +1,17 @@
 # [LC_maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray)
 
-```en
-Print maximum product subarray
-```
+* en
 
-```txt
-Input: nums = [2,3,-2,4]
-Output: 6
-```
+  ```en
+  Print maximum product subarray
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [2,3,-2,4]
+  Output: 6
+  ```
 
 ## Solution
 

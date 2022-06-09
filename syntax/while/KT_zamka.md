@@ -1,18 +1,22 @@
 # [KT_zamka](https://open.kattis.com/problems/zamka)
 
-```en
-Determine minimal integer N such that L≤N≤D and sum of its digits is X
-Determine maximal integer M such that L≤M≤D and sum of its digits is X
-```
+* en
 
-```txt
-Input: 1
-100
-4
-Output:
-4
-40
-```
+  ```en
+  Determine minimal integer N such that L≤N≤D and sum of its digits is X
+  Determine maximal integer M such that L≤M≤D and sum of its digits is X
+  ```
+
+* tc
+
+  ```tc
+  Input: 1
+  100
+  4
+  Output:
+  4
+  40
+  ```
 
 ## Solution
 

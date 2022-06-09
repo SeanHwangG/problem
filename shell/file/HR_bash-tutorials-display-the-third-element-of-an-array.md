@@ -1,18 +1,22 @@
 # [HR_bash-tutorials-display-the-third-element-of-an-array](https://www.hackerrank.com/challenges/bash-tutorials-display-the-third-element-of-an-array)
 
-```en
-Display 4th line
-```
+* en
 
-```txt
-Input:
-Namibia
-Nauru
-Nepal
-Netherlands
+  ```en
+  Display 4th line
+  ```
 
-Output: Netherlands
-```
+* tc
+
+  ```tc
+  Input:
+  Namibia
+  Nauru
+  Nepal
+  Netherlands
+
+  Output: Netherlands
+  ```
 
 ## Solution
 

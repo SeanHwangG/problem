@@ -1,17 +1,21 @@
 # [LC_implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree)
 
-```en
-Design Trie
-```
+* en
 
-```txt
-Input:
-["Trie", "insert", "search", "search", "startsWith", "insert", "search"]
-[[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
+  ```en
+  Design Trie
+  ```
 
-Output:
-[null, null, true, false, true, null, true]
-```
+* tc
+
+  ```tc
+  Input:
+  ["Trie", "insert", "search", "search", "startsWith", "insert", "search"]
+  [[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
+
+  Output:
+  [null, null, true, false, true, null, true]
+  ```
 
 ## Solution
 

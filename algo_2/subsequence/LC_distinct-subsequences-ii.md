@@ -1,13 +1,17 @@
 # [LC_distinct-subsequences-ii](https://leetcode.com/problems/distinct-subsequences-ii)
 
-```en
-Count the number of distinct, non-empty subsequences of S
-```
+* en
 
-```txt
-Input: s = "abc"
-Output: 7   # "a", "b", "c", "ab", "ac", "bc", and "abc".
-```
+  ```en
+  Count the number of distinct, non-empty subsequences of S
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "abc"
+  Output: 7   # "a", "b", "c", "ab", "ac", "bc", and "abc".
+  ```
 
 ## Solution
 

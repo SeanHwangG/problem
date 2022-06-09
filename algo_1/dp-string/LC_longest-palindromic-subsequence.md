@@ -1,14 +1,17 @@
 # [LC_longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)
 
-```en
-Given a string s, find the longest palindromic subsequence's length in s
-```
+* en
 
-```txt
-Input: s = "(()"
-Output: 2
+  ```en
+  Given a string s, find the longest palindromic subsequence's length in s
+  ```
 
-```
+* tc
+
+  ```tc
+  Input: s = "(()"
+  Output: 2
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [HR_negative-lookbehind](https://www.hackerrank.com/challenges/negative-lookbehind)
 
-```en
-Match all the occurences of characters which are not immediately preceded by vowels
-```
+* en
 
-```txt
-Input: abru
-Output: Number of matches : 3   # abr
-```
+  ```en
+  Match all the occurences of characters which are not immediately preceded by vowels
+  ```
+
+* tc
+
+  ```tc
+  Input: abru
+  Output: Number of matches : 3   # abr
+  ```
 
 ## Solution
 

@@ -1,22 +1,26 @@
 # [HR_weather-observation-station-10](https://www.hackerrank.com/challenges/weather-observation-station-10)
 
-```en
-List of CITY names from STATION that do not end with vowels without duplicates
-```
+* en
 
-```txt
-Input:
-| Id   | City       | Country | State        | Zip    |
-| ---- | ---------- | ------- | ------------ | ------ |
-| 6    | Rotterdam  | NLD     | Zuid-Holland | 593321 |
-| 1661 | Ecottsdale | USA     | Arizona      | 202705 |
-| 3965 | Corona     | USA     | California   | 124966 |
+  ```en
+  List of CITY names from STATION that do not end with vowels without duplicates
+  ```
 
-Output:
-| Id  | City      | Country | State        | Zip    |
-| --- | --------- | ------- | ------------ | ------ |
-| 6   | Rotterdam | NLD     | Zuid-Holland | 593321 |
-```
+* tc
+
+  ```tc
+  Input:
+  | Id   | City       | Country | State        | Zip    |
+  | ---- | ---------- | ------- | ------------ | ------ |
+  | 6    | Rotterdam  | NLD     | Zuid-Holland | 593321 |
+  | 1661 | Ecottsdale | USA     | Arizona      | 202705 |
+  | 3965 | Corona     | USA     | California   | 124966 |
+
+  Output:
+  | Id  | City      | Country | State        | Zip    |
+  | --- | --------- | ------- | ------------ | ------ |
+  | 6   | Rotterdam | NLD     | Zuid-Holland | 593321 |
+  ```
 
 ## Solution
 

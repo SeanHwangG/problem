@@ -1,25 +1,29 @@
 # [HR_weather-observation-station-20](https://www.hackerrank.com/challenges/weather-observation-station-20)
 
-```en
-Query median of Northern Latitudes (LAT_N) from STATION and round your answer to 4 decimal places
-```
+* en
 
-```txt
-Input:
-* STATION
+  ```en
+  Query median of Northern Latitudes (LAT_N) from STATION and round your answer to 4 decimal places
+  ```
 
-| LAT_N | City       |
-| ----- | ---------- |
-| 10    | Rotterdam  |
-| 123   | Ecottsdale |
-| 123   | Corona     |
+* tc
 
-Output:
+  ```tc
+  Input:
+  * STATION
 
-| Median   |
-| -------- |
-| 123.0000 |
-```
+  | LAT_N | City       |
+  | ----- | ---------- |
+  | 10    | Rotterdam  |
+  | 123   | Ecottsdale |
+  | 123   | Corona     |
+
+  Output:
+
+  | Median   |
+  | -------- |
+  | 123.0000 |
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_number-of-distinct-substrings-in-a-string](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string)
 
-```en
-Given a string s, return the number of distinct substrings of s.
-```
+* en
 
-```txt
-Input: s = "aabbaba"
-Output: 21  # ["a","b","aa","bb","ab","ba","aab","abb","bab","bba","aba","aabb","abba","bbab","baba","aabba","abbab","bbaba","aabbab","abbaba","aabbaba"]
-```
+  ```en
+  Given a string s, return the number of distinct substrings of s.
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "aabbaba"
+  Output: 21  # ["a","b","aa","bb","ab","ba","aab","abb","bab","bba","aba","aabb","abba","bbab","baba","aabba","abbab","bbaba","aabbab","abbaba","aabbaba"]
+  ```
 
 ## Solution
 

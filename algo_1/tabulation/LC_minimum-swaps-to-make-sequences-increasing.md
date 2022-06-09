@@ -1,14 +1,18 @@
 # [LC_minimum-swaps-to-make-sequences-increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing)
 
-```en
-We can swap elements A[i] and B[i]
-Find the minimum number of swaps so that A and B are both strictly increasing
-```
+* en
 
-```txt
-Input: nums1 = [1,3,5,4], nums2 = [1,2,3,7]
-Output: 1
-```
+  ```en
+  We can swap elements A[i] and B[i]
+  Find the minimum number of swaps so that A and B are both strictly increasing
+  ```
+
+* tc
+
+  ```tc
+  Input: nums1 = [1,3,5,4], nums2 = [1,2,3,7]
+  Output: 1
+  ```
 
 ## Solution
 

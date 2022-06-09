@@ -1,34 +1,38 @@
 # [LC_winning-candidate](https://leetcode.com/problems/winning-candidate)
 
-```en
-Find the name of the winning candidate, the above example will return the winner B
-```
+* en
 
-```txt
-Input:
-Candidate
-  | id  | Name |
-  | --- | ---- |
-  | 1   | A    |
-  | 2   | B    |
-  | 3   | C    |
-  | 4   | D    |
-  | 5   | E    |
+  ```en
+  Find the name of the winning candidate, the above example will return the winner B
+  ```
 
-Vote
-  | id  | CandidateId |
-  | --- | ----------- |
-  | 1   | 2           |
-  | 2   | 4           |
-  | 3   | 3           |
-  | 4   | 2           |
-  | 5   | 5           |
+* tc
 
-Output:
-| Name |
-| ---- |
-| B    |
-```
+  ```tc
+  Input:
+  Candidate
+    | id  | Name |
+    | --- | ---- |
+    | 1   | A    |
+    | 2   | B    |
+    | 3   | C    |
+    | 4   | D    |
+    | 5   | E    |
+
+  Vote
+    | id  | CandidateId |
+    | --- | ----------- |
+    | 1   | 2           |
+    | 2   | 4           |
+    | 3   | 3           |
+    | 4   | 2           |
+    | 5   | 5           |
+
+  Output:
+  | Name |
+  | ---- |
+  | B    |
+  ```
 
 ## Solution
 

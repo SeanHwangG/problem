@@ -1,16 +1,20 @@
 # [HR_paste-1](https://www.hackerrank.com/challenges/paste-1)
 
-```en
-Join all rows with ;
-```
+* en
 
-```txt
-Input: Albany, N.Y.
-Albuquerque, N.M.
-Anchorage, Alaska
-Output:
-Albany, N.Y.;Albuquerque, N.M.;Anchorage, Alaska
-```
+  ```en
+  Join all rows with ;
+  ```
+
+* tc
+
+  ```tc
+  Input: Albany, N.Y.
+  Albuquerque, N.M.
+  Anchorage, Alaska
+  Output:
+  Albany, N.Y.;Albuquerque, N.M.;Anchorage, Alaska
+  ```
 
 ## Solution
 

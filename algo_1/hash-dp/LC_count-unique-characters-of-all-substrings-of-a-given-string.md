@@ -1,19 +1,23 @@
 # [LC_count-unique-characters-of-all-substrings-of-a-given-string](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string)
 
-```en
-Let's define a function countUniqueChars(s) that returns the number of unique characters on s.
-(ex: if s = "LEETCODE" then "L", "T", "C", "O", "D" are the unique characters since they appear only once in s, 5.)
-Given a string s, return the sum of countUniqueChars(t) where t is a substring of s.
-Notice that some substrings can be repeated so in this case you have to count the repeated ones too.
-```
+* en
 
-```txt
-Input: s = "ABC"
-Output: 10  # "A","B","C","AB","BC" and "ABC".
+  ```en
+  Let's define a function countUniqueChars(s) that returns the number of unique characters on s.
+  (ex: if s = "LEETCODE" then "L", "T", "C", "O", "D" are the unique characters since they appear only once in s, 5.)
+  Given a string s, return the sum of countUniqueChars(t) where t is a substring of s.
+  Notice that some substrings can be repeated so in this case you have to count the repeated ones too.
+  ```
 
-Input: s = "ABA"
-Output: 8
-```
+* tc
+
+  ```tc
+  Input: s = "ABC"
+  Output: 10  # "A","B","C","AB","BC" and "ABC".
+
+  Input: s = "ABA"
+  Output: 8
+  ```
 
 ## Solution
 

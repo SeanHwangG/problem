@@ -1,14 +1,18 @@
 # [LC_longest-palindrome](https://leetcode.com/problems/longest-palindrome)
 
-```en
-Given a string s which consists of lowercase or uppercase letters
-Return length of longest palindrome that can be built with those letters
-```
+* en
 
-```txt
-Input: s = "abccccdd"
-Output: 7
-```
+  ```en
+  Given a string s which consists of lowercase or uppercase letters
+  Return length of longest palindrome that can be built with those letters
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "abccccdd"
+  Output: 7
+  ```
 
 ## Solution
 

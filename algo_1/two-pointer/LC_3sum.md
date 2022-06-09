@@ -1,13 +1,17 @@
 # [LC_3sum](https://leetcode.com/problems/3sum)
 
-```en
-Find list of three indices that sums up to zero
-```
+* en
 
-```txt
-Input: nums = [-1,2,1,-4], target = 1
-Output: 2
-```
+  ```en
+  Find list of three indices that sums up to zero
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [-1,2,1,-4], target = 1
+  Output: 2
+  ```
 
 ## Solution
 

@@ -1,17 +1,23 @@
 # [KT_datum](https://open.kattis.com/problems/datum)
 
-```en
-Print date of 2009/m/d
-```
+* en
 
-```kr
-2009년 m월 d일의 날짜를 구하라
-```
+  ```en
+  Print date of 2009/m/d
+  ```
 
-```txt
-Input: 17 1
-Output: Saturday
-```
+* kr
+
+  ```kr
+  2009년 m월 d일의 날짜를 구하라
+  ```
+
+* tc
+
+  ```tc
+  Input: 17 1
+  Output: Saturday
+  ```
 
 ## Solution
 

@@ -1,15 +1,19 @@
 # [KT_herman](https://open.kattis.com/problems/herman)
 
-```en
-Print area of circle with radius n. then print n ** 2 * 2
-```
+* en
 
-```txt
-Input: 1
-Output:
-3.141593
-2.000000
-```
+  ```en
+  Print area of circle with radius n. then print n ** 2 * 2
+  ```
+
+* tc
+
+  ```tc
+  Input: 1
+  Output:
+  3.141593
+  2.000000
+  ```
 
 ## Solution
 

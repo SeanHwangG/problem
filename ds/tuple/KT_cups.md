@@ -1,26 +1,32 @@
 # [KT_cups](https://open.kattis.com/problems/cups)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-n개 줄에 색 반지름 / 지름 색
-둘 중 하나의 포맷으로 주어진다. 이 색들을 작은 반지름 순서대로 출력하라
-```
+  ```
 
-```txt
-Input:
-3
-red 10
-10 blue
-green 7
+* kr
 
-Output:
-blue
-green
-red
-```
+  ```kr
+  n개 줄에 색 반지름 / 지름 색
+  둘 중 하나의 포맷으로 주어진다. 이 색들을 작은 반지름 순서대로 출력하라
+  ```
+
+* tc
+
+  ```tc
+  Input:
+  3
+  red 10
+  10 blue
+  green 7
+
+  Output:
+  blue
+  green
+  red
+  ```
 
 ## Solution
 

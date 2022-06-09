@@ -1,17 +1,21 @@
 # [HR_matching-whitespace-non-whitespace-character](https://www.hackerrank.com/challenges/matching-whitespace-non-whitespace-character)
 
-```en
-You have a test string S. Your task is to match the pattern XXxXXxXX
-Here, x denotes whitespace characters, and X denotes non-white space characters
-```
+* en
 
-```txt
-Input: 12 11 15
-Output: True
+  ```en
+  You have a test string S. Your task is to match the pattern XXxXXxXX
+  Here, x denotes whitespace characters, and X denotes non-white space characters
+  ```
 
-Input: 12 12  123
-Output: False
-```
+* tc
+
+  ```tc
+  Input: 12 11 15
+  Output: True
+
+  Input: 12 12  123
+  Output: False
+  ```
 
 ## Solution
 

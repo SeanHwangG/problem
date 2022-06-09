@@ -1,13 +1,17 @@
 # [KT_hissingmicrophone](https://open.kattis.com/problems/hissingmicrophone)
 
-```en
-If ss is in string print 'hiss' else print 'no hiss'
-```
+* en
 
-```txt
-Input: amiss
-Output: hiss
-```
+  ```en
+  If ss is in string print 'hiss' else print 'no hiss'
+  ```
+
+* tc
+
+  ```tc
+  Input: amiss
+  Output: hiss
+  ```
 
 ## Solution
 

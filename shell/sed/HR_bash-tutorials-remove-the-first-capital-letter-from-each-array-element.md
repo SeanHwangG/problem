@@ -1,24 +1,28 @@
 # [HR_bash-tutorials-remove-the-first-capital-letter-from-each-array-element](https://www.hackerrank.com/challenges/bash-tutorials-remove-the-first-capital-letter-from-each-array-element)
 
-```en
-Transform names as described and display entire array of country names with space between each of them
-```
+* en
 
-```txt
-Input:
-Namibia
-Nauru
-Nepal
-Netherlands
-NewZealand
-Nicaragua
-Niger
-Nigeria
-NorthKorea
-Norway
+  ```en
+  Transform names as described and display entire array of country names with space between each of them
+  ```
 
-Output: .amibia .auru .epal .etherlands .ewZealand .icaragua .iger .igeria .orthKorea .orway
-```
+* tc
+
+  ```tc
+  Input:
+  Namibia
+  Nauru
+  Nepal
+  Netherlands
+  NewZealand
+  Nicaragua
+  Niger
+  Nigeria
+  NorthKorea
+  Norway
+
+  Output: .amibia .auru .epal .etherlands .ewZealand .icaragua .iger .igeria .orthKorea .orway
+  ```
 
 ## Solution
 

@@ -1,14 +1,18 @@
 # [LC_reaching-points](https://leetcode.com/problems/reaching-points)
 
-```en
-Given ints sx, sy, tx, ty, return if it's possible to convert (sx, sy) to (tx, ty) with some operations
-The allowed operation on some point (x, y) is to convert it to either (x, x + y) or (x + y, y)
-```
+* en
 
-```txt
-Input: sx = 1, sy = 1, tx = 3, ty = 5
-Output: true  # (1, 1) -> (1, 2) / (1, 2) -> (3, 2) / (3, 2) -> (3, 5)
-```
+  ```en
+  Given ints sx, sy, tx, ty, return if it's possible to convert (sx, sy) to (tx, ty) with some operations
+  The allowed operation on some point (x, y) is to convert it to either (x, x + y) or (x + y, y)
+  ```
+
+* tc
+
+  ```tc
+  Input: sx = 1, sy = 1, tx = 3, ty = 5
+  Output: true  # (1, 1) -> (1, 2) / (1, 2) -> (3, 2) / (3, 2) -> (3, 5)
+  ```
 
 ## Solution
 

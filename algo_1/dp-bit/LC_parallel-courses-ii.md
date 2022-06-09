@@ -1,21 +1,25 @@
 # [LC_parallel-courses-ii](https://leetcode.com/problems/parallel-courses-ii)
 
-```en
-Given an integer n, which indicates that there are n courses labeled from 1 to n
-Given an array relations where relations[i] = [prev, next]
-  representing prerequisite relation between course prev and next: course prev has to be taken before course next
-Also, you are given the integer k.
-In 1 semester, take at most k courses if taken all prerequisites in previous semester for courses you are taking
-Return min number of semesters needed to take all courses, it is always possible to take every course.
-```
+* en
 
-```txt
-Input: n = 4, dependencies = [[2,1],[3,1],[1,4]], k = 2
-Output: 3
+  ```en
+  Given an integer n, which indicates that there are n courses labeled from 1 to n
+  Given an array relations where relations[i] = [prev, next]
+    representing prerequisite relation between course prev and next: course prev has to be taken before course next
+  Also, you are given the integer k.
+  In 1 semester, take at most k courses if taken all prerequisites in previous semester for courses you are taking
+  Return min number of semesters needed to take all courses, it is always possible to take every course.
+  ```
 
-Input: n = 5, dependencies = [[2,1],[3,1],[4,1],[1,5]], k = 2
-Output: 4
-```
+* tc
+
+  ```tc
+  Input: n = 4, dependencies = [[2,1],[3,1],[1,4]], k = 2
+  Output: 3
+
+  Input: n = 5, dependencies = [[2,1],[3,1],[4,1],[1,5]], k = 2
+  Output: 4
+  ```
 
 ## Solution
 

@@ -1,22 +1,26 @@
 # [LC_all-oone-data-structure](https://leetcode.com/problems/all-oone-data-structure)
 
-```en
-Implement AllOne class:
-AllOne() Initializes object of data structure.
-inc(String key) Increments count of string key by 1. If key not exist in data structure, insert with count 1
-dec(String key) Decrements count of string key by 1. If count of key is 0 after decrement, remove it
-  It is guaranteed that key exists in data structure before decrement
-getMaxKey() Returns one of keys with max count. If no element exists, return an empty string ""
-getMinKey() Returns one of keys with min count. If no element exists, return an empty string ""
-```
+* en
 
-```txt
-Input:
-["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "inc", "getMaxKey", "getMinKey"]
-[[], ["hello"], ["hello"], [], [], ["leet"], [], []]
-Output:
-[null, null, null, "hello", "hello", null, "hello", "leet"]
-```
+  ```en
+  Implement AllOne class:
+  AllOne() Initializes object of data structure.
+  inc(String key) Increments count of string key by 1. If key not exist in data structure, insert with count 1
+  dec(String key) Decrements count of string key by 1. If count of key is 0 after decrement, remove it
+    It is guaranteed that key exists in data structure before decrement
+  getMaxKey() Returns one of keys with max count. If no element exists, return an empty string ""
+  getMinKey() Returns one of keys with min count. If no element exists, return an empty string ""
+  ```
+
+* tc
+
+  ```tc
+  Input:
+  ["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "inc", "getMaxKey", "getMinKey"]
+  [[], ["hello"], ["hello"], [], [], ["leet"], [], []]
+  Output:
+  [null, null, null, "hello", "hello", null, "hello", "leet"]
+  ```
 
 ## Solution
 

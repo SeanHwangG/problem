@@ -1,19 +1,23 @@
 # [KT_lastfactorialdigit](https://open.kattis.com/problems/lastfactorialdigit)
 
-```en
-Print last digit of factorial
-```
+* en
 
-```txt
-Input: 3
-1
-2
-3
+  ```en
+  Print last digit of factorial
+  ```
 
-Output: 1
-2
-6
-```
+* tc
+
+  ```tc
+  Input: 3
+  1
+  2
+  3
+
+  Output: 1
+  2
+  6
+  ```
 
 ## Solution
 

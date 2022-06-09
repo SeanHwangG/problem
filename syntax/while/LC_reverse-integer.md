@@ -1,14 +1,18 @@
 # [LC_reverse-integer](https://leetcode.com/problems/reverse-integer)
 
-```en
-Reverse integer
-```
+* en
 
-```txt
-Input: 421
-Output:
-124
-```
+  ```en
+  Reverse integer
+  ```
+
+* tc
+
+  ```tc
+  Input: 421
+  Output:
+  124
+  ```
 
 ## Solution
 

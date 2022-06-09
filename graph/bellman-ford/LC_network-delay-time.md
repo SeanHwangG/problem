@@ -1,19 +1,23 @@
 # [LC_network-delay-time](https://leetcode.com/problems/network-delay-time)
 
-```en
-Given a network of n nodes, labeled from 1 to n, and times, directed edges of travel times times[i] = (ui, vi, wi)
-Where ui is source node, vi is target node, and wi is time it takes for a signal to travel from source to target
-Send signal from given node k. Return time it takes for all n nodes to receive signal, return -1 if impossible
+* en
 
-```
+  ```en
+  Given a network of n nodes, labeled from 1 to n, and times, directed edges of travel times times[i] = (ui, vi, wi)
+  Where ui is source node, vi is target node, and wi is time it takes for a signal to travel from source to target
+  Send signal from given node k. Return time it takes for all n nodes to receive signal, return -1 if impossible
 
-```txt
-Input: times =
-[[2,1,1],
- [2,3,1],
- [3,4,1]], n = 4, k = 2
-Output: 2
-```
+  ```
+
+* tc
+
+  ```tc
+  Input: times =
+  [[2,1,1],
+   [2,3,1],
+   [3,4,1]], n = 4, k = 2
+  Output: 2
+  ```
 
 ## Solution
 

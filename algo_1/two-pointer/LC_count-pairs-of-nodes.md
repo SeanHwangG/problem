@@ -1,17 +1,21 @@
 # [LC_count-pairs-of-nodes](https://leetcode.com/problems/count-pairs-of-nodes)
 
-```en
-Undirected graph with n # nodes, and an integer array queries are given
-Answer to jth query is # pairs of nodes (a, b) that satisfy following conditions:
-  a < b
-  cnt is strictly greater than queries[j], where cnt is # edges incident to a or b
-Return array answers where answers[j] is answer of jth query
-```
+* en
 
-```txt
-Input: n = 4, edges = [[1,2],[2,4],[1,3],[2,3],[2,1]], queries = [2,3]
-Output: [6,5]
-```
+  ```en
+  Undirected graph with n # nodes, and an integer array queries are given
+  Answer to jth query is # pairs of nodes (a, b) that satisfy following conditions:
+    a < b
+    cnt is strictly greater than queries[j], where cnt is # edges incident to a or b
+  Return array answers where answers[j] is answer of jth query
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 4, edges = [[1,2],[2,4],[1,3],[2,3],[2,1]], queries = [2,3]
+  Output: [6,5]
+  ```
 
 ## Solution
 

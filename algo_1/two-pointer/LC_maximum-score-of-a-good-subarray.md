@@ -1,15 +1,19 @@
 # [LC_maximum-score-of-a-good-subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray)
 
-```en
-Given array of integers nums (0-indexed) and an integer k
-Score of a subarray (i, j) is min(nums[i], nums[i+1], ..., nums[j]) * (j - i + 1). good subarray if i <= k <= j
-Return maximum possible score of good subarray
-```
+* en
 
-```txt
-Input: nums = [1,4,3,7,4,5], k = 3
-Output: 15
-```
+  ```en
+  Given array of integers nums (0-indexed) and an integer k
+  Score of a subarray (i, j) is min(nums[i], nums[i+1], ..., nums[j]) * (j - i + 1). good subarray if i <= k <= j
+  Return maximum possible score of good subarray
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,4,3,7,4,5], k = 3
+  Output: 15
+  ```
 
 ## Solution
 

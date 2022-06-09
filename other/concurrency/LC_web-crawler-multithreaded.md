@@ -1,34 +1,38 @@
 # [LC_web-crawler-multithreaded](https://leetcode.com/problems/web-crawler-multithreaded)
 
-```en
-Given a url startUrl and an interface HtmlParser
-implement a Multi-threaded web crawler to crawl all links that are under same hostname as startUrl
-  Start from the page: startUrl
-  Call HtmlParser.getUrls(url) to get all urls from a webpage of given url
-  Do not crawl the same link twice
-  Explore only the links that are under the same hostname as startUrl
-```
+* en
 
-```txt
-Input:
-urls = [
-  "http://news.yahoo.com",
-  "http://news.yahoo.com/news",
-  "http://news.yahoo.com/news/topics/",
-  "http://news.google.com",
-  "http://news.yahoo.com/us"
-]
-edges = [[2,0],[2,1],[3,2],[3,1],[0,4]]
-startUrl = "http://news.yahoo.com/news/topics/"
+  ```en
+  Given a url startUrl and an interface HtmlParser
+  implement a Multi-threaded web crawler to crawl all links that are under same hostname as startUrl
+    Start from the page: startUrl
+    Call HtmlParser.getUrls(url) to get all urls from a webpage of given url
+    Do not crawl the same link twice
+    Explore only the links that are under the same hostname as startUrl
+  ```
 
-Output:
-[
-  "http://news.yahoo.com",
-  "http://news.yahoo.com/news",
-  "http://news.yahoo.com/news/topics/",
-  "http://news.yahoo.com/us"
-]
-```
+* tc
+
+  ```tc
+  Input:
+  urls = [
+    "http://news.yahoo.com",
+    "http://news.yahoo.com/news",
+    "http://news.yahoo.com/news/topics/",
+    "http://news.google.com",
+    "http://news.yahoo.com/us"
+  ]
+  edges = [[2,0],[2,1],[3,2],[3,1],[0,4]]
+  startUrl = "http://news.yahoo.com/news/topics/"
+
+  Output:
+  [
+    "http://news.yahoo.com",
+    "http://news.yahoo.com/news",
+    "http://news.yahoo.com/news/topics/",
+    "http://news.yahoo.com/us"
+  ]
+  ```
 
 ## Solution
 

@@ -1,17 +1,21 @@
 # [LC_best-meeting-point](https://leetcode.com/problems/best-meeting-point)
 
-```en
-Given m x n binary grid grid where each 1 marks home of one friend, return min total travel distance
-Total travel distance is sum of distances between houses of friends and the meeting point
-```
+* en
 
-```txt
-Input: grid = [[1,0,0,0,1],[0,0,0,0,0],[0,0,1,0,0]]
-Output: 6
+  ```en
+  Given m x n binary grid grid where each 1 marks home of one friend, return min total travel distance
+  Total travel distance is sum of distances between houses of friends and the meeting point
+  ```
 
-Input: grid = [[1,1]]
-Output: 1
-```
+* tc
+
+  ```tc
+  Input: grid = [[1,0,0,0,1],[0,0,0,0,0],[0,0,1,0,0]]
+  Output: 6
+
+  Input: grid = [[1,1]]
+  Output: 1
+  ```
 
 ## Solution
 

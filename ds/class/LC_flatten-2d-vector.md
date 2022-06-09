@@ -1,16 +1,20 @@
 # [LC_flatten-2d-vector](https://leetcode.com/problems/flatten-2d-vector)
 
-```en
-Design flattened 2D Vector
-```
+* en
 
-```txt
-Input: [ [1,2],
-  [3],
-  [4,5,6]]
+  ```en
+  Design flattened 2D Vector
+  ```
 
-Output: [1,2,3,4,5,6]
-```
+* tc
+
+  ```tc
+  Input: [ [1,2],
+    [3],
+    [4,5,6]]
+
+  Output: [1,2,3,4,5,6]
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [KT_reversebinary](https://open.kattis.com/problems/reversebinary)
 
-```en
-Print reversed binary
-```
+* en
 
-```txt
-Input: 13
-Output: 11
-```
+  ```en
+  Print reversed binary
+  ```
+
+* tc
+
+  ```tc
+  Input: 13
+  Output: 11
+  ```
 
 ## Solution
 

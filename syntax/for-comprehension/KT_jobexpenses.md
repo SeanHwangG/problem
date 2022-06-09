@@ -1,20 +1,26 @@
 # [KT_jobexpenses](https://open.kattis.com/problems/jobexpenses)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-첫줄에 N이 주어진다
-다음 줄에 N개의 숫자가 주어지는데, 이 때 0보다 작은 수의 절대값의 합을 구하여라
-```
+  ```
 
-```txt
-Input: 3
-1 -2 3
+* kr
 
-Output: 2
-```
+  ```kr
+  첫줄에 N이 주어진다
+  다음 줄에 N개의 숫자가 주어지는데, 이 때 0보다 작은 수의 절대값의 합을 구하여라
+  ```
+
+* tc
+
+  ```tc
+  Input: 3
+  1 -2 3
+
+  Output: 2
+  ```
 
 ## Solution
 

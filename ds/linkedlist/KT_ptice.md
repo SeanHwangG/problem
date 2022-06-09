@@ -1,19 +1,23 @@
 # [KT_ptice](https://open.kattis.com/problems/ptice)
 
-```en
-Repeat ABC, BABC, CCAABB
-Find whose sequence contains the most correct answers
-```
+* en
 
-```txt
-Input:
-5
-BAACC
+  ```en
+  Repeat ABC, BABC, CCAABB
+  Find whose sequence contains the most correct answers
+  ```
 
-Output:
-3
-Bruno
-```
+* tc
+
+  ```tc
+  Input:
+  5
+  BAACC
+
+  Output:
+  3
+  Bruno
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_concatenation-of-consecutive-binary-numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers)
 
-```en
-Given n, return decimal value of binary string formed by concatenating binary of 1 to n in order, modulo 10**9 + 7
-```
+* en
 
-```txt
-Input: n = 3
-Output: 27   # 11011
-```
+  ```en
+  Given n, return decimal value of binary string formed by concatenating binary of 1 to n in order, modulo 10**9 + 7
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 3
+  Output: 27   # 11011
+  ```
 
 ## Solution
 

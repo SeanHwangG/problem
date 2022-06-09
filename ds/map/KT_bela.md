@@ -1,29 +1,35 @@
 # [KT_bela](https://open.kattis.com/problems/bela)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-첫 줄의 N과 B이 주어진다
-그 다음 N줄에 Value, Suit 이 주어지는데,
-Suit 이 B와 같을 시 Dominant, 다를 시 Not dominant 점수를 얻는다. 총 합을 출력하라
-```
+  ```
 
-```txt
-Input:
-2 S
-TH
-9C
-KS
-QS
-JS
-TD
-AD
-JH
+* kr
 
-Output: 60
-```
+  ```kr
+  첫 줄의 N과 B이 주어진다
+  그 다음 N줄에 Value, Suit 이 주어지는데,
+  Suit 이 B와 같을 시 Dominant, 다를 시 Not dominant 점수를 얻는다. 총 합을 출력하라
+  ```
+
+* tc
+
+  ```tc
+  Input:
+  2 S
+  TH
+  9C
+  KS
+  QS
+  JS
+  TD
+  AD
+  JH
+
+  Output: 60
+  ```
 
 ## Solution
 

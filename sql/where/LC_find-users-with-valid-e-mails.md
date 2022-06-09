@@ -1,27 +1,31 @@
 # [LC_find-users-with-valid-e-mails](https://leetcode.com/problems/find-users-with-valid-e-mails)
 
-```en
-Find the users who have valid emails
-```
+* en
 
-```txt
-Input:
-| user_id | name      | mail                    |
-+---------+-----------+-------------------------+
-| 1       | Winston   | winston@leetcode.com    |
-| 2       | Jonathan  | jonathanisgreat         |
-| 3       | Annabelle | bella-@leetcode.com     |
-| 4       | Sally     | sally.come@leetcode.com |
-| 5       | Marwan    | quarz#2020@leetcode.com |
-| 6       | David     | david69@gmail.com       |
+  ```en
+  Find the users who have valid emails
+  ```
 
-Output:
-| user_id | name      | mail                    |
-+---------+-----------+-------------------------+
-| 1       | Winston   | winston@leetcode.com    |
-| 3       | Annabelle | bella-@leetcode.com     |
-| 4       | Sally     | sally.come@leetcode.com |
-```
+* tc
+
+  ```tc
+  Input:
+  | user_id | name      | mail                    |
+  +---------+-----------+-------------------------+
+  | 1       | Winston   | winston@leetcode.com    |
+  | 2       | Jonathan  | jonathanisgreat         |
+  | 3       | Annabelle | bella-@leetcode.com     |
+  | 4       | Sally     | sally.come@leetcode.com |
+  | 5       | Marwan    | quarz#2020@leetcode.com |
+  | 6       | David     | david69@gmail.com       |
+
+  Output:
+  | user_id | name      | mail                    |
+  +---------+-----------+-------------------------+
+  | 1       | Winston   | winston@leetcode.com    |
+  | 3       | Annabelle | bella-@leetcode.com     |
+  | 4       | Sally     | sally.come@leetcode.com |
+  ```
 
 ## Solution
 

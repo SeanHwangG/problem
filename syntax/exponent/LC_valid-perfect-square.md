@@ -1,13 +1,17 @@
 # [LC_valid-perfect-square](https://leetcode.com/problems/valid-perfect-square)
 
-```en
-Check if a number is square
-```
+* en
 
-```txt
-Input: num = 16
-Output: true
-```
+  ```en
+  Check if a number is square
+  ```
+
+* tc
+
+  ```tc
+  Input: num = 16
+  Output: true
+  ```
 
 ## Solution
 

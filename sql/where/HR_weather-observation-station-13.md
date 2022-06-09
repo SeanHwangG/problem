@@ -1,23 +1,27 @@
 # [HR_weather-observation-station-13](https://www.hackerrank.com/challenges/weather-observation-station-13)
 
-```en
-Sum of Northern Latitudes (LAT_N) from STATION having values greater than 38.7880 and less than 137.2345
-Truncate your answer to 4 decimal places
-```
+* en
 
-```txt
-Input:
-| LAT_N | City       |
-| ----- | ---------- |
-| 10    | Rotterdam  |
-| 123   | Ecottsdale |
-| 300   | Corona     |
+  ```en
+  Sum of Northern Latitudes (LAT_N) from STATION having values greater than 38.7880 and less than 137.2345
+  Truncate your answer to 4 decimal places
+  ```
 
-Output:
-| SUM      |
-| -------- |
-| 123.0000 |
-```
+* tc
+
+  ```tc
+  Input:
+  | LAT_N | City       |
+  | ----- | ---------- |
+  | 10    | Rotterdam  |
+  | 123   | Ecottsdale |
+  | 300   | Corona     |
+
+  Output:
+  | SUM      |
+  | -------- |
+  | 123.0000 |
+  ```
 
 ## Solution
 

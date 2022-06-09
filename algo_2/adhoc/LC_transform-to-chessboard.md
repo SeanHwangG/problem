@@ -1,20 +1,24 @@
 # [LC_transform-to-chessboard](https://leetcode.com/problems/transform-to-chessboard)
 
-```en
-Given n x n binary grid board. In each move, swap any two rows with each other, or any two columns with each other
-Return minimum number of moves to transform the board into a chessboard board. If impossible, return -1
-Chessboard board is a board where no 0's and no 1's are 4-directionally adjacent.
-```
+* en
 
-```txt
-Input: board =
-[[0,1,1,0],
- [0,1,1,0],
- [1,0,0,1],
- [1,0,0,1]]
+  ```en
+  Given n x n binary grid board. In each move, swap any two rows with each other, or any two columns with each other
+  Return minimum number of moves to transform the board into a chessboard board. If impossible, return -1
+  Chessboard board is a board where no 0's and no 1's are 4-directionally adjacent.
+  ```
 
-Output: 2
-```
+* tc
+
+  ```tc
+  Input: board =
+  [[0,1,1,0],
+   [0,1,1,0],
+   [1,0,0,1],
+   [1,0,0,1]]
+
+  Output: 2
+  ```
 
 ## Solution
 

@@ -1,17 +1,21 @@
 # [LC_number-of-valid-subarrays](https://leetcode.com/problems/number-of-valid-subarrays)
 
-```en
-Given an integer array nums
-Return # of non-empty subarrays with leftmost element of the subarray not larger than other elements in subarray
-```
+* en
 
-```txt
-Input: nums = [1,4,2,5,3]
-Output: 11
+  ```en
+  Given an integer array nums
+  Return # of non-empty subarrays with leftmost element of the subarray not larger than other elements in subarray
+  ```
 
-Input: nums = [3,2,1]
-Output: 3
-```
+* tc
+
+  ```tc
+  Input: nums = [1,4,2,5,3]
+  Output: 11
+
+  Input: nums = [3,2,1]
+  Output: 3
+  ```
 
 ## Solution
 

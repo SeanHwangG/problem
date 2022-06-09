@@ -1,13 +1,17 @@
 # [LC_distinct-subsequences](https://leetcode.com/problems/distinct-subsequences)
 
-```en
-Given two strings s and t, return the number of distinct subsequences of s which equals t
-```
+* en
 
-```txt
-Input: s = "rabbbit", t = "rabbit"
-Output: 3
-```
+  ```en
+  Given two strings s and t, return the number of distinct subsequences of s which equals t
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "rabbbit", t = "rabbit"
+  Output: 3
+  ```
 
 ## Solution
 

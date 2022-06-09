@@ -1,13 +1,17 @@
 # [LC_count-different-palindromic-subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences)
 
-```en
-Given a string s, find # different non-empty palindromic subsequences in s, and return modulo 10^9 + 7
-```
+* en
 
-```txt
-Input: s = 'bccb'
-Output: 6
-```
+  ```en
+  Given a string s, find # different non-empty palindromic subsequences in s, and return modulo 10^9 + 7
+  ```
+
+* tc
+
+  ```tc
+  Input: s = 'bccb'
+  Output: 6
+  ```
 
 ## Solution
 

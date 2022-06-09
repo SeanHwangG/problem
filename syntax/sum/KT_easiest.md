@@ -1,23 +1,27 @@
 # [KT_easiest](https://open.kattis.com/problems/easiest)
 
-```en
-Single int number p which is minimal number st N * p has the same sum of digits as N and p is bigger than 10
-```
+* en
 
-```txt
-Input:
-3029
-4
-5
-42
-0
+  ```en
+  Single int number p which is minimal number st N * p has the same sum of digits as N and p is bigger than 10
+  ```
 
-Output:
-37
-28
-28
-25
-```
+* tc
+
+  ```tc
+  Input:
+  3029
+  4
+  5
+  42
+  0
+
+  Output:
+  37
+  28
+  28
+  25
+  ```
 
 ## Solution
 

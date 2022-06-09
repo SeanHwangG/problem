@@ -1,19 +1,23 @@
 # [LC_coin-change-2](https://leetcode.com/problems/coin-change-2)
 
-```en
-Given integer coins representing coins of different denominations and integer amount representing total money
-Return # combinations that make up that amount
-If that amount of money cannot be made up by any combination of the coins, return 0.
-Have an infinite number of each kind of coin
-```
+* en
 
-```txt
-Input: amount = 5, coins = [1,2,5]
-Output: 4
+  ```en
+  Given integer coins representing coins of different denominations and integer amount representing total money
+  Return # combinations that make up that amount
+  If that amount of money cannot be made up by any combination of the coins, return 0.
+  Have an infinite number of each kind of coin
+  ```
 
-Input: amount = 10, coins = [10]
-Output: 1
-```
+* tc
+
+  ```tc
+  Input: amount = 5, coins = [1,2,5]
+  Output: 4
+
+  Input: amount = 10, coins = [10]
+  Output: 1
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_print-in-order](https://leetcode.com/problems/print-in-order)
 
-```en
-Print first, second third always in order
-```
+* en
 
-```txt
-Input: nums = [1,3,2]
-Output: "firstsecondthird"
-```
+  ```en
+  Print first, second third always in order
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,3,2]
+  Output: "firstsecondthird"
+  ```
 
 ## Solution
 

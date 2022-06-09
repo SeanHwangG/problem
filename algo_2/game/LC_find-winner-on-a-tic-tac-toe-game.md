@@ -1,13 +1,17 @@
 # [LC_find-winner-on-a-tic-tac-toe-game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game)
 
-```en
-Design Tic Tac Toe
-```
+* en
 
-```txt
-Input: moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
-Output: "A"
-```
+  ```en
+  Design Tic Tac Toe
+  ```
+
+* tc
+
+  ```tc
+  Input: moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
+  Output: "A"
+  ```
 
 ## Solution
 

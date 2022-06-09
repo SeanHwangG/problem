@@ -1,13 +1,17 @@
 # [LC_string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)
 
-```en
-Implement atoi function (string to int)
-```
+* en
 
-```txt
-Input: s = "   -42"
-Output: -42
-```
+  ```en
+  Implement atoi function (string to int)
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "   -42"
+  Output: -42
+  ```
 
 ## Solution
 

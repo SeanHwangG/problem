@@ -1,15 +1,19 @@
 # [LC_replace-words](https://leetcode.com/problems/replace-words)
 
-```en
-Given a dictionary consisting of many roots and a sentence consisting of words separated by spaces
-Replace all successors in sentence with root forming it
-If successor can be replaced by more than one root, replace it with the root that has the shortest length
-```
+* en
 
-```txt
-Input: dictionary = ["cat","bat","rat"], sentence = "the cattle was rattled by the battery"
-Output: "the cat was rat by the bat"
-```
+  ```en
+  Given a dictionary consisting of many roots and a sentence consisting of words separated by spaces
+  Replace all successors in sentence with root forming it
+  If successor can be replaced by more than one root, replace it with the root that has the shortest length
+  ```
+
+* tc
+
+  ```tc
+  Input: dictionary = ["cat","bat","rat"], sentence = "the cattle was rattled by the battery"
+  Output: "the cat was rat by the bat"
+  ```
 
 ## Solution
 

@@ -1,18 +1,22 @@
 # [HR_text-processing-tr-3](https://www.hackerrank.com/challenges/text-processing-tr-3)
 
-```en
-Replace all sequences of multiple spaces with just one space
-```
+* en
 
-```txt
-Input: He  llo
-Wor  ld
-how  are  you
+  ```en
+  Replace all sequences of multiple spaces with just one space
+  ```
 
-Output: He llo
-Wor ld
-how are you
-```
+* tc
+
+  ```tc
+  Input: He  llo
+  Wor  ld
+  how  are  you
+
+  Output: He llo
+  Wor ld
+  how are you
+  ```
 
 ## Solution
 

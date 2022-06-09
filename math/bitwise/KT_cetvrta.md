@@ -1,17 +1,21 @@
 # [KT_cetvrta](https://open.kattis.com/problems/cetvrta)
 
-```en
-Given coordinate of three corners of rectangle, find the last corner
-```
+* en
 
-```txt
-Input:
-1 3
-2 3
-2 5
+  ```en
+  Given coordinate of three corners of rectangle, find the last corner
+  ```
 
-Output: 1 5
-```
+* tc
+
+  ```tc
+  Input:
+  1 3
+  2 3
+  2 5
+
+  Output: 1 5
+  ```
 
 ## Solution
 

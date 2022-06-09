@@ -1,20 +1,24 @@
 # [LC_word-frequency](https://leetcode.com/problems/word-frequency)
 
-```en
-Script should output the following, sorted by descending frequency:
-```
+* en
 
-```txt
-Input:
-the day is sunny the the
-the sunny is is
+  ```en
+  Script should output the following, sorted by descending frequency:
+  ```
 
-Output:
-the 4
-is 3
-sunny 2
-day 1
-```
+* tc
+
+  ```tc
+  Input:
+  the day is sunny the the
+  the sunny is is
+
+  Output:
+  the 4
+  is 3
+  sunny 2
+  day 1
+  ```
 
 ## Solution
 

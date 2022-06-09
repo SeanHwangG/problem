@@ -1,17 +1,21 @@
 # [LC_least-operators-to-express-number](https://leetcode.com/problems/least-operators-to-express-number)
 
-```en
-Given 4 arithmetic operator without parenthesis
-Return least number of operators used when expression equals the given target
-```
+* en
 
-```txt
-Input: x = 3, target = 19
-Output: 5  # 3 * 3 + 3 * 3 + 3 / 3.
+  ```en
+  Given 4 arithmetic operator without parenthesis
+  Return least number of operators used when expression equals the given target
+  ```
 
-Input: x = 5, target = 501
-Output: 8  # 5 * 5 * 5 * 5 - 5 * 5 * 5 + 5 / 5.
-```
+* tc
+
+  ```tc
+  Input: x = 3, target = 19
+  Output: 5  # 3 * 3 + 3 * 3 + 3 / 3.
+
+  Input: x = 5, target = 501
+  Output: 8  # 5 * 5 * 5 * 5 - 5 * 5 * 5 + 5 / 5.
+  ```
 
 ## Solution
 

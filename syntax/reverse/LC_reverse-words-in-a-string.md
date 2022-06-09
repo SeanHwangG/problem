@@ -1,13 +1,17 @@
 # [LC_reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string)
 
-```en
-Reverse word
-```
+* en
 
-```txt
-Input: s = "the sky is blue"
-Output: "blue is sky the"
-```
+  ```en
+  Reverse word
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "the sky is blue"
+  Output: "blue is sky the"
+  ```
 
 ## Solution
 

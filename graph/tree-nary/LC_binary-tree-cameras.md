@@ -1,14 +1,18 @@
 # [LC_binary-tree-cameras](https://leetcode.com/problems/binary-tree-cameras)
 
-```en
-Each camera at a node can monitor its parent, itself, and its immediate children
-Print minimum number of cameras
-```
+* en
 
-```txt
-Input: [0,0,null,0,0]
-Output: 1
-```
+  ```en
+  Each camera at a node can monitor its parent, itself, and its immediate children
+  Print minimum number of cameras
+  ```
+
+* tc
+
+  ```tc
+  Input: [0,0,null,0,0]
+  Output: 1
+  ```
 
 ## Solution
 

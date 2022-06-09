@@ -1,14 +1,18 @@
 # [HR_s10-binomial-distribution-1](https://www.hackerrank.com/challenges/s10-binomial-distribution-1)
 
-```en
-Ratio of boys to girls for babies born is 1.09:1
-What's proportion of families with exactly 6 children will have at least 3 boyes?
-```
+* en
 
-```txt
-Input: 1.09 1
-Output: 0.696
-```
+  ```en
+  Ratio of boys to girls for babies born is 1.09:1
+  What's proportion of families with exactly 6 children will have at least 3 boyes?
+  ```
+
+* tc
+
+  ```tc
+  Input: 1.09 1
+  Output: 0.696
+  ```
 
 ## Solution
 

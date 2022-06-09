@@ -1,14 +1,18 @@
 # [LC_remove-duplicate-letters](https://leetcode.com/problems/remove-duplicate-letters)
 
-```en
-Given string s, remove duplicate letters so that every letter appears once and only once
-Make sure result is smallest in lexicographical order among all possible results
-```
+* en
 
-```txt
-Input: s = "cbacdcbc"
-Output: "acdb"
-```
+  ```en
+  Given string s, remove duplicate letters so that every letter appears once and only once
+  Make sure result is smallest in lexicographical order among all possible results
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "cbacdcbc"
+  Output: "acdb"
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_building-h2o](https://leetcode.com/problems/building-h2o)
 
-```en
-Given function that prints h, o. Print hho sequentially
-```
+* en
 
-```txt
-Input: "OOHHHH"
-Output: "HHOHHO"  # "HOHHHO", "OHHHHO", "HHOHOH", "HOHHOH", "OHHHOH", "HHOOHH", "HOHOHH" and "OHHOHH" are also valid
-```
+  ```en
+  Given function that prints h, o. Print hho sequentially
+  ```
+
+* tc
+
+  ```tc
+  Input: "OOHHHH"
+  Output: "HHOHHO"  # "HOHHHO", "OHHHHO", "HHOHOH", "HOHHOH", "OHHHOH", "HHOOHH", "HOHOHH" and "OHHOHH" are also valid
+  ```
 
 ## Solution
 

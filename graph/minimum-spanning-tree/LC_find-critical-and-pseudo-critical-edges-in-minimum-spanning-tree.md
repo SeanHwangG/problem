@@ -1,17 +1,21 @@
 # [LC_find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree)
 
-```en
-Given a weighted undirected connected graph with n vertices numbered from 0 to n - 1, and an array edges
-edges[i] = [ai, bi, weighti] represents a bidirectional and weighted edge between nodes ai and bi
-Find all the critical and pseudo-critical edges in given graph's minimum spanning tree (MST) in any order
-MST edge whose deletion from graph would cause MST weight to increase is called a critical edge
-On other hand, a pseudo-critical edge is that which can appear in some MSTs but not all
-```
+* en
 
-```txt
-Input: n = 5, edges = [[0,1,1],[1,2,1],[2,3,2],[0,3,2],[0,4,3],[3,4,3],[1,4,6]]
-Output: [[0,1],[2,3,4,5]]
-```
+  ```en
+  Given a weighted undirected connected graph with n vertices numbered from 0 to n - 1, and an array edges
+  edges[i] = [ai, bi, weighti] represents a bidirectional and weighted edge between nodes ai and bi
+  Find all the critical and pseudo-critical edges in given graph's minimum spanning tree (MST) in any order
+  MST edge whose deletion from graph would cause MST weight to increase is called a critical edge
+  On other hand, a pseudo-critical edge is that which can appear in some MSTs but not all
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 5, edges = [[0,1,1],[1,2,1],[2,3,2],[0,3,2],[0,4,3],[3,4,3],[1,4,6]]
+  Output: [[0,1],[2,3,4,5]]
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_minimum-number-of-operations-to-make-string-sorted](https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted)
 
-```en
-What is the lexicographical order of string
-```
+* en
 
-```txt
-Input: s = "cba"
-Output: 5
-```
+  ```en
+  What is the lexicographical order of string
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "cba"
+  Output: 5
+  ```
 
 ## Solution
 

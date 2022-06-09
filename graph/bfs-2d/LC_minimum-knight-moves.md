@@ -1,17 +1,21 @@
 # [LC_minimum-knight-moves](https://leetcode.com/problems/minimum-knight-moves)
 
-```en
-In infinite chess board with coordinates, you have a knight at square [0, 0].
-Return minimum number of steps needed to move knight to square [x, y]. It is guaranteed the answer exists.
-```
+* en
 
-```txt
-Input: x = 2, y = 1
-Output: 1  # [0, 0] → [2, 1]
+  ```en
+  In infinite chess board with coordinates, you have a knight at square [0, 0].
+  Return minimum number of steps needed to move knight to square [x, y]. It is guaranteed the answer exists.
+  ```
 
-Input: x = 5, y = 5
-Output: 4  # [0, 0] → [2, 1] → [4, 2] → [3, 4] → [5, 5]
-```
+* tc
+
+  ```tc
+  Input: x = 2, y = 1
+  Output: 1  # [0, 0] → [2, 1]
+
+  Input: x = 5, y = 5
+  Output: 4  # [0, 0] → [2, 1] → [4, 2] → [3, 4] → [5, 5]
+  ```
 
 ## Solution
 

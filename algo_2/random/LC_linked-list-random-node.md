@@ -1,17 +1,21 @@
 # [LC_linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)
 
-```en
-Given a singly linked list, return random node's value from the linked list
-```
+* en
 
-```txt
-Input:
-["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
-[[[1, 2, 3]], [], [], [], [], []]
+  ```en
+  Given a singly linked list, return random node's value from the linked list
+  ```
 
-Output:
-[null, 1, 3, 2, 2, 3]
-```
+* tc
+
+  ```tc
+  Input:
+  ["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
+  [[[1, 2, 3]], [], [], [], [], []]
+
+  Output:
+  [null, 1, 3, 2, 2, 3]
+  ```
 
 ## Solution
 

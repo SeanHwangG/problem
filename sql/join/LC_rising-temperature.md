@@ -1,25 +1,29 @@
 # [LC_rising-temperature](https://leetcode.com/problems/rising-temperature)
 
-```en
-Find all id where temperature increased from previous date
-```
+* en
 
-```txt
-Input: 
-| id  | recordDate | Temperature |
-| --- | ---------- | ----------- |
-| 1   | 2015-01-01 | 10          |
-| 2   | 2015-01-02 | 25          |
-| 3   | 2015-01-03 | 20          |
-| 4   | 2015-01-04 | 30          |
+  ```en
+  Find all id where temperature increased from previous date
+  ```
 
-Output:
+* tc
 
-| id  |
-| --- |
-| 2   |
-| 4   |
-```
+  ```tc
+  Input:
+  | id  | recordDate | Temperature |
+  | --- | ---------- | ----------- |
+  | 1   | 2015-01-01 | 10          |
+  | 2   | 2015-01-02 | 25          |
+  | 3   | 2015-01-03 | 20          |
+  | 4   | 2015-01-04 | 30          |
+
+  Output:
+
+  | id  |
+  | --- |
+  | 2   |
+  | 4   |
+  ```
 
 ## Solution
 

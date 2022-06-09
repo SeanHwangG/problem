@@ -1,15 +1,19 @@
 # [LC_rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart)
 
-```en
-Given string s and an integer k, rearrange s such that the same characters are at least distance k from each other
-If it's not possible to rearrange the string, return an empty string ""
+* en
 
-```
+  ```en
+  Given string s and an integer k, rearrange s such that the same characters are at least distance k from each other
+  If it's not possible to rearrange the string, return an empty string ""
 
-```txt
-Input: s = "aabbcc", k = 3
-Output: "abcabc"
-```
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "aabbcc", k = 3
+  Output: "abcabc"
+  ```
 
 ## Solution
 

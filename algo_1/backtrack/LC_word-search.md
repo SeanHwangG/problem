@@ -1,16 +1,20 @@
 # [LC_word-search](https://leetcode.com/problems/word-search)
 
-```en
-Given an m x n grid of characters board and a string word, return true if word exists in the grid
-```
+* en
 
-```txt
-Input: board =
-[["A","B","C","E"],
- ["S","F","C","S"],
- ["A","D","E","E"]], word = "ABCCED"
-Output: true
-```
+  ```en
+  Given an m x n grid of characters board and a string word, return true if word exists in the grid
+  ```
+
+* tc
+
+  ```tc
+  Input: board =
+  [["A","B","C","E"],
+   ["S","F","C","S"],
+   ["A","D","E","E"]], word = "ABCCED"
+  Output: true
+  ```
 
 ## Solution
 

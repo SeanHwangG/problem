@@ -1,13 +1,17 @@
 # [LC_binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)
 
-```en
-Given the root of a binary tree, return the preorder traversal of its nodes' values
-```
+* en
 
-```txt
-Input: root = [1,null,2,3]
-Output: [1,2,3]
-```
+  ```en
+  Given the root of a binary tree, return the preorder traversal of its nodes' values
+  ```
+
+* tc
+
+  ```tc
+  Input: root = [1,null,2,3]
+  Output: [1,2,3]
+  ```
 
 ## Solution
 

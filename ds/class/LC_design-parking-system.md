@@ -1,15 +1,19 @@
 # [LC_design-parking-system](https://leetcode.com/problems/design-parking-system)
 
-```en
-Design parking system
-```
+* en
 
-```txt
-Input: ["ParkingSystem", "addCar", "addCar", "addCar", "addCar"]
-[[1, 1, 0], [1], [2], [3], [1]]
+  ```en
+  Design parking system
+  ```
 
-Output: [null, true, true, false, false]
-```
+* tc
+
+  ```tc
+  Input: ["ParkingSystem", "addCar", "addCar", "addCar", "addCar"]
+  [[1, 1, 0], [1], [2], [3], [1]]
+
+  Output: [null, true, true, false, false]
+  ```
 
 ## Solution
 

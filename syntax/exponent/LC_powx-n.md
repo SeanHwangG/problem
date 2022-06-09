@@ -1,13 +1,17 @@
 # [LC_powx-n](https://leetcode.com/problems/powx-n)
 
-```en
-Implement pow(x, n), which calculates x raised to the power n
-```
+* en
 
-```txt
-Input: 2 3
-Output: 8
-```
+  ```en
+  Implement pow(x, n), which calculates x raised to the power n
+  ```
+
+* tc
+
+  ```tc
+  Input: 2 3
+  Output: 8
+  ```
 
 ## Solution
 

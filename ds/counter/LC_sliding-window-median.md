@@ -1,16 +1,20 @@
 # [LC_sliding-window-median](https://leetcode.com/problems/sliding-window-median)
 
-```en
-Given an integer array nums and an integer k
-There is a sliding window of size k which is moving from the very left of the array to the very right
-Only see the k numbers in the window, each time the sliding window moves right by one position.
-Return median array for each window in the original array (error within 10^-5 will be accepted)
-```
+* en
 
-```txt
-Input: nums = [1, 3, -1, -3, 5, 3, 6, 7], k = 3
-Output: [1.00000, -1.00000, -1.00000, 3.00000, 5.00000, 6.00000]
-```
+  ```en
+  Given an integer array nums and an integer k
+  There is a sliding window of size k which is moving from the very left of the array to the very right
+  Only see the k numbers in the window, each time the sliding window moves right by one position.
+  Return median array for each window in the original array (error within 10^-5 will be accepted)
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1, 3, -1, -3, 5, 3, 6, 7], k = 3
+  Output: [1.00000, -1.00000, -1.00000, 3.00000, 5.00000, 6.00000]
+  ```
 
 ## Solution
 

@@ -1,12 +1,16 @@
 # [HR_bash-tutorials---looping-and-skipping](https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping)
 
-```en
-Display 1, 3, 5 ..., 99
-```
+* en
 
-```txt
-Output: 1 3 5 7 ... 99
-```
+  ```en
+  Display 1, 3, 5 ..., 99
+  ```
+
+* tc
+
+  ```tc
+  Output: 1 3 5 7 ... 99
+  ```
 
 ## Solution
 

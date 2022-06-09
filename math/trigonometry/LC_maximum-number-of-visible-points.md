@@ -1,16 +1,20 @@
 # [LC_maximum-number-of-visible-points](https://leetcode.com/problems/maximum-number-of-visible-points)
 
-```en
-Return max # points you can see with given angle
-```
+* en
 
-```txt
-Input: points = [[2,1],[2,2],[3,3]], angle = 90, location = [1,1]
-Output: 3
+  ```en
+  Return max # points you can see with given angle
+  ```
 
-Input: points = [[2,1],[2,2],[3,4],[1,1]], angle = 90, location = [1,1]
-Output: 4
-```
+* tc
+
+  ```tc
+  Input: points = [[2,1],[2,2],[3,3]], angle = 90, location = [1,1]
+  Output: 3
+
+  Input: points = [[2,1],[2,2],[3,4],[1,1]], angle = 90, location = [1,1]
+  Output: 4
+  ```
 
 ## Solution
 

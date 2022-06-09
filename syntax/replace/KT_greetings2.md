@@ -1,13 +1,17 @@
 # [KT_greetings2](https://open.kattis.com/problems/greetings2)
 
-```en
-Replace e to ee
-```
+* en
 
-```txt
-Input: heeeeey
-Output: heeeeeeeeeey
-```
+  ```en
+  Replace e to ee
+  ```
+
+* tc
+
+  ```tc
+  Input: heeeeey
+  Output: heeeeeeeeeey
+  ```
 
 ## Solution
 

@@ -1,22 +1,26 @@
 # [LC_max-area-of-island](https://leetcode.com/problems/max-area-of-island)
 
-```en
-Area of an island is the number of cells with a value 1 in the island.
-Return the maximum area of an island in grid. If there is no island, return 0.
-```
+* en
 
-```txt
-Input: grid =
-[[0,0,1,0,0,0,0,1,0,0,0,0,0],
- [0,0,0,0,0,0,0,1,1,1,0,0,0],
- [0,1,1,0,1,0,0,0,0,0,0,0,0],
- [0,1,0,0,1,1,0,0,1,0,1,0,0],
- [0,1,0,0,1,1,0,0,1,1,1,0,0],
- [0,0,0,0,0,0,0,0,0,0,1,0,0],
- [0,0,0,0,0,0,0,1,1,1,0,0,0],
- [0,0,0,0,0,0,0,1,1,0,0,0,0]]
-Output: 6
-```
+  ```en
+  Area of an island is the number of cells with a value 1 in the island.
+  Return the maximum area of an island in grid. If there is no island, return 0.
+  ```
+
+* tc
+
+  ```tc
+  Input: grid =
+  [[0,0,1,0,0,0,0,1,0,0,0,0,0],
+   [0,0,0,0,0,0,0,1,1,1,0,0,0],
+   [0,1,1,0,1,0,0,0,0,0,0,0,0],
+   [0,1,0,0,1,1,0,0,1,0,1,0,0],
+   [0,1,0,0,1,1,0,0,1,1,1,0,0],
+   [0,0,0,0,0,0,0,0,0,0,1,0,0],
+   [0,0,0,0,0,0,0,1,1,1,0,0,0],
+   [0,0,0,0,0,0,0,1,1,0,0,0,0]]
+  Output: 6
+  ```
 
 ## Solution
 

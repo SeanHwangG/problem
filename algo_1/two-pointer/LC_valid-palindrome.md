@@ -1,13 +1,17 @@
 # [LC_valid-palindrome](https://leetcode.com/problems/valid-palindrome)
 
-```en
-Check if string is palindrome
-```
+* en
 
-```txt
-Input: s = "A man, a plan, a canal: Panama"
-Output: true
-```
+  ```en
+  Check if string is palindrome
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "A man, a plan, a canal: Panama"
+  Output: true
+  ```
 
 ## Solution
 

@@ -1,20 +1,24 @@
 # [HR_text-processing-cut-1](https://www.hackerrank.com/challenges/text-processing-cut-1)
 
-```en
-Print 3rd character
-```
+* en
 
-```txt
-Input:
-Hello
-World
-how are you
+  ```en
+  Print 3rd character
+  ```
 
-Output:
-l
-r
-w
-```
+* tc
+
+  ```tc
+  Input:
+  Hello
+  World
+  how are you
+
+  Output:
+  l
+  r
+  w
+  ```
 
 ## Solution
 

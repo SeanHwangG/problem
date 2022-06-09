@@ -1,28 +1,32 @@
 # [LC_consecutive-available-seats](https://leetcode.com/problems/consecutive-available-seats)
 
-```en
-Query all consecutive available seats order by the seat_id
-```
+* en
 
-```txt
-Input:
+  ```en
+  Query all consecutive available seats order by the seat_id
+  ```
 
-| seat_id | free |
-| ------- | ---- |
-| 1       | 1    |
-| 2       | 0    |
-| 3       | 1    |
-| 4       | 1    |
-| 5       | 1    |
+* tc
 
-Output:
+  ```tc
+  Input:
 
-| seat_id |
-| ------- |
-| 3       |
-| 4       |
-| 5       |
-```
+  | seat_id | free |
+  | ------- | ---- |
+  | 1       | 1    |
+  | 2       | 0    |
+  | 3       | 1    |
+  | 4       | 1    |
+  | 5       | 1    |
+
+  Output:
+
+  | seat_id |
+  | ------- |
+  | 3       |
+  | 4       |
+  | 5       |
+  ```
 
 ## Solution
 

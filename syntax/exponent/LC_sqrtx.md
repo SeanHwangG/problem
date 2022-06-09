@@ -1,13 +1,17 @@
 # [LC_sqrtx](https://leetcode.com/problems/sqrtx)
 
-```en
-Implement sqrt function
-```
+* en
 
-```txt
-Input: x = 4
-Output: 2
-```
+  ```en
+  Implement sqrt function
+  ```
+
+* tc
+
+  ```tc
+  Input: x = 4
+  Output: 2
+  ```
 
 ## Solution
 

@@ -1,22 +1,26 @@
 # [LC_nth-highest-salary](https://leetcode.com/problems/nth-highest-salary)
 
-```en
-Get nth highest salary from Employee table
-```
+* en
 
-```txt
-Input: 
-| Id  | Salary |
-| --- | ------ |
-| 1   | 100    |
-| 2   | 200    |
-| 3   | 300    |
+  ```en
+  Get nth highest salary from Employee table
+  ```
 
-Output:
-| getNthHighestSalary(2) |
-| ---------------------- |
-| 200                    |
-```
+* tc
+
+  ```tc
+  Input:
+  | Id  | Salary |
+  | --- | ------ |
+  | 1   | 100    |
+  | 2   | 200    |
+  | 3   | 300    |
+
+  Output:
+  | getNthHighestSalary(2) |
+  | ---------------------- |
+  | 200                    |
+  ```
 
 ## Solution
 

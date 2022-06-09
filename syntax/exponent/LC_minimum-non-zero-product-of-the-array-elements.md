@@ -1,17 +1,21 @@
 # [LC_minimum-non-zero-product-of-the-array-elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements)
 
-```en
-Consider 1-indexed array num that consist of int in inclusive range [1, 2p - 1] in their binary representation
-Find Minimum product when you can switch any same position bits of two number, returns in modulo 1e9 + 7
-```
+* en
 
-```txt
-Input: p = 2
-Output: 6  # [01, 10, 11]
+  ```en
+  Consider 1-indexed array num that consist of int in inclusive range [1, 2p - 1] in their binary representation
+  Find Minimum product when you can switch any same position bits of two number, returns in modulo 1e9 + 7
+  ```
 
-Input: p = 3
-Output: 1512  # [001, 010, 011, 100, 101, 110, 111]
-```
+* tc
+
+  ```tc
+  Input: p = 2
+  Output: 6  # [01, 10, 11]
+
+  Input: p = 3
+  Output: 1512  # [001, 010, 011, 100, 101, 110, 111]
+  ```
 
 ## Solution
 

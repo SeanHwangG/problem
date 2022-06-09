@@ -1,16 +1,20 @@
 # [LC_exclusive-time-of-functions](https://leetcode.com/problems/exclusive-time-of-functions)
 
-```en
-A function's exclusive time is the sum of execution times for all function calls in the program
-Return exclusive time of each function in array, where value at ith index represents exclusive time for function with ID i
+* en
+
+  ```en
+  A function's exclusive time is the sum of execution times for all function calls in the program
+  Return exclusive time of each function in array, where value at ith index represents exclusive time for function with ID i
 
 
-```
+  ```
 
-```txt
-Input: n = 2, logs = ["0:start:0","1:start:2","1:end:5","0:end:6"]
-Output: [3,4]
-```
+* tc
+
+  ```tc
+  Input: n = 2, logs = ["0:start:0","1:start:2","1:end:5","0:end:6"]
+  Output: [3,4]
+  ```
 
 ## Solution
 

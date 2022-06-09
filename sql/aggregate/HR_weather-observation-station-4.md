@@ -1,22 +1,26 @@
 # [HR_weather-observation-station-4](https://www.hackerrank.com/challenges/weather-observation-station-4)
 
-```en
-Find difference between total number of CITY entries in table and number of distinct CITY entries in table
-```
+* en
 
-```txt
-Input: 
-| Id   | City       | Country | State        | Zip    |
-| ---- | ---------- | ------- | ------------ | ------ |
-| 6    | Rotterdam  | NLD     | Zuid-Holland | 593321 |
-| 1661 | Ecottsdale | USA     | Arizona      | 202705 |
-| 3965 | Corona     | USA     | California   | 124966 |
+  ```en
+  Find difference between total number of CITY entries in table and number of distinct CITY entries in table
+  ```
 
-Output:
-| Count |
-| ----- |
-| 13    |
-```
+* tc
+
+  ```tc
+  Input:
+  | Id   | City       | Country | State        | Zip    |
+  | ---- | ---------- | ------- | ------------ | ------ |
+  | 6    | Rotterdam  | NLD     | Zuid-Holland | 593321 |
+  | 1661 | Ecottsdale | USA     | Arizona      | 202705 |
+  | 3965 | Corona     | USA     | California   | 124966 |
+
+  Output:
+  | Count |
+  | ----- |
+  | 13    |
+  ```
 
 ## Solution
 

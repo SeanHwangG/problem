@@ -1,17 +1,21 @@
 # [LC_jump-game-iii](https://leetcode.com/problems/jump-game-iii)
 
-```en
-Initially positioned at start index of the array. When at index i, can jump to i + arr[i] or i - arr[i]
-Check if reach to any index with value 0
-```
+* en
 
-```txt
-Input: arr = [4,2,3,0,3,1,2], start = 5
-Output: true
+  ```en
+  Initially positioned at start index of the array. When at index i, can jump to i + arr[i] or i - arr[i]
+  Check if reach to any index with value 0
+  ```
 
-Input: arr = [4,2,3,0,3,1,2], start = 0
-Output: true 
-```
+* tc
+
+  ```tc
+  Input: arr = [4,2,3,0,3,1,2], start = 5
+  Output: true
+
+  Input: arr = [4,2,3,0,3,1,2], start = 0
+  Output: true
+  ```
 
 ## Solution
 

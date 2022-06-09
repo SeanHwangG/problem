@@ -1,19 +1,23 @@
 # [HR_uk-and-us-2](https://www.hackerrank.com/challenges/uk-and-us-2)
 
-```en
-For some spelling, US uses or, while UK uses our
-Given UK spelling, find the number of occurence from sentence either of them
-```
+* en
 
-```txt
-Input: 2
-the odour coming out of the leftover food was intolerable
-ammonia has a very pungent odor
-1
-odour
+  ```en
+  For some spelling, US uses or, while UK uses our
+  Given UK spelling, find the number of occurence from sentence either of them
+  ```
 
-Output: 2
-```
+* tc
+
+  ```tc
+  Input: 2
+  the odour coming out of the leftover food was intolerable
+  ammonia has a very pungent odor
+  1
+  odour
+
+  Output: 2
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_dungeon-game](https://leetcode.com/problems/dungeon-game)
 
-```en
-Return the knight's minimum initial health so that he can rescue the princess
-```
+* en
 
-```txt
-Input: dungeon = [[-2,-3,3],[-5,-10,1],[10,30,-5]]
-Output: 7
-```
+  ```en
+  Return the knight's minimum initial health so that he can rescue the princess
+  ```
+
+* tc
+
+  ```tc
+  Input: dungeon = [[-2,-3,3],[-5,-10,1],[10,30,-5]]
+  Output: 7
+  ```
 
 ## Solution
 

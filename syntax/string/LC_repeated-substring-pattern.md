@@ -1,19 +1,23 @@
 # [LC_repeated-substring-pattern](https://leetcode.com/problems/repeated-substring-pattern)
 
-```en
-Given string s, check if it can be constructed by taking substring of it and appending 1+ copies of substring together
-```
+* en
 
-```txt
-Input: s = "abab"
-Output: true  # "ab" twice.
+  ```en
+  Given string s, check if it can be constructed by taking substring of it and appending 1+ copies of substring together
+  ```
 
-Input: s = "aba"
-Output: false
+* tc
 
-Input: s = "abcabcabcabc"
-Output: true  # "abc" four times or substring "abcabc" twice
-```
+  ```tc
+  Input: s = "abab"
+  Output: true  # "ab" twice.
+
+  Input: s = "aba"
+  Output: false
+
+  Input: s = "abcabcabcabc"
+  Output: true  # "abc" four times or substring "abcabc" twice
+  ```
 
 ## Solution
 

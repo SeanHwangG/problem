@@ -1,21 +1,25 @@
 # [LC_insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)
 
-```en
-Implement the RandomizedSet class:
-  RandomizedSet() Initializes the RandomizedSet object
-  bool insert(int val) Inserts an item val into the set if not present. Returns if the item was not present
-  bool remove(int val) Removes an item val from set if present. Returns if the item was present
-  int getRandom() Return random element from current set of elements (guaranteed element exists when method is called)
-    Each element must have the same probability of being returned
-```
+* en
 
-```txt
-Input:
-["RandomizedSet", "insert", "remove", "insert", "getRandom", "remove", "insert", "getRandom"]
-[[], [1], [2], [2], [], [1], [2], []]
+  ```en
+  Implement the RandomizedSet class:
+    RandomizedSet() Initializes the RandomizedSet object
+    bool insert(int val) Inserts an item val into the set if not present. Returns if the item was not present
+    bool remove(int val) Removes an item val from set if present. Returns if the item was present
+    int getRandom() Return random element from current set of elements (guaranteed element exists when method is called)
+      Each element must have the same probability of being returned
+  ```
 
-Output: [null, true, false, true, 2, true, false, 2]
-```
+* tc
+
+  ```tc
+  Input:
+  ["RandomizedSet", "insert", "remove", "insert", "getRandom", "remove", "insert", "getRandom"]
+  [[], [1], [2], [2], [], [1], [2], []]
+
+  Output: [null, true, false, true, 2, true, false, 2]
+  ```
 
 ## Solution
 

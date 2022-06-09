@@ -1,14 +1,18 @@
 # [LC_largest-palindrome-product](https://leetcode.com/problems/largest-palindrome-product)
 
-```en
-Given integer n, return largest palindromic integer that can be represented as product of two n-digits ints
-Return it modulo 1337
-```
+* en
 
-```txt
-Input: n = 2
-Output: 987  # 99 x 91 = 9009, 9009 % 1337 = 987
-```
+  ```en
+  Given integer n, return largest palindromic integer that can be represented as product of two n-digits ints
+  Return it modulo 1337
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 2
+  Output: 987  # 99 x 91 = 9009, 9009 % 1337 = 987
+  ```
 
 ## Solution
 

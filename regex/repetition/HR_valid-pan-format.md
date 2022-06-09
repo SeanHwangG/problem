@@ -1,19 +1,23 @@
 # [HR_valid-pan-format](https://www.hackerrank.com/challenges/valid-pan-format)
 
-```en
-<char>\<char>\<char>\<char>\<char>\<digit>\<digit>\<digit>\<digit>\<char>
-```
+* en
 
-```txt
-Input: 3
-ABCDS1234Y
-ABAB12345Y
-avCDS1234Y
+  ```en
+  <char>\<char>\<char>\<char>\<char>\<digit>\<digit>\<digit>\<digit>\<char>
+  ```
 
-Output: YES
-NO
-NO
-```
+* tc
+
+  ```tc
+  Input: 3
+  ABCDS1234Y
+  ABAB12345Y
+  avCDS1234Y
+
+  Output: YES
+  NO
+  NO
+  ```
 
 ## Solution
 

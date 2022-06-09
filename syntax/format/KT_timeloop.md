@@ -1,15 +1,19 @@
 # [KT_timeloop](https://open.kattis.com/problems/timeloop)
 
-```en
-Given N, Print 1 Abracadabra … N Abracadabra
-```
+* en
 
-```txt
-Input: 2
-Output:
-1 Abracadabra
-2 Abracadabra
-```
+  ```en
+  Given N, Print 1 Abracadabra … N Abracadabra
+  ```
+
+* tc
+
+  ```tc
+  Input: 2
+  Output:
+  1 Abracadabra
+  2 Abracadabra
+  ```
 
 ## Solution
 

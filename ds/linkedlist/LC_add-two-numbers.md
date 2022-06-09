@@ -1,13 +1,17 @@
 # [LC_add-two-numbers](https://leetcode.com/problems/add-two-numbers)
 
-```en
-Add two linked list number
-```
+* en
 
-```txt
-Input: l1 = [2,4,3], l2 = [5,6,4]
-Output: [7,0,8]
-```
+  ```en
+  Add two linked list number
+  ```
+
+* tc
+
+  ```tc
+  Input: l1 = [2,4,3], l2 = [5,6,4]
+  Output: [7,0,8]
+  ```
 
 ## Solution
 

@@ -1,21 +1,25 @@
 # [LC_range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)
 
-```en
-Design class with following methods
-  NumArray(int[] nums) initializes the object with the integer array nums
-  void update(int index, int val) updates the value of nums[index] to be val
-  int sumRange(int left, int right) returns the sum of the subarray nums[left, right]
-    (i.e., nums[left] + nums[left + 1], ..., nums[right])
-At most 3 * 10^4 calls will be made to update and sumRange
-```
+* en
 
-```txt
-Input:
-["NumArray", "sumRange", "update", "sumRange"]
-[[[1, 3, 5]], [0, 2], [1, 2], [0, 2]]
+  ```en
+  Design class with following methods
+    NumArray(int[] nums) initializes the object with the integer array nums
+    void update(int index, int val) updates the value of nums[index] to be val
+    int sumRange(int left, int right) returns the sum of the subarray nums[left, right]
+      (i.e., nums[left] + nums[left + 1], ..., nums[right])
+  At most 3 * 10^4 calls will be made to update and sumRange
+  ```
 
-Output: [null, 9, null, 8]
-```
+* tc
+
+  ```tc
+  Input:
+  ["NumArray", "sumRange", "update", "sumRange"]
+  [[[1, 3, 5]], [0, 2], [1, 2], [0, 2]]
+
+  Output: [null, 9, null, 8]
+  ```
 
 ## Solution
 

@@ -1,17 +1,21 @@
 # [LC_generate-random-point-in-a-circle](https://leetcode.com/problems/generate-random-point-in-a-circle)
 
-```en
-Print random point inside circle
-```
+* en
 
-```txt
-Input:
-["Solution", "randPoint", "randPoint", "randPoint"]
-[[1.0, 0.0, 0.0], [], [], []]
+  ```en
+  Print random point inside circle
+  ```
 
-Output:
-[null, [-0.02493, -0.38077], [0.82314, 0.38945], [0.36572, 0.17248]]
-```
+* tc
+
+  ```tc
+  Input:
+  ["Solution", "randPoint", "randPoint", "randPoint"]
+  [[1.0, 0.0, 0.0], [], [], []]
+
+  Output:
+  [null, [-0.02493, -0.38077], [0.82314, 0.38945], [0.36572, 0.17248]]
+  ```
 
 ## Solution
 

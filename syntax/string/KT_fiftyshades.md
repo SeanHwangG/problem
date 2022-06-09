@@ -1,26 +1,30 @@
 # [KT_fiftyshades](https://open.kattis.com/problems/fiftyshades)
 
-```en
-Count number of lines with rose or pink (Ignore case)
-```
+* en
 
-```txt
-Input: 12
-pink
-tequilaSunrose
-mExicanPInK
-Coquelicot
-turqrose
-roSee
-JETblack
-pink
-babypink
-pInKpinkPinK
-PInkrose
-lazerlemon
+  ```en
+  Count number of lines with rose or pink (Ignore case)
+  ```
 
-Output: 9
-```
+* tc
+
+  ```tc
+  Input: 12
+  pink
+  tequilaSunrose
+  mExicanPInK
+  Coquelicot
+  turqrose
+  roSee
+  JETblack
+  pink
+  babypink
+  pInKpinkPinK
+  PInkrose
+  lazerlemon
+
+  Output: 9
+  ```
 
 ## Solution
 

@@ -1,23 +1,27 @@
 # [LC_fix-names-in-a-table](https://leetcode.com/problems/fix-names-in-a-table)
 
-```en
-Fix names so that only first character is uppercase and rest are lowercase
-Return result table ordered by user_id
-```
+* en
 
-```txt
-Input:
-| user_id | name  |
-| ------- | ----- |
-| 1       | aLice |
-| 2       | bOB   |
+  ```en
+  Fix names so that only first character is uppercase and rest are lowercase
+  Return result table ordered by user_id
+  ```
 
-Output:
-| user_id | name  |
-| ------- | ----- |
-| 1       | Alice |
-| 2       | Bob   |
-```
+* tc
+
+  ```tc
+  Input:
+  | user_id | name  |
+  | ------- | ----- |
+  | 1       | aLice |
+  | 2       | bOB   |
+
+  Output:
+  | user_id | name  |
+  | ------- | ----- |
+  | 1       | Alice |
+  | 2       | Bob   |
+  ```
 
 ## Solution
 

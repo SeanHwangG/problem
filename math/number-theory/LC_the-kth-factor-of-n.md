@@ -1,14 +1,18 @@
 # [LC_the-kth-factor-of-n](https://leetcode.com/problems/the-kth-factor-of-n)
 
-```en
-Consider a list of all factors of n sorted in ascending order
-return kth factor in this list or return -1 if n has less than k factors
-```
+* en
 
-```txt
-Input: n = 12, k = 3
-Output: 3
-```
+  ```en
+  Consider a list of all factors of n sorted in ascending order
+  return kth factor in this list or return -1 if n has less than k factors
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 12, k = 3
+  Output: 3
+  ```
 
 ## Solution
 

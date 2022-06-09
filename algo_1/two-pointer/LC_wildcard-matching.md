@@ -1,13 +1,17 @@
 # [LC_wildcard-matching](https://leetcode.com/problems/wildcard-matching)
 
-```en
-Given input string (s) and pattern (p), implement wildcard pattern matching with support for '?' and '*'
-```
+* en
 
-```txt
-Input: s = "adceb", p = "*a*?"
-Output: true
-```
+  ```en
+  Given input string (s) and pattern (p), implement wildcard pattern matching with support for '?' and '*'
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "adceb", p = "*a*?"
+  Output: true
+  ```
 
 ## Solution
 

@@ -1,30 +1,36 @@
 # [KT_acm](https://open.kattis.com/problems/acm)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-문제를 풀 때 정답이면 정답인 시간을 더하고,
-오답이면 그 문제에 대한 penalty가 20분 씩 쌓여 그 문제를 맞았을 때 기존에 쌓인 페널티를 합쳐서 시간을 계산한다
-시간, 문제, 결과가 입력 될 때 맞은 문제와, 총 시간을 구하라
--1 이 입력될 까지 계속 된다
-```
+  ```
 
-```txt
-Input:
-3 E right
-10 A wrong
-30 C wrong
-50 B wrong
-100 A wrong
-200 A right
-250 C wrong
-300 D right
--1
+* kr
 
-Output: 3 543
-```
+  ```kr
+  문제를 풀 때 정답이면 정답인 시간을 더하고,
+  오답이면 그 문제에 대한 penalty가 20분 씩 쌓여 그 문제를 맞았을 때 기존에 쌓인 페널티를 합쳐서 시간을 계산한다
+  시간, 문제, 결과가 입력 될 때 맞은 문제와, 총 시간을 구하라
+  -1 이 입력될 까지 계속 된다
+  ```
+
+* tc
+
+  ```tc
+  Input:
+  3 E right
+  10 A wrong
+  30 C wrong
+  50 B wrong
+  100 A wrong
+  200 A right
+  250 C wrong
+  300 D right
+  -1
+
+  Output: 3 543
+  ```
 
 ## Solution
 

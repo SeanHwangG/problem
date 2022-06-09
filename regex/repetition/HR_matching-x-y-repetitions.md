@@ -1,15 +1,19 @@
 # [HR_matching-x-y-repetitions](https://www.hackerrank.com/challenges/matching-x-y-repetitions)
 
-```en
-Should begin with 3, 4 or 5 digits
-After that, should have 3 or more letters (both lowercase and uppercase)
-Then should end with up to 3 symbol(s). You can end with 0 to 3. symbol(s), inclusively
-```
+* en
 
-```txt
-Input: 3threeormorealphabets.
-Output: true
-```
+  ```en
+  Should begin with 3, 4 or 5 digits
+  After that, should have 3 or more letters (both lowercase and uppercase)
+  Then should end with up to 3 symbol(s). You can end with 0 to 3. symbol(s), inclusively
+  ```
+
+* tc
+
+  ```tc
+  Input: 3threeormorealphabets.
+  Output: true
+  ```
 
 ## Solution
 

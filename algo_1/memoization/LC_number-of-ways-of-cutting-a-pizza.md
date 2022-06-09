@@ -1,21 +1,25 @@
 # [LC_number-of-ways-of-cutting-a-pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza)
 
-```en
-Given rectangular pizza represented as rows x cols matrix containing following characters:
-'A' (apple), '.' (empty cell) and given integer k You have to cut the pizza into k pieces using k-1 cuts
-For each cut choose direction: vertical/horizontal, then choose cut position at cell boundary and cut into two pieces
-If you cut pizza vertically, give left part of pizza to a person. If horizontally, give upper part of pizza to a person
-Give last piece of pizza to last person
-Return number of ways of cutting the pizza such that each piece contains at least one apple modulo 1e9 + 7
-```
+* en
 
-```txt
-Input: pizza = ["A..","AAA","..."], k = 3
-Output: 3
+  ```en
+  Given rectangular pizza represented as rows x cols matrix containing following characters:
+  'A' (apple), '.' (empty cell) and given integer k You have to cut the pizza into k pieces using k-1 cuts
+  For each cut choose direction: vertical/horizontal, then choose cut position at cell boundary and cut into two pieces
+  If you cut pizza vertically, give left part of pizza to a person. If horizontally, give upper part of pizza to a person
+  Give last piece of pizza to last person
+  Return number of ways of cutting the pizza such that each piece contains at least one apple modulo 1e9 + 7
+  ```
 
-Input: pizza = ["A..","AA.","..."], k = 3
-Output: 1
-```
+* tc
+
+  ```tc
+  Input: pizza = ["A..","AAA","..."], k = 3
+  Output: 3
+
+  Input: pizza = ["A..","AA.","..."], k = 3
+  Output: 1
+  ```
 
 ## Solution
 

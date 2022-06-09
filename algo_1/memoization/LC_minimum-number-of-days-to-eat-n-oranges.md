@@ -1,16 +1,20 @@
 # [LC_minimum-number-of-days-to-eat-n-oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges)
 
-```en
-There are n oranges in the kitchen and you decided to eat some of these oranges every day as follows:
-Eat one orange
-If the number of remaining oranges (n) is divisible by 2 then you can eat  n/2 oranges
-If the number of remaining oranges (n) is divisible by 3 then you can eat  2*(n/3) oranges
-```
+* en
 
-```txt
-Input: n = 10
-Output: 4
-```
+  ```en
+  There are n oranges in the kitchen and you decided to eat some of these oranges every day as follows:
+  Eat one orange
+  If the number of remaining oranges (n) is divisible by 2 then you can eat  n/2 oranges
+  If the number of remaining oranges (n) is divisible by 3 then you can eat  2*(n/3) oranges
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 10
+  Output: 4
+  ```
 
 ## Solution
 

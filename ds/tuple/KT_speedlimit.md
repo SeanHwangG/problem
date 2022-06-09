@@ -1,30 +1,34 @@
 # [KT_speedlimit](https://open.kattis.com/problems/speedlimit)
 
-```en
-Given speed and time, find avergage velocity
+* en
 
-```
+  ```en
+  Given speed and time, find avergage velocity
 
-```txt
-Input: 3
-20 2
-30 6
-10 7
-2
-60 1
-30 5
-4
-15 1
-25 2
-30 3
-10 5
--1
+  ```
 
-Output:
-170 miles
-180 miles
-90 miles
-```
+* tc
+
+  ```tc
+  Input: 3
+  20 2
+  30 6
+  10 7
+  2
+  60 1
+  30 5
+  4
+  15 1
+  25 2
+  30 3
+  10 5
+  -1
+
+  Output:
+  170 miles
+  180 miles
+  90 miles
+  ```
 
 ## Solution
 

@@ -1,17 +1,21 @@
 # [LC_shortest-word-distance](https://leetcode.com/problems/shortest-word-distance)
 
-```en
-Given an array of strings wordsDict and two different strings that already exist in the array word1 and word2
-Return shortest distance between these two words in the list
-```
+* en
 
-```txt
-Input: wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "coding", word2 = "practice"
-Output: 3
+  ```en
+  Given an array of strings wordsDict and two different strings that already exist in the array word1 and word2
+  Return shortest distance between these two words in the list
+  ```
 
-Input: wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "makes", word2 = "coding"
-Output: 1
-```
+* tc
+
+  ```tc
+  Input: wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "coding", word2 = "practice"
+  Output: 3
+
+  Input: wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "makes", word2 = "coding"
+  Output: 1
+  ```
 
 ## Solution
 

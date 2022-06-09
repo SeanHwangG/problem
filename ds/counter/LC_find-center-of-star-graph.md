@@ -1,13 +1,17 @@
 # [LC_find-center-of-star-graph](https://leetcode.com/problems/find-center-of-star-graph)
 
-```en
-Find most common item in 2d list
-```
+* en
 
-```txt
-Input: edges = [[1,2],[2,3],[4,2]]
-Output: 2
-```
+  ```en
+  Find most common item in 2d list
+  ```
+
+* tc
+
+  ```tc
+  Input: edges = [[1,2],[2,3],[4,2]]
+  Output: 2
+  ```
 
 ## Solution
 

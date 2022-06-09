@@ -1,13 +1,17 @@
 # [KT_runlengthencodingrun](https://open.kattis.com/problems/runlengthencodingrun)
 
-```en
-Convert using two rules
-```
+* en
 
-```txt
-Input: E HHHeellloWooorrrrlld!!
-Output: H3e2l3o1W1o3r4l2d1!2
-```
+  ```en
+  Convert using two rules
+  ```
+
+* tc
+
+  ```tc
+  Input: E HHHeellloWooorrrrlld!!
+  Output: H3e2l3o1W1o3r4l2d1!2
+  ```
 
 ## Solution
 

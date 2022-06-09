@@ -1,18 +1,22 @@
 # [LC_maximum-score-from-removing-substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings)
 
-```en
-Given a string s and two integers x and y. You can perform two types of operations any number of times
-Remove substring "ab" and gain x points
-For example, when removing "ab" from "cabxbae" it becomes "cxbae"
-Remove substring "ba" and gain y points
-For example, when removing "ba" from "cabxbae" it becomes "cabxe"
-Return the maximum points you can gain after applying the above operations on s
-```
+* en
 
-```txt
-Input: s = "aabbaaxybbaabb", x = 5, y = 4
-Output: 20
-```
+  ```en
+  Given a string s and two integers x and y. You can perform two types of operations any number of times
+  Remove substring "ab" and gain x points
+  For example, when removing "ab" from "cabxbae" it becomes "cxbae"
+  Remove substring "ba" and gain y points
+  For example, when removing "ba" from "cabxbae" it becomes "cabxe"
+  Return the maximum points you can gain after applying the above operations on s
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "aabbaaxybbaabb", x = 5, y = 4
+  Output: 20
+  ```
 
 ## Solution
 

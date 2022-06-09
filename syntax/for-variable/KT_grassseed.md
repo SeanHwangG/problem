@@ -1,26 +1,32 @@
 # [KT_grassseed](https://open.kattis.com/problems/grassseed)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-C 1m2 에 소모되는 씨앗의 가격
-L 라인 의 수
-w1 l1 밭의 넓이 높이
-wL lL
-이 때 총 씨앗의 가격을 구하라
-```
+  ```
 
-```txt
-Input:
-0.75
-2
-2 3.333
-3.41 4.567
+* kr
 
-Output: 16.6796025
-```
+  ```kr
+  C 1m2 에 소모되는 씨앗의 가격
+  L 라인 의 수
+  w1 l1 밭의 넓이 높이
+  wL lL
+  이 때 총 씨앗의 가격을 구하라
+  ```
+
+* tc
+
+  ```tc
+  Input:
+  0.75
+  2
+  2 3.333
+  3.41 4.567
+
+  Output: 16.6796025
+  ```
 
 ## Solution
 

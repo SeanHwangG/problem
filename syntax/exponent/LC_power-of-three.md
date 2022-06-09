@@ -1,13 +1,17 @@
 # [LC_power-of-three](https://leetcode.com/problems/power-of-three)
 
-```en
-Check if n is power of three
-```
+* en
 
-```txt
-Input: n = 27
-Output: true
-```
+  ```en
+  Check if n is power of three
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 27
+  Output: true
+  ```
 
 ## Solution
 

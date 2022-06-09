@@ -1,13 +1,17 @@
 # [LC_russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes)
 
-```en
-Given widths and heights find maximum number of envelopes you can Russian doll
-```
+* en
 
-```txt
-Input: envelopes = [[5,4],[6,4],[6,7],[2,3]]
-Output: 3   # [2,3] => [5,4] => [6,7]
-```
+  ```en
+  Given widths and heights find maximum number of envelopes you can Russian doll
+  ```
+
+* tc
+
+  ```tc
+  Input: envelopes = [[5,4],[6,4],[6,7],[2,3]]
+  Output: 3   # [2,3] => [5,4] => [6,7]
+  ```
 
 ## Solution
 

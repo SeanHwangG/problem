@@ -1,13 +1,17 @@
 # [LC_reverse-bits](https://leetcode.com/problems/reverse-bits)
 
-```en
-Reverse bits of a given 32 bits unsigned integer
-```
+* en
 
-```txt
-Input: n = 00000010100101000001111010011100
-Output:    964176192 (00111001011110000010100101000000)
-```
+  ```en
+  Reverse bits of a given 32 bits unsigned integer
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 00000010100101000001111010011100
+  Output:    964176192 (00111001011110000010100101000000)
+  ```
 
 ## Solution
 

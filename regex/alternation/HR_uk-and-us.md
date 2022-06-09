@@ -1,19 +1,23 @@
 # [HR_uk-and-us](https://www.hackerrank.com/challenges/uk-and-us)
 
-```en
-For some spelling, US uses -se, while UK uses -ze
-Given text, find # occurence from sentence either of them
-```
+* en
 
-```txt
-Input: 2
-hackerrank has such a good ui that it takes no time to familiarise its environment
-to familiarize oneself with ui of hackerrank is easy
-1
-familiarize
+  ```en
+  For some spelling, US uses -se, while UK uses -ze
+  Given text, find # occurence from sentence either of them
+  ```
 
-Output: 2
-```
+* tc
+
+  ```tc
+  Input: 2
+  hackerrank has such a good ui that it takes no time to familiarise its environment
+  to familiarize oneself with ui of hackerrank is easy
+  1
+  familiarize
+
+  Output: 2
+  ```
 
 ## Solution
 

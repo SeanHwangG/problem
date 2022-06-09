@@ -1,18 +1,24 @@
 # [KT_cold](https://open.kattis.com/problems/cold)
 
-```en
-Print number of negative numbers
-```
+* en
 
-```kr
-음수의 개수를 구하라
-```
+  ```en
+  Print number of negative numbers
+  ```
 
-```txt
-Input: 3
-5 -10 15
-Output: 1
-```
+* kr
+
+  ```kr
+  음수의 개수를 구하라
+  ```
+
+* tc
+
+  ```tc
+  Input: 3
+  5 -10 15
+  Output: 1
+  ```
 
 ## Solution
 

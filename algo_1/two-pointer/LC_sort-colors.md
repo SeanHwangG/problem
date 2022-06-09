@@ -1,13 +1,17 @@
 # [LC_sort-colors](https://leetcode.com/problems/sort-colors)
 
-```en
-Sort three number
-```
+* en
 
-```txt
-Input: nums = [2,0,2,1,1,0]
-Output: [0,0,1,1,2,2]
-```
+  ```en
+  Sort three number
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [2,0,2,1,1,0]
+  Output: [0,0,1,1,2,2]
+  ```
 
 ## Solution
 

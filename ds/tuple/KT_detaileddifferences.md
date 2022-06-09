@@ -1,33 +1,37 @@
 # [KT_detaileddifferences](https://open.kattis.com/problems/detaileddifferences)
 
-```en
-Print . if two character are same, else *
+* en
 
-```
+  ```en
+  Print . if two character are same, else *
 
-```txt
-Input:
-3
-ATCCGCTTAGAGGGATT
-GTCCGTTTAGAAGGTTT
-abcdefghijklmnopqrstuvwxyz
-bcdefghijklmnopqrstuvwxyza
-abcdefghijklmnopqrstuvwxyz0123456789
-abcdefghijklmnopqrstuvwxyz0123456789
+  ```
 
-Output:
-ATCCGCTTAGAGGGATT
-GTCCGTTTAGAAGGTTT
-*....*.....*..*..
+* tc
 
-abcdefghijklmnopqrstuvwxyz
-bcdefghijklmnopqrstuvwxyza
-**************************
+  ```tc
+  Input:
+  3
+  ATCCGCTTAGAGGGATT
+  GTCCGTTTAGAAGGTTT
+  abcdefghijklmnopqrstuvwxyz
+  bcdefghijklmnopqrstuvwxyza
+  abcdefghijklmnopqrstuvwxyz0123456789
+  abcdefghijklmnopqrstuvwxyz0123456789
 
-abcdefghijklmnopqrstuvwxyz0123456789
-abcdefghijklmnopqrstuvwxyz0123456789
-....................................
-```
+  Output:
+  ATCCGCTTAGAGGGATT
+  GTCCGTTTAGAAGGTTT
+  *....*.....*..*..
+
+  abcdefghijklmnopqrstuvwxyz
+  bcdefghijklmnopqrstuvwxyza
+  **************************
+
+  abcdefghijklmnopqrstuvwxyz0123456789
+  abcdefghijklmnopqrstuvwxyz0123456789
+  ....................................
+  ```
 
 ## Solution
 

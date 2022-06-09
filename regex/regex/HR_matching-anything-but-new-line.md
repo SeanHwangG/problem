@@ -1,17 +1,21 @@
 # [HR_matching-anything-but-new-line](https://www.hackerrank.com/challenges/matching-anything-but-new-line)
 
-```en
-Matches only and exactly strings of form: abc.def.ghi.jkx
-where each variable a, b, c, d, e, f, g, h, i, j, k, x can be any single character except the newline
-```
+* en
 
-```txt
-Input: 123.456.abc.def
-Output: True
+  ```en
+  Matches only and exactly strings of form: abc.def.ghi.jkx
+  where each variable a, b, c, d, e, f, g, h, i, j, k, x can be any single character except the newline
+  ```
 
-Input: 123456789.2.2.2
-Output: False
-```
+* tc
+
+  ```tc
+  Input: 123.456.abc.def
+  Output: True
+
+  Input: 123456789.2.2.2
+  Output: False
+  ```
 
 ## Solution
 

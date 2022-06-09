@@ -1,13 +1,17 @@
 # [LC_counting-bits](https://leetcode.com/problems/counting-bits)
 
-```en
-Calculate number of 1's in their binary representation and return them as an array
-```
+* en
 
-```txt
-Input: n = 5
-Output: [0,1,1,2,1,2]
-```
+  ```en
+  Calculate number of 1's in their binary representation and return them as an array
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 5
+  Output: [0,1,1,2,1,2]
+  ```
 
 ## Solution
 

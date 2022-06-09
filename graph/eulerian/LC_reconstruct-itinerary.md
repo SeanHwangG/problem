@@ -1,14 +1,18 @@
 # [LC_reconstruct-itinerary](https://leetcode.com/problems/reconstruct-itinerary)
 
-```en
-Given a list of airline tickets where tickets[i] = [fromi, toi] represent departure and arrival airports of one flight
-Reconstruct itinerary in order and return it
-```
+* en
 
-```txt
-Input: tickets = [["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]
-Output: ["JFK","ATL","JFK","SFO","ATL","SFO"]
-```
+  ```en
+  Given a list of airline tickets where tickets[i] = [fromi, toi] represent departure and arrival airports of one flight
+  Reconstruct itinerary in order and return it
+  ```
+
+* tc
+
+  ```tc
+  Input: tickets = [["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]
+  Output: ["JFK","ATL","JFK","SFO","ATL","SFO"]
+  ```
 
 ## Solution
 

@@ -1,15 +1,19 @@
 # [LC_reorder-list](https://leetcode.com/problems/reorder-list)
 
-```en
-Given head of a singly linked-list. The list can be represented as:
-  Reorder the list to be on the following form:
-  L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
-```
+* en
 
-```txt
-Input: head = [1,2,3,4]
-Output: [1,4,2,3]
-```
+  ```en
+  Given head of a singly linked-list. The list can be represented as:
+    Reorder the list to be on the following form:
+    L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+  ```
+
+* tc
+
+  ```tc
+  Input: head = [1,2,3,4]
+  Output: [1,4,2,3]
+  ```
 
 ## Solution
 

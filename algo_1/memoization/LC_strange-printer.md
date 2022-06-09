@@ -1,15 +1,19 @@
 # [LC_strange-printer](https://leetcode.com/problems/strange-printer)
 
-```en
-Printer can only print sequence of same character each time
-Each turn, printer print new characters starting from and ending at any place and will cover original existing characters
-Given string s, return minimum number of turns printer needed to print it
-```
+* en
 
-```txt
-Input: s = "aba"
-Output: 2  # Print "aaa" first and then print "b"
-```
+  ```en
+  Printer can only print sequence of same character each time
+  Each turn, printer print new characters starting from and ending at any place and will cover original existing characters
+  Given string s, return minimum number of turns printer needed to print it
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "aba"
+  Output: 2  # Print "aaa" first and then print "b"
+  ```
 
 ## Solution
 

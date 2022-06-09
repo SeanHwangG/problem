@@ -1,16 +1,20 @@
 # [LC_design-hashset](https://leetcode.com/problems/design-hashset)
 
-```en
-Design Hashset
-```
+* en
 
-```txt
-Input:
-["MyHashSet", "add", "add", "contains", "contains", "add", "contains", "remove", "contains"]
-[[], [1], [2], [1], [3], [2], [2], [2], [2]]
+  ```en
+  Design Hashset
+  ```
 
-Output: [null, null, null, true, false, null, true, null, false]
-```
+* tc
+
+  ```tc
+  Input:
+  ["MyHashSet", "add", "add", "contains", "contains", "add", "contains", "remove", "contains"]
+  [[], [1], [2], [1], [3], [2], [2], [2], [2]]
+
+  Output: [null, null, null, true, false, null, true, null, false]
+  ```
 
 ## Solution
 

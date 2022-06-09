@@ -1,14 +1,18 @@
 # [LC_splitting-a-string-into-descending-consecutive-values](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values)
 
-```en
-Check if we can split s into two or more non-empty substrings
-ST numerical values of substrings are in descending and diff between numerical values of adjacent substrings are 1
-```
+* en
 
-```txt
-Input: s = "050043"
-Output: true
-```
+  ```en
+  Check if we can split s into two or more non-empty substrings
+  ST numerical values of substrings are in descending and diff between numerical values of adjacent substrings are 1
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "050043"
+  Output: true
+  ```
 
 ## Solution
 

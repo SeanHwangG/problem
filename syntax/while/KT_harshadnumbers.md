@@ -1,18 +1,24 @@
 # [KT_harshadnumbers](https://open.kattis.com/problems/harshadnumbers)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-harshad 수는 각 자리 수를 다 더한 수로 나누어 떨어지는 수이다
-n이 주어질 때 n보다 크거나 같은 가장 작은 harshad 수를 출력하라
-```
+  ```
 
-```txt
-Input: 25
-Output: 27
-```
+* kr
+
+  ```kr
+  harshad 수는 각 자리 수를 다 더한 수로 나누어 떨어지는 수이다
+  n이 주어질 때 n보다 크거나 같은 가장 작은 harshad 수를 출력하라
+  ```
+
+* tc
+
+  ```tc
+  Input: 25
+  Output: 27
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_power-of-two](https://leetcode.com/problems/power-of-two)
 
-```en
-Check if power of 2
-```
+* en
 
-```txt
-Input: 8
-Output: True
-```
+  ```en
+  Check if power of 2
+  ```
+
+* tc
+
+  ```tc
+  Input: 8
+  Output: True
+  ```
 
 ## Solution
 

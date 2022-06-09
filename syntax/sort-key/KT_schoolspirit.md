@@ -1,21 +1,25 @@
 # [KT_schoolspirit](https://open.kattis.com/problems/schoolspirit)
 
-```en
-1/5 ∑_{i=0}^{n-1} s_i ⋅(4/5)^i
+* en
 
-What is the average value of gi over all all n students?
-```
+  ```en
+  1/5 ∑_{i=0}^{n-1} s_i ⋅(4/5)^i
 
-```txt
-Input: 3
-500
-120
-75
+  What is the average value of gi over all all n students?
+  ```
 
-Output:
-128.8
-89.06666666666666
-```
+* tc
+
+  ```tc
+  Input: 3
+  500
+  120
+  75
+
+  Output:
+  128.8
+  89.06666666666666
+  ```
 
 ## Solution
 

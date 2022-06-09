@@ -1,13 +1,17 @@
 # [LC_implement-strstr](https://leetcode.com/problems/implement-strstr)
 
-```en
-Return index of first occurrence of needle in haystack, or -1 if needle is not part of haystack
-```
+* en
 
-```txt
-Input: haystack = "hello", needle = "ll"
-Output: 2
-```
+  ```en
+  Return index of first occurrence of needle in haystack, or -1 if needle is not part of haystack
+  ```
+
+* tc
+
+  ```tc
+  Input: haystack = "hello", needle = "ll"
+  Output: 2
+  ```
 
 ## Solution
 

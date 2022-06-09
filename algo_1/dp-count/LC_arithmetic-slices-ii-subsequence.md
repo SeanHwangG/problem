@@ -1,13 +1,17 @@
 # [LC_arithmetic-slices-ii-subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)
 
-```en
-Given an integer array nums, return the number of all the arithmetic subsequences of length greater than 2
-```
+* en
 
-```txt
-Input: nums = [2,4,6,8,10]
-Output: 7
-```
+  ```en
+  Given an integer array nums, return the number of all the arithmetic subsequences of length greater than 2
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [2,4,6,8,10]
+  Output: 7
+  ```
 
 ## Solution
 

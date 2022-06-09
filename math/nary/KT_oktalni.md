@@ -1,13 +1,17 @@
 # [KT_oktalni](https://open.kattis.com/problems/oktalni)
 
-```en
-Convert binary to oct
-```
+* en
 
-```txt
-Input: 1010
-Output: 12
-```
+  ```en
+  Convert binary to oct
+  ```
+
+* tc
+
+  ```tc
+  Input: 1010
+  Output: 12
+  ```
 
 ## Solution
 

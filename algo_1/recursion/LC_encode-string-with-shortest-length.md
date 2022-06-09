@@ -1,17 +1,21 @@
 # [LC_encode-string-with-shortest-length](https://leetcode.com/problems/encode-string-with-shortest-length)
 
-```en
-Given a string s, encode string such that its encoded length is the shortest.
-Encoding rule is: k[encoded_string], where encoded_string inside square brackets is being repeated k times
-```
+* en
 
-```txt
-Input: s = "aaaaa"
-Output: "5[a]"
+  ```en
+  Given a string s, encode string such that its encoded length is the shortest.
+  Encoding rule is: k[encoded_string], where encoded_string inside square brackets is being repeated k times
+  ```
 
-Input: s = "aabcaabcd"
-Output: "2[aabc]d"
-```
+* tc
+
+  ```tc
+  Input: s = "aaaaa"
+  Output: "5[a]"
+
+  Input: s = "aabcaabcd"
+  Output: "2[aabc]d"
+  ```
 
 ## Solution
 

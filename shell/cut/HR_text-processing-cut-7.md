@@ -1,22 +1,26 @@
 # [HR_text-processing-cut-7](https://www.hackerrank.com/challenges/text-processing-cut-7)
 
-```en
-Print characters from thirteenth position to the end
-```
+* en
 
-```txt
-Input:
-How was the math test?
-We have a test tomorrow.
-I finally passed that test.
-test
+  ```en
+  Print characters from thirteenth position to the end
+  ```
 
-Output:
-math
-test
-that
-test
-```
+* tc
+
+  ```tc
+  Input:
+  How was the math test?
+  We have a test tomorrow.
+  I finally passed that test.
+  test
+
+  Output:
+  math
+  test
+  that
+  test
+  ```
 
 ## Solution
 

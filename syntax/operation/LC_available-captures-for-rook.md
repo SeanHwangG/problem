@@ -1,13 +1,17 @@
 # [LC_available-captures-for-rook](https://leetcode.com/problems/available-captures-for-rook)
 
-```en
-Print a + b
-```
+* en
 
-```txt
-Input: 1 2
-Output: 3
-```
+  ```en
+  Print a + b
+  ```
+
+* tc
+
+  ```tc
+  Input: 1 2
+  Output: 3
+  ```
 
 ## Solution
 

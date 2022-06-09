@@ -1,13 +1,17 @@
 # [LC_3sum-closest](https://leetcode.com/problems/3sum-closest)
 
-```en
-Given array S of n int, find three int in S such that the sum is closest to a given number, target
-```
+* en
 
-```txt
-Input: nums = [-1,2,1,-4], target = 1
-Output: 2
-```
+  ```en
+  Given array S of n int, find three int in S such that the sum is closest to a given number, target
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [-1,2,1,-4], target = 1
+  Output: 2
+  ```
 
 ## Solution
 

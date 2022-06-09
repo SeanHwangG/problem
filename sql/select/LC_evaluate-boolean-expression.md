@@ -1,41 +1,45 @@
 # [LC_evaluate-boolean-expression](https://leetcode.com/problems/evaluate-boolean-expression)
 
-```en
-Evaluate the boolean expressions in Expressions table in any order
-```
+* en
 
-```txt
-Input: 
+  ```en
+  Evaluate the boolean expressions in Expressions table in any order
+  ```
 
-Variables
+* tc
 
-| name | value |
-| ---- | ----- |
-| x    | 66    |
-| y    | 77    |
+  ```tc
+  Input:
 
-Expressions
+  Variables
 
-| left_operand | operator | right_operand |
-| ------------ | -------- | ------------- |
-| x            | >        | y             |
-| x            | <        | y             |
-| x            | =        | y             |
-| y            | >        | x             |
-| y            | <        | x             |
-| x            | =        | x             |
+  | name | value |
+  | ---- | ----- |
+  | x    | 66    |
+  | y    | 77    |
 
-Output:
+  Expressions
 
-| left_operand | operator | right_operand | value |
-| ------------ | -------- | ------------- | ----- |
-| x            | >        | y             | false |
-| x            | <        | y             | true  |
-| x            | =        | y             | false |
-| y            | >        | x             | true  |
-| y            | <        | x             | false |
-| x            | =        | x             | true  |
-```
+  | left_operand | operator | right_operand |
+  | ------------ | -------- | ------------- |
+  | x            | >        | y             |
+  | x            | <        | y             |
+  | x            | =        | y             |
+  | y            | >        | x             |
+  | y            | <        | x             |
+  | x            | =        | x             |
+
+  Output:
+
+  | left_operand | operator | right_operand | value |
+  | ------------ | -------- | ------------- | ----- |
+  | x            | >        | y             | false |
+  | x            | <        | y             | true  |
+  | x            | =        | y             | false |
+  | y            | >        | x             | true  |
+  | y            | <        | x             | false |
+  | x            | =        | x             | true  |
+  ```
 
 ## Solution
 

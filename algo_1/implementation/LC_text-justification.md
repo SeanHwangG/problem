@@ -1,18 +1,22 @@
 # [LC_text-justification](https://leetcode.com/problems/text-justification)
 
-```en
-Full justify line
-```
+* en
 
-```txt
-Input: words = ["This", "is", "an", "example", "of", "text", "justification."], maxWidth = 16
-Output:
-[
-   "This    is    an",
-   "example  of text",
-   "justification.  "
-]
-```
+  ```en
+  Full justify line
+  ```
+
+* tc
+
+  ```tc
+  Input: words = ["This", "is", "an", "example", "of", "text", "justification."], maxWidth = 16
+  Output:
+  [
+     "This    is    an",
+     "example  of text",
+     "justification.  "
+  ]
+  ```
 
 ## Solution
 

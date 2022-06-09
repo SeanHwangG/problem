@@ -1,22 +1,26 @@
 # [LC_largest-substring-between-two-equal-characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters)
 
-```en
-Given string s, return length of longest substring between 2 equal characters, excluding two characters
-If there is no such substring return -1.
+* en
 
-A substring is a contiguous sequence of characters within a string
-```
+  ```en
+  Given string s, return length of longest substring between 2 equal characters, excluding two characters
+  If there is no such substring return -1.
 
-```txt
-Input: s = "aa"
-Output: 0
+  A substring is a contiguous sequence of characters within a string
+  ```
 
-Input: s = "abca"  # bc
-Output: 2
+* tc
 
-Input: s = "cbzxy"
-Output: -1
-```
+  ```tc
+  Input: s = "aa"
+  Output: 0
+
+  Input: s = "abca"  # bc
+  Output: 2
+
+  Input: s = "cbzxy"
+  Output: -1
+  ```
 
 ## Solution
 

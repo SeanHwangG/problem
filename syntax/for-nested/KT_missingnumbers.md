@@ -1,26 +1,30 @@
 # [KT_missingnumbers](https://open.kattis.com/problems/missingnumbers)
 
-```en
-Print  all missing numbers 
-```
+* en
 
-```txt
-Input: 9
-2
-4
-5
-7
-8
-9
-10
-11
-13
+  ```en
+  Print  all missing numbers
+  ```
 
-Output: 1
-3
-6
-12
-```
+* tc
+
+  ```tc
+  Input: 9
+  2
+  4
+  5
+  7
+  8
+  9
+  10
+  11
+  13
+
+  Output: 1
+  3
+  6
+  12
+  ```
 
 ## Solution
 

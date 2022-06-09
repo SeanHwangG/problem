@@ -1,13 +1,17 @@
 # [LC_k-diff-pairs-in-an-array](https://leetcode.com/problems/k-diff-pairs-in-an-array)
 
-```en
-Given Array, find number of pairs with difference k
-```
+* en
 
-```txt
-Input: nums = [3,1,4,1,5], k = 2
-Output: 2
-```
+  ```en
+  Given Array, find number of pairs with difference k
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [3,1,4,1,5], k = 2
+  Output: 2
+  ```
 
 ## Solution
 

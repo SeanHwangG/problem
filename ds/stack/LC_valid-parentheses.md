@@ -1,20 +1,24 @@
 # [LC_valid-parentheses](https://leetcode.com/problems/valid-parentheses)
 
-```en
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if input is valid
+* en
 
-```
+  ```en
+  Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if input is valid
 
-```txt
-Input: s = "()"
-Output: true
+  ```
 
-Input: s = "()[]{}"
-Output: true
+* tc
 
-Input: s = "(]"
-Output: false
-```
+  ```tc
+  Input: s = "()"
+  Output: true
+
+  Input: s = "()[]{}"
+  Output: true
+
+  Input: s = "(]"
+  Output: false
+  ```
 
 ## Solution
 

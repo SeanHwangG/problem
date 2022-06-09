@@ -1,19 +1,23 @@
 # [KT_prva](https://open.kattis.com/problems/prva)
 
-```en
-Output the lexicographically smallest word with <1 character in the crossword
-```
+* en
 
-```txt
-Input:
-4 4
-luka
-o#a#
-kula
-i#a#
+  ```en
+  Output the lexicographically smallest word with <1 character in the crossword
+  ```
 
-Output: kala
-```
+* tc
+
+  ```tc
+  Input:
+  4 4
+  luka
+  o#a#
+  kula
+  i#a#
+
+  Output: kala
+  ```
 
 ## Solution
 

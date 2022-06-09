@@ -1,23 +1,27 @@
 # [LC_delete-duplicate-emails](https://leetcode.com/problems/delete-duplicate-emails)
 
-```en
-Delete all duplicate email entries in table named Person, keeping only unique emails based on its smallest Id
-```
+* en
 
-```txt
-Input: 
-| Id  | Email            |
-| --- | ---------------- |
-| 1   | john@example.com |
-| 2   | bob@example.com  |
-| 3   | john@example.com |
+  ```en
+  Delete all duplicate email entries in table named Person, keeping only unique emails based on its smallest Id
+  ```
 
-Output:
-| Id  | Email            |
-| --- | ---------------- |
-| 1   | john@example.com |
-| 2   | bob@example.com  |
-```
+* tc
+
+  ```tc
+  Input:
+  | Id  | Email            |
+  | --- | ---------------- |
+  | 1   | john@example.com |
+  | 2   | bob@example.com  |
+  | 3   | john@example.com |
+
+  Output:
+  | Id  | Email            |
+  | --- | ---------------- |
+  | 1   | john@example.com |
+  | 2   | bob@example.com  |
+  ```
 
 ## Solution
 

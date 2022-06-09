@@ -1,18 +1,22 @@
 # [LC_find-the-celebrity](https://leetcode.com/problems/find-the-celebrity)
 
-```en
-Definition of celebrity is that all the other n - 1 people know him/her, but he/she does not know any of them
-Given helper function bool knows(a, b) which tells you whether A knows B
-Return celebrity's label if there is a celebrity in the party. If none, return -1.
-```
+* en
 
-```txt
-Input: graph = [[1,1,0],[0,1,0],[1,1,1]]
-Output: 1
+  ```en
+  Definition of celebrity is that all the other n - 1 people know him/her, but he/she does not know any of them
+  Given helper function bool knows(a, b) which tells you whether A knows B
+  Return celebrity's label if there is a celebrity in the party. If none, return -1.
+  ```
 
-Input: graph = [[1,0,1],[1,1,0],[0,1,1]]
-Output: -1
-```
+* tc
+
+  ```tc
+  Input: graph = [[1,1,0],[0,1,0],[1,1,1]]
+  Output: 1
+
+  Input: graph = [[1,0,1],[1,1,0],[0,1,1]]
+  Output: -1
+  ```
 
 ## Solution
 

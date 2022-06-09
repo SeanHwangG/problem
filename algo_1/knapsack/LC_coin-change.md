@@ -1,14 +1,18 @@
 # [LC_coin-change](https://leetcode.com/problems/coin-change)
 
-```en
-Given coins representing coins of different denominations and int amount representing total amount of money
-Return fewest # coins that need to make up that amount. If cannot be made up by any combinations, return -1
-```
+* en
 
-```txt
-Input: coins = [1,2,5], amount = 11
-Output: 3
-```
+  ```en
+  Given coins representing coins of different denominations and int amount representing total amount of money
+  Return fewest # coins that need to make up that amount. If cannot be made up by any combinations, return -1
+  ```
+
+* tc
+
+  ```tc
+  Input: coins = [1,2,5], amount = 11
+  Output: 3
+  ```
 
 ## Solution
 

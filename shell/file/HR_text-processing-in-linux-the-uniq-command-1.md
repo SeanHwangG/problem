@@ -1,26 +1,30 @@
 # [HR_text-processing-in-linux-the-uniq-command-1](https://www.hackerrank.com/challenges/text-processing-in-linux-the-uniq-command-1)
 
-```en
-Remove consecutive duplicate
-```
+* en
 
-```txt
-Input:
-00
-00
-01
-01
-00
-00
-02
-02
+  ```en
+  Remove consecutive duplicate
+  ```
 
-Output:
-00
-01
-00
-02
-```
+* tc
+
+  ```tc
+  Input:
+  00
+  00
+  01
+  01
+  00
+  00
+  02
+  02
+
+  Output:
+  00
+  01
+  00
+  02
+  ```
 
 ## Solution
 

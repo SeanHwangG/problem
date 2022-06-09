@@ -1,13 +1,17 @@
 # [LC_single-number](https://leetcode.com/problems/single-number)
 
-```en
-Find only number where all other numbers appear twice
-```
+* en
 
-```txt
-Input: nums = [0,1,0,1,99]
-Output: 99
-```
+  ```en
+  Find only number where all other numbers appear twice
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [0,1,0,1,99]
+  Output: 99
+  ```
 
 ## Solution
 

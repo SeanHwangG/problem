@@ -1,12 +1,16 @@
 # [HR_s10-mcq-1](https://www.hackerrank.com/challenges/s10-mcq-1)
 
-```en
-Two toss of fair six-sided dice, find the probability that their sum will be at most 9
-```
+* en
 
-```txt
-Output: 5/6
-```
+  ```en
+  Two toss of fair six-sided dice, find the probability that their sum will be at most 9
+  ```
+
+* tc
+
+  ```tc
+  Output: 5/6
+  ```
 
 ## Solution
 

@@ -1,19 +1,23 @@
 # [LC_smallest-rectangle-enclosing-black-pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels)
 
-```en
-Given an image that is represented by a binary matrix with 0 as a white pixel and 1 as a black pixel
-Black pixels are connected (only one black region), Pixels are connected horizontally and vertically
-Given two integers x and y that represent location of one of black pixels
-Return area of smallest (axis-aligned) rectangle that encloses all black pixels
-```
+* en
 
-```txt
-Input: image = [["0","0","1","0"],["0","1","1","0"],["0","1","0","0"]], x = 0, y = 2
-Output: 6
+  ```en
+  Given an image that is represented by a binary matrix with 0 as a white pixel and 1 as a black pixel
+  Black pixels are connected (only one black region), Pixels are connected horizontally and vertically
+  Given two integers x and y that represent location of one of black pixels
+  Return area of smallest (axis-aligned) rectangle that encloses all black pixels
+  ```
 
-Input: image = [["1"]], x = 0, y = 0
-Output: 1
-```
+* tc
+
+  ```tc
+  Input: image = [["0","0","1","0"],["0","1","1","0"],["0","1","0","0"]], x = 0, y = 2
+  Output: 6
+
+  Input: image = [["1"]], x = 0, y = 0
+  Output: 1
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [HR_positive-lookbehind](https://www.hackerrank.com/challenges/positive-lookbehind)
 
-```en
-Write a regex which can match all the occurences of digit which are immediately preceded by odd digit
-```
+* en
 
-```txt
-Input: 123Go!
-Output: 1
-```
+  ```en
+  Write a regex which can match all the occurences of digit which are immediately preceded by odd digit
+  ```
+
+* tc
+
+  ```tc
+  Input: 123Go!
+  Output: 1
+  ```
 
 ## Solution
 

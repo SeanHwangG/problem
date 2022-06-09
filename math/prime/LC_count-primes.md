@@ -1,13 +1,17 @@
 # [LC_count-primes](https://leetcode.com/problems/count-primes)
 
-```en
-Count # prime numbers less than a non-negative number, n
-```
+* en
 
-```txt
-Input: n = 10
-Output: 4
-```
+  ```en
+  Count # prime numbers less than a non-negative number, n
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 10
+  Output: 4
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii)
 
-```en
-Given a linked list, return the node where the cycle begins. If there is no cycle, return null
-```
+* en
 
-```txt
-Input: head = [3,2,0,-4], pos = 1
-Output: tail connects to node index 1
-```
+  ```en
+  Given a linked list, return the node where the cycle begins. If there is no cycle, return null
+  ```
+
+* tc
+
+  ```tc
+  Input: head = [3,2,0,-4], pos = 1
+  Output: tail connects to node index 1
+  ```
 
 ## Solution
 

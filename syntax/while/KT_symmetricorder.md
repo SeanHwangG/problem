@@ -1,55 +1,59 @@
 # [KT_symmetricorder](https://open.kattis.com/problems/symmetricorder)
 
-```en
-Print name in symetric order respect to name length
-```
+* en
 
-```txt
-Input: 7
-Bo
-Pat
-Jean
-Kevin
-Claude
-William
-Marybeth
-6
-Jim
-Ben
-Zoe
-Joey
-Frederick
-Annabelle
-5
-John
-Bill
-Fran
-Stan
-Cece
-0
-Output:
-SET 1
-Bo
-Jean
-Claude
-Marybeth
-William
-Kevin
-Pat
-SET 2
-Jim
-Zoe
-Frederick
-Annabelle
-Joey
-Ben
-SET 3
-John
-Fran
-Cece
-Stan
-Bill
-```
+  ```en
+  Print name in symetric order respect to name length
+  ```
+
+* tc
+
+  ```tc
+  Input: 7
+  Bo
+  Pat
+  Jean
+  Kevin
+  Claude
+  William
+  Marybeth
+  6
+  Jim
+  Ben
+  Zoe
+  Joey
+  Frederick
+  Annabelle
+  5
+  John
+  Bill
+  Fran
+  Stan
+  Cece
+  0
+  Output:
+  SET 1
+  Bo
+  Jean
+  Claude
+  Marybeth
+  William
+  Kevin
+  Pat
+  SET 2
+  Jim
+  Zoe
+  Frederick
+  Annabelle
+  Joey
+  Ben
+  SET 3
+  John
+  Fran
+  Cece
+  Stan
+  Bill
+  ```
 
 ## Solution
 

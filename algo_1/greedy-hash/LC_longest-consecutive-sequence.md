@@ -1,13 +1,17 @@
 # [LC_longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence)
 
-```en
-Given unsorted array of int nums, return the length of the longest consecutive elements sequence
-```
+* en
 
-```txt
-Input: nums = [100,4,200,1,3,2]
-Output: 4
-```
+  ```en
+  Given unsorted array of int nums, return the length of the longest consecutive elements sequence
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [100,4,200,1,3,2]
+  Output: 4
+  ```
 
 ## Solution
 

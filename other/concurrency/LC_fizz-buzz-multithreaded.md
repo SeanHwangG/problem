@@ -1,17 +1,21 @@
 # [LC_fizz-buzz-multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded)
 
-```en
-Print fizz buzz given 4 threads
-  a thread printing fizz
-  a thread printing buzz
-  a thread printing fizzbuzz
-  a thread incrementing a number
-```
+* en
 
-```txt
-Input: n = 15
-Output: [1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11,"fizz",13,14,"fizzbuzz"]
-```
+  ```en
+  Print fizz buzz given 4 threads
+    a thread printing fizz
+    a thread printing buzz
+    a thread printing fizzbuzz
+    a thread incrementing a number
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 15
+  Output: [1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11,"fizz",13,14,"fizzbuzz"]
+  ```
 
 ## Solution
 

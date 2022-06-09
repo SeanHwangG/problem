@@ -1,14 +1,18 @@
 # [LC_group-shifted-strings](https://leetcode.com/problems/group-shifted-strings)
 
-```en
-Given array of strings strings, group all strings[i] that belong to the same shifting sequence
-```
+* en
 
-```txt
-Input: strings = ["abc","bcd","acef","xyz","az","ba","a","z"]
-Output:
-[["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
-```
+  ```en
+  Given array of strings strings, group all strings[i] that belong to the same shifting sequence
+  ```
+
+* tc
+
+  ```tc
+  Input: strings = ["abc","bcd","acef","xyz","az","ba","a","z"]
+  Output:
+  [["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
+  ```
 
 ## Solution
 

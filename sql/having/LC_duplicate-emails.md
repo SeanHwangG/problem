@@ -1,24 +1,28 @@
 # [LC_duplicate-emails](https://leetcode.com/problems/duplicate-emails)
 
-```en
-Find all duplicate emails in a table named Person
-```
+* en
 
-```txt
-Input:
+  ```en
+  Find all duplicate emails in a table named Person
+  ```
 
-| Id  | Email   |
-| --- | ------- |
-| 1   | a@b.com |
-| 2   | c@d.com |
-| 3   | a@b.com |
+* tc
 
-Output:
+  ```tc
+  Input:
 
-| Email   |
-| ------- |
-| a@b.com |
-```
+  | Id  | Email   |
+  | --- | ------- |
+  | 1   | a@b.com |
+  | 2   | c@d.com |
+  | 3   | a@b.com |
+
+  Output:
+
+  | Email   |
+  | ------- |
+  | a@b.com |
+  ```
 
 ## Solution
 

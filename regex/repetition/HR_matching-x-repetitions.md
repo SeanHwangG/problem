@@ -1,15 +1,19 @@
 # [HR_matching-x-repetitions](https://www.hackerrank.com/challenges/matching-x-repetitions)
 
-```en
-Must be of length equal to 45
-First characters should consist of letters(both lowercase and uppercase), or of even digits
-Last characters should consist of odd digits or whitespace characters
-```
+* en
 
-```txt
-Input: 2222222222aaaaaaaaaa2222222222aaaaaaaaaa13 57
-Output: true
-```
+  ```en
+  Must be of length equal to 45
+  First characters should consist of letters(both lowercase and uppercase), or of even digits
+  Last characters should consist of odd digits or whitespace characters
+  ```
+
+* tc
+
+  ```tc
+  Input: 2222222222aaaaaaaaaa2222222222aaaaaaaaaa13 57
+  Output: true
+  ```
 
 ## Solution
 

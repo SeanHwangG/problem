@@ -1,13 +1,17 @@
 # [LC_add-binary](https://leetcode.com/problems/add-binary)
 
-```en
-Given two binary strings a and b, return their sum as a binary string
-```
+* en
 
-```txt
-Input: a = "11", b = "1"
-Output: "100"
-```
+  ```en
+  Given two binary strings a and b, return their sum as a binary string
+  ```
+
+* tc
+
+  ```tc
+  Input: a = "11", b = "1"
+  Output: "100"
+  ```
 
 ## Solution
 

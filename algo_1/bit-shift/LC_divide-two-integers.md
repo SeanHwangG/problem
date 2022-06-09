@@ -1,13 +1,17 @@
 # [LC_divide-two-integers](https://leetcode.com/problems/divide-two-integers)
 
-```en
-Implement division without using multiplication, division, and mod
-```
+* en
 
-```txt
-Input: dividend = 7, divisor = -3
-Output: -2
-```
+  ```en
+  Implement division without using multiplication, division, and mod
+  ```
+
+* tc
+
+  ```tc
+  Input: dividend = 7, divisor = -3
+  Output: -2
+  ```
 
 ## Solution
 

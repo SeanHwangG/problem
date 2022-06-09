@@ -1,13 +1,17 @@
 # [LC_permutation-sequence](https://leetcode.com/problems/permutation-sequence)
 
-```en
-Find kth permutation from the set [1, 2, ...]
-```
+* en
 
-```txt
-Input: n = 3, k = 3
-Output: "213"
-```
+  ```en
+  Find kth permutation from the set [1, 2, ...]
+  ```
+
+* tc
+
+  ```tc
+  Input: n = 3, k = 3
+  Output: "213"
+  ```
 
 ## Solution
 

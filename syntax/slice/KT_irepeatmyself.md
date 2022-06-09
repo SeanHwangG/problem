@@ -1,21 +1,25 @@
 # [KT_irepeatmyself](https://open.kattis.com/problems/irepeatmyself)
 
-```en
-Find number of repeated pattern
-```
+* en
 
-```txt
-Input:
-3
-I Repeat Myself I Repeat Myself I Repeat
-aaaaaaaaaaaaaaaaaaaaa
-abbcabbcabbabbcabb
+  ```en
+  Find number of repeated pattern
+  ```
 
-Output:
-16
-1
-11
-```
+* tc
+
+  ```tc
+  Input:
+  3
+  I Repeat Myself I Repeat Myself I Repeat
+  aaaaaaaaaaaaaaaaaaaaa
+  abbcabbcabbabbcabb
+
+  Output:
+  16
+  1
+  11
+  ```
 
 ## Solution
 

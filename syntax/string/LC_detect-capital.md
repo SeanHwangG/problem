@@ -1,19 +1,23 @@
 # [LC_detect-capital](https://leetcode.com/problems/detect-capital)
 
-```en
-All letters in this word are capitals, like "USA".
-All letters in this word are not capitals, like "leetcode".
-Only the first letter in this word is capital, like "Google"
+* en
 
-```
+  ```en
+  All letters in this word are capitals, like "USA".
+  All letters in this word are not capitals, like "leetcode".
+  Only the first letter in this word is capital, like "Google"
 
-```txt
-Input: word = "USA"
-Output: true
+  ```
 
-Input: word = "FlaG"
-Output: false
-```
+* tc
+
+  ```tc
+  Input: word = "USA"
+  Output: true
+
+  Input: word = "FlaG"
+  Output: false
+  ```
 
 ## Solution
 

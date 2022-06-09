@@ -1,13 +1,17 @@
 # [LC_top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements)
 
-```en
-Return Top Kth frequent number
-```
+* en
 
-```txt
-Input: nums = [1,1,1,2,2,3], k = 2
-Output: [1,2]
-```
+  ```en
+  Return Top Kth frequent number
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,1,1,2,2,3], k = 2
+  Output: [1,2]
+  ```
 
 ## Solution
 

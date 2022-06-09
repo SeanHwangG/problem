@@ -1,17 +1,21 @@
 # [LC_maximum-product-of-the-length-of-two-palindromic-substrings](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings)
 
-```en
-Given string s, find 2 non-intersecting palindromic substrings of odd length st product of lengths is maximized
-Return max possible product of lengths of the two non-intersecting palindromic substrings
-```
+* en
 
-```txt
-Input: s = "ababbb"
-Output: 9
+  ```en
+  Given string s, find 2 non-intersecting palindromic substrings of odd length st product of lengths is maximized
+  Return max possible product of lengths of the two non-intersecting palindromic substrings
+  ```
 
-Input: s = "zaaaxbbby"
-Output: 9
-```
+* tc
+
+  ```tc
+  Input: s = "ababbb"
+  Output: 9
+
+  Input: s = "zaaaxbbby"
+  Output: 9
+  ```
 
 ## Solution
 

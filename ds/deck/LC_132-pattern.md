@@ -1,15 +1,19 @@
 # [LC_132-pattern](https://leetcode.com/problems/132-pattern)
 
-```en
-Given array of n integers nums, a 132 pattern is a subsequence of three integers nums[i], nums[j] and nums[k]
-ST i < j < k and nums[i] < nums[k] < nums[j]
-Return whether there is 132 pattern in the list
-```
+* en
 
-```txt
-Input: nums = [1,2,3,4]
-Output: false
-```
+  ```en
+  Given array of n integers nums, a 132 pattern is a subsequence of three integers nums[i], nums[j] and nums[k]
+  ST i < j < k and nums[i] < nums[k] < nums[j]
+  Return whether there is 132 pattern in the list
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,3,4]
+  Output: false
+  ```
 
 ## Solution
 

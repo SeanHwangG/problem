@@ -1,14 +1,18 @@
 # [LC_kth-smallest-number-in-multiplication-table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table)
 
-```en
-Multiplication table of size m x n is integer matrix mat where mat[i][j] == i * j (1-indexed)
-Given three integers m, n, and k, return kth smallest element in the m x n multiplication table
-```
+* en
 
-```txt
-Input: m = 3, n = 3, k = 5
-Output: 3  # 1, 2, 2, 3, 3
-```
+  ```en
+  Multiplication table of size m x n is integer matrix mat where mat[i][j] == i * j (1-indexed)
+  Given three integers m, n, and k, return kth smallest element in the m x n multiplication table
+  ```
+
+* tc
+
+  ```tc
+  Input: m = 3, n = 3, k = 5
+  Output: 3  # 1, 2, 2, 3, 3
+  ```
 
 ## Solution
 

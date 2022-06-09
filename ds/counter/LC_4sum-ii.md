@@ -1,14 +1,18 @@
 # [LC_4sum-ii](https://leetcode.com/problems/4sum-ii)
 
-```en
-Given four lists A, B, C, D of integer values
-compute how many tuples (i, j, k, l) there are such that A[i] + B[j] + C[k] + D[l] is zero
-```
+* en
 
-```txt
-Input: nums1 = [1,2], nums2 = [-2,-1], nums3 = [-1,2], nums4 = [0,2]
-Output: 2
-```
+  ```en
+  Given four lists A, B, C, D of integer values
+  compute how many tuples (i, j, k, l) there are such that A[i] + B[j] + C[k] + D[l] is zero
+  ```
+
+* tc
+
+  ```tc
+  Input: nums1 = [1,2], nums2 = [-2,-1], nums3 = [-1,2], nums4 = [0,2]
+  Output: 2
+  ```
 
 ## Solution
 

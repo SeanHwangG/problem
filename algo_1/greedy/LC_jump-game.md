@@ -1,14 +1,18 @@
 # [LC_jump-game](https://leetcode.com/problems/jump-game)
 
-```en
-Given an array of non-negative integers nums, you are initially positioned at the first index of the array
-Each element in the array represents your maximum jump length at that position
-```
+* en
 
-```txt
-Input: nums = [2,3,1,1,4]
-Output: true
-```
+  ```en
+  Given an array of non-negative integers nums, you are initially positioned at the first index of the array
+  Each element in the array represents your maximum jump length at that position
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [2,3,1,1,4]
+  Output: true
+  ```
 
 ## Solution
 

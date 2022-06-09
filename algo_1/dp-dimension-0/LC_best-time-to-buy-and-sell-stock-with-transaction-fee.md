@@ -1,15 +1,19 @@
 # [LC_best-time-to-buy-and-sell-stock-with-transaction-fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)
 
-```en
-Array prices where prices[i] is price of given stock on ith day, and integer fee representing transaction fee
-Find maximum profit you can achieve
-You may complete as many transactions as you like, but you need to pay transaction fee for each transaction
-```
+* en
 
-```txt
-Input: prices = [1,3,2,8,4,9], fee = 2
-Output: 8
-```
+  ```en
+  Array prices where prices[i] is price of given stock on ith day, and integer fee representing transaction fee
+  Find maximum profit you can achieve
+  You may complete as many transactions as you like, but you need to pay transaction fee for each transaction
+  ```
+
+* tc
+
+  ```tc
+  Input: prices = [1,3,2,8,4,9], fee = 2
+  Output: 8
+  ```
 
 ## Solution
 

@@ -1,14 +1,18 @@
 # [KT_peragrams](https://open.kattis.com/problems/peragrams)
 
-```en
-Peragrams is Palindrome when suffle it's character
-Given string, how many character should I remove to make Peragrams
-```
+* en
 
-```txt
-Input: abc
-Output: 0
-```
+  ```en
+  Peragrams is Palindrome when suffle it's character
+  Given string, how many character should I remove to make Peragrams
+  ```
+
+* tc
+
+  ```tc
+  Input: abc
+  Output: 0
+  ```
 
 ## Solution
 

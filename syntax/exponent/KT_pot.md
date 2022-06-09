@@ -1,19 +1,23 @@
 # [KT_pot](https://open.kattis.com/problems/pot)
 
-```en
-Print number when last number is exponent
-```
+* en
 
-```txt
-Input: 5
-23
-17
-43
-52
-22
+  ```en
+  Print number when last number is exponent
+  ```
 
-Output: 102  # 2 ** 3 + 1 ** 7 ..
-```
+* tc
+
+  ```tc
+  Input: 5
+  23
+  17
+  43
+  52
+  22
+
+  Output: 102  # 2 ** 3 + 1 ** 7 ..
+  ```
 
 ## Solution
 

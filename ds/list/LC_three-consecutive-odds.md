@@ -1,16 +1,20 @@
 # [LC_three-consecutive-odds](https://leetcode.com/problems/three-consecutive-odds)
 
-```en
+* en
 
-```
+  ```en
 
-```txt
-Input: arr = [2,6,4,1]
-Output: false
+  ```
 
-Input: arr = [1,2,34,3,4,5,7,23,12]
-Output: true  # [5,7,23] are three consecutive odds.
-```
+* tc
+
+  ```tc
+  Input: arr = [2,6,4,1]
+  Output: false
+
+  Input: arr = [1,2,34,3,4,5,7,23,12]
+  Output: true  # [5,7,23] are three consecutive odds.
+  ```
 
 ## Solution
 

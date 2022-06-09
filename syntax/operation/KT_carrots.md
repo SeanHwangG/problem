@@ -1,15 +1,19 @@
 # [KT_carrots](https://open.kattis.com/problems/carrots)
 
-```en
-Given a, b print b
-```
+* en
 
-```txt
-Input: 2 1
-carrots?
-bunnies
-Output: 1
-```
+  ```en
+  Given a, b print b
+  ```
+
+* tc
+
+  ```tc
+  Input: 2 1
+  carrots?
+  bunnies
+  Output: 1
+  ```
 
 ## Solution
 

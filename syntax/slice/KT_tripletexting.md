@@ -1,14 +1,18 @@
 # [KT_tripletexting](https://open.kattis.com/problems/tripletexting)
 
-```en
-Same string are repeated three times and but one of them are wrong
-Print right string
-```
+* en
 
-```txt
-Input: hellohrllohello
-Output: hello
-```
+  ```en
+  Same string are repeated three times and but one of them are wrong
+  Print right string
+  ```
+
+* tc
+
+  ```tc
+  Input: hellohrllohello
+  Output: hello
+  ```
 
 ## Solution
 

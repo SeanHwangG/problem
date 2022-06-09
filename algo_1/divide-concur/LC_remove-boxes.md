@@ -1,15 +1,19 @@
 # [LC_remove-boxes](https://leetcode.com/problems/remove-boxes)
 
-```en
-Given boxes with different colors represented by different positive numbers
-Repeat until there is no box left
-Each time choose some continuous boxes with same color, remove them and get k x k point, return max possible points
-```
+* en
 
-```txt
-Input: boxes = [1,3,2,2,2,3,4,3,1]
-Output: 23
-```
+  ```en
+  Given boxes with different colors represented by different positive numbers
+  Repeat until there is no box left
+  Each time choose some continuous boxes with same color, remove them and get k x k point, return max possible points
+  ```
+
+* tc
+
+  ```tc
+  Input: boxes = [1,3,2,2,2,3,4,3,1]
+  Output: 23
+  ```
 
 ## Solution
 

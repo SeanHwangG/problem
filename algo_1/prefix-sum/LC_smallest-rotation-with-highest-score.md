@@ -1,18 +1,22 @@
 # [LC_smallest-rotation-with-highest-score](https://leetcode.com/problems/smallest-rotation-with-highest-score)
 
-```en
-Score is number of entries that are less than or equal to their index
-Return rotation index k that corresponds to the highest score we can achieve if we rotated nums by it
-If there are multiple answers, return the smallest such index k.
-```
+* en
 
-```txt
-Input: nums = [2,3,1,4,0]
-Output: 3
+  ```en
+  Score is number of entries that are less than or equal to their index
+  Return rotation index k that corresponds to the highest score we can achieve if we rotated nums by it
+  If there are multiple answers, return the smallest such index k.
+  ```
 
-Input: nums = [1,3,0,2,4]
-Output: 0  # nums will always have 3 points
-```
+* tc
+
+  ```tc
+  Input: nums = [2,3,1,4,0]
+  Output: 3
+
+  Input: nums = [1,3,0,2,4]
+  Output: 0  # nums will always have 3 points
+  ```
 
 ## Solution
 

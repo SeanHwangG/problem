@@ -1,34 +1,38 @@
 # [LC_customers-who-bought-all-products](https://leetcode.com/problems/customers-who-bought-all-products)
 
-```en
-Report that provides the customer ids from the Customer table that bought all the products in the Product table
-```
+* en
 
-```txt
-Input:
-* Customer
+  ```en
+  Report that provides the customer ids from the Customer table that bought all the products in the Product table
+  ```
 
-| customer_id | product_key |
-| ----------- | ----------- |
-| 1           | 5           |
-| 2           | 6           |
-| 3           | 5           |
-| 3           | 6           |
-| 1           | 6           |
+* tc
 
-* Product
+  ```tc
+  Input:
+  * Customer
 
-| product_key |
-| ----------- |
-| 5           |
-| 6           |
+  | customer_id | product_key |
+  | ----------- | ----------- |
+  | 1           | 5           |
+  | 2           | 6           |
+  | 3           | 5           |
+  | 3           | 6           |
+  | 1           | 6           |
 
-Output:
-| customer_id |
-| ----------- |
-| 1           |
-| 3           |
-```
+  * Product
+
+  | product_key |
+  | ----------- |
+  | 5           |
+  | 6           |
+
+  Output:
+  | customer_id |
+  | ----------- |
+  | 1           |
+  | 3           |
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_sum-of-subarray-minimums](https://leetcode.com/problems/sum-of-subarray-minimums)
 
-```en
-Given array of integers arr, find the sum of min(b), where b ranges over every (contiguous) subarray of arr
-```
+* en
 
-```txt
-Input: arr = [3,1,2,4]
-Output: 17
-```
+  ```en
+  Given array of integers arr, find the sum of min(b), where b ranges over every (contiguous) subarray of arr
+  ```
+
+* tc
+
+  ```tc
+  Input: arr = [3,1,2,4]
+  Output: 17
+  ```
 
 ## Solution
 

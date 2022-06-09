@@ -1,17 +1,21 @@
 # [HR_s10-geometric-distribution-2](https://www.hackerrank.com/challenges/s10-geometric-distribution-2)
 
-```en
-Probability that machine produces a defective product is 1/3
-What is the probability that 1st defect is found during the first 5 inspections?
-```
+* en
 
-```txt
-Input:
-1 3
-5
+  ```en
+  Probability that machine produces a defective product is 1/3
+  What is the probability that 1st defect is found during the first 5 inspections?
+  ```
 
-Output: 0.868
-```
+* tc
+
+  ```tc
+  Input:
+  1 3
+  5
+
+  Output: 0.868
+  ```
 
 ## Solution
 

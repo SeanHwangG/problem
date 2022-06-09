@@ -1,16 +1,20 @@
 # [HR_s10-weighted-mean](https://www.hackerrank.com/challenges/s10-weighted-mean)
 
-```en
-Given values and weights, printed weighted mean
-```
+* en
 
-```txt
-Input: 5
-10 40 30 50 20
-1 2 3 4 5
+  ```en
+  Given values and weights, printed weighted mean
+  ```
 
-Output: 32.0
-```
+* tc
+
+  ```tc
+  Input: 5
+  10 40 30 50 20
+  1 2 3 4 5
+
+  Output: 32.0
+  ```
 
 ## Solution
 

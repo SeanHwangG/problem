@@ -1,20 +1,24 @@
 # [LC_distribute-coins-in-binary-tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)
 
-```en
-Given root of a binary tree with n nodes where each node in tree has node.val coins
-There are n coins in total throughout the whole tree.
-In one move, choose two adjacent nodes and move one coin from one node to another
-A move may be from parent to child, or from child to parent.
-Return min number of moves required to make every node have exactly one coin
-```
+* en
 
-```txt
-Input: root = [3,0,0]
-Output: 2
+  ```en
+  Given root of a binary tree with n nodes where each node in tree has node.val coins
+  There are n coins in total throughout the whole tree.
+  In one move, choose two adjacent nodes and move one coin from one node to another
+  A move may be from parent to child, or from child to parent.
+  Return min number of moves required to make every node have exactly one coin
+  ```
 
-Input: root = [1,0,0,null,3]
-Output: 4
-```
+* tc
+
+  ```tc
+  Input: root = [3,0,0]
+  Output: 2
+
+  Input: root = [1,0,0,null,3]
+  Output: 4
+  ```
 
 ## Solution
 

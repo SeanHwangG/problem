@@ -1,26 +1,30 @@
 # [HR_branch-reset-groups](https://www.hackerrank.com/challenges/branch-reset-groups)
 
-```en
-You have a test string S
-Your task is to write a regex which will match , with following condition(s):
+* en
 
-S consists of 8 digits.
-S must have "---", "-", ".", ":" separator such that str S gets divided in 4 parts, with each part having exactly 2 digits
-S string must have exactly one kind of separator
-Separators must have integers on both sides
-```
+  ```en
+  You have a test string S
+  Your task is to write a regex which will match , with following condition(s):
 
-```txt
-Valid 
-12-34-56-78
-12:34:56:78
-12---34---56---78
-12.34.56.78
+  S consists of 8 digits.
+  S must have "---", "-", ".", ":" separator such that str S gets divided in 4 parts, with each part having exactly 2 digits
+  S string must have exactly one kind of separator
+  Separators must have integers on both sides
+  ```
 
-Invalid 
-1-234-56-78
-12-45.78:10
-```
+* tc
+
+  ```tc
+  Valid
+  12-34-56-78
+  12:34:56:78
+  12---34---56---78
+  12.34.56.78
+
+  Invalid
+  1-234-56-78
+  12-45.78:10
+  ```
 
 ## Solution
 

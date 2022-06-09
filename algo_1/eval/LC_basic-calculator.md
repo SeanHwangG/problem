@@ -1,16 +1,20 @@
 # [LC_basic-calculator](https://leetcode.com/problems/basic-calculator)
 
-```en
-Implement eval, consists of digits, '+', '-', '(', ')', and ' '
-```
+* en
 
-```txt
-Input: s = "1 + 1"
-Output: 2
+  ```en
+  Implement eval, consists of digits, '+', '-', '(', ')', and ' '
+  ```
 
-Input: s = "(1+(4+5+2)-3)+(6+8)"
-Output: 23
-```
+* tc
+
+  ```tc
+  Input: s = "1 + 1"
+  Output: 2
+
+  Input: s = "(1+(4+5+2)-3)+(6+8)"
+  Output: 23
+  ```
 
 ## Solution
 

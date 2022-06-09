@@ -1,14 +1,18 @@
 # [HR_matching-ending-items](https://www.hackerrank.com/challenges/matching-ending-items)
 
-```en
-Should consist of only lowercase and uppercase letters (no numbers or symbols)
-Should end in s
-```
+* en
 
-```txt
-Input: Kites
-Output: true
-```
+  ```en
+  Should consist of only lowercase and uppercase letters (no numbers or symbols)
+  Should end in s
+  ```
+
+* tc
+
+  ```tc
+  Input: Kites
+  Output: true
+  ```
 
 ## Solution
 

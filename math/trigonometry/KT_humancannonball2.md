@@ -1,21 +1,25 @@
 # [KT_humancannonball2](https://open.kattis.com/problems/humancannonball2)
 
-```en
-Check whether cannon safely pass with safe margin 1m
-```
+* en
 
-```txt
-Input:
-25.0 100.0
-190.0 57.5
-4
-125.0 67.5
-75.0 125.0
-45.0 72.5
-185.0 102.5
+  ```en
+  Check whether cannon safely pass with safe margin 1m
+  ```
 
-Output: 19.984901
-```
+* tc
+
+  ```tc
+  Input:
+  25.0 100.0
+  190.0 57.5
+  4
+  125.0 67.5
+  75.0 125.0
+  45.0 72.5
+  185.0 102.5
+
+  Output: 19.984901
+  ```
 
 ## Solution
 

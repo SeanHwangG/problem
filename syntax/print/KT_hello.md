@@ -1,12 +1,16 @@
 # [KT_hello](https://open.kattis.com/problems/hello)
 
-```en
+* en
 
-```
+  ```en
 
-```txt
-Output: Hello World!
-```
+  ```
+
+* tc
+
+  ```tc
+  Output: Hello World!
+  ```
 
 ## Solution
 

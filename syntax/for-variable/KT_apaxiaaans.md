@@ -1,18 +1,24 @@
 # [KT_apaxiaaans](https://open.kattis.com/problems/apaxiaaans)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-Print consecutive character at most once
+  ```
 
-```
+* kr
 
-```txt
-Input: rooobert
-Output: robert
-```
+  ```kr
+  Print consecutive character at most once
+
+  ```
+
+* tc
+
+  ```tc
+  Input: rooobert
+  Output: robert
+  ```
 
 ## Solution
 

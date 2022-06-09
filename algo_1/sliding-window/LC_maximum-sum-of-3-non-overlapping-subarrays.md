@@ -1,13 +1,17 @@
 # [LC_maximum-sum-of-3-non-overlapping-subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays)
 
-```en
-Given int array nums and an integer k, return three non-overlapping subarrays of length k with maximum sum
-```
+* en
 
-```txt
-Input: nums = [1,2,1,2,6,7,5,1], k = 2
-Output: [0,3,5]
-```
+  ```en
+  Given int array nums and an integer k, return three non-overlapping subarrays of length k with maximum sum
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,1,2,6,7,5,1], k = 2
+  Output: [0,3,5]
+  ```
 
 ## Solution
 

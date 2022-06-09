@@ -1,16 +1,20 @@
 # [LC_longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses)
 
-```en
-Given a string containing just characters '(' and ')', find length of longest valid parentheses substring
-```
+* en
 
-```txt
-Input: s = "(()"
-Output: 2  # "()".
+  ```en
+  Given a string containing just characters '(' and ')', find length of longest valid parentheses substring
+  ```
 
-Input: s = ")()())"
-Output: 4  # "()()".
-```
+* tc
+
+  ```tc
+  Input: s = "(()"
+  Output: 2  # "()".
+
+  Input: s = ")()())"
+  Output: 4  # "()()".
+  ```
 
 ## Solution
 

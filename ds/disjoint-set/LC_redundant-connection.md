@@ -1,13 +1,17 @@
 # [LC_redundant-connection](https://leetcode.com/problems/redundant-connection)
 
-```en
-Return edge that can be removed so that the resulting graph is a tree of N nodes
-```
+* en
 
-```txt
-Input: edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]
-Output: [1,4]
-```
+  ```en
+  Return edge that can be removed so that the resulting graph is a tree of N nodes
+  ```
+
+* tc
+
+  ```tc
+  Input: edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]
+  Output: [1,4]
+  ```
 
 ## Solution
 

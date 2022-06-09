@@ -1,23 +1,27 @@
 # [LC_find-median-given-frequency-of-numbers](https://leetcode.com/problems/find-median-given-frequency-of-numbers)
 
-```en
+* en
 
-```
+  ```en
 
-```txt
-Input: 
-| Number | Frequency |
-| ------ | --------- |
-| 0      | 7         |
-| 1      | 1         |
-| 2      | 3         |
-| 3      | 1         |
+  ```
 
-Output:
-| median |
-| ------ |
-| 0.0000 |
-```
+* tc
+
+  ```tc
+  Input:
+  | Number | Frequency |
+  | ------ | --------- |
+  | 0      | 7         |
+  | 1      | 1         |
+  | 2      | 3         |
+  | 3      | 1         |
+
+  Output:
+  | median |
+  | ------ |
+  | 0.0000 |
+  ```
 
 ## Solution
 

@@ -1,21 +1,25 @@
 # [KT_skener](https://open.kattis.com/problems/skener)
 
-```en
-Print magnified picture with r, c factor
-```
+* en
 
-```txt
-Input:
-3 3 2 1
-.x.
-x.x
-.x.
+  ```en
+  Print magnified picture with r, c factor
+  ```
 
-Output:
-..xx..
-xx..xx
-..xx..
-```
+* tc
+
+  ```tc
+  Input:
+  3 3 2 1
+  .x.
+  x.x
+  .x.
+
+  Output:
+  ..xx..
+  xx..xx
+  ..xx..
+  ```
 
 ## Solution
 

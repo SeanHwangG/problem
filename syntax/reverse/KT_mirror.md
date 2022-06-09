@@ -1,35 +1,41 @@
 # [KT_mirror](https://open.kattis.com/problems/mirror)
 
-```en
-Print mirrored string
-```
+* en
 
-```kr
-거울에 비친 글자를 출력하라
-```
+  ```en
+  Print mirrored string
+  ```
 
-```txt
-Input:
-2
-2 2
-.*
-..
-4 4
-***.
-**..
-....
-....
+* kr
 
-Output:
-Test 1
-..
-*.
-Test 2
-....
-....
-..**
-.***
-```
+  ```kr
+  거울에 비친 글자를 출력하라
+  ```
+
+* tc
+
+  ```tc
+  Input:
+  2
+  2 2
+  .*
+  ..
+  4 4
+  ***.
+  **..
+  ....
+  ....
+
+  Output:
+  Test 1
+  ..
+  *.
+  Test 2
+  ....
+  ....
+  ..**
+  .***
+  ```
 
 ## Solution
 

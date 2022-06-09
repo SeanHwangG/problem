@@ -1,14 +1,18 @@
 # [LC_check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence)
 
-```en
-Given a sentence that consists of some words separated by a single space, and a searchWord
-You have to check if searchWord is a prefix of any word in sentence
-```
+* en
 
-```txt
-Input: sentence = "i love eating burger", searchWord = "burg"
-Output: 4    # "burg" is prefix of "burger" which is the 4th word in the sentence.
-```
+  ```en
+  Given a sentence that consists of some words separated by a single space, and a searchWord
+  You have to check if searchWord is a prefix of any word in sentence
+  ```
+
+* tc
+
+  ```tc
+  Input: sentence = "i love eating burger", searchWord = "burg"
+  Output: 4    # "burg" is prefix of "burger" which is the 4th word in the sentence.
+  ```
 
 ## Solution
 

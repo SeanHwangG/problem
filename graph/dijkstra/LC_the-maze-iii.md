@@ -1,28 +1,32 @@
 # [LC_the-maze-iii](https://leetcode.com/problems/the-maze-iii)
 
-```en
-Ball can go through empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting wall
-Return string instructions of all instructions that ball should follow to drop in hole with shortest distance possible
-Print lexicographically minimum in case of tie
-```
+* en
 
-```txt
-Input: maze =
-[[0,0,0,0,0],
- [1,1,0,0,1],
- [0,0,0,0,0],
- [0,1,0,0,1],
- [0,1,0,0,0]], ball = [4,3], hole = [0,1]
-Output: "lul"
+  ```en
+  Ball can go through empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting wall
+  Return string instructions of all instructions that ball should follow to drop in hole with shortest distance possible
+  Print lexicographically minimum in case of tie
+  ```
 
-Input: maze =
-[[0,0,0,0,0],
- [1,1,0,0,1],
- [0,0,0,0,0],
- [0,1,0,0,1],
- [0,1,0,0,0]], ball = [4,3], hole = [3,0]
-Output: "impossible"
-```
+* tc
+
+  ```tc
+  Input: maze =
+  [[0,0,0,0,0],
+   [1,1,0,0,1],
+   [0,0,0,0,0],
+   [0,1,0,0,1],
+   [0,1,0,0,0]], ball = [4,3], hole = [0,1]
+  Output: "lul"
+
+  Input: maze =
+  [[0,0,0,0,0],
+   [1,1,0,0,1],
+   [0,0,0,0,0],
+   [0,1,0,0,1],
+   [0,1,0,0,0]], ball = [4,3], hole = [3,0]
+  Output: "impossible"
+  ```
 
 ## Solution
 

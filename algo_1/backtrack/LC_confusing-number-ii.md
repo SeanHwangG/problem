@@ -1,17 +1,21 @@
 # [LC_confusing-number-ii](https://leetcode.com/problems/confusing-number-ii)
 
-```en
-Confusing number is a number that when rotated 180 degrees becomes a different number with each digit valid
-Given int n, return number of confusing numbers in inclusive range [1, n]
-```
+* en
 
-```txt
-Input: n = 20
-Output: 6
+  ```en
+  Confusing number is a number that when rotated 180 degrees becomes a different number with each digit valid
+  Given int n, return number of confusing numbers in inclusive range [1, n]
+  ```
 
-Input: n = 100
-Output: 19
-```
+* tc
+
+  ```tc
+  Input: n = 20
+  Output: 6
+
+  Input: n = 100
+  Output: 19
+  ```
 
 ## Solution
 

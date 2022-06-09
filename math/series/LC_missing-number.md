@@ -1,13 +1,17 @@
 # [LC_missing-number](https://leetcode.com/problems/missing-number)
 
-```en
-Given array nums containing n distinct numbers in range [0, n], return only number in range that is missing from array
-```
+* en
 
-```txt
-Input: nums = [3,0,1]
-Output: 2
-```
+  ```en
+  Given array nums containing n distinct numbers in range [0, n], return only number in range that is missing from array
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [3,0,1]
+  Output: 2
+  ```
 
 ## Solution
 

@@ -1,16 +1,20 @@
 # [LC_integer-to-english-words](https://leetcode.com/problems/integer-to-english-words)
 
-```en
-Convert a non-negative integer num to its English words representation.
-```
+* en
 
-```txt
-Input: num = 123
-Output: "One Hundred Twenty Three"
+  ```en
+  Convert a non-negative integer num to its English words representation.
+  ```
 
-Input: num = 12345
-Output: "Twelve Thousand Three Hundred Forty Five"
-```
+* tc
+
+  ```tc
+  Input: num = 123
+  Output: "One Hundred Twenty Three"
+
+  Input: num = 12345
+  Output: "Twelve Thousand Three Hundred Forty Five"
+  ```
 
 ## Solution
 

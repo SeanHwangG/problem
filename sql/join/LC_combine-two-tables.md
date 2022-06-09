@@ -1,28 +1,32 @@
 # [LC_combine-two-tables](https://leetcode.com/problems/combine-two-tables)
 
-```en
-query for a report that provides following information for each person in Person table
-Regardless if is an address for each of those people: FirstName, LastName, City, State
-```
+* en
 
-```txt
-Input:
+  ```en
+  query for a report that provides following information for each person in Person table
+  Regardless if is an address for each of those people: FirstName, LastName, City, State
+  ```
 
-| Column Name | Type    |
-| ----------- | ------- |
-| PersonId    | int     |
-| FirstName   | varchar |
-| LastName    | varchar |
+* tc
 
-Output:
+  ```tc
+  Input:
 
-| Column Name | Type    |
-| ----------- | ------- |
-| AddressId   | int     |
-| PersonId    | int     |
-| City        | varchar |
-| State       | varchar |
-```
+  | Column Name | Type    |
+  | ----------- | ------- |
+  | PersonId    | int     |
+  | FirstName   | varchar |
+  | LastName    | varchar |
+
+  Output:
+
+  | Column Name | Type    |
+  | ----------- | ------- |
+  | AddressId   | int     |
+  | PersonId    | int     |
+  | City        | varchar |
+  | State       | varchar |
+  ```
 
 ## Solution
 

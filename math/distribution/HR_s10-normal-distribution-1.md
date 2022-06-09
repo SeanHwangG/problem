@@ -1,22 +1,26 @@
 # [HR_s10-normal-distribution-1](https://www.hackerrank.com/challenges/s10-normal-distribution-1)
 
-```en
-Time taken to assemble a car is a random variable, X having a normal distribution mean = 20 hours, STD = 2 hours
-What is the probability that a car can be assembled at this plant in:
-Less than 19.5 hours?
-Between 20 and 22 hours?
-```
+* en
 
-```txt
-Input:
-20 2
-19.5
-20 22
+  ```en
+  Time taken to assemble a car is a random variable, X having a normal distribution mean = 20 hours, STD = 2 hours
+  What is the probability that a car can be assembled at this plant in:
+  Less than 19.5 hours?
+  Between 20 and 22 hours?
+  ```
 
-Output:
-0.401
-0.341
-```
+* tc
+
+  ```tc
+  Input:
+  20 2
+  19.5
+  20 22
+
+  Output:
+  0.401
+  0.341
+  ```
 
 ## Solution
 

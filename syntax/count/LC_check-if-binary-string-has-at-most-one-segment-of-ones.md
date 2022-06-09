@@ -1,13 +1,17 @@
 # [LC_check-if-binary-string-has-at-most-one-segment-of-ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones)
 
-```en
-Given a binary string s ​​​​​without leading zeros, return if s contains at most one contiguous segment of ones
-```
+* en
 
-```txt
-Input: "010"
-Output: False
-```
+  ```en
+  Given a binary string s ​​​​​without leading zeros, return if s contains at most one contiguous segment of ones
+  ```
+
+* tc
+
+  ```tc
+  Input: "010"
+  Output: False
+  ```
 
 ## Solution
 

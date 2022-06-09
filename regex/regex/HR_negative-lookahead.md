@@ -1,13 +1,17 @@
 # [HR_negative-lookahead](https://www.hackerrank.com/challenges/negative-lookahead)
 
-```en
-Match all characters which are not immediately followed by that same character
-```
+* en
 
-```txt
-Input: gooooo
-Output: 2
-```
+  ```en
+  Match all characters which are not immediately followed by that same character
+  ```
+
+* tc
+
+  ```tc
+  Input: gooooo
+  Output: 2
+  ```
 
 ## Solution
 

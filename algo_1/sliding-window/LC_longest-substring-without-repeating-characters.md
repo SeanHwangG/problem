@@ -1,13 +1,17 @@
 # [LC_longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 
-```en
-Given string s, find the length of the longest substring without repeating characters
-```
+* en
 
-```txt
-Input: s = "abcabcbb"
-Output: 3  # abc
-```
+  ```en
+  Given string s, find the length of the longest substring without repeating characters
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "abcabcbb"
+  Output: 3  # abc
+  ```
 
 ## Solution
 

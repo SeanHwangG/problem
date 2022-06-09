@@ -1,13 +1,17 @@
 # [LC_self-crossing](https://leetcode.com/problems/self-crossing)
 
-```en
-Check if line is self crossing
-```
+* en
 
-```txt
-Input: distance = [2,1,1,2]
-Output: true
-```
+  ```en
+  Check if line is self crossing
+  ```
+
+* tc
+
+  ```tc
+  Input: distance = [2,1,1,2]
+  Output: true
+  ```
 
 ## Solution
 

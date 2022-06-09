@@ -1,22 +1,26 @@
 # [LC_design-a-leaderboard](https://leetcode.com/problems/design-a-leaderboard)
 
-```en
-Design a Leaderboard class, which has 3 functions:
-addScore(playerId, score): Update the leaderboard by adding score to the given player's score
-  If there is no player with such id in the leaderboard, add him to the leaderboard with the given score.
-top(K): Return the score sum of the top K players.
-reset(playerId): Reset the score of the player with the given id to 0 (in other words erase it from the leaderboard)
-  It is guaranteed that the player was added to the leaderboard before calling this function.
-```
+* en
 
-```txt
-Input:
-["Leaderboard","addScore","addScore","addScore","addScore","addScore","top","reset","reset","addScore","top"]
-[[],[1,73],[2,56],[3,39],[4,51],[5,4],[1],[1],[2],[2,51],[3]]
+  ```en
+  Design a Leaderboard class, which has 3 functions:
+  addScore(playerId, score): Update the leaderboard by adding score to the given player's score
+    If there is no player with such id in the leaderboard, add him to the leaderboard with the given score.
+  top(K): Return the score sum of the top K players.
+  reset(playerId): Reset the score of the player with the given id to 0 (in other words erase it from the leaderboard)
+    It is guaranteed that the player was added to the leaderboard before calling this function.
+  ```
 
-Output:
-[null,null,null,null,null,null,73,null,null,null,141]
-```
+* tc
+
+  ```tc
+  Input:
+  ["Leaderboard","addScore","addScore","addScore","addScore","addScore","top","reset","reset","addScore","top"]
+  [[],[1,73],[2,56],[3,39],[4,51],[5,4],[1],[1],[2],[2,51],[3]]
+
+  Output:
+  [null,null,null,null,null,null,73,null,null,null,141]
+  ```
 
 ## Solution
 

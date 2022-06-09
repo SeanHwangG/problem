@@ -1,14 +1,18 @@
 # [HR_matching-start-end](https://www.hackerrank.com/challenges/matching-start-end)
 
-```en
-Must start with a digit and end with . symbol
-Should be characters long only
-```
+* en
 
-```txt
-Input: 0qwer.
-Output: true
-```
+  ```en
+  Must start with a digit and end with . symbol
+  Should be characters long only
+  ```
+
+* tc
+
+  ```tc
+  Input: 0qwer.
+  Output: true
+  ```
 
 ## Solution
 

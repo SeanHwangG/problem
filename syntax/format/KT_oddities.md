@@ -1,22 +1,28 @@
 # [KT_oddities](https://open.kattis.com/problems/oddities)
 
-```en
+* en
 
-```
+  ```en
 
-```kr
-n 이 짝수이면 n is even 홀수이면 n is odd 라고 출력하라
-```
+  ```
 
-```txt
-Input: 2
-1
-2
+* kr
 
-Output:
-1 is even
-2 is odd
-```
+  ```kr
+  n 이 짝수이면 n is even 홀수이면 n is odd 라고 출력하라
+  ```
+
+* tc
+
+  ```tc
+  Input: 2
+  1
+  2
+
+  Output:
+  1 is even
+  2 is odd
+  ```
 
 ## Solution
 

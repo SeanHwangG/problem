@@ -1,20 +1,24 @@
 # [HR_find-a-word](https://www.hackerrank.com/challenges/find-a-word)
 
-```en
-For every word, print the number of occurrences of the word in all the N sentences listed
-```
+* en
 
-```txt
-Input: 1
-foo bar (foo) bar foo-bar foo_bar foobar bar-foo bar, foo.
-2
-foo
-foobar
+  ```en
+  For every word, print the number of occurrences of the word in all the N sentences listed
+  ```
 
-Output:
-5  # foobar doesn't count
-1
-```
+* tc
+
+  ```tc
+  Input: 1
+  foo bar (foo) bar foo-bar foo_bar foobar bar-foo bar, foo.
+  2
+  foo
+  foobar
+
+  Output:
+  5  # foobar doesn't count
+  1
+  ```
 
 ## Solution
 

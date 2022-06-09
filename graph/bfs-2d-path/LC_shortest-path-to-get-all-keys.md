@@ -1,28 +1,32 @@
 # [LC_shortest-path-to-get-all-keys](https://leetcode.com/problems/shortest-path-to-get-all-keys)
 
-```en
-Given an m x n grid grid where:
-  '.' is an empty cell
-  '#' is a wall
-  '@' is starting point
-  Lowercase letters represent keys
-  Uppercase letters represent locks
-Return lowest number of moves to acquire all keys. If it is impossible, return -1
-```
+* en
 
-```txt
-Input: grid =
-["@.a.#",
- "###.#",
- "b.A.B"]
-Output: 8
+  ```en
+  Given an m x n grid grid where:
+    '.' is an empty cell
+    '#' is a wall
+    '@' is starting point
+    Lowercase letters represent keys
+    Uppercase letters represent locks
+  Return lowest number of moves to acquire all keys. If it is impossible, return -1
+  ```
 
-Input: grid =
-["@..aA",
- "..B#.",
- "....b"]
-Output: 6
-```
+* tc
+
+  ```tc
+  Input: grid =
+  ["@.a.#",
+   "###.#",
+   "b.A.B"]
+  Output: 8
+
+  Input: grid =
+  ["@..aA",
+   "..B#.",
+   "....b"]
+  Output: 6
+  ```
 
 ## Solution
 

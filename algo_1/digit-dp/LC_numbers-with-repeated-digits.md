@@ -1,38 +1,35 @@
 # [LC_numbers-with-repeated-digits](https://leetcode.com/problems/numbers-with-repeated-digits)
 
-```en
-Given a positive integer N, return # positive integers less than or equal to N that have at least 1 repeated digit
-```
+* en
 
-```txt
-Input: 20
-Output: 1
-```
+  ```en
+  Given a positive integer N, return # positive integers less than or equal to N that have at least 1 repeated digit
+  ```
+
+* tc
+
+  ```tc
+  Input: 20
+  Output: 1
+  ```
 
 ## Solution
-
-```en
-* Count res the Number Without Repeated Digit
-* Transform N + 1 to List
-* Count the number with digits < n
-* Count the number with same prefix
-```
-
-```txt
-XXX
-XX
-X
-1XXX ~ 7XXX
-80XX ~ 86XX
-870X ~ 875X
-8760 ~ 8765
-```
-
-* Time. O(logN)
 
 * py
 
   ```py
+  # Count res the Number Without Repeated Digit
+  # Transform N + 1 to List
+  # Count the number with digits < n
+  # Count the number with same prefix
+  # Time. O(logN)
+  # XXX
+  # XX
+  # X
+  # 1XXX ~ 7XXX
+  # 80XX ~ 86XX
+  # 870X ~ 875X
+  # 8760 ~ 8765
   def numDupDigitsAtMostN(self, N):
     L = list(map(int, str(N + 1)))
     res = 0

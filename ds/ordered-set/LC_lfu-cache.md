@@ -1,17 +1,21 @@
 # [LC_lfu-cache](https://leetcode.com/problems/lfu-cache)
 
-```en
-Deisng LFU Cache
-```
+* en
 
-```txt
-Input:
-["LFUCache", "put", "put", "get", "put", "get", "get", "put", "get", "get", "get"]
-[[2], [1, 1], [2, 2], [1], [3, 3], [2], [3], [4, 4], [1], [3], [4]]
+  ```en
+  Deisng LFU Cache
+  ```
 
-Output:
-[null, null, null, 1, null, -1, 3, null, -1, 3, 4]
-```
+* tc
+
+  ```tc
+  Input:
+  ["LFUCache", "put", "put", "get", "put", "get", "get", "put", "get", "get", "get"]
+  [[2], [1, 1], [2, 2], [1], [3, 3], [2], [3], [4, 4], [1], [3], [4]]
+
+  Output:
+  [null, null, null, 1, null, -1, 3, null, -1, 3, 4]
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum)
 
-```en
-Check whether it can be splitted into two equal sum array
-```
+* en
 
-```txt
-Input: nums = [1,5,11,5]
-Output: true
-```
+  ```en
+  Check whether it can be splitted into two equal sum array
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,5,11,5]
+  Output: true
+  ```
 
 ## Solution
 

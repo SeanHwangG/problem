@@ -1,19 +1,23 @@
 # [LC_super-washing-machines](https://leetcode.com/problems/super-washing-machines)
 
-```en
-n super washing machines on a line. Initially, each washing machine has some dresses or is empty
-For each move, choose any m (1 <= m <= n) washing machines, and pass a dress of each washing machine to its adjacent
-Given an integer array machines representing # dresses in each washing machine from left to right on line
-Return minimum number of moves to make all washing machines have same number of dresses, -1 if impossible
-```
+* en
 
-```txt
-Input: machines = [1,0,5]
-Output: 3
+  ```en
+  n super washing machines on a line. Initially, each washing machine has some dresses or is empty
+  For each move, choose any m (1 <= m <= n) washing machines, and pass a dress of each washing machine to its adjacent
+  Given an integer array machines representing # dresses in each washing machine from left to right on line
+  Return minimum number of moves to make all washing machines have same number of dresses, -1 if impossible
+  ```
 
-Input: machines = [0,3,0]
-Output: 2
-```
+* tc
+
+  ```tc
+  Input: machines = [1,0,5]
+  Output: 3
+
+  Input: machines = [0,3,0]
+  Output: 2
+  ```
 
 ## Solution
 

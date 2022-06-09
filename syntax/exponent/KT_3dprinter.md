@@ -1,14 +1,18 @@
 # [KT_3dprinter](https://open.kattis.com/problems/3dprinter)
 
-```en
-Make 3d printer or prodcut using 3d printer
-What is min possible number of days needed to print at least 𝑛 statues?
-```
+* en
 
-```txt
-Input: 5
-Output: 4
-```
+  ```en
+  Make 3d printer or prodcut using 3d printer
+  What is min possible number of days needed to print at least 𝑛 statues?
+  ```
+
+* tc
+
+  ```tc
+  Input: 5
+  Output: 4
+  ```
 
 ## Solution
 

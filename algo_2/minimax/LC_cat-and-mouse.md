@@ -1,25 +1,29 @@
 # [LC_cat-and-mouse](https://leetcode.com/problems/cat-and-mouse)
 
-```en
-Game on an undirected graph is played by two players, Mouse and Cat, who alternate turns
-Graph is given as follows: graph[a] is a list of all nodes b such that ab is an edge of graph
-Mouse starts at node 1 and goes first, the cat starts at node 2 and goes second, and hole is at node 0
-During each player's turn, they must travel along one edge of the graph that meets where they are
-For example, if the Mouse is at node 1, it must travel to any node in graph[1]
-Then, the game can end in three ways:
-  If ever the Cat occupies the same node as the Mouse, the Cat wins
-  If ever the Mouse reaches the Hole, Mouse wins (cat cannot travel to Hole)
-  If ever position is repeated (ex: players in same position as previous, and it is same player's turn to move), draw
-Given a graph, and assuming both players play optimally, return 1 if the mouse wins, 2 if the cat wins, or 0 if draw
-```
+* en
 
-```txt
-Input: graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
-Output: 0
+  ```en
+  Game on an undirected graph is played by two players, Mouse and Cat, who alternate turns
+  Graph is given as follows: graph[a] is a list of all nodes b such that ab is an edge of graph
+  Mouse starts at node 1 and goes first, the cat starts at node 2 and goes second, and hole is at node 0
+  During each player's turn, they must travel along one edge of the graph that meets where they are
+  For example, if the Mouse is at node 1, it must travel to any node in graph[1]
+  Then, the game can end in three ways:
+    If ever the Cat occupies the same node as the Mouse, the Cat wins
+    If ever the Mouse reaches the Hole, Mouse wins (cat cannot travel to Hole)
+    If ever position is repeated (ex: players in same position as previous, and it is same player's turn to move), draw
+  Given a graph, and assuming both players play optimally, return 1 if the mouse wins, 2 if the cat wins, or 0 if draw
+  ```
 
-Input: graph = [[1,3],[0],[3],[0,2]]
-Output: 1
-```
+* tc
+
+  ```tc
+  Input: graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
+  Output: 0
+
+  Input: graph = [[1,3],[0],[3],[0,2]]
+  Output: 1
+  ```
 
 ## Solution
 

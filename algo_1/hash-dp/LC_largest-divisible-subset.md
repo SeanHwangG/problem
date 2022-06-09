@@ -1,14 +1,18 @@
 # [LC_largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset)
 
-```en
-Find largest divisible subset s.t. every pair (answer[i], answer[j]) in this subset satisfies
-answer[i] % answer[j] == 0, or answer[j] % answer[i] == 0
-```
+* en
 
-```txt
-Input: nums = [1,2,3]
-Output: [1,2]
-```
+  ```en
+  Find largest divisible subset s.t. every pair (answer[i], answer[j]) in this subset satisfies
+  answer[i] % answer[j] == 0, or answer[j] % answer[i] == 0
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,3]
+  Output: [1,2]
+  ```
 
 ## Solution
 

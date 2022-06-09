@@ -1,17 +1,21 @@
 # [HR_text-processing-tr-2](https://www.hackerrank.com/challenges/text-processing-tr-2)
 
-```en
-Delete all lowercase characters
-```
+* en
 
-```txt
-Input: Hello
-World
-how are you
+  ```en
+  Delete all lowercase characters
+  ```
 
-Output: H
-W
-```
+* tc
+
+  ```tc
+  Input: Hello
+  World
+  how are you
+
+  Output: H
+  W
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_minimum-size-subarray-sum](https://leetcode.com/problems/minimum-size-subarray-sum)
 
-```en
-Print minimum length of contiguous subarray sum is greater than target
-```
+* en
 
-```txt
-Input: target = 7, nums = [2,3,1,2,4,3]
-Output: 2
-```
+  ```en
+  Print minimum length of contiguous subarray sum is greater than target
+  ```
+
+* tc
+
+  ```tc
+  Input: target = 7, nums = [2,3,1,2,4,3]
+  Output: 2
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [HR_s10-mcq-5](https://www.hackerrank.com/challenges/s10-mcq-5)
 
-```en
-You draw 2 cards from a standard-card deck 52 without replacing them
-What is the probability that both cards are of the same suit?
-```
+* en
 
-```txt
-Output: 4/17
-```
+  ```en
+  You draw 2 cards from a standard-card deck 52 without replacing them
+  What is the probability that both cards are of the same suit?
+  ```
+
+* tc
+
+  ```tc
+  Output: 4/17
+  ```
 
 ## Solution
 

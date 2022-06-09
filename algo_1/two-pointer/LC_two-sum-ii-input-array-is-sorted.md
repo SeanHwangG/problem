@@ -1,13 +1,17 @@
 # [LC_two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
 
-```en
-Find two indices that sum up to target in sorted array
-```
+* en
 
-```txt
-Input: numbers = [2,7,11,15], target = 9
-Output: [1,2]
-```
+  ```en
+  Find two indices that sum up to target in sorted array
+  ```
+
+* tc
+
+  ```tc
+  Input: numbers = [2,7,11,15], target = 9
+  Output: [1,2]
+  ```
 
 ## Solution
 

@@ -1,14 +1,18 @@
 # [LC_reverse-pairs](https://leetcode.com/problems/reverse-pairs)
 
-```en
-Given an integer array nums, return the number of reverse pairs in the array
-Reverse pair is a pair (i, j) where 0 <= i < j < nums.length and nums[i] > 2 x nums[j]
-```
+* en
 
-```txt
-Input: nums = [2,4,3,5,1]
-Output: 3
-```
+  ```en
+  Given an integer array nums, return the number of reverse pairs in the array
+  Reverse pair is a pair (i, j) where 0 <= i < j < nums.length and nums[i] > 2 x nums[j]
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [2,4,3,5,1]
+  Output: 3
+  ```
 
 ## Solution
 

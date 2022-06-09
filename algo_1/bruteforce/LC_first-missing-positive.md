@@ -1,13 +1,17 @@
 # [LC_first-missing-positive](https://leetcode.com/problems/first-missing-positive)
 
-```en
-Given unsorted integer array nums, find the smallest missing positive integer
-```
+* en
 
-```txt
-Input: nums = [1,2,0]
-Output: 3
-```
+  ```en
+  Given unsorted integer array nums, find the smallest missing positive integer
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,2,0]
+  Output: 3
+  ```
 
 ## Solution
 

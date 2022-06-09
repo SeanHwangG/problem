@@ -1,13 +1,17 @@
 # [LC_count-good-nodes-in-binary-tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree)
 
-```en
-Count number of good nodes in a binary tree
-```
+* en
 
-```txt
-Input: root = [3,1,4,3,null,1,5]
-Output: 4
-```
+  ```en
+  Count number of good nodes in a binary tree
+  ```
+
+* tc
+
+  ```tc
+  Input: root = [3,1,4,3,null,1,5]
+  Output: 4
+  ```
 
 ## Solution
 

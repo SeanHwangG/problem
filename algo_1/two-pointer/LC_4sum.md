@@ -1,13 +1,17 @@
 # [LC_4sum](https://leetcode.com/problems/4sum)
 
-```en
-Given array nums of n int and target, find unique set of a, b, c, and d that sums up to target
-```
+* en
 
-```txt
-Input: nums = [1,0,-1,0,-2,2], target = 0
-Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
-```
+  ```en
+  Given array nums of n int and target, find unique set of a, b, c, and d that sums up to target
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [1,0,-1,0,-2,2], target = 0
+  Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+  ```
 
 ## Solution
 

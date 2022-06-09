@@ -1,20 +1,24 @@
 # [HR_text-processing-sort-2](https://www.hackerrank.com/challenges/text-processing-sort-2)
 
-```en
-Sort descending order numerically
-```
+* en
 
-```txt
-Input:
-1
-3
-2
+  ```en
+  Sort descending order numerically
+  ```
 
-Output:
-3
-2
-1
-```
+* tc
+
+  ```tc
+  Input:
+  1
+  3
+  2
+
+  Output:
+  3
+  2
+  1
+  ```
 
 ## Solution
 

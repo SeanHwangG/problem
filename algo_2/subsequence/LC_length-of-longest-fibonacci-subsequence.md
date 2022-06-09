@@ -1,13 +1,17 @@
 # [LC_length-of-longest-fibonacci-subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)
 
-```en
-Find longest fibonacci subsequence
-```
+* en
 
-```txt
-Input: arr = [1, 3, 7, 11, 12, 14, 18]
-Output: 3
-```
+  ```en
+  Find longest fibonacci subsequence
+  ```
+
+* tc
+
+  ```tc
+  Input: arr = [1, 3, 7, 11, 12, 14, 18]
+  Output: 3
+  ```
 
 ## Solution
 

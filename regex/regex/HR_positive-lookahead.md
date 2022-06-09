@@ -1,13 +1,17 @@
 # [HR_positive-lookahead](https://www.hackerrank.com/challenges/positive-lookahead)
 
-```en
-Write a regex that can match all occurrences of o followed immediately by oo in S
-```
+* en
 
-```txt
-Input: gooooo!
-Output: Number of matches : 3
-```
+  ```en
+  Write a regex that can match all occurrences of o followed immediately by oo in S
+  ```
+
+* tc
+
+  ```tc
+  Input: gooooo!
+  Output: Number of matches : 3
+  ```
 
 ## Solution
 

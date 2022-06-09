@@ -1,22 +1,26 @@
 # [LC_second-highest-salary](https://leetcode.com/problems/second-highest-salary)
 
-```en
-Find second highest salary from the Employee table
-```
+* en
 
-```txt
-Input:
-| Id  | Salary |
-| --- | ------ |
-| 1   | 100    |
-| 2   | 200    |
-| 3   | 300    |
+  ```en
+  Find second highest salary from the Employee table
+  ```
 
-Output:
-| SecondHighestSalary |
-| ------------------- |
-| 200                 |
-```
+* tc
+
+  ```tc
+  Input:
+  | Id  | Salary |
+  | --- | ------ |
+  | 1   | 100    |
+  | 2   | 200    |
+  | 3   | 300    |
+
+  Output:
+  | SecondHighestSalary |
+  | ------------------- |
+  | 200                 |
+  ```
 
 ## Solution
 

@@ -1,13 +1,17 @@
 # [LC_kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array)
 
-```en
-Find kth largest number
-```
+* en
 
-```txt
-Input: nums = [3,2,1,5,6,4], k = 2
-Output: 5
-```
+  ```en
+  Find kth largest number
+  ```
+
+* tc
+
+  ```tc
+  Input: nums = [3,2,1,5,6,4], k = 2
+  Output: 5
+  ```
 
 ## Solution
 

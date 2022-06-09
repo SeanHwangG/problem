@@ -1,14 +1,18 @@
 # [LC_palindromic-substrings](https://leetcode.com/problems/palindromic-substrings)
 
-```en
-Given a string s, return the number of palindromic substrings in it
-A substring is a contiguous sequence of characters within the string
-```
+* en
 
-```txt
-Input: s = "aaa"
-Output: 6
-```
+  ```en
+  Given a string s, return the number of palindromic substrings in it
+  A substring is a contiguous sequence of characters within the string
+  ```
+
+* tc
+
+  ```tc
+  Input: s = "aaa"
+  Output: 6
+  ```
 
 ## Solution
 

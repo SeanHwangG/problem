@@ -1,17 +1,21 @@
 # [LC_maximum-size-subarray-sum-equals-k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k)
 
-```en
-Given int array nums and an integer k, return the maximum length of a subarray that sums to k
-If there isn't one, return 0 instead.
-```
+* en
 
-```txt
-Input: nums = [1,-1,5,-2,3], k = 3
-Output: 4
+  ```en
+  Given int array nums and an integer k, return the maximum length of a subarray that sums to k
+  If there isn't one, return 0 instead.
+  ```
 
-Input: nums = [-2,-1,2,1], k = 1
-Output: 2
-```
+* tc
+
+  ```tc
+  Input: nums = [1,-1,5,-2,3], k = 3
+  Output: 4
+
+  Input: nums = [-2,-1,2,1], k = 1
+  Output: 2
+  ```
 
 ## Solution
 

@@ -1,23 +1,27 @@
 # [LC_insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)
 
-```en
-Implement the RandomizedCollection class:
-  RandomizedCollection(): Initializes RandomizedCollection object
-  bool insert(int val): Insert item val into multiset if not present. Returns if item not present
-  bool remove(int val) Remove 1 item val from multiset if present. Returns if item is present
-  int getRandom() Returns a random element from current multiset of elements
-    it's guaranteed that at least 1 element exists when this method is called
-Probability of each element being returned is linearly related to number of same values multiset contains
-```
+* en
 
-```txt
-Input:
-["RandomizedCollection", "insert", "insert", "insert", "getRandom", "remove", "getRandom"]
-[[], [1], [1], [2], [], [1], []]
+  ```en
+  Implement the RandomizedCollection class:
+    RandomizedCollection(): Initializes RandomizedCollection object
+    bool insert(int val): Insert item val into multiset if not present. Returns if item not present
+    bool remove(int val) Remove 1 item val from multiset if present. Returns if item is present
+    int getRandom() Returns a random element from current multiset of elements
+      it's guaranteed that at least 1 element exists when this method is called
+  Probability of each element being returned is linearly related to number of same values multiset contains
+  ```
 
-Output:
-[null, true, false, true, 2, true, 1]
-```
+* tc
+
+  ```tc
+  Input:
+  ["RandomizedCollection", "insert", "insert", "insert", "getRandom", "remove", "getRandom"]
+  [[], [1], [1], [2], [], [1], []]
+
+  Output:
+  [null, true, false, true, 2, true, 1]
+  ```
 
 ## Solution
 

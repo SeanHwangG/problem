@@ -1,13 +1,17 @@
 # [LC_same-tree](https://leetcode.com/problems/same-tree)
 
-```en
-Check if tree are same
-```
+* en
 
-```txt
-Input: p = [1,2], q = [1,null,2]
-Output: false
-```
+  ```en
+  Check if tree are same
+  ```
+
+* tc
+
+  ```tc
+  Input: p = [1,2], q = [1,null,2]
+  Output: false
+  ```
 
 ## Solution
 

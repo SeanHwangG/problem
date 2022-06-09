@@ -1,14 +1,18 @@
 # [KT_spavanac](https://open.kattis.com/problems/spavanac)
 
-```en
-Print time 45m ago
-```
+* en
 
-```txt
-Input: 10 10
-Output:
-9 25
-```
+  ```en
+  Print time 45m ago
+  ```
+
+* tc
+
+  ```tc
+  Input: 10 10
+  Output:
+  9 25
+  ```
 
 ## Solution
 

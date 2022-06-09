@@ -1,14 +1,18 @@
 # [LC_strobogrammatic-number-iii](https://leetcode.com/problems/strobogrammatic-number-iii)
 
-```en
-Given two strings low and high where low <= high, return # strobogrammatic numbers in range [low, high]
-Strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down)
-```
+* en
 
-```txt
-Input: low = "50", high = "100"
-Output: 3  # 88 69 96
-```
+  ```en
+  Given two strings low and high where low <= high, return # strobogrammatic numbers in range [low, high]
+  Strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down)
+  ```
+
+* tc
+
+  ```tc
+  Input: low = "50", high = "100"
+  Output: 3  # 88 69 96
+  ```
 
 ## Solution
 

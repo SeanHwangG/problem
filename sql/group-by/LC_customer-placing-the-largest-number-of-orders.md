@@ -1,23 +1,27 @@
 # [LC_customer-placing-the-largest-number-of-orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders)
 
-```en
-Find customer_number for the customer who has placed the largest number of orders
-```
+* en
 
-```txt
-Input:
-| order_number | customer_number |
-|--------------|-----------------|
-| 1            | 1               |
-| 2            | 2               |
-| 3            | 3               |
-| 4            | 3               |
+  ```en
+  Find customer_number for the customer who has placed the largest number of orders
+  ```
 
-Output:
-| customer_number |
-|-----------------|
-| 3               |
-```
+* tc
+
+  ```tc
+  Input:
+  | order_number | customer_number |
+  |--------------|-----------------|
+  | 1            | 1               |
+  | 2            | 2               |
+  | 3            | 3               |
+  | 4            | 3               |
+
+  Output:
+  | customer_number |
+  |-----------------|
+  | 3               |
+  ```
 
 ## Solution
 
