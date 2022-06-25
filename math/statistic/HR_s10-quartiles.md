@@ -39,3 +39,17 @@
   print(int(median(arr)))
   print(int(median(U)))
   ```
+
+* r
+
+  ```r
+  all <- scan("stdin")
+  n <- all[1]
+  x <- all[2:(n+1)]
+  m <- median(x)
+  q_1 <- median(x[which(x < m)])
+  q_2 <- median(x[which(x > m)])
+  cat(q_1, "\n")
+  cat(m, "\n")
+  cat(q_2, "\n")
+  ```

@@ -18,16 +18,22 @@
 
 ## Solution
 
+* r
+
+  ```r
+  data<-readLines(con="/dev/stdin",n=-1)
+  nums<-as.numeric(unlist(strsplit(data[2]," ")))
+  weights<-as.numeric(unlist(strsplit(data[3]," ")))
+  cat(format(round(weighted.mean(nums, weights), 1), nsmall=1))
+  ```
+
 * py
 
   ```py
   size = int(input())
   numbers = list(map(int, input().split()))
   weighted = list(map(int, input().split()))
-
-  sum_items = 0
-  for i in range(size):
-    sum_items = sum_items + (numbers[i] * weighted[i])
+  sum_items = sum(numbers[i] * weighted[i] for i in range(size))
 
   print(round(sum_items / sum(weighted), 1))
   ```

@@ -67,7 +67,7 @@ class Subject:
 
   def extract_problems(self) -> list[Problem]:
     problems = []
-    for p in self.path.glob("*/*.md"):
+    for p in self.path.glob("*/*_*.md"):
       if m := re.search(EXTRACT_RE, p.read_text()):
         p = Problem(
             p.stem,

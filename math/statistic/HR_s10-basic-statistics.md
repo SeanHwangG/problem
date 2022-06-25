@@ -32,3 +32,14 @@
   print(np.median(numbers))
   print(int(stats.mode(numbers)[0]))
   ```
+
+* r
+
+  ```r
+  a <- scan(file="stdin")
+  a <- a[2:length(a)]
+
+  cat(mean(a), "\n")
+  cat(median(a), "\n")
+  cat(which.max(tabulate(a)), "\n")
+  ```

@@ -31,3 +31,16 @@
   cdf = lambda x: .5 + .5 * erf((x - sample_mean) / 2 ** .5 / sample_std)
   print(round(cdf(sample), 4))
   ```
+
+* r
+
+  ```r
+  input <- file('stdin','r')
+  pounds <- as.numeric(readLines(input, n=1))
+  n <- as.numeric(readLines(input, n=1))
+  mean <- as.numeric(readLines(input, n=1))
+  sd <- as.numeric(readLines(input, n=1))
+  mean <- n*mean
+  sd <- sd*sqrt(n)
+  cat(format(round(pnorm(pounds, mean, sd),digits=4),nsmall=4))
+  ```

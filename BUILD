@@ -7,6 +7,5 @@ py_binary(
     requirement("google-api-core"),
     requirement("google-auth-oauthlib"),
     requirement("google-api-python-client")
-  ],
-  python_version = "PY3"
+  ]
 )
