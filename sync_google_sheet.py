@@ -15,13 +15,15 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
-PROBLEM_DIR = Path("/Users/sean/blog/repo/problem/")
+PROBLEM_DIR = Path(Path.home() / "blog/repo/problem/")
 
 EXTRACT_RE = r"# \[.*\]\((?P<url>.*)\)"
 
 
 @dataclass
 class Problem:
+  """
+  """
   pid: str
   path: Path
   group: str
@@ -33,6 +35,8 @@ class Problem:
   kr: str = ""
 
   def to_list(self):
+    """
+    """
     return [
         f'=hyperlink("https://github.com/SeanHwangG/problem/blob/main/{self.sid}/{self.group}/{self.pid}.md", "sol")',
         self.sid, self.group, f'=hyperlink("{self.url}", "{self.pid}")',
@@ -66,7 +70,7 @@ class Subject:
     return path.is_dir() and path.name not in ignore_dirs
 
   def extract_problems(self) -> list[Problem]:
-    problems = []
+    extracted_problems = []
     for p in self.path.glob("*/*_*.md"):
       if m := re.search(EXTRACT_RE, p.read_text()):
         p = Problem(
@@ -77,10 +81,10 @@ class Subject:
             m.group("url"),
         )
         p.extract_problem()
-        problems.append(p)
+        extracted_problems.append(p)
       else:
         print("Incorrect format matched", p)
-    return problems
+    return extracted_problems
 
 
 @dataclass
@@ -151,7 +155,7 @@ class Excel:
 
 
 if __name__ == "__main__":
-  repo = Repo(Path("/Users/sean/blog/repo/problem"))
+  repo = Repo(Path(Path.home() / "blog/repo/problem"))
   subjects = repo.extract_subject()
   problems = list(
       itertools.chain.from_iterable(
