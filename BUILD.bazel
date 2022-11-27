@@ -1,8 +1,8 @@
 load("@problem//:requirements.bzl", "requirement")
 
 py_binary(
-  name="sync_google_sheet",
-  srcs = ["sync_google_sheet.py"],
+  name="problem",
+  srcs = ["problem.py"],
   deps = [
     requirement("google-api-core"),
     requirement("google-auth-oauthlib"),
